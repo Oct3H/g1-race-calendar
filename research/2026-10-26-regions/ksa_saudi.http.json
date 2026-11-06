@@ -1,0 +1,19 @@
+{
+  "name": "ksa_saudi",
+  "url": "https://info.cld.hkjc.com/graphql/base/",
+  "method": "POST",
+  "requested_at": "2026-10-26T12:33:14.292224+00:00",
+  "status": 200,
+  "final_url": "https://info.cld.hkjc.com/graphql/base/",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-encoding": "gzip",
+    "content-length": "16489",
+    "cache-control": "public, max-age=30",
+    "date": "Mon, 26 Oct 2026 12:33:34 GMT"
+  },
+  "bytes": 16489,
+  "sha256": "b82ae8c06b2b22774a57b550c6cc45fbfa04f88177574066c478b416581f04ec",
+  "graphql_errors": null,
+  "parameter_origin": "HKJC 2025-02-20 official announcement and 20250222/S2/7 form comment"
+}

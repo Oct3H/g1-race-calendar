@@ -1,0 +1,119 @@
+{
+  "checked_at": "2026-10-25T14:34:23.631378+00:00",
+  "round": 62,
+  "kind": "fictional in-memory design preview",
+  "tests": [
+    {
+      "check": "check_game_preview.mjs",
+      "exit_code": 0,
+      "output": "PASS: 30-day calendar window, DST, confirmed entries and official odds, confirmation rechecks; refresh refunds, unread queue, idempotence and existing game rules.\n"
+    },
+    {
+      "check": "check_change_preview.mjs",
+      "exit_code": 0,
+      "output": "PASS: detail-open clears unread warning and preserves descriptions/expanded dates; refunds do not acknowledge changes; automatic refunds, eligibility fixtures and existing preview flows; browser layout not tested.\n"
+    },
+    {
+      "check": "check_race_change_rules.mjs",
+      "exit_code": 0,
+      "output": "PASS: first publication, critical schedule/runner fields, repeat fetches/read state, ordinary updates, missing fields, normalized times, confirmed lists, cancellations and withdrawals.\n"
+    },
+    {
+      "check": "check_ticket_folder.mjs",
+      "exit_code": 0,
+      "output": "PASS: five status filters, mixed-race per-ticket visibility and scoped totals, no settlement on filtering, ready fixture, focus restoration, filtered refund and distinct empty states.\nPASS: three race groups/seven independent records; per-order odds, totals, source snapshots, addition labels and region colours; grouping never pays; same-horse additions settle separately; fixture reload is idempotent. Browser layout not tested.\n"
+    },
+    {
+      "check": "check_ticket_confirmation.mjs",
+      "exit_code": 0,
+      "output": "PASS: selection, stake, gross return, net profit, remaining cash and source time in confirmation; invalid amounts show no estimate; no funds deducted. Browser layout not tested.\n"
+    },
+    {
+      "check": "check_voluntary_refund.mjs",
+      "exit_code": 0,
+      "output": "PASS: D−3 allowed, D−2/D−1/D0/past blocked; timezone, year/month/leap/DST calendar dates; D−1 purchase allowed and D0 rejected; one-ticket full refund, snapshots/bank unchanged, idempotence, no re-settlement and official refunds unaffected.\n"
+    },
+    {
+      "check": "check_data_quality_preview.mjs",
+      "exit_code": 0,
+      "output": "PASS: unavailable shop cards retain every missing prerequisite; valid cards remain purchasable; same-day exclusion and submit guards; category failures use the passive avatar without replacing results or paying funds; recovery and offline/manual failure entry; review links preserved.\nPASS: fixed non-crying avatar, avatar-only modal opening, region theme, duplicate guard, backdrop vs content click, focus callback and parent close; seven quality states, missing fields and existing financial checks retained. Browser layout/native interaction not tested.\n"
+    },
+    {
+      "check": "check_result_correction_preview.mjs",
+      "exit_code": 0,
+      "output": "PASS: latest net correction, locked odds/dead heat, history, waiver/no debt, pending/refunded isolation, idempotence; controller scenes, frozen incoming updates/latest-version continuation, and calendar/game integration through settlement -> queued correction -> bankruptcy/wallet/bank. DOM doubles only; browser not rendered.\n"
+    },
+    {
+      "check": "check_shop_start_preview.mjs",
+      "exit_code": 0,
+      "output": "PASS: unopened cash/bank zero, no prior accrual, first shop grant once, bank begins next local date, repeated opens/checks/withdrawals do not regrant, cap and DST dates.\n"
+    },
+    {
+      "check": "check_startup_preview.mjs",
+      "exit_code": 0,
+      "output": "PASS: one logical window, focus vs reopen vs restart, local current month/filter reset, no extra reopen queries, background progress, resumable interruption and preserved pause/clear/completed states; real UI controller with DOM doubles. Native macOS lifecycle/browser not implemented or rendered.\n"
+    },
+    {
+      "check": "check_calendar_clock.mjs",
+      "exit_code": 0,
+      "output": "PASS: local day/timezone refresh preserves browsed month/filter, one local-only timer, current-date purchase/refund policy with final/cancelled/result guards. DOM/clock doubles; browser not rendered.\n"
+    }
+  ],
+  "static": {
+    "module_syntax_import_checks": 3,
+    "static_and_game_template_ids": 224,
+    "html_resource_files_exist": true,
+    "css_braces_balanced": true,
+    "document_links_exist": true
+  },
+  "head_checks": [
+    {
+      "path": "/index.html?preview=calendar&settingsMenu=preview&lang=zh&refund=preview&availability=preview&game=wallet&v=62",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/index.html?preview=calendar&settingsMenu=preview&lang=zh&refund=preview&availability=preview&entry=compact&race=availability-updated&view=results&v=62",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/design.js?v=62",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/game-design.js?v=62",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/data-quality-preview.mjs?v=62",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/data-quality-preview.css?v=62",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/game-style.css?v=62",
+      "status": 200,
+      "cache_control": "no-store"
+    }
+  ],
+  "behavior": [
+    "Unavailable future cards list all missing prerequisites and remain disabled",
+    "Latest result rows remain intact when odds update fails",
+    "Single and multiple category failures share the passive Tannhauser avatar and existing central dialog",
+    "Recovery hides avatar when no other issue remains",
+    "Offline/manual odds failure uses the same entry",
+    "No money changes on showing cards or update explanations; purchase rechecks remain"
+  ],
+  "limits": [
+    "No browser rendering or native keyboard interaction verified",
+    "No production source adapters, network refresh, persistence or wallet changes",
+    "Relative-date preview fixtures are fictional, not real official data"
+  ]
+}

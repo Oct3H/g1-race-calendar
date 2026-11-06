@@ -1,0 +1,110 @@
+{
+  "flow": [
+    {
+      "amount": "−¥500,000",
+      "route": "calendar",
+      "stage": "lose",
+      "title": "这场没有命中",
+      "unreadAlerts": 1
+    },
+    {
+      "amount": "¥0",
+      "japaneseVisible": true,
+      "route": "calendar",
+      "stage": "broke",
+      "title": "资金用完了…"
+    },
+    {
+      "cash": "¥0",
+      "gameOpen": false,
+      "raceDetailOpen": true,
+      "route": "calendar",
+      "unreadAlerts": 0
+    },
+    {
+      "amount": "−¥500,000",
+      "route": "shop",
+      "stage": "lose",
+      "title": "这场没有命中",
+      "unreadAlerts": 1
+    },
+    {
+      "amount": "¥0",
+      "cash": "¥0",
+      "route": "shop",
+      "stage": "broke",
+      "title": "资金用完了…"
+    },
+    {
+      "cash": "¥0",
+      "route": "shop",
+      "unreadAlerts": 0,
+      "view": "wallet"
+    }
+  ],
+  "calendarBubbleFirstStage": "lose",
+  "recovery": {
+    "bank": "¥0",
+    "cash": "¥30,000",
+    "unreadAlerts": 0
+  },
+  "win": {
+    "image": "assets/special-week-star-eyes-v1.png",
+    "loaded": true,
+    "profit": "+¥22,000",
+    "stage": "win",
+    "title": "本场命中！"
+  },
+  "winImageBounds": {
+    "frameHeight": 245,
+    "imageHeight": 239,
+    "imageWidth": 354,
+    "loaded": true
+  },
+  "background": {
+    "background": "url(\"http://127.0.0.1:8765/assets/eishin-flash-line-v1.png\")",
+    "calendarDays": 35,
+    "companionRemoved": true,
+    "duplicateIds": [],
+    "gridScrollWidth": 1191,
+    "gridWidth": 1191,
+    "mode": "flash",
+    "pageWidth": 1280,
+    "viewport": 1280
+  },
+  "backgroundAfterFilter": {
+    "background": "url(\"http://127.0.0.1:8765/assets/eishin-flash-line-v1.png\")",
+    "raceCards": 5
+  },
+  "main": {
+    "companionRemoved": true,
+    "fyImageRemoved": true,
+    "settingsHref": "settings.html?v=28"
+  },
+  "settings": {
+    "cacheLink": "index.html?page=cache&lang=zh&v=28",
+    "navText": "Aa\n语言与显示\n›\n↗\n资料来源\n›\n▤\n缓存管理\n›"
+  },
+  "cache": {
+    "returnHref": "settings.html?lang=zh&v=28",
+    "title": "缓存管理",
+    "visible": true,
+    "yearRows": 6
+  },
+  "console": {
+    "preFixOldSettings": [
+      {
+        "level": "error",
+        "message": "TypeError: Cannot set properties of null (setting 'href')\n    at renderSettings (http://127.0.0.1:8765/settings.js:112:55)\n    at http://127.0.0.1:8765/settings.js:134:1",
+        "timestamp": "2026-10-22T11:08:17.185Z",
+        "url": "http://127.0.0.1:8765/settings.js"
+      }
+    ],
+    "postFixSettings": [],
+    "background": []
+  },
+  "settingsAfterReload": {
+    "cacheLink": "index.html?page=cache&lang=zh&v=28",
+    "returnHref": "index.html?v=28"
+  }
+}

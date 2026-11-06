@@ -1,0 +1,952 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+<script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+<script>
+window.yjDataLayer = window.yjDataLayer || [];
+function ytag() { yjDataLayer.push(arguments); }
+ytag({
+  "type":"yjad_retargeting",
+  "config":{
+    "yahoo_retargeting_id": "CURFE0PRO8",
+    "yahoo_retargeting_label": "",
+    "yahoo_retargeting_page_type": "",
+    "yahoo_retargeting_items":[
+      {item_id: '', category_id: '', price: '', quantity: ''}
+    ]
+  }
+});
+</script>
+<script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+<script>
+window.yjDataLayer = window.yjDataLayer || [];
+function ytag() { yjDataLayer.push(arguments); }
+ytag({"type":"ycl_cookie", "config":{"ycl_use_non_cookie_storage":true}});
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FGDLX751XZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FGDLX751XZ');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ダートグレード競走特設サイト</title>
+
+<meta name="description" content="JRAと地方競馬のダート交流重賞競走「ダートグレード競走」の公式サイトです。出馬表、ライブ中継、出走予定馬、注目馬情報、データ分析、調教情報、レース結果、開催日程などダートグレード競走に関することを掲載しています。">
+<meta name="keywords" content="ダートグレード,ダートグレード競走,JRA,地方競馬">
+<meta name="thumbnail" content="https://www.keiba.go.jp/dirtgraderace/common/img/thumbnail.jpg"><link rel="apple-touch-icon" href="https://www.keiba.go.jp/dirtgraderace/common/img/apple-touch-icon.png">
+<link rel="icon" href="https://www.keiba.go.jp/dirtgraderace/common/img/favicon.ico">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="ダートグレード競走特設サイト">
+<meta property="og:description" content="JRAと地方競馬のダート交流重賞競走「ダートグレード競走」の公式サイトです。出馬表、ライブ中継、出走予定馬、注目馬情報、データ分析、調教情報、レース結果、開催日程などダートグレード競走に関することを掲載しています。">
+<meta property="og:image" content="https://www.keiba.go.jp/dirtgraderace/common/img/og.jpg">
+<meta property="og:url" content="https://www.keiba.go.jp/dirtgraderace/">
+
+<link href="common/css/common.css" rel="stylesheet">
+<script src="common/js/jquery.js" type="text/javascript"></script>
+<script src="common/js/common.js" type="text/javascript"></script>
+<script src="common/js/picturefill.min.js" type="text/javascript"></script>
+
+<link href="css/top.css" rel="stylesheet">
+<link href="css/top_sp.css" rel="stylesheet">
+<link href="css/news.css" rel="stylesheet">
+<link href="common/js/slick/slick.css" rel="stylesheet">
+<script src="common/js/slick/slick.min.js" type="text/javascript"></script>
+<link href="2025/racelist/css/racelist.css" rel="stylesheet">
+<script src="2025/racelist/js/race_filtering.js" type="text/javascript"></script>
+<script src="js/top.js" type="text/javascript"></script>
+
+<script>
+$(function(){
+$("#common_header").load("common/html/common_header.html");
+$("#common_footer").load("common/html/common_footer.html");
+$("#news_list").load("common/html/news_list.html li", function(){
+  var newsCount = $(this).data("news_count");
+  $(this).children("li").each(function(index){
+    if(index >= newsCount){
+      $(this).remove();
+    }
+  });
+});
+});
+</script>
+
+<script>
+$(function() {
+    $('.slider_key_visual').slick({
+      infinite: true,
+      speed: 800,
+      autoplaySpeed: 3000,
+      slidesToShow: 1,
+      dots: true,
+      autoplay: true
+    });
+});
+
+$(function() {
+    $('.slider_next').slick({
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true
+    });
+});
+</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-602c882a25004a58"></script>
+
+</head>
+
+<body>
+<div id="wrapper" class="top">
+<div id="common_header"></div>
+<div class="contents">
+<div id="key_visual">
+
+<!--TOPメインバナー　ここから-->
+
+<ul class="slider_key_visual">
+
+<!--<ul class="slider_key_visual">--> <!--スライドバナー複数表示時サンプル-->
+<!--<ul class="slider_key_visual no_dot">--> <!--バナー1枚時ドット非表示-->
+
+<!-----レースここから---->
+<li class="race_today bronze">
+  <div class="inner">
+  <!--<div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>-->
+  <div class="race_name"><img src="2026/1029_edelweisssho/img/race_1029_edelweisssho.png" alt="2026年10月29日(木) エーデルワイス賞 JpnIII" /></div>
+  <div class="horse edelweisssho2026"><img src="2026/1029_edelweisssho/img/race_1029_edelweisssho_img.png" alt="2026年10月29日(木) エーデルワイス賞 JpnIII" /></div>
+  <a href="2026/1029_edelweisssho/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_l.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1029_edelweisssho/racecard.html">出馬表</a></li>
+  <li><a href="2026/1029_edelweisssho/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1029_edelweisssho/analysis.html">データ分析</a></li>
+  <li><a href="2026/1029_edelweisssho/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+<!-----レースここまで---->
+
+<!--★本日のレース保管庫★　ここから-->
+
+<!--
+
+<li class="race_today bronze">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1103_JBCnisaiyushun/img/race_1103_JBCnisaiyushun.png" alt="2026年11月3日(祝火) JBC2歳優駿 JpnIII" /></div>
+  <div class="horse JBCnisaiyushun2026"><img src="2026/1103_JBCnisaiyushun/img/race_1103_JBCnisaiyushun_img.png" alt="2026年11月3日(祝火) JBC2歳優駿 JpnIII" /></div>
+  <a href="2026/1103_JBCnisaiyushun/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_l.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1103_JBCnisaiyushun/racecard.html">出馬表</a></li>
+  <li><a href="2026/1103_JBCnisaiyushun/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1103_JBCnisaiyushun/analysis.html">データ分析</a></li>
+  <li><a href="2026/1103_JBCnisaiyushun/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today gold flip">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1103_JBCclassic/img/race_1103_JBCclassic.png" alt="2026年11月3日(祝火) JBCクラシック JpnI" /></div>
+  <div class="horse JBCclassic2026"><img src="2026/1103_JBCclassic/img/race_1103_JBCclassic_img.png" alt="2026年11月3日(祝火) JBCクラシック JpnI" /></div>
+  <a href="2026/1103_JBCclassic/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_l.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1103_JBCclassic/racecard.html">出馬表</a></li>
+  <li><a href="2026/1103_JBCclassic/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1103_JBCclassic/analysis.html">データ分析</a></li>
+  <li><a href="2026/1103_JBCclassic/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today gold flip">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1103_JBCsprint/img/race_1103_JBCsprint.png" alt="2026年11月3日(祝火) JBCスプリント JpnI" /></div>
+  <div class="horse JBCsprint2026"><img src="2026/1103_JBCsprint/img/race_1103_JBCsprint_img.png" alt="2026年11月3日(祝火) JBCスプリント JpnI" /></div>
+  <a href="2026/1103_JBCsprint/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_l.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1103_JBCsprint/racecard.html">出馬表</a></li>
+  <li><a href="2026/1103_JBCsprint/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1103_JBCsprint/analysis.html">データ分析</a></li>
+  <li><a href="2026/1103_JBCsprint/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today gold flip">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1103_JBCladiesclassic/img/race_1103_JBCladiesclassic.png" alt="2026年11月3日(祝火) JBCレディスクラシック JpnI" /></div>
+  <div class="horse JBCladiesclassic2026"><img src="2026/1103_JBCladiesclassic/img/race_1103_JBCladiesclassic_img.png" alt="2026年11月3日(祝火) JBCレディスクラシック JpnI" /></div>
+  <a href="2026/1103_JBCladiesclassic/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_l.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1103_JBCladiesclassic/racecard.html">出馬表</a></li>
+  <li><a href="2026/1103_JBCladiesclassic/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1103_JBCladiesclassic/analysis.html">データ分析</a></li>
+  <li><a href="2026/1103_JBCladiesclassic/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today bronze">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="img/2026/race_1108_miyakostakes.png" alt="2026年11月8日(日) みやこステークス GIII" /></div>
+  <ul class="race_link">
+  <li><a href="" target="_blank">詳しくはこちら</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today bronze flip">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="img/2026/race_1114_musashinostakes.png" alt="2026年11月14日(土) 武蔵野ステークス GIII" /></div>
+  <ul class="race_link">
+  <li><a href="" target="_blank">詳しくはこちら</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today silver flip">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1125_urawakinen/img/race_1125_urawakinen.png" alt="2026年11月25日(水) 浦和記念 JpnII" /></div>
+  <div class="horse urawakinen2026"><img src="2026/1125_urawakinen/img/race_1125_urawakinen_img.png" alt="2026年11月25日(水) 浦和記念 JpnII" /></div>
+    <a href="2026/1125_urawakinen/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_r.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1125_urawakinen/racecard.html">出馬表</a></li>
+  <li><a href="2026/1125_urawakinen/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1125_urawakinen/analysis.html">データ分析</a></li>
+  <li><a href="2026/1125_urawakinen/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today silver">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1126_hyogojuniorgrandprix/img/race_1126_hyogojuniorgrandprix.png" alt="2026年11月26日(木) 兵庫ジュニアグランプリ JpnII" /></div>
+  <div class="horse hyogojuniorgrandprix2026"><img src="2026/1126_hyogojuniorgrandprix/img/race_1126_hyogojuniorgrandprix_img.png" alt="2026年11月26日(木) 兵庫ジュニアグランプリ JpnII" /></div>
+    <a href="2026/1126_hyogojuniorgrandprix/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_r.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1126_hyogojuniorgrandprix/racecard.html">出馬表</a></li>
+  <li><a href="2026/1126_hyogojuniorgrandprix/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1126_hyogojuniorgrandprix/analysis.html">データ分析</a></li>
+  <li><a href="2026/1126_hyogojuniorgrandprix/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today gold flip">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="img/2026/race_1206_championscup.png" alt="2026年12月6日(日) チャンピオンズカップ GI" /></div>
+  <ul class="race_link">
+  <li><a href="" target="_blank">詳しくはこちら</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today bronze">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="img/2026/race_1213_capellastakes.png" alt="2026年12月13日(日) カペラステークス GIII" /></div>
+  <ul class="race_link">
+  <li><a href="" target="_blank">詳しくはこちら</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today gold flip">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1216_zen-nipponnisaiyushun/img/race_1216_zen-nipponnisaiyushun.png" alt="2026年12月16日(水) 全日本2歳優駿 JpnI" /></div>
+  <div class="horse zen-nipponnisaiyushun2026"><img src="2026/1216_zen-nipponnisaiyushun/img/race_1216_zen-nipponnisaiyushun_img.png" alt="2026年12月16日(水) 全日本2歳優駿 JpnI" /></div>
+  <a href="2026/1216_zen-nipponnisaiyushun/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_l.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1216_zen-nipponnisaiyushun/racecard.html">出馬表</a></li>
+  <li><a href="2026/1216_zen-nipponnisaiyushun/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1216_zen-nipponnisaiyushun/analysis.html">データ分析</a></li>
+  <li><a href="2026/1216_zen-nipponnisaiyushun/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today bronze">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1223_nagoyadaishoten/img/race_1223_nagoyadaishoten.png" alt="2026年12月23日(水) 名古屋大賞典 JpnIII" /></div>
+  <div class="horse nagoyadaishoten2026"><img src="2026/1223_nagoyadaishoten/img/race_1223_nagoyadaishoten_img.png" alt="2026年12月23日(水) 名古屋大賞典 JpnIII" /></div>
+  <a href="2026/1223_nagoyadaishoten/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_l.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1223_nagoyadaishoten/racecard.html">出馬表</a></li>
+  <li><a href="2026/1223_nagoyadaishoten/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1223_nagoyadaishoten/analysis.html">データ分析</a></li>
+  <li><a href="2026/1223_nagoyadaishoten/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today bronze">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1224_hyogogoldtrophy/img/race_1224_hyogogoldtrophy.png" alt="2026年12月24日(木) 兵庫ゴールドトロフィー JpnIII" /></div>
+  <div class="horse hyogogoldtrophy2026"><img src="2026/1224_hyogogoldtrophy/img/race_1224_hyogogoldtrophy_img.png" alt="2026年12月24日(木) 兵庫ゴールドトロフィー JpnIII" /></div>
+  <a href="2026/1224_hyogogoldtrophy/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_l.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1224_hyogogoldtrophy/racecard.html">出馬表</a></li>
+  <li><a href="2026/1224_hyogogoldtrophy/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1224_hyogogoldtrophy/analysis.html">データ分析</a></li>
+  <li><a href="2026/1224_hyogogoldtrophy/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+<li class="race_today gold">
+  <div class="inner">
+  <div class="tab"><img src="img/race_today.png" alt="本日のレース" /></div>
+  <div class="race_name"><img src="2026/1229_tokyodaishoten/img/race_1229_tokyodaishoten.png" alt="2026年12月29日(火) 東京大賞典 GI" /></div>
+  <div class="horse tokyodaishoten2026"><img src="2026/1229_tokyodaishoten/img/race_1229_tokyodaishoten_img.png" alt="2026年12月29日(火) 東京大賞典 GI" /></div>
+  <a href="2026/1229_tokyodaishoten/prediction.html" class="btn_prediction"><picture><source media="(min-width: 767px)" srcset="img/btn_prediction.png"><img src="img/btn_prediction_l.png" alt="予想情報 全国公営競馬専門紙協会提供"></picture></a>
+  <ul class="race_link">
+  <li><a href="2026/1229_tokyodaishoten/racecard.html">出馬表</a></li>
+  <li><a href="2026/1229_tokyodaishoten/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1229_tokyodaishoten/analysis.html">データ分析</a></li>
+  <li><a href="2026/1229_tokyodaishoten/training.html">調教情報</a></li>
+  </ul>
+  </div>
+</li>
+
+-->
+
+
+<!--★本日のレース保管庫★　ここまで-->
+
+<!-----/レースここまで---->
+
+<li class="kv_bnr">
+  <a href="https://www.keiba.go.jp/japandirtpride2025/" target="_blank">
+    <picture>
+      <source media="(min-width: 767px)" srcset="img/kv_japandirtpride2025_pc.jpg">
+      <img src="img/kv_japandirtpride2025_sp.jpg" alt="ダートに熱を響かせろ。JAPAN DIRT PRIDE" class="img_kv">
+    </picture>
+  </a>
+</li>
+
+<li class="kv_bnr">
+<picture>
+  <source media="(min-width: 767px)" srcset="img/kv_pc3.jpg">
+  <img src="img/kv_sp3.jpg" alt="DIRT G RACE ーダートを極めるー ダートグレード競走　JRA×地方競馬" class="img_kv">
+</picture>
+</li>
+
+<!--
+<li class="kv_bnr">
+  <a href="https://www.keiba.go.jp/dirtgraderace/dirttimeattack/" target="_blank">
+    <picture>
+      <source media="(min-width: 767px)" srcset="img/kv_dirttimeattack_2025summerCP_pc.jpg">
+      <img src="img/kv_dirttimeattack_2025summerCP_sp.jpg" alt="ダートタイムアタック夏CP" class="img_kv">
+    </picture>
+  </a>
+</li>
+-->
+
+<!--TOPメインバナー　ここまで-->
+
+</li>
+</div>
+
+<nav id="top_nav">
+<ul>
+<li><a href="#race_next"><picture>
+  <source media="(min-width: 767px)" srcset="img/top_nav_next_race_pc.png">
+  <img src="img/top_nav_next_race_sp.png" alt="次のレース Next Race">
+</picture></a></li>
+<li><a href="#news"><picture>
+  <source media="(min-width: 767px)" srcset="img/top_nav_news_pc.png">
+  <img src="img/top_nav_news_sp.png" alt="ニュース News">
+</picture></a></li>
+<li><a href="#racelist"><picture>
+  <source media="(min-width: 767px)" srcset="img/top_nav_race_list_pc.png">
+  <img src="img/top_nav_race_list_sp.png" alt="レース一覧 Race List">
+</picture></a></li>
+<li><a href="whatisdirtgraderace.html"><picture>
+  <source media="(min-width: 767px)" srcset="img/top_nav_what_is_pc.png">
+  <img src="img/top_nav_what_is_sp.png" alt="ダートグレード競走とは What is “Dirt Grade Race”">
+</picture></a></li>
+</ul>
+</nav>
+
+<!--KV下臨時バナーここから-->
+<br>
+<div style="text-align:center;margin-top:10px;">
+  <a href="https://www.keiba.go.jp/jbc2026/" target="_blank"><img src="img/2026/JBC2026.jpg" style="max-width:100%;">
+  </a>
+</div>
+
+<!--KV下臨時バナーここまで-->
+
+<div class="promo_banners">
+  <ul class="banner_list">
+    <li>
+      <a href="/dirtgraderace/dirttownbuild/" target="_blank">
+        <picture>
+          <source media="(min-width: 767px)" srcset="img/bnr_dirttownbuild_pc.jpg">
+          <img src="img/bnr_dirttownbuild_sp.jpg" alt="自分だけの競馬場を作ろう！ダートタウンビルド">
+        </picture>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.keiba.go.jp/japandirtpride2025/" target="_blank">
+        <picture>
+          <source media="(min-width: 767px)" srcset="img/bnr_japandirtpride2025_pc.jpg">
+          <img src="img/bnr_japandirtpride2025_sp.jpg" alt="ダートに熱を響かせろ。JAPAN DIRT PRIDE">
+        </picture>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.keiba.go.jp/dirtgraderace/specialcolumns/index.html" target="_blank">
+        <picture>
+          <source media="(min-width: 767px)" srcset="img/bnr_specialcolumns_pc.jpg">
+          <img src="img/bnr_specialcolumns_sp.jpg" alt="スペシャルコラム">
+        </picture>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!--PC/SP別Ver
+<br>
+<div class="bnr_area">
+  <ul>
+    <center>
+      <li>
+        <a href="../dirtgraderace/dirttimeattack" target="_blank"><picture><source media="(min-width: 767px)" srcset="img/dta_pc.jpg" ><img src="img/dta_sp.jpg" style="max-width:100%;" alt="ダートタイムアタック"></picture>
+        </a>
+      </li>
+    </center>
+  </ul>
+</div>
+-->
+
+<!--KV下臨時バナーここまで-->
+
+<!--★次のレース★　ここから-->
+
+<section id="race_next">
+<h2><img src="img/race_next_title.png" alt="次のレース Next Race" width="522"/></h2>
+
+<ul class="slider_next">
+
+<li class="bronze">
+  <div class="race_name"><img src="2026/1029_edelweisssho/img/race_1029_edelweisssho.png" alt="2026年10月29日(木) エーデルワイス賞 JpnIII" /></div>
+  <div class="horse edelweisssho2026"><img src="2026/1029_edelweisssho/img/race_1029_edelweisssho_img.png" alt="2026年10月29日(木) エーデルワイス賞 JpnIII" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1029_edelweisssho/racecard.html">出馬表</a></li>
+  <li><a href="2026/1029_edelweisssho/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1029_edelweisssho/analysis.html">データ分析</a></li>
+  <li><a href="2026/1029_edelweisssho/training.html">調教情報</a></li>
+  </ul>
+</li>
+
+<li class="gold flip">
+  <div class="race_name"><img src="2026/1103_JBCladiesclassic/img/race_1103_JBCladiesclassic.png" alt="2026年11月3日(祝火) JBCレディスクラシック JpnI" /></div>
+  <div class="horse JBCladiesclassic2026"><img src="2026/1103_JBCladiesclassic/img/race_1103_JBCladiesclassic_img.png" alt="2026年11月3日(祝火) JBCレディスクラシック JpnI" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1103_JBCladiesclassic/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1103_JBCladiesclassic/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1103_JBCladiesclassic/analysis.html">データ分析</a></li>
+  <li><a href="2026/1103_JBCladiesclassic/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+<li class="gold flip">
+  <div class="race_name"><img src="2026/1103_JBCsprint/img/race_1103_JBCsprint.png" alt="2026年11月3日(祝火) JBCスプリント JpnI" /></div>
+  <div class="horse JBCsprint2026"><img src="2026/1103_JBCsprint/img/race_1103_JBCsprint_img.png" alt="2026年11月3日(祝火) JBCスプリント JpnI" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1103_JBCsprint/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1103_JBCsprint/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1103_JBCsprint/analysis.html">データ分析</a></li>
+  <li><a href="2026/1103_JBCsprint/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+<li class="bronze">
+  <div class="race_name"><img src="2026/1103_JBCnisaiyushun/img/race_1103_JBCnisaiyushun.png" alt="2026年11月3日(祝火) JBC2歳優駿 JpnIII" /></div>
+  <div class="horse JBCnisaiyushun2026"><img src="2026/1103_JBCnisaiyushun/img/race_1103_JBCnisaiyushun_img.png" alt="2026年11月3日(祝火) JBC2歳優駿 JpnIII" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1103_JBCnisaiyushun/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1103_JBCnisaiyushun/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1103_JBCnisaiyushun/analysis.html">データ分析</a></li>
+  <li><a href="2026/1103_JBCnisaiyushun/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+<li class="gold flip">
+  <div class="race_name"><img src="2026/1103_JBCclassic/img/race_1103_JBCclassic.png" alt="2026年11月3日(祝火) JBCクラシック JpnI" /></div>
+  <div class="horse JBCclassic2026"><img src="2026/1103_JBCclassic/img/race_1103_JBCclassic_img.png" alt="2026年11月3日(祝火) JBCクラシック JpnI" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1103_JBCclassic/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1103_JBCclassic/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1103_JBCclassic/analysis.html">データ分析</a></li>
+  <li><a href="2026/1103_JBCclassic/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+<!--JRAレースの「詳しくはこちら」非活性ボタン ここから--><!--<li><span class="no_linkicon">詳しくはこちら</span></li>--><!--JRAレースの「詳しくはこちら」非活性ボタン ここまで-->
+<!--JRAレースの「詳しくはこちら」活性ボタン ここから--><!--<li><a href="" target="_blank">詳しくはこちら</a></li>--><!--JRAレースの「詳しくはこちら」活性ボタン ここまで-->
+
+<!--★次のレースの保管庫★　ここから-->
+<!--
+
+<li class="bronze">
+  <div class="race_name"><img src="img/2026/race_1108_miyakostakes.png" alt="2026年11月8日(日) みやこステークス GIII" /></div>
+  <ul class="race_link">
+  <li><span class="no_linkicon">詳しくはこちら</span></li>
+  </ul>
+</li>
+
+<li class="bronze flip">
+  <div class="race_name"><img src="img/2026/race_1114_musashinostakes.png" alt="2026年11月14日(土) 武蔵野ステークス GIII" /></div>
+  <ul class="race_link">
+  <li><span class="no_linkicon">詳しくはこちら</span></li>
+  </ul>
+</li>
+
+<li class="silver flip">
+  <div class="race_name"><img src="2026/1125_urawakinen/img/race_1125_urawakinen.png" alt="2026年11月25日(水) 浦和記念 JpnII" /></div>
+  <div class="horse urawakinen2026"><img src="2026/1125_urawakinen/img/race_1125_urawakinen_img.png" alt="2026年11月25日(水) 浦和記念 JpnII" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1125_urawakinen/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1125_urawakinen/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1125_urawakinen/analysis.html">データ分析</a></li>
+  <li><a href="2026/1125_urawakinen/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+<li class="silver">
+  <div class="race_name"><img src="2026/1126_hyogojuniorgrandprix/img/race_1126_hyogojuniorgrandprix.png" alt="2026年11月26日(木) 兵庫ジュニアグランプリ JpnII" /></div>
+  <div class="horse hyogojuniorgrandprix2026"><img src="2026/1126_hyogojuniorgrandprix/img/race_1126_hyogojuniorgrandprix_img.png" alt="2026年11月26日(木) 兵庫ジュニアグランプリ JpnII" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1126_hyogojuniorgrandprix/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1126_hyogojuniorgrandprix/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1126_hyogojuniorgrandprix/analysis.html">データ分析</a></li>
+  <li><a href="2026/1126_hyogojuniorgrandprix/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+<li class="gold flip">
+  <div class="race_name"><img src="img/2026/race_1206_championscup.png" alt="2026年12月6日(日) チャンピオンズカップ GI" /></div>
+  <ul class="race_link">
+  <li><span class="no_linkicon">詳しくはこちら</span></li>
+  </ul>
+</li>
+
+<li class="bronze">
+  <div class="race_name"><img src="img/2026/race_1213_capellastakes.png" alt="2026年12月13日(日) カペラステークス GIII" /></div>
+  <ul class="race_link">
+  <li><span class="no_linkicon">詳しくはこちら</span></li>
+  </ul>
+</li>
+
+<li class="gold flip">
+  <div class="race_name"><img src="2026/1216_zen-nipponnisaiyushun/img/race_1216_zen-nipponnisaiyushun.png" alt="2026年12月16日(水) 全日本2歳優駿 JpnI" /></div>
+  <div class="horse zen-nipponnisaiyushun2026"><img src="2026/1216_zen-nipponnisaiyushun/img/race_1216_zen-nipponnisaiyushun_img.png" alt="2026年12月16日(水) 全日本2歳優駿 JpnI" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1216_zen-nipponnisaiyushun/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1216_zen-nipponnisaiyushun/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1216_zen-nipponnisaiyushun/analysis.html">データ分析</a></li>
+  <li><a href="2026/1216_zen-nipponnisaiyushun/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+<li class="bronze">
+  <div class="race_name"><img src="2026/1223_nagoyadaishoten/img/race_1223_nagoyadaishoten.png" alt="2026年12月23日(水) 名古屋大賞典 JpnIII" /></div>
+  <div class="horse nagoyadaishoten2026"><img src="2026/1223_nagoyadaishoten/img/race_1223_nagoyadaishoten_img.png" alt="2026年12月23日(水) 名古屋大賞典 JpnIII" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1223_nagoyadaishoten/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1223_nagoyadaishoten/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1223_nagoyadaishoten/analysis.html">データ分析</a></li>
+  <li><a href="2026/1223_nagoyadaishoten/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+<li class="bronze">
+  <div class="race_name"><img src="2026/1224_hyogogoldtrophy/img/race_1224_hyogogoldtrophy.png" alt="2026年12月24日(木) 兵庫ゴールドトロフィー JpnIII" /></div>
+  <div class="horse hyogogoldtrophy2026"><img src="2026/1224_hyogogoldtrophy/img/race_1224_hyogogoldtrophy_img.png" alt="2026年12月24日(木) 兵庫ゴールドトロフィー JpnIII" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1224_hyogogoldtrophy/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1224_hyogogoldtrophy/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1224_hyogogoldtrophy/analysis.html">データ分析</a></li>
+  <li><a href="2026/1224_hyogogoldtrophy/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+<li class="gold">
+  <div class="race_name"><img src="2026/1229_tokyodaishoten/img/race_1229_tokyodaishoten.png" alt="2026年12月29日(火) 東京大賞典 GI" /></div>
+  <div class="horse tokyodaishoten2026"><img src="2026/1229_tokyodaishoten/img/race_1229_tokyodaishoten_img.png" alt="2026年12月29日(火) 東京大賞典 GI" /></div>
+  <ul class="race_link">
+  <li><a href="2026/1229_tokyodaishoten/racecard.html">出走予定馬</a></li>
+  <li><a href="2026/1229_tokyodaishoten/horses.html">注目馬情報</a></li>
+  <li><a href="2026/1229_tokyodaishoten/analysis.html">データ分析</a></li>
+  <li><a href="2026/1229_tokyodaishoten/introduction.html">レース紹介</a></li>
+  </ul>
+</li>
+
+-->
+<!--★次のレースの保管庫★　ここまで-->
+<!--★次のレース★　ここまで-->
+
+</ul>
+</section>
+
+<!--ニュース一覧上臨時バナー　ここから-->
+
+<!--
+<br>
+<div style="text-align:center;margin-top:10px;"><a href="https://www.keiba.go.jp/special-2023/cp/gw/?utm_source=dg_series&utm_medium=banner&utm_campaign=spring" target="_blank"><img src="img/20230428_01_01.jpg" style="max-width:100%;"></a></div>
+<br>
+-->
+
+<!--
+  <div class="bnr_area">
+  <ul><center>
+    <li><a href="https://www.keiba.go.jp/special-2023/cp/gw/?utm_source=dg_series&utm_medium=banner&utm_campaign=spring" target="_blank">
+      <picture>
+        <source srcset="img/20230428_01_01.jpg" media="(max-width: 1000px)"/>
+        <img src="img/20230428_01_01.jpg" alt="">
+      </picture>
+    </a></li></center>
+  </ul>
+  </div>
+-->
+
+<!--ニュース一覧上臨時バナー　ここまで-->
+
+<section id="news">
+<h2><img src="img/news_title.png" alt="ニュース News" width="522"/></h2>
+<ul id="news_list" data-news_count="5" ></ul>
+<a href="news.html" class="btn_01">ニュース一覧へ</a>
+</section>
+
+<!--ニュース一覧下臨時バナー　ここから-->
+<!--
+<div id="bnr_campaign">
+<a href="https://www.keiba.go.jp/jbc2022/broadcast/"><picture>
+  <source media="(min-width: 767px)" srcset="img/jbc2022_broadcast_pc.jpg">
+  <img src="img/jbc2022_broadcast_sp.jpg" alt="中継情報">
+</picture></a>
+</div>
+-->
+<!--ニュース一覧下臨時バナー　ここまで-->
+
+<!--【結果発表前　～4/29】
+<div id="bnr_campaign">
+<a href="2021/campaign-logo.html"><picture>
+  <source media="(min-width: 767px)" srcset="img/bnr_campaign_end_pc.png">
+  <img src="img/bnr_campaign_end_sp.png" alt="キャンペーン Campaign ーあなたが選ぶ、新ロゴデザインー 新ロゴ投票キャンペーン 本キャンペーンは終了しました">
+</picture></a>
+</div>
+-->
+
+<!--【結果発表後　～6/3】
+<div id="bnr_campaign">
+<a href="2021/campaign-logo.html"><picture>
+  <source media="(min-width: 767px)" srcset="img/bnr_campaign_end2_pc.png">
+  <img src="img/bnr_campaign_end2_sp.png" alt="キャンペーン Campaign ーあなたが選ぶ、新ロゴデザインー 新ロゴ投票キャンペーン 結果発表はこちら！">
+</picture></a>
+</div>
+-->
+
+<section id="racelist">
+<h2><img src="img/racelist_title.png" alt="レース一覧" width="522"/></h2>
+
+<ul class="tab_maincate">
+  <li><a href="javascript:void(0)" class="filter_cate active" data-filter="all"><span>すべて</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_cate" data-filter="age_2"><span>2歳</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_cate" data-filter="age_3"><span>3歳</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_cate" data-filter="under_1500"><span>3・4歳以上<br>1500m以下</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_cate" data-filter="over_1600"><span>3・4歳以上<br>1600m以上</span></a></li>
+</ul>
+<ul class="tab_subcate">
+  <li><a href="javascript:void(0)" class="filter_subCate active" data-filter="all"><span>すべて</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_subCate" data-filter="east"><span>東日本</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_subCate" data-filter="west"><span>西日本</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_subCate" data-filter="mare"><span>牝馬</span></a></li>
+</ul>
+
+<div id="list" class="js-filtering">
+
+<!-- 2026年分 -->
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>10</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="age_3" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/1001_marinecup/racecard.html"> 
+    <p>10月1日(木)</p>
+    <h4 class="jpn3">マリーンカップ</h4>
+    <p>船橋 左1800m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/1006_ladiesprelude/racecard.html">  
+    <p>10月6日(火)</p>
+    <h4 class="jpn2">レディスプレリュード</h4>
+    <p>大井 右1800m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1007_japandirtclassic/racecard.html">  
+    <p>10月7日(水)</p>
+    <h4 class="jpn1">ジャパンダートクラシック</h4>
+    <p>大井 右2000m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1008_tokyohai/racecard.html">  
+    <p>10月8日(木)</p>
+    <h4 class="jpn2">東京盃</h4>
+    <p>大井 右1200m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1012_milechampionshipnambuhai/racecard.html"> 
+    <p>10月12日(祝月)</p>
+    <h4 class="jpn1">マイルチャンピオンシップ南部杯</h4>
+    <p>盛岡 左1600m 18:15発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_2" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/1029_edelweisssho/racecard.html"> 
+    <p>10月29日(木)</p>
+    <h4 class="jpn3">エーデルワイス賞</h4>
+    <p>門別 右1200m 19:55発走</p>
+  </a>
+</li>
+</ul>
+</div>
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>11</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="age_2" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1103_JBCnisaiyushun/racecard.html"> 
+    <p>11月3日(祝火)</p>
+    <h4 class="jpn3">JBC2歳優駿</h4>
+    <p>門別 右1800m 15:40発走予定</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/1103_JBCladiesclassic/racecard.html"> 
+    <p>11月3日(祝火)</p>
+    <h4 class="jpn1">JBCレディスクラシック</h4>
+    <p>金沢 右1500m 14:25発走予定</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1103_JBCsprint/racecard.html"> 
+    <p>11月3日(祝火)</p>
+    <h4 class="jpn1">JBCスプリント</h4>
+    <p>金沢 右1400m 15:10発走予定</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1103_JBCclassic/racecard.html"> 
+    <p>11月3日(祝火)</p>
+    <h4 class="jpn1">JBCクラシック</h4>
+    <p>金沢 右2100m 16:25発走予定</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <!--<a href="" target="_blank">-->
+    <p>11月8日(日)</p>
+    <h4 class="g3">みやこステークス</h4>
+    <p>京都 右1800m</p>
+  <!--</a>-->
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <!--<a href="" target="_blank">-->
+    <p>11月14日(土)</p>
+    <h4 class="g3">武蔵野ステークス</h4>
+    <p>東京 左1600m</p>
+  <!--</a>-->
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1125_urawakinen/introduction.html"> 
+    <p>11月25日(水)</p>
+    <h4 class="jpn2">浦和記念</h4>
+    <p>浦和 左2000m 17:45発走予定</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_2" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/1126_hyogojuniorgrandprix/introduction.html"> 
+    <p>11月26日(木)</p>
+    <h4 class="jpn2">兵庫ジュニアグランプリ</h4>
+    <p>園田 右1400m 16:15発走予定</p>
+  </a>
+</li>
+</ul>
+</div>
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>12</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <!--<a href="" target="_blank">-->
+    <p>12月6日(日)</p>
+    <h4 class="g1">チャンピオンズカップ</h4>
+    <p>中京 左1800m</p>
+  <!--</a>-->
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <!--<a href="" target="_blank">-->
+    <p>12月13日(日)</p>
+    <h4 class="g3">カペラステークス</h4>
+    <p>中山 右1200m</p>
+  <!--</a>-->
+</li>
+<li class="js-item" data-cate="age_2" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1216_zen-nipponnisaiyushun/introduction.html"> 
+    <p>12月16日(水)</p>
+    <h4 class="jpn1">全日本2歳優駿</h4>
+    <p>川崎 左1600m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/1223_nagoyadaishoten/introduction.html"> 
+    <p>12月23日(水)</p>
+    <h4 class="jpn3">名古屋大賞典</h4>
+    <p>名古屋 右2000m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/1224_hyogogoldtrophy/introduction.html"> 
+    <p>12月24日(木)</p>
+    <h4 class="jpn3">兵庫ゴールドトロフィー</h4>
+    <p>園田 右1400m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1229_tokyodaishoten/introduction.html"> 
+    <p>12月29日(火)</p>
+    <h4 class="g1">東京大賞典</h4>
+    <p>大井 右2000m</p>
+  </a>
+</li>
+</ul>
+</div>
+
+<!-- /2026年分 -->
+
+</div>
+
+<ul class="btn">
+<li><a href="2026/racelist/index.html" class="btn_01">年間レース一覧はこちら</a></li>
+<li><a href="2026/calendar.html"><img src="2026/racelist/img/btn_google_calendar.png" alt="Googleカレンダーでレース一覧を見る"></a></li>
+</ul>
+
+</section>
+
+
+<div id="bnr_set">
+
+<a href="2026/rotation/index.html"><picture>
+  <source media="(min-width: 767px)" srcset="img/bnr_rotation_pc.png">
+  <img src="img/bnr_rotation_sp.png" alt="レース体系 Rotation レースに至るまでに繰り広げられる出走権争い 知ると競馬がもっと面白い!">
+</picture></a>
+<!--
+<a href="2021/campaign-logo.html"><picture>
+  <source media="(min-width: 767px)" srcset="img/bnr_campaign_end2_pc.png">
+  <img src="img/bnr_campaign_end2_sp.png" alt="キャンペーン Campaign ーあなたが選ぶ、新ロゴデザインー 新ロゴ投票キャンペーン 結果発表はこちら！">
+</picture></a>
+-->
+<ul>
+<li><a href="rating/index.html"><picture>
+  <source media="(min-width: 767px)" srcset="img/btn_rating_info_pc.png">
+  <img src="img/btn_rating_info_sp.png" alt="レーティング情報 Rating Information">
+</picture></a></li>
+<li><a href="betting.pdf" onclick="gtag('config', 'UA-52752424-1', {'page_path': 'betting.pdf'})" target="_blank"><picture>
+  <source media="(min-width: 767px)" srcset="img/btn_betting_Information_pc.png">
+  <img src="img/btn_betting_Information_sp.png" alt="発売情報 Betting Information">
+</picture></a></li>
+<li><a href="whatisdirtgraderace.html"><picture>
+  <source media="(min-width: 767px)" srcset="img/btn_what_is_pc.png">
+  <img src="img/btn_what_is_sp.png" alt="ダートグレード競走とは What is “Dirt Grade Race”">
+</picture></a></li>
+</ul>
+
+<!--
+<div class="bnr">
+<a href="https://www.keiba.go.jp/dirtgraderace/special/marchelorraine/"><picture>
+  <source media="(min-width: 767px)" srcset="img/20211201_01pc.jpg">
+  <img src="img/20211201_01sp.jpg" alt="マルシュロレーヌ特集">
+</picture></a>
+</div>
+-->
+
+</div>
+
+<section id="info">
+<h2><img src="img/info_title.png" alt="地方競馬情報" width="522"/></h2>
+<div class="bg">
+<ul class="list_s">
+<li><a href="https://www.keiba.go.jp/" target="_blank"><img src="img/info_logo_keibago.png" width="180" alt="地方競馬情報サイト"/><p>出馬表や競走結果など<br class="sp_nobr">レース情報はこちら</p></a></li>
+<li><a href="https://www.keiba.go.jp/furlong/" target="_blank"><img src="img/info_logo_furlong.png" width="180" alt="オンライン観戦記"/><p>地方競馬の<br class="sp_nobr">オンライン情報誌</p></a></li>
+<li><a href="https://www.greenchannel.jp/program/racing-chihoukeiba-chukei.html" target="_blank"><img src="img/info_logo_green.png" width="180" alt="グリーンチャンネル地方競馬中継"/><p>グリーンチャンネル<br class="sp_nobr">地方競馬中継</p></a></li>
+<li><a href="https://www.nankan-tv.com/" target="_blank"><img src="img/info_logo_s_kanto.png" width="180" alt="南関東地方競馬チャンネル"/><p>南関東地方競馬<br class="sp_nobr">チャンネル</p></a></li>
+<li><a href="https://keiba9.com/" target="_blank"><img src="img/info_logo_nine.png" width="180" alt=" 地方競馬ナイン"/><p>地方競馬ナイン</p></a></li>
+<li><a href="https://www.keiba.go.jp/kyujin/" target="_blank"><img src="img/info_logo_umaya.png" width="180" alt="地方競馬とつながるためのポータルサイト"/><p>地方競馬とつながる<br class="sp_nobr">ためのポータルサイト</p></a></li>
+</ul>
+<ul class="list_l">
+<li><h3>
+<picture>
+  <source media="(min-width: 767px)" srcset="img/info_apri_title_pc.png">
+  <img src="img/info_apri_title_sp.png" alt="好評配信中">
+</picture>
+</h3>
+<a href="https://www.keiba.go.jp/keibago/" target="_blank"><img src="img/info_apri_logo.png" alt="ケイバGO！地方競馬情報アプリ" width="273" class="apri_img" /></a>
+</li>
+<li><h3>
+<picture>
+  <source media="(min-width: 767px)" srcset="img/info_sns_title_pc.png">
+  <img src="img/info_sns_title_sp.png" alt="NAR地方競馬全国協会 公式SNS">
+</picture>
+</h3>
+<ul class="list_sns">
+<li><a href="https://twitter.com/nar_keiba" target="_blank"><img src="img/info_sns_x.png" alt="X"/></a></li><li><a href="https://www.instagram.com/nar_keiba_official/?hl=ja" target="_blank"><img src="img/info_sns_insta.png" alt="Instagram"/></a></li><li><a href="https://www.facebook.com/nar.keiba/" target="_blank"><img src="img/info_sns_facebook.png" alt="Facebook"/></a></li><li><a href="https://www.youtube.com/channel/UCjkOgWcS0111xXkAqyhR5Vw" target="_blank"><img src="img/info_sns_youtube.png" alt="YouTube"/></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</div>
+<div id="common_footer"></div>
+</div>
+<div class="flow_link_wrapper is_flow">
+  <ul class="flow_link">
+   <li><a href="#wrapper"><img src="common/img/link_pagetop.png" alt="pagetop" /></a></li>
+  </ul>
+</div>
+</body>
+</html>

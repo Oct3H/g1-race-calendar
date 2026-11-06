@@ -1,0 +1,25 @@
+{
+  "auditPassed": true,
+  "total": 1,
+  "records": [
+    {
+      "name": "Boylesports Lockinge Stakes",
+      "sourceEnglish": "Boylesports Lockinge Stakes (Class 1) (Group 1)",
+      "country": "GB",
+      "date": "2025-05-17",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250517&Racecourse=S2&RaceNo=4",
+      "seconds": 1.027,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966545580,
+          "duration": 1021
+        }
+      ],
+      "misses": []
+    }
+  ]
+}

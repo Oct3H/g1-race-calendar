@@ -1,0 +1,52 @@
+{
+  "round": 79,
+  "cssParseErrors": [],
+  "browserRendered": false,
+  "checks": [
+    {
+      "file": "check_calendar_language.mjs",
+      "pass": true,
+      "output": "PASS: actual month/filter/empty-state and static UI rendering follow lang; race-name policy unchanged. DOM doubles, no browser rendering.\n"
+    },
+    {
+      "file": "check_calendar_navigation.mjs",
+      "pass": true,
+      "output": "PASS: month grid, leap years, year boundaries, 360 months, system-zone date\n"
+    },
+    {
+      "file": "check_detail_review.mjs",
+      "pass": true,
+      "output": "{\n  \"round\": 71,\n  \"status\": \"passed\",\n  \"checks\": [\n    \"opt-in review links\",\n    \"unknown time is not midnight\",\n    \"missing prizes\",\n    \"long horse and pedigree fields\",\n    \"unresolved history keeps own performance only\",\n    \"return focus and scroll\",\n    \"resolved history restores metadata\",\n    \"actual dialog cross-day fields\"\n  ],\n  \"method\": \"actual controllers with DOM doubles; no pixel or live-source validation\"\n}\n"
+    },
+    {
+      "file": "check_data_quality_preview.mjs",
+      "pass": true,
+      "output": "PASS: unavailable shop cards retain every missing prerequisite; valid cards remain purchasable; same-day exclusion and submit guards; category failures use the passive avatar without replacing results or paying funds; recovery and offline/manual failure entry; review links preserved.\nPASS: fixed non-crying avatar, avatar-only modal opening, region theme, duplicate guard, backdrop vs content click, focus callback and parent close; seven quality states, missing fields and existing financial checks retained. Browser layout/native interaction not tested.\n"
+    },
+    {
+      "file": "check_ticket_folder.mjs",
+      "pass": true,
+      "output": "PASS: five status filters, mixed-race per-ticket visibility and scoped totals, no settlement on filtering, ready fixture, focus restoration, filtered refund and distinct empty states.\nPASS: three race groups/seven independent records; per-order odds, totals, source snapshots, addition labels and region colours; grouping never pays; same-horse additions settle separately; fixture reload is idempotent. Browser layout not tested.\n"
+    }
+  ],
+  "threeLanguageMatrix": {
+    "checks": 336,
+    "issues": 0
+  },
+  "longNames": {
+    "languages": [
+      "zh",
+      "ja",
+      "en"
+    ],
+    "fullTitle": true,
+    "fullAccessibleName": true,
+    "fullDetailName": true
+  },
+  "notVerified": [
+    "pixel layout",
+    "native keyboard focus and Escape",
+    "Retina scaling",
+    "native macOS window limits"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASSED",
+  "method": "Actual pre-fix and current controllers, offline DOM; no browser rendering",
+  "before": {
+    "horseProfileContainsUntranslatedChinese": true
+  },
+  "after": {
+    "horseProfileEnglish": true,
+    "raceIdentitiesNamesAndTimesUnchanged": true
+  }
+}

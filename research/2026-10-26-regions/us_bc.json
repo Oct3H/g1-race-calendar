@@ -1,0 +1,5727 @@
+{
+  "data": {
+    "videoReplay": [
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "01",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "english"
+      },
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "02",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "english"
+      },
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "03",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "english"
+      },
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "04",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "english"
+      },
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "05",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "english"
+      },
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "01",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "chinese"
+      },
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "02",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "chinese"
+      },
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "03",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "chinese"
+      },
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "04",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "chinese"
+      },
+      {
+        "hkRaceDate": "2025-11-02",
+        "raceNo": "05",
+        "overseasRaceIndicator": "S2",
+        "videoPresentOrNot": "Y",
+        "isVideoReplayOn": true,
+        "language": "chinese"
+      }
+    ],
+    "raceMeetingProfile": [
+      {
+        "totalNumberOfRace": 5,
+        "currentNumberOfRace": 5,
+        "races": [
+          {
+            "id": "20251102S202",
+            "no": 1,
+            "status": "RESULT",
+            "runners": [
+              {
+                "horse": {
+                  "id": "20251102S20201H",
+                  "name_en": "Rebel's Romance (IRE)",
+                  "name_ch": "桀驁之戀"
+                },
+                "color": "20251102_S2_r2_h01",
+                "id": "20251102S20201",
+                "no": "1",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20201J",
+                  "name_en": "William Buick",
+                  "name_ch": "布宜學"
+                },
+                "trainer": {
+                  "code": "20251102S20201T",
+                  "name_en": "Charlie Appleby",
+                  "name_ch": "艾柏賓"
+                },
+                "last6run": "1/1/3/1/1",
+                "internationalRating": "121",
+                "sire": "Dubawi (IRE)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 7,
+                "barrierDrawNumber": "1",
+                "gearInfo": "",
+                "margin": "1-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "1-1/4 馬位",
+                  "english": "1-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "4.7",
+                "finalPosition": 2,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20202H",
+                  "name_en": "Goliath (GER)",
+                  "name_ch": "歌利巨人"
+                },
+                "color": "20251102_S2_r2_h02",
+                "id": "20251102S20202",
+                "no": "2",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20202J",
+                  "name_en": "Mickael Barzalona",
+                  "name_ch": "巴米高"
+                },
+                "trainer": {
+                  "code": "20251102S20202T",
+                  "name_en": "Francis-Henri Graffard",
+                  "name_ch": "葛威法"
+                },
+                "last6run": "1/2/5/1/9",
+                "internationalRating": "120",
+                "sire": "Adlerflug (GER)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 5,
+                "barrierDrawNumber": "2",
+                "gearInfo": "",
+                "margin": "1-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "1-1/4 馬位",
+                  "english": "1-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "11",
+                "finalPosition": 11,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20203H",
+                  "name_en": "Amiloc (GB)",
+                  "name_ch": "猛雷"
+                },
+                "color": "20251102_S2_r2_h03",
+                "id": "20251102S20203",
+                "no": "3",
+                "handicapWeight": "122",
+                "jockey": {
+                  "code": "20251102S20203J",
+                  "name_en": "Rossa Ryan",
+                  "name_ch": "黎應揚"
+                },
+                "trainer": {
+                  "code": "20251102S20203T",
+                  "name_en": "Ralph Beckett",
+                  "name_ch": "白祈達"
+                },
+                "last6run": "2/1/1/1/1",
+                "internationalRating": "114",
+                "sire": "Postponed (IRE)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 3,
+                "barrierDrawNumber": "3",
+                "gearInfo": "",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "10",
+                "finalPosition": 4,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20204H",
+                  "name_en": "Redistricting (GB)",
+                  "name_ch": "重劃區界"
+                },
+                "color": "20251102_S2_r2_h04",
+                "id": "20251102S20204",
+                "no": "4",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20204J",
+                  "name_en": "Flavien Prat",
+                  "name_ch": "柏列特"
+                },
+                "trainer": {
+                  "code": "20251102S20204T",
+                  "name_en": "Chad Brown",
+                  "name_ch": "白偉賢"
+                },
+                "last6run": "2/1/1/6/6",
+                "internationalRating": "115",
+                "sire": "Kingman (GB)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 5,
+                "barrierDrawNumber": "4",
+                "gearInfo": "",
+                "margin": "3/4 LENGTH",
+                "marginNm": {
+                  "chinese": "3/4 馬位",
+                  "english": "3/4 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "37",
+                "finalPosition": 7,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20205H",
+                  "name_en": "Rebel Red (GB)",
+                  "name_ch": "紅啤酒"
+                },
+                "color": "20251102_S2_r2_h05",
+                "id": "20251102S20205",
+                "no": "5",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20205J",
+                  "name_en": "Irad Ortiz, Jr",
+                  "name_ch": "奧天信"
+                },
+                "trainer": {
+                  "code": "20251102S20205T",
+                  "name_en": "Cherie DeVaux",
+                  "name_ch": "董芳兒"
+                },
+                "last6run": "5/2/7/1/DNF",
+                "internationalRating": "112",
+                "sire": "Frankel (GB)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "H"
+                },
+                "age": 5,
+                "barrierDrawNumber": "5",
+                "gearInfo": "B",
+                "margin": "1-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "1-1/4 馬位",
+                  "english": "1-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "65",
+                "finalPosition": 8,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20206H",
+                  "name_en": "Wimbledon Hawkeye (GB)",
+                  "name_ch": "鷹眼裁決"
+                },
+                "color": "20251102_S2_r2_h06",
+                "id": "20251102S20206",
+                "no": "6",
+                "handicapWeight": "122",
+                "jockey": {
+                  "code": "20251102S20206J",
+                  "name_en": "Frankie Dettori",
+                  "name_ch": "戴圖理"
+                },
+                "trainer": {
+                  "code": "20251102S20206T",
+                  "name_en": "James Owen",
+                  "name_ch": "敖逸榮"
+                },
+                "last6run": "1/2/2/4/3",
+                "internationalRating": "115",
+                "sire": "Kameko (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "6",
+                "gearInfo": "V",
+                "margin": "6-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "6-1/4 馬位",
+                  "english": "6-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "32",
+                "finalPosition": 12,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20207H",
+                  "name_en": "Silawi (IRE)",
+                  "name_ch": "時令威"
+                },
+                "color": "20251102_S2_r2_h07",
+                "id": "20251102S20207",
+                "no": "7",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20207J",
+                  "name_en": "James Doyle",
+                  "name_ch": "杜俊誠"
+                },
+                "trainer": {
+                  "code": "20251102S20207T",
+                  "name_en": "Hamad Al Jehani",
+                  "name_ch": "趙瀚連"
+                },
+                "last6run": "1/1/5/28/1",
+                "internationalRating": "111",
+                "sire": "Dubawi (IRE)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 5,
+                "barrierDrawNumber": "7",
+                "gearInfo": "",
+                "margin": "4-3/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "4-3/4 馬位",
+                  "english": "4-3/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "91",
+                "finalPosition": 13,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20208H",
+                  "name_en": "Minnie Hauk (IRE)",
+                  "name_ch": "劇唱一姐"
+                },
+                "color": "20251102_S2_r2_h08",
+                "id": "20251102S20208",
+                "no": "8",
+                "handicapWeight": "119",
+                "jockey": {
+                  "code": "20251102S20208J",
+                  "name_en": "Christophe Soumillon",
+                  "name_ch": "蘇銘倫"
+                },
+                "trainer": {
+                  "code": "20251102S20208T",
+                  "name_en": "Aidan O'Brien",
+                  "name_ch": "岳伯仁"
+                },
+                "last6run": "2/1/1/1/1",
+                "internationalRating": "123",
+                "sire": "Frankel (GB)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 3,
+                "barrierDrawNumber": "8",
+                "gearInfo": "",
+                "margin": "3/4 LENGTH",
+                "marginNm": {
+                  "chinese": "3/4 馬位",
+                  "english": "3/4 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "1.6",
+                "finalPosition": 6,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20209H",
+                  "name_en": "Gold Phoenix (IRE)",
+                  "name_ch": "金火鳳"
+                },
+                "color": "20251102_S2_r2_h09",
+                "id": "20251102S20209",
+                "no": "9",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20209J",
+                  "name_en": "Umberto Rispoli",
+                  "name_ch": "李寶利"
+                },
+                "trainer": {
+                  "code": "20251102S20209T",
+                  "name_en": "Philip D'Amato",
+                  "name_ch": "艾馬圖"
+                },
+                "last6run": "1/1/3/4/3",
+                "internationalRating": "115",
+                "sire": "Belardo (IRE)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 7,
+                "barrierDrawNumber": "9",
+                "gearInfo": "B",
+                "margin": "1-1/2 LENGTHS",
+                "marginNm": {
+                  "chinese": "1-1/2 馬位",
+                  "english": "1-1/2 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "70",
+                "finalPosition": 5,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20210H",
+                  "name_en": "El Cordobes (IRE)",
+                  "name_ch": "鬥牛悍將"
+                },
+                "color": "20251102_S2_r2_h10",
+                "id": "20251102S20210",
+                "no": "10",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20210J",
+                  "name_en": "Billy Loughnane",
+                  "name_ch": "劉見龍"
+                },
+                "trainer": {
+                  "code": "20251102S20210T",
+                  "name_en": "Charlie Appleby",
+                  "name_ch": "艾柏賓"
+                },
+                "last6run": "3/1/1/3/3",
+                "internationalRating": "115",
+                "sire": "Frankel (GB)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 4,
+                "barrierDrawNumber": "10",
+                "gearInfo": "",
+                "margin": "3/4 LENGTH",
+                "marginNm": {
+                  "chinese": "3/4 馬位",
+                  "english": "3/4 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "23",
+                "finalPosition": 3,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20211H",
+                  "name_en": "Rashabar (IRE)",
+                  "name_ch": "剛強風"
+                },
+                "color": "20251102_S2_r2_h11",
+                "id": "20251102S20211",
+                "no": "11",
+                "handicapWeight": "122",
+                "jockey": {
+                  "code": "20251102S20211J",
+                  "name_en": "Joe Leavy",
+                  "name_ch": "利榮輝"
+                },
+                "trainer": {
+                  "code": "20251102S20211T",
+                  "name_en": "Brian Meehan",
+                  "name_ch": "梅衡"
+                },
+                "last6run": "4/2/2/4/4",
+                "internationalRating": "113",
+                "sire": "Holy Roman Emperor (IRE)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "11",
+                "gearInfo": "",
+                "margin": "12-3/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "12-3/4 馬位",
+                  "english": "12-3/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "111",
+                "finalPosition": 14,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20212H",
+                  "name_en": "Tawny Port (USA)",
+                  "name_ch": "金色波特"
+                },
+                "color": "20251102_S2_r2_h12",
+                "id": "20251102S20212",
+                "no": "12",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20212J",
+                  "name_en": "Manuel Franco",
+                  "name_ch": "范剛豪"
+                },
+                "trainer": {
+                  "code": "20251102S20212T",
+                  "name_en": "Miguel Clement",
+                  "name_ch": "蓋禮望"
+                },
+                "last6run": "2/2/2/5/7",
+                "internationalRating": "110",
+                "sire": "Pioneerof the Nile (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "H"
+                },
+                "age": 6,
+                "barrierDrawNumber": "12",
+                "gearInfo": "B",
+                "margin": "1 LENGTH",
+                "marginNm": {
+                  "chinese": "1 馬位",
+                  "english": "1 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "135",
+                "finalPosition": 9,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20213H",
+                  "name_en": "Hill Road (USA)",
+                  "name_ch": "小山路"
+                },
+                "color": "20251102_S2_r2_h13",
+                "id": "20251102S20213",
+                "no": "13",
+                "handicapWeight": "122",
+                "jockey": {
+                  "code": "20251102S20213J",
+                  "name_en": "David Egan",
+                  "name_ch": "易健寧"
+                },
+                "trainer": {
+                  "code": "20251102S20213T",
+                  "name_en": "Chad Brown",
+                  "name_ch": "白偉賢"
+                },
+                "last6run": "3/3/3/5/1",
+                "internationalRating": "110",
+                "sire": "Quality Road (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "13",
+                "gearInfo": "B",
+                "margin": "NOSE",
+                "marginNm": {
+                  "chinese": "馬鼻位",
+                  "english": "NOSE"
+                },
+                "lbwNm": null,
+                "winOdds": "127",
+                "finalPosition": 10,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20214H",
+                  "name_en": "Ethical Diamond (IRE)",
+                  "name_ch": "道德美鑽"
+                },
+                "color": "20251102_S2_r2_h14",
+                "id": "20251102S20214",
+                "no": "14",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20214J",
+                  "name_en": "Dylan McMonagle",
+                  "name_ch": "麥文堅"
+                },
+                "trainer": {
+                  "code": "20251102S20214T",
+                  "name_en": "Willie Mullins",
+                  "name_ch": "莫威利"
+                },
+                "last6run": "1/1/7/4/1",
+                "internationalRating": "112",
+                "sire": "Awtaad (IRE)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 5,
+                "barrierDrawNumber": "14",
+                "gearInfo": "H",
+                "margin": "-",
+                "marginNm": {
+                  "chinese": "-",
+                  "english": "-"
+                },
+                "lbwNm": null,
+                "winOdds": "33",
+                "finalPosition": 1,
+                "deadHeat": false,
+                "status": "Ran"
+              }
+            ],
+            "judgeSigns": [
+              {
+                "value_en": "WEIGHED IN"
+              }
+            ],
+            "raceName_en": "Breeders' Cup Turf",
+            "raceName_ch": "育馬者盃草地大賽",
+            "postTime": "2025-11-02T05:41:00+08:00",
+            "country_en": "United States of America",
+            "country_ch": "美國",
+            "distance": 2400,
+            "go_en": "FIRM",
+            "go_ch": "快地",
+            "raceTrack": {
+              "description_en": "Turf",
+              "description_ch": "草地"
+            },
+            "raceCourse": {
+              "description_en": "Del Mar Racecourse",
+              "description_ch": "德爾馬馬場",
+              "displayCode": ""
+            },
+            "raceClass_en": "Grade 1",
+            "raceClass_ch": "一級賽",
+            "raceResults": [
+              {
+                "status": "WCFULLMARGIN",
+                "raceTime": "2:25.45",
+                "mgnInd": "M"
+              }
+            ]
+          },
+          {
+            "id": "20251102S203",
+            "no": 2,
+            "status": "RESULT",
+            "runners": [
+              {
+                "horse": {
+                  "id": "20251102S20301H",
+                  "name_en": "Fierceness (USA)",
+                  "name_ch": "激烈"
+                },
+                "color": "20251102_S2_r3_h01",
+                "id": "20251102S20301",
+                "no": "1",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20301J",
+                  "name_en": "John Velazquez",
+                  "name_ch": "華拉素奇"
+                },
+                "trainer": {
+                  "code": "20251102S20301T",
+                  "name_en": "Todd Pletcher",
+                  "name_ch": "柏多迪"
+                },
+                "last6run": "1/5/2/1/2",
+                "internationalRating": "125",
+                "sire": "City of Light (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "1",
+                "gearInfo": "",
+                "margin": "1 LENGTH",
+                "marginNm": {
+                  "chinese": "1 馬位",
+                  "english": "1 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "6.6",
+                "finalPosition": 3,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20302H",
+                  "name_en": "Baeza (USA)",
+                  "name_ch": "世遺小城"
+                },
+                "color": "20251102_S2_r3_h02",
+                "id": "20251102S20302",
+                "no": "2",
+                "handicapWeight": "122",
+                "jockey": {
+                  "code": "20251102S20302J",
+                  "name_en": "Hector Berrios",
+                  "name_ch": "貝嶺安"
+                },
+                "trainer": {
+                  "code": "20251102S20302T",
+                  "name_en": "John Shirreffs",
+                  "name_ch": "施懷富"
+                },
+                "last6run": "1/2/3/3/2",
+                "internationalRating": "118",
+                "sire": "McKinzie (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "2",
+                "gearInfo": "B",
+                "margin": "2-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "2-1/4 馬位",
+                  "english": "2-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "11",
+                "finalPosition": 6,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20303H",
+                  "name_en": "Nevada Beach (USA)",
+                  "name_ch": "內華海灘"
+                },
+                "color": "20251102_S2_r3_h03",
+                "id": "20251102S20303",
+                "no": "3",
+                "handicapWeight": "122",
+                "jockey": {
+                  "code": "20251102S20303J",
+                  "name_en": "Mike Smith",
+                  "name_ch": "史文夫"
+                },
+                "trainer": {
+                  "code": "20251102S20303T",
+                  "name_en": "Bob Baffert",
+                  "name_ch": "巴富達"
+                },
+                "last6run": "1/1/2/1",
+                "internationalRating": "115",
+                "sire": "Omaha Beach (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "3",
+                "gearInfo": "B",
+                "margin": "2-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "2-1/4 馬位",
+                  "english": "2-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "26",
+                "finalPosition": 7,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20304H",
+                  "name_en": "Contrary Thinking (USA)",
+                  "name_ch": "逆向思維"
+                },
+                "color": "20251102_S2_r3_h04",
+                "id": "20251102S20304",
+                "no": "4",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20304J",
+                  "name_en": "Florent Geroux",
+                  "name_ch": "鄭朗升"
+                },
+                "trainer": {
+                  "code": "20251102S20304T",
+                  "name_en": "Chad Brown",
+                  "name_ch": "白偉賢"
+                },
+                "last6run": "6/9/1/4/6",
+                "internationalRating": "100",
+                "sire": "Into Mischief (USA)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 5,
+                "barrierDrawNumber": "4",
+                "gearInfo": "",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "92",
+                "finalPosition": 9,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20305H",
+                  "name_en": "Forever Young (JPN)",
+                  "name_ch": "青春永駐"
+                },
+                "color": "20251102_S2_r3_h05",
+                "id": "20251102S20305",
+                "no": "5",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20305J",
+                  "name_en": "Ryusei Sakai",
+                  "name_ch": "坂井瑠星"
+                },
+                "trainer": {
+                  "code": "20251102S20305T",
+                  "name_en": "Yoshito Yahagi",
+                  "name_ch": "矢作芳人"
+                },
+                "last6run": "1/3/1/1/3",
+                "internationalRating": "127",
+                "sire": "Real Steel (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "5",
+                "gearInfo": "",
+                "margin": "-",
+                "marginNm": {
+                  "chinese": "-",
+                  "english": "-"
+                },
+                "lbwNm": null,
+                "winOdds": "2.0",
+                "finalPosition": 1,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20306H",
+                  "name_en": "Sovereignty (USA)",
+                  "name_ch": "管治權"
+                },
+                "color": "20251102_S2_r3_h06",
+                "id": "20251102S20306",
+                "no": "6",
+                "handicapWeight": "122",
+                "jockey": {
+                  "code": "20251102S20306J",
+                  "name_en": "Junior Alvarado",
+                  "name_ch": "艾榮東"
+                },
+                "trainer": {
+                  "code": "20251102S20306T",
+                  "name_en": "William Mott",
+                  "name_ch": "莫特"
+                },
+                "last6run": "1/1/1/1/2",
+                "internationalRating": "127",
+                "sire": "Into Mischief (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "6",
+                "gearInfo": "",
+                "margin": null,
+                "marginNm": null,
+                "lbwNm": null,
+                "winOdds": "",
+                "finalPosition": 0,
+                "deadHeat": false,
+                "status": "Scratched"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20307H",
+                  "name_en": "Sierra Leone (USA)",
+                  "name_ch": "寶礦獅山"
+                },
+                "color": "20251102_S2_r3_h07",
+                "id": "20251102S20307",
+                "no": "7",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20307J",
+                  "name_en": "Flavien Prat",
+                  "name_ch": "柏列特"
+                },
+                "trainer": {
+                  "code": "20251102S20307T",
+                  "name_en": "Chad Brown",
+                  "name_ch": "白偉賢"
+                },
+                "last6run": "2/1/2/3/1",
+                "internationalRating": "120",
+                "sire": "Gun Runner (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "7",
+                "gearInfo": "B",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "5.9",
+                "finalPosition": 2,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20308H",
+                  "name_en": "Mindframe (USA)",
+                  "name_ch": "好心態"
+                },
+                "color": "20251102_S2_r3_h08",
+                "id": "20251102S20308",
+                "no": "8",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20308J",
+                  "name_en": "Irad Ortiz, Jr",
+                  "name_ch": "奧天信"
+                },
+                "trainer": {
+                  "code": "20251102S20308T",
+                  "name_en": "Todd Pletcher",
+                  "name_ch": "柏多迪"
+                },
+                "last6run": "DNF/1/1/1/2",
+                "internationalRating": "120",
+                "sire": "Constitution (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "8",
+                "gearInfo": "",
+                "margin": "3-1/2 LENGTHS",
+                "marginNm": {
+                  "chinese": "3-1/2 馬位",
+                  "english": "3-1/2 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "12",
+                "finalPosition": 5,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20309H",
+                  "name_en": "Journalism (USA)",
+                  "name_ch": "新聞研究"
+                },
+                "color": "20251102_S2_r3_h09",
+                "id": "20251102S20309",
+                "no": "9",
+                "handicapWeight": "122",
+                "jockey": {
+                  "code": "20251102S20309J",
+                  "name_en": "Jose Ortiz",
+                  "name_ch": "奧天誠"
+                },
+                "trainer": {
+                  "code": "20251102S20309T",
+                  "name_en": "Michael McCarthy",
+                  "name_ch": "麥恪凡"
+                },
+                "last6run": "2/1/2/1/2",
+                "internationalRating": "120",
+                "sire": "Curlin (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "9",
+                "gearInfo": "",
+                "margin": "2-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "2-1/4 馬位",
+                  "english": "2-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "6.9",
+                "finalPosition": 4,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20310H",
+                  "name_en": "Antiquarian (USA)",
+                  "name_ch": "文物藏家"
+                },
+                "color": "20251102_S2_r3_h10",
+                "id": "20251102S20310",
+                "no": "10",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20310J",
+                  "name_en": "Luis Saez",
+                  "name_ch": "施奕誠"
+                },
+                "trainer": {
+                  "code": "20251102S20310T",
+                  "name_en": "Todd Pletcher",
+                  "name_ch": "柏多迪"
+                },
+                "last6run": "1/2/2/1/5",
+                "internationalRating": "116",
+                "sire": "Preservationist (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "10",
+                "gearInfo": "",
+                "margin": "25-3/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "25-3/4 馬位",
+                  "english": "25-3/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "27",
+                "finalPosition": 8,
+                "deadHeat": false,
+                "status": "Ran"
+              }
+            ],
+            "judgeSigns": [
+              {
+                "value_en": "WEIGHED IN"
+              }
+            ],
+            "raceName_en": "Breeders' Cup Classic",
+            "raceName_ch": "育馬者盃經典大賽",
+            "postTime": "2025-11-02T06:25:00+08:00",
+            "country_en": "United States of America",
+            "country_ch": "美國",
+            "distance": 2000,
+            "go_en": "FAST",
+            "go_ch": "快地",
+            "raceTrack": {
+              "description_en": "Dirt",
+              "description_ch": "泥地"
+            },
+            "raceCourse": {
+              "description_en": "Del Mar Racecourse",
+              "description_ch": "德爾馬馬場",
+              "displayCode": ""
+            },
+            "raceClass_en": "Grade 1",
+            "raceClass_ch": "一級賽",
+            "raceResults": [
+              {
+                "status": "WCFULLMARGIN",
+                "raceTime": "2:00.19",
+                "mgnInd": "M"
+              }
+            ]
+          },
+          {
+            "id": "20251102S204",
+            "no": 3,
+            "status": "RESULT",
+            "runners": [
+              {
+                "horse": {
+                  "id": "20251102S20401H",
+                  "name_en": "One Stripe (SAF)",
+                  "name_ch": "一槓級數"
+                },
+                "color": "20251102_S2_r4_h01",
+                "id": "20251102S20401",
+                "no": "1",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20401J",
+                  "name_en": "Juan Hernandez",
+                  "name_ch": "何雷登"
+                },
+                "trainer": {
+                  "code": "20251102S20401T",
+                  "name_en": "Graham Motion",
+                  "name_ch": "莫格林"
+                },
+                "last6run": "5/6/1/1/1",
+                "internationalRating": "117",
+                "sire": "One World (SAF)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "1",
+                "gearInfo": "",
+                "margin": "1-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "1-1/4 馬位",
+                  "english": "1-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "60",
+                "finalPosition": 13,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20402H",
+                  "name_en": "Notable Speech (GB)",
+                  "name_ch": "名演說"
+                },
+                "color": "20251102_S2_r4_h02",
+                "id": "20251102S20402",
+                "no": "2",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20402J",
+                  "name_en": "William Buick",
+                  "name_ch": "布宜學"
+                },
+                "trainer": {
+                  "code": "20251102S20402T",
+                  "name_en": "Charlie Appleby",
+                  "name_ch": "艾柏賓"
+                },
+                "last6run": "1/2/5/4/4",
+                "internationalRating": "120",
+                "sire": "Dubawi (IRE)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "2",
+                "gearInfo": "",
+                "margin": "-",
+                "marginNm": {
+                  "chinese": "-",
+                  "english": "-"
+                },
+                "lbwNm": null,
+                "winOdds": "2.4",
+                "finalPosition": 1,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20403H",
+                  "name_en": "Sahlan (IRE)",
+                  "name_ch": "輕易事"
+                },
+                "color": "20251102_S2_r4_h03",
+                "id": "20251102S20403",
+                "no": "3",
+                "handicapWeight": "123",
+                "jockey": {
+                  "code": "20251102S20403J",
+                  "name_en": "Mickael Barzalona",
+                  "name_ch": "巴米高"
+                },
+                "trainer": {
+                  "code": "20251102S20403T",
+                  "name_en": "Francis-Henri Graffard",
+                  "name_ch": "葛威法"
+                },
+                "last6run": "1/1/6/9/2",
+                "internationalRating": "117",
+                "sire": "Wootton Bassett (GB)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "3",
+                "gearInfo": "",
+                "margin": "NOSE",
+                "marginNm": {
+                  "chinese": "馬鼻位",
+                  "english": "NOSE"
+                },
+                "lbwNm": null,
+                "winOdds": "9.0",
+                "finalPosition": 5,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20404H",
+                  "name_en": "The Lion In Winter (IRE)",
+                  "name_ch": "冬季獅"
+                },
+                "color": "20251102_S2_r4_h04",
+                "id": "20251102S20404",
+                "no": "4",
+                "handicapWeight": "123",
+                "jockey": {
+                  "code": "20251102S20404J",
+                  "name_en": "Christophe Soumillon",
+                  "name_ch": "蘇銘倫"
+                },
+                "trainer": {
+                  "code": "20251102S20404T",
+                  "name_en": "Aidan O'Brien",
+                  "name_ch": "岳伯仁"
+                },
+                "last6run": "2/3/10/3/14",
+                "internationalRating": "117",
+                "sire": "Sea The Stars (IRE)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "4",
+                "gearInfo": "",
+                "margin": "HEAD",
+                "marginNm": {
+                  "chinese": "馬頭位",
+                  "english": "HEAD"
+                },
+                "lbwNm": null,
+                "winOdds": "5.1",
+                "finalPosition": 3,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20405H",
+                  "name_en": "Program Trading (GB)",
+                  "name_ch": "自動交易"
+                },
+                "color": "20251102_S2_r4_h05",
+                "id": "20251102S20405",
+                "no": "5",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20405J",
+                  "name_en": "Flavien Prat",
+                  "name_ch": "柏列特"
+                },
+                "trainer": {
+                  "code": "20251102S20405T",
+                  "name_en": "Chad Brown",
+                  "name_ch": "白偉賢"
+                },
+                "last6run": "2/2/5/1/1",
+                "internationalRating": "115",
+                "sire": "Lope de Vega (IRE)",
+                "sexNm": {
+                  "chinese": "隱睪",
+                  "english": "R"
+                },
+                "age": 5,
+                "barrierDrawNumber": "5",
+                "gearInfo": "",
+                "margin": "NECK",
+                "marginNm": {
+                  "chinese": "馬頸位",
+                  "english": "NECK"
+                },
+                "lbwNm": null,
+                "winOdds": "12",
+                "finalPosition": 10,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20406H",
+                  "name_en": "Gran Oriente (CHI)",
+                  "name_ch": "大東方"
+                },
+                "color": "20251102_S2_r4_h06",
+                "id": "20251102S20406",
+                "no": "6",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20406J",
+                  "name_en": "Hector Berrios",
+                  "name_ch": "貝嶺安"
+                },
+                "trainer": {
+                  "code": "20251102S20406T",
+                  "name_en": "Jose M Alvarez",
+                  "name_ch": "艾偉盛"
+                },
+                "last6run": "1/10/2/2/2",
+                "internationalRating": "111",
+                "sire": "Classic Empire (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "6",
+                "gearInfo": "",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "93",
+                "finalPosition": 11,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20407H",
+                  "name_en": "Johannes (USA)",
+                  "name_ch": "約翰領先"
+                },
+                "color": "20251102_S2_r4_h07",
+                "id": "20251102S20407",
+                "no": "7",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20407J",
+                  "name_en": "Umberto Rispoli",
+                  "name_ch": "李寶利"
+                },
+                "trainer": {
+                  "code": "20251102S20407T",
+                  "name_en": "Tim Yakteen",
+                  "name_ch": "葉國滇"
+                },
+                "last6run": "1/9/1/2/1",
+                "internationalRating": "117",
+                "sire": "Nyquist (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "H"
+                },
+                "age": 5,
+                "barrierDrawNumber": "7",
+                "gearInfo": "",
+                "margin": "NECK",
+                "marginNm": {
+                  "chinese": "馬頸位",
+                  "english": "NECK"
+                },
+                "lbwNm": null,
+                "winOdds": "13",
+                "finalPosition": 8,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20408H",
+                  "name_en": "Formidable Man (USA)",
+                  "name_ch": "大來頭"
+                },
+                "color": "20251102_S2_r4_h08",
+                "id": "20251102S20408",
+                "no": "8",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20408J",
+                  "name_en": "John Velazquez",
+                  "name_ch": "華拉素奇"
+                },
+                "trainer": {
+                  "code": "20251102S20408T",
+                  "name_en": "Michael McCarthy",
+                  "name_ch": "麥恪凡"
+                },
+                "last6run": "1/1/4/1/12",
+                "internationalRating": "115",
+                "sire": "City of Light (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "8",
+                "gearInfo": "",
+                "margin": "1-1/2 LENGTHS",
+                "marginNm": {
+                  "chinese": "1-1/2 馬位",
+                  "english": "1-1/2 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "27",
+                "finalPosition": 2,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20409H",
+                  "name_en": "Argine (JPN)",
+                  "name_ch": "紙牌女王"
+                },
+                "color": "20251102_S2_r4_h09",
+                "id": "20251102S20409",
+                "no": "9",
+                "handicapWeight": "123",
+                "jockey": {
+                  "code": "20251102S20409J",
+                  "name_en": "Frankie Dettori",
+                  "name_ch": "戴圖理"
+                },
+                "trainer": {
+                  "code": "20251102S20409T",
+                  "name_en": "Mitsumasa Nakauchida",
+                  "name_ch": "中內田充正"
+                },
+                "last6run": "1/4/2/1/1",
+                "internationalRating": "111",
+                "sire": "Lord Kanaloa (JPN)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "M"
+                },
+                "age": 5,
+                "barrierDrawNumber": "9",
+                "gearInfo": "",
+                "margin": "1 LENGTH",
+                "marginNm": {
+                  "chinese": "1 馬位",
+                  "english": "1 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "16",
+                "finalPosition": 6,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20410H",
+                  "name_en": "Jonquil (GB)",
+                  "name_ch": "金水仙"
+                },
+                "color": "20251102_S2_r4_h10",
+                "id": "20251102S20410",
+                "no": "10",
+                "handicapWeight": "123",
+                "jockey": {
+                  "code": "20251102S20410J",
+                  "name_en": "Colin Keane",
+                  "name_ch": "簡國能"
+                },
+                "trainer": {
+                  "code": "20251102S20410T",
+                  "name_en": "Andrew Balding",
+                  "name_ch": "包義定"
+                },
+                "last6run": "4/1/5/13/2",
+                "internationalRating": "115",
+                "sire": "Lope de Vega (IRE)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "10",
+                "gearInfo": "",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "16",
+                "finalPosition": 9,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20411H",
+                  "name_en": "Rhetorical (USA)",
+                  "name_ch": "好文采"
+                },
+                "color": "20251102_S2_r4_h11",
+                "id": "20251102S20411",
+                "no": "11",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20411J",
+                  "name_en": "Irad Ortiz, Jr",
+                  "name_ch": "奧天信"
+                },
+                "trainer": {
+                  "code": "20251102S20411T",
+                  "name_en": "William Walden",
+                  "name_ch": "華當楠"
+                },
+                "last6run": "1/1/1/1/3",
+                "internationalRating": "117",
+                "sire": "Not This Time (USA)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 4,
+                "barrierDrawNumber": "11",
+                "gearInfo": "",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "8.4",
+                "finalPosition": 4,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20412H",
+                  "name_en": "Gas Me Up (CAN)",
+                  "name_ch": "為我打氣"
+                },
+                "color": "20251102_S2_r4_h12",
+                "id": "20251102S20412",
+                "no": "12",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20412J",
+                  "name_en": "Jose Ortiz",
+                  "name_ch": "奧天誠"
+                },
+                "trainer": {
+                  "code": "20251102S20412T",
+                  "name_en": "Kevin Attard",
+                  "name_ch": "艾壇登"
+                },
+                "last6run": "3/1/1/5/1",
+                "internationalRating": "106",
+                "sire": "Hard Spun (USA)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 5,
+                "barrierDrawNumber": "12",
+                "gearInfo": "",
+                "margin": "1 LENGTH",
+                "marginNm": {
+                  "chinese": "1 馬位",
+                  "english": "1 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "81",
+                "finalPosition": 7,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20413H",
+                  "name_en": "Qirat (GB)",
+                  "name_ch": "背頌有法"
+                },
+                "color": "20251102_S2_r4_h13",
+                "id": "20251102S20413",
+                "no": "13",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20413J",
+                  "name_en": "Rossa Ryan",
+                  "name_ch": "黎應揚"
+                },
+                "trainer": {
+                  "code": "20251102S20413T",
+                  "name_en": "Ralph Beckett",
+                  "name_ch": "白祈達"
+                },
+                "last6run": "7/5/1/27/2",
+                "internationalRating": "115",
+                "sire": "Showcasing (GB)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 4,
+                "barrierDrawNumber": "13",
+                "gearInfo": "",
+                "margin": "3/4 LENGTH",
+                "marginNm": {
+                  "chinese": "3/4 馬位",
+                  "english": "3/4 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "43",
+                "finalPosition": 12,
+                "deadHeat": false,
+                "status": "Ran"
+              }
+            ],
+            "judgeSigns": [
+              {
+                "value_en": "WEIGHED IN"
+              }
+            ],
+            "raceName_en": "Breeders' Cup Mile",
+            "raceName_ch": "育馬者盃一哩大賽",
+            "postTime": "2025-11-02T07:05:00+08:00",
+            "country_en": "United States of America",
+            "country_ch": "美國",
+            "distance": 1600,
+            "go_en": "FIRM",
+            "go_ch": "快地",
+            "raceTrack": {
+              "description_en": "Turf",
+              "description_ch": "草地"
+            },
+            "raceCourse": {
+              "description_en": "Del Mar Racecourse",
+              "description_ch": "德爾馬馬場",
+              "displayCode": ""
+            },
+            "raceClass_en": "Grade 1",
+            "raceClass_ch": "一級賽",
+            "raceResults": [
+              {
+                "status": "WCFULLMARGIN",
+                "raceTime": "1:33.66",
+                "mgnInd": "M"
+              }
+            ]
+          },
+          {
+            "id": "20251102S205",
+            "no": 4,
+            "status": "RESULT",
+            "runners": [
+              {
+                "horse": {
+                  "id": "20251102S20501H",
+                  "name_en": "Will Take It (USA)",
+                  "name_ch": "放心接受"
+                },
+                "color": "20251102_S2_r5_h01",
+                "id": "20251102S20501",
+                "no": "1",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20501J",
+                  "name_en": "Mike Smith",
+                  "name_ch": "史文夫"
+                },
+                "trainer": {
+                  "code": "20251102S20501T",
+                  "name_en": "Dallas Stewart",
+                  "name_ch": "史超維"
+                },
+                "last6run": "6/1/1/2/1",
+                "internationalRating": "109",
+                "sire": "Tapit (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "1",
+                "gearInfo": "",
+                "margin": "NECK",
+                "marginNm": {
+                  "chinese": "馬頸位",
+                  "english": "NECK"
+                },
+                "lbwNm": null,
+                "winOdds": "54",
+                "finalPosition": 7,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20502H",
+                  "name_en": "Goal Oriented (USA)",
+                  "name_ch": "目標為先"
+                },
+                "color": "20251102_S2_r5_h02",
+                "id": "20251102S20502",
+                "no": "2",
+                "handicapWeight": "123",
+                "jockey": {
+                  "code": "20251102S20502J",
+                  "name_en": "Luis Saez",
+                  "name_ch": "施奕誠"
+                },
+                "trainer": {
+                  "code": "20251102S20502T",
+                  "name_en": "Bob Baffert",
+                  "name_ch": "巴富達"
+                },
+                "last6run": "3/3/4/1/1",
+                "internationalRating": "115",
+                "sire": "Not This Time (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "2",
+                "gearInfo": "B",
+                "margin": "1-3/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "1-3/4 馬位",
+                  "english": "1-3/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "10",
+                "finalPosition": 6,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20503H",
+                  "name_en": "Nysos (USA)",
+                  "name_ch": "半神明"
+                },
+                "color": "20251102_S2_r5_h03",
+                "id": "20251102S20503",
+                "no": "3",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20503J",
+                  "name_en": "Flavien Prat",
+                  "name_ch": "柏列特"
+                },
+                "trainer": {
+                  "code": "20251102S20503T",
+                  "name_en": "Bob Baffert",
+                  "name_ch": "巴富達"
+                },
+                "last6run": "1/1/2/1/1",
+                "internationalRating": "117",
+                "sire": "Nyquist (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "3",
+                "gearInfo": "",
+                "margin": "-",
+                "marginNm": {
+                  "chinese": "-",
+                  "english": "-"
+                },
+                "lbwNm": null,
+                "winOdds": "1.4",
+                "finalPosition": 1,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20504H",
+                  "name_en": "Mystik Dan (USA)",
+                  "name_ch": "神丹"
+                },
+                "color": "20251102_S2_r5_h04",
+                "id": "20251102S20504",
+                "no": "4",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20504J",
+                  "name_en": "Francisco Arrieta",
+                  "name_ch": "魏淵泰"
+                },
+                "trainer": {
+                  "code": "20251102S20504T",
+                  "name_en": "Kenneth McPeek",
+                  "name_ch": "麥柏嘉"
+                },
+                "last6run": "1/4/4/1/2",
+                "internationalRating": "116",
+                "sire": "Goldencents (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 4,
+                "barrierDrawNumber": "4",
+                "gearInfo": "",
+                "margin": null,
+                "marginNm": null,
+                "lbwNm": null,
+                "winOdds": "",
+                "finalPosition": 0,
+                "deadHeat": false,
+                "status": "Scratched"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20505H",
+                  "name_en": "Tumbarumba (USA)",
+                  "name_ch": "平地雷鳴"
+                },
+                "color": "20251102_S2_r5_h05",
+                "id": "20251102S20505",
+                "no": "5",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20505J",
+                  "name_en": "Tyler Gaffalione",
+                  "name_ch": "紀輝亮"
+                },
+                "trainer": {
+                  "code": "20251102S20505T",
+                  "name_en": "Brian Lynch",
+                  "name_ch": "李卓"
+                },
+                "last6run": "1/1/4/3/7",
+                "internationalRating": "111",
+                "sire": "Oscar Performance (USA)",
+                "sexNm": {
+                  "chinese": "閹",
+                  "english": "G"
+                },
+                "age": 5,
+                "barrierDrawNumber": "5",
+                "gearInfo": "B",
+                "margin": "NECK",
+                "marginNm": {
+                  "chinese": "馬頸位",
+                  "english": "NECK"
+                },
+                "lbwNm": null,
+                "winOdds": "33",
+                "finalPosition": 4,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20506H",
+                  "name_en": "Full Serrano (ARG)",
+                  "name_ch": "滿山跑"
+                },
+                "color": "20251102_S2_r5_h06",
+                "id": "20251102S20506",
+                "no": "6",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20506J",
+                  "name_en": "Joel Rosario",
+                  "name_ch": "羅沙理奧"
+                },
+                "trainer": {
+                  "code": "20251102S20506T",
+                  "name_en": "John Sadler",
+                  "name_ch": "薛德拉"
+                },
+                "last6run": "2/1/1/2/1",
+                "internationalRating": "117",
+                "sire": "Full Mast (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "H"
+                },
+                "age": 6,
+                "barrierDrawNumber": "6",
+                "gearInfo": "",
+                "margin": "8-3/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "8-3/4 馬位",
+                  "english": "8-3/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "6.4",
+                "finalPosition": 5,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20507H",
+                  "name_en": "Citizen Bull (USA)",
+                  "name_ch": "牛神氣"
+                },
+                "color": "20251102_S2_r5_h07",
+                "id": "20251102S20507",
+                "no": "7",
+                "handicapWeight": "123",
+                "jockey": {
+                  "code": "20251102S20507J",
+                  "name_en": "Juan Hernandez",
+                  "name_ch": "何雷登"
+                },
+                "trainer": {
+                  "code": "20251102S20507T",
+                  "name_en": "Bob Baffert",
+                  "name_ch": "巴富達"
+                },
+                "last6run": "1/4/15/4/1",
+                "internationalRating": "115",
+                "sire": "Into Mischief (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "7",
+                "gearInfo": "",
+                "margin": "HEAD",
+                "marginNm": {
+                  "chinese": "馬頭位",
+                  "english": "HEAD"
+                },
+                "lbwNm": null,
+                "winOdds": "8.2",
+                "finalPosition": 2,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20508H",
+                  "name_en": "Chancer McPatrick (USA)",
+                  "name_ch": "猛兵先機"
+                },
+                "color": "20251102_S2_r5_h08",
+                "id": "20251102S20508",
+                "no": "8",
+                "handicapWeight": "123",
+                "jockey": {
+                  "code": "20251102S20508J",
+                  "name_en": "Jose Ortiz",
+                  "name_ch": "奧天誠"
+                },
+                "trainer": {
+                  "code": "20251102S20508T",
+                  "name_en": "Chad Brown",
+                  "name_ch": "白偉賢"
+                },
+                "last6run": "4/1/7/6/2",
+                "internationalRating": "107",
+                "sire": "McKinzie (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "8",
+                "gearInfo": "",
+                "margin": "3-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "3-1/4 馬位",
+                  "english": "3-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "36",
+                "finalPosition": 3,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20509H",
+                  "name_en": "Touch Of Destiny (URU)",
+                  "name_ch": "命運接觸"
+                },
+                "color": "20251102_S2_r5_h09",
+                "id": "20251102S20509",
+                "no": "9",
+                "handicapWeight": "120",
+                "jockey": {
+                  "code": "20251102S20509J",
+                  "name_en": "Luis Caceres",
+                  "name_ch": "裘乘利"
+                },
+                "trainer": {
+                  "code": "20251102S20509T",
+                  "name_en": "Michael McCarthy",
+                  "name_ch": "麥恪凡"
+                },
+                "last6run": "1/1/1/1/1",
+                "internationalRating": "113",
+                "sire": "Midshipman (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "9",
+                "gearInfo": "",
+                "margin": "25-1/2 LENGTHS",
+                "marginNm": {
+                  "chinese": "25-1/2 馬位",
+                  "english": "25-1/2 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "16",
+                "finalPosition": 8,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20510H",
+                  "name_en": "White Abarrio (USA)",
+                  "name_ch": "小村白馬"
+                },
+                "color": "20251102_S2_r5_h10",
+                "id": "20251102S20510",
+                "no": "10",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20251102S20510J",
+                  "name_en": "Irad Ortiz, Jr",
+                  "name_ch": "奧天信"
+                },
+                "trainer": {
+                  "code": "20251102S20510T",
+                  "name_en": "Saffie Joseph, Jr.",
+                  "name_ch": "張誠勳"
+                },
+                "last6run": "4/4/4/1/1",
+                "internationalRating": "124",
+                "sire": "Race Day (USA)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "H"
+                },
+                "age": 6,
+                "barrierDrawNumber": "10",
+                "gearInfo": "",
+                "margin": null,
+                "marginNm": null,
+                "lbwNm": null,
+                "winOdds": "",
+                "finalPosition": 0,
+                "deadHeat": false,
+                "status": "Scratched"
+              }
+            ],
+            "judgeSigns": [
+              {
+                "value_en": "WEIGHED IN"
+              }
+            ],
+            "raceName_en": "Breeders' Cup Dirt Mile",
+            "raceName_ch": "育馬者盃泥地一哩大賽",
+            "postTime": "2025-11-02T07:45:00+08:00",
+            "country_en": "United States of America",
+            "country_ch": "美國",
+            "distance": 1600,
+            "go_en": "FAST",
+            "go_ch": "快地",
+            "raceTrack": {
+              "description_en": "Dirt",
+              "description_ch": "泥地"
+            },
+            "raceCourse": {
+              "description_en": "Del Mar Racecourse",
+              "description_ch": "德爾馬馬場",
+              "displayCode": ""
+            },
+            "raceClass_en": "Grade 1",
+            "raceClass_ch": "一級賽",
+            "raceResults": [
+              {
+                "status": "WCFULLMARGIN",
+                "raceTime": "1:34.71",
+                "mgnInd": "M"
+              }
+            ]
+          },
+          {
+            "id": "20251102S206",
+            "no": 5,
+            "status": "RESULT",
+            "runners": [
+              {
+                "horse": {
+                  "id": "20251102S20601H",
+                  "name_en": "Mission Of Joy (CAN)",
+                  "name_ch": "興之所至"
+                },
+                "color": "20251102_S2_r6_h01",
+                "id": "20251102S20601",
+                "no": "1",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20601J",
+                  "name_en": "Umberto Rispoli",
+                  "name_ch": "李寶利"
+                },
+                "trainer": {
+                  "code": "20251102S20601T",
+                  "name_en": "Philip D'Amato",
+                  "name_ch": "艾馬圖"
+                },
+                "last6run": "1/3/6/6/7",
+                "internationalRating": "107",
+                "sire": "Kitten's Joy (USA)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "M"
+                },
+                "age": 5,
+                "barrierDrawNumber": "1",
+                "gearInfo": "",
+                "margin": "8-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "8-1/4 馬位",
+                  "english": "8-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "58",
+                "finalPosition": 10,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20602H",
+                  "name_en": "Stellify (USA)",
+                  "name_ch": "如星"
+                },
+                "color": "20251102_S2_r6_h02",
+                "id": "20251102S20602",
+                "no": "2",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20602J",
+                  "name_en": "Florent Geroux",
+                  "name_ch": "鄭朗升"
+                },
+                "trainer": {
+                  "code": "20251102S20602T",
+                  "name_en": "Brad Cox",
+                  "name_ch": "郝百特"
+                },
+                "last6run": "1/1/1/1/2",
+                "internationalRating": "108",
+                "sire": "Justify (USA)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 4,
+                "barrierDrawNumber": "2",
+                "gearInfo": "",
+                "margin": "NOSE",
+                "marginNm": {
+                  "chinese": "馬鼻位",
+                  "english": "NOSE"
+                },
+                "lbwNm": null,
+                "winOdds": "19",
+                "finalPosition": 7,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20603H",
+                  "name_en": "Atsila (IRE)",
+                  "name_ch": "紅火"
+                },
+                "color": "20251102_S2_r6_h03",
+                "id": "20251102S20603",
+                "no": "3",
+                "handicapWeight": "120",
+                "jockey": {
+                  "code": "20251102S20603J",
+                  "name_en": "Gavin Ryan",
+                  "name_ch": "黎見輝"
+                },
+                "trainer": {
+                  "code": "20251102S20603T",
+                  "name_en": "Donnacha O'Brien",
+                  "name_ch": "岳品賢"
+                },
+                "last6run": "6/3/8/6/7",
+                "internationalRating": "108",
+                "sire": "Phoenix of Spain (IRE)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 3,
+                "barrierDrawNumber": "3",
+                "gearInfo": "TT",
+                "margin": null,
+                "marginNm": null,
+                "lbwNm": null,
+                "winOdds": "",
+                "finalPosition": 0,
+                "deadHeat": false,
+                "status": "Scratched"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20604H",
+                  "name_en": "Village Voice (GB)",
+                  "name_ch": "村聲"
+                },
+                "color": "20251102_S2_r6_h04",
+                "id": "20251102S20604",
+                "no": "4",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20604J",
+                  "name_en": "Flavien Prat",
+                  "name_ch": "柏列特"
+                },
+                "trainer": {
+                  "code": "20251102S20604T",
+                  "name_en": "Chad Brown",
+                  "name_ch": "白偉賢"
+                },
+                "last6run": "1/4/1/6/4",
+                "internationalRating": "107",
+                "sire": "Zarak (FR)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "M"
+                },
+                "age": 5,
+                "barrierDrawNumber": "4",
+                "gearInfo": "",
+                "margin": "3-1/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "3-1/4 馬位",
+                  "english": "3-1/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "30",
+                "finalPosition": 12,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20605H",
+                  "name_en": "Gezora (FR)",
+                  "name_ch": "姬爽朗"
+                },
+                "color": "20251102_S2_r6_h05",
+                "id": "20251102S20605",
+                "no": "5",
+                "handicapWeight": "120",
+                "jockey": {
+                  "code": "20251102S20605J",
+                  "name_en": "Mickael Barzalona",
+                  "name_ch": "巴米高"
+                },
+                "trainer": {
+                  "code": "20251102S20605T",
+                  "name_en": "Francis-Henri Graffard",
+                  "name_ch": "葛威法"
+                },
+                "last6run": "13/2/1/1/3",
+                "internationalRating": "114",
+                "sire": "Almanzor (FR)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 3,
+                "barrierDrawNumber": "5",
+                "gearInfo": "TT",
+                "margin": "-",
+                "marginNm": {
+                  "chinese": "-",
+                  "english": "-"
+                },
+                "lbwNm": null,
+                "winOdds": "9.1",
+                "finalPosition": 1,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20606H",
+                  "name_en": "Diamond Rain (GB)",
+                  "name_ch": "鑽石雨"
+                },
+                "color": "20251102_S2_r6_h06",
+                "id": "20251102S20606",
+                "no": "6",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20606J",
+                  "name_en": "Billy Loughnane",
+                  "name_ch": "劉見龍"
+                },
+                "trainer": {
+                  "code": "20251102S20606T",
+                  "name_en": "Charlie Appleby",
+                  "name_ch": "艾柏賓"
+                },
+                "last6run": "2/1/1/4/12",
+                "internationalRating": "114",
+                "sire": "Shamardal (USA)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 4,
+                "barrierDrawNumber": "6",
+                "gearInfo": "",
+                "margin": "3/4 LENGTH",
+                "marginNm": {
+                  "chinese": "3/4 馬位",
+                  "english": "3/4 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "5.3",
+                "finalPosition": 3,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20607H",
+                  "name_en": "Be Your Best (IRE)",
+                  "name_ch": "最好自己"
+                },
+                "color": "20251102_S2_r6_h07",
+                "id": "20251102S20607",
+                "no": "7",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20607J",
+                  "name_en": "Irad Ortiz, Jr",
+                  "name_ch": "奧天信"
+                },
+                "trainer": {
+                  "code": "20251102S20607T",
+                  "name_en": "Saffie Joseph, Jr.",
+                  "name_ch": "張誠勳"
+                },
+                "last6run": "3/3/1/8/1",
+                "internationalRating": "110",
+                "sire": "Muhaarar (GB)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "M"
+                },
+                "age": 5,
+                "barrierDrawNumber": "7",
+                "gearInfo": "",
+                "margin": "1-1/2 LENGTHS",
+                "marginNm": {
+                  "chinese": "1-1/2 馬位",
+                  "english": "1-1/2 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "61",
+                "finalPosition": 11,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20608H",
+                  "name_en": "Cathedral (GB)",
+                  "name_ch": "寶座"
+                },
+                "color": "20251102_S2_r6_h08",
+                "id": "20251102S20608",
+                "no": "8",
+                "handicapWeight": "120",
+                "jockey": {
+                  "code": "20251102S20608J",
+                  "name_en": "David Egan",
+                  "name_ch": "易健寧"
+                },
+                "trainer": {
+                  "code": "20251102S20608T",
+                  "name_en": "K Philippart de Foy",
+                  "name_ch": "符定峰"
+                },
+                "last6run": "5/4/2/4/4",
+                "internationalRating": "107",
+                "sire": "Too Darn Hot (GB)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 3,
+                "barrierDrawNumber": "8",
+                "gearInfo": "",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "53",
+                "finalPosition": 4,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20609H",
+                  "name_en": "Cinderella's Dream (GB)",
+                  "name_ch": "仙履奇夢"
+                },
+                "color": "20251102_S2_r6_h09",
+                "id": "20251102S20609",
+                "no": "9",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20609J",
+                  "name_en": "William Buick",
+                  "name_ch": "布宜學"
+                },
+                "trainer": {
+                  "code": "20251102S20609T",
+                  "name_en": "Charlie Appleby",
+                  "name_ch": "艾柏賓"
+                },
+                "last6run": "3/4/1/2/1",
+                "internationalRating": "115",
+                "sire": "Shamardal (USA)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 4,
+                "barrierDrawNumber": "9",
+                "gearInfo": "",
+                "margin": "3/4 LENGTH",
+                "marginNm": {
+                  "chinese": "3/4 馬位",
+                  "english": "3/4 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "3.4",
+                "finalPosition": 8,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20610H",
+                  "name_en": "La Kika (PER)",
+                  "name_ch": "麗傾城"
+                },
+                "color": "20251102_S2_r6_h10",
+                "id": "20251102S20610",
+                "no": "10",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20610J",
+                  "name_en": "Mirco Demuro",
+                  "name_ch": "杜滿萊"
+                },
+                "trainer": {
+                  "code": "20251102S20610T",
+                  "name_en": "Doug O'Neill",
+                  "name_ch": "奧利"
+                },
+                "last6run": "5/1/5/4/1",
+                "internationalRating": "110",
+                "sire": "Badge of Silver (USA)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 4,
+                "barrierDrawNumber": "10",
+                "gearInfo": "",
+                "margin": "PULLED UP",
+                "marginNm": {
+                  "chinese": "拉停",
+                  "english": "PULLED UP"
+                },
+                "lbwNm": null,
+                "winOdds": "69",
+                "finalPosition": 13,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20611H",
+                  "name_en": "Bedtime Story (IRE)",
+                  "name_ch": "床邊小話"
+                },
+                "color": "20251102_S2_r6_h11",
+                "id": "20251102S20611",
+                "no": "11",
+                "handicapWeight": "120",
+                "jockey": {
+                  "code": "20251102S20611J",
+                  "name_en": "Christophe Soumillon",
+                  "name_ch": "蘇銘倫"
+                },
+                "trainer": {
+                  "code": "20251102S20611T",
+                  "name_en": "Aidan O'Brien",
+                  "name_ch": "岳伯仁"
+                },
+                "last6run": "4/7/3/5/4",
+                "internationalRating": "112",
+                "sire": "Frankel (GB)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 3,
+                "barrierDrawNumber": "11",
+                "gearInfo": "H",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "12",
+                "finalPosition": 5,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20612H",
+                  "name_en": "Bellezza (IRE)",
+                  "name_ch": "俏麗"
+                },
+                "color": "20251102_S2_r6_h12",
+                "id": "20251102S20612",
+                "no": "12",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20612J",
+                  "name_en": "Tyler Gaffalione",
+                  "name_ch": "紀輝亮"
+                },
+                "trainer": {
+                  "code": "20251102S20612T",
+                  "name_en": "Miguel Clement",
+                  "name_ch": "蓋禮望"
+                },
+                "last6run": "1/2/3/1/1",
+                "internationalRating": "109",
+                "sire": "Siyouni (FR)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 4,
+                "barrierDrawNumber": "12",
+                "gearInfo": "",
+                "margin": "2-3/4 LENGTHS",
+                "marginNm": {
+                  "chinese": "2-3/4 馬位",
+                  "english": "2-3/4 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "25",
+                "finalPosition": 6,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20613H",
+                  "name_en": "She Feels Pretty (USA)",
+                  "name_ch": "自信最美"
+                },
+                "color": "20251102_S2_r6_h13",
+                "id": "20251102S20613",
+                "no": "13",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20613J",
+                  "name_en": "John Velazquez",
+                  "name_ch": "華拉素奇"
+                },
+                "trainer": {
+                  "code": "20251102S20613T",
+                  "name_en": "Cherie DeVaux",
+                  "name_ch": "董芳兒"
+                },
+                "last6run": "1/2/1/1/1",
+                "internationalRating": "115",
+                "sire": "Karakontie (JPN)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 4,
+                "barrierDrawNumber": "13",
+                "gearInfo": "B",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "5.1",
+                "finalPosition": 2,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20251102S20614H",
+                  "name_en": "See The Fire (GB)",
+                  "name_ch": "觀火"
+                },
+                "color": "20251102_S2_r6_h14",
+                "id": "20251102S20614",
+                "no": "14",
+                "handicapWeight": "124",
+                "jockey": {
+                  "code": "20251102S20614J",
+                  "name_en": "Oisin Murphy",
+                  "name_ch": "莫艾誠"
+                },
+                "trainer": {
+                  "code": "20251102S20614T",
+                  "name_en": "Andrew Balding",
+                  "name_ch": "包義定"
+                },
+                "last6run": "2/4/3/3/1",
+                "internationalRating": "118",
+                "sire": "Sea The Stars (IRE)",
+                "sexNm": {
+                  "chinese": "雌",
+                  "english": "F"
+                },
+                "age": 4,
+                "barrierDrawNumber": "14",
+                "gearInfo": "",
+                "margin": "NECK",
+                "marginNm": {
+                  "chinese": "馬頸位",
+                  "english": "NECK"
+                },
+                "lbwNm": null,
+                "winOdds": "6.3",
+                "finalPosition": 9,
+                "deadHeat": false,
+                "status": "Ran"
+              }
+            ],
+            "judgeSigns": [
+              {
+                "value_en": "WEIGHED IN"
+              }
+            ],
+            "raceName_en": "Breeders' Cup Filly & Mare Turf",
+            "raceName_ch": "育馬者盃雌馬草地大賽",
+            "postTime": "2025-11-02T08:25:00+08:00",
+            "country_en": "United States of America",
+            "country_ch": "美國",
+            "distance": 2200,
+            "go_en": "FIRM",
+            "go_ch": "快地",
+            "raceTrack": {
+              "description_en": "Turf",
+              "description_ch": "草地"
+            },
+            "raceCourse": {
+              "description_en": "Del Mar Racecourse",
+              "description_ch": "德爾馬馬場",
+              "displayCode": ""
+            },
+            "raceClass_en": "Grade 1",
+            "raceClass_ch": "一級賽",
+            "raceResults": [
+              {
+                "status": "WCFULLMARGIN",
+                "raceTime": "2:12.54",
+                "mgnInd": "M"
+              }
+            ]
+          }
+        ],
+        "date": "2025-11-02",
+        "venueCode": "S2",
+        "pmPools": [
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                3,
+                4,
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TBL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": [
+              {
+                "winComb": "2/3,4,10/5",
+                "type": "Winning",
+                "div": "190",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "2/3,4,10/13",
+                "type": "Consolation",
+                "div": "70",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCE",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": [
+              {
+                "winComb": "14,1,10",
+                "type": "Winning",
+                "div": "15254",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCE",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": [
+              {
+                "winComb": "5,7,1",
+                "type": "Winning",
+                "div": "259",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCE",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": [
+              {
+                "winComb": "2,8,4",
+                "type": "Winning",
+                "div": "3268",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCE",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": [
+              {
+                "winComb": "3,7,8",
+                "type": "Winning",
+                "div": "1144",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCE",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": [
+              {
+                "winComb": "5,13,6",
+                "type": "Winning",
+                "div": "3576",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEInvest",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEInvest",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEInvest",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEInvest",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEInvest",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "",
+            "dividends": [
+              {
+                "winComb": "5,13,6,8",
+                "type": "Winning",
+                "div": "79911",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:45.236+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:50.682+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:55.603+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:16:01.033+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "",
+            "dividends": [
+              {
+                "winComb": "14,1,10,3",
+                "type": "Winning",
+                "div": "108636",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "",
+            "dividends": [
+              {
+                "winComb": "5,7,1,9",
+                "type": "Winning",
+                "div": "1375",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "",
+            "dividends": [
+              {
+                "winComb": "2,8,4,11",
+                "type": "Winning",
+                "div": "14750",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "",
+            "dividends": [
+              {
+                "winComb": "3,7,8,5",
+                "type": "Winning",
+                "div": "5527",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCETop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:37:07.380+08:00",
+            "dividends": [
+              {
+                "winComb": "5",
+                "type": "Winning",
+                "div": "20",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:55.492+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:16:00.701+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRITop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRITop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRITop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRITop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRITop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:55:29.683+08:00",
+            "dividends": [
+              {
+                "winComb": "14",
+                "type": "Winning",
+                "div": "336",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:50.501+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:17:15.057+08:00",
+            "dividends": [
+              {
+                "winComb": "2",
+                "type": "Winning",
+                "div": "24.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:56:30.407+08:00",
+            "dividends": [
+              {
+                "winComb": "3",
+                "type": "Winning",
+                "div": "14",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:38:33.913+08:00",
+            "dividends": [
+              {
+                "winComb": "5",
+                "type": "Winning",
+                "div": "91.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:40.278+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:45.210+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:50.673+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:55.559+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:16:00.875+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRI",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": [
+              {
+                "winComb": "5,6,13",
+                "type": "Winning",
+                "div": "519",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCETop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCETop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCETop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCETop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRI",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": [
+              {
+                "winComb": "1,10,14",
+                "type": "Winning",
+                "div": "2062",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRI",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": [
+              {
+                "winComb": "1,5,7",
+                "type": "Winning",
+                "div": "62",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRI",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": [
+              {
+                "winComb": "2,4,8",
+                "type": "Winning",
+                "div": "681",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRI",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": [
+              {
+                "winComb": "3,7,8",
+                "type": "Winning",
+                "div": "324",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:40.317+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:40.059+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:45.107+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:45.181+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FF",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": [
+              {
+                "winComb": "3,5,7,8",
+                "type": "Winning",
+                "div": "696",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FF",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": [
+              {
+                "winComb": "5,6,8,13",
+                "type": "Winning",
+                "div": "5271",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:40.262+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FF",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": [
+              {
+                "winComb": "2,4,8,11",
+                "type": "Winning",
+                "div": "643",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:50.659+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:55.544+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:16:00.843+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                4,
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": [
+              {
+                "winComb": "7,8>3,4,10/5,6,13",
+                "type": "Winning",
+                "div": "18552",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2,
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DBL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": [
+              {
+                "winComb": "5/2",
+                "type": "Winning",
+                "div": "65.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "5/8",
+                "type": "Consolation",
+                "div": "93.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3,
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DBL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": [
+              {
+                "winComb": "2/3,4,10",
+                "type": "Winning",
+                "div": "42.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "2/7",
+                "type": "Consolation",
+                "div": "50",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4,
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DBL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": [
+              {
+                "winComb": "3,4,10/5",
+                "type": "Winning",
+                "div": "79",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "3,4,10/13",
+                "type": "Consolation",
+                "div": "22.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1,
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DBLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:40.344+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2,
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DBLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:45.253+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3,
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DBLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:50.717+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4,
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DBLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:55.618+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1,
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": [
+              {
+                "winComb": "1,10,14/1,5,7",
+                "type": "Winning",
+                "div": "103270",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLA",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:55:29.683+08:00",
+            "dividends": [
+              {
+                "winComb": "14",
+                "type": "Winning",
+                "div": "42",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "10",
+                "type": "Winning",
+                "div": "40",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "1",
+                "type": "Winning",
+                "div": "15.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FCT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": [
+              {
+                "winComb": "14,1",
+                "type": "Winning",
+                "div": "1410",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FCT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": [
+              {
+                "winComb": "5,7",
+                "type": "Winning",
+                "div": "126",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FCT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": [
+              {
+                "winComb": "2,8",
+                "type": "Winning",
+                "div": "639",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FCT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": [
+              {
+                "winComb": "3,7",
+                "type": "Winning",
+                "div": "75",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FCT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": [
+              {
+                "winComb": "5,13",
+                "type": "Winning",
+                "div": "886",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FF",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": [
+              {
+                "winComb": "1,3,10,14",
+                "type": "Winning",
+                "div": "3214",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FF",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": [
+              {
+                "winComb": "1,5,7,9",
+                "type": "Winning",
+                "div": "113",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:45.228+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN1",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:44:52.619+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN1",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:25:03.994+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": [
+              {
+                "winComb": "1,14",
+                "type": "Winning",
+                "div": "557",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": [
+              {
+                "winComb": "5,7",
+                "type": "Winning",
+                "div": "86.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": [
+              {
+                "winComb": "2,8",
+                "type": "Winning",
+                "div": "409.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": [
+              {
+                "winComb": "3,7",
+                "type": "Winning",
+                "div": "56",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": [
+              {
+                "winComb": "5,13",
+                "type": "Winning",
+                "div": "365.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:40.301+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN1",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:04:52.312+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:50.682+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:55.599+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:16:00.927+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": [
+              {
+                "winComb": "1,10",
+                "type": "Winning",
+                "div": "96",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "10,14",
+                "type": "Winning",
+                "div": "570",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "1,14",
+                "type": "Winning",
+                "div": "159.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:36.747+08:00",
+            "dividends": [
+              {
+                "winComb": "1,7",
+                "type": "Winning",
+                "div": "45.5",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "1,5",
+                "type": "Winning",
+                "div": "28.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "5,7",
+                "type": "Winning",
+                "div": "32",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:28.887+08:00",
+            "dividends": [
+              {
+                "winComb": "4,8",
+                "type": "Winning",
+                "div": "175.5",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "2,8",
+                "type": "Winning",
+                "div": "141",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "2,4",
+                "type": "Winning",
+                "div": "32.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:18.337+08:00",
+            "dividends": [
+              {
+                "winComb": "3,7",
+                "type": "Winning",
+                "div": "25.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "7,8",
+                "type": "Winning",
+                "div": "156.5",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "3,8",
+                "type": "Winning",
+                "div": "65.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:27:44.510+08:00",
+            "dividends": [
+              {
+                "winComb": "5,13",
+                "type": "Winning",
+                "div": "122.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "6,13",
+                "type": "Winning",
+                "div": "45",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "5,6",
+                "type": "Winning",
+                "div": "109.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLAPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:16:00.915+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLA",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:37:07.380+08:00",
+            "dividends": [
+              {
+                "winComb": "1",
+                "type": "Winning",
+                "div": "18",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "5",
+                "type": "Winning",
+                "div": "12.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "7",
+                "type": "Winning",
+                "div": "16",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLA",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:17:15.057+08:00",
+            "dividends": [
+              {
+                "winComb": "4",
+                "type": "Winning",
+                "div": "17",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "2",
+                "type": "Winning",
+                "div": "15",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "8",
+                "type": "Winning",
+                "div": "69.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLA",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:56:30.407+08:00",
+            "dividends": [
+              {
+                "winComb": "8",
+                "type": "Winning",
+                "div": "37.5",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "7",
+                "type": "Winning",
+                "div": "19.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "3",
+                "type": "Winning",
+                "div": "12",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLA",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T08:38:33.913+08:00",
+            "dividends": [
+              {
+                "winComb": "13",
+                "type": "Winning",
+                "div": "18.5",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "6",
+                "type": "Winning",
+                "div": "19.5",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "5",
+                "type": "Winning",
+                "div": "26.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLAPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:40.281+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLAPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:45.221+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLAPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:50.682+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLAPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T02:15:55.582+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1,
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "DBL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:24.223+08:00",
+            "dividends": [
+              {
+                "winComb": "14/5",
+                "type": "Winning",
+                "div": "1727",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "14/7",
+                "type": "Consolation",
+                "div": "499",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN0",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T04:11:03.564+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN0",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:44:21.420+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 3,
+              "races": [
+                3
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN0",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:27:34.627+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 4,
+              "races": [
+                4
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN0",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:07:24.128+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 5,
+              "races": [
+                5
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN0",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T07:47:16.421+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN1",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T05:41:23.319+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 2,
+              "races": [
+                2
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN1",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2025-11-02T06:25:01.803+08:00",
+            "dividends": []
+          }
+        ],
+        "status": "CLOSED"
+      }
+    ]
+  }
+}

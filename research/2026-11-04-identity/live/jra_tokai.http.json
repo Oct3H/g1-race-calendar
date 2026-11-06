@@ -1,0 +1,10 @@
+{
+  "name": "jra_tokai",
+  "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0107202602020720260726%2F12",
+  "method": "GET",
+  "requested_at": "2026-11-04T09:33:22.987005+00:00",
+  "status": 403,
+  "error": "HTTP Error 403: Forbidden",
+  "bytes": 402,
+  "sha256": "1a60a9643efb2d07aca2e4fe76ac9792d3c41df29ac8892467fa41236f09cf74"
+}

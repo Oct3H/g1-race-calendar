@@ -1,0 +1,90 @@
+{
+  "browser_visual_check": "not_run_due_to_prior_browser_url_policy_rejection",
+  "static_pages": {
+    "index.html": {
+      "unique_ids": 138,
+      "balanced_tags": true,
+      "local_resources_exist": true
+    },
+    "settings.html": {
+      "unique_ids": 8,
+      "balanced_tags": true,
+      "local_resources_exist": true
+    }
+  },
+  "date_checks": "passed: 360 months, leap years, year boundaries and timezone date",
+  "existing_game_rules": "passed",
+  "calendar_control_ids_exist": [
+    "calendar-checked-at",
+    "calendar-demo-network",
+    "calendar-empty",
+    "calendar-empty-action",
+    "calendar-empty-copy",
+    "calendar-empty-title",
+    "calendar-jump",
+    "calendar-month-dialog",
+    "calendar-month-options",
+    "calendar-month-summary",
+    "calendar-next",
+    "calendar-previous",
+    "calendar-refresh",
+    "calendar-region-count",
+    "calendar-region-dialog",
+    "calendar-region-options",
+    "calendar-regions",
+    "calendar-regions-apply",
+    "calendar-title",
+    "calendar-today",
+    "calendar-update",
+    "calendar-update-copy",
+    "calendar-update-title",
+    "calendar-year-input",
+    "calendar-zone-label"
+  ],
+  "css_variables_resolve": true,
+  "daily_mode_character_background_disabled": true,
+  "head_requests": [
+    {
+      "path": "/index.html?preview=calendar&v=33",
+      "status": 200,
+      "content_type": "text/html",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/calendar-workspace.css?v=33",
+      "status": 200,
+      "content_type": "text/css",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/design.js?v=33",
+      "status": 200,
+      "content_type": "text/javascript",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/calendar-rules.js?v=33",
+      "status": 200,
+      "content_type": "text/javascript",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/settings.html?from=calendar&v=33",
+      "status": 200,
+      "content_type": "text/html",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/settings.js?v=33",
+      "status": 200,
+      "content_type": "text/javascript",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/cache-design.js?v=33",
+      "status": 200,
+      "content_type": "text/javascript",
+      "cache_control": "no-store"
+    }
+  ]
+}

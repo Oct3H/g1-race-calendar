@@ -1,0 +1,10 @@
+{
+  "query": "query SimulcastHorseProfile($ids: [String!], $meetingDate: String, $raceNumber: String) {\n  simulcastHorse(ids: $ids, meetingDate: $meetingDate, raceNumber: $raceNumber) {\n    age\n    brandNumber\n    earings\n    colour {\n      code\n      chinese\n      english\n    }\n    dam\n    countryOfOrigin {\n      chinese\n      code\n      english\n    }\n    sire\n    sireOfDam\n    rating\n    name_ch\n    name_en\n    gender {\n      chinese\n      code\n      english\n    }\n    id\n    trainer {\n      name_ch\n      name_en\n    }\n    ownerName {\n      chinese\n      code\n      english\n    }\n    winningRecord {\n      totalStakes\n      firstPlace\n      secondPlace\n      thirdPlace\n      totalRun\n    }\n    performanceStats {\n      type\n      firstPlace\n      secondPlace\n      thirdPlace\n      totalRun\n      ssn\n    }\n    horseFormRecord {\n      id\n    }  \n  }\n}\n",
+  "variables": {
+    "ids": [
+      "20261025S20109"
+    ],
+    "meetingDate": "20261025",
+    "raceNumber": "1"
+  }
+}

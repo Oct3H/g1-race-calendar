@@ -1,0 +1,27 @@
+{
+  "round": 50,
+  "date": "2026-10-24",
+  "previewUrl": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&game=ticket-status&refund=preview&v=50",
+  "decisions": {
+    "filters": ["全部", "等待赛果", "待查看结算", "已结算", "已退款"],
+    "default": "全部",
+    "scope": "Filter individual tickets, then group matching tickets by race; filtered totals describe visible records only",
+    "resultQueue": "Shop unread races sorted by startAt ascending, stable race ID tie-break; credit only when each race result is displayed"
+  },
+  "fixture": {"races": 4, "tickets": 11, "cash": 480000, "waiting": 5, "ready": 2, "settled": 3, "refunded": 1, "shopResultOrder": ["arc", "shuka"]},
+  "checks": {
+    "check_ticket_folder.mjs": "PASS: five filters/counts, per-ticket visibility, scoped totals, historical addition identity, no ledger mutation, actual handler/focus, filtered refund, distinct empty states and previous fixture tests",
+    "check_change_preview.mjs": "PASS: actual shop result flow pays earlier race first and leaves later pending, next display pays later, repeat display no credit; existing change/refund flows retained",
+    "check_ticket_confirmation.mjs": "PASS",
+    "check_game_preview.mjs": "PASS",
+    "check_voluntary_refund.mjs": "PASS",
+    "static": "PASS: 202 combined static/template IDs unique, literal local resources/imports exist, modified modules parse, CSS delimiters balanced, v50 entry chain",
+    "head": [
+      {"path": "/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&game=ticket-status&refund=preview&v=50", "status": 200, "cacheControl": "no-store"},
+      {"path": "/design.js?v=50", "status": 200, "cacheControl": "no-store"},
+      {"path": "/game-design.js?v=50", "status": 200, "cacheControl": "no-store"},
+      {"path": "/ticket-folder.css?v=50", "status": 200, "cacheControl": "no-store"}
+    ]
+  },
+  "limitations": ["No automated browser rendering, visual measurement or native keyboard check; existing browser access restriction respected", "Fictional in-memory design only; reload resets state; no real data fetch or persistence"]
+}

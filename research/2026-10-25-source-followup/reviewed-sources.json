@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "japan-directory-discovery",
+      "title": "取得日本年度赛程及未来有马条件页",
+      "queries": [
+        {
+          "id": "saved-japan-conditions",
+          "capturedAt": "2026-10-25T14:55:56.396182+00:00",
+          "source": {
+            "label": "JAIRS／Horse Racing in Japan 2026 目录与条件页",
+            "files": [
+              {
+                "label": "field-checks.json"
+              },
+              {
+                "label": "discovery-probe.json"
+              }
+            ],
+            "links": [
+              {
+                "label": "2026 年度目录",
+                "url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+              },
+              {
+                "label": "2026 有马条件页",
+                "url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1227arima.html"
+              }
+            ],
+            "filters": [
+              "目录：2026 年，等级严格等于 G1",
+              "详情链接：从年度目录实际 href 取得"
+            ],
+            "caveats": [
+              "24 场是目录中的平地 GⅠ数量，不是完整详细资料覆盖数量。",
+              "有马条件页中的 2025 年冠军不能填作 2026 年赛果。",
+              "本次未打通原先 403 的 JRA 日文路径，也未验证未来名单与赛前赔率更新。"
+            ]
+          },
+          "summary": "普通 HTTP 取得赛程及未来条件页，发现路径已保存。"
+        }
+      ]
+    },
+    {
+      "id": "era-runner-results",
+      "title": "ERA 动态表格取得 11 匹历史赛果及原始 SP",
+      "queries": [
+        {
+          "id": "observed-era-tables",
+          "capturedAt": "2026-10-25T14:55:56.396182+00:00",
+          "source": {
+            "label": "ERA 2025 Dubai World Cup 公开表格",
+            "files": [
+              {
+                "label": "field-checks.json"
+              },
+              {
+                "label": "probe_observed_links.py"
+              }
+            ],
+            "links": [
+              {
+                "label": "ERA 原赛事页",
+                "url": "https://emiratesracing.com/racecard/2025-04-05/9/results"
+              }
+            ],
+            "filters": [
+              "赛事：2025-04-05，第 9 场",
+              "加载地址：原页面 data-src 与公开客户端 /ajax/ 规则"
+            ],
+            "caveats": [
+              "11 条 SP 是原始 Starting Price 字段；市场及含本金语义尚未确认，没有作为可购买倍率。",
+              "单场历史表格不证明赛前赔率持续更新、未来新赛事发现或全年覆盖。"
+            ]
+          },
+          "columns": [
+            "entries",
+            "results",
+            "raw_sp_present"
+          ],
+          "rows": [
+            {
+              "entries": 11,
+              "results": 11,
+              "raw_sp_present": 11
+            }
+          ],
+          "summary": "名单与赛果按马号和马名匹配，名次完整为 1—11。"
+        }
+      ]
+    }
+  ]
+}

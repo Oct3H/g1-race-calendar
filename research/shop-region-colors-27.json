@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "accent": "rgb(38, 126, 131)",
+      "race": "cox",
+      "region": "au",
+      "sameAccent": true,
+      "sameBackground": true,
+      "sameBorder": true,
+      "sameText": true
+    },
+    {
+      "accent": "rgb(119, 80, 170)",
+      "race": "kikuka",
+      "region": "jp",
+      "sameAccent": true,
+      "sameBackground": true,
+      "sameBorder": true,
+      "sameText": true
+    },
+    {
+      "accent": "rgb(38, 126, 131)",
+      "race": "derby",
+      "region": "au",
+      "sameAccent": true,
+      "sameBackground": true,
+      "sameBorder": true,
+      "sameText": true
+    },
+    {
+      "accent": "rgb(119, 80, 170)",
+      "race": "tenno",
+      "region": "jp",
+      "sameAccent": true,
+      "sameBackground": true,
+      "sameBorder": true,
+      "sameText": true
+    }
+  ],
+  "console": []
+}

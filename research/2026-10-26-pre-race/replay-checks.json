@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-26T12:44:13.581Z",
+  "scope": "Offline real-archive replay only; no production wallet or live pre-race proof",
+  "source_quote": "12.6",
+  "final_jra_quote": "12.0",
+  "final_hkjc_quote": "13",
+  "stake": 10000,
+  "locked_return": 126000,
+  "fixture_cash_before": 500000,
+  "cash_after_purchase": 490000,
+  "cash_after_result_received": 490000,
+  "cash_after_viewed_settlement": 616000,
+  "same_day_blocked": true,
+  "repeat_settlement_idempotent": true,
+  "current_unpublished_samples_rejected": 2
+}

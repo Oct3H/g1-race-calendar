@@ -1,0 +1,10 @@
+{
+  "name": "jra_tenno",
+  "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde1005202604111120261101%2F41",
+  "method": "GET",
+  "requested_at": "2026-11-04T09:33:22.986754+00:00",
+  "status": null,
+  "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

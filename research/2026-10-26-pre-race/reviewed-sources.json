@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "current-future-stage",
+      "title": "未来赛事仍是报名阶段，未取得合格可购买报价",
+      "queries": [
+        {
+          "id": "current-entries",
+          "capturedAt": "2026-10-26T12:44:13.542113+00:00",
+          "source": {
+            "label": "HKJC 今日报名公告及 Breeders’ Cup 预报名 JSON",
+            "files": [
+              {
+                "label": "sequence-checks.json"
+              },
+              {
+                "label": "request-manifest.json"
+              }
+            ],
+            "links": [
+              {
+                "label": "天皇赏报名",
+                "url": "https://racingnews.hkjc.com/english/2026/10/26/tenno-sho-autumn-entries/"
+              },
+              {
+                "label": "BCC 预报名",
+                "url": "https://www.breederscup.com/horses/pre-entries"
+              }
+            ],
+            "filters": [
+              "获取日：2026-10-26",
+              "赛事：天皇赏（秋）、BCC"
+            ],
+            "caveats": [
+              "报名马数不是最后确认出走数。",
+              "空查询列表不能当成没有赛程、取消或退赛。"
+            ]
+          },
+          "columns": [
+            "race",
+            "entries",
+            "qualified_win_quotes"
+          ],
+          "rows": [
+            {
+              "race": "Tenno Sho (Autumn)",
+              "entries": 17,
+              "qualified_win_quotes": 0
+            },
+            {
+              "race": "Breeders' Cup Classic",
+              "entries": 10,
+              "qualified_win_quotes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jra-archive-replay",
+      "title": "真实赛前存档及独立内存回放通过",
+      "queries": [
+        {
+          "id": "jra-saturday-win",
+          "capturedAt": "2026-10-26T12:44:13.542113+00:00",
+          "source": {
+            "label": "JAIRS 发布的 JRA 周六彩池报价、正式排位及赛果",
+            "files": [
+              {
+                "label": "ja-prerace-odds.pdf"
+              },
+              {
+                "label": "sequence-checks.json"
+              },
+              {
+                "label": "replay-checks.json"
+              }
+            ],
+            "links": [
+              {
+                "label": "官方赛前报价存档",
+                "url": "https://japanracing.jp/_news2026/pdf/261024.pdf"
+              },
+              {
+                "label": "日本赛果页",
+                "url": "https://japanracing.jp/_news2026/261025.html"
+              }
+            ],
+            "filters": [
+              "样本：2026 菊花赏，18 匹",
+              "报价快照：2026-10-24 17:30，日本时间"
+            ],
+            "caveats": [
+              "存档在赛后取回，不证明当时已经实时联网抓取或未来发布链路通过。",
+              "资金数值来自独立内存回放，不是正式账户余额。",
+              "最终 JRA 12.0 与 HKJC 13 分别保留，不替换原马券锁定的 12.6。"
+            ]
+          },
+          "columns": [
+            "step",
+            "virtual_jpy"
+          ],
+          "rows": [
+            {
+              "step": "独立已启用账户",
+              "virtual_jpy": 500000
+            },
+            {
+              "step": "购买 10,000 后",
+              "virtual_jpy": 490000
+            },
+            {
+              "step": "仅收到正式赛果",
+              "virtual_jpy": 490000
+            },
+            {
+              "step": "模拟查看结算后",
+              "virtual_jpy": 616000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regional-fallback-results",
+      "title": "五个地区的代表赛果备用来源取得完整名次",
+      "queries": [
+        {
+          "id": "saved-regional-results",
+          "capturedAt": "2026-10-26T12:44:13.542113+00:00",
+          "source": {
+            "label": "HKJC 公开 RaceResultsProfile 保存响应",
+            "files": [
+              {
+                "label": "sequence-checks.json"
+              },
+              {
+                "label": "check_sequence.py"
+              }
+            ],
+            "filters": [
+              "范围：五个 2025 年代表赛事",
+              "仅检查返回的逐马名次、状态、原始 WIN 及身份"
+            ],
+            "caveats": [
+              "代表样本不等于当地原站通过或全年度覆盖。",
+              "原始报价可读不代表该市场的倍率语义已全部核实。",
+              "后备未出赛与已确认参赛后退赛分别保存；0 不显示为普通名次。"
+            ]
+          },
+          "columns": [
+            "country",
+            "race",
+            "finishers",
+            "raw_win_values"
+          ],
+          "rows": [
+            {
+              "country": "France",
+              "race": "Prix de l'Arc de Triomphe",
+              "finishers": 17,
+              "raw_win_values": 17
+            },
+            {
+              "country": "United Kingdom",
+              "race": "Champion Stakes",
+              "finishers": 11,
+              "raw_win_values": 11
+            },
+            {
+              "country": "Ireland",
+              "race": "Irish Champion Stakes",
+              "finishers": 8,
+              "raw_win_values": 8
+            },
+            {
+              "country": "United States of America",
+              "race": "Breeders' Cup Classic",
+              "finishers": 9,
+              "raw_win_values": 9
+            },
+            {
+              "country": "Saudi Arabia",
+              "race": "Saudi Cup",
+              "finishers": 14,
+              "raw_win_values": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "horse-profile-limits",
+      "title": "六项马匹资料与此前五场可读，历史详情链接仍待匹配",
+      "queries": [
+        {
+          "id": "horse-parameter-check",
+          "capturedAt": "2026-10-26T12:44:13.542113+00:00",
+          "source": {
+            "label": "HKJC 公开马匹及战绩查询",
+            "files": [
+              {
+                "label": "sequence-checks.json"
+              },
+              {
+                "label": "check_sequence.py"
+              }
+            ],
+            "filters": [
+              "样本：Going to Sky，1 匹",
+              "战绩日期：早于所查看的 2026-10-25 比赛"
+            ],
+            "caveats": [
+              "使用逐马 ID 和 YYYYMMDD 修正原请求后成功，不把旧空响应解释为源无字段。",
+              "历史行返回的父上下文 ID 重复，不能直接作为各历史比赛的跳转地址。",
+              "单匹样本不代表所有马匹字段与跨国战绩齐全。"
+            ]
+          },
+          "summary": "六项基础字段已核对，五场均在本场之前；逐场完整详情跳转尚未通过。"
+        }
+      ]
+    }
+  ]
+}

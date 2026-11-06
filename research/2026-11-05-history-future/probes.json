@@ -1,0 +1,28 @@
+[
+  {
+    "name": "arima2024",
+    "url": "https://japanracing.jp/_news2024/241222.html",
+    "status": 200,
+    "final": "https://japanracing.jp/_news2024/241222.html",
+    "bytes": 56119
+  },
+  {
+    "name": "hopeful2025",
+    "url": "https://japanracing.jp/_news2025/251227-03.html",
+    "status": 200,
+    "final": "https://japanracing.jp/_news2025/251227-03.html",
+    "bytes": 52453
+  },
+  {
+    "name": "news",
+    "url": "https://japanracing.jp/en/racing/news_media/news/",
+    "status": 200,
+    "final": "https://japanracing.jp/en/racing/news_media/news/",
+    "bytes": 390
+  },
+  {
+    "name": "hkcup2019",
+    "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2019%2F12%2F08&racecourse=ST&RaceNo=8",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)>"
+  }
+]

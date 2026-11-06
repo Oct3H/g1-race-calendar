@@ -1,0 +1,1351 @@
+{
+  "status": "PASSED",
+  "checks": 336,
+  "results": [
+    {
+      "language": "zh",
+      "label": "calendar-start"
+    },
+    {
+      "language": "zh",
+      "label": "region-dialog"
+    },
+    {
+      "language": "zh",
+      "label": "empty-filter"
+    },
+    {
+      "language": "zh",
+      "label": "month-dialog"
+    },
+    {
+      "language": "zh",
+      "label": "unloaded-month"
+    },
+    {
+      "language": "zh",
+      "label": "race-sprinters"
+    },
+    {
+      "language": "zh",
+      "label": "horse-sprinters"
+    },
+    {
+      "language": "zh",
+      "label": "history-sprinters"
+    },
+    {
+      "language": "zh",
+      "label": "race-arc"
+    },
+    {
+      "language": "zh",
+      "label": "horse-arc"
+    },
+    {
+      "language": "zh",
+      "label": "history-arc"
+    },
+    {
+      "language": "zh",
+      "label": "race-dewhurst"
+    },
+    {
+      "language": "zh",
+      "label": "horse-dewhurst"
+    },
+    {
+      "language": "zh",
+      "label": "history-dewhurst"
+    },
+    {
+      "language": "zh",
+      "label": "race-champion"
+    },
+    {
+      "language": "zh",
+      "label": "horse-champion"
+    },
+    {
+      "language": "zh",
+      "label": "history-champion"
+    },
+    {
+      "language": "zh",
+      "label": "race-shuka"
+    },
+    {
+      "language": "zh",
+      "label": "horse-shuka"
+    },
+    {
+      "language": "zh",
+      "label": "history-shuka"
+    },
+    {
+      "language": "zh",
+      "label": "race-cox"
+    },
+    {
+      "language": "zh",
+      "label": "horse-cox"
+    },
+    {
+      "language": "zh",
+      "label": "history-cox"
+    },
+    {
+      "language": "zh",
+      "label": "race-kikuka"
+    },
+    {
+      "language": "zh",
+      "label": "horse-kikuka"
+    },
+    {
+      "language": "zh",
+      "label": "history-kikuka"
+    },
+    {
+      "language": "zh",
+      "label": "race-derby"
+    },
+    {
+      "language": "zh",
+      "label": "horse-derby"
+    },
+    {
+      "language": "zh",
+      "label": "history-derby"
+    },
+    {
+      "language": "zh",
+      "label": "race-tenno"
+    },
+    {
+      "language": "zh",
+      "label": "horse-tenno"
+    },
+    {
+      "language": "zh",
+      "label": "history-tenno"
+    },
+    {
+      "language": "zh",
+      "label": "race-layout-demo-jp"
+    },
+    {
+      "language": "zh",
+      "label": "horse-layout-demo-jp"
+    },
+    {
+      "language": "zh",
+      "label": "history-layout-demo-jp"
+    },
+    {
+      "language": "zh",
+      "label": "race-layout-demo-hk"
+    },
+    {
+      "language": "zh",
+      "label": "horse-layout-demo-hk"
+    },
+    {
+      "language": "zh",
+      "label": "history-layout-demo-hk"
+    },
+    {
+      "language": "zh",
+      "label": "race-change-postponed"
+    },
+    {
+      "language": "zh",
+      "label": "horse-change-postponed"
+    },
+    {
+      "language": "zh",
+      "label": "history-change-postponed"
+    },
+    {
+      "language": "zh",
+      "label": "race-change-cancelled"
+    },
+    {
+      "language": "zh",
+      "label": "horse-change-cancelled"
+    },
+    {
+      "language": "zh",
+      "label": "history-change-cancelled"
+    },
+    {
+      "language": "zh",
+      "label": "race-change-withdrawn"
+    },
+    {
+      "language": "zh",
+      "label": "horse-change-withdrawn"
+    },
+    {
+      "language": "zh",
+      "label": "history-change-withdrawn"
+    },
+    {
+      "language": "zh",
+      "label": "race-update-demo"
+    },
+    {
+      "language": "zh",
+      "label": "horse-update-demo"
+    },
+    {
+      "language": "zh",
+      "label": "history-update-demo"
+    },
+    {
+      "language": "zh",
+      "label": "cache-start"
+    },
+    {
+      "language": "zh",
+      "label": "cache-offline"
+    },
+    {
+      "language": "zh",
+      "label": "cache-clear-confirm"
+    },
+    {
+      "language": "zh",
+      "label": "cache-cleared"
+    },
+    {
+      "language": "zh",
+      "label": "cache-single-race"
+    },
+    {
+      "language": "zh",
+      "label": "cache-redownload"
+    },
+    {
+      "language": "zh",
+      "label": "cache-paused"
+    },
+    {
+      "language": "zh",
+      "label": "cache-complete"
+    },
+    {
+      "language": "zh",
+      "label": "collection-finding"
+    },
+    {
+      "language": "zh",
+      "label": "collection-paused-finding"
+    },
+    {
+      "language": "zh",
+      "label": "collection-details"
+    },
+    {
+      "language": "zh",
+      "label": "collection-paused-details"
+    },
+    {
+      "language": "zh",
+      "label": "collection-failed"
+    },
+    {
+      "language": "zh",
+      "label": "collection-check-failed"
+    },
+    {
+      "language": "zh",
+      "label": "collection-offline"
+    },
+    {
+      "language": "zh",
+      "label": "collection-check-offline"
+    },
+    {
+      "language": "zh",
+      "label": "collection-offline-empty"
+    },
+    {
+      "language": "zh",
+      "label": "collection-check-offline-empty"
+    },
+    {
+      "language": "zh",
+      "label": "collection-complete"
+    },
+    {
+      "language": "zh",
+      "label": "quality-unpublished"
+    },
+    {
+      "language": "zh",
+      "label": "quality-partial-entries"
+    },
+    {
+      "language": "zh",
+      "label": "quality-cached-failed"
+    },
+    {
+      "language": "zh",
+      "label": "quality-empty-failed"
+    },
+    {
+      "language": "zh",
+      "label": "quality-results-pending"
+    },
+    {
+      "language": "zh",
+      "label": "quality-official-partial"
+    },
+    {
+      "language": "zh",
+      "label": "quality-conflict"
+    },
+    {
+      "language": "zh",
+      "label": "shop"
+    },
+    {
+      "language": "zh",
+      "label": "bank"
+    },
+    {
+      "language": "zh",
+      "label": "bank-withdraw"
+    },
+    {
+      "language": "zh",
+      "label": "purchase"
+    },
+    {
+      "language": "zh",
+      "label": "ticket-folder"
+    },
+    {
+      "language": "zh",
+      "label": "correction-credit"
+    },
+    {
+      "language": "zh",
+      "label": "correction-debit"
+    },
+    {
+      "language": "zh",
+      "label": "correction-shortfall"
+    },
+    {
+      "language": "zh",
+      "label": "correction-multiple"
+    },
+    {
+      "language": "zh",
+      "label": "correction-tie"
+    },
+    {
+      "language": "zh",
+      "label": "correction-neutral"
+    },
+    {
+      "language": "zh",
+      "label": "correction-live-result"
+    },
+    {
+      "language": "zh",
+      "label": "correction-live"
+    },
+    {
+      "language": "zh",
+      "label": "notifications-refund"
+    },
+    {
+      "language": "zh",
+      "label": "notifications-correction"
+    },
+    {
+      "language": "zh",
+      "label": "notifications-settlement"
+    },
+    {
+      "language": "zh",
+      "label": "notification-start-result"
+    },
+    {
+      "language": "zh",
+      "label": "notification-arrival-result"
+    },
+    {
+      "language": "zh",
+      "label": "notification-start-correction"
+    },
+    {
+      "language": "zh",
+      "label": "notification-arrival-correction"
+    },
+    {
+      "language": "zh",
+      "label": "notification-start-shortfall"
+    },
+    {
+      "language": "zh",
+      "label": "notification-arrival-shortfall"
+    },
+    {
+      "language": "zh",
+      "label": "settings-language"
+    },
+    {
+      "language": "en",
+      "label": "settings-language-switch-en"
+    },
+    {
+      "language": "ja",
+      "label": "settings-language-switch-ja"
+    },
+    {
+      "language": "zh",
+      "label": "settings-language-switch-zh"
+    },
+    {
+      "language": "en",
+      "label": "settings-language-switch-en"
+    },
+    {
+      "language": "zh",
+      "label": "settings-sources"
+    },
+    {
+      "language": "en",
+      "label": "settings-sources-switch-en"
+    },
+    {
+      "language": "ja",
+      "label": "settings-sources-switch-ja"
+    },
+    {
+      "language": "zh",
+      "label": "settings-sources-switch-zh"
+    },
+    {
+      "language": "en",
+      "label": "settings-sources-switch-en"
+    },
+    {
+      "language": "zh",
+      "label": "welcome.html"
+    },
+    {
+      "language": "zh",
+      "label": "startup-preview.html"
+    },
+    {
+      "language": "zh",
+      "label": "settings-options.html"
+    },
+    {
+      "language": "zh",
+      "label": "density-2025.html"
+    },
+    {
+      "language": "ja",
+      "label": "calendar-start"
+    },
+    {
+      "language": "ja",
+      "label": "region-dialog"
+    },
+    {
+      "language": "ja",
+      "label": "empty-filter"
+    },
+    {
+      "language": "ja",
+      "label": "month-dialog"
+    },
+    {
+      "language": "ja",
+      "label": "unloaded-month"
+    },
+    {
+      "language": "ja",
+      "label": "race-sprinters"
+    },
+    {
+      "language": "ja",
+      "label": "horse-sprinters"
+    },
+    {
+      "language": "ja",
+      "label": "history-sprinters"
+    },
+    {
+      "language": "ja",
+      "label": "race-arc"
+    },
+    {
+      "language": "ja",
+      "label": "horse-arc"
+    },
+    {
+      "language": "ja",
+      "label": "history-arc"
+    },
+    {
+      "language": "ja",
+      "label": "race-dewhurst"
+    },
+    {
+      "language": "ja",
+      "label": "horse-dewhurst"
+    },
+    {
+      "language": "ja",
+      "label": "history-dewhurst"
+    },
+    {
+      "language": "ja",
+      "label": "race-champion"
+    },
+    {
+      "language": "ja",
+      "label": "horse-champion"
+    },
+    {
+      "language": "ja",
+      "label": "history-champion"
+    },
+    {
+      "language": "ja",
+      "label": "race-shuka"
+    },
+    {
+      "language": "ja",
+      "label": "horse-shuka"
+    },
+    {
+      "language": "ja",
+      "label": "history-shuka"
+    },
+    {
+      "language": "ja",
+      "label": "race-cox"
+    },
+    {
+      "language": "ja",
+      "label": "horse-cox"
+    },
+    {
+      "language": "ja",
+      "label": "history-cox"
+    },
+    {
+      "language": "ja",
+      "label": "race-kikuka"
+    },
+    {
+      "language": "ja",
+      "label": "horse-kikuka"
+    },
+    {
+      "language": "ja",
+      "label": "history-kikuka"
+    },
+    {
+      "language": "ja",
+      "label": "race-derby"
+    },
+    {
+      "language": "ja",
+      "label": "horse-derby"
+    },
+    {
+      "language": "ja",
+      "label": "history-derby"
+    },
+    {
+      "language": "ja",
+      "label": "race-tenno"
+    },
+    {
+      "language": "ja",
+      "label": "horse-tenno"
+    },
+    {
+      "language": "ja",
+      "label": "history-tenno"
+    },
+    {
+      "language": "ja",
+      "label": "race-layout-demo-jp"
+    },
+    {
+      "language": "ja",
+      "label": "horse-layout-demo-jp"
+    },
+    {
+      "language": "ja",
+      "label": "history-layout-demo-jp"
+    },
+    {
+      "language": "ja",
+      "label": "race-layout-demo-hk"
+    },
+    {
+      "language": "ja",
+      "label": "horse-layout-demo-hk"
+    },
+    {
+      "language": "ja",
+      "label": "history-layout-demo-hk"
+    },
+    {
+      "language": "ja",
+      "label": "race-change-postponed"
+    },
+    {
+      "language": "ja",
+      "label": "horse-change-postponed"
+    },
+    {
+      "language": "ja",
+      "label": "history-change-postponed"
+    },
+    {
+      "language": "ja",
+      "label": "race-change-cancelled"
+    },
+    {
+      "language": "ja",
+      "label": "horse-change-cancelled"
+    },
+    {
+      "language": "ja",
+      "label": "history-change-cancelled"
+    },
+    {
+      "language": "ja",
+      "label": "race-change-withdrawn"
+    },
+    {
+      "language": "ja",
+      "label": "horse-change-withdrawn"
+    },
+    {
+      "language": "ja",
+      "label": "history-change-withdrawn"
+    },
+    {
+      "language": "ja",
+      "label": "race-update-demo"
+    },
+    {
+      "language": "ja",
+      "label": "horse-update-demo"
+    },
+    {
+      "language": "ja",
+      "label": "history-update-demo"
+    },
+    {
+      "language": "ja",
+      "label": "cache-start"
+    },
+    {
+      "language": "ja",
+      "label": "cache-offline"
+    },
+    {
+      "language": "ja",
+      "label": "cache-clear-confirm"
+    },
+    {
+      "language": "ja",
+      "label": "cache-cleared"
+    },
+    {
+      "language": "ja",
+      "label": "cache-single-race"
+    },
+    {
+      "language": "ja",
+      "label": "cache-redownload"
+    },
+    {
+      "language": "ja",
+      "label": "cache-paused"
+    },
+    {
+      "language": "ja",
+      "label": "cache-complete"
+    },
+    {
+      "language": "ja",
+      "label": "collection-finding"
+    },
+    {
+      "language": "ja",
+      "label": "collection-paused-finding"
+    },
+    {
+      "language": "ja",
+      "label": "collection-details"
+    },
+    {
+      "language": "ja",
+      "label": "collection-paused-details"
+    },
+    {
+      "language": "ja",
+      "label": "collection-failed"
+    },
+    {
+      "language": "ja",
+      "label": "collection-check-failed"
+    },
+    {
+      "language": "ja",
+      "label": "collection-offline"
+    },
+    {
+      "language": "ja",
+      "label": "collection-check-offline"
+    },
+    {
+      "language": "ja",
+      "label": "collection-offline-empty"
+    },
+    {
+      "language": "ja",
+      "label": "collection-check-offline-empty"
+    },
+    {
+      "language": "ja",
+      "label": "collection-complete"
+    },
+    {
+      "language": "ja",
+      "label": "quality-unpublished"
+    },
+    {
+      "language": "ja",
+      "label": "quality-partial-entries"
+    },
+    {
+      "language": "ja",
+      "label": "quality-cached-failed"
+    },
+    {
+      "language": "ja",
+      "label": "quality-empty-failed"
+    },
+    {
+      "language": "ja",
+      "label": "quality-results-pending"
+    },
+    {
+      "language": "ja",
+      "label": "quality-official-partial"
+    },
+    {
+      "language": "ja",
+      "label": "quality-conflict"
+    },
+    {
+      "language": "ja",
+      "label": "shop"
+    },
+    {
+      "language": "ja",
+      "label": "bank"
+    },
+    {
+      "language": "ja",
+      "label": "bank-withdraw"
+    },
+    {
+      "language": "ja",
+      "label": "purchase"
+    },
+    {
+      "language": "ja",
+      "label": "ticket-folder"
+    },
+    {
+      "language": "ja",
+      "label": "correction-credit"
+    },
+    {
+      "language": "ja",
+      "label": "correction-debit"
+    },
+    {
+      "language": "ja",
+      "label": "correction-shortfall"
+    },
+    {
+      "language": "ja",
+      "label": "correction-multiple"
+    },
+    {
+      "language": "ja",
+      "label": "correction-tie"
+    },
+    {
+      "language": "ja",
+      "label": "correction-neutral"
+    },
+    {
+      "language": "ja",
+      "label": "correction-live-result"
+    },
+    {
+      "language": "ja",
+      "label": "correction-live"
+    },
+    {
+      "language": "ja",
+      "label": "notifications-refund"
+    },
+    {
+      "language": "ja",
+      "label": "notifications-correction"
+    },
+    {
+      "language": "ja",
+      "label": "notifications-settlement"
+    },
+    {
+      "language": "ja",
+      "label": "notification-start-result"
+    },
+    {
+      "language": "ja",
+      "label": "notification-arrival-result"
+    },
+    {
+      "language": "ja",
+      "label": "notification-start-correction"
+    },
+    {
+      "language": "ja",
+      "label": "notification-arrival-correction"
+    },
+    {
+      "language": "ja",
+      "label": "notification-start-shortfall"
+    },
+    {
+      "language": "ja",
+      "label": "notification-arrival-shortfall"
+    },
+    {
+      "language": "ja",
+      "label": "settings-language"
+    },
+    {
+      "language": "en",
+      "label": "settings-language-switch-en"
+    },
+    {
+      "language": "ja",
+      "label": "settings-language-switch-ja"
+    },
+    {
+      "language": "zh",
+      "label": "settings-language-switch-zh"
+    },
+    {
+      "language": "en",
+      "label": "settings-language-switch-en"
+    },
+    {
+      "language": "ja",
+      "label": "settings-sources"
+    },
+    {
+      "language": "en",
+      "label": "settings-sources-switch-en"
+    },
+    {
+      "language": "ja",
+      "label": "settings-sources-switch-ja"
+    },
+    {
+      "language": "zh",
+      "label": "settings-sources-switch-zh"
+    },
+    {
+      "language": "en",
+      "label": "settings-sources-switch-en"
+    },
+    {
+      "language": "ja",
+      "label": "welcome.html"
+    },
+    {
+      "language": "ja",
+      "label": "startup-preview.html"
+    },
+    {
+      "language": "ja",
+      "label": "settings-options.html"
+    },
+    {
+      "language": "ja",
+      "label": "density-2025.html"
+    },
+    {
+      "language": "en",
+      "label": "calendar-start"
+    },
+    {
+      "language": "en",
+      "label": "region-dialog"
+    },
+    {
+      "language": "en",
+      "label": "empty-filter"
+    },
+    {
+      "language": "en",
+      "label": "month-dialog"
+    },
+    {
+      "language": "en",
+      "label": "unloaded-month"
+    },
+    {
+      "language": "en",
+      "label": "race-sprinters"
+    },
+    {
+      "language": "en",
+      "label": "horse-sprinters"
+    },
+    {
+      "language": "en",
+      "label": "history-sprinters"
+    },
+    {
+      "language": "en",
+      "label": "race-arc"
+    },
+    {
+      "language": "en",
+      "label": "horse-arc"
+    },
+    {
+      "language": "en",
+      "label": "history-arc"
+    },
+    {
+      "language": "en",
+      "label": "race-dewhurst"
+    },
+    {
+      "language": "en",
+      "label": "horse-dewhurst"
+    },
+    {
+      "language": "en",
+      "label": "history-dewhurst"
+    },
+    {
+      "language": "en",
+      "label": "race-champion"
+    },
+    {
+      "language": "en",
+      "label": "horse-champion"
+    },
+    {
+      "language": "en",
+      "label": "history-champion"
+    },
+    {
+      "language": "en",
+      "label": "race-shuka"
+    },
+    {
+      "language": "en",
+      "label": "horse-shuka"
+    },
+    {
+      "language": "en",
+      "label": "history-shuka"
+    },
+    {
+      "language": "en",
+      "label": "race-cox"
+    },
+    {
+      "language": "en",
+      "label": "horse-cox"
+    },
+    {
+      "language": "en",
+      "label": "history-cox"
+    },
+    {
+      "language": "en",
+      "label": "race-kikuka"
+    },
+    {
+      "language": "en",
+      "label": "horse-kikuka"
+    },
+    {
+      "language": "en",
+      "label": "history-kikuka"
+    },
+    {
+      "language": "en",
+      "label": "race-derby"
+    },
+    {
+      "language": "en",
+      "label": "horse-derby"
+    },
+    {
+      "language": "en",
+      "label": "history-derby"
+    },
+    {
+      "language": "en",
+      "label": "race-tenno"
+    },
+    {
+      "language": "en",
+      "label": "horse-tenno"
+    },
+    {
+      "language": "en",
+      "label": "history-tenno"
+    },
+    {
+      "language": "en",
+      "label": "race-layout-demo-jp"
+    },
+    {
+      "language": "en",
+      "label": "horse-layout-demo-jp"
+    },
+    {
+      "language": "en",
+      "label": "history-layout-demo-jp"
+    },
+    {
+      "language": "en",
+      "label": "race-layout-demo-hk"
+    },
+    {
+      "language": "en",
+      "label": "horse-layout-demo-hk"
+    },
+    {
+      "language": "en",
+      "label": "history-layout-demo-hk"
+    },
+    {
+      "language": "en",
+      "label": "race-change-postponed"
+    },
+    {
+      "language": "en",
+      "label": "horse-change-postponed"
+    },
+    {
+      "language": "en",
+      "label": "history-change-postponed"
+    },
+    {
+      "language": "en",
+      "label": "race-change-cancelled"
+    },
+    {
+      "language": "en",
+      "label": "horse-change-cancelled"
+    },
+    {
+      "language": "en",
+      "label": "history-change-cancelled"
+    },
+    {
+      "language": "en",
+      "label": "race-change-withdrawn"
+    },
+    {
+      "language": "en",
+      "label": "horse-change-withdrawn"
+    },
+    {
+      "language": "en",
+      "label": "history-change-withdrawn"
+    },
+    {
+      "language": "en",
+      "label": "race-update-demo"
+    },
+    {
+      "language": "en",
+      "label": "horse-update-demo"
+    },
+    {
+      "language": "en",
+      "label": "history-update-demo"
+    },
+    {
+      "language": "en",
+      "label": "cache-start"
+    },
+    {
+      "language": "en",
+      "label": "cache-offline"
+    },
+    {
+      "language": "en",
+      "label": "cache-clear-confirm"
+    },
+    {
+      "language": "en",
+      "label": "cache-cleared"
+    },
+    {
+      "language": "en",
+      "label": "cache-single-race"
+    },
+    {
+      "language": "en",
+      "label": "cache-redownload"
+    },
+    {
+      "language": "en",
+      "label": "cache-paused"
+    },
+    {
+      "language": "en",
+      "label": "cache-complete"
+    },
+    {
+      "language": "en",
+      "label": "collection-finding"
+    },
+    {
+      "language": "en",
+      "label": "collection-paused-finding"
+    },
+    {
+      "language": "en",
+      "label": "collection-details"
+    },
+    {
+      "language": "en",
+      "label": "collection-paused-details"
+    },
+    {
+      "language": "en",
+      "label": "collection-failed"
+    },
+    {
+      "language": "en",
+      "label": "collection-check-failed"
+    },
+    {
+      "language": "en",
+      "label": "collection-offline"
+    },
+    {
+      "language": "en",
+      "label": "collection-check-offline"
+    },
+    {
+      "language": "en",
+      "label": "collection-offline-empty"
+    },
+    {
+      "language": "en",
+      "label": "collection-check-offline-empty"
+    },
+    {
+      "language": "en",
+      "label": "collection-complete"
+    },
+    {
+      "language": "en",
+      "label": "quality-unpublished"
+    },
+    {
+      "language": "en",
+      "label": "quality-partial-entries"
+    },
+    {
+      "language": "en",
+      "label": "quality-cached-failed"
+    },
+    {
+      "language": "en",
+      "label": "quality-empty-failed"
+    },
+    {
+      "language": "en",
+      "label": "quality-results-pending"
+    },
+    {
+      "language": "en",
+      "label": "quality-official-partial"
+    },
+    {
+      "language": "en",
+      "label": "quality-conflict"
+    },
+    {
+      "language": "en",
+      "label": "shop"
+    },
+    {
+      "language": "en",
+      "label": "bank"
+    },
+    {
+      "language": "en",
+      "label": "bank-withdraw"
+    },
+    {
+      "language": "en",
+      "label": "purchase"
+    },
+    {
+      "language": "en",
+      "label": "ticket-folder"
+    },
+    {
+      "language": "en",
+      "label": "correction-credit"
+    },
+    {
+      "language": "en",
+      "label": "correction-debit"
+    },
+    {
+      "language": "en",
+      "label": "correction-shortfall"
+    },
+    {
+      "language": "en",
+      "label": "correction-multiple"
+    },
+    {
+      "language": "en",
+      "label": "correction-tie"
+    },
+    {
+      "language": "en",
+      "label": "correction-neutral"
+    },
+    {
+      "language": "en",
+      "label": "correction-live-result"
+    },
+    {
+      "language": "en",
+      "label": "correction-live"
+    },
+    {
+      "language": "en",
+      "label": "notifications-refund"
+    },
+    {
+      "language": "en",
+      "label": "notifications-correction"
+    },
+    {
+      "language": "en",
+      "label": "notifications-settlement"
+    },
+    {
+      "language": "en",
+      "label": "notification-start-result"
+    },
+    {
+      "language": "en",
+      "label": "notification-arrival-result"
+    },
+    {
+      "language": "en",
+      "label": "notification-start-correction"
+    },
+    {
+      "language": "en",
+      "label": "notification-arrival-correction"
+    },
+    {
+      "language": "en",
+      "label": "notification-start-shortfall"
+    },
+    {
+      "language": "en",
+      "label": "notification-arrival-shortfall"
+    },
+    {
+      "language": "en",
+      "label": "settings-language"
+    },
+    {
+      "language": "en",
+      "label": "settings-language-switch-en"
+    },
+    {
+      "language": "ja",
+      "label": "settings-language-switch-ja"
+    },
+    {
+      "language": "zh",
+      "label": "settings-language-switch-zh"
+    },
+    {
+      "language": "en",
+      "label": "settings-language-switch-en"
+    },
+    {
+      "language": "en",
+      "label": "settings-sources"
+    },
+    {
+      "language": "en",
+      "label": "settings-sources-switch-en"
+    },
+    {
+      "language": "ja",
+      "label": "settings-sources-switch-ja"
+    },
+    {
+      "language": "zh",
+      "label": "settings-sources-switch-zh"
+    },
+    {
+      "language": "en",
+      "label": "settings-sources-switch-en"
+    },
+    {
+      "language": "en",
+      "label": "welcome.html"
+    },
+    {
+      "language": "en",
+      "label": "startup-preview.html"
+    },
+    {
+      "language": "en",
+      "label": "settings-options.html"
+    },
+    {
+      "language": "en",
+      "label": "density-2025.html"
+    }
+  ],
+  "issues": []
+}

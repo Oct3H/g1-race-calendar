@@ -1,0 +1,519 @@
+{
+  "as_of": "2026-10-27",
+  "navigation_reference": {
+    "url": "https://japanracing.jp/en/common/js/redirect.js",
+    "source_requested_at": "2026-10-26T13:18:20.073624+00:00",
+    "sha256": "351b9d5d720fcce22b694072630c31375e3c5f422cd9c7119e1d4c5b2581106d",
+    "original_evidence": "../2026-10-26-discovery/live/request-04-55d36334d0.response",
+    "local_evidence": "live/reference-year-rule-351b9d5d720f.response",
+    "type": "cached generic navigation rule, not fresh race data"
+  },
+  "jra_current": [
+    {
+      "year": 2026,
+      "date": "2026-02-22",
+      "name": "FEBRUARY STAKES",
+      "grade": "G1",
+      "course": "TOKYO",
+      "distance_m": 1600,
+      "surface_raw": "Dirt",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0222','05','01','08','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0222february.html",
+      "href": "./2026/0222february.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-29",
+      "name": "TAKAMATSUNOMIYA KINEN",
+      "grade": "G1",
+      "course": "CHUKYO",
+      "distance_m": 1200,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0329','07','01','06','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0329takamatsunomiya.html",
+      "href": "./2026/0329takamatsunomiya.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-05",
+      "name": "OSAKA HAI",
+      "grade": "G1",
+      "course": "HANSHIN",
+      "distance_m": 2000,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0405','09','02','04','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0405osaka.html",
+      "href": "./2026/0405osaka.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-12",
+      "name": "OKA SHO (Japanese 1000 Guineas)",
+      "grade": "G1",
+      "course": "HANSHIN",
+      "distance_m": 1600,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0412','09','02','06','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0412oka.html",
+      "href": "./2026/0412oka.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-19",
+      "name": "SATSUKI SHO (Japanese 2000 Guineas)",
+      "grade": "G1",
+      "course": "NAKAYAMA",
+      "distance_m": 2000,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0419','06','03','08','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0419satsuki.html",
+      "href": "./2026/0419satsuki.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-03",
+      "name": "TENNO SHO (Spring)",
+      "grade": "G1",
+      "course": "KYOTO",
+      "distance_m": 3200,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0503','08','03','04','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0503tenno-spring.html",
+      "href": "./2026/0503tenno-spring.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-10",
+      "name": "NHK MILE CUP",
+      "grade": "G1",
+      "course": "TOKYO",
+      "distance_m": 1600,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0510','05','02','06','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0510nhk-mile.html",
+      "href": "./2026/0510nhk-mile.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-17",
+      "name": "VICTORIA MILE",
+      "grade": "G1",
+      "course": "TOKYO",
+      "distance_m": 1600,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0517','05','02','08','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0517victoria.html",
+      "href": "./2026/0517victoria.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-24",
+      "name": "YUSHUN HIMBA (Japanese Oaks)",
+      "grade": "G1",
+      "course": "TOKYO",
+      "distance_m": 2400,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0524','05','02','10','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0524oaks.html",
+      "href": "./2026/0524oaks.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-31",
+      "name": "TOKYO YUSHUN (Japanese Derby)",
+      "grade": "G1",
+      "course": "TOKYO",
+      "distance_m": 2400,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0531','05','02','12','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0531derby.html",
+      "href": "./2026/0531derby.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-06-07",
+      "name": "YASUDA KINEN",
+      "grade": "G1",
+      "course": "TOKYO",
+      "distance_m": 1600,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0607','05','03','02','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0607yasuda.html",
+      "href": "./2026/0607yasuda.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-06-14",
+      "name": "TAKARAZUKA KINEN",
+      "grade": "G1",
+      "course": "HANSHIN",
+      "distance_m": 2200,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0614','09','03','04','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0614takarazuka.html",
+      "href": "./2026/0614takarazuka.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-09-27",
+      "name": "SPRINTERS STAKES",
+      "grade": "G1",
+      "course": "NAKAYAMA",
+      "distance_m": 1200,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','0927','06','04','09','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0927sprinters.html",
+      "href": "./2026/0927sprinters.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-10-18",
+      "name": "SHUKA SHO",
+      "grade": "G1",
+      "course": "KYOTO",
+      "distance_m": 2000,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','1018','08','04','07','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1018shuka.html",
+      "href": "./2026/1018shuka.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-10-25",
+      "name": "KIKUKA SHO (Japanese St. Leger)",
+      "grade": "G1",
+      "course": "KYOTO",
+      "distance_m": 3000,
+      "surface_raw": "Turf",
+      "race_no": 11,
+      "published_result_call": "javascript:doSubmit('2026','1025','08','04','09','11','7')",
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1025kikuka.html",
+      "href": "./2026/1025kikuka.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-11-01",
+      "name": "TENNO SHO (Autumn)",
+      "grade": "G1",
+      "course": "TOKYO",
+      "distance_m": 2000,
+      "surface_raw": "Turf",
+      "race_no": null,
+      "published_result_call": null,
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1101tenno-autumn.html",
+      "href": "./2026/1101tenno-autumn.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-11-15",
+      "name": "QUEEN ELIZABETH II CUP",
+      "grade": "G1",
+      "course": "KYOTO",
+      "distance_m": 2200,
+      "surface_raw": "Turf",
+      "race_no": null,
+      "published_result_call": null,
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1115qe2.html",
+      "href": "./2026/1115qe2.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-11-22",
+      "name": "MILE CHAMPIONSHIP",
+      "grade": "G1",
+      "course": "KYOTO",
+      "distance_m": 1600,
+      "surface_raw": "Turf",
+      "race_no": null,
+      "published_result_call": null,
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1122mcs.html",
+      "href": "./2026/1122mcs.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-11-29",
+      "name": "JAPAN CUP (International Invitational)",
+      "grade": "G1",
+      "course": "TOKYO",
+      "distance_m": 2400,
+      "surface_raw": "Turf",
+      "race_no": null,
+      "published_result_call": null,
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1129jc.html",
+      "href": "./2026/1129jc.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-12-06",
+      "name": "CHAMPIONS CUP",
+      "grade": "G1",
+      "course": "CHUKYO",
+      "distance_m": 1800,
+      "surface_raw": "Dirt",
+      "race_no": null,
+      "published_result_call": null,
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1206champions.html",
+      "href": "./2026/1206champions.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-12-13",
+      "name": "HANSHIN JUVENILE FILLIES",
+      "grade": "G1",
+      "course": "HANSHIN",
+      "distance_m": 1600,
+      "surface_raw": "Turf",
+      "race_no": null,
+      "published_result_call": null,
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1213juvenile.html",
+      "href": "./2026/1213juvenile.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-12-20",
+      "name": "ASAHI HAI FUTURITY STAKES",
+      "grade": "G1",
+      "course": "HANSHIN",
+      "distance_m": 1600,
+      "surface_raw": "Turf",
+      "race_no": null,
+      "published_result_call": null,
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1220futurity.html",
+      "href": "./2026/1220futurity.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-12-26",
+      "name": "HOPEFUL STAKES",
+      "grade": "G1",
+      "course": "NAKAYAMA",
+      "distance_m": 2000,
+      "surface_raw": "Turf",
+      "race_no": null,
+      "published_result_call": null,
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1226hopeful.html",
+      "href": "./2026/1226hopeful.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    },
+    {
+      "year": 2026,
+      "date": "2026-12-27",
+      "name": "ARIMA KINEN (The Grand Prix)",
+      "grade": "G1",
+      "course": "NAKAYAMA",
+      "distance_m": 2500,
+      "surface_raw": "Turf",
+      "race_no": null,
+      "published_result_call": null,
+      "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1227arima.html",
+      "href": "./2026/1227arima.html",
+      "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+    }
+  ],
+  "graded_directory_rows": 129,
+  "history_cutoff": "2026-10-12",
+  "history_matches": [
+    {
+      "target": {
+        "date": "2026-07-26",
+        "name_raw": "東海ＳＧIII",
+        "course_raw": "Ｊ中京",
+        "course": "CHUKYO",
+        "race_no": 7,
+        "grade": "G3",
+        "distance_m": 1400
+      },
+      "candidates": [
+        {
+          "year": 2026,
+          "date": "2026-07-26",
+          "name": "TOKAI STAKES",
+          "grade": "G3",
+          "course": "CHUKYO",
+          "distance_m": 1400,
+          "surface_raw": "Dirt",
+          "race_no": 7,
+          "published_result_call": "javascript:doSubmit('2026','0726','07','02','02','07','7')",
+          "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0726tokai.html",
+          "href": "./2026/0726tokai.html",
+          "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html"
+        }
+      ],
+      "status": "unique published graded instance"
+    },
+    {
+      "target": {
+        "date": "2026-05-31",
+        "name_raw": "ＡＲＦ杯薫風Ｓ４歳上３勝クラス",
+        "course_raw": "Ｊ東京",
+        "course": "TOKYO",
+        "race_no": 9,
+        "grade": null,
+        "distance_m": 1600
+      },
+      "candidates": [],
+      "status": "not covered by graded directory"
+    },
+    {
+      "target": {
+        "date": "2026-04-25",
+        "name_raw": "鎌倉Ｓ４歳上３勝クラス",
+        "course_raw": "Ｊ東京",
+        "course": "TOKYO",
+        "race_no": 10,
+        "grade": null,
+        "distance_m": 1400
+      },
+      "candidates": [],
+      "status": "not covered by graded directory"
+    },
+    {
+      "target": {
+        "date": "2026-02-14",
+        "name_raw": "銀蹄Ｓ４歳上３勝クラス",
+        "course_raw": "Ｊ東京",
+        "course": "TOKYO",
+        "race_no": 10,
+        "grade": null,
+        "distance_m": 1400
+      },
+      "candidates": [],
+      "status": "not covered by graded directory"
+    },
+    {
+      "target": {
+        "date": "2025-11-16",
+        "name_raw": "３歳上２勝クラス",
+        "course_raw": "Ｊ東京",
+        "course": "TOKYO",
+        "race_no": 7,
+        "grade": null,
+        "distance_m": 1400
+      },
+      "candidates": [],
+      "status": "not covered by graded directory"
+    }
+  ],
+  "matched_detail_pages": [],
+  "matched_detail_failure": "Not attempted in reference-only replay: no saved response",
+  "result_navigation_script": "https://japanracing.jp/en/common/js/common.js",
+  "result_navigation_failure": "Not attempted in reference-only replay: no saved response",
+  "requests": [
+    {
+      "name": "request-01-49705d6695",
+      "url": "https://japanracing.jp/en/",
+      "method": "GET",
+      "requested_at": "2026-10-27T11:53:02.725128+00:00",
+      "status": null,
+      "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "discovered_from": null,
+      "observed_href": null,
+      "redirect_rule": null,
+      "evidence": "live/request-01-49705d6695.response"
+    },
+    {
+      "name": "request-02-3fedf0fa1d",
+      "url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+      "method": "GET",
+      "requested_at": "2026-10-27T11:56:03.739640+00:00",
+      "status": null,
+      "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "discovered_from": "https://japanracing.jp/en/racing/schedule/graded/list/",
+      "observed_href": null,
+      "redirect_rule": {
+        "script_url": "https://japanracing.jp/en/common/js/redirect.js",
+        "year": 2026
+      },
+      "evidence": "live/request-02-3fedf0fa1d.response"
+    }
+  ],
+  "limits": [
+    "Cached navigation is not a new script read; annual and matched race pages are new HTTP reads",
+    "Graded directory does not cover ordinary allowance/conditions races",
+    "Matching a conditions page does not prove full historical results or Win odds are available",
+    "Live homepage and annual requests failed at the request tunnel; origin status is unknown"
+  ],
+  "directory_references": [
+    {
+      "url": "https://japanracing.jp/en/",
+      "source_requested_at": "2026-10-26T13:18:00.294601+00:00",
+      "sha256": "c359145c895039b4c30cb46ed664fd473f3c9c90af8e7183f5255154e64da6e4",
+      "original_evidence": "../2026-10-26-discovery/live/request-01-49705d6695.response",
+      "local_evidence": "live/reference-directory-c359145c8950.response",
+      "type": "saved 2026-10-26 directory; not fresh data"
+    },
+    {
+      "url": "https://japanracing.jp/en/racing/schedule/graded/",
+      "source_requested_at": "2026-10-26T13:18:01.677661+00:00",
+      "sha256": "2ec6b2f176d16ff603f0f2c6c9b6f728629da1eb02f51a3771ac8e43956f1e77",
+      "original_evidence": "../2026-10-26-discovery/live/request-02-d3942780d2.response",
+      "local_evidence": "live/reference-directory-2ec6b2f176d1.response",
+      "type": "saved 2026-10-26 directory; not fresh data"
+    },
+    {
+      "url": "https://japanracing.jp/en/racing/schedule/graded/list/",
+      "source_requested_at": "2026-10-26T13:18:07.769923+00:00",
+      "sha256": "d104d4326d5ecd7e1b4d85e26d6a819a94063c471d4240bfb91ebb042b5f6f20",
+      "original_evidence": "../2026-10-26-discovery/live/request-03-aec767fc18.response",
+      "local_evidence": "live/reference-directory-d104d4326d5e.response",
+      "type": "saved 2026-10-26 directory; not fresh data"
+    },
+    {
+      "url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+      "source_requested_at": "2026-10-26T13:18:21.002492+00:00",
+      "sha256": "3440abe748a2543b53b89c682840bd266af33147f6960abf79dd9833a90a6d49",
+      "original_evidence": "../2026-10-26-discovery/live/request-05-3fedf0fa1d.response",
+      "local_evidence": "live/reference-directory-3440abe748a2.response",
+      "type": "saved 2026-10-26 directory; not fresh data"
+    },
+    {
+      "url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+      "source_requested_at": "2026-10-26T13:19:01.656390+00:00",
+      "sha256": "3440abe748a2543b53b89c682840bd266af33147f6960abf79dd9833a90a6d49",
+      "original_evidence": "../2026-10-26-discovery/live/request-13-3fedf0fa1d.response",
+      "local_evidence": "live/reference-directory-3440abe748a2.response",
+      "type": "saved 2026-10-26 directory; not fresh data"
+    }
+  ],
+  "mode": "offline reference-only replay; no fresh central schedule or history detail verified"
+}

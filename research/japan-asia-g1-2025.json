@@ -1,0 +1,1074 @@
+{
+  "title": "2025 Japan / Hong Kong / UAE flat Grade 1 calendar verification supplement",
+  "verified_on": "2026-10-21",
+  "coverage": {
+    "scope": "2025自然年に実施された日本平地GI/JpnI、香港国際GI、UAE純血GI。2025年密度比較用の一回調査データ。",
+    "counts": {
+      "JPN_g1": 25,
+      "JPN_jpn1": 12,
+      "HK_g1": 12,
+      "UAE_g1": 7,
+      "total": 56
+    },
+    "japan": "JRA24平地GI＋地方東京大賞典GI＋NAR12JpnI。日本37競走は全量版・海外前百限定版の双方に必ず含む。",
+    "hong_kong": "2024/25と2025/26の2馬季から2025自然年を抽出。香港ダービー等の香港ローカル4歳限定シリーズは国際GIではなく対象外。",
+    "uae": "UAEの2025年純血GIは7競走。Dubai World Cup当日の5競走に加え、1月24日のAl Maktoum Challenge・Jebel Hattaを含む。Arabian PA GI（Dubai Kahayla Classic等）を除外。",
+    "excluded": [
+      "J・GI 中山グランドジャンプ 2025-04-19",
+      "J・GI 中山大障害 2025-12-27",
+      "Purebred Arabian Group 1 races",
+      "Non-GI / Non-JpnI races"
+    ],
+    "date_limit": "各日付は競馬場の現地開催日。day精度のみを確認し、未確認の発走時刻やUTC時点を生成していない。時差で日付が変わる表示の実装時は個別レースの正確な時刻を別途取得する必要がある。",
+    "limits": "この調査は名称・開催日・格付・競馬場・馬場・距離のカレンダー比較用。出馬表・全着順・オッズ・賞金・正式APIの継続安定性・転載許諾まで検証したものではない。",
+    "ifha_supplement": "既存IFHA rawは日本13件・UAE3件しかなく、そのまま全GI集合には使えない。このファイルで日本・UAEを補完・置換し、香港12件は照合して重複統合する。",
+    "ranking_join": "ranking_name_2025はローカル保存済み2025年IFHA前百表の文字列と照合した任意キー。対象年の収集上限・順位判定は根タスク側で行う。日本GI/JpnIは未ランクでも除外しない。"
+  },
+  "sources": [
+    {
+      "id": "jra-results",
+      "url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "role": "2025 actual race-result list, flat G1 rows only"
+    },
+    {
+      "id": "nar-races",
+      "url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "role": "2025 annual dirt-grade calendar"
+    },
+    {
+      "id": "nar-grade-i",
+      "url": "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html",
+      "role": "Complete local GI/JpnI set (13)"
+    },
+    {
+      "id": "hkjc-season-2024-25",
+      "url": "https://campaign.hkjc.com/media-guide/pdf/media-guide-2024-25-chi.pdf",
+      "role": "Official traditional Chinese names and Jan-May 2025 calendar"
+    },
+    {
+      "id": "hkjc-season-2025-26",
+      "url": "https://campaign.hkjc.com/media-guide/pdf/media-guide-chi-2025-26.pdf",
+      "role": "Official traditional Chinese names and December 2025 calendar"
+    },
+    {
+      "id": "drc-2025-brochure",
+      "url": "https://dubairacingclub.com/wp-content/uploads/2025/03/2025-Dubai-World-Cup-Brochure.pdf",
+      "role": "January bonus-race dates and five thoroughbred G1 races on World Cup night"
+    },
+    {
+      "id": "uae-pattern-2024-25",
+      "url": "https://d2xuc5ucjmnf40.cloudfront.net/downloads/UAE-Pattern-Races-Season-2024-25.pdf",
+      "role": "Page 2 thoroughbred G1 dates, surfaces, courses; screenshot inspected"
+    }
+  ],
+  "races": [
+    {
+      "id": "hk-centenary-sprint-2025",
+      "name": "百週年紀念短途盃",
+      "canonical_name": "Centenary Sprint Cup",
+      "date": "2025-01-19",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=79143",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 1200,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-2024-25-chi.pdf"
+      ],
+      "aliases": [
+        "Centenary Sprint Cup"
+      ],
+      "ranking_name_2025": "Centenary Sprint Cup"
+    },
+    {
+      "id": "hk-stewards-cup-2025",
+      "name": "董事盃",
+      "canonical_name": "Stewards' Cup",
+      "date": "2025-01-19",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=79142",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 1600,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-2024-25-chi.pdf"
+      ],
+      "aliases": [
+        "Stewards Cup"
+      ],
+      "ranking_name_2025": "Stewards' Cup"
+    },
+    {
+      "id": "uae-al-maktoum-challenge-2025",
+      "name": "Al Maktoum Challenge",
+      "canonical_name": "Al Maktoum Challenge",
+      "date": "2025-01-24",
+      "country": "UAE",
+      "grade": "g1",
+      "surface": "dirt",
+      "track": "Meydan",
+      "source_url": "https://dubairacingclub.com/wp-content/uploads/2025/03/2025-Dubai-World-Cup-Brochure.pdf",
+      "verification_note": "DRC 2025公式手冊：1月24日のGI2競走、4月5日の純血GI5競走。UAE Pattern表2頁で日付・格付・馬場・距離を照合。アラブ種PA GIは対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Dubai",
+      "distance_m": 1900,
+      "additional_source_urls": [
+        "https://d2xuc5ucjmnf40.cloudfront.net/downloads/UAE-Pattern-Races-Season-2024-25.pdf",
+        "https://dubairacingclub.com/press-releases/dubai-world-cup-2025-date-announced-as-saturday-5-april-3/"
+      ]
+    },
+    {
+      "id": "uae-jebel-hatta-2025",
+      "name": "Jebel Hatta",
+      "canonical_name": "Jebel Hatta",
+      "date": "2025-01-24",
+      "country": "UAE",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "Meydan",
+      "source_url": "https://dubairacingclub.com/wp-content/uploads/2025/03/2025-Dubai-World-Cup-Brochure.pdf",
+      "verification_note": "DRC 2025公式手冊：1月24日のGI2競走、4月5日の純血GI5競走。UAE Pattern表2頁で日付・格付・馬場・距離を照合。アラブ種PA GIは対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Dubai",
+      "distance_m": 1800,
+      "additional_source_urls": [
+        "https://d2xuc5ucjmnf40.cloudfront.net/downloads/UAE-Pattern-Races-Season-2024-25.pdf",
+        "https://dubairacingclub.com/press-releases/dubai-world-cup-2025-date-announced-as-saturday-5-april-3/"
+      ]
+    },
+    {
+      "id": "hk-hong-kong-gold-cup-2025",
+      "name": "花旗銀行香港金盃",
+      "canonical_name": "Hong Kong Gold Cup",
+      "date": "2025-02-23",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=79145",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 2000,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-2024-25-chi.pdf"
+      ],
+      "aliases": [
+        "Citi Hong Kong Gold Cup"
+      ]
+    },
+    {
+      "id": "hk-queens-silver-jubilee-2025",
+      "name": "女皇銀禧紀念盃",
+      "canonical_name": "Queen's Silver Jubilee Cup",
+      "date": "2025-02-23",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=79146",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 1400,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-2024-25-chi.pdf"
+      ],
+      "aliases": [
+        "Queen's Silver Jubilee Cup"
+      ],
+      "ranking_name_2025": "Queen's Silver Jubilee Cup"
+    },
+    {
+      "id": "jpn-february-2025",
+      "name": "フェブラリーステークス",
+      "canonical_name": "February Stakes",
+      "date": "2025-02-23",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "dirt",
+      "track": "東京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600,
+      "ranking_name_2025": "February Stakes"
+    },
+    {
+      "id": "jpn-takamatsunomiya-2025",
+      "name": "高松宮記念",
+      "canonical_name": "Takamatsunomiya Kinen",
+      "date": "2025-03-30",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "中京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1200,
+      "ranking_name_2025": "Takamatsunomiya Kinen"
+    },
+    {
+      "id": "uae-al-quoz-sprint-2025",
+      "name": "Al Quoz Sprint",
+      "canonical_name": "Al Quoz Sprint",
+      "date": "2025-04-05",
+      "country": "UAE",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "Meydan",
+      "source_url": "https://dubairacingclub.com/wp-content/uploads/2025/03/2025-Dubai-World-Cup-Brochure.pdf",
+      "verification_note": "DRC 2025公式手冊：1月24日のGI2競走、4月5日の純血GI5競走。UAE Pattern表2頁で日付・格付・馬場・距離を照合。アラブ種PA GIは対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Dubai",
+      "distance_m": 1200,
+      "additional_source_urls": [
+        "https://d2xuc5ucjmnf40.cloudfront.net/downloads/UAE-Pattern-Races-Season-2024-25.pdf",
+        "https://dubairacingclub.com/press-releases/dubai-world-cup-2025-date-announced-as-saturday-5-april-3/"
+      ]
+    },
+    {
+      "id": "uae-dubai-golden-shaheen-2025",
+      "name": "Dubai Golden Shaheen",
+      "canonical_name": "Dubai Golden Shaheen",
+      "date": "2025-04-05",
+      "country": "UAE",
+      "grade": "g1",
+      "surface": "dirt",
+      "track": "Meydan",
+      "source_url": "https://dubairacingclub.com/wp-content/uploads/2025/03/2025-Dubai-World-Cup-Brochure.pdf",
+      "verification_note": "DRC 2025公式手冊：1月24日のGI2競走、4月5日の純血GI5競走。UAE Pattern表2頁で日付・格付・馬場・距離を照合。アラブ種PA GIは対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Dubai",
+      "distance_m": 1200,
+      "additional_source_urls": [
+        "https://d2xuc5ucjmnf40.cloudfront.net/downloads/UAE-Pattern-Races-Season-2024-25.pdf",
+        "https://dubairacingclub.com/press-releases/dubai-world-cup-2025-date-announced-as-saturday-5-april-3/"
+      ]
+    },
+    {
+      "id": "uae-dubai-sheema-classic-2025",
+      "name": "Dubai Sheema Classic",
+      "canonical_name": "Dubai Sheema Classic",
+      "date": "2025-04-05",
+      "country": "UAE",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "Meydan",
+      "source_url": "https://dubairacingclub.com/wp-content/uploads/2025/03/2025-Dubai-World-Cup-Brochure.pdf",
+      "verification_note": "DRC 2025公式手冊：1月24日のGI2競走、4月5日の純血GI5競走。UAE Pattern表2頁で日付・格付・馬場・距離を照合。アラブ種PA GIは対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Dubai",
+      "distance_m": 2410,
+      "additional_source_urls": [
+        "https://d2xuc5ucjmnf40.cloudfront.net/downloads/UAE-Pattern-Races-Season-2024-25.pdf",
+        "https://dubairacingclub.com/press-releases/dubai-world-cup-2025-date-announced-as-saturday-5-april-3/"
+      ],
+      "ranking_name_2025": "LONGINES Dubai Sheema Classic"
+    },
+    {
+      "id": "uae-dubai-turf-2025",
+      "name": "Dubai Turf",
+      "canonical_name": "Dubai Turf",
+      "date": "2025-04-05",
+      "country": "UAE",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "Meydan",
+      "source_url": "https://dubairacingclub.com/wp-content/uploads/2025/03/2025-Dubai-World-Cup-Brochure.pdf",
+      "verification_note": "DRC 2025公式手冊：1月24日のGI2競走、4月5日の純血GI5競走。UAE Pattern表2頁で日付・格付・馬場・距離を照合。アラブ種PA GIは対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Dubai",
+      "distance_m": 1800,
+      "additional_source_urls": [
+        "https://d2xuc5ucjmnf40.cloudfront.net/downloads/UAE-Pattern-Races-Season-2024-25.pdf",
+        "https://dubairacingclub.com/press-releases/dubai-world-cup-2025-date-announced-as-saturday-5-april-3/"
+      ],
+      "ranking_name_2025": "Dubai Turf Sponsored by DP World"
+    },
+    {
+      "id": "uae-dubai-world-cup-2025",
+      "name": "Dubai World Cup",
+      "canonical_name": "Dubai World Cup",
+      "date": "2025-04-05",
+      "country": "UAE",
+      "grade": "g1",
+      "surface": "dirt",
+      "track": "Meydan",
+      "source_url": "https://dubairacingclub.com/wp-content/uploads/2025/03/2025-Dubai-World-Cup-Brochure.pdf",
+      "verification_note": "DRC 2025公式手冊：1月24日のGI2競走、4月5日の純血GI5競走。UAE Pattern表2頁で日付・格付・馬場・距離を照合。アラブ種PA GIは対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Dubai",
+      "distance_m": 2000,
+      "additional_source_urls": [
+        "https://d2xuc5ucjmnf40.cloudfront.net/downloads/UAE-Pattern-Races-Season-2024-25.pdf",
+        "https://dubairacingclub.com/press-releases/dubai-world-cup-2025-date-announced-as-saturday-5-april-3/"
+      ],
+      "ranking_name_2025": "Dubai World Cup Sponsored by Emirates Airline"
+    },
+    {
+      "id": "jpn-osaka-2025",
+      "name": "大阪杯",
+      "canonical_name": "Osaka Hai",
+      "date": "2025-04-06",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "阪神",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2000,
+      "ranking_name_2025": "Osaka Hai"
+    },
+    {
+      "id": "jpn-kawasaki-kinen-2025",
+      "name": "川崎記念",
+      "canonical_name": "Kawasaki Kinen",
+      "date": "2025-04-09",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "川崎",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2100,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-oka-2025",
+      "name": "桜花賞",
+      "canonical_name": "Oka Sho (Japanese 1000 Guineas)",
+      "date": "2025-04-13",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "阪神",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600
+    },
+    {
+      "id": "jpn-satsuki-2025",
+      "name": "皐月賞",
+      "canonical_name": "Satsuki Sho (Japanese 2000 Guineas)",
+      "date": "2025-04-20",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "中山",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2000,
+      "ranking_name_2025": "Satsuki Sho (Japanese 2000 Gns)"
+    },
+    {
+      "id": "hk-chairmans-sprint-2025",
+      "name": "主席短途獎",
+      "canonical_name": "Chairman's Sprint Prize",
+      "date": "2025-04-27",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=79151",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 1200,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-2024-25-chi.pdf"
+      ],
+      "aliases": [
+        "Chairman's Sprint Prize"
+      ],
+      "ranking_name_2025": "Chairman's Sprint Prize"
+    },
+    {
+      "id": "hk-champions-mile-2025",
+      "name": "富衛保險冠軍一哩賽",
+      "canonical_name": "Champions Mile",
+      "date": "2025-04-27",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=79150",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 1600,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-2024-25-chi.pdf"
+      ],
+      "aliases": [
+        "Fwd Champions Mile"
+      ],
+      "ranking_name_2025": "FWD Champions Mile"
+    },
+    {
+      "id": "hk-qeii-cup-2025",
+      "name": "富衛保險女皇盃",
+      "canonical_name": "Queen Elizabeth II Cup",
+      "date": "2025-04-27",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=79149",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 2000,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-2024-25-chi.pdf"
+      ],
+      "aliases": [
+        "Fwd Qeii Cup"
+      ],
+      "ranking_name_2025": "FWD Queen Elizabeth II Cup"
+    },
+    {
+      "id": "jpn-haneda-hai-2025",
+      "name": "羽田盃",
+      "canonical_name": "Haneda Hai",
+      "date": "2025-04-29",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "大井",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1800,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-tenno-spring-2025",
+      "name": "天皇賞（春）",
+      "canonical_name": "Tenno Sho (Spring)",
+      "date": "2025-05-04",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "京都",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 3200,
+      "ranking_name_2025": "Tenno Sho (Spring)"
+    },
+    {
+      "id": "jpn-kashiwa-kinen-2025",
+      "name": "かしわ記念",
+      "canonical_name": "Kashiwa Kinen",
+      "date": "2025-05-05",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "船橋",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-nhk-mile-2025",
+      "name": "NHKマイルカップ",
+      "canonical_name": "NHK Mile Cup",
+      "date": "2025-05-11",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "東京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600
+    },
+    {
+      "id": "jpn-victoria-mile-2025",
+      "name": "ヴィクトリアマイル",
+      "canonical_name": "Victoria Mile",
+      "date": "2025-05-18",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "東京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600
+    },
+    {
+      "id": "hk-champions-chater-2025",
+      "name": "渣打冠軍暨遮打盃",
+      "canonical_name": "Champions & Chater Cup",
+      "date": "2025-05-25",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=79153",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 2400,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-2024-25-chi.pdf"
+      ],
+      "aliases": [
+        "Standard Chartered Champions & Chater Cup"
+      ],
+      "ranking_name_2025": "Standard Chartered Champions & Chater Cup"
+    },
+    {
+      "id": "jpn-yushun-himba-2025",
+      "name": "優駿牝馬（オークス）",
+      "canonical_name": "Yushun Himba (Japanese Oaks)",
+      "date": "2025-05-25",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "東京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2400
+    },
+    {
+      "id": "jpn-tokyo-yushun-2025",
+      "name": "東京優駿（日本ダービー）",
+      "canonical_name": "Tokyo Yushun (Japanese Derby)",
+      "date": "2025-06-01",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "東京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2400,
+      "ranking_name_2025": "Tokyo Yushun (Japanese Derby)"
+    },
+    {
+      "id": "jpn-yasuda-2025",
+      "name": "安田記念",
+      "canonical_name": "Yasuda Kinen",
+      "date": "2025-06-08",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "東京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600,
+      "ranking_name_2025": "Yasuda Kinen"
+    },
+    {
+      "id": "jpn-tokyo-derby-2025",
+      "name": "東京ダービー",
+      "canonical_name": "Tokyo Derby",
+      "date": "2025-06-11",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "大井",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2000,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-takarazuka-2025",
+      "name": "宝塚記念",
+      "canonical_name": "Takarazuka Kinen",
+      "date": "2025-06-15",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "阪神",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2200,
+      "ranking_name_2025": "Takarazuka Kinen"
+    },
+    {
+      "id": "jpn-sakitama-hai-2025",
+      "name": "さきたま杯",
+      "canonical_name": "Sakitama Hai",
+      "date": "2025-06-25",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "浦和",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1400,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-teio-sho-2025",
+      "name": "帝王賞",
+      "canonical_name": "Teio Sho",
+      "date": "2025-07-02",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "大井",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2000,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-sprinters-2025",
+      "name": "スプリンターズステークス",
+      "canonical_name": "Sprinters Stakes",
+      "date": "2025-09-28",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "中山",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1200,
+      "ranking_name_2025": "Sprinters Stakes"
+    },
+    {
+      "id": "jpn-japan-dirt-classic-2025",
+      "name": "ジャパンダートクラシック",
+      "canonical_name": "Japan Dirt Classic",
+      "date": "2025-10-08",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "大井",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2000,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-nambu-hai-2025",
+      "name": "マイルチャンピオンシップ南部杯",
+      "canonical_name": "Mile Championship Nambu Hai",
+      "date": "2025-10-13",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "盛岡",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-shuka-2025",
+      "name": "秋華賞",
+      "canonical_name": "Shuka Sho",
+      "date": "2025-10-19",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "京都",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2000
+    },
+    {
+      "id": "jpn-kikuka-2025",
+      "name": "菊花賞",
+      "canonical_name": "Kikuka Sho (Japanese St Leger)",
+      "date": "2025-10-26",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "京都",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 3000
+    },
+    {
+      "id": "jpn-tenno-autumn-2025",
+      "name": "天皇賞（秋）",
+      "canonical_name": "Tenno Sho (Autumn)",
+      "date": "2025-11-02",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "東京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2000,
+      "ranking_name_2025": "Tenno Sho (Autumn)"
+    },
+    {
+      "id": "jpn-jbc-classic-2025",
+      "name": "JBCクラシック",
+      "canonical_name": "JBC Classic",
+      "date": "2025-11-03",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "船橋",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1800,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-jbc-ladies-2025",
+      "name": "JBCレディスクラシック",
+      "canonical_name": "JBC Ladies Classic",
+      "date": "2025-11-03",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "船橋",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1800,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-jbc-sprint-2025",
+      "name": "JBCスプリント",
+      "canonical_name": "JBC Sprint",
+      "date": "2025-11-03",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "船橋",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1000,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-queen-elizabeth-2025",
+      "name": "エリザベス女王杯",
+      "canonical_name": "Queen Elizabeth II Cup",
+      "date": "2025-11-16",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "京都",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2200
+    },
+    {
+      "id": "jpn-mile-championship-2025",
+      "name": "マイルチャンピオンシップ",
+      "canonical_name": "Mile Championship",
+      "date": "2025-11-23",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "京都",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600,
+      "ranking_name_2025": "Mile Championship"
+    },
+    {
+      "id": "jpn-japan-cup-2025",
+      "name": "ジャパンカップ",
+      "canonical_name": "Japan Cup",
+      "date": "2025-11-30",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "東京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2400,
+      "ranking_name_2025": "Japan Cup in Association with LONGINES"
+    },
+    {
+      "id": "jpn-champions-cup-2025",
+      "name": "チャンピオンズカップ",
+      "canonical_name": "Champions Cup",
+      "date": "2025-12-07",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "dirt",
+      "track": "中京",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1800,
+      "ranking_name_2025": "Champions Cup"
+    },
+    {
+      "id": "hk-hong-kong-cup-2025",
+      "name": "浪琴香港盃",
+      "canonical_name": "Hong Kong Cup",
+      "date": "2025-12-14",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81648",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 2000,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-chi-2025-26.pdf"
+      ],
+      "aliases": [
+        "Longines Hong Kong Cup"
+      ],
+      "ranking_name_2025": "LONGINES Hong Kong Cup"
+    },
+    {
+      "id": "hk-hong-kong-mile-2025",
+      "name": "浪琴香港一哩錦標",
+      "canonical_name": "Hong Kong Mile",
+      "date": "2025-12-14",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81649",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 1600,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-chi-2025-26.pdf"
+      ],
+      "aliases": [
+        "Longines Hong Kong Mile"
+      ],
+      "ranking_name_2025": "LONGINES Hong Kong Mile"
+    },
+    {
+      "id": "hk-hong-kong-sprint-2025",
+      "name": "浪琴香港短途錦標",
+      "canonical_name": "Hong Kong Sprint",
+      "date": "2025-12-14",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81650",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 1200,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-chi-2025-26.pdf"
+      ],
+      "aliases": [
+        "Longines Hong Kong Sprint"
+      ],
+      "ranking_name_2025": "LONGINES Hong Kong Sprint"
+    },
+    {
+      "id": "hk-hong-kong-vase-2025",
+      "name": "浪琴香港瓶",
+      "canonical_name": "Hong Kong Vase",
+      "date": "2025-12-14",
+      "country": "HK",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "沙田",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81651",
+      "verification_note": "IFHA 2025年G1成績レコードの開催日・芝を使用。HKJC 2024/25・2025/26公式メディアガイドの2025自然年該当部分で日程・繁体字名を照合。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Hong_Kong",
+      "distance_m": 2400,
+      "additional_source_urls": [
+        "https://campaign.hkjc.com/media-guide/pdf/media-guide-chi-2025-26.pdf"
+      ],
+      "aliases": [
+        "Longines Hong Kong Vase"
+      ],
+      "ranking_name_2025": "LONGINES Hong Kong Vase"
+    },
+    {
+      "id": "jpn-hanshin-juvenile-2025",
+      "name": "阪神ジュベナイルフィリーズ",
+      "canonical_name": "Hanshin Juvenile Fillies",
+      "date": "2025-12-14",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "阪神",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600
+    },
+    {
+      "id": "jpn-zen-nippon-nisai-2025",
+      "name": "全日本2歳優駿",
+      "canonical_name": "Zen-Nippon Nisai Yushun",
+      "date": "2025-12-17",
+      "country": "JPN",
+      "grade": "jpn1",
+      "surface": "dirt",
+      "track": "川崎",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ]
+    },
+    {
+      "id": "jpn-asahi-hai-2025",
+      "name": "朝日杯フューチュリティステークス",
+      "canonical_name": "Asahi Hai Futurity Stakes",
+      "date": "2025-12-21",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "阪神",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 1600
+    },
+    {
+      "id": "jpn-hopeful-2025",
+      "name": "ホープフルステークス",
+      "canonical_name": "Hopeful Stakes",
+      "date": "2025-12-27",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "中山",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2000
+    },
+    {
+      "id": "jpn-arima-2025",
+      "name": "有馬記念",
+      "canonical_name": "Arima Kinen (The Grand Prix)",
+      "date": "2025-12-28",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "turf",
+      "track": "中山",
+      "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/g1.html",
+      "verification_note": "JRA 2025年GIレース結果一覧の開催日・競馬場・コースを確認。J・GIの2競走は対象外。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2500,
+      "ranking_name_2025": "Arima Kinen (The Grand Prix)"
+    },
+    {
+      "id": "jpn-tokyo-daishoten-2025",
+      "name": "東京大賞典",
+      "canonical_name": "Tokyo Daishoten",
+      "date": "2025-12-29",
+      "country": "JPN",
+      "grade": "g1",
+      "surface": "dirt",
+      "track": "大井",
+      "source_url": "https://www.keiba.go.jp/dirtgraderace/2025/racelist/index.html",
+      "verification_note": "NAR 2025年GI/JpnI一覧と年間ダートグレード競走一覧を照合。東京大賞典のみ国際GI、他12競走はJpnI。",
+      "date_precision": "day",
+      "venue_time_zone": "Asia/Tokyo",
+      "distance_m": 2000,
+      "additional_source_urls": [
+        "https://www.keiba.go.jp/dirtgraderace/2025/rating/prerating/index.html"
+      ],
+      "ranking_name_2025": "Tokyo Daishoten"
+    }
+  ]
+}

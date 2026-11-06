@@ -1,0 +1,56 @@
+{
+  "round": 53,
+  "date": "2026-10-24",
+  "previewUrl": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&quality=official-partial&entry=compact&race=quality-demo&refund=preview&view=results&expression=reference&v=53",
+  "request": "Place expression no higher than results/entries switch and around the screenshot arrow; redraw reference face and matched crying variant.",
+  "implementation": "Expression follows tabs in DOM and sits 52 px below the controls origin at desktop width, with shared intro space and right-side placement; narrow widths stack in normal flow. Native details remains collapsed initially. Two reference/cry links inside expanded exception details preserve URL context. Ordinary fully-known races hide entry.",
+  "assets": [
+    {
+      "file": "design/assets/machikane-tannhauser-reference-v1.png",
+      "generated": "exec-538f0335-a753-4bbc-ad09-7685ce8cc209.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "bytes": 1832500,
+      "sha256": "8dabd4623b4e8fda82140099a9849aa7e8e6c3b02219ecf0d504834b0a877454"
+    },
+    {
+      "file": "design/assets/machikane-tannhauser-cry-v2.png",
+      "generated": "exec-9f7bd366-eda9-43f4-b584-89385949d651.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "bytes": 1921783,
+      "sha256": "4b030ef52ccf0cab496c6c79657f3712f321a3a3d5b496fc0d4a6d9731c4deb2"
+    }
+  ],
+  "assetMethod": "Built-in image_gen.imagegen, transparent_background=true, user reference for A and generated A as edit target for B; inspected outputs, copied unchanged into project.",
+  "promptSet": "design/assets/machikane-tannhauser-prompts-53.md",
+  "checks": {
+    "check_data_quality_preview.mjs": "PASS: source order below tabs/before table, variant selection/fallback and links preserving context, seven scenarios, missing fields, ledger unaffected by explanation; existing rank/odds/payment assertions retained.",
+    "check_change_preview.mjs": "PASS: native disclosure reset at race entry and existing change/refund/eligibility flows.",
+    "static": "PASS: 217 combined HTML/template IDs unique; 17 local HTML resources exist; three module syntax/import checks; CSS balanced; mobile fallback present.",
+    "head": {
+      "count": 8,
+      "allStatus": 200,
+      "allCacheControl": "no-store"
+    }
+  },
+  "limitations": [
+    "No automated browser rendering, screenshots, CSS geometry measurement or native keyboard interaction; existing access restriction respected.",
+    "Desktop placement assessed through source and CSS; user visual review needed.",
+    "Fictional design preview remains memory-only; no new financial rules, real data fetching, caching or desktop window behavior."
+  ]
+}

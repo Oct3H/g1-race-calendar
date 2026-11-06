@@ -1,0 +1,26 @@
+{
+  "name": "linkedom",
+  "version": "0.18.14",
+  "license": "ISC",
+  "repository": {
+    "url": "git+https://github.com/WebReflection/linkedom.git",
+    "type": "git"
+  },
+  "dist": {
+    "shasum": "05b056293748d38059816c890980bb7f748fc08f",
+    "tarball": "https://registry.npmjs.org/linkedom/-/linkedom-0.18.14.tgz",
+    "fileCount": 504,
+    "integrity": "sha512-BRUnkOm4YR5vo+qI3j0EbungB0vZPSCue5AdnTQRaxAGSbsOZiBFRO0rh4zlo8qXUhli8pxvnpEXDklMnlq2Rg==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCNrxgLusExnafDAvE6Xwj1gUVRUzJSBmAvc68s/485cwIhALWVlCuzUDgnE92bojp51fIgjs0x/3XM8/ulCgS/PSoa",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEYCIQC0vvLF1aCYHb2VsjGE9pFf9HdE8oyYNnWw+f0AGjMaVgIhAOspMWZP6evNqkduDse73SYllN7N9slmxbO6KWERF2A6",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 1092231
+  }
+}

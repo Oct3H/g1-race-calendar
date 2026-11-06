@@ -1,0 +1,1443 @@
+{
+  "data": {
+    "videoReplay": [],
+    "raceMeetingProfile": [
+      {
+        "totalNumberOfRace": 1,
+        "currentNumberOfRace": 1,
+        "races": [
+          {
+            "id": "20261025S201",
+            "no": 1,
+            "status": "RESULT",
+            "runners": [
+              {
+                "horse": {
+                  "id": "20261025S20101H",
+                  "name_en": "M's Begin (JPN)",
+                  "name_ch": "自家開端"
+                },
+                "color": "20261025_S2_r1_h01",
+                "id": "20261025S20101",
+                "no": "1",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20101J",
+                  "name_en": "Mirai Iwata",
+                  "name_ch": "岩田望來"
+                },
+                "trainer": {
+                  "code": "20261025S20101T",
+                  "name_en": "Yasuo Tomomichi",
+                  "name_ch": "友道康夫"
+                },
+                "last6run": "5/14/7/2/1",
+                "internationalRating": "112",
+                "sire": "Kitasan Black (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "1",
+                "gearInfo": "",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "54",
+                "finalPosition": 13,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20102H",
+                  "name_en": "Congestus (JPN)",
+                  "name_ch": "塔狀高雲"
+                },
+                "color": "20261025_S2_r1_h02",
+                "id": "20261025S20102",
+                "no": "2",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20102J",
+                  "name_en": "Atsuya Nishimura",
+                  "name_ch": "西村淳也"
+                },
+                "trainer": {
+                  "code": "20261025S20102T",
+                  "name_en": "Tomokazu Takano",
+                  "name_ch": "高野友和"
+                },
+                "last6run": "6/9/1/1/1",
+                "internationalRating": "114",
+                "sire": "Contrail (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "2",
+                "gearInfo": "",
+                "margin": "NECK",
+                "marginNm": {
+                  "chinese": "馬頸位",
+                  "english": "NECK"
+                },
+                "lbwNm": null,
+                "winOdds": "21",
+                "finalPosition": 8,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20103H",
+                  "name_en": "Audacia (JPN)",
+                  "name_ch": "膽大"
+                },
+                "color": "20261025_S2_r1_h03",
+                "id": "20261025S20103",
+                "no": "3",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20103J",
+                  "name_en": "Akihide Tsumura",
+                  "name_ch": "津村明秀"
+                },
+                "trainer": {
+                  "code": "20261025S20103T",
+                  "name_en": "Takahisa Tezuka",
+                  "name_ch": "手塚貴久"
+                },
+                "last6run": "3/11/1/1/2",
+                "internationalRating": "113",
+                "sire": "Kizuna (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "3",
+                "gearInfo": "",
+                "margin": "1 LENGTH",
+                "marginNm": {
+                  "chinese": "1 馬位",
+                  "english": "1 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "25",
+                "finalPosition": 9,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20104H",
+                  "name_en": "Shonan Gulf (JPN)",
+                  "name_ch": "湘南之灣"
+                },
+                "color": "20261025_S2_r1_h04",
+                "id": "20261025S20104",
+                "no": "4",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20104J",
+                  "name_en": "Osuke Tayama",
+                  "name_ch": "田山旺佑"
+                },
+                "trainer": {
+                  "code": "20261025S20104T",
+                  "name_en": "Naosuke Sugai",
+                  "name_ch": "須貝尚介"
+                },
+                "last6run": "11/12/17/9/14",
+                "internationalRating": "104",
+                "sire": "Harbinger (GB)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "4",
+                "gearInfo": "",
+                "margin": "2-1/2 LENGTHS",
+                "marginNm": {
+                  "chinese": "2-1/2 馬位",
+                  "english": "2-1/2 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "245",
+                "finalPosition": 18,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20105H",
+                  "name_en": "Justin Chicago (JPN)",
+                  "name_ch": "駿風城"
+                },
+                "color": "20261025_S2_r1_h05",
+                "id": "20261025S20105",
+                "no": "5",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20105J",
+                  "name_en": "Yusuke Hara",
+                  "name_ch": "原優介"
+                },
+                "trainer": {
+                  "code": "20261025S20105T",
+                  "name_en": "Keisuke Miyata",
+                  "name_ch": "宮田敬介"
+                },
+                "last6run": "1/1/2/2/6",
+                "internationalRating": "116",
+                "sire": "Suave Richard (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "5",
+                "gearInfo": "",
+                "margin": "1 LENGTH",
+                "marginNm": {
+                  "chinese": "1 馬位",
+                  "english": "1 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "19",
+                "finalPosition": 10,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20106H",
+                  "name_en": "Basse Terre (JPN)",
+                  "name_ch": "海外小城"
+                },
+                "color": "20261025_S2_r1_h06",
+                "id": "20261025S20106",
+                "no": "6",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20106J",
+                  "name_en": "Yuga Kawada",
+                  "name_ch": "川田將雅"
+                },
+                "trainer": {
+                  "code": "20261025S20106T",
+                  "name_en": "Takashi Saito",
+                  "name_ch": "齊藤崇史"
+                },
+                "last6run": "13/3/11/1/1",
+                "internationalRating": "117",
+                "sire": "Kitasan Black (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "6",
+                "gearInfo": "",
+                "margin": "NOSE",
+                "marginNm": {
+                  "chinese": "馬鼻位",
+                  "english": "NOSE"
+                },
+                "lbwNm": null,
+                "winOdds": "24",
+                "finalPosition": 2,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20107H",
+                  "name_en": "Large Ensemble (JPN)",
+                  "name_ch": "大型合奏"
+                },
+                "color": "20261025_S2_r1_h07",
+                "id": "20261025S20107",
+                "no": "7",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20107J",
+                  "name_en": "Ryusei Sakai",
+                  "name_ch": "坂井瑠星"
+                },
+                "trainer": {
+                  "code": "20261025S20107T",
+                  "name_en": "Ryo Takei",
+                  "name_ch": "武井亮"
+                },
+                "last6run": "7/8/1/6/1",
+                "internationalRating": "112",
+                "sire": "Benbatl (GB)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "7",
+                "gearInfo": "",
+                "margin": "3/4 LENGTH",
+                "marginNm": {
+                  "chinese": "3/4 馬位",
+                  "english": "3/4 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "130",
+                "finalPosition": 12,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20108H",
+                  "name_en": "Lovcen (JPN)",
+                  "name_ch": "洛夫琴山"
+                },
+                "color": "20261025_S2_r1_h08",
+                "id": "20261025S20108",
+                "no": "8",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20108J",
+                  "name_en": "Kohei Matsuyama",
+                  "name_ch": "松山弘平"
+                },
+                "trainer": {
+                  "code": "20261025S20108T",
+                  "name_en": "Haruki Sugiyama",
+                  "name_ch": "杉山晴紀"
+                },
+                "last6run": "1/1/1/3/1",
+                "internationalRating": "119",
+                "sire": "World Premiere (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "8",
+                "gearInfo": "",
+                "margin": "1 LENGTH",
+                "marginNm": {
+                  "chinese": "1 馬位",
+                  "english": "1 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "2.0",
+                "finalPosition": 14,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20109H",
+                  "name_en": "Going To Sky (JPN)",
+                  "name_ch": "通天飛"
+                },
+                "color": "20261025_S2_r1_h09",
+                "id": "20261025S20109",
+                "no": "9",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20109J",
+                  "name_en": "Yutaka Take",
+                  "name_ch": "武豊"
+                },
+                "trainer": {
+                  "code": "20261025S20109T",
+                  "name_en": "Yuki Uehara",
+                  "name_ch": "上原佑紀"
+                },
+                "last6run": "6/4/1/6/3",
+                "internationalRating": "117",
+                "sire": "Contrail (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "9",
+                "gearInfo": "",
+                "margin": "-",
+                "marginNm": {
+                  "chinese": "-",
+                  "english": "-"
+                },
+                "lbwNm": null,
+                "winOdds": "13",
+                "finalPosition": 1,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20110H",
+                  "name_en": "Danon History (JPN)",
+                  "name_ch": "野田往跡"
+                },
+                "color": "20261025_S2_r1_h10",
+                "id": "20261025S20110",
+                "no": "10",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20110J",
+                  "name_en": "Christophe Lemaire",
+                  "name_ch": "李慕華"
+                },
+                "trainer": {
+                  "code": "20261025S20110T",
+                  "name_en": "Noriyuki Hori",
+                  "name_ch": "堀宣行"
+                },
+                "last6run": "1/1/7/1",
+                "internationalRating": "-",
+                "sire": "Epiphaneia (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "10",
+                "gearInfo": "",
+                "margin": "1 LENGTH",
+                "marginNm": {
+                  "chinese": "1 馬位",
+                  "english": "1 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "3.0",
+                "finalPosition": 3,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20111H",
+                  "name_en": "Ask Edinburgh (JPN)",
+                  "name_ch": "愛丁堡"
+                },
+                "color": "20261025_S2_r1_h11",
+                "id": "20261025S20111",
+                "no": "11",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20111J",
+                  "name_en": "Yasunari Iwata",
+                  "name_ch": "岩田康誠"
+                },
+                "trainer": {
+                  "code": "20261025S20111T",
+                  "name_en": "Yuichi Fukunaga",
+                  "name_ch": "福永祐一"
+                },
+                "last6run": "4/10/4/2/3",
+                "internationalRating": "115",
+                "sire": "Leontes (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "11",
+                "gearInfo": "",
+                "margin": "3 LENGTHS",
+                "marginNm": {
+                  "chinese": "3 馬位",
+                  "english": "3 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "39",
+                "finalPosition": 17,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20112H",
+                  "name_en": "Sanono Greater (JPN)",
+                  "name_ch": "大都市區"
+                },
+                "color": "20261025_S2_r1_h12",
+                "id": "20261025S20112",
+                "no": "12",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20112J",
+                  "name_en": "Hironobu Tanabe",
+                  "name_ch": "田邊裕信"
+                },
+                "trainer": {
+                  "code": "20261025S20112T",
+                  "name_en": "Kazuyuki Ogata",
+                  "name_ch": "尾形和幸"
+                },
+                "last6run": "11/1/9/5/6",
+                "internationalRating": "110",
+                "sire": "Greater London (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "12",
+                "gearInfo": "",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "76",
+                "finalPosition": 4,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20113H",
+                  "name_en": "King Glory (JPN)",
+                  "name_ch": "帝榮"
+                },
+                "color": "20261025_S2_r1_h13",
+                "id": "20261025S20113",
+                "no": "13",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20113J",
+                  "name_en": "Yuji Tannai",
+                  "name_ch": "丹內祐次"
+                },
+                "trainer": {
+                  "code": "20261025S20113T",
+                  "name_en": "Masaaki Koga",
+                  "name_ch": "古賀慎明"
+                },
+                "last6run": "1/2/13/13/1",
+                "internationalRating": "-",
+                "sire": "Danon Premium (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "13",
+                "gearInfo": "",
+                "margin": "1-1/2 LENGTHS",
+                "marginNm": {
+                  "chinese": "1-1/2 馬位",
+                  "english": "1-1/2 LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "140",
+                "finalPosition": 15,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20114H",
+                  "name_en": "Majorelle Bleu (JPN)",
+                  "name_ch": "摩洛哥藍"
+                },
+                "color": "20261025_S2_r1_h14",
+                "id": "20261025S20114",
+                "no": "14",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20114J",
+                  "name_en": "Keita Tosaki",
+                  "name_ch": "戶崎圭太"
+                },
+                "trainer": {
+                  "code": "20261025S20114T",
+                  "name_en": "Yasuo Tomomichi",
+                  "name_ch": "友道康夫"
+                },
+                "last6run": "1/1/1/2/4",
+                "internationalRating": "-",
+                "sire": "Contrail (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "14",
+                "gearInfo": "",
+                "margin": "NECK",
+                "marginNm": {
+                  "chinese": "馬頸位",
+                  "english": "NECK"
+                },
+                "lbwNm": null,
+                "winOdds": "59",
+                "finalPosition": 7,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20115H",
+                  "name_en": "Sea To Summit (JPN)",
+                  "name_ch": "渡海及峰"
+                },
+                "color": "20261025_S2_r1_h15",
+                "id": "20261025S20115",
+                "no": "15",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20115J",
+                  "name_en": "Manabu Sakai",
+                  "name_ch": "酒井學"
+                },
+                "trainer": {
+                  "code": "20261025S20115T",
+                  "name_en": "Tatsuya Yoshioka",
+                  "name_ch": "吉岡辰彌"
+                },
+                "last6run": "3/2/1/2/7",
+                "internationalRating": "113",
+                "sire": "Maurice (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "15",
+                "gearInfo": "",
+                "margin": "3/4 LENGTH",
+                "marginNm": {
+                  "chinese": "3/4 馬位",
+                  "english": "3/4 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "92",
+                "finalPosition": 5,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20116H",
+                  "name_en": "Shonan Hayanami (JPN)",
+                  "name_ch": "湘南巡航"
+                },
+                "color": "20261025_S2_r1_h16",
+                "id": "20261025S20116",
+                "no": "16",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20116J",
+                  "name_en": "Kenichi Ikezoe",
+                  "name_ch": "池添謙一"
+                },
+                "trainer": {
+                  "code": "20261025S20116T",
+                  "name_en": "Kunihiko Watanabe",
+                  "name_ch": "渡邊薰彥"
+                },
+                "last6run": "10/1/1",
+                "internationalRating": "108",
+                "sire": "Rey de Oro (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "16",
+                "gearInfo": "",
+                "margin": "NECK",
+                "marginNm": {
+                  "chinese": "馬頸位",
+                  "english": "NECK"
+                },
+                "lbwNm": null,
+                "winOdds": "70",
+                "finalPosition": 6,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20117H",
+                  "name_en": "Charing Cross (JPN)",
+                  "name_ch": "查寧交匯"
+                },
+                "color": "20261025_S2_r1_h17",
+                "id": "20261025S20117",
+                "no": "17",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20117J",
+                  "name_en": "Yukito Ishikawa",
+                  "name_ch": "石川裕紀人"
+                },
+                "trainer": {
+                  "code": "20261025S20117T",
+                  "name_en": "Takeshi Okumura",
+                  "name_ch": "奧村武"
+                },
+                "last6run": "7/1/1/5/3",
+                "internationalRating": "-",
+                "sire": "Kitasan Black (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "17",
+                "gearInfo": "",
+                "margin": "1/2 LENGTH",
+                "marginNm": {
+                  "chinese": "1/2 馬位",
+                  "english": "1/2 LENGTH"
+                },
+                "lbwNm": null,
+                "winOdds": "177",
+                "finalPosition": 11,
+                "deadHeat": false,
+                "status": "Ran"
+              },
+              {
+                "horse": {
+                  "id": "20261025S20118H",
+                  "name_en": "Narita Esperanza (JPN)",
+                  "name_ch": "成田宏願"
+                },
+                "color": "20261025_S2_r1_h18",
+                "id": "20261025S20118",
+                "no": "18",
+                "handicapWeight": "126",
+                "jockey": {
+                  "code": "20261025S20118J",
+                  "name_en": "Yuichi Kitamura",
+                  "name_ch": "北村友一"
+                },
+                "trainer": {
+                  "code": "20261025S20118T",
+                  "name_en": "Yuichi Fukunaga",
+                  "name_ch": "福永祐一"
+                },
+                "last6run": "12/1/1/7/1",
+                "internationalRating": "-",
+                "sire": "Kitasan Black (JPN)",
+                "sexNm": {
+                  "chinese": "雄",
+                  "english": "C"
+                },
+                "age": 3,
+                "barrierDrawNumber": "18",
+                "gearInfo": "",
+                "margin": "MANY LENGTHS",
+                "marginNm": {
+                  "chinese": "多個馬位",
+                  "english": "MANY LENGTHS"
+                },
+                "lbwNm": null,
+                "winOdds": "168",
+                "finalPosition": 16,
+                "deadHeat": false,
+                "status": "Ran"
+              }
+            ],
+            "judgeSigns": [
+              {
+                "value_en": "WEIGHED IN"
+              }
+            ],
+            "raceName_en": "Kikuka Sho (Japanese St. Leger)",
+            "raceName_ch": "菊花賞",
+            "postTime": "2026-10-25T14:40:00+08:00",
+            "country_en": "Japan",
+            "country_ch": "日本",
+            "distance": 3000,
+            "go_en": "GOOD TO FIRM",
+            "go_ch": "好地至快地",
+            "raceTrack": {
+              "description_en": "Turf",
+              "description_ch": "草地"
+            },
+            "raceCourse": {
+              "description_en": "Kyoto Racecourse",
+              "description_ch": "京都競馬場",
+              "displayCode": ""
+            },
+            "raceClass_en": "Grade 1",
+            "raceClass_ch": "一級賽",
+            "raceResults": [
+              {
+                "status": "WCFULLMARGIN",
+                "raceTime": "3:04.50",
+                "mgnInd": "M"
+              }
+            ]
+          }
+        ],
+        "date": "2026-10-25",
+        "venueCode": "S2",
+        "pmPools": [
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEInvest",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:03:42.200+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLTopPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:03:42.200+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "",
+            "dividends": [
+              {
+                "winComb": "9,6,10,12",
+                "type": "Winning",
+                "div": "385239",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QTTTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCE",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": [
+              {
+                "winComb": "9,6,10",
+                "type": "Winning",
+                "div": "10445",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCEBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLBankerPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:03:42.200+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TCETop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRI",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": [
+              {
+                "winComb": "6,9,10",
+                "type": "Winning",
+                "div": "825",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRIPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:04:15.661+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "TRITop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:55:37.413+08:00",
+            "dividends": [
+              {
+                "winComb": "9",
+                "type": "Winning",
+                "div": "132.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "WINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:17:54.520+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QIN",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": [
+              {
+                "winComb": "6,9",
+                "type": "Winning",
+                "div": "880.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FF",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "",
+            "dividends": [
+              {
+                "winComb": "6,9,10,12",
+                "type": "Winning",
+                "div": "13820",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:04:15.825+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FFTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": null,
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLA",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:55:37.413+08:00",
+            "dividends": [
+              {
+                "winComb": "9",
+                "type": "Winning",
+                "div": "30.5",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "10",
+                "type": "Winning",
+                "div": "14",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "6",
+                "type": "Winning",
+                "div": "54",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PLAPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:17:26.850+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN0",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T13:06:50.380+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "PWIN1",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:40:18.970+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "FCT",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": [
+              {
+                "winComb": "9,6",
+                "type": "Winning",
+                "div": "2655",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINBankerPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:17:04.077+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:17:04.077+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINTop",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QINTopPre",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T06:17:04.077+08:00",
+            "dividends": []
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPL",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": [
+              {
+                "winComb": "9,10",
+                "type": "Winning",
+                "div": "59",
+                "seq": 2,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "6,10",
+                "type": "Winning",
+                "div": "101",
+                "seq": 3,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              },
+              {
+                "winComb": "6,9",
+                "type": "Winning",
+                "div": "212",
+                "seq": 1,
+                "status": "OFFICIAL",
+                "guarantee": null,
+                "partial": false,
+                "partialUnit": 0
+              }
+            ]
+          },
+          {
+            "leg": {
+              "number": 1,
+              "races": [
+                1
+              ]
+            },
+            "status": "PAYOUT",
+            "comingleStatus": null,
+            "oddsType": "QPLBanker",
+            "name_en": null,
+            "name_ch": null,
+            "lastUpdateTime": "2026-10-25T14:42:51.250+08:00",
+            "dividends": []
+          }
+        ],
+        "status": "CLOSED"
+      }
+    ]
+  }
+}

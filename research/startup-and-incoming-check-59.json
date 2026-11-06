@@ -1,0 +1,54 @@
+{
+  "round": 59,
+  "date": "2026-10-25",
+  "previewUrls": {
+    "normalResultIncoming": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&refund=preview&correction=live-result&v=59",
+    "correctionIncoming": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&refund=preview&correction=live&v=59",
+    "startup": "http://127.0.0.1:8765/startup-preview.html?v=59"
+  },
+  "confirmed": [
+    "Incoming official corrections are displayed and applied immediately after current popup closes",
+    "One logical main window reused",
+    "Restart automatically resumes interrupted collection, preserving intentional pause and yearly clear"
+  ],
+  "implementation": {
+    "incoming": "Existing result/correction dialog keeps its current receipt. Explicit fictional query-return action records a new version, shows passive notice and queues race. Close/Escape opens and applies latest version. Multiple arrivals for same race coalesce. No polling.",
+    "bankruptcyPreview": "Queued correction precedes stale bankruptcy; if funds are restored no stale zero-balance popup, otherwise bankruptcy follows correction queue. Included for user review.",
+    "startup": "Standalone pure lifecycle state and real UI controller, injected date/timezone; no native window calls, network, timer, storage or wallet changes.",
+    "reuse": "Existing project correction ledger, modal/queue/result APIs, region palette, calendar dateInZone and cache pause/clear semantics; no new dependencies"
+  },
+  "checks": {
+    "scripts": [
+      "check_result_correction_preview.mjs PASS incl frozen receipt, latest net merge, automatic continuation, restored-balance case and real normal settlement integration",
+      "check_startup_preview.mjs PASS incl lifecycle states and real UI controller with DOM doubles",
+      "check_shop_start_preview.mjs PASS",
+      "check_game_preview.mjs PASS",
+      "check_change_preview.mjs PASS",
+      "check_ticket_folder.mjs PASS",
+      "check_ticket_confirmation.mjs PASS",
+      "check_data_quality_preview.mjs PASS",
+      "check_voluntary_refund.mjs PASS"
+    ],
+    "static": {
+      "mainStaticTemplateIds": 234,
+      "startupStaticIds": 17,
+      "modules": 5,
+      "htmlNesting": "PASS",
+      "cssFiles": 2,
+      "literalResources": "PASS"
+    },
+    "head": {
+      "initial": "Connection refused: old preview server stopped",
+      "recovery": "Restarted inspected serve_preview.py bound only 127.0.0.1:8765; exec session 76571",
+      "verifiedPaths": 10,
+      "status": 200,
+      "cacheControl": "no-store"
+    }
+  },
+  "limitations": [
+    "No automated browser rendering/screenshots/native keyboard verification; existing restriction respected",
+    "No formal macOS lifecycle, persistent checkpoints, actual download resumption or remote correction feed",
+    "Startup preview is a separate fictional view and does not modify calendar app wallet/cache",
+    "System-clock/timezone edge rules still pending next discussion"
+  ]
+}

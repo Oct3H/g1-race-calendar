@@ -1,0 +1,482 @@
+The Hong Kong Jockey Club
+Horse Racing Betting Guide
+Table of Contents
+A. Pari-Mutuel Pools
+1. Pari-Mutuel Local Pools
+1.1. Dividend Qualification
+[
+Single-race Pools
+|
+Multi-race Pools
+|
+Jackpot Pools
+]
+1.2. Rebate
+2. Pari-Mutuel Outbound Commingling Pools
+2.1. Dividend Qualification
+3. All Up or Cross Pool All Up Betting
+4. About Flexi Bet
+B. Fixed Odds Bet Types
+C. Dividend Collection
+A. Pari-Mutuel Pools
+1. Pari-Mutuel Local Pools
+Dividend will be shared by the number of winning combinations of a
+          particular pool. Winners will share the percentage of pool payout in
+          proportion to their winning stakes.
+Percentage of Dividend for each Pool
+Single Pools
+% of Pool paid out as Dividend
+Win / Place / Quinella / Quinella Place /
+                          Double
+82.5%
+Forecast
+80.5%
+Trio
+77%
+Tierce / First 4 / Quartet / Treble
+75%
+Triple Trio
+^
+75%
+Double Trio* / Six Up**
+75%
+^7.5 percent of the Pool will be deducted as Jackpot Reserve
+            Deduction
+*0.5 percent of the Pool will be deducted as Operator Reserve
+            Deduction (to be deducted from the Club’s revenue)
+**2 percent of the Pool will be deducted as Operator Reserve Deduction (to be deducted from the Club’s revenue)
+Merged Pool
+% of Pool paid out as Dividend
+Quartet & First 4
++
+75%
++
+0.5 percent of the Pool will be deducted as Jackpot
+            Reserve Deduction
+^ Top
+1.1. Dividend Qualification
+Single-race Pools
+Single-race Pools are the simple and straight-forward betting pools
+          for beginners to enjoy betting entertainment.
+Single-race
+Pools
+Dividend Qualification
+Win
+1
+st
+in a race
+Place
+1
+st
+, 2
+nd
+or 3
+rd
+in a
+                        race, or 1
+st
+or 2
+nd
+in a race of
+                        4 to 6 declared starters (applicable to local races)
+1
+st
+, 2
+nd
+, 3
+rd
+or
+                        4
+th
+in a race, or 1
+st
+, 2
+nd
+or 3
+rd
+in a race of 7 to 20 declared
+                        starters, or 1
+st
+or 2
+nd
+in a
+                        race of 4 to 6 declared starters (applicable to
+                        designated simulcast races)
+Quinella
+1
+st
+and 2
+nd
+in any order in a
+                        race
+Quinella Place
+Any two of the first three placed horses in any order
+                        in a race
+Forecast
+1
+st
+and 2
+nd
+in correct order in
+                        a race
+Trio
+1
+st
+, 2
+nd
+and 3
+rd
+in
+                        any order in a race
+Tierce
+1
+st
+, 2
+nd
+and 3
+rd
+in
+                        correct order in a race
+First 4
+1
+st
+, 2
+nd
+, 3
+rd
+and
+                        4
+th
+in any order in a race
+Quartet
+1
+st
+, 2
+nd
+, 3
+rd
+and
+                        4
+th
+in correct order in a race
+^ Top
+Multi-race Pools
+To experience the betting entertainment and increase the challenge,
+          you may consider the multi-race pools.
+Multi-race
+Pools
+Dividend Qualification
+Double
+1
+st
+in each of the two nominated races
+Consolation :
+1
+st
+in 1
+st
+nominated race and 2
+nd
+in 2
+nd
+nominated race
+Treble
+1
+st
+in each of the three nominated races
+Consolation :
+1
+st
+in the first two
+                        Legs and 2
+nd
+in 3
+rd
+Leg of the
+                        three nominated races
+^ Top
+Jackpot Pools
+Double Trio, Triple Trio and Six Up are known as jackpot pools,
+          where the jackpot will be carried foward to the next meeting if
+          there is no winning units. Check out if any jackpot is available in
+          the upcoming race meeting.
+Jackpot
+Pools
+Dividend Qualification
+Double Trio
+1
+st
+, 2
+nd
+and 3
+rd
+in
+                        any order in each of the two nominated races
+Triple Trio
+1
+st
+, 2
+nd
+and 3
+rd
+in
+                        any order in each of the three nominated races
+Consolation :
+Select correctly the
+                          1
+st
+, 2
+nd
+and 3
+rd
+horses in any order in the first two Legs of the
+                          three nominated races
+Six Up
+1
+st
+or 2
+nd
+in each of the six
+                        nominated races
+Six Win Bonus :
+1
+st
+in each of the
+                        six nominated races
+^ Top
+1.2. Rebate
+Rebate applies to each bet placed in Win, Place, Quinella and
+          Quinella Place for all local and overseas races (except Outbound
+          Commingling).
+• Whether it be a bet on a single race, a bet consisted in All Up
+          betting^ or a bet consisted in Cross Pool All Up betting^, any
+          ticket* or betline** with a total losing bet amount of HK$10,000 or
+          above placed on designated pool will be eligible to receive a rebate
+          of prescribed percentage of the total losing bet amount
+• The rate of rebate for any losing bet consisted in All Up betting^
+          and/or Cross Pool All Up betting^ will be determined according to
+          the bet type placed for the losing leg, irrespective of the bet type
+          for the winning legs in that bet
+Rebate Percentage
+Local Races
+Overseas Races
+Win / Place
+10%
+6%
+Quinella / Quinella Place
+12%
+^All Up as well as Cross Pool All Up bets are not available
+            between local and overseas races
+*Applicable to Cash Betting, Electronic Shroff Card and
+            eWallet
+**Applicable to Telebet and Digital Channels including Online
+            Betting Service (eWin), Classic 3-in-1 and Racing Touch App
+^ Top
+2. Pari-Mutuel Outbound Commingling Pools
+On designated simulcast races from France, Win and Place Bets will
+          be outbound commingled to the respective Pools operated by Pari
+          Mutuel Urbain (“PMU”) of France, in accordance with PMU’s modified
+          horse race betting rules.
+Pool
+% of Pool paid out as Dividend
+Win / Place
+84.95% (subject to the rate announced by France PMU
+                        from time to time)
+2.1. Dividend Qualification
+Single-race Pools
+Dividend Qualification
+Win
+Selection of an individual runner finishing 1
+st
+in a race
+Place
+3 Dividends:
+Selection of an individual runner
+                        finishing 1
+st
+, 2
+nd
+or 3
+rd
+in a race (For races with 8 or more Declared
+                        Starters)
+2 Dividends:
+Selection of an individual runner
+                        finishing 1
+st
+or 2
+nd
+in a race (For races with 4, 5, 6 or 7 Declared
+                        Starters)
+^ Top
+3. All Up or Cross Pool All Up Betting
+You can enjoy greater flexibility by choosing All Up or Cross Pool
+          All Up bet. Simply by placing bets in the same or different betting
+          pools for 2 races to a maximum of 6 races. Any dividend entitlement
+          from a winning Leg will be automatically carried forward and
+          reinvested in the subsequent Leg specified in your bet selection.
+All Up Betting
+(same betting pool in each
+                              leg)
+Cross Pool All Up Betting
+(different
+                              betting pools in each leg allowed)
+Select 2 to 3 races
+• Forecast, Trio
+e.g. Forecast → Forecast
+• Win, Place, Quinella, Quinella Place,
+                        Forecast, Trio
+e.g. Forecast → Trio → Win
+Select 2 to 6 races
+• Win, Place, Quinella, Quinella Place
+e.g. Win → Win
+• Win, Place, Quinella, Quinella Place
+e.g. Win → Place → Quinella
+^ Top
+4. About Flexi Bet
+'Flexi Bet' minimum unit bet amount is now lowered to $1, you can
+          make use of the same betting amount with more combinations, and
+          master your betting strategy with a better chance to win.
+The minimum amount per unit bet of different betting
+          pools are as follows:
+Total Bet Amount for a ticket or betline
+<$24
+$24 - <$100
+≥$100
+Single-race Pools
+Win, Place, Quinella, Quinella Place
+$10
+$10
+$10
+Forecast, Trio, Tierce, First 4
+$1
+Quartet
+$1
+Multi-race Pools
+Double Trio, Treble
+$10
+$1
+Triple Trio, Six Up
+$2
+Double
+$10
+All Up & Cross Pool All Up
+Win, Place, Quinella, Quinella Place, Forecast, Trio
+$1
+^ Top
+B. Fixed Odds Bet Types
+Jockey Challenge
+Pick your favorite jockey and target odds. Dividend is calculated
+          based on the fixed odds at the time the bet is accepted and will not
+          be affected by any subsequent odds change.
+How to Play
+Jockeys participating in the nominated races in a Jockey Challenge
+          will be numbered 1 to 14. No. 1 to 13 will be assigned to one named
+          jockey each, while No. 14 will include the rest of the jockeys.
+          Select correctly the jockey with the most Jockey Challenge Points in
+          a Jockey Challenge and your winnings will be paid at the price
+          taken.
+“Jockey Challenge Points” means the points assigned to the jockeys
+          actually riding the 1
+st
+, 2
+nd
+and 3
+rd
+horses, respectively, on the Jockey Challenge Scheduled Rides.*
+*Means the rides that a jockey is engaged to ride in the nominated
+          races at the start selling of Jockey Challenge. The Jockey Challenge
+          Scheduled Rides List will be released at the start selling time of
+          Jockey Challenge, please refer to the Scheduled Rides List for
+          details
+In Play Betting Available
+In Play Betting is available for Jockey Challenge. Bets may be
+          placed until the start of second last race. Selling will be suspended
+          at the start of each race, and will resume after the Weighed in
+          Signal is displayed. Odds and the Jockey Challenge Points will be
+          updated after each race.
+Jockey Challenge Points
+Jockeys riding the first three placed horses^ on their Scheduled
+          Rides will earn Jockey Challenge Points as follows (Dead-heat
+          situations excepted):
+1
+st
+place: 12 points
+2
+nd
+place: 6 points
+3
+rd
+place: 4 points
+Jockey Challenge Points scored by Substitute Jockeys
+#
+will not count. The jockey with the highest accumulated Jockey
+          Challenge Points in a Jockey Challenge will be declared as the
+          winner. The Jockey Challenge Points for all jockeys (including the
+          individual jockeys in No.14 "Others") will be counted on an
+          individual basis.
+^No Jockey Challenge Points for the rest of the finishing positions
+#
+A jockey who rides a Non-Scheduled Ride in a race
+^ Top
+Trainer Challenge
+Pick your favorite trainer and target odds. Dividend is calculated
+          based on the fixed odds at the time the bet is accepted and will not
+          be affected by any subsequent odds change.
+How to Play
+Trainers who saddle up starters in the nominated races in a Trainer
+          Challenge will be numbered 1 to 21. No. 1 to 20 will be assigned to
+          one named trainer each (up to 20 named trainers), while No. 21 will
+          include the rest of the trainers. Select correctly the trainer with
+          the most Trainer Challenge Points in a Trainer Challenge and your
+          winnings will be paid at the price taken.
+“Trainer Challenge Points” refer to the points the trainers scored
+          from each of their starters finishing 1
+st
+, 2
+nd
+& 3
+rd
+place.
+In Play Betting Available
+In Play Betting is available for Trainer Challenge. Bets may be
+          placed until the start of second last race. Selling will be suspended
+          at the start of each race, and will resume after the Weighed in
+          Signal is displayed. Odds and the Trainer Challenge Points will be
+          updated after each race.
+Trainer Challenge Points
+Trainers of the first three placed horses^ will earn Trainer
+          Challenge Points as follows (Dead-heat situations excepted):
+1
+st
+place: 12 points
+2
+nd
+place: 6 points
+3
+rd
+place: 4 points
+Where a Trainer has more than one starter in a race nominated for
+          Trainer Challenge, the Trainer Challenge Points he will score from
+          each of his starters in such race will be counted for the Trainer
+          Challenge. A Trainer can earn at most 22 points in a race provided
+          that the first three placed horses are all from his stable.
+The trainer with the highest accumulated Trainer Challenge Points in
+          a Trainer Challenge will be declared as the winner. The Trainer
+          Challenge Points for all trainers (including the individual trainers
+          in No.21 “Others”) will be counted on an individual basis.
+^ No Trainer Challenge Points for the rest of the finishing
+          positions
+^ Top
+C. Dividend Collection
+Valid betting tickets must be presented for payment within 60 days
+          of the date after the relevant race meeting (Example: Winning
+          tickets for races held on 1 March can be presented for payment on
+          any day from 1 March to 30 April).
+^ Top
+Content of this page is for reference only. For details, please refer
+        to the Horse Race Betting Rules of HKJC Horse Race Betting Limited
+        (the "Rules"). All horse race bets are handled in accordance with the
+        Rules. In the event of any inconsistency between this page and the
+        Rules, the Rules shall prevail. Horse Race Betting Rules available at
+        About > Terms and Conditions.

@@ -1,0 +1,31 @@
+{
+  "status": "PASSED",
+  "requests": 13,
+  "all_http_200": true,
+  "nar": {
+    "before": "2026-10-27 intended entries, no draw link",
+    "after": "2026-10-31 actual draw link and 12 unique runners",
+    "raceKey": "nar:2026:JBCクラシック",
+    "winAvailable": false,
+    "parseSeconds": 0.00139,
+    "repeatMerge": {
+      "added": 0,
+      "changed": 0,
+      "total": 13
+    }
+  },
+  "central": {
+    "annualGI": 24,
+    "declaredRunners": 17,
+    "matchedWinRows": 17,
+    "market": "JRA pari-mutuel Win",
+    "quoteAtJST": "2026-10-31 17:30",
+    "raceAtJST": "2026-11-01 15:40"
+  },
+  "limitations": [
+    "One real publication delta, not a global update guarantee",
+    "One current official quote snapshot, not an API uptime contract",
+    "No future result/settlement or official correction verified",
+    "No Japanese-name mapping or app backend integration"
+  ]
+}

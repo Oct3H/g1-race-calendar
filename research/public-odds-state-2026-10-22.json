@@ -1,0 +1,81 @@
+{
+  "jra": {
+    "checked_on": "2026-10-22",
+    "source_url": "https://www.jra.go.jp/JRADB/accessO.html",
+    "status": "今週のオッズは未発表です。"
+  },
+  "hkjc": {
+    "checked_on": "2026-10-22",
+    "race_context": "21/10 (三), 22:55, 第三班, 1650米, 草地, 凱歌讓賽, \"B\" 賽道, 好地",
+    "runners": [
+      {
+        "name": "一生好彩",
+        "number": "1",
+        "raw_win": "19"
+      },
+      {
+        "name": "幸運派彩",
+        "number": "2",
+        "raw_win": "3.1"
+      },
+      {
+        "name": "超勁赤兔",
+        "number": "3",
+        "raw_win": "21"
+      },
+      {
+        "name": "一定掂",
+        "number": "4",
+        "raw_win": "6.4"
+      },
+      {
+        "name": "同心同樂",
+        "number": "5",
+        "raw_win": "15"
+      },
+      {
+        "name": "智勇名駒",
+        "number": "6",
+        "raw_win": "15"
+      },
+      {
+        "name": "龍文鞭影",
+        "number": "7",
+        "raw_win": "48"
+      },
+      {
+        "name": "傲聖",
+        "number": "8",
+        "raw_win": "87"
+      },
+      {
+        "name": "納百川",
+        "number": "9",
+        "raw_win": "4.5"
+      },
+      {
+        "name": "哥倫布",
+        "number": "10",
+        "raw_win": "8.5"
+      },
+      {
+        "name": "我做到",
+        "number": "11",
+        "raw_win": "16"
+      },
+      {
+        "name": "知道穩勝",
+        "number": "12",
+        "raw_win": "12"
+      }
+    ],
+    "source_update": "21/10/2026 23:06",
+    "source_url": "https://bet.hkjc.com/ch/racing/wp/2026-10-21/HV/9"
+  },
+  "netkeiba": {
+    "checked_on": "2026-10-22",
+    "heading": "【メンテナンスのお知らせ】",
+    "source_url": "https://en.netkeiba.com/db/horse/result/2021105727/",
+    "status": "maintenance"
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/config/globalConfig.js",
+    "requested_at": "2026-10-22T11:08:44.707070+00:00",
+    "status": 200,
+    "bytes": 2849,
+    "content_type": "application/javascript",
+    "sha256": "4825227b708b5a37d716d240f8cea31a33dd74c295eeedd3a1a84ae87669cea4",
+    "evidence_file": "public-globalConfig.js",
+    "evidence_redactions": [
+      "Unrelated publicly embedded CMS API-key parameter and telemetry client identifiers redacted; QIDS endpoint unchanged. sha256 above refers to the original response."
+    ],
+    "saved_sha256": "2bb968d2bd8fd0afd37d1b400c210e62429ebb6d2423b0cb0df7c1e88eaba5ad"
+  },
+  {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/_next/static/chunks/0ln9-ajgqg4nk.js",
+    "requested_at": "2026-10-22T11:08:44.707293+00:00",
+    "status": 200,
+    "bytes": 95244,
+    "content_type": "application/javascript",
+    "sha256": "1630e2ec611ea95ce2352136440a87e1b97c37ca63ed4c7b4e113919a8c273d4",
+    "evidence_file": "public-0ln9-ajgqg4nk.js"
+  },
+  {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/_next/static/chunks/0t2d467zj09ad.js",
+    "requested_at": "2026-10-22T11:08:45.573528+00:00",
+    "status": 200,
+    "bytes": 358956,
+    "content_type": "application/javascript",
+    "sha256": "2cfb1bb71111f3e025e132d6b5e5d4416421c1a58e92516ca5d410fd4b1041c1",
+    "evidence_file": "public-0t2d467zj09ad.js"
+  },
+  {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/_next/static/chunks/1wwvlg6ja2uk6.js",
+    "requested_at": "2026-10-22T11:08:46.231738+00:00",
+    "status": 200,
+    "bytes": 140272,
+    "content_type": "application/javascript",
+    "sha256": "2130520f51f03eae93fdf90f8c4a1eb3dd49fdcde8d5fd811080a2245ff1d397",
+    "evidence_file": "public-1wwvlg6ja2uk6.js"
+  },
+  {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/_next/static/chunks/2r2l0u_8zzhc3.js",
+    "requested_at": "2026-10-22T11:08:46.855718+00:00",
+    "status": 200,
+    "bytes": 574981,
+    "content_type": "application/javascript",
+    "sha256": "ef50327a1dfe2d0e72a23c45c1e68411417b58b114504718b3c44dfe51334ded",
+    "evidence_file": "public-2r2l0u_8zzhc3.js"
+  },
+  {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/_next/static/chunks/1c7uawedj6dd6.js",
+    "requested_at": "2026-10-22T11:08:47.518226+00:00",
+    "status": 200,
+    "bytes": 78127,
+    "content_type": "application/javascript",
+    "sha256": "cfa81fb777edcd1763923560b96e4adcdb344a4246d6fdfeeaef03ae59855942",
+    "evidence_file": "public-1c7uawedj6dd6.js"
+  },
+  {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/_next/static/chunks/39-oxo0t1ynu4.js",
+    "requested_at": "2026-10-22T11:08:48.173774+00:00",
+    "status": 200,
+    "bytes": 193844,
+    "content_type": "application/javascript",
+    "sha256": "7654383a8e9a3a72b73edc301fd95b178ae3af9bbbfaa3e201a6e15fcafdfd3a",
+    "evidence_file": "public-39-oxo0t1ynu4.js"
+  },
+  {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/_next/static/chunks/0cz1d0mv5g_q7.js",
+    "requested_at": "2026-10-22T11:08:48.580833+00:00",
+    "status": 200,
+    "bytes": 112594,
+    "content_type": "application/javascript",
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+    "evidence_file": "public-0cz1d0mv5g_q7.js"
+  },
+  {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/_next/static/chunks/35bmj32lrrm8d.js",
+    "requested_at": "2026-10-22T11:08:49.309588+00:00",
+    "status": 200,
+    "bytes": 22377,
+    "content_type": "application/javascript",
+    "sha256": "8ffe388b1e06e0533660c599f5c77ccf4c694e2cd9b178941869cf29e531f6e8",
+    "evidence_file": "public-35bmj32lrrm8d.js"
+  }
+]

@@ -1,0 +1,605 @@
+{
+  "method": "Explicit crosswalk reviewed from 100 country-restricted candidates; build uses these IDs, not similarity scores.",
+  "matches": [
+    {
+      "ranking_name": "Japan Cup in Association with LONGINES",
+      "race_id": "jpn-japan-cup-2025",
+      "reviewed_date": "2025-11-30",
+      "matched_name": "ジャパンカップ"
+    },
+    {
+      "ranking_name": "Qipco Champion Stakes",
+      "race_id": "eng-2025-10-18-868ff4c9",
+      "reviewed_date": "2025-10-18",
+      "matched_name": "Qipco Champion Stakes"
+    },
+    {
+      "ranking_name": "LONGINES Breeders' Cup Classic",
+      "race_id": "usa-2025-11-01-c021c949",
+      "reviewed_date": "2025-11-01",
+      "matched_name": "Longines Breeders' Cup Classic"
+    },
+    {
+      "ranking_name": "King George VI & Queen Elizabeth Stakes",
+      "race_id": "eng-2025-07-26-24939e32",
+      "reviewed_date": "2025-07-26",
+      "matched_name": "King George VI And Queen Elizabeth Stakes"
+    },
+    {
+      "ranking_name": "LONGINES Dubai Sheema Classic",
+      "race_id": "uae-dubai-sheema-classic-2025",
+      "reviewed_date": "2025-04-05",
+      "matched_name": "Dubai Sheema Classic"
+    },
+    {
+      "ranking_name": "Qatar Prix de l'Arc de Triomphe",
+      "race_id": "fr-2025-10-05-13512d1d",
+      "reviewed_date": "2025-10-05",
+      "matched_name": "Qatar Prix de l'Arc de Triomphe"
+    },
+    {
+      "ranking_name": "Coral-Eclipse",
+      "race_id": "eng-2025-07-05-3cc5dc2b",
+      "reviewed_date": "2025-07-05",
+      "matched_name": "Coral-eclipse"
+    },
+    {
+      "ranking_name": "Prince of Wales's Stakes",
+      "race_id": "eng-2025-06-18-205f09f2",
+      "reviewed_date": "2025-06-18",
+      "matched_name": "Prince of Wales's Stakes"
+    },
+    {
+      "ranking_name": "Tenno Sho (Autumn)",
+      "race_id": "jpn-tenno-autumn-2025",
+      "reviewed_date": "2025-11-02",
+      "matched_name": "天皇賞（秋）"
+    },
+    {
+      "ranking_name": "Arima Kinen (The Grand Prix)",
+      "race_id": "jpn-arima-2025",
+      "reviewed_date": "2025-12-28",
+      "matched_name": "有馬記念"
+    },
+    {
+      "ranking_name": "Satsuki Sho (Japanese 2000 Gns)",
+      "race_id": "jpn-satsuki-2025",
+      "reviewed_date": "2025-04-20",
+      "matched_name": "皐月賞"
+    },
+    {
+      "ranking_name": "Tattersalls Gold Cup",
+      "race_id": "ire-2025-05-25-3c4bed37",
+      "reviewed_date": "2025-05-25",
+      "matched_name": "Tattersalls Gold Cup (Group 1)"
+    },
+    {
+      "ranking_name": "Betfred Coronation Cup",
+      "race_id": "eng-2025-06-06-49da6c9b",
+      "reviewed_date": "2025-06-06",
+      "matched_name": "Betfred Coronation Cup"
+    },
+    {
+      "ranking_name": "Jockey Club Gold Cup Stakes",
+      "race_id": "usa-2025-08-31-b3d77948",
+      "reviewed_date": "2025-08-31",
+      "matched_name": "Jockey Club Gold Cup Stakes"
+    },
+    {
+      "ranking_name": "Juddmonte International Stakes",
+      "race_id": "eng-2025-08-20-9906b8dd",
+      "reviewed_date": "2025-08-20",
+      "matched_name": "Juddmonte International Stakes"
+    },
+    {
+      "ranking_name": "Royal Bahrain Irish Champion Stakes",
+      "race_id": "ire-2025-09-13-c8f41e89",
+      "reviewed_date": "2025-09-13",
+      "matched_name": "Royal Bahrain Irish Champion (Group 1)"
+    },
+    {
+      "ranking_name": "Saudi Cup",
+      "race_id": "ksa-2025-02-22-a20b9345",
+      "reviewed_date": "2025-02-22",
+      "matched_name": "Saudi Cup"
+    },
+    {
+      "ranking_name": "TAB Everest Stakes",
+      "race_id": "aus-2025-10-18-the-everest",
+      "reviewed_date": "2025-10-18",
+      "matched_name": "The Everest"
+    },
+    {
+      "ranking_name": "Kentucky Derby Presented by Woodford Reserve",
+      "race_id": "usa-2025-05-03-eeb88f61",
+      "reviewed_date": "2025-05-03",
+      "matched_name": "Kentucky Derby Presented By Woodford Reserve"
+    },
+    {
+      "ranking_name": "Betfred 2000 Guineas",
+      "race_id": "eng-2025-05-03-b5502a1c",
+      "reviewed_date": "2025-05-03",
+      "matched_name": "Betfred 2000 Guineas Stakes"
+    },
+    {
+      "ranking_name": "Dubai Turf Sponsored by DP World",
+      "race_id": "uae-dubai-turf-2025",
+      "reviewed_date": "2025-04-05",
+      "matched_name": "Dubai Turf"
+    },
+    {
+      "ranking_name": "LONGINES Hong Kong Cup",
+      "race_id": "hk-hong-kong-cup-2025",
+      "reviewed_date": "2025-12-14",
+      "matched_name": "浪琴香港盃"
+    },
+    {
+      "ranking_name": "Stephen Foster Stakes",
+      "race_id": "usa-2025-06-28-0d28272e",
+      "reviewed_date": "2025-06-28",
+      "matched_name": "Stephen Foster Stakes"
+    },
+    {
+      "ranking_name": "Tokyo Yushun (Japanese Derby)",
+      "race_id": "jpn-tokyo-yushun-2025",
+      "reviewed_date": "2025-06-01",
+      "matched_name": "東京優駿（日本ダービー）"
+    },
+    {
+      "ranking_name": "Whitney Stakes",
+      "race_id": "usa-2025-08-02-c299633d",
+      "reviewed_date": "2025-08-02",
+      "matched_name": "Whitney Stakes"
+    },
+    {
+      "ranking_name": "LONGINES Hong Kong Vase",
+      "race_id": "hk-hong-kong-vase-2025",
+      "reviewed_date": "2025-12-14",
+      "matched_name": "浪琴香港瓶"
+    },
+    {
+      "ranking_name": "Belmont Stakes Presented by NYRA Bets",
+      "race_id": "usa-2025-06-07-f7c56b44",
+      "reviewed_date": "2025-06-07",
+      "matched_name": "Belmont Stakes Presented By Nyra Bets"
+    },
+    {
+      "ranking_name": "Crown Makybe Diva Stakes",
+      "race_id": "aus-2025-09-13-makybe-diva-stakes",
+      "reviewed_date": "2025-09-13",
+      "matched_name": "Makybe Diva Stakes"
+    },
+    {
+      "ranking_name": "Grand Prix de Saint-Cloud",
+      "race_id": "fr-2025-06-29-45b70293",
+      "reviewed_date": "2025-06-29",
+      "matched_name": "Grand Prix de Saint-Cloud"
+    },
+    {
+      "ranking_name": "Yasuda Kinen",
+      "race_id": "jpn-yasuda-2025",
+      "reviewed_date": "2025-06-08",
+      "matched_name": "安田記念"
+    },
+    {
+      "ranking_name": "The Aga Khan Studs Prix Jacques Le Marois",
+      "race_id": "fr-2025-08-17-2e238c21",
+      "reviewed_date": "2025-08-17",
+      "matched_name": "The Aga Khan Studs Prix Jacques Le Marois"
+    },
+    {
+      "ranking_name": "Ladbrokes Cox Plate",
+      "race_id": "aus-2025-10-25-cox-plate",
+      "reviewed_date": "2025-10-25",
+      "matched_name": "Cox Plate"
+    },
+    {
+      "ranking_name": "Stow Storage Memsie Stakes",
+      "race_id": "aus-2025-08-30-memsie-stakes",
+      "reviewed_date": "2025-08-30",
+      "matched_name": "Memsie Stakes"
+    },
+    {
+      "ranking_name": "TAB Turnbull Stakes",
+      "race_id": "aus-2025-10-04-turnbull-stakes",
+      "reviewed_date": "2025-10-04",
+      "matched_name": "Turnbull Stakes"
+    },
+    {
+      "ranking_name": "LONGINES Hong Kong Mile",
+      "race_id": "hk-hong-kong-mile-2025",
+      "reviewed_date": "2025-12-14",
+      "matched_name": "浪琴香港一哩錦標"
+    },
+    {
+      "ranking_name": "Boylesports Lockinge Stakes",
+      "race_id": "eng-2025-05-17-73c0045a",
+      "reviewed_date": "2025-05-17",
+      "matched_name": "Boylesports Lockinge Stakes (Class 1) (Group 1)"
+    },
+    {
+      "ranking_name": "Dubai World Cup Sponsored by Emirates Airline",
+      "race_id": "uae-dubai-world-cup-2025",
+      "reviewed_date": "2025-04-05",
+      "matched_name": "Dubai World Cup"
+    },
+    {
+      "ranking_name": "St James's Palace Stakes",
+      "race_id": "eng-2025-06-17-e9f6ecb2",
+      "reviewed_date": "2025-06-17",
+      "matched_name": "St James's Palace Stakes"
+    },
+    {
+      "ranking_name": "Takarazuka Kinen",
+      "race_id": "jpn-takarazuka-2025",
+      "reviewed_date": "2025-06-15",
+      "matched_name": "宝塚記念"
+    },
+    {
+      "ranking_name": "Winx Stakes",
+      "race_id": "aus-2025-08-23-winx-stakes",
+      "reviewed_date": "2025-08-23",
+      "matched_name": "Winx Stakes"
+    },
+    {
+      "ranking_name": "Chairman's Sprint Prize",
+      "race_id": "hk-chairmans-sprint-2025",
+      "reviewed_date": "2025-04-27",
+      "matched_name": "主席短途獎"
+    },
+    {
+      "ranking_name": "Churchill Downs Stakes Presented by Ford",
+      "race_id": "usa-2025-05-03-416ac9aa",
+      "reviewed_date": "2025-05-03",
+      "matched_name": "Churchill Downs Stakes Presented By Ford"
+    },
+    {
+      "ranking_name": "Hill 'n' Dale Metropolitan Handicap",
+      "race_id": "usa-2025-06-07-1c85d8af",
+      "reviewed_date": "2025-06-07",
+      "matched_name": "Hill 'N' Dale Metropolitan H."
+    },
+    {
+      "ranking_name": "Lexus Champions Mile",
+      "race_id": "aus-2025-11-08-champions-mile",
+      "reviewed_date": "2025-11-08",
+      "matched_name": "Champions Mile"
+    },
+    {
+      "ranking_name": "LONGINES Breeders' Cup Turf",
+      "race_id": "usa-2025-11-01-33cfb5c2",
+      "reviewed_date": "2025-11-01",
+      "matched_name": "Longines Breeders' Cup Turf"
+    },
+    {
+      "ranking_name": "Visit Qatar Sussex Stakes",
+      "race_id": "eng-2025-07-30-54f0863b",
+      "reviewed_date": "2025-07-30",
+      "matched_name": "Visit Qatar Sussex Stakes"
+    },
+    {
+      "ranking_name": "FanDuel Breeders' Cup Mile Presented By PDJF",
+      "race_id": "usa-2025-11-01-305cb902",
+      "reviewed_date": "2025-11-01",
+      "matched_name": "Fanduel Breeders' Cup Mile Presented By Pdjf"
+    },
+    {
+      "ranking_name": "Pegasus World Cup Invitational Stakes",
+      "race_id": "usa-2025-01-25-981d3962",
+      "reviewed_date": "2025-01-25",
+      "matched_name": "Pegasus World Cup Invitational Stakes"
+    },
+    {
+      "ranking_name": "Prix Ganay",
+      "race_id": "fr-2025-04-27-072b1c0d",
+      "reviewed_date": "2025-04-27",
+      "matched_name": "Prix Ganay"
+    },
+    {
+      "ranking_name": "Queen Elizabeth Stakes",
+      "race_id": "aus-2025-04-12-queen-elizabeth-stakes",
+      "reviewed_date": "2025-04-12",
+      "matched_name": "Queen Elizabeth Stakes"
+    },
+    {
+      "ranking_name": "Queen's Silver Jubilee Cup",
+      "race_id": "hk-queens-silver-jubilee-2025",
+      "reviewed_date": "2025-02-23",
+      "matched_name": "女皇銀禧紀念盃"
+    },
+    {
+      "ranking_name": "Queen Anne Stakes",
+      "race_id": "eng-2025-06-17-6c74c88f",
+      "reviewed_date": "2025-06-17",
+      "matched_name": "Queen Anne Stakes"
+    },
+    {
+      "ranking_name": "TAB Verry Elleegant Stakes",
+      "race_id": "aus-2025-03-01-verry-elleegant-stakes",
+      "reviewed_date": "2025-03-01",
+      "matched_name": "Verry Elleegant Stakes"
+    },
+    {
+      "ranking_name": "Agency George Ryder Stakes",
+      "race_id": "aus-2025-03-22-george-ryder-stakes",
+      "reviewed_date": "2025-03-22",
+      "matched_name": "George Ryder Stakes"
+    },
+    {
+      "ranking_name": "Centenary Sprint Cup",
+      "race_id": "hk-centenary-sprint-2025",
+      "reviewed_date": "2025-01-19",
+      "matched_name": "百週年紀念短途盃"
+    },
+    {
+      "ranking_name": "Schweppes All Aged Stakes",
+      "race_id": "aus-2025-04-19-all-aged-stakes",
+      "reviewed_date": "2025-04-19",
+      "matched_name": "All Aged Stakes"
+    },
+    {
+      "ranking_name": "TAB Champions Stakes (ex Mackinnon)",
+      "race_id": "aus-2025-11-08-champions-stakes",
+      "reviewed_date": "2025-11-08",
+      "matched_name": "Champions Stakes"
+    },
+    {
+      "ranking_name": "Gold Cup",
+      "race_id": "eng-2025-06-19-4efe657c",
+      "reviewed_date": "2025-06-19",
+      "matched_name": "Gold Cup"
+    },
+    {
+      "ranking_name": "Prix Jean Prat",
+      "race_id": "fr-2025-07-06-f318848f",
+      "reviewed_date": "2025-07-06",
+      "matched_name": "Prix Jean Prat"
+    },
+    {
+      "ranking_name": "Mile Championship",
+      "race_id": "jpn-mile-championship-2025",
+      "reviewed_date": "2025-11-23",
+      "matched_name": "マイルチャンピオンシップ"
+    },
+    {
+      "ranking_name": "ARC Prix Maurice de Gheest - Fonds Europeen de l'Elevage",
+      "race_id": "fr-2025-08-10-fe573431",
+      "reviewed_date": "2025-08-10",
+      "matched_name": "Arc Prix Maurice de Gheest - Fonds Europeen de l'Elevage"
+    },
+    {
+      "ranking_name": "Asahi Super Dry T. J. Smith Stakes",
+      "race_id": "aus-2025-04-05-t-j-smith-stakes",
+      "reviewed_date": "2025-04-05",
+      "matched_name": "T.J. Smith Stakes"
+    },
+    {
+      "ranking_name": "King Charles III Stakes",
+      "race_id": "aus-2025-10-18-king-charles-iii-stakes",
+      "reviewed_date": "2025-10-18",
+      "matched_name": "King Charles III Stakes"
+    },
+    {
+      "ranking_name": "Queen Elizabeth II Stakes (Sponsored by Qipco)",
+      "race_id": "eng-2025-10-18-94a54fd9",
+      "reviewed_date": "2025-10-18",
+      "matched_name": "Queen Elizabeth II Stakes"
+    },
+    {
+      "ranking_name": "Tattersalls Irish 2000 Guineas",
+      "race_id": "ire-2025-05-24-e1be035d",
+      "reviewed_date": "2025-05-24",
+      "matched_name": "Tattersalls Irish 2,000 Guineas (Group 1)"
+    },
+    {
+      "ranking_name": "Tenno Sho (Spring)",
+      "race_id": "jpn-tenno-spring-2025",
+      "reviewed_date": "2025-05-04",
+      "matched_name": "天皇賞（春）"
+    },
+    {
+      "ranking_name": "All Star Mile Stakes",
+      "race_id": "aus-2025-03-08-the-all-star-mile",
+      "reviewed_date": "2025-03-08",
+      "matched_name": "The All-Star Mile"
+    },
+    {
+      "ranking_name": "Joe Hirsch Turf Classic Stakes",
+      "race_id": "usa-2025-09-27-20442329",
+      "reviewed_date": "2025-09-27",
+      "matched_name": "Joe Hirsch Turf Classic Stakes"
+    },
+    {
+      "ranking_name": "Stewards' Cup",
+      "race_id": "hk-stewards-cup-2025",
+      "reviewed_date": "2025-01-19",
+      "matched_name": "董事盃"
+    },
+    {
+      "ranking_name": "Takamatsunomiya Kinen",
+      "race_id": "jpn-takamatsunomiya-2025",
+      "reviewed_date": "2025-03-30",
+      "matched_name": "高松宮記念"
+    },
+    {
+      "ranking_name": "February Stakes",
+      "race_id": "jpn-february-2025",
+      "reviewed_date": "2025-02-23",
+      "matched_name": "フェブラリーステークス"
+    },
+    {
+      "ranking_name": "Juddmonte Spinster Stakes",
+      "race_id": "usa-2025-10-05-b51f9128",
+      "reviewed_date": "2025-10-05",
+      "matched_name": "Juddmonte Spinster Stakes"
+    },
+    {
+      "ranking_name": "LONGINES Hong Kong Sprint",
+      "race_id": "hk-hong-kong-sprint-2025",
+      "reviewed_date": "2025-12-14",
+      "matched_name": "浪琴香港短途錦標"
+    },
+    {
+      "ranking_name": "Pacific Classic Stakes",
+      "race_id": "usa-2025-08-30-c00d1e2b",
+      "reviewed_date": "2025-08-30",
+      "matched_name": "Pacific Classic Stakes"
+    },
+    {
+      "ranking_name": "Sky Bet City of York Stakes",
+      "race_id": "eng-2025-08-23-9c65aecd",
+      "reviewed_date": "2025-08-23",
+      "matched_name": "Sky Bet City Of York Stakes"
+    },
+    {
+      "ranking_name": "Sprinters Stakes",
+      "race_id": "jpn-sprinters-2025",
+      "reviewed_date": "2025-09-28",
+      "matched_name": "スプリンターズステークス"
+    },
+    {
+      "ranking_name": "Standard Chartered Champions & Chater Cup",
+      "race_id": "hk-champions-chater-2025",
+      "reviewed_date": "2025-05-25",
+      "matched_name": "渣打冠軍暨遮打盃"
+    },
+    {
+      "ranking_name": "Al Shaqab Goodwood Cup",
+      "race_id": "eng-2025-07-29-f70ad93e",
+      "reviewed_date": "2025-07-29",
+      "matched_name": "Al Shaqab Goodwood Cup Stakes"
+    },
+    {
+      "ranking_name": "Betfred Oaks",
+      "race_id": "eng-2025-06-06-d15df17b",
+      "reviewed_date": "2025-06-06",
+      "matched_name": "Betfred Oaks"
+    },
+    {
+      "ranking_name": "Betfred St Leger Stakes",
+      "race_id": "eng-2025-09-13-9f877f61",
+      "reviewed_date": "2025-09-13",
+      "matched_name": "Betfred St Leger Stakes"
+    },
+    {
+      "ranking_name": "Ladbrokes Manikato Stakes",
+      "race_id": "aus-2025-09-26-manikato-stakes",
+      "reviewed_date": "2025-09-26",
+      "matched_name": "Manikato Stakes"
+    },
+    {
+      "ranking_name": "Qatar Prix du Moulin de Longchamp",
+      "race_id": "fr-2025-09-07-32146626",
+      "reviewed_date": "2025-09-07",
+      "matched_name": "Qatar Prix du Moulin de Longchamp"
+    },
+    {
+      "ranking_name": "Champions Cup",
+      "race_id": "jpn-champions-cup-2025",
+      "reviewed_date": "2025-12-07",
+      "matched_name": "チャンピオンズカップ"
+    },
+    {
+      "ranking_name": "FWD Champions Mile",
+      "race_id": "hk-champions-mile-2025",
+      "reviewed_date": "2025-04-27",
+      "matched_name": "富衛保險冠軍一哩賽"
+    },
+    {
+      "ranking_name": "FWD Queen Elizabeth II Cup",
+      "race_id": "hk-qeii-cup-2025",
+      "reviewed_date": "2025-04-27",
+      "matched_name": "富衛保險女皇盃"
+    },
+    {
+      "ranking_name": "Kia Tancred Stakes",
+      "race_id": "aus-2025-04-01-h-e-tancred-stakes",
+      "reviewed_date": "2025-04-01",
+      "matched_name": "H.E. Tancred Stakes"
+    },
+    {
+      "ranking_name": "NYRA Bets Haskell Stakes",
+      "race_id": "usa-2025-07-19-33d00dd8",
+      "reviewed_date": "2025-07-19",
+      "matched_name": "Nyra Bets Haskell Stakes"
+    },
+    {
+      "ranking_name": "Osaka Hai",
+      "race_id": "jpn-osaka-2025",
+      "reviewed_date": "2025-04-06",
+      "matched_name": "大阪杯"
+    },
+    {
+      "ranking_name": "Preakness Stakes",
+      "race_id": "usa-2025-05-17-acbbbcf8",
+      "reviewed_date": "2025-05-17",
+      "matched_name": "Preakness Stakes"
+    },
+    {
+      "ranking_name": "Qipco British Champions Long Distance Cup",
+      "race_id": "eng-2025-10-18-03d08751",
+      "reviewed_date": "2025-10-18",
+      "matched_name": "Qipco British Champions Long Distance Cup"
+    },
+    {
+      "ranking_name": "Queen Elizabeth II Jubilee Stakes",
+      "race_id": "eng-2025-06-21-025de441",
+      "reviewed_date": "2025-06-21",
+      "matched_name": "Queen Elizabeth II Jubilee Stakes"
+    },
+    {
+      "ranking_name": "Emirates Poule d'Essai des Poulains",
+      "race_id": "fr-2025-05-11-83b31127",
+      "reviewed_date": "2025-05-11",
+      "matched_name": "Emirates Poule d'Essai des Poulains"
+    },
+    {
+      "ranking_name": "Qatar Prix du Jockey Club",
+      "race_id": "fr-2025-06-01-2cd0afac",
+      "reviewed_date": "2025-06-01",
+      "matched_name": "Qatar Prix du Jockey Club"
+    },
+    {
+      "ranking_name": "Qipco British Champions Fillies & Mares Stakes",
+      "race_id": "eng-2025-10-18-faa289e4",
+      "reviewed_date": "2025-10-18",
+      "matched_name": "Qipco British Champions Fillies & Mares Stakes"
+    },
+    {
+      "ranking_name": "Tokyo Daishoten",
+      "race_id": "jpn-tokyo-daishoten-2025",
+      "reviewed_date": "2025-12-29",
+      "matched_name": "東京大賞典"
+    },
+    {
+      "ranking_name": "VRC Champions Sprint",
+      "race_id": "aus-2025-11-08-champions-sprint",
+      "reviewed_date": "2025-11-08",
+      "matched_name": "Champions Sprint"
+    },
+    {
+      "ranking_name": "Lamaro's Hotel Futurity Stakes",
+      "race_id": "aus-2025-02-22-futurity-stakes",
+      "reviewed_date": "2025-02-22",
+      "matched_name": "Futurity Stakes"
+    },
+    {
+      "ranking_name": "Paddy Power Pretty Polly Stakes",
+      "race_id": "ire-2025-06-28-ccfe7b7c",
+      "reviewed_date": "2025-06-28",
+      "matched_name": "Paddy Power Pretty Polly Stakes (Fillies And Mares Group 1)"
+    },
+    {
+      "ranking_name": "Qatar Prix de la Foret",
+      "race_id": "fr-2025-10-05-9a2f8c92",
+      "reviewed_date": "2025-10-05",
+      "matched_name": "Qatar Prix de la Foret"
+    },
+    {
+      "ranking_name": "Wettstar.de Grosser Preis von Baden",
+      "race_id": "ger-2025-09-07-88f52b90",
+      "reviewed_date": "2025-09-07",
+      "matched_name": "Grosser Preis von Baden"
+    }
+  ]
+}

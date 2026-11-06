@@ -1,0 +1,291 @@
+[
+  [
+    "FP",
+    "BK",
+    "PP",
+    "Horse Jockey",
+    "S&A Color Wgt",
+    "Odds (Fav)",
+    "Margin (L3F)",
+    "Sire Dam (Dam’s Sire)",
+    "Owner Breeder Trainer"
+  ],
+  [
+    "1",
+    "5",
+    "9",
+    "Going to Sky (JPN) Yutaka Take",
+    "C3 b. 57.0",
+    "12.0 (3)",
+    "3:04.5 (35.4)",
+    "Contrail Goin to the Window (Tapit)",
+    "Field Racing Chiyoda Farm Shizunai Yuki Uehara"
+  ],
+  [
+    "2",
+    "3",
+    "6",
+    "Basse Terre (JPN) Yuga Kawada",
+    "C3 b. 57.0",
+    "33.8 (8)",
+    "Nose (34.9)",
+    "Kitasan Black Mambia (Aldebaran)",
+    "Silk Racing Co., Ltd. Northern Racing Takashi Saito"
+  ],
+  [
+    "3",
+    "5",
+    "10",
+    "Danon History (JPN) Christophe Lemaire",
+    "C3 d.b. 57.0",
+    "3.0 (2)",
+    "1 (35.6)",
+    "Epiphaneia Coasted (Tizway)",
+    "Danox Co., Ltd. Northern Farm Noriyuki Hori"
+  ],
+  [
+    "4",
+    "6",
+    "12",
+    "Sanono Greater (JPN) Hironobu Tanabe",
+    "C3 b. 57.0",
+    "129.7 (14)",
+    "1/2 (35.0)",
+    "Greater London Meme Kuzariana (Jungle Pocket)",
+    "Nobuyuki Sano Okita Bokujo Kazuyuki Ogata"
+  ],
+  [
+    "5",
+    "7",
+    "15",
+    "Sea to Summit (JPN) Manabu Sakai",
+    "C3 d.b. 57.0",
+    "87.5 (12)",
+    "3/4 (36.0)",
+    "Maurice Flower Valley (Discreet Cat)",
+    "Kobayashi Eiichi Holdings LLC. Kobayashi Eiichi Holdings LLC Tatsuya Yoshioka"
+  ],
+  [
+    "6",
+    "8",
+    "16",
+    "Shonan Hayanami (JPN) Kenichi Ikezoe",
+    "C3 ch. 57.0",
+    "57.6 (10)",
+    "Neck (35.1)",
+    "Rey de Oro Shonan Baci (Deep Impact)",
+    "Tetsuhide Kunimoto Tetsuhide Kunimoto Kunihiko Watanabe"
+  ],
+  [
+    "7",
+    "7",
+    "14",
+    "Majorelle Bleu (JPN) Keita Tosaki",
+    "C3 d.b. 57.0",
+    "71.5 (11)",
+    "Neck (35.7)",
+    "Contrail Blooming Alley (Symboli Kris S)",
+    "Shadai Race Horse Co., Ltd. Shadai Farm Yasuo Tomomichi"
+  ],
+  [
+    "8",
+    "1",
+    "2",
+    "Congestus (JPN) Atsuya Nishimura",
+    "C3 d.b. 57.0",
+    "23.7 (6)",
+    "Neck (35.8)",
+    "Contrail Kirramosa (Alamosa)",
+    "Silk Racing Co., Ltd. Northern Racing Tomokazu Takano"
+  ],
+  [
+    "9",
+    "2",
+    "3",
+    "Audacia (JPN) Akihide Tsumura",
+    "C3 d.b. 57.0",
+    "22.9 (5)",
+    "1 (36.1)",
+    "Kizuna Lily Noble (Rulership)",
+    "Sunday Racing Co., Ltd. Shunsuke Yoshida Takahisa Tezuka"
+  ],
+  [
+    "10",
+    "3",
+    "5",
+    "Justin Chicago (JPN) Yusuke Hara",
+    "C3 ch. 57.0",
+    "20.2 (4)",
+    "1 (36.0)",
+    "Suave Richard Erika Bright (King Kamehameha)",
+    "Masahiro Miki Masahiro Miki Keisuke Miyata"
+  ],
+  [
+    "11",
+    "8",
+    "17",
+    "Charing Cross (JPN) Yukito Ishikawa",
+    "C3 br. 57.0",
+    "203.1 (15)",
+    "1/2 (36.0)",
+    "Kitasan Black Rising Cross (Cape Cross)",
+    "Sunday Racing Co., Ltd. Northern Racing Takeshi Okumura"
+  ],
+  [
+    "12",
+    "4",
+    "7",
+    "Large Ensemble (JPN) Ryusei Sakai",
+    "C3 b. 57.0",
+    "210.3 (16)",
+    "3/4 (36.6)",
+    "Benbatl Nasuno Forte (Just a Way)",
+    "Green Farm Co., Ltd. Nasuno Bokujo Ryo Takei"
+  ],
+  [
+    "13",
+    "1",
+    "1",
+    "M's Begin (JPN) Mirai Iwata",
+    "C3 d.b. 57.0",
+    "53.0 (9)",
+    "1/2 (35.9)",
+    "Kitasan Black Delphinia (Galileo)",
+    "M's Racing Northern Racing Yasuo Tomomichi"
+  ],
+  [
+    "14",
+    "4",
+    "8",
+    "Lovcen (JPN) Kohei Matsuyama",
+    "C3 d.b. 57.0",
+    "1.8 (1)",
+    "1 (36.7)",
+    "World Premiere Songwriting (Giant's Causeway)",
+    "Forest Racing Northern Farm Haruki Sugiyama"
+  ],
+  [
+    "15",
+    "7",
+    "13",
+    "King Glory (JPN) Yuji Tannai",
+    "C3 b. 57.0",
+    "123.3 (13)",
+    "1-1/2 (39.8)",
+    "Danon Premium Half Moon (Duke of Marmalade)",
+    "Nobuyuki Hiraguchi MT Farm Masaaki Koga"
+  ],
+  [
+    "16",
+    "8",
+    "18",
+    "Narita Esperanza (JPN) Yuichi Kitamura",
+    "C3 br. 57.0",
+    "237.4 (17)",
+    "DS (39.0)",
+    "Kitasan Black Wonderfilly (Invincible Spirit)",
+    "Osumi Co., Ltd. Mishima Bokujo Yuichi Fukunaga"
+  ],
+  [
+    "17",
+    "6",
+    "11",
+    "Ask Edinburgh (JPN) Yasunari Iwata",
+    "C3 br. 57.0",
+    "32.8 (7)",
+    "3 (39.4)",
+    "Leontes Honey Trip (Manhattan Cafe)",
+    "Toshihiro Hirosaki Toshihiro Hirosaki Yuichi Fukunaga"
+  ],
+  [
+    "18",
+    "2",
+    "4",
+    "Shonan Gulf (JPN) Osuke Tayama",
+    "C3 b. 57.0",
+    "380.5 (18)",
+    "2-1/2 (39.4)",
+    "Harbinger Mi Carino (Heart's Cry)",
+    "Tetsuhide Kunimoto Shunsuke Yoshida Naosuke Sugai"
+  ],
+  [
+    "Note:",
+    "Figures quoted under Odds are shown in form of decimal odds (single unit is ¥100), and Fav indicates the order of favorites."
+  ],
+  [
+    "Win",
+    "No.9",
+    "¥ 1,200",
+    "Bracket Quinella",
+    "3-5",
+    "¥ 1,270",
+    "Quinella",
+    "6-9",
+    "¥ 11,530"
+  ],
+  [
+    "Place",
+    "No.9",
+    "¥ 370",
+    "Quinella Place",
+    "6-9",
+    "¥ 2.670",
+    "Exacta",
+    "9-6",
+    "¥ 25,160"
+  ],
+  [
+    "No.6",
+    "¥ 730",
+    "9-10",
+    "¥ 700",
+    "Trio",
+    "6-9-10",
+    "¥ 8,580"
+  ],
+  [
+    "No.10",
+    "¥ 210",
+    "6-10",
+    "¥ 1,270",
+    "Trifecta",
+    "9-6-10",
+    "¥ 113,300"
+  ],
+  [
+    "Fractional time (sec./furlong):",
+    "13.1 - 11.2 - 11.1 - 11.6 - 11.4 - 11.8 - 12.3 - 12.6 - 12.7 - 12.9 - 13.0 - 12.6 - 13.0 - 13.2 - 12.0"
+  ],
+  [
+    "",
+    "Last 4 furlongs: 50.8 Last 3 furlongs: 38.2"
+  ],
+  [
+    "Positions at each corner:",
+    "1st corner",
+    "13=15,18,11,7(5,10)14(9,2,17)(12,8)3,4,6-16,1"
+  ],
+  [
+    "",
+    "2nd corner",
+    "13=15,18,11,7,5(14,10)(9,2,17)(12,8)(4,3)6-(1,16)"
+  ],
+  [
+    "",
+    "3rd corner (2nd lap)",
+    "13=15,18(11,7,10)9(14,2,8,3)(5,4)(12,17)(1,6)16"
+  ],
+  [
+    "",
+    "4th corner (2nd lap)",
+    "13=15(7,10)(18,8)(11,9,14,2,3)(5,6)(17,16)12,4,1"
+  ],
+  [
+    "Note1:",
+    "Underlined bold number indicates the winning horse."
+  ],
+  [
+    "Note2:",
+    "Horse numbers are indicated in the order of their positions at each corner, with the first position listed first. Two or more horses inside the same parentheses indicate that they were positioned side by side. Hyphens between the horse numbers indicate that there is distance between the former and the latter. The asterisk indicates a slight lead."
+  ]
+]

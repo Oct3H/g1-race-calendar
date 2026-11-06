@@ -1,0 +1,18 @@
+{
+  "round": 38,
+  "date": "2026-10-23",
+  "preview": "http://127.0.0.1:8765/index.html?preview=calendar&year=2026&month=10&game=bet&race=tenno&v=38",
+  "scope": "Fictional in-memory purchase confirmation layout; no official odds fetch or persistent wallet.",
+  "checks": {
+    "module_syntax": "design.js and game-design.js passed using --input-type=module --check via stdin",
+    "confirmation_function": "check_ticket_confirmation.mjs passed: selection, stake, return, profit, remaining funds, invalid amounts, missing acquired time; quoting does not debit funds",
+    "existing_game_rules": "check_game_preview.mjs passed",
+    "existing_change_flows": "check_change_preview.mjs passed",
+    "unique_static_and_template_ids": 187,
+    "local_referenced_resources": "exist",
+    "head_only_service_checks": "index.html, design.js, game-design.js, game-style.css: HTTP 200 and Cache-Control no-store"
+  },
+  "browser_visual_verification": "Not performed; existing browser policy restriction was not bypassed. User review pending.",
+  "pending_requirement": "Whether failed/offline odds refresh should block new purchases; async question sent, no answer yet. No new gate implemented.",
+  "previous_round": "Round 37 approved by user; existing warning/read and refund behavior preserved."
+}

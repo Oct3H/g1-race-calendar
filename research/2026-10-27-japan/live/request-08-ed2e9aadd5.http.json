@@ -1,0 +1,35 @@
+{
+  "name": "request-08-ed2e9aadd5",
+  "url": "https://www.keiba.go.jp/dirtgraderace/2026/1103_JBCclassic/racecard.html",
+  "method": "GET",
+  "requested_at": "2026-10-27T11:00:06.618008+00:00",
+  "status": 200,
+  "final_url": "https://www.keiba.go.jp/dirtgraderace/2026/1103_JBCclassic/racecard.html",
+  "headers": {
+    "content-type": "text/html",
+    "content-length": "13246",
+    "date": "Tue, 27 Oct 2026 11:00:11 GMT",
+    "server": "AmazonS3",
+    "last-modified": "Sat, 24 Oct 2026 09:38:37 GMT",
+    "etag": "\"8ba730014ba0c671ab69b061e6b5aae6\"",
+    "cache-control": "public, max-age=360, immutable"
+  },
+  "bytes": 13246,
+  "sha256": "2cac7970d15e44f929a0781f118903495102aa12af695dc14e6f054c5d69130f",
+  "links": [
+    "https://www.kanazawakeiba.com/wp-content/uploads/2026/10/25c157d6a073f0565bd2b871358a9839.pdf",
+    "#wrapper"
+  ],
+  "script_sources": [
+    "https://www.googletagmanager.com/gtag/js?id=G-FGDLX751XZ",
+    "../../common/js/jquery.js",
+    "../../common/js/common.js",
+    "../../common/js/picturefill.min.js",
+    "../common/js/race.js",
+    "../common/js/scroll-hint.min.js",
+    "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-602c882a25004a58",
+    "../common/js/scroll-hint.js"
+  ],
+  "tables": 0,
+  "rows": 0
+}

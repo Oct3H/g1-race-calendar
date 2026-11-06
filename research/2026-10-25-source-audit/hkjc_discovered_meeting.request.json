@@ -1,0 +1,10 @@
+{
+  "query": "query RaceMeetingProfile($date: String, $oddsTypes: [OddsType], $venueCode: String) {\n    raceMeetingProfile(date: $date, venueCode: $venueCode) {\n      races {\n        runners {\n          jockey {\n            id\n            code\n            name_en\n            name_ch\n            status\n          }\n          trainer {\n            id\n            code\n            name_en\n            name_ch\n          }\n          horse {\n            name_en\n            name_ch\n            id\n          }\n          id\n          no\n          winOdds\n          status\n        }\n        distance\n        raceClass_en\n        raceClass_ch\n        no\n        raceTrack {\n          code\n          description_en\n          description_ch\n        }\n        id\n        raceName_en\n        raceName_ch\n        status\n      }\n      venueCode\n      date\n      status\n      pmPools(oddsTypes: $oddsTypes) {\n        status\n        sellStatus \n        id \n        leg {\n          number\n          races\n        }\n        oddsNodes {\n          oddsValue \n          combString\n          hotFavourite\n        }\n      }\n      changeHistories {\n        type\n        raceNo\n        runnerNo\n      }\n    } \n  }\n",
+  "variables": {
+    "date": "2026-10-25",
+    "venueCode": "S2",
+    "oddsTypes": [
+      "WIN"
+    ]
+  }
+}

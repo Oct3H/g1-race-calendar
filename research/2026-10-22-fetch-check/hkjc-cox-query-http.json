@@ -1,0 +1,27 @@
+{
+  "requested_at": "2026-10-22T11:10:00.240195+00:00",
+  "url": "https://info.cld.hkjc.com/graphql/base/",
+  "method": "POST of page-embedded read-only RaceResultsProfile query; JSON content type only, no credentials, cookies, custom user agent or retries",
+  "variables": {
+    "date": "2025-10-25",
+    "venueCode": "S1"
+  },
+  "query_evidence": "public-39-oxo0t1ynu4.js",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Access-Control-Allow-Origin": "*",
+    "Content-Encoding": "gzip",
+    "Content-Length": "19913",
+    "Cache-Control": "public, max-age=30",
+    "Date": "Thu, 22 Oct 2026 11:10:01 GMT"
+  },
+  "bytes": 19913,
+  "sha256": "b04ef526c18eee1f9f6afb10850213a37ff21e8dba3a30d8ab62155a1a4895d1",
+  "decoded_bytes": 153422,
+  "response_top_level_keys": [
+    "data"
+  ],
+  "graphql_errors": null
+}

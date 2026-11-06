@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "static_ids_unique": 144,
+    "html_balanced": true,
+    "resources_exist": true,
+    "syntax": "design.js and game-design.js passed",
+    "interaction": "actual detail-open clears warning, text and detail descriptions remain, repeated redraw stays read, expanded dates preserved, refunds do not acknowledge race changes"
+  },
+  "head_requests": [
+    {
+      "path": "/index.html?preview=calendar&year=2026&month=10&v=37",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/design.js?v=37",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/game-design.js?v=37",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/calendar-workspace.css?v=37",
+      "status": 200,
+      "cache_control": "no-store"
+    }
+  ],
+  "browser_visual_check": "not_run_due_to_prior_browser_url_policy_rejection",
+  "change_classification": "deferred_by_user",
+  "prototype_read_state": "in_memory_only"
+}

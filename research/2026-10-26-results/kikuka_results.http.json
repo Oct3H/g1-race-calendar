@@ -1,0 +1,18 @@
+{
+  "name": "kikuka_results",
+  "url": "https://info.cld.hkjc.com/graphql/base/",
+  "method": "POST",
+  "requested_at": "2026-10-26T12:18:52.683414+00:00",
+  "status": 200,
+  "final_url": "https://info.cld.hkjc.com/graphql/base/",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-encoding": "gzip",
+    "cache-control": "public, max-age=15",
+    "date": "Mon, 26 Oct 2026 12:18:58 GMT",
+    "content-length": "3977"
+  },
+  "bytes": 3977,
+  "sha256": "3e60cd4261f12a08d5699a8cdeac85ba2872dd45062a09f3ab92c730d187ed94",
+  "graphql_errors": null
+}

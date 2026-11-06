@@ -1,0 +1,197 @@
+.game-tools{display:flex;align-items:center}
+.game-shop-launcher{display:grid;place-items:center;width:78px;height:78px;padding:0;border:0;background:none;transition:transform .15s}
+.game-shop-launcher img{display:block;width:68px;height:68px;object-fit:contain;filter:drop-shadow(0 3px 1px #bca5d04a)}
+.game-shop-launcher:hover{transform:translateY(-3px) rotate(-3deg)}
+.app-header:has(.game-tools) .header-caption,.app-header:has(.game-tools) .design-status{display:none}
+.app-header:has(.game-tools) .header-actions{gap:14px}
+.cache-settings-breadcrumb{font-size:10px;color:#b4a2bf;margin:4px 0 14px}
+.cache-back-link{text-decoration:none;display:inline-block}
+.game-alert{position:absolute;right:-5px;top:-8px;display:grid;place-items:center;width:20px;height:20px;border-radius:50%;border:2px solid #fff;background:#ee596b;color:white;font-size:13px;font-weight:900;box-shadow:0 2px 0 #bd3c51;z-index:1}
+.game-fold-alert{display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;color:#fff;background:#e75a6c;font-size:10px;margin-left:5px}
+.game-race-action{display:flex;align-items:center;gap:14px;margin:3px 0 23px}
+.game-race-action[hidden],.game-race-purchase[hidden]{display:none}
+.game-race-purchase{display:flex;align-items:center;gap:14px}
+.game-shop-preferences{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px 17px;margin:17px 0;border:1px solid #e1d5e9;border-radius:15px;background:#fffcf5}
+.game-shop-preferences b{display:block;color:#8b6d9e;font-size:12px}
+.game-shop-preferences small{display:block;margin-top:5px;font-size:10px;line-height:1.7;color:#ab98b6}
+#game-toggle-detail-entry{flex:none;min-width:76px;padding:8px 13px;border:1px solid #d5c3e1;border-radius:18px;background:#f1edf5;color:#a18bae;font-size:11px;font-weight:750}
+#game-toggle-detail-entry[aria-checked="true"]{background:linear-gradient(#a6dc62,#84c344);border-color:#82b84a;color:#fff;box-shadow:0 2px 0 #70a335}
+#game-toggle-detail-entry:focus-visible{outline:3px solid #445ecb;outline-offset:3px}
+.game-race-action button{width:180px}
+.game-race-action small{font-size:10px;color:#a08eaa}
+.game-primary{display:block;width:100%;border:1px solid #70ad2f;border-radius:28px;padding:13px 24px;background:linear-gradient(#a6df59 0%,#85ce36 55%,#75c329 100%);color:#fff;font-weight:800;font-size:14px;box-shadow:inset 0 2px 0 #ffffffa6,0 4px 0 #559b26,0 6px 10px #71a34421;text-shadow:0 1px 1px #58932d;transition:filter .15s,transform .15s}
+.game-primary span{float:right;font-size:21px;line-height:18px}
+.game-primary:hover:not(:disabled){filter:brightness(1.035);transform:translateY(-1px)}
+.game-primary:active:not(:disabled){transform:translateY(2px);box-shadow:inset 0 2px 0 #ffffffa6,0 2px 0 #559b26}
+.game-primary:disabled{opacity:.45;box-shadow:0 2px 0 #aaa;filter:grayscale(.5)}
+#game-dialog{width:min(750px,calc(100vw - 32px));border:3px solid #fff;border-radius:24px;background:#faf9f1;box-shadow:0 6px 0 #9880af66,0 22px 80px #35244555;scrollbar-width:thin;scrollbar-color:#d1c5dc #faf9f1}
+#game-dialog .dialog-ribbon{position:relative;min-height:51px;padding:10px 19px 14px;gap:12px;background:linear-gradient(#a0d64c,#83c335);border-bottom:0;box-shadow:inset 0 2px 0 #ffffff70;letter-spacing:2px}
+#game-dialog .dialog-ribbon:after{content:'';position:absolute;bottom:0;left:0;right:0;height:7px;background:repeating-linear-gradient(90deg,#ffffffe0 0 21px,#ffffff35 21px 42px)}
+#game-dialog .close-button{flex:none;width:29px;height:29px;border:2px solid #fff;background:#fdfdf3;color:#7ab52f;box-shadow:0 2px 0 #558b2880;line-height:22px;font-weight:800}
+#game-dialog .close-button:hover{background:#f0ffda}
+.game-demo-tag{margin-left:auto;font-size:9px;white-space:nowrap;border-radius:20px;border:1px solid #ffffff90;background:#629b292f;padding:5px 10px;color:#fff;letter-spacing:.5px}
+.game-body{padding:21px 26px 19px;background:radial-gradient(circle at 1px 1px,#d9d1bf2a 1px,transparent 1.4px) 0 0/12px 12px}
+.game-heading{display:flex;gap:16px;justify-content:space-between;align-items:center;margin-bottom:17px;min-height:72px}
+.game-heading p{font-size:9px;font-weight:850;letter-spacing:2px;color:#a691ba;margin:0 0 8px}
+.game-heading h2{font-size:27px;letter-spacing:1px;margin:0;color:#6b527f;text-shadow:0 2px 0 #fff;line-height:1.35}
+.game-host{display:flex;align-items:center;gap:9px;flex:none}
+.game-host>span{position:relative;padding:9px 12px;border-radius:13px 13px 2px 13px;border:1px solid #e1d4ed;background:#fff;color:#a080b6;font-size:11px;font-weight:750;box-shadow:0 2px 0 #e9e0ee}
+.game-host img{width:77px;height:77px;object-fit:contain;filter:drop-shadow(0 2px 0 #d9c4e9)}
+#game-dialog:not([data-view="wallet"]) .game-host{display:none}
+#game-dialog:not([data-view="wallet"]) .game-heading{min-height:0}
+.game-panel[hidden],#game-dialog [hidden]{display:none}
+.game-wallet-overview{display:grid;grid-template-columns:1.35fr 1fr;gap:14px}
+.game-balance-card{border:2px solid #ecd17d;border-radius:17px;padding:16px 20px 17px;background:radial-gradient(ellipse at 10% 0,#fffef4 0,transparent 68%),repeating-linear-gradient(120deg,#fff7d2 0 14px,#fff2bd 14px 28px);box-shadow:inset 0 2px 0 #fff,0 3px 0 #e4c875;position:relative;overflow:hidden}
+.game-balance-card:after{content:'¥';display:grid;place-items:center;position:absolute;right:-12px;top:18px;width:100px;height:100px;border:7px double #ddbc5730;border-radius:50%;color:#ddbc5730;font-size:67px;font-weight:900;transform:rotate(15deg);pointer-events:none}
+.game-balance-card>span{position:relative;z-index:1;display:flex;align-items:center;gap:7px;font-size:12px;font-weight:800;color:#a5802a}
+.game-coin{display:inline-grid;place-items:center;flex:none;width:21px;height:21px;border-radius:50%;border:2px solid #edbf4e;background:linear-gradient(#fff4b3,#f7d675);box-shadow:0 1px 0 #d7a83b;color:#b28a25;font-style:normal;font-size:13px;line-height:1}
+.game-balance-card>strong{position:relative;z-index:1;display:block;font-size:39px;letter-spacing:.5px;line-height:1.55;color:#946c22;font-variant-numeric:tabular-nums;text-shadow:0 2px 0 #fff7dd}
+.game-balance-card>small{position:relative;z-index:1;font-size:10px;line-height:1.7;color:#a48a4d}
+.game-bank-shortcut{display:grid;grid-template-columns:minmax(0,1fr) 18px;align-content:center;row-gap:7px;width:100%;border:2px solid #d7c6e7;border-radius:17px;padding:15px 17px;text-align:left;background:radial-gradient(ellipse at 0 0,#fff 0,transparent 80%),linear-gradient(135deg,#fbf7ff,#eee5fa);box-shadow:inset 0 2px 0 #fff,0 3px 0 #cdb6e0;color:#9572ad;transition:transform .15s,box-shadow .15s}
+.game-bank-shortcut:hover{transform:translateY(-2px);box-shadow:inset 0 2px 0 #fff,0 5px 0 #cdb6e0}
+.game-bank-label{display:flex;align-items:center;gap:7px;min-width:0}
+.game-bank-label svg{width:18px;height:18px;fill:none;stroke:#9e7db6;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.game-bank-label b{font-size:12px;white-space:nowrap}
+.game-bank-label small{font-size:8px;letter-spacing:1px;color:#b39ac5;margin-left:auto;white-space:nowrap}
+.game-bank-shortcut strong{grid-column:1;font-size:29px;line-height:1.1;color:#87609e;font-variant-numeric:tabular-nums;text-shadow:0 2px 0 #fff}
+.game-bank-note{grid-column:1;font-size:9px;line-height:1.7;color:#ac91bb}
+.game-bank-arrow{grid-column:2;grid-row:1/4;align-self:center;font-size:27px;color:#b39ac8;text-align:right}
+.game-section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:25px 0 12px;padding-bottom:9px;border-bottom:2px solid #e9e4d9;position:relative}
+.game-section-heading:after{content:'';position:absolute;bottom:-2px;left:0;width:50px;height:3px;border-radius:3px;background:#9bd24b}
+.game-section-heading h3{display:flex;align-items:center;gap:8px;font-size:14px;margin:0;color:#756080;font-weight:850}
+.game-section-heading h3:before{content:'';width:7px;height:13px;background:linear-gradient(#aedf63,#84c03a);border-radius:3px;transform:skew(-12deg)}
+.game-section-heading>span{font-size:9px;color:#ab99b4;background:#f0eaf5;border:1px solid #e5dceb;border-radius:12px;padding:4px 9px}
+.game-upcoming{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.game-upcoming>button{position:relative;display:flex;flex-direction:column;gap:9px;min-width:0;padding:12px 15px 10px;border-radius:13px;border:1px solid var(--region-border);border-left:4px solid var(--region-ink);background:linear-gradient(115deg,#fff,var(--region-fill));box-shadow:0 3px 0 var(--region-shadow);color:#514855;text-align:left;transition:transform .15s,box-shadow .15s}
+.game-upcoming>button:hover{transform:translateY(-2px);box-shadow:0 5px 0 var(--region-shadow)}
+.game-upcoming-meta{display:flex;align-items:center;justify-content:space-between;width:100%;gap:10px}
+.game-upcoming-meta img{width:40px;height:20px;object-fit:contain}
+.game-upcoming-meta>small{display:flex;align-items:center;gap:6px;font-size:10px;letter-spacing:.6px;color:var(--region-ink);font-weight:700}
+.game-upcoming-meta i{font-style:normal;color:var(--region-border)}
+.game-upcoming b{display:block;min-width:0;max-width:100%;font-size:14px;line-height:1.4;overflow-wrap:anywhere;color:inherit}
+.game-upcoming-bottom{display:flex;justify-content:space-between;align-items:center;width:100%;border-top:1px dashed var(--region-border);padding-top:7px;gap:10px}
+.game-upcoming-bottom>small{min-width:0;font-size:8px;color:#baacbd;line-height:1.7;overflow-wrap:anywhere}
+.game-upcoming-bottom>span{display:flex;align-items:center;flex-shrink:0;gap:6px;font-size:10px;font-weight:750;color:var(--region-ink)}
+.game-upcoming-bottom i{font-style:normal;display:grid;place-items:center;width:17px;height:17px;border:1px solid var(--region-border);border-radius:50%;background:#fff;color:var(--region-ink);font-size:16px;line-height:1}
+.game-empty{grid-column:1/-1;padding:19px 15px;background:#f7f4ee;text-align:center;color:#a99cac;border:1px dashed #ded6df;border-radius:12px;font-size:11px;line-height:1.8;margin:0}
+.game-empty-tickets{display:flex;align-items:center;justify-content:center;gap:20px;min-height:85px;background:linear-gradient(115deg,#fffaf0,#f7f2fa);border:1px solid #ebe0d8}
+.game-ticket-stub{position:relative;display:grid;place-items:center;width:61px;height:34px;border:2px solid #d8c8e5;border-radius:6px;background:#fff;color:#c4afd3;font-size:12px;font-weight:900;letter-spacing:1px;transform:rotate(-12deg);flex:none}
+.game-ticket-stub:after{content:'';position:absolute;right:9px;top:3px;bottom:3px;border-left:1px dashed #dfd2e7}
+.game-empty-tickets p{margin:0;text-align:left}
+.game-empty-tickets b{display:block;font-size:12px;color:#a38caf}
+.game-empty-tickets p>span{display:block;font-size:10px;margin-top:3px;color:#baacbf}
+.game-demo-controls{margin-top:20px;padding:10px 13px;border-radius:10px;background:#f0ede7;border:1px dashed #dbd3d8;color:#a0929f;font-size:10px}
+.game-demo-controls summary{cursor:pointer;color:#a0949d;font-weight:700}
+.game-demo-controls p{font-size:10px;line-height:1.7}
+.game-demo-controls>div{display:flex;gap:7px;flex-wrap:wrap}
+.game-demo-controls button,.game-quick-amounts button,.game-ticket-demo button{padding:7px 12px;border:1px solid #d9cbe2;border-radius:15px;background:linear-gradient(#fff,#faf7fc);box-shadow:0 2px 0 #e2d8e9;color:#9875ac;font-size:10px;font-weight:750}
+.game-demo-controls button:hover,.game-quick-amounts button:hover,.game-ticket-demo button:hover{background:#f1e8f9}
+.game-preview-note{margin:17px 0 0;padding-top:11px;border-top:1px solid #ebe5dc;color:#b3a8b6;font-size:9px;line-height:1.8}
+.game-explainer{font-size:11px;line-height:1.9;color:#a08ca9;margin:17px 0}
+#game-feedback:empty{display:none}
+#game-feedback{border:1px solid #d1e2b4;border-radius:11px;padding:11px 14px;color:#7b9c46;background:#f3fae9;font-size:11px;line-height:1.6;box-shadow:0 2px 0 #e8efdb}
+#game-dialog form>label{display:block;font-size:12px;color:#8c719c;margin:18px 0 9px;font-weight:800}
+.game-bank-card{background:radial-gradient(ellipse at 0 0,#fff 0,transparent 70%),repeating-linear-gradient(120deg,#f4ecfc 0 14px,#efe4f9 14px 28px);border-color:#d6bee9;box-shadow:inset 0 2px 0 #fff,0 3px 0 #cdb6e0;padding:18px 23px}
+.game-bank-card:after{color:#b796d02e;border-color:#b796d02e;right:20px;top:16px}
+.game-bank-card>span,.game-bank-card>strong,.game-bank-card>small{color:#9875ac}
+.game-bank-card .game-coin{background:linear-gradient(#f9f3ff,#d9bfe9);border-color:#c6a4de;color:#a581bf;box-shadow:0 1px 0 #bfa0d1}
+.game-amount-row{display:flex;align-items:center;gap:12px;padding:13px 17px;border:2px solid #ddcfe7;border-radius:13px;background:#fff;color:#b39ac5;box-shadow:inset 0 2px 4px #d3c7df1c}
+.game-amount-row>span{font-size:23px;font-weight:800}
+.game-amount-row input{font:850 26px var(--font);color:#79548d;border:0;background:none;min-width:0;width:100%;outline:0;font-variant-numeric:tabular-nums}
+.game-amount-row:focus-within{border-color:#ad88ca;outline:2px solid #e8d9f2;outline-offset:2px}
+.game-amount-row button{padding:8px 12px;white-space:nowrap;border:1px solid #dfd1e9;background:#f4ecfb;border-radius:17px;color:#9a77b0;font-size:10px;font-weight:800}
+.game-stake-help,.game-stake-error{margin:8px 0;font-size:11px;line-height:1.7}
+.game-stake-help{color:#9b84ab}
+.game-stake-error{color:#a84b58;font-weight:750}
+#game-dialog[data-color-region] .game-amount-row:has(input[aria-invalid="true"]){border-color:#c67681;outline-color:#efd1d6}
+.game-quick-amounts{display:flex;gap:9px;margin:10px 0 18px}
+.game-quick-amounts button{flex:1;padding:9px 12px;font-size:11px}
+.game-quick-amounts button:disabled{opacity:.42;cursor:not-allowed}
+.game-text-button{display:block;min-width:140px;margin:18px auto 2px;background:#fff;border:1px solid #dfd3e7;border-radius:22px;padding:9px 18px;box-shadow:0 2px 0 #e5dce9;color:#a28aad;font-size:11px;font-weight:700}
+.game-text-button:hover{background:#f7f0fc;color:#8a659f}
+#game-withdraw-form>.game-primary{margin-top:20px}
+.game-bet-race{display:flex;align-items:center;gap:10px;padding:14px 16px;border-radius:13px;background:linear-gradient(115deg,#f7f0fc,#eee3f7);border:1px solid #dfcfea;box-shadow:inset 0 2px 0 #fff;color:#836297;flex-wrap:wrap}
+.game-bet-race>b{font-size:15px;line-height:1.5}
+.game-bet-race>small{font-size:10px;color:#ab91ba;margin-left:auto}
+.game-horse-choices{border:0;padding:0;margin:20px 0 0}
+.game-horse-choices legend{font-size:13px;font-weight:800;color:#897094;padding:0 0 11px;width:100%;display:flex;justify-content:space-between;gap:10px}
+.game-horse-choices legend span{font-size:9px;font-weight:500;color:#b19bbd}
+#game-dialog[data-view="bet"] .game-explainer{margin:12px 0}
+.game-horse-choices>div{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.game-horse-choices label{display:flex;align-items:center;gap:8px;padding:12px 11px;background:#fff;border:2px solid #e7dfee;border-radius:11px;box-shadow:0 2px 0 #e9e2ed;cursor:pointer;min-width:0;transition:background .15s,border-color .15s}
+.game-horse-choices label:hover{border-color:#d0b8e1}
+.game-horse-choices label:has(input:checked){border-color:#a98ac6;background:linear-gradient(115deg,#f7f0ff,#f1e6fc);box-shadow:0 2px 0 #cbb4de}
+.game-horse-choices input{accent-color:#9770b8;margin:0;width:13px;height:13px;flex:none}
+.game-horse-number{display:grid;place-items:center;flex:none;width:22px;height:22px;border-radius:5px;background:#f1edf5;color:#a38cad;font-size:11px;font-weight:850}
+.game-horse-choices label:has(input:checked) .game-horse-number{background:#ad89ca;color:white;box-shadow:inset 0 1px 0 #cbb0de}
+.game-horse-choices b{font-size:11px;flex:1;overflow-wrap:anywhere;min-width:0;color:#8d739b}
+.game-horse-choices strong{font-size:17px;color:#af853e;white-space:nowrap}
+.game-horse-choices strong small{font-size:8px}
+.game-confirm-facts{display:grid;grid-template-columns:1fr 1fr 1fr;margin:18px 0 0;padding:16px 9px;border-radius:13px;border:1px solid #e8d6aa;background:linear-gradient(115deg,#fffdf4,#fff7e3);box-shadow:inset 0 2px 0 #fff}
+.game-confirm-facts>div{text-align:center;border-right:1px dashed #e8d9b7;padding:0 5px}
+.game-confirm-facts>div:last-child{border:0}
+.game-confirm-facts dt{font-size:10px;color:#b39a6c}
+.game-confirm-facts dd{margin:7px 0 0;font-size:22px;color:#a67f3a;font-weight:850;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.game-ticket-preview{position:relative;margin-top:20px;padding:15px 17px 0;border:2px solid #ddcbe8;border-radius:15px;background:linear-gradient(125deg,#fffdf6,#fff);box-shadow:inset 0 2px 0 #fff,0 3px 0 #d6c3e3}
+.game-ticket-preview-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:12px;border-bottom:1px dashed #dfd2e7;color:#9974ac}
+.game-ticket-preview-heading>b{font-size:12px}
+.game-ticket-preview-heading>span{font-size:9px;letter-spacing:.8px;color:#b59ac4}
+.game-ticket-selection{display:flex;align-items:center;gap:10px;padding:15px 0;min-width:0}
+.game-ticket-selection>.game-horse-number{width:29px;height:29px;color:#fff;background:linear-gradient(#baa0d4,#9d7bb9);box-shadow:inset 0 1px 0 #d6bee8,0 2px 0 #8967a3}
+.game-ticket-selection>b{flex:1;min-width:0;overflow-wrap:anywhere;font-size:15px;color:#7d5b92}
+.game-ticket-selection>div{text-align:right;flex:none}
+.game-ticket-selection small{display:block;font-size:9px;color:#b49768}
+.game-ticket-selection strong{display:block;margin-top:4px;font-size:22px;color:#a47c31;font-variant-numeric:tabular-nums}
+.game-ticket-preview .game-confirm-facts{margin:0;padding:14px 4px;border-color:#ede1c2;box-shadow:none}
+.game-ticket-balance{display:flex;justify-content:space-between;gap:12px;margin:0;padding:13px 0;font-size:10px;color:#aa94b4}
+.game-ticket-balance b{font-size:12px;color:#9275a3;font-variant-numeric:tabular-nums}
+.game-quote-source{font-size:10px;color:#a08bab;line-height:1.9;white-space:pre-line;overflow-wrap:anywhere;margin:14px 0}
+.game-cached-odds-note{border:1px solid #ebd291;border-radius:11px;padding:11px 13px;background:#fff7df;color:#a07a31;font-size:11px;line-height:1.8}
+.game-purchase-reason{font-size:11px;color:#bc6f78;line-height:1.8}
+.game-purchase-reason:empty{display:none}
+.game-ticket{position:relative;display:flex;align-items:center;gap:12px;flex-wrap:wrap;border:1px solid #e0d1e9;border-left:5px solid #b69bce;border-radius:12px;background:linear-gradient(110deg,#fff,#fcf8ff);box-shadow:0 3px 0 #e9dfee;padding:14px 16px;margin:10px 0}
+.game-ticket>div{flex:1;min-width:170px}
+.game-ticket b{font-size:12px;color:#866c95}
+.game-ticket small{display:block;margin-top:6px;font-size:10px;color:#ad9bb8;line-height:1.7}
+.game-ticket-status{font-size:13px;color:#a38b4d;padding:6px 10px;border:1px solid #ead9ad;border-radius:15px;background:#fff8e5;white-space:nowrap}
+.game-ticket-demo{width:100%;font-size:9px;color:#b19fbb;padding-top:8px;border-top:1px dashed #e5d8ed}
+.game-ticket-demo button{margin-top:8px;margin-right:7px}
+.game-ticket-open{border:0;background:none;color:#a68db5;font-size:10px;padding:3px}
+.game-result-panel{text-align:center}
+.game-result-visual{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr);place-items:center;width:min(100%,360px);height:205px;margin:4px auto 18px;border-radius:20px;border:3px solid #fff;background:radial-gradient(ellipse,#fff2b6,#fffdf2);box-shadow:0 0 0 1px #eedca6,0 4px 0 #ebdfba;overflow:hidden}
+#game-dialog[data-result="win"] .game-result-visual{height:245px}
+.game-result-visual img{width:100%;height:100%;object-fit:contain}
+.game-result-visual b,.game-result-visual small{display:block}
+.game-result-visual b{font-size:15px;margin:6px 0;color:#b0935b}
+.game-result-visual small{font-size:9px;color:#bdab87}
+#game-result-symbol{display:block;font-size:63px;color:#ddb456;line-height:1.15;font-weight:900}
+.game-result-panel>p{font-size:11px;line-height:1.8;color:#ad98b7}
+#game-result-profit{display:block;font-size:46px;letter-spacing:1px;color:#b18a27;font-variant-numeric:tabular-nums;text-shadow:0 2px 0 #fff}
+.game-result-details{border:1px solid #e7dce8;border-radius:12px;padding:11px 15px;background:#fff;margin:18px 0}
+.game-result-details>div{display:flex;flex-wrap:wrap;justify-content:space-between;gap:7px;padding:5px 0;font-size:10px;color:#a88eb4}
+.game-result-details b{font-size:10px;color:#977ca4}
+.game-dead-heat-note{flex-basis:100%;text-align:left;line-height:1.9;padding:9px 11px;border:1px solid #ead7a7;border-radius:8px;background:#fffaec;color:#ab8a49;font-size:10px}
+#game-dialog[data-result="even"] .game-result-visual{height:145px;background:radial-gradient(ellipse,#edf3fb,#fcfdff);box-shadow:0 0 0 1px #d2dce9,0 4px 0 #e0e7ef}
+#game-dialog[data-result="even"] #game-result-profit,#game-dialog[data-result="even"] #game-result-symbol{color:#8a9eb9}
+#game-dialog[data-result="lose"] .game-result-visual,#game-dialog[data-result="broke"] .game-result-visual{background:radial-gradient(ellipse,#f1e5fc,#faf7fd);box-shadow:0 0 0 1px #e0cfed,0 4px 0 #e5d9ee}
+#game-dialog[data-result="lose"] #game-result-profit,#game-dialog[data-result="broke"] #game-result-profit{color:#a089b4}
+.game-ticket[data-status="void"]{border-left-color:#91b6ac;background:linear-gradient(110deg,#fff,#f3faf7)}
+.game-eligibility-note{font-size:10px;color:#b09abb;line-height:1.8;margin:-3px 0 12px}
+.game-upcoming>button:disabled{opacity:.68;cursor:default}
+.game-upcoming>button:disabled:hover{transform:none}
+.game-upcoming>button:disabled .game-upcoming-bottom>span{font-size:10px;color:var(--region-ink)}
+.game-ticket[data-status="void"] .game-ticket-status{color:#7ca595;border-color:#cadfd5;background:#f0f8f4;font-size:11px}
+.game-horse-choices label[data-withdrawn="true"]{opacity:.55;background:#f4f1f5;cursor:default}
+.game-horse-choices label[data-withdrawn="true"] strong{font-size:12px;color:#a78caa}
+#game-dialog[data-result="refund"] .game-result-visual{height:145px;background:radial-gradient(ellipse,#e8f6ec,#f9fcf8);box-shadow:0 0 0 1px #cbded0,0 4px 0 #dbe8dc}
+#game-dialog[data-result="refund"] #game-result-symbol{font-size:55px;color:#8cb09a}
+#game-dialog[data-result="refund"] .game-result-visual b{color:#8aa28e;font-size:12px}
+#game-dialog[data-result="refund"] #game-result-profit{color:#7c9f87;font-size:39px}
+#game-image-pending small[hidden]{display:none}
+#game-dialog #game-bankrupt-japanese{font-size:21px;font-weight:850;letter-spacing:1px;color:#b76b7d;margin:19px 0}
+#game-image-pending{padding:16px}
+@media(max-width:1000px){.app-header:has(.game-tools){height:auto;min-height:100px;flex-wrap:wrap;gap:15px;padding-top:15px;padding-bottom:15px}.app-header:has(.game-tools) .header-actions{justify-content:flex-end;flex:1;flex-wrap:wrap}.game-shop-launcher{width:76px;height:76px}}
+@media(max-width:600px){.app-header:has(.game-tools) .brand{flex:1 0 100%}.app-header:has(.game-tools) .header-actions{justify-content:flex-start;width:100%;gap:8px}.game-tools{flex:none}.game-shop-launcher{width:72px;height:72px}.game-shop-launcher img{width:62px;height:62px}.game-body{padding:18px 16px}.game-heading{gap:8px;min-height:65px}.game-heading h2{font-size:23px}.game-heading p{font-size:8px;letter-spacing:1.2px}.game-host>span{display:none}.game-host img{width:66px;height:66px}.game-demo-tag{font-size:8px;padding:4px 7px}.game-wallet-overview{grid-template-columns:1fr}.game-balance-card{padding:13px 17px}.game-balance-card>strong{font-size:36px}.game-bank-shortcut{grid-template-columns:1fr auto 17px;align-items:center;gap:5px 10px;padding:13px 15px}.game-bank-label{grid-column:1}.game-bank-label small{display:none}.game-bank-shortcut strong{grid-column:2;grid-row:1/3;font-size:26px;align-self:center}.game-bank-note{grid-column:1}.game-bank-arrow{grid-column:3;grid-row:1/3}.game-upcoming{grid-template-columns:1fr}.game-upcoming>button{gap:7px}.game-upcoming b{font-size:14px}.game-empty-tickets{gap:13px;padding:16px 12px}.game-empty-tickets p>span{font-size:9px}.game-horse-choices>div{grid-template-columns:1fr}.game-horse-choices label{padding:11px}.game-horse-choices b{font-size:12px}.game-confirm-facts dd{font-size:18px}.game-confirm-facts dt{font-size:8px}.game-race-action{flex-wrap:wrap}.game-race-action button{width:100%}#game-result-profit{font-size:35px}.game-result-visual{height:190px}.game-amount-row input{font-size:23px}.game-bet-race>small{width:100%;margin-left:0}.game-quick-amounts{gap:6px}.game-quick-amounts button{padding:8px;font-size:10px}}
+@media(prefers-reduced-motion:reduce){.game-shop-launcher,.game-bank-shortcut,.game-upcoming>button,.game-primary{transition:none}}
+
+.game-bank-timezone{margin:10px 0 18px;padding:10px 13px;border:1px solid #e4d8eb;border-radius:12px;background:#fcf8ff;color:#a08bad;font-size:11px;line-height:1.7}

@@ -1,0 +1,26 @@
+{
+  "synthetic_upstream_addition_from_observed_opaque_href": {
+    "added": 1,
+    "changed": 0,
+    "total": 25
+  },
+  "same_snapshot_no_duplicate": true,
+  "date_and_detail_url_update_preserves_enrichment": true,
+  "empty_source_does_not_delete_cache": true,
+  "non_target_grades_excluded_and_may_format_supported": true,
+  "invalid_schedule_row_fails_explicitly": true,
+  "disk_reload_merge_idempotent": true,
+  "all_japan_requests_source_rooted_and_sha256_verified": 14,
+  "three_document_stages_automatically_discovered": {
+    "declarations": 18,
+    "actual_win_snapshot": 18,
+    "results": 18
+  },
+  "discovery_implementations_contain_no_target_races_or_annual_batch": true,
+  "live_repeated_directory_and_controlled_cache_restoration": true,
+  "japan_and_nar_detail_names_verified_against_response": 3,
+  "overseas_provenance_hashes_and_ranking_filter": true,
+  "real_wrong_race_link_rejected_despite_http_200": true,
+  "pre_entries_not_promoted_to_final_entries_or_odds": true,
+  "all_checked_request_records": 20
+}

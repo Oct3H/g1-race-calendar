@@ -1,0 +1,120 @@
+{
+  "auditPassed": false,
+  "total": 3,
+  "records": [
+    {
+      "name": "Dubai World Cup Sponsored by Emirates Airline",
+      "sourceEnglish": "Dubai World Cup",
+      "country": "AE",
+      "date": "2025-04-05",
+      "runners": 11,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250405&Racecourse=S2&RaceNo=7",
+      "seconds": 1.431,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793965455479,
+          "duration": 1424
+        }
+      ],
+      "misses": []
+    },
+    {
+      "name": "LONGINES Dubai Sheema Classic",
+      "sourceEnglish": "Dubai Sheema Classic",
+      "country": "AE",
+      "date": "2025-04-05",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250405&Racecourse=S2&RaceNo=6",
+      "seconds": 1.434,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793965456908,
+          "duration": 1428
+        }
+      ],
+      "misses": []
+    },
+    {
+      "name": "Dubai Turf Sponsored by DP World",
+      "sourceEnglish": "Dubai Turf",
+      "country": "AE",
+      "date": "2025-04-05",
+      "runners": 0,
+      "seconds": 3.624,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793965455479,
+          "duration": 1102
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793965456583,
+          "duration": 2517
+        }
+      ],
+      "misses": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-04-05",
+          "candidates": [
+            {
+              "name": "HKJC World Pool Carbine Club Stakes",
+              "country": "Australia",
+              "date": "2025-04-05"
+            },
+            {
+              "name": "Country Championships Final",
+              "country": "Australia",
+              "date": "2025-04-05"
+            },
+            {
+              "name": "ATC Sires' Produce Stakes",
+              "country": "Australia",
+              "date": "2025-04-05"
+            },
+            {
+              "name": "T J Smith Stakes",
+              "country": "Australia",
+              "date": "2025-04-05"
+            },
+            {
+              "name": "Doncaster Mile",
+              "country": "Australia",
+              "date": "2025-04-05"
+            },
+            {
+              "name": "Australian Derby",
+              "country": "Australia",
+              "date": "2025-04-05"
+            }
+          ]
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-04-06",
+          "candidates": [
+            {
+              "name": "Osaka Hai",
+              "country": "Japan",
+              "date": "2025-04-06"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

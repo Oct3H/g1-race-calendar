@@ -1,0 +1,20 @@
+{
+  "round": 45,
+  "date": "2026-10-23",
+  "preview": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&v=45",
+  "scope": "Opt-in settings entry preview only. Default URLs keep original navigation and approved settings palette.",
+  "behaviour": [
+    "Settings button opens a small top-right disclosure with exactly Language & display, Data sources, Cache management. Selecting navigates to the existing specific settings content.",
+    "Toggle, outside pointer, Escape with focus return, and focus exit close the panel. Native button plus regular navigation links retain keyboard access.",
+    "Language, calendar year/month and preview flag survive the three destinations and return links, including language/category changes on the existing settings page."
+  ],
+  "checks": [
+    "Node VM actual script: ordinary URL causes zero DOM access",
+    "Node DOM doubles: three correct destinations, preview/language/month preservation, toggle, Escape, outside pointer, focus exit, settings return links after language/category changes",
+    "JavaScript syntax PASS",
+    "index/settings static IDs remain 152/8 unique; referenced local resources exist; one new unique dynamic panel ID; exactly three menu links; scoped CSS block/parenthesis checks PASS",
+    "Six HEAD-only checks for preview, language, sources, cache and new assets returned 200 / Cache-Control no-store"
+  ],
+  "visual_review": "Not automatically rendered or measured. Prior browser access restriction remains in force. DOM doubles and HTTP checks do not prove visual placement, native keyboard behaviour or responsive layout. User review pending.",
+  "limits": "Preview not adopted. No settings persistence, real caching, data fetching or financial state changes."
+}

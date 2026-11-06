@@ -1,0 +1,16 @@
+{
+  "round": 42,
+  "date": "2026-10-23",
+  "preview": "http://127.0.0.1:8765/index.html?preview=calendar&year=2026&month=10&game=dead-heat&v=42",
+  "confirmed": "Keep the locked multiplier, divide the gross return by the number of co-champions, then floor to whole virtual yen.",
+  "checks": [
+    "check_game_preview.mjs: 10000 x 4.0 / 2 = 20000; 10002 x 2.875 / 2 floors to 14377; three winners; both winning selections and a loser; locked odds unchanged; duplicate winner rows deduplicated; invalid inputs and repeat settlement leave funds unchanged",
+    "check_change_preview.mjs: two gold first-place rows and next rank 3; shared-return formula and amount; historical view does not re-credit; hit with net loss and hit with zero profit use accurate labels; existing refunds and history pass",
+    "check_ticket_confirmation.mjs and check_race_change_rules.mjs passed",
+    "design.js and game-design.js module syntax passed",
+    "149 unique static IDs / 195 unique static-and-template IDs; local resources/imports and v42 references exist",
+    "6 HEAD-only local preview/resource requests: 200 and no-store"
+  ],
+  "visual_review": "No automatic browser inspection. Existing access restriction was not bypassed; user webpage review pending.",
+  "limits": "Fictional in-memory prototype; no official result feed, persistent wallet or retrospective result-correction adjustments."
+}

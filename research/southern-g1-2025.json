@@ -1,0 +1,2328 @@
+{
+  "year": 2025,
+  "scope": "International thoroughbred flat Group/Grade 1; calendar year; AUS/NZ/SAF only",
+  "checked_at": "2026-10-21",
+  "date_precision": "source-local calendar date; no start times inferred",
+  "counts": {
+    "AUS": 77,
+    "NZ": 19,
+    "SAF": 27
+  },
+  "coverage_note": "按2025自然年取官方分级目录的完整交集，并为123个举办实例补充实际赛果/赛后报道/赛后监管记录；actual_result并不表示已抓取完整出马表或赛果。日期为来源当地日期，未推断开赛时刻。AUS77举办实例含C.F.Orr两届；NZ19，排除2025已降G2的Levin Classic；SAF27，排除2025已降G2的Golden Horse Sprint及Woolavington2000。",
+  "excluded": [
+    {
+      "country": "AUS",
+      "name": "Golden Eagle",
+      "reason": "2025尚非G1；2026/27才升级。",
+      "source_url": "https://www.racing.com/news/2026/07/10/news-industry-australias-group-one-tally-grows-after-golden-eagle-gets-nod"
+    },
+    {
+      "country": "NZ",
+      "name": "Levin Classic",
+      "reason": "2025为G2。",
+      "source_url": "https://nztr.co.nz/news/key-pattern-changes-outlined-revised-summer-racing-calendar"
+    },
+    {
+      "country": "SAF",
+      "name": "Golden Horse Sprint",
+      "reason": "2025官方目录与比赛记录均为G2。",
+      "source_url": "https://www.nhra.co.za/index.php/inquiries/1225-inquiry-jockey-s-khumalo-8"
+    },
+    {
+      "country": "SAF",
+      "name": "Woolavington 2000",
+      "reason": "2025官方目录与比赛记录均为G2。",
+      "source_url": "https://www.nhra.co.za/index.php/inquiries/1189-inquiry-jockey-s-veale-6"
+    }
+  ],
+  "races": [
+    {
+      "id": "nz-2025-01-04-telegraph",
+      "name": "Telegraph",
+      "canonical_name": "Telegraph",
+      "aliases": [],
+      "date": "2025-01-04",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Trentham",
+      "source_url": "https://racingintegrityboard.org.nz/decisions/wellington-rc-4-january-2025-r7-kevin-stott",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。 NZTR修订公告确认提前到1月4日，不采用旧排期1月11日。",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/news/key-pattern-changes-outlined-revised-summer-racing-calendar",
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "nz:telegraph"
+    },
+    {
+      "id": "saf-2025-01-04-king-s-plate",
+      "name": "King's Plate",
+      "canonical_name": "King's Plate",
+      "aliases": [
+        "L'Ormarins King's Plate",
+        "Queen's Plate"
+      ],
+      "date": "2025-01-04",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Kenilworth",
+      "source_url": "https://lormarinskingsplate.co.za/history-races/previous-race-winners/",
+      "verification_status": "actual_result",
+      "verification_note": "赛事主办方历届赛果确认2025年1月4日举办。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:king's plate"
+    },
+    {
+      "id": "saf-2025-01-04-paddock-stakes",
+      "name": "Paddock Stakes",
+      "canonical_name": "Paddock Stakes",
+      "aliases": [
+        "Cartier Paddock Stakes"
+      ],
+      "date": "2025-01-04",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Kenilworth",
+      "source_url": "https://nhra.co.za/index.php/press-release/1125-handicapping-ratings-update-205",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:paddock stakes"
+    },
+    {
+      "id": "nz-2025-01-11-thorndon-mile",
+      "name": "Thorndon Mile",
+      "canonical_name": "Thorndon Mile",
+      "aliases": [],
+      "date": "2025-01-11",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Trentham",
+      "source_url": "https://loveracing.nz/News/47970/ProvencecapshugedayforSpratt.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "series_key": "nz:thorndon mile"
+    },
+    {
+      "id": "nz-2025-01-25-railway-stakes",
+      "name": "Railway Stakes",
+      "canonical_name": "Railway Stakes",
+      "aliases": [
+        "Sistema Railway",
+        "Railway Handicap"
+      ],
+      "date": "2025-01-25",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Ellerslie",
+      "source_url": "https://www.aucklandracing.co.nz/race-results/sistema-railway/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "series_key": "nz:railway stakes"
+    },
+    {
+      "id": "saf-2025-01-25-cape-flying-championship",
+      "name": "Cape Flying Championship",
+      "canonical_name": "Cape Flying Championship",
+      "aliases": [],
+      "date": "2025-01-25",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Kenilworth",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1131-handicapping-ratings-update-208",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:cape flying championship"
+    },
+    {
+      "id": "saf-2025-01-25-cape-town-met",
+      "name": "Cape Town Met",
+      "canonical_name": "Cape Town Met",
+      "aliases": [
+        "World Sports Betting Cape Town Met",
+        "Sun Met",
+        "The Met"
+      ],
+      "date": "2025-01-25",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Kenilworth",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1131-handicapping-ratings-update-208",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:cape town met"
+    },
+    {
+      "id": "saf-2025-01-25-majorca-stakes",
+      "name": "Majorca Stakes",
+      "canonical_name": "Majorca Stakes",
+      "aliases": [],
+      "date": "2025-01-25",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Kenilworth",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1131-handicapping-ratings-update-208",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:majorca stakes"
+    },
+    {
+      "id": "aus-2025-02-08-c-f-orr-stakes",
+      "name": "C.F. Orr Stakes",
+      "canonical_name": "C.F. Orr Stakes",
+      "aliases": [
+        "Sportsbet C.F. Orr S."
+      ],
+      "date": "2025-02-08",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81480",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。 2025移至春季，2月与11月是两次独立举办，不能按赛事名去重。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/21/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:c.f. orr stakes"
+    },
+    {
+      "id": "nz-2025-02-08-herbie-dyke-stakes",
+      "name": "Herbie Dyke Stakes",
+      "canonical_name": "Herbie Dyke Stakes",
+      "aliases": [
+        "International Stakes"
+      ],
+      "date": "2025-02-08",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Te Rapa",
+      "source_url": "https://loveracing.nz/News/48298/ElVencedordominatesHerbieDykeStakes.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "series_key": "nz:herbie dyke stakes"
+    },
+    {
+      "id": "nz-2025-02-08-waikato-sprint",
+      "name": "Waikato Sprint",
+      "canonical_name": "Waikato Sprint",
+      "aliases": [
+        "BCD Group Sprint"
+      ],
+      "date": "2025-02-08",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Te Rapa",
+      "source_url": "https://loveracing.nz/News/48302/Australianstriumphinsprintshowdown.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "series_key": "nz:waikato sprint"
+    },
+    {
+      "id": "aus-2025-02-15-black-caviar-lightning",
+      "name": "Black Caviar Lightning",
+      "canonical_name": "Black Caviar Lightning",
+      "aliases": [
+        "Black Caviar Lightning"
+      ],
+      "date": "2025-02-15",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81479",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/21/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:black caviar lightning"
+    },
+    {
+      "id": "aus-2025-02-22-blue-diamond-stakes",
+      "name": "Blue Diamond Stakes",
+      "canonical_name": "Blue Diamond Stakes",
+      "aliases": [],
+      "date": "2025-02-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/21/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:blue diamond stakes"
+    },
+    {
+      "id": "aus-2025-02-22-futurity-stakes",
+      "name": "Futurity Stakes",
+      "canonical_name": "Futurity Stakes",
+      "aliases": [
+        "Lamaro's Hotel Futurity Stakes"
+      ],
+      "date": "2025-02-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/21/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:futurity stakes"
+    },
+    {
+      "id": "aus-2025-02-22-oakleigh-plate",
+      "name": "Oakleigh Plate",
+      "canonical_name": "Oakleigh Plate",
+      "aliases": [],
+      "date": "2025-02-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/21/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:oakleigh plate"
+    },
+    {
+      "id": "nz-2025-02-22-otaki-maori-wfa-classic",
+      "name": "Otaki-Maori WFA Classic",
+      "canonical_name": "Otaki-Maori WFA Classic",
+      "aliases": [],
+      "date": "2025-02-22",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Ellerslie",
+      "source_url": "https://loveracing.nz/News/48451/JustanotherdayattheofficeforoutstandingElVencedor.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。 NZTR修订公告确认移场Ellerslie，不是Otaki。",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/news/key-pattern-changes-outlined-revised-summer-racing-calendar",
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "nz:otaki-maori wfa classic"
+    },
+    {
+      "id": "saf-2025-02-22-cape-derby",
+      "name": "Cape Derby",
+      "canonical_name": "Cape Derby",
+      "aliases": [],
+      "date": "2025-02-22",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Kenilworth",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1146-handicapping-ratings-update-211",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:cape derby"
+    },
+    {
+      "id": "aus-2025-03-01-australian-guineas",
+      "name": "Australian Guineas",
+      "canonical_name": "Australian Guineas",
+      "aliases": [
+        "Howden Australian Guineas"
+      ],
+      "date": "2025-03-01",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81482",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:australian guineas"
+    },
+    {
+      "id": "aus-2025-03-01-surround-stakes",
+      "name": "Surround Stakes",
+      "canonical_name": "Surround Stakes",
+      "aliases": [],
+      "date": "2025-03-01",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/21/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:surround stakes"
+    },
+    {
+      "id": "aus-2025-03-01-verry-elleegant-stakes",
+      "name": "Verry Elleegant Stakes",
+      "canonical_name": "Verry Elleegant Stakes",
+      "aliases": [
+        "Tab Verry Elleegant S.",
+        "TAB Verry Elleegant Stakes",
+        "Chipping Norton Stakes"
+      ],
+      "date": "2025-03-01",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81483",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:verry elleegant stakes"
+    },
+    {
+      "id": "saf-2025-03-01-horse-chestnut-stakes",
+      "name": "Horse Chestnut Stakes",
+      "canonical_name": "Horse Chestnut Stakes",
+      "aliases": [
+        "Wilgerbosdrift H F Oppenheimer Horse Chestnut S.",
+        "H F Oppenheimer Horse Chestnut Stakes"
+      ],
+      "date": "2025-03-01",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Turffontein",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81477",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA实际G1赛果确认3月1日。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:horse chestnut stakes"
+    },
+    {
+      "id": "saf-2025-03-01-south-african-classic",
+      "name": "South African Classic",
+      "canonical_name": "South African Classic",
+      "aliases": [
+        "S A Classic",
+        "SA Classic"
+      ],
+      "date": "2025-03-01",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Turffontein",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1151-handicapping-ratings-update-212",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:south african classic"
+    },
+    {
+      "id": "saf-2025-03-01-south-african-fillies-classic",
+      "name": "South African Fillies Classic",
+      "canonical_name": "South African Fillies Classic",
+      "aliases": [
+        "S A Fillies Classic",
+        "SA Fillies Classic"
+      ],
+      "date": "2025-03-01",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Turffontein",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1151-handicapping-ratings-update-212",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:south african fillies classic"
+    },
+    {
+      "id": "aus-2025-03-08-canterbury-stakes",
+      "name": "Canterbury Stakes",
+      "canonical_name": "Canterbury Stakes",
+      "aliases": [
+        "Toyota Forklifts Canterbury S."
+      ],
+      "date": "2025-03-08",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81484",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:canterbury stakes"
+    },
+    {
+      "id": "aus-2025-03-08-newmarket-handicap",
+      "name": "Newmarket Handicap",
+      "canonical_name": "Newmarket Handicap",
+      "aliases": [],
+      "date": "2025-03-08",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:newmarket handicap"
+    },
+    {
+      "id": "aus-2025-03-08-randwick-guineas",
+      "name": "Randwick Guineas",
+      "canonical_name": "Randwick Guineas",
+      "aliases": [],
+      "date": "2025-03-08",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:randwick guineas"
+    },
+    {
+      "id": "aus-2025-03-08-the-all-star-mile",
+      "name": "The All-Star Mile",
+      "canonical_name": "The All-Star Mile",
+      "aliases": [
+        "All Star Mile Stakes",
+        "All-Star Mile"
+      ],
+      "date": "2025-03-08",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。 2025首届获Group 1等级。",
+      "grade": "G1",
+      "series_key": "aus:the all-star mile"
+    },
+    {
+      "id": "nz-2025-03-08-new-zealand-derby",
+      "name": "New Zealand Derby",
+      "canonical_name": "New Zealand Derby",
+      "aliases": [],
+      "date": "2025-03-08",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Ellerslie",
+      "source_url": "https://loveracing.nz/News/48613/DominantDerbyredemptionforWillydoit.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "series_key": "nz:new zealand derby"
+    },
+    {
+      "id": "nz-2025-03-08-new-zealand-stakes",
+      "name": "New Zealand Stakes",
+      "canonical_name": "New Zealand Stakes",
+      "aliases": [
+        "Bonecrusher New Zealand Stakes"
+      ],
+      "date": "2025-03-08",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Ellerslie",
+      "source_url": "https://loveracing.nz/News/48606/ThrillingfinishtoBonecrusherNewZealandStakes.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "series_key": "nz:new zealand stakes"
+    },
+    {
+      "id": "nz-2025-03-08-new-zealand-thoroughbred-breeders-stakes",
+      "name": "New Zealand Thoroughbred Breeders' Stakes",
+      "canonical_name": "New Zealand Thoroughbred Breeders' Stakes",
+      "aliases": [],
+      "date": "2025-03-08",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Ellerslie",
+      "source_url": "https://loveracing.nz/News/48605/ProvenceadualGroupOnewinnerafterBreedersStakesupset.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "series_key": "nz:new zealand thoroughbred breeders' stakes"
+    },
+    {
+      "id": "nz-2025-03-08-sistema-stakes",
+      "name": "Sistema Stakes",
+      "canonical_name": "Sistema Stakes",
+      "aliases": [
+        "Ellerslie Sires' Produce"
+      ],
+      "date": "2025-03-08",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Ellerslie",
+      "source_url": "https://loveracing.nz/News/48602/ReturnToConquerbringsupTeAkauRacingmilestone.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "series_key": "nz:sistema stakes"
+    },
+    {
+      "id": "aus-2025-03-15-coolmore-classic",
+      "name": "Coolmore Classic",
+      "canonical_name": "Coolmore Classic",
+      "aliases": [],
+      "date": "2025-03-15",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Rosehill Gardens",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:coolmore classic"
+    },
+    {
+      "id": "aus-2025-03-22-george-ryder-stakes",
+      "name": "George Ryder Stakes",
+      "canonical_name": "George Ryder Stakes",
+      "aliases": [
+        "The Agency George Ryder S.",
+        "Agency George Ryder Stakes"
+      ],
+      "date": "2025-03-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Rosehill Gardens",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81486",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:george ryder stakes"
+    },
+    {
+      "id": "aus-2025-03-22-golden-slipper-stakes",
+      "name": "Golden Slipper Stakes",
+      "canonical_name": "Golden Slipper Stakes",
+      "aliases": [],
+      "date": "2025-03-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Rosehill Gardens",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:golden slipper stakes"
+    },
+    {
+      "id": "aus-2025-03-22-ranvet-stakes",
+      "name": "Ranvet Stakes",
+      "canonical_name": "Ranvet Stakes",
+      "aliases": [
+        "Ranvet S."
+      ],
+      "date": "2025-03-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Rosehill Gardens",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81488",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:ranvet stakes"
+    },
+    {
+      "id": "aus-2025-03-22-rosehill-guineas",
+      "name": "Rosehill Guineas",
+      "canonical_name": "Rosehill Guineas",
+      "aliases": [],
+      "date": "2025-03-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Rosehill Gardens",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:rosehill guineas"
+    },
+    {
+      "id": "aus-2025-03-22-the-galaxy",
+      "name": "The Galaxy",
+      "canonical_name": "The Galaxy",
+      "aliases": [
+        "Kia Ora Galaxy"
+      ],
+      "date": "2025-03-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Rosehill Gardens",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81487",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:the galaxy"
+    },
+    {
+      "id": "aus-2025-03-22-william-reid-stakes",
+      "name": "William Reid Stakes",
+      "canonical_name": "William Reid Stakes",
+      "aliases": [
+        "3 Point Motors William Reid S."
+      ],
+      "date": "2025-03-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Moonee Valley",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81485",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:william reid stakes"
+    },
+    {
+      "id": "nz-2025-03-22-new-zealand-oaks",
+      "name": "New Zealand Oaks",
+      "canonical_name": "New Zealand Oaks",
+      "aliases": [],
+      "date": "2025-03-22",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Trentham",
+      "source_url": "https://loveracing.nz/News/48743/OakstriumphafittingfarewellforNewZealandsstarfilly.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "series_key": "nz:new zealand oaks"
+    },
+    {
+      "id": "aus-2025-03-29-australian-cup",
+      "name": "Australian Cup",
+      "canonical_name": "Australian Cup",
+      "aliases": [
+        "Tab Australian Cup"
+      ],
+      "date": "2025-03-29",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81489",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:australian cup"
+    },
+    {
+      "id": "nz-2025-03-29-manawatu-sires-produce-stakes",
+      "name": "Manawatu Sires' Produce Stakes",
+      "canonical_name": "Manawatu Sires' Produce Stakes",
+      "aliases": [],
+      "date": "2025-03-29",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Trentham",
+      "source_url": "https://loveracing.nz/News/48817/LaDoradasealsanothertwo-year-oldsweepforTeAkau.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "NZTR赛后报道确认3月29日实际在Trentham举行，不能将Manawatu俱乐部误映射为Awapuni赛场。",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2024-09/RPG_Group-Listed_1October2024.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "nz:manawatu sires' produce stakes"
+    },
+    {
+      "id": "saf-2025-03-29-computaform-sprint",
+      "name": "Computaform Sprint",
+      "canonical_name": "Computaform Sprint",
+      "aliases": [],
+      "date": "2025-03-29",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Turffontein",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1160-handicapping-ratings-update-216",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf",
+        "https://news.tab.co.za/thrilling-champions-day-contests/"
+      ],
+      "grade": "G1",
+      "series_key": "saf:computaform sprint"
+    },
+    {
+      "id": "saf-2025-03-29-empress-club-stakes",
+      "name": "Empress Club Stakes",
+      "canonical_name": "Empress Club Stakes",
+      "aliases": [],
+      "date": "2025-03-29",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Turffontein",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1160-handicapping-ratings-update-216",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf",
+        "https://news.tab.co.za/thrilling-champions-day-contests/"
+      ],
+      "grade": "G1",
+      "series_key": "saf:empress club stakes"
+    },
+    {
+      "id": "saf-2025-03-29-premier-s-champions-challenge",
+      "name": "Premier's Champions Challenge",
+      "canonical_name": "Premier's Champions Challenge",
+      "aliases": [],
+      "date": "2025-03-29",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Turffontein",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1160-handicapping-ratings-update-216",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf",
+        "https://news.tab.co.za/thrilling-champions-day-contests/"
+      ],
+      "grade": "G1",
+      "series_key": "saf:premier's champions challenge"
+    },
+    {
+      "id": "saf-2025-03-29-south-african-derby",
+      "name": "South African Derby",
+      "canonical_name": "South African Derby",
+      "aliases": [
+        "S A Derby",
+        "SA Derby"
+      ],
+      "date": "2025-03-29",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Turffontein",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1160-handicapping-ratings-update-216",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。 2025仍为G1；后续降级不追溯改变2025等级。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf",
+        "https://news.tab.co.za/thrilling-champions-day-contests/"
+      ],
+      "grade": "G1",
+      "series_key": "saf:south african derby"
+    },
+    {
+      "id": "aus-2025-04-01-h-e-tancred-stakes",
+      "name": "H.E. Tancred Stakes",
+      "canonical_name": "H.E. Tancred Stakes",
+      "aliases": [
+        "Kia Tancred Stakes",
+        "H E Tancred Stakes"
+      ],
+      "date": "2025-04-01",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Rosehill Gardens",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。 雨天延期后实际于4月1日举办，不使用原定3月29日。",
+      "grade": "G1",
+      "series_key": "aus:h.e. tancred stakes"
+    },
+    {
+      "id": "aus-2025-04-01-vinery-stud-stakes",
+      "name": "Vinery Stud Stakes",
+      "canonical_name": "Vinery Stud Stakes",
+      "aliases": [],
+      "date": "2025-04-01",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Rosehill Gardens",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。 雨天延期后实际于4月1日举办，不使用原定3月29日。",
+      "grade": "G1",
+      "series_key": "aus:vinery stud stakes"
+    },
+    {
+      "id": "aus-2025-04-05-atc-sires-produce-stakes",
+      "name": "ATC Sires' Produce Stakes",
+      "canonical_name": "ATC Sires' Produce Stakes",
+      "aliases": [
+        "Inglis Sires'",
+        "ATC Sires' Produce Stakes"
+      ],
+      "date": "2025-04-05",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:atc sires' produce stakes"
+    },
+    {
+      "id": "aus-2025-04-05-australian-derby",
+      "name": "Australian Derby",
+      "canonical_name": "Australian Derby",
+      "aliases": [],
+      "date": "2025-04-05",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:australian derby"
+    },
+    {
+      "id": "aus-2025-04-05-doncaster-mile",
+      "name": "Doncaster Mile",
+      "canonical_name": "Doncaster Mile",
+      "aliases": [
+        "Star Doncaster Mile"
+      ],
+      "date": "2025-04-05",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81491",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:doncaster mile"
+    },
+    {
+      "id": "aus-2025-04-05-t-j-smith-stakes",
+      "name": "T.J. Smith Stakes",
+      "canonical_name": "T.J. Smith Stakes",
+      "aliases": [
+        "Asahi Super Dry T J Smith S.",
+        "Asahi Super Dry T. J. Smith Stakes"
+      ],
+      "date": "2025-04-05",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81490",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/22/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:t.j. smith stakes"
+    },
+    {
+      "id": "aus-2025-04-12-australian-oaks",
+      "name": "Australian Oaks",
+      "canonical_name": "Australian Oaks",
+      "aliases": [],
+      "date": "2025-04-12",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:australian oaks"
+    },
+    {
+      "id": "aus-2025-04-12-queen-elizabeth-stakes",
+      "name": "Queen Elizabeth Stakes",
+      "canonical_name": "Queen Elizabeth Stakes",
+      "aliases": [
+        "Queen Elizabeth S.",
+        "Queen Elizabeth Stakes"
+      ],
+      "date": "2025-04-12",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81492",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:queen elizabeth stakes"
+    },
+    {
+      "id": "aus-2025-04-12-queen-of-the-turf-stakes",
+      "name": "Queen of the Turf Stakes",
+      "canonical_name": "Queen of the Turf Stakes",
+      "aliases": [],
+      "date": "2025-04-12",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:queen of the turf stakes"
+    },
+    {
+      "id": "aus-2025-04-12-sydney-cup",
+      "name": "Sydney Cup",
+      "canonical_name": "Sydney Cup",
+      "aliases": [],
+      "date": "2025-04-12",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:sydney cup"
+    },
+    {
+      "id": "aus-2025-04-19-all-aged-stakes",
+      "name": "All Aged Stakes",
+      "canonical_name": "All Aged Stakes",
+      "aliases": [
+        "Schweppes All Aged S.",
+        "Schweppes All Aged Stakes"
+      ],
+      "date": "2025-04-19",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81493",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:all aged stakes"
+    },
+    {
+      "id": "aus-2025-04-19-champagne-stakes",
+      "name": "Champagne Stakes",
+      "canonical_name": "Champagne Stakes",
+      "aliases": [],
+      "date": "2025-04-19",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:champagne stakes"
+    },
+    {
+      "id": "aus-2025-04-26-australasian-oaks",
+      "name": "Australasian Oaks",
+      "canonical_name": "Australasian Oaks",
+      "aliases": [],
+      "date": "2025-04-26",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Morphettville",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:australasian oaks"
+    },
+    {
+      "id": "aus-2025-04-26-robert-sangster-stakes",
+      "name": "Robert Sangster Stakes",
+      "canonical_name": "Robert Sangster Stakes",
+      "aliases": [],
+      "date": "2025-04-26",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Morphettville",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:robert sangster stakes"
+    },
+    {
+      "id": "aus-2025-05-03-south-australian-derby",
+      "name": "South Australian Derby",
+      "canonical_name": "South Australian Derby",
+      "aliases": [],
+      "date": "2025-05-03",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Morphettville",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:south australian derby"
+    },
+    {
+      "id": "aus-2025-05-10-the-goodwood",
+      "name": "The Goodwood",
+      "canonical_name": "The Goodwood",
+      "aliases": [],
+      "date": "2025-05-10",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Morphettville",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:the goodwood"
+    },
+    {
+      "id": "aus-2025-05-17-doomben-10-000",
+      "name": "Doomben 10,000",
+      "canonical_name": "Doomben 10,000",
+      "aliases": [
+        "Ladbrokes Doomben 10,000"
+      ],
+      "date": "2025-05-17",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Doomben",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81494",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:doomben 10,000"
+    },
+    {
+      "id": "aus-2025-05-24-doomben-cup",
+      "name": "Doomben Cup",
+      "canonical_name": "Doomben Cup",
+      "aliases": [],
+      "date": "2025-05-24",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Doomben",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:doomben cup"
+    },
+    {
+      "id": "saf-2025-05-24-daily-news-2000",
+      "name": "Daily News 2000",
+      "canonical_name": "Daily News 2000",
+      "aliases": [],
+      "date": "2025-05-24",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Greyville",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1181-handicapping-ratings-update-224",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:daily news 2000"
+    },
+    {
+      "id": "saf-2025-05-31-allan-robertson-championship",
+      "name": "Allan Robertson Championship",
+      "canonical_name": "Allan Robertson Championship",
+      "aliases": [],
+      "date": "2025-05-31",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Scottsville",
+      "source_url": "https://racehorseowners.co.za/2025/06/29/feature-race-winners-june/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf",
+        "https://www.goldcircle.co.za/downloads/racecard/Hollywoodbets_scottsville_31_may_25.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:allan robertson championship"
+    },
+    {
+      "id": "saf-2025-05-31-gold-medallion",
+      "name": "Gold Medallion",
+      "canonical_name": "Gold Medallion",
+      "aliases": [
+        "Golden Medallion"
+      ],
+      "date": "2025-05-31",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Scottsville",
+      "source_url": "https://racehorseowners.co.za/2025/06/29/feature-race-winners-june/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf",
+        "https://www.goldcircle.co.za/downloads/racecard/Hollywoodbets_scottsville_31_may_25.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:gold medallion"
+    },
+    {
+      "id": "saf-2025-05-31-south-african-fillies-sprint",
+      "name": "South African Fillies Sprint",
+      "canonical_name": "South African Fillies Sprint",
+      "aliases": [
+        "S A Fillies Sprint",
+        "SA Fillies Sprint"
+      ],
+      "date": "2025-05-31",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Scottsville",
+      "source_url": "https://racehorseowners.co.za/2025/06/29/feature-race-winners-june/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf",
+        "https://www.goldcircle.co.za/downloads/racecard/Hollywoodbets_scottsville_31_may_25.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:south african fillies sprint"
+    },
+    {
+      "id": "aus-2025-06-07-kingsford-smith-cup",
+      "name": "Kingsford-Smith Cup",
+      "canonical_name": "Kingsford-Smith Cup",
+      "aliases": [
+        "Eva Air Kingsford Smith Cup - Group 1"
+      ],
+      "date": "2025-06-07",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Eagle Farm",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81495",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。 采用官方赛果年鉴中的实际6月7日，不使用原定5月31日。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:kingsford-smith cup"
+    },
+    {
+      "id": "aus-2025-06-07-queensland-derby",
+      "name": "Queensland Derby",
+      "canonical_name": "Queensland Derby",
+      "aliases": [],
+      "date": "2025-06-07",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Eagle Farm",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。 采用官方赛果年鉴中的实际6月7日，不使用原定5月31日。",
+      "grade": "G1",
+      "series_key": "aus:queensland derby"
+    },
+    {
+      "id": "aus-2025-06-07-queensland-oaks",
+      "name": "Queensland Oaks",
+      "canonical_name": "Queensland Oaks",
+      "aliases": [],
+      "date": "2025-06-07",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Eagle Farm",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:queensland oaks"
+    },
+    {
+      "id": "saf-2025-06-07-gold-challenge",
+      "name": "Gold Challenge",
+      "canonical_name": "Gold Challenge",
+      "aliases": [],
+      "date": "2025-06-07",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Greyville",
+      "source_url": "https://www.goldcircle.co.za/dave-the-king-fights-off-pretenders/",
+      "verification_status": "actual_result",
+      "verification_note": "Gold Circle于6月8日赛后报道明确上周六（6月7日）实际举行；NHRA目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:gold challenge"
+    },
+    {
+      "id": "aus-2025-06-14-j-j-atkins",
+      "name": "J.J. Atkins",
+      "canonical_name": "J.J. Atkins",
+      "aliases": [
+        "J.J. Atkins Stakes"
+      ],
+      "date": "2025-06-14",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Eagle Farm",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:j.j. atkins"
+    },
+    {
+      "id": "aus-2025-06-14-stradbroke-handicap",
+      "name": "Stradbroke Handicap",
+      "canonical_name": "Stradbroke Handicap",
+      "aliases": [
+        "Star Stradbroke H."
+      ],
+      "date": "2025-06-14",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Eagle Farm",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81496",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/"
+      ],
+      "grade": "G1",
+      "series_key": "aus:stradbroke handicap"
+    },
+    {
+      "id": "aus-2025-06-28-tattersall-s-tiara",
+      "name": "Tattersall's Tiara",
+      "canonical_name": "Tattersall's Tiara",
+      "aliases": [],
+      "date": "2025-06-28",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Eagle Farm",
+      "source_url": "https://publishingservices.racingaustralia.horse/Newsletters/2025_Racing_Australia_Fact_Book/23/",
+      "verification_status": "actual_result",
+      "verification_note": "官方赛果记录确认日期及G1等级。",
+      "grade": "G1",
+      "series_key": "aus:tattersall's tiara"
+    },
+    {
+      "id": "saf-2025-07-05-durban-july",
+      "name": "Durban July",
+      "canonical_name": "Durban July",
+      "aliases": [],
+      "date": "2025-07-05",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Greyville",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1204-handicapping-ratings-update-228",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:durban july"
+    },
+    {
+      "id": "saf-2025-07-05-garden-province-stakes",
+      "name": "Garden Province Stakes",
+      "canonical_name": "Garden Province Stakes",
+      "aliases": [],
+      "date": "2025-07-05",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Greyville",
+      "source_url": "https://www.nhra.co.za/index.php/press-release/1204-handicapping-ratings-update-228",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:garden province stakes"
+    },
+    {
+      "id": "saf-2025-07-27-champions-cup",
+      "name": "Champions Cup",
+      "canonical_name": "Champions Cup",
+      "aliases": [],
+      "date": "2025-07-27",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Greyville",
+      "source_url": "https://bsa.co.za/bloodstock-south-africa-stars-shine-at-hollywoodbets-greyville/",
+      "verification_status": "actual_result",
+      "verification_note": "南非育马协会赛后报道四场G1赛果；NHRA年度目录确认7月27日。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:champions cup"
+    },
+    {
+      "id": "saf-2025-07-27-mercury-sprint",
+      "name": "Mercury Sprint",
+      "canonical_name": "Mercury Sprint",
+      "aliases": [],
+      "date": "2025-07-27",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Greyville",
+      "source_url": "https://bsa.co.za/bloodstock-south-africa-stars-shine-at-hollywoodbets-greyville/",
+      "verification_status": "actual_result",
+      "verification_note": "南非育马协会赛后报道四场G1赛果；NHRA年度目录确认7月27日。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:mercury sprint"
+    },
+    {
+      "id": "saf-2025-07-27-premiers-champion-stakes",
+      "name": "Premiers Champion Stakes",
+      "canonical_name": "Premiers Champion Stakes",
+      "aliases": [],
+      "date": "2025-07-27",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Greyville",
+      "source_url": "https://bsa.co.za/bloodstock-south-africa-stars-shine-at-hollywoodbets-greyville/",
+      "verification_status": "actual_result",
+      "verification_note": "南非育马协会赛后报道四场G1赛果；NHRA年度目录确认7月27日。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:premiers champion stakes"
+    },
+    {
+      "id": "saf-2025-07-27-thekwini-stakes",
+      "name": "Thekwini Stakes",
+      "canonical_name": "Thekwini Stakes",
+      "aliases": [],
+      "date": "2025-07-27",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Greyville",
+      "source_url": "https://bsa.co.za/bloodstock-south-africa-stars-shine-at-hollywoodbets-greyville/",
+      "verification_status": "actual_result",
+      "verification_note": "南非育马协会赛后报道四场G1赛果；NHRA年度目录确认7月27日。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:thekwini stakes"
+    },
+    {
+      "id": "aus-2025-08-23-winx-stakes",
+      "name": "Winx Stakes",
+      "canonical_name": "Winx Stakes",
+      "aliases": [
+        "Winx S."
+      ],
+      "date": "2025-08-23",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81510",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:winx stakes"
+    },
+    {
+      "id": "aus-2025-08-30-memsie-stakes",
+      "name": "Memsie Stakes",
+      "canonical_name": "Memsie Stakes",
+      "aliases": [
+        "Stow Storage Memsie S.",
+        "Stow Storage Memsie Stakes"
+      ],
+      "date": "2025-08-30",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81511",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:memsie stakes"
+    },
+    {
+      "id": "aus-2025-09-06-moir-stakes",
+      "name": "Moir Stakes",
+      "canonical_name": "Moir Stakes",
+      "aliases": [
+        "Charter Keck Cramer Moir S."
+      ],
+      "date": "2025-09-06",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Moonee Valley",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81512",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:moir stakes"
+    },
+    {
+      "id": "nz-2025-09-06-proisir-plate",
+      "name": "Proisir Plate",
+      "canonical_name": "Proisir Plate",
+      "aliases": [
+        "Tarzino Trophy",
+        "Hawke's Bay Challenge Stakes"
+      ],
+      "date": "2025-09-06",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Ellerslie",
+      "source_url": "https://www.aucklandracing.co.nz/proisir-plate-jockey-comments/",
+      "verification_status": "actual_result",
+      "verification_note": "主办方赛后骑师评论确认9月6日Ellerslie实际举行；原Tarzino Trophy改名及由Hastings移场。",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2025-10/Pattern%20Races%202025-26_FINAL.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "nz:proisir plate"
+    },
+    {
+      "id": "aus-2025-09-13-makybe-diva-stakes",
+      "name": "Makybe Diva Stakes",
+      "canonical_name": "Makybe Diva Stakes",
+      "aliases": [
+        "Crown Makybe Diva S.",
+        "Crown Makybe Diva Stakes"
+      ],
+      "date": "2025-09-13",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81513",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:makybe diva stakes"
+    },
+    {
+      "id": "aus-2025-09-20-sir-rupert-clarke-stakes",
+      "name": "Sir Rupert Clarke Stakes",
+      "canonical_name": "Sir Rupert Clarke Stakes",
+      "aliases": [],
+      "date": "2025-09-20",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://www.racing.com/news/2025/09/20/news-review-caulfield-group-1s-jockey-comments-200925",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:sir rupert clarke stakes"
+    },
+    {
+      "id": "aus-2025-09-20-underwood-stakes",
+      "name": "Underwood Stakes",
+      "canonical_name": "Underwood Stakes",
+      "aliases": [],
+      "date": "2025-09-20",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://www.racing.com/news/2025/09/20/news-review-caulfield-group-1s-jockey-comments-200925",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:underwood stakes"
+    },
+    {
+      "id": "aus-2025-09-26-manikato-stakes",
+      "name": "Manikato Stakes",
+      "canonical_name": "Manikato Stakes",
+      "aliases": [
+        "Ladbrokes Manikato S.",
+        "Ladbrokes Manikato Stakes"
+      ],
+      "date": "2025-09-26",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Moonee Valley",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81514",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:manikato stakes"
+    },
+    {
+      "id": "aus-2025-09-27-golden-rose-stakes",
+      "name": "Golden Rose Stakes",
+      "canonical_name": "Golden Rose Stakes",
+      "aliases": [],
+      "date": "2025-09-27",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Rosehill Gardens",
+      "source_url": "https://www.godolphin.com/runners-and-results/racecard/904623",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:golden rose stakes"
+    },
+    {
+      "id": "nz-2025-09-27-howden-insurance-mile",
+      "name": "Howden Insurance Mile",
+      "canonical_name": "Howden Insurance Mile",
+      "aliases": [
+        "Arrowfield Stud Plate",
+        "Horlicks Plate"
+      ],
+      "date": "2025-09-27",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Te Rapa",
+      "source_url": "https://loveracing.nz/News/50631/GroupOnewarhorsereignssupremeinHowdenMile.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2025-10/Pattern%20Races%202025-26_FINAL.pdf"
+      ],
+      "series_key": "nz:howden insurance mile"
+    },
+    {
+      "id": "aus-2025-10-04-epsom-handicap",
+      "name": "Epsom Handicap",
+      "canonical_name": "Epsom Handicap",
+      "aliases": [],
+      "date": "2025-10-04",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.godolphin.com/runners-and-results/racecard/904974",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:epsom handicap"
+    },
+    {
+      "id": "aus-2025-10-04-flight-stakes",
+      "name": "Flight Stakes",
+      "canonical_name": "Flight Stakes",
+      "aliases": [],
+      "date": "2025-10-04",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.breednet.com.au/stakes-race-results/result?d=2025-10-04&race=Darley+Flight+Stakes&v=Randwick",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:flight stakes"
+    },
+    {
+      "id": "aus-2025-10-04-the-metropolitan",
+      "name": "The Metropolitan",
+      "canonical_name": "The Metropolitan",
+      "aliases": [],
+      "date": "2025-10-04",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.racingpost.com/results/471/randwick/2025-10-04/904975/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:the metropolitan"
+    },
+    {
+      "id": "aus-2025-10-04-turnbull-stakes",
+      "name": "Turnbull Stakes",
+      "canonical_name": "Turnbull Stakes",
+      "aliases": [
+        "Tab Turnbull S.",
+        "TAB Turnbull Stakes"
+      ],
+      "date": "2025-10-04",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81515",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:turnbull stakes"
+    },
+    {
+      "id": "aus-2025-10-11-caulfield-guineas",
+      "name": "Caulfield Guineas",
+      "canonical_name": "Caulfield Guineas",
+      "aliases": [],
+      "date": "2025-10-11",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://mrc.racing.com/news/2025/10/11/autumn-boy-shines-under-spring-sun",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:caulfield guineas"
+    },
+    {
+      "id": "aus-2025-10-11-might-and-power-stakes",
+      "name": "Might and Power Stakes",
+      "canonical_name": "Might and Power Stakes",
+      "aliases": [
+        "Caulfield Stakes"
+      ],
+      "date": "2025-10-11",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://mrc.racing.com/news/2025/10/11/autumn-boy-shines-under-spring-sun",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:might and power stakes"
+    },
+    {
+      "id": "aus-2025-10-11-toorak-handicap",
+      "name": "Toorak Handicap",
+      "canonical_name": "Toorak Handicap",
+      "aliases": [],
+      "date": "2025-10-11",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://mrc.racing.com/news/2025/10/11/autumn-boy-shines-under-spring-sun",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:toorak handicap"
+    },
+    {
+      "id": "aus-2025-10-18-caulfield-cup",
+      "name": "Caulfield Cup",
+      "canonical_name": "Caulfield Cup",
+      "aliases": [],
+      "date": "2025-10-18",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://www.racing.com/form/2025-10-18/caulfield/stewards-report",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:caulfield cup"
+    },
+    {
+      "id": "aus-2025-10-18-king-charles-iii-stakes",
+      "name": "King Charles III Stakes",
+      "canonical_name": "King Charles III Stakes",
+      "aliases": [
+        "King Charles III S.",
+        "King Charles III Stakes",
+        "George Main Stakes"
+      ],
+      "date": "2025-10-18",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81699",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:king charles iii stakes"
+    },
+    {
+      "id": "aus-2025-10-18-the-everest",
+      "name": "The Everest",
+      "canonical_name": "The Everest",
+      "aliases": [
+        "TAB Everest Stakes",
+        "Tab Everest"
+      ],
+      "date": "2025-10-18",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81700",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:the everest"
+    },
+    {
+      "id": "aus-2025-10-18-thousand-guineas",
+      "name": "Thousand Guineas",
+      "canonical_name": "Thousand Guineas",
+      "aliases": [],
+      "date": "2025-10-18",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://www.racing.com/form/2025-10-18/caulfield/stewards-report",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:thousand guineas"
+    },
+    {
+      "id": "nz-2025-10-18-livamol-classic",
+      "name": "Livamol Classic",
+      "canonical_name": "Livamol Classic",
+      "aliases": [
+        "Ormond Memorial"
+      ],
+      "date": "2025-10-18",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Ellerslie",
+      "source_url": "https://www.aucklandracing.co.nz/jockey-comments-livamol-classic-2025/",
+      "verification_status": "actual_result",
+      "verification_note": "主办方赛后评论确认10月18日Ellerslie实际举行；原10月11日Awapuni排期已变更。",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2025-10/Pattern%20Races%202025-26_FINAL.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "nz:livamol classic"
+    },
+    {
+      "id": "aus-2025-10-25-cox-plate",
+      "name": "Cox Plate",
+      "canonical_name": "Cox Plate",
+      "aliases": [
+        "Ladbrokes Cox Plate",
+        "W S Cox Plate"
+      ],
+      "date": "2025-10-25",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Moonee Valley",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81701",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:cox plate"
+    },
+    {
+      "id": "aus-2025-10-25-spring-champion-stakes",
+      "name": "Spring Champion Stakes",
+      "canonical_name": "Spring Champion Stakes",
+      "aliases": [],
+      "date": "2025-10-25",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Royal Randwick",
+      "source_url": "https://www.godolphin.com/news/attica-leads-stakes-race-winning-treble-for-godolphin-three-year-olds",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:spring champion stakes"
+    },
+    {
+      "id": "aus-2025-11-01-coolmore-stud-stakes",
+      "name": "Coolmore Stud Stakes",
+      "canonical_name": "Coolmore Stud Stakes",
+      "aliases": [
+        "Coolmore Stud S.",
+        "Ascot Vale Stakes"
+      ],
+      "date": "2025-11-01",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81702",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:coolmore stud stakes"
+    },
+    {
+      "id": "aus-2025-11-01-empire-rose-stakes",
+      "name": "Empire Rose Stakes",
+      "canonical_name": "Empire Rose Stakes",
+      "aliases": [],
+      "date": "2025-11-01",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.vrc.com.au/race-days-and-events/2025-2026/howden-victoria-derby-day/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:empire rose stakes"
+    },
+    {
+      "id": "aus-2025-11-01-victoria-derby",
+      "name": "Victoria Derby",
+      "canonical_name": "Victoria Derby",
+      "aliases": [],
+      "date": "2025-11-01",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.vrc.com.au/race-days-and-events/2025-2026/howden-victoria-derby-day/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:victoria derby"
+    },
+    {
+      "id": "aus-2025-11-04-melbourne-cup",
+      "name": "Melbourne Cup",
+      "canonical_name": "Melbourne Cup",
+      "aliases": [],
+      "date": "2025-11-04",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.vrc.com.au/latest-news/melham-and-half-yours-take-historic-melbourne-cup-victory/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:melbourne cup"
+    },
+    {
+      "id": "aus-2025-11-06-vrc-oaks",
+      "name": "VRC Oaks",
+      "canonical_name": "VRC Oaks",
+      "aliases": [
+        "Crown Oaks"
+      ],
+      "date": "2025-11-06",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.vrc.com.au/latest-news/irish-get-down-to-business-in-vrc-oaks/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:vrc oaks"
+    },
+    {
+      "id": "aus-2025-11-08-champions-mile",
+      "name": "Champions Mile",
+      "canonical_name": "Champions Mile",
+      "aliases": [
+        "Lexus Champions Mile",
+        "Cantala Stakes"
+      ],
+      "date": "2025-11-08",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81704",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:champions mile"
+    },
+    {
+      "id": "aus-2025-11-08-champions-sprint",
+      "name": "Champions Sprint",
+      "canonical_name": "Champions Sprint",
+      "aliases": [
+        "Vrc Champions Sprint",
+        "VRC Champions Sprint",
+        "Victoria Racing Club Stakes"
+      ],
+      "date": "2025-11-08",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81703",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025 G1实际赛果条目确认；澳大利亚官方年鉴/目录用于完整性核对。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:champions sprint"
+    },
+    {
+      "id": "aus-2025-11-08-champions-stakes",
+      "name": "Champions Stakes",
+      "canonical_name": "Champions Stakes",
+      "aliases": [
+        "TAB Champions Stakes (ex Mackinnon)",
+        "Mackinnon Stakes",
+        "Tab Champions S."
+      ],
+      "date": "2025-11-08",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Flemington",
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81705",
+      "verification_status": "actual_result",
+      "verification_note": "IFHA 2025实际G1赛果条目 Tab Champions S.（racepid=81705）确认；与同日Champions Sprint（81703）及Champions Mile（81704）分别保留。",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "grade": "G1",
+      "series_key": "aus:champions stakes"
+    },
+    {
+      "id": "nz-2025-11-08-new-zealand-1000-guineas",
+      "name": "New Zealand 1000 Guineas",
+      "canonical_name": "New Zealand 1000 Guineas",
+      "aliases": [],
+      "date": "2025-11-08",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Riccarton Park",
+      "source_url": "https://loveracing.nz/News/51060/WellWrittenstunsin1000Guineasrunaway.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2025-10/Pattern%20Races%202025-26_FINAL.pdf"
+      ],
+      "series_key": "nz:new zealand 1000 guineas"
+    },
+    {
+      "id": "aus-2025-11-15-c-f-orr-stakes",
+      "name": "C.F. Orr Stakes",
+      "canonical_name": "C.F. Orr Stakes",
+      "aliases": [],
+      "date": "2025-11-15",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Caulfield",
+      "source_url": "https://www.racing.com/news/2025/11/15/news-review-caulfield-orr-stakes-main-151125",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。 2025移至春季，2月与11月是两次独立举办，不能按赛事名去重。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:c.f. orr stakes"
+    },
+    {
+      "id": "nz-2025-11-15-new-zealand-2000-guineas",
+      "name": "New Zealand 2000 Guineas",
+      "canonical_name": "New Zealand 2000 Guineas",
+      "aliases": [],
+      "date": "2025-11-15",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Riccarton Park",
+      "source_url": "https://loveracing.nz/News/51121/Gr1AlBastiEquiworldDubai53rdNewZealand2000Guineas-Romanoff.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2025-10/Pattern%20Races%202025-26_FINAL.pdf"
+      ],
+      "series_key": "nz:new zealand 2000 guineas"
+    },
+    {
+      "id": "aus-2025-11-22-railway-stakes",
+      "name": "Railway Stakes",
+      "canonical_name": "Railway Stakes",
+      "aliases": [],
+      "date": "2025-11-22",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Ascot",
+      "source_url": "https://www.racing.com/news/2025/11/23/news-review-ascot-railway-main-221125",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:railway stakes"
+    },
+    {
+      "id": "aus-2025-11-29-winterbottom-stakes",
+      "name": "Winterbottom Stakes",
+      "canonical_name": "Winterbottom Stakes",
+      "aliases": [],
+      "date": "2025-11-29",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Ascot",
+      "source_url": "https://www.racing.com/news/2025/11/30/news-review-ascot-winterbottom-291125",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:winterbottom stakes"
+    },
+    {
+      "id": "saf-2025-11-29-summer-cup",
+      "name": "Summer Cup",
+      "canonical_name": "Summer Cup",
+      "aliases": [],
+      "date": "2025-11-29",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Turffontein",
+      "source_url": "https://www.sportinglife.com/racing/results/2025-11-29/turffontein/892252/betway-summer-cup-grade-1-handicap",
+      "verification_status": "actual_result",
+      "verification_note": "Sporting Life实际结果页确认11月29日G1；NHRA赛程同日。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:summer cup"
+    },
+    {
+      "id": "aus-2025-12-06-northerly-stakes",
+      "name": "Northerly Stakes",
+      "canonical_name": "Northerly Stakes",
+      "aliases": [
+        "Kingston Town Classic"
+      ],
+      "date": "2025-12-06",
+      "country": "AUS",
+      "surface": "turf",
+      "track": "Ascot",
+      "source_url": "https://www.tbwa.net.au/2025/12/winning-crusade-in-northerly-stakes/",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://racingaustralia.horse/arb/Group_ListedRaceDates/2025-2026.aspx"
+      ],
+      "series_key": "aus:northerly stakes"
+    },
+    {
+      "id": "nz-2025-12-06-captain-cook-stakes",
+      "name": "Captain Cook Stakes",
+      "canonical_name": "Captain Cook Stakes",
+      "aliases": [
+        "TAB Mufhasa Classic"
+      ],
+      "date": "2025-12-06",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Trentham",
+      "source_url": "https://loveracing.nz/News/51296/ProvenceclinchesclosefinishinTrenthamGroupOne.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2025-10/Pattern%20Races%202025-26_FINAL.pdf"
+      ],
+      "series_key": "nz:captain cook stakes"
+    },
+    {
+      "id": "saf-2025-12-06-cape-fillies-guineas",
+      "name": "Cape Fillies Guineas",
+      "canonical_name": "Cape Fillies Guineas",
+      "aliases": [],
+      "date": "2025-12-06",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Kenilworth",
+      "source_url": "https://www.sportinglife.com/racing/results/2025-12-06/kenilworth/893166/world-sports-betting-cape-fillies-guineas-grade-1-3-year-old-fillies",
+      "verification_status": "actual_result",
+      "verification_note": "Sporting Life实际结果页确认12月6日G1；NHRA赛程同日。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:cape fillies guineas"
+    },
+    {
+      "id": "saf-2025-12-13-cape-guineas",
+      "name": "Cape Guineas",
+      "canonical_name": "Cape Guineas",
+      "aliases": [],
+      "date": "2025-12-13",
+      "country": "SAF",
+      "surface": "turf",
+      "track": "Kenilworth",
+      "source_url": "https://www.racingtv.com/results/2025-12-13/kenilworth/1415",
+      "verification_status": "actual_result",
+      "verification_note": "Racing TV实际结果页确认12月13日G1；NHRA赛程同日。",
+      "corroborating_source_urls": [
+        "https://www.nhra.co.za/media/attachments/2025/04/16/national-feature-race-programme-2025.pdf"
+      ],
+      "grade": "G1",
+      "series_key": "saf:cape guineas"
+    },
+    {
+      "id": "nz-2025-12-26-zabeel-classic",
+      "name": "Zabeel Classic",
+      "canonical_name": "Zabeel Classic",
+      "aliases": [],
+      "date": "2025-12-26",
+      "country": "NZ",
+      "surface": "turf",
+      "track": "Ellerslie",
+      "source_url": "https://loveracing.nz/News/51443/Kingswoodscorescrowningglory.aspx",
+      "verification_status": "actual_result",
+      "verification_note": "实际赛果、赛后官方报道或赛后监管评级记录确认已举办；日期和G1等级与官方分级目录交叉核对。",
+      "grade": "G1",
+      "corroborating_source_urls": [
+        "https://nztr.co.nz/sites/nztrindustry/files/2025-10/Pattern%20Races%202025-26_FINAL.pdf"
+      ],
+      "series_key": "nz:zabeel classic"
+    }
+  ]
+}

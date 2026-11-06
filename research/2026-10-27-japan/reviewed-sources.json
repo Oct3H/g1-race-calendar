@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "nar-annual-discovery",
+      "title": "地方赛事全年目录与缓存补全",
+      "queries": [
+        {
+          "id": "nar-current-annual",
+          "source": {
+            "label": "NAR 2026 年度目录",
+            "links": [
+              {
+                "label": "NAR 2026 年度目录",
+                "url": "https://www.keiba.go.jp/dirtgraderace/2026/racelist/index.html"
+              }
+            ],
+            "files": [
+              {
+                "label": "japan-audit.json"
+              },
+              {
+                "label": "field-checks.json"
+              }
+            ],
+            "filters": [
+              "年度：2026",
+              "地方 G1／JpnI，排除指向 JRA 的中央赛事"
+            ],
+            "caveats": [
+              "地方年度目录中有 13 场；这不是 13 场详细资料或赛前赔率全部齐备。",
+              "合并回放共 37 条使用了昨日中央缓存；本轮中央导航遭请求通道失败，源站状态未知。"
+            ]
+          },
+          "capturedAt": "2026-10-27T10:57:40.448836+00:00",
+          "rows": [
+            {
+              "name": "川崎記念",
+              "grade": "JpnI",
+              "date": "2026-04-08",
+              "detail_stage": "racecard"
+            },
+            {
+              "name": "羽田盃",
+              "grade": "JpnI",
+              "date": "2026-04-29",
+              "detail_stage": "racecard"
+            },
+            {
+              "name": "かしわ記念",
+              "grade": "JpnI",
+              "date": "2026-05-05",
+              "detail_stage": "racecard"
+            },
+            {
+              "name": "全日本2歳優駿",
+              "grade": "JpnI",
+              "date": "2026-12-16",
+              "detail_stage": "introduction"
+            },
+            {
+              "name": "東京大賞典",
+              "grade": "G1",
+              "date": "2026-12-29",
+              "detail_stage": "introduction"
+            }
+          ],
+          "columns": [
+            {
+              "field": "name",
+              "label": "赛事"
+            },
+            {
+              "field": "grade",
+              "label": "格付"
+            },
+            {
+              "field": "date",
+              "label": "源赛日"
+            },
+            {
+              "field": "detail_stage",
+              "label": "链接阶段"
+            }
+          ],
+          "preview": {
+            "kind": "sample",
+            "note": "展示 13 场目录中的 5 场，保留源名称及实际链接阶段。",
+            "totalRows": 13
+          },
+          "methods": [
+            {
+              "language": "python",
+              "code": "def nar_annual_events(content, url):\n    \"\"\"NAR's annual list includes local races and links to two JRA G1s.\n\n    Keep only source-published local GI/JpnI cards; JRA is collected separately.\n    \"\"\"\n    year_match = re.search(r'/(20\\d\\d)/racelist/', urlparse(url).path)\n    if not year_match: raise ValueError('No source year in annual directory URL')\n    year = int(year_match[1])\n    titles = Page(content).text\n    title = titles[0] if titles else ''\n    if not re.search(rf'\\b{year}年', title): raise ValueError('Annual document year does not match its URL')\n    events = []\n    central_courses = {'札幌', '函館', '福島', '新潟', '東京', '中山', '中京', '京都', '阪神', '小倉'}\n    for block in re.findall(r'<li\\b[^>]*class=\"[^\"]*\\bjs-item\\b[^\"]*\"[^>]*>(.*?)</li>', content, re.S):\n        heading = re.search(r'<h4\\b[^>]*class=\"([^\"]+)\"[^>]*>(.*?)</h4>', block, re.S)\n        if not heading: continue\n        grades = set(heading[1].split()) & {'g1', 'jpn1'}\n        if not grades: continue\n        page = Page(block)\n        text = ' '.join(page.text)\n        name = ' '.join(Page(heading[2]).text)\n        day = re.match(r'(\\d+)月(\\d+)日', text)\n        if not name or not day: raise ValueError('Incomplete annual race identity/date')\n        course = re.search(r'([^\\s]+)\\s+[左右]\\d+m', text)\n        links = [a for a in page.anchors if a['href']]\n        if len(links) > 1: raise ValueError('Ambiguous annual race link; preserve cache')\n        link = links[0] if links else None\n        absolute = urljoin(url, link['href']) if link else None\n        # Future central G1 cards can have their anchor commented out.\n        # Classify those by the published central venue, not by a race name.\n        if absolute and urlparse(absolute).hostname == 'www.jra.go.jp': continue\n        if not absolute and 'g1' in grades and course and course[1] in central_courses: continue\n        if absolute and (urlparse(absolute).hostname != 'www.keiba.go.jp' or not absolute.endswith(('/racecard.html', '/introduction.html'))):\n            raise ValueError('Unexpected annual race path')\n        when = date(year, int(day[1]), int(day[2])).isoformat()\n        time = re.search(r'(\\d{1,2}:\\d{2})発走', text)\n        distance = re.search(r'([左右])(\\d+)m', text)\n        events.append({'key': f'nar:{year}:{name}', 'source': 'nar', 'year': year, 'name': name,\n                       'grade': 'G1' if 'g1' in grades else 'JpnI', 'date': when,\n                       'scheduled_start_at': f'{when}T{time[1].zfill(5)}:00+09:00' if time else None,\n                       'start_time_provisional': '発走予定' in text if time else None,\n                       'distance_m': int(distance[2]) if distance else None,\n                       'schedule_text_raw': text, 'detail_url': absolute,\n                       'detail_link_status': ('introduction' if absolute.endswith('/introduction.html') else 'racecard') if absolute else 'not_published',\n                       'parent_url': url, 'href': link['href'] if link else None})\n    if not events: raise ValueError('No supported local GI/JpnI annual records')\n    if len({r['key'] for r in events}) != len(events): raise ValueError('Duplicate annual race identities')\n    return events"
+            }
+          ],
+          "evidenceFlow": [
+            {
+              "kind": "validation",
+              "title": "年度与去重",
+              "body": "2023、2024、2025、2026 年目录均核对年份和年度唯一键；中央赛程与地方赛程分别收集，既有条件和文件链接在合并后保留。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nar-official-runner-fields",
+      "title": "南部杯出马、正式赛果与最终单胜",
+      "queries": [
+        {
+          "id": "nar-past-race",
+          "source": {
+            "label": "NAR 南部杯官方资料",
+            "links": [
+              {
+                "label": "南部杯出马入口",
+                "url": "https://www.keiba.go.jp/dirtgraderace/2026/1012_milechampionshipnambuhai/racecard.html"
+              },
+              {
+                "label": "NAR 赔率说明",
+                "url": "https://www.keiba.go.jp/qa.html"
+              }
+            ],
+            "files": [
+              {
+                "label": "japan-audit.json"
+              },
+              {
+                "label": "field-checks.json"
+              }
+            ],
+            "filters": [
+              "源赛日：2026-10-12",
+              "盛岡第 12 競走",
+              "按马号匹配出马表、赛果及独立单胜页"
+            ],
+            "caveats": [
+              "三份资料的 11 匹马名和最终 Win 一致；本次赛后读取不证明比赛日前的报价可用。",
+              "JBC 未来页仍为出走予定，不能提升为正式枠顺或可购买报价。"
+            ]
+          },
+          "reportingPeriod": "2026-10-12 历史最终资料",
+          "rows": [
+            {
+              "entries": 11,
+              "finishers": 11,
+              "win_values": 11,
+              "stage": "最终／历史资料"
+            }
+          ],
+          "columns": [
+            {
+              "field": "entries",
+              "label": "出马匹数"
+            },
+            {
+              "field": "finishers",
+              "label": "完赛匹数"
+            },
+            {
+              "field": "win_values",
+              "label": "单胜条数"
+            },
+            {
+              "field": "stage",
+              "label": "阶段"
+            }
+          ],
+          "evidenceFlow": [
+            {
+              "kind": "validation",
+              "title": "逐马核对",
+              "body": "出马表嵌套 tr 不作为匹数；11 个唯一马号的名称和 Win 与赛果、赔率页逐项一致，赔率页明确标为最終。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historical-detail-gap",
+      "title": "马匹五场战绩可读，历史详情仍待定位",
+      "queries": [
+        {
+          "id": "nar-horse-history",
+          "source": {
+            "label": "NAR 冠军马匹资料",
+            "files": [
+              {
+                "label": "japan-audit.json"
+              },
+              {
+                "label": "field-checks.json"
+              }
+            ],
+            "filters": [
+              "马匹由正式赛果冠军及实际出马表链接选择",
+              "只取 2026-10-12 之前的五次出赛"
+            ],
+            "caveats": [
+              "本样本此前五场均为中央比赛，NAR 马匹页没有提供这五场详情链接或逐场 Win。",
+              "唯一的地方赛果链接指向本场，不能复制给此前五场。"
+            ]
+          },
+          "rows": [
+            {
+              "date": "2026/07/26",
+              "course": "Ｊ中京",
+              "name": "東海ＳＧIII"
+            },
+            {
+              "date": "2026/05/31",
+              "course": "Ｊ東京",
+              "name": "ＡＲＦ杯薫風Ｓ４歳上３勝クラス"
+            },
+            {
+              "date": "2026/04/25",
+              "course": "Ｊ東京",
+              "name": "鎌倉Ｓ４歳上３勝クラス"
+            },
+            {
+              "date": "2026/02/14",
+              "course": "Ｊ東京",
+              "name": "銀蹄Ｓ４歳上３勝クラス"
+            },
+            {
+              "date": "2025/11/16",
+              "course": "Ｊ東京",
+              "name": "３歳上２勝クラス"
+            }
+          ],
+          "columns": [
+            {
+              "field": "date",
+              "label": "源日期"
+            },
+            {
+              "field": "course",
+              "label": "赛场"
+            },
+            {
+              "field": "name",
+              "label": "赛事原文"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

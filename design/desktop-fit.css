@@ -1,0 +1,72 @@
+/* U6: keep the existing desktop design readable in narrower or lower windows. */
+@media (max-width: 1100px) {
+  .month-grid .day, .month-grid .race-card { min-width: 0; }
+  .month-grid .race-name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    text-overflow: ellipsis;
+  }
+  .app-header {
+    height: auto;
+    min-height: 84px;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .app-header .brand, .header-actions { min-width: 0; }
+  .header-actions { flex-wrap: wrap; justify-content: flex-end; }
+  .dialog-body > h2, .game-heading > div:first-child,
+  .cache-page-heading > div:first-child { min-width: 0; overflow-wrap: anywhere; }
+  .game-horse-choices label, .game-horse-choices b { min-width: 0; overflow-wrap: anywhere; }
+  .game-ticket-record-facts { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  #race-dialog .race-quality-entry { left: auto; right: 6px; }
+  #race-dialog .quality-speech { left: auto; right: -4px; }
+  #race-dialog .quality-speech::after { left: auto; right: 19px; }
+}
+
+@media (max-width: 1100px), (max-height: 760px) {
+  dialog {
+    max-width: calc(100vw - 24px);
+    max-height: calc(100dvh - 24px);
+    overflow-y: auto;
+    scroll-padding-top: 80px;
+  }
+  dialog > .dialog-ribbon, #game-dialog > .dialog-ribbon {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    gap: 12px;
+  }
+  .dialog-ribbon > span { min-width: 0; overflow-wrap: anywhere; }
+  .dialog-ribbon .close-button { flex: none; }
+  dialog .primary-button, #game-dialog .game-primary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    white-space: normal;
+  }
+  dialog .primary-button > span, #game-dialog .game-primary > span { float: none; flex: none; }
+}
+
+@media (max-height: 700px) {
+  .dialog-body, .game-body { padding-top: 16px; padding-bottom: 18px; }
+  #game-dialog .game-result-visual { height: min(190px, 28dvh); }
+  .settings-nav { position: static; }
+}
+
+@media (max-width: 760px) {
+  .calendar-shell { overflow-x: hidden; }
+  body[data-calendar-mode="daily"] .calendar-toolbar,
+  .calendar-shell .calendar-toolbar,
+  .calendar-shell :is(.weekday-row, .month-grid, .calendar-footer),
+  .calendar-empty { min-width: 0; }
+  .calendar-shell .calendar-toolbar, .calendar-empty { flex-wrap: wrap; }
+  .calendar-empty > button { max-width: 100%; white-space: normal; }
+  .settings-nav :is(button, .settings-cache-link) { min-width: 0; flex: 1; }
+  .settings-nav [data-i18n] { min-width: 0; overflow-wrap: anywhere; }
+  #race-dialog .quality-speech { max-width: 150px; }
+}

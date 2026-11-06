@@ -1,0 +1,10 @@
+{
+  "name": "jra_tenno_archive",
+  "url": "https://www.jra.go.jp/datafile/seiseki/g1/akiten/result/akiten2026.html",
+  "method": "GET",
+  "requested_at": "2026-11-04T09:34:03.912720+00:00",
+  "status": 403,
+  "error": "HTTP Error 403: Forbidden",
+  "bytes": 444,
+  "sha256": "ceb0e5127136571526965aaea71e600e93a58ff97a1f4a572c3b2fde47270cc7"
+}

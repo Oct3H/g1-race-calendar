@@ -1,0 +1,12 @@
+{
+  "approved_u1": "current layout, progress collapsed by default",
+  "checks": [
+    "actual language form and settings event handlers",
+    "shared URL round trips",
+    "paused source stage and month retained",
+    "legacy welcome path",
+    "first shop activation unchanged"
+  ],
+  "presentation": "DOM doubles and static resource checks; browser rendering not performed",
+  "scope": "flow=preview only; no real download, shared cache task, full app translation or cross-page wallet persistence"
+}

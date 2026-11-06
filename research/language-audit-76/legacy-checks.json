@@ -1,0 +1,92 @@
+[
+  {
+    "file": "check_calendar_clock.mjs",
+    "pass": true,
+    "output": "PASS: local day/timezone refresh preserves browsed month/filter, one local-only timer, current-date purchase/refund policy with final/cancelled/result guards. DOM/clock doubles; browser not rendered.\n"
+  },
+  {
+    "file": "check_calendar_language.mjs",
+    "pass": true,
+    "output": "PASS: actual month/filter/empty-state and static UI rendering follow lang; race-name policy unchanged. DOM doubles, no browser rendering.\n"
+  },
+  {
+    "file": "check_calendar_navigation.mjs",
+    "pass": true,
+    "output": "PASS: month grid, leap years, year boundaries, 360 months, system-zone date\n"
+  },
+  {
+    "file": "check_change_preview.mjs",
+    "pass": true,
+    "output": "PASS: detail-open clears unread warning and preserves descriptions/expanded dates; refunds do not acknowledge changes; automatic refunds, eligibility fixtures and existing preview flows; browser layout not tested.\n"
+  },
+  {
+    "file": "check_data_quality_preview.mjs",
+    "pass": true,
+    "output": "PASS: unavailable shop cards retain every missing prerequisite; valid cards remain purchasable; same-day exclusion and submit guards; category failures use the passive avatar without replacing results or paying funds; recovery and offline/manual failure entry; review links preserved.\nPASS: fixed non-crying avatar, avatar-only modal opening, region theme, duplicate guard, backdrop vs content click, focus callback and parent close; seven quality states, missing fields and existing financial checks retained. Browser layout/native interaction not tested.\n"
+  },
+  {
+    "file": "check_detail_review.mjs",
+    "pass": true,
+    "output": "{\n  \"round\": 71,\n  \"status\": \"passed\",\n  \"checks\": [\n    \"opt-in review links\",\n    \"unknown time is not midnight\",\n    \"missing prizes\",\n    \"long horse and pedigree fields\",\n    \"unresolved history keeps own performance only\",\n    \"return focus and scroll\",\n    \"resolved history restores metadata\",\n    \"actual dialog cross-day fields\"\n  ],\n  \"method\": \"actual controllers with DOM doubles; no pixel or live-source validation\"\n}\n"
+  },
+  {
+    "file": "check_first_collection_preview.mjs",
+    "pass": true,
+    "output": "PASS: six collection scenes, pause/resume, no-data semantics, manual failure checks, offline preservation, month rerender, ordinary-page isolation; DOM double only.\n"
+  },
+  {
+    "file": "check_game_preview.mjs",
+    "pass": true,
+    "output": "PASS: 30-day calendar window, DST, confirmed entries and official odds, confirmation rechecks; refresh refunds, unread queue, idempotence and existing game rules.\n"
+  },
+  {
+    "file": "check_notification_review.mjs",
+    "pass": true,
+    "output": "{\n  \"round\": 72,\n  \"status\": \"passed\",\n  \"method\": \"actual financial functions and controllers with DOM doubles\",\n  \"cases\": [\n    \"idle combined refresh\",\n    \"result -> latest correction -> refund\",\n    \"correction -> latest correction -> refund\",\n    \"refund supersedes stale bankruptcy\",\n    \"bankruptcy without refund\",\n    \"chronological shop queue\",\n    \"repeat refresh/view idempotence\",\n    \"ordinary inactive shop\"\n  ],\n  \"browserRendered\": false,\n  \"liveSourceUpdated\": false\n}\n"
+  },
+  {
+    "file": "check_preview_navigation.mjs",
+    "pass": true,
+    "output": "PASS: three-language selection → calendar; settings/source/cache round trips; month and paused stage retained; old welcome behaviour and preview-only scope preserved. Actual form/settings handlers, no browser rendering.\n"
+  },
+  {
+    "file": "check_race_change_rules.mjs",
+    "pass": true,
+    "output": "PASS: first publication, critical schedule/runner fields, repeat fetches/read state, ordinary updates, missing fields, normalized times, confirmed lists, cancellations and withdrawals.\n"
+  },
+  {
+    "file": "check_result_correction_preview.mjs",
+    "pass": true,
+    "output": "PASS: latest net correction, locked odds/dead heat, history, waiver/no debt, pending/refunded isolation, idempotence; controller scenes, frozen incoming updates/latest-version continuation, and calendar/game integration through settlement -> queued correction -> bankruptcy/wallet/bank. DOM doubles only; browser not rendered.\n"
+  },
+  {
+    "file": "check_shop_start_preview.mjs",
+    "pass": true,
+    "output": "PASS: unopened cash/bank zero, no prior accrual, first shop grant once, bank begins next local date, repeated opens/checks/withdrawals do not regrant, cap and DST dates.\n"
+  },
+  {
+    "file": "check_startup_preview.mjs",
+    "pass": true,
+    "output": "PASS: one logical window, focus vs reopen vs restart, local current month/filter reset, no extra reopen queries, background progress, resumable interruption and preserved pause/clear/completed states; real UI controller with DOM doubles. Native macOS lifecycle/browser not implemented or rendered.\n"
+  },
+  {
+    "file": "check_ticket_confirmation.mjs",
+    "pass": true,
+    "output": "PASS: selection, stake, gross return, net profit, remaining cash and source time in confirmation; invalid amounts show no estimate; no funds deducted. Browser layout not tested.\n"
+  },
+  {
+    "file": "check_ticket_folder.mjs",
+    "pass": true,
+    "output": "PASS: five status filters, mixed-race per-ticket visibility and scoped totals, no settlement on filtering, ready fixture, focus restoration, filtered refund and distinct empty states.\nPASS: three race groups/seven independent records; per-order odds, totals, source snapshots, addition labels and region colours; grouping never pays; same-horse additions settle separately; fixture reload is idempotent. Browser layout not tested.\n"
+  },
+  {
+    "file": "check_voluntary_refund.mjs",
+    "pass": true,
+    "output": "PASS: D−3 allowed, D−2/D−1/D0/past blocked; timezone, year/month/leap/DST calendar dates; D−1 purchase allowed and D0 rejected; one-ticket full refund, snapshots/bank unchanged, idempotence, no re-settlement and official refunds unaffected.\n"
+  },
+  {
+    "file": "check_welcome_race_visibility.mjs",
+    "pass": true,
+    "output": "Default welcome card visibility: en=2, zh=2, ja=2\nPASS: actual language form → route → collection initialization keeps preview cards visible for all languages; explicit no-data scenes still hide cards. DOM/CSS contract, no browser rendering.\n"
+  }
+]

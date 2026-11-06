@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ja_home",
+    "status": 200,
+    "bytes": 445116,
+    "tables": 36,
+    "rows": 222,
+    "error": null
+  },
+  {
+    "name": "ja_kikuka_draw",
+    "status": 200,
+    "bytes": 51783,
+    "tables": 4,
+    "rows": 25,
+    "error": null
+  },
+  {
+    "name": "ja_kikuka_result",
+    "status": 200,
+    "bytes": 57757,
+    "tables": 7,
+    "rows": 32,
+    "error": null
+  }
+]

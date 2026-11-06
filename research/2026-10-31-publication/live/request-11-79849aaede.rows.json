@@ -1,0 +1,260 @@
+[
+  [
+    "November 1, 2026, 2000m, Turf, Post time 15:40"
+  ],
+  [
+    "INT DSN, Special Weight, 3-Year-Olds & Up, Open Class, Value of race: 575,100,000 Yen"
+  ],
+  [
+    "",
+    "1st",
+    "2nd",
+    "3rd",
+    "4th",
+    "5th",
+    "total"
+  ],
+  [
+    "Added Money (Yen)",
+    "300,000,000",
+    "120,000,000",
+    "75,000,000",
+    "45,000,000",
+    "30,000,000",
+    "570,000,000"
+  ],
+  [
+    "Stakes Money (Yen)",
+    "3,570,000",
+    "1,020,000",
+    "510,000",
+    "0",
+    "0",
+    "5,100,000"
+  ],
+  [
+    "Total (Yen)",
+    "303,570,000",
+    "121,020,000",
+    "75,510,000",
+    "45,000,000",
+    "30,000,000",
+    "575,100,000"
+  ],
+  [
+    "Bk",
+    "Hs",
+    "Horse",
+    "Colors",
+    "Sex Age",
+    "Weight (Kg)",
+    "Sire Dam",
+    "Dam's sire Dam's dam",
+    "Jockey Trainer",
+    "Owner Breeder"
+  ],
+  [
+    "1",
+    "1",
+    "Croix du Nord(JPN)",
+    "",
+    "C4",
+    "58.0",
+    "Kitasan Black Rising Cross",
+    "Cape Cross Woodrising",
+    "Cristian Demuro Takashi Saito",
+    "Sunday Racing Co. Ltd. Northern Racing"
+  ],
+  [
+    "1",
+    "2",
+    "Elton Barows(JPN)",
+    "",
+    "H6",
+    "58.0",
+    "Deep Brillante Shonan Carat",
+    "Brian's Time News Value",
+    "Fuma Matsuwaka Haruki Sugiyama",
+    "Hirotsugu Inokuma Hirotsugu Inokuma"
+  ],
+  [
+    "2",
+    "3",
+    "Regaleira(JPN)",
+    "",
+    "M5",
+    "56.0",
+    "Suave Richard Roca",
+    "Harbinger Land's Edge",
+    "Mirai Iwata Tetsuya Kimura",
+    "Sunday Racing Co. Ltd. Northern Farm"
+  ],
+  [
+    "2",
+    "4",
+    "Readiness(JPN)",
+    "",
+    "C4",
+    "58.0",
+    "Suave Richard Little Shambles",
+    "Shamardal Meiosis",
+    "Norihiro Yokoyama Mitsugu Kon",
+    "Koji Yasuhara Fujiwara Farm"
+  ],
+  [
+    "3",
+    "5",
+    "Champagne Color(JPN)",
+    "",
+    "H6",
+    "58.0",
+    "Duramente Memorial Life",
+    "Reckless Abandon Baldovina",
+    "Hiroyuki Uchida Tsuyoshi Tanaka",
+    "Yoichi Aoyama Yoichi Aoyama"
+  ],
+  [
+    "3",
+    "6",
+    "Seiun Hades(JPN)",
+    "",
+    "H7",
+    "58.0",
+    "Silver State High Knowledge",
+    "Manhattan Cafe Gold Grace",
+    "Hideaki Miyuki Shinsuke Hashiguchi",
+    "Shigeyuki Nishiyama Keiichi Samekawa"
+  ],
+  [
+    "4",
+    "7",
+    "Masquerade Ball(JPN)",
+    "",
+    "C4",
+    "58.0",
+    "Duramente Mask Off",
+    "Deep Impact Behind the Mask",
+    "Christophe Lemaire Takahisa Tezuka",
+    "Shadai Race Horse Co. Ltd. Shadai Farm"
+  ],
+  [
+    "4",
+    "8",
+    "Jun Blossom(JPN)",
+    "",
+    "H7",
+    "58.0",
+    "World Ace Empress Tiara",
+    "Kurofune Gold Tiara",
+    "Makoto Sugihara Yasuo Tomomichi",
+    "Junji Kawai Northern Racing"
+  ],
+  [
+    "5",
+    "9",
+    "Ho O Biscuits(JPN)",
+    "",
+    "H6",
+    "58.0",
+    "Mind Your Biscuits Ho O Sabrina",
+    "Rulership Travessia",
+    "Yasunari Iwata Takeshi Okumura",
+    "Yoshihisa Ozasa Yoshihisa Ozasa"
+  ],
+  [
+    "5",
+    "10",
+    "Nebra Disk(JPN)",
+    "",
+    "C4",
+    "58.0",
+    "Duramente Liliside",
+    "American Post Miller's Lily",
+    "Yuga Kawada Yuichi Fukunaga",
+    "Kaneko Makoto Holdings Co. Ltd. Northern Farm"
+  ],
+  [
+    "6",
+    "11",
+    "Shake Your Heart(JPN)",
+    "",
+    "H6",
+    "58.0",
+    "Heart's Cry Rumba Loca",
+    "Sri Pekan Rumba Azul",
+    "Yoshihiro Furukawa Toru Miya",
+    "Chizu Yoshida Shadai Farm"
+  ],
+  [
+    "6",
+    "12",
+    "Cosmo Kuranda(JPN)",
+    "",
+    "H5",
+    "58.0",
+    "Al Ain Southern Speed",
+    "Southern Image Golden Eagle",
+    "Yuji Tannai Shizuya Kato",
+    "Big Red Farm Big Red Farm"
+  ],
+  [
+    "7",
+    "13",
+    "Realize Sirius(JPN)",
+    "",
+    "C3",
+    "56.0",
+    "Poetic Flare Red Mirabel",
+    "Stay Gold Danseuse d'Etoile",
+    "Akihide Tsumura Takahisa Tezuka",
+    "Yosuke Imafuku Shadai Farm"
+  ],
+  [
+    "7",
+    "14",
+    "Tagano Dude(JPN)",
+    "",
+    "H5",
+    "58.0",
+    "Yamakatsu Ace Tagano Mu Chan",
+    "Heart's Cry Eishin Mu",
+    "Mirco Demuro Toru Miya",
+    "Ryoji Yagi Ryoji Yagi"
+  ],
+  [
+    "8",
+    "15",
+    "Sakura Farrel(JPN)",
+    "",
+    "C4",
+    "58.0",
+    "Saturnalia Sakura Reine",
+    "Symboli Kris S Sedan Forever",
+    "Daisuke Sasaki Noriyuki Hori",
+    "Sakura Commerce Co. Ltd. Tanioka Stud"
+  ],
+  [
+    "8",
+    "16",
+    "Giovanni(JPN)",
+    "",
+    "C4",
+    "58.0",
+    "Epiphaneia Barefoot Lady",
+    "Footstepsinthesand Lady Angharad",
+    "Kohei Matsuyama Haruki Sugiyama",
+    "KR Japan Taihei Stud Farm Co. Ltd"
+  ],
+  [
+    "8",
+    "17",
+    "Danon Decile(JPN)",
+    "",
+    "H5",
+    "58.0",
+    "Epiphaneia Top Decile",
+    "Congrats Sequoia Queen",
+    "Keita Tosaki Shogo Yasuda",
+    "Danox Co. Ltd. Shadai Farm"
+  ]
+]

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN" data-settings-design="field">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>GⅠ 赛马日历 · 设置双方案</title>
+  <script src="settings-options.js?v=44"></script>
+  <link rel="stylesheet" href="style.css?v=73">
+  <link rel="stylesheet" href="settings.css?v=28">
+  <link rel="stylesheet" href="settings-options.css?v=44">
+  <link rel="stylesheet" href="ui-controls.css?v=44">
+</head>
+<body data-region-style="bubbles">
+  <aside class="design-comparison" aria-label="设置设计比较">
+    <div><span>DESIGN 44 · 独立配色提案</span><h2 id="design-option-title">A · 草绿与奶油金</h2><p id="design-option-description"></p></div>
+    <nav aria-label="比较配色"><a data-settings-scheme="field" href="settings-options.html?scheme=field">A · 草绿奶油金</a><a data-settings-scheme="sky" href="settings-options.html?scheme=sky">B · 天空蓝珊瑚橙</a><a id="design-option-original" href="settings.html">查看现有设置 ↗</a></nav>
+  </aside>
+  <div class="review-bar"><span><b>DESIGN 44</b><span data-i18n="review">设置页三语预览</span></span><span data-i18n="prototype">本页与示例可切换语言，尚未启用全局设置</span></div>
+  <header class="app-header">
+    <a class="brand" href="index.html?v=28"><span class="settings-emblem" aria-hidden="true">GⅠ</span><span><strong data-i18n="brand">GⅠ 赛马日历</strong><small>RACE CALENDAR</small></span></a>
+    <div class="header-caption"><span class="sparkle">✦</span><span lang="ja">レースのある日々。</span><span class="sparkle">✦</span></div>
+    <a class="settings-return" href="index.html?v=28" data-i18n="back">‹ 返回赛历</a>
+  </header>
+  <main class="settings-main">
+    <div class="settings-heading"><div><p>PERSONAL SETTINGS</p><h1 data-i18n="title">设置</h1><span data-i18n="subtitle">让熟悉的赛历，用你习惯的语言呈现。</span></div><span class="settings-heading-star" aria-hidden="true">✦</span></div>
+    <div class="settings-layout">
+      <nav class="settings-nav" aria-label="设置分类" data-i18n-aria="navLabel">
+        <button type="button" data-section="language" aria-current="page"><span class="settings-nav-icon" aria-hidden="true">Aa</span><span data-i18n="languageNav">语言与显示</span><span aria-hidden="true">›</span></button>
+        <button type="button" data-section="sources"><span class="settings-nav-icon" aria-hidden="true">↗</span><span data-i18n="sourcesNav">资料来源</span><span aria-hidden="true">›</span></button>
+        <a id="settings-cache-link" class="settings-cache-link" href="index.html?page=cache"><span class="settings-nav-icon" aria-hidden="true">▤</span><span data-i18n="cacheNav">缓存管理</span><span aria-hidden="true">›</span></a>
+        <p data-i18n="navNote">资料有出处，更新有记录。</p>
+      </nav>
+      <div class="settings-content">
+        <section id="language-panel" class="settings-panel" aria-labelledby="language-title">
+          <div class="settings-panel-heading"><span class="settings-section-number" aria-hidden="true">01</span><div><p>LANGUAGE & DISPLAY</p><h2 id="language-title" data-i18n="languageTitle">显示语言</h2></div></div>
+          <p class="settings-intro" data-i18n="languageIntro">选择应用界面的语言。赛事与马匹名称保留各地区原有的显示规则。</p>
+          <fieldset class="language-options"><legend class="visually-hidden" data-i18n="languageTitle">显示语言</legend>
+            <label><input type="radio" name="language" value="zh" checked><span class="language-code" aria-hidden="true">中</span><span><b lang="zh-CN">中文</b><small lang="en">Chinese</small></span><span class="language-check" aria-hidden="true">✓</span></label>
+            <label><input type="radio" name="language" value="ja"><span class="language-code" aria-hidden="true">日</span><span><b lang="ja">日本語</b><small lang="en">Japanese</small></span><span class="language-check" aria-hidden="true">✓</span></label>
+            <label><input type="radio" name="language" value="en"><span class="language-code" aria-hidden="true">EN</span><span><b lang="en">English</b><small lang="en">English</small></span><span class="language-check" aria-hidden="true">✓</span></label>
+          </fieldset>
+          <p id="language-feedback" class="language-feedback" role="status" aria-live="polite"></p>
+          <div class="name-policy"><span aria-hidden="true">✦</span><div><b data-i18n="nameTitle">名称保留原规则</b><p data-i18n="nameRule">日本日文 · 香港繁体中文 · 其他地区英文。语言切换不会改写来源原名。</p></div></div>
+          <section class="interface-preview" aria-labelledby="preview-title">
+            <div class="settings-subheading"><h3 id="preview-title" data-i18n="previewTitle">界面预览</h3><span data-i18n="previewTag">名称显示示例</span></div>
+            <div class="preview-topline"><b data-i18n="calendarLabel">赛事日历</b><span class="preview-language" id="preview-language"></span></div>
+            <div class="preview-filters" aria-hidden="true"><span class="selected" data-i18n="filterAll">全部赛事</span><span data-i18n="filterJapan">日本</span><span data-i18n="filterWorld">海外</span></div>
+            <div class="preview-races">
+              <div class="race-card" data-color-region="jp"><span class="card-top"><span class="grade-badge">GⅠ</span><span class="surface-badge" data-surface="turf" lang="ja">芝</span><span class="region-code" lang="en">JP</span></span><span class="race-name" lang="ja">秋華賞</span></div>
+              <div class="race-card overseas-race" data-color-region="hk"><span class="card-top"><span class="grade-badge">GⅠ</span><span class="surface-badge" data-surface="turf" lang="ja">芝</span><span class="region-code" lang="en">HK</span></span><span class="race-name" lang="zh-Hant">香港盃</span></div>
+              <div class="race-card overseas-race" data-color-region="au"><span class="card-top"><span class="grade-badge">GⅠ</span><span class="surface-badge" data-surface="turf" lang="ja">芝</span><span class="region-code" lang="en">AU</span></span><span class="race-name" lang="en">Cox Plate</span></div>
+            </div>
+            <div class="preview-result-labels"><span data-i18n="resultLabel">赛果</span><span data-i18n="entriesLabel">出马表</span><span data-i18n="horseLabel">马匹资料</span><span data-i18n="marginLabel">着差</span></div>
+          </section>
+        </section>
+        <section id="sources-panel" class="settings-panel" aria-labelledby="sources-title" hidden>
+          <div class="settings-panel-heading"><span class="settings-section-number" aria-hidden="true">02</span><div><p>DATA SOURCES</p><h2 id="sources-title" data-i18n="sourcesTitle">资料来源</h2></div></div>
+          <p class="settings-intro" data-i18n="sourcesIntro">查看资料来自哪里，以及海外独赢赔率的来源顺序。</p>
+          <div class="source-priority"><h3 data-i18n="priorityTitle">海外赔率来源顺序</h3><ol><li><span>01</span><div><b data-i18n="priorityLocal">当地权威赛马机构</b><p data-i18n="priorityLocalNote">优先采用可信、且市场与赔率口径已核实的数据。</p></div></li><li><span>02</span><div><b data-i18n="priorityHkjc">香港赛马会</b><p data-i18n="priorityHkjcNote">当地缺少可信数据时，使用已核实的港马会资料，并标明市场。</p></div></li></ol><p class="priority-missing" data-i18n="priorityMissing">两者都无可靠数据时显示暂无资料；不拼接或平均不同市场的赔率。</p></div>
+          <details class="source-example" open><summary><span data-i18n="sourceExampleTitle">赛事详情中的来源展示</span><span aria-hidden="true">⌄</span></summary><div>
+            <div class="source-example-race"><span data-i18n="historicalRecord">已核对的历史记录</span><b lang="en">2025 Champion Stakes</b><p lang="en">Calandagan (IRE)</p></div>
+            <dl><div><dt data-i18n="oddsLabel">单胜最终赔率 · 含本金</dt><dd><b class="source-example-odds">2.875</b> <span data-i18n="oddsUnit">倍</span></dd></div><div><dt data-i18n="marketLabel">市场／类型</dt><dd lang="en">GB · Starting Price (SP)</dd></div><div><dt data-i18n="sourceLabel">资料来源</dt><dd><a href="https://www.britishhorseracing.com/racing/results/fixture-results/result/#!/2025/435/5384/0/" target="_blank" rel="noreferrer" lang="en">BHA ↗</a></dd></div><div><dt data-i18n="rawLabel">来源原值</dt><dd>15/8</dd></div><div><dt data-i18n="checkedLabel">核验日期</dt><dd>2026.10.21</dd></div></dl>
+            <p class="source-example-note" data-i18n="sourceExampleNote">历史来源展示示例，非实时赔率。原值 15/8 换算为含本金倍率：1＋15/8＝2.875。</p>
+          </div></details>
+          <div class="settings-subheading source-directory-heading"><h3 data-i18n="directoryTitle">来源目录</h3><span data-i18n="directoryStatus">代表资料已核对 · 尚未正式接入</span></div>
+          <p class="source-directory-note" data-i18n="directoryNote">目录汇总当前核验来源，不代表每场或每个字段均有数据。具体赛事仍显示实际采用的出处。</p>
+          <div class="source-directory">
+            <article><span class="source-region">RANK</span><div><h4 data-i18n="rankingRegion">国际赛事排名</h4><p data-i18n="rankingRole">年度前百名单与排序</p><a href="https://www.ifhaonline.org/resources/WTGradedRanking/LWGRank.asp?batch=10" target="_blank" rel="noreferrer" lang="en">IFHA / Longines · 2025 ↗</a></div></article>
+            <article><span class="source-region">JP</span><div><h4 data-i18n="japanRegion">日本</h4><p data-i18n="japanRole">JRA／地方赛事与马匹资料；netkeiba 为补充候选</p><a href="https://www.jra.go.jp/" target="_blank" rel="noreferrer">JRA ↗</a><a href="https://www.keiba.go.jp/" target="_blank" rel="noreferrer">NAR ↗</a><a href="https://www.netkeiba.com/" target="_blank" rel="noreferrer">netkeiba ↗</a></div></article>
+            <article><span class="source-region">HK</span><div><h4 data-i18n="hongkongRegion">香港／海外转播</h4><p data-i18n="hongkongRole">本地赛果与独赢；部分海外转播赛果及赛前资料</p><a href="https://racing.hkjc.com/" target="_blank" rel="noreferrer">HKJC ↗</a></div></article>
+            <article><span class="source-region">GB / IE</span><div><h4 data-i18n="britainRegion">英国／爱尔兰</h4><p data-i18n="britainRole">当地官方赛果、SP 或派彩；不同字段分别核验</p><a href="https://www.britishhorseracing.com/racing/results/" target="_blank" rel="noreferrer">BHA ↗</a><a href="https://www.hri.ie/results/" target="_blank" rel="noreferrer">HRI ↗</a></div></article>
+            <article><span class="source-region">FR / DE</span><div><h4 data-i18n="europeRegion">法国／德国</h4><p data-i18n="europeRole">赛事、赏金或赛果；法国直接详情仍待验证</p><a href="https://www.france-galop.com/" target="_blank" rel="noreferrer">France Galop ↗</a><a href="https://www.deutscher-galopp.de/" target="_blank" rel="noreferrer">Deutscher Galopp ↗</a></div></article>
+            <article><span class="source-region">AU</span><div><h4 data-i18n="australiaRegion">澳大利亚</h4><p data-i18n="australiaRole">官方比赛册、赏金与赛后摘要；完整直连赛果待验证</p><a href="https://www.racingaustralia.horse/" target="_blank" rel="noreferrer">Racing Australia ↗</a><a href="https://www.racing.com/" target="_blank" rel="noreferrer">Racing.com ↗</a></div></article>
+            <article><span class="source-region">US</span><div><h4 data-i18n="americaRegion">美国</h4><p data-i18n="americaRole">已核对 BCC 官网与 Equibase 公开赛果 PDF</p><a href="https://www.breederscup.com/races/2025-classic?tab=overview" target="_blank" rel="noreferrer">Breeders’ Cup / Equibase ↗</a></div></article>
+            <article><span class="source-region">UAE / KSA</span><div><h4 data-i18n="arabRegion">阿联酋／沙特</h4><p data-i18n="arabRole">部分赛事与赏金；逐马详情及赔率仍需验证</p><a href="https://emiratesracing.com/" target="_blank" rel="noreferrer">ERA ↗</a><a href="https://www.jcsa.sa/" target="_blank" rel="noreferrer">JCSA ↗</a></div></article>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer class="settings-footer"><span>GⅠ RACE CALENDAR · VISUAL STUDY 44</span><a href="welcome.html" data-i18n="welcomePreview">预览首次启动语言选择 ↗</a><span data-i18n="footerNote">设置与来源展示设计 · 选择通过网址保留，不写入应用偏好</span></footer>
+  </main>
+  <script src="settings.js?v=33" type="module"></script>
+</body>
+</html>

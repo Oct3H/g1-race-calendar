@@ -1,0 +1,24 @@
+{
+  "symptom": "no visible race cards after selecting English in the unified preview",
+  "reproduction": "actual welcome form handlers -> generated route -> collection initialization -> CSS visibility contract",
+  "before": {
+    "en": 0,
+    "zh": 0,
+    "ja": 0
+  },
+  "after": {
+    "en": 2,
+    "zh": 2,
+    "ja": 2
+  },
+  "counts_mean": "DOM card fixtures, not real monthly race counts",
+  "cause": "default finding scene hides cards and a static preview does not download or advance",
+  "fix": "default details scene for navigation reviews; explicit finding/offline-empty preserved",
+  "verification": [
+    "visibility regression",
+    "navigation round trips",
+    "collection states",
+    "static asset paths"
+  ],
+  "browser_rendering": "not performed under existing local browser restriction"
+}

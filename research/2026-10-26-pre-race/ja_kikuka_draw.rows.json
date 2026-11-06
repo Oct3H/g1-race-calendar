@@ -1,0 +1,272 @@
+[
+  [
+    "October 25, 2026, 3000m, Turf, Post time 15:40"
+  ],
+  [
+    "INT C&F DSN, Weight for Age, 3-Year-Olds, Open Class, Value of race: 420,200,000 Yen"
+  ],
+  [
+    "",
+    "1st",
+    "2nd",
+    "3rd",
+    "4th",
+    "5th",
+    "total"
+  ],
+  [
+    "Added Money (Yen)",
+    "200,000,000",
+    "80,000,000",
+    "50,000,000",
+    "30,000,000",
+    "20,000,000",
+    "380,000,000"
+  ],
+  [
+    "Stakes Money (Yen)",
+    "28,140,000",
+    "8,040,000",
+    "4,020,000",
+    "0",
+    "0",
+    "40,200,000"
+  ],
+  [
+    "Total (Yen)",
+    "228,140,000",
+    "88,040,000",
+    "54,020,000",
+    "30,000,000",
+    "20,000,000",
+    "420,200,000"
+  ],
+  [
+    "Bk",
+    "Hs",
+    "Horse",
+    "Colors",
+    "Sex Age",
+    "Weight (Kg)",
+    "Sire Dam",
+    "Dam's sire Dam's dam",
+    "Jockey Trainer",
+    "Owner Breeder"
+  ],
+  [
+    "1",
+    "1",
+    "M's Begin(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Kitasan Black Delphinia",
+    "Galileo Again",
+    "Mirai Iwata Yasuo Tomomichi",
+    "M's Racing Northern Racing"
+  ],
+  [
+    "1",
+    "2",
+    "Congestus(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Contrail Kirramosa",
+    "Alamosa Freyja",
+    "Atsuya Nishimura Tomokazu Takano",
+    "Silk Racing Co. Ltd. Northern Racing"
+  ],
+  [
+    "2",
+    "3",
+    "Audacia(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Kizuna Lily Noble",
+    "Rulership Pure Chaplet",
+    "Akihide Tsumura Takahisa Tezuka",
+    "Sunday Racing Co. Ltd. Shunsuke Yoshida"
+  ],
+  [
+    "2",
+    "4",
+    "Shonan Gulf(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Harbinger Mi Carino",
+    "Heart's Cry Mi Sueno",
+    "Osuke Tayama Naosuke Sugai",
+    "Tetsuhide Kunimoto Shunsuke Yoshida"
+  ],
+  [
+    "3",
+    "5",
+    "Justin Chicago(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Suave Richard Erika Bright",
+    "King Kamehameha Table Ronde",
+    "Yusuke Hara Keisuke Miyata",
+    "Masahiro Miki Masahiro Miki"
+  ],
+  [
+    "3",
+    "6",
+    "Basse Terre(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Kitasan Black Mambia",
+    "Aldebaran Algoa",
+    "Yuga Kawada Takashi Saito",
+    "Silk Racing Co. Ltd. Northern Racing"
+  ],
+  [
+    "4",
+    "7",
+    "Large Ensemble(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Benbatl Nasuno Forte",
+    "Just a Way Nasuno Sibelius",
+    "Ryusei Sakai Ryo Takei",
+    "Green Farm Co. Ltd. Nasuno Bokujo"
+  ],
+  [
+    "4",
+    "8",
+    "Lovcen(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "World Premiere Songwriting",
+    "Giant's Causeway Embur's Song",
+    "Kohei Matsuyama Haruki Sugiyama",
+    "Forest Racing Northern Farm"
+  ],
+  [
+    "5",
+    "9",
+    "Going to Sky(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Contrail Goin to the Window",
+    "Tapit Queens Full",
+    "Yutaka Take Yuki Uehara",
+    "Field Racing Chiyoda Farm Shizunai"
+  ],
+  [
+    "5",
+    "10",
+    "Danon History(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Epiphaneia Coasted",
+    "Tizway Malibu Pier",
+    "Christophe Lemaire Noriyuki Hori",
+    "Danox Co. Ltd. Northern Farm"
+  ],
+  [
+    "6",
+    "11",
+    "Ask Edinburgh(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Leontes Honey Trip",
+    "Manhattan Cafe Never Period",
+    "Yasunari Iwata Yuichi Fukunaga",
+    "Toshihiro Hirosaki Toshihiro Hirosaki"
+  ],
+  [
+    "6",
+    "12",
+    "Sanono Greater(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Greater London Meme Kuzariana",
+    "Jungle Pocket Piena Venus",
+    "Hironobu Tanabe Kazuyuki Ogata",
+    "Nobuyuki Sano Okita Bokujo"
+  ],
+  [
+    "7",
+    "13",
+    "King Glory(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Danon Premium Half Moon",
+    "Duke of Marmalade Quarter Moon",
+    "Yuji Tannai Masaaki Koga",
+    "Nobuyuki Hiraguchi MT Farm"
+  ],
+  [
+    "7",
+    "14",
+    "Majorelle Bleu(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Contrail Blooming Alley",
+    "Symboli Kris S Princess Olivia",
+    "Keita Tosaki Yasuo Tomomichi",
+    "Shadai Race Horse Co. Ltd. Shadai Farm"
+  ],
+  [
+    "7",
+    "15",
+    "Sea to Summit(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Maurice Flower Valley",
+    "Discreet Cat Boom Town Girl",
+    "Manabu Sakai Tatsuya Yoshioka",
+    "Kobayashi Eiichi Holdings LLC. Kobayashi Eiichi Holdings LLC"
+  ],
+  [
+    "8",
+    "16",
+    "Shonan Hayanami(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Rey de Oro Shonan Baci",
+    "Deep Impact Shonan Mariah",
+    "Kenichi Ikezoe Kunihiko Watanabe",
+    "Tetsuhide Kunimoto Tetsuhide Kunimoto"
+  ],
+  [
+    "8",
+    "17",
+    "Charing Cross(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Kitasan Black Rising Cross",
+    "Cape Cross Woodrising",
+    "Yukito Ishikawa Takeshi Okumura",
+    "Sunday Racing Co. Ltd. Northern Racing"
+  ],
+  [
+    "8",
+    "18",
+    "Narita Esperanza(JPN)",
+    "",
+    "C3",
+    "57.0",
+    "Kitasan Black Wonderfilly",
+    "Invincible Spirit Wicken Wonder",
+    "Yuichi Kitamura Yuichi Fukunaga",
+    "Osumi Co. Ltd. Mishima Bokujo"
+  ]
+]

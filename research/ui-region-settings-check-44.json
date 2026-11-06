@@ -1,0 +1,34 @@
+{
+  "round": 44,
+  "date": "2026-10-23",
+  "previews": {
+    "settings_a": "http://127.0.0.1:8765/settings-options.html?scheme=field&lang=zh&v=44",
+    "settings_b": "http://127.0.0.1:8765/settings-options.html?scheme=sky&lang=zh&v=44",
+    "race_au": "http://127.0.0.1:8765/index.html?preview=calendar&year=2026&month=10&entry=compact&race=cox&odds=sample&v=44",
+    "ticket_au": "http://127.0.0.1:8765/index.html?preview=calendar&year=2026&month=10&game=bet&race=cox&v=44"
+  },
+  "changes": [
+    "Shared close button CSS resets text metrics and uses two centred CSS strokes; all HTML pages load it last. Existing click/cancel/native form behavior and aria labels are retained.",
+    "Race and date-detail dialogs bind the same region key as their calendar bubbles. Purchase/result dialogs use the selected/result race; wallet/bank clear the prior region. Wallet tickets carry individual region keys.",
+    "Two standalone settings options reuse current markup, translations and native controls. Current settings palette/layout is not replaced. No dependencies added."
+  ],
+  "checks": [
+    "check_game_preview.mjs PASS",
+    "check_change_preview.mjs PASS, including actual showRace/open function theme binding across all nine groups, UAE/Saudi shared group, Ireland fallback, and wallet/bank reset",
+    "check_ticket_confirmation.mjs PASS",
+    "check_race_change_rules.mjs PASS",
+    "index/settings/welcome/density/options static IDs unique: 152/8/6/35/11; local resources and close labels exist; proposals preserve all existing translation keys",
+    "design.js/game-design.js/density-2025.js/settings-options.js syntax PASS; new CSS block/parenthesis balance PASS",
+    "9 HEAD-only local preview/resource checks returned 200 and Cache-Control no-store"
+  ],
+  "visual_review": {
+    "evidence": "User screenshot shows an offset close glyph. Shared font-based close style inherits ribbon tracking and does not reset default button padding. CSS now draws both strokes around a fixed 50%/50% centre.",
+    "hypotheses": [
+      "Inherited tracking/default button padding",
+      "Font glyph/baseline metrics",
+      "Flex sizing"
+    ],
+    "verification_limit": "No automatic webpage rendering or browser geometry measurement: prior browser URL policy remains in force. Static CSS checks and Node DOM-double tests do not prove rendered alignment, responsive layout or final colour appearance. User webpage review pending."
+  },
+  "limits": "Design prototype only. Existing in-memory fictional data and purchase date cutoff remain. No real ingestion, persistent settings/wallet, or formal application added."
+}

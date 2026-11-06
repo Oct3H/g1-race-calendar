@@ -1,0 +1,182 @@
+{
+  "checked_at": "2026-10-26T12:44:13.542113+00:00",
+  "client_date": "2026-10-26",
+  "future_samples": [
+    {
+      "name": "Tenno Sho (Autumn)",
+      "stage": "entries, not final draw",
+      "entries": 17,
+      "qualified_win_quotes": 0,
+      "start_at": "2026-11-01T14:40:00+08:00",
+      "start_time_source": "HKJC public program, subject to change"
+    },
+    {
+      "name": "Breeders' Cup Classic",
+      "stage": "pre-entries",
+      "entries": 10,
+      "qualified_win_quotes": 0,
+      "start_at": "2026-10-31T22:16:00.000Z",
+      "shanghai_day": "2026-11-01"
+    }
+  ],
+  "japan_archive": {
+    "draw_rows": 18,
+    "pre_race_quotes": 18,
+    "result_rows": 18,
+    "snapshot_at": "2026-10-24T17:30:00+09:00",
+    "jra_winner_quote": "12.0",
+    "hkjc_winner_quote": "13",
+    "hkjc_quote_source_time": "2026-10-25T14:55:37.413+08:00",
+    "champion_cross_source_agrees": true
+  },
+  "historical_replay": {
+    "race_id": "20261025S201",
+    "start_at": "2026-10-25T14:40:00+08:00",
+    "horse_number": 9,
+    "horse_name": "Going to Sky (JPN)",
+    "locked_quote": "12.6",
+    "jra_final_quote": "12.0",
+    "hkjc_final_quote": "13",
+    "winners": [
+      9
+    ],
+    "snapshot_at": "2026-10-24T17:30:00+09:00",
+    "source": "JRA pari-mutuel pool odds published by JAIRS; archived Saturday snapshot",
+    "scope": "Offline historical replay, not a live pre-race observation or production purchase"
+  },
+  "horse_sample": {
+    "sample_count": 1,
+    "source_runner_id": "20261025S20109",
+    "six_basic_fields_present": true,
+    "prior_five": [
+      {
+        "source_date": "2026-09-13+08:00",
+        "name": "Asahi Hai St. Lite Kinen",
+        "grade_raw": "G2",
+        "placing_raw": "6",
+        "odds_raw": "4.3F"
+      },
+      {
+        "source_date": "2026-05-31+08:00",
+        "name": "Tokyo Yushun (Japanese Derby)",
+        "grade_raw": "G1",
+        "placing_raw": "4",
+        "odds_raw": "6.6"
+      },
+      {
+        "source_date": "2026-04-25+08:00",
+        "name": "Aoba Sho",
+        "grade_raw": "G2",
+        "placing_raw": "1",
+        "odds_raw": "8.1"
+      },
+      {
+        "source_date": "2026-02-10+08:00",
+        "name": "Kisaragi Sho",
+        "grade_raw": "G3",
+        "placing_raw": "6",
+        "odds_raw": "4.2"
+      },
+      {
+        "source_date": "2025-11-29+08:00",
+        "name": "Kyoto Nisai S.",
+        "grade_raw": "G3",
+        "placing_raw": "3",
+        "odds_raw": "6.2"
+      }
+    ],
+    "detail_link_status": "Unresolved: returned raceId/id/raceNo are parent context; do not open the current race as a prior-race detail"
+  },
+  "regional_fallback_samples": [
+    {
+      "country": "France",
+      "race": "Prix de l'Arc de Triomphe",
+      "id": "20251005S108",
+      "display_no": 4,
+      "source_meeting_date": "2025-10-05",
+      "shanghai_day": "2025-10-05",
+      "runners": 18,
+      "finishers": 17,
+      "not_ran": [
+        {
+          "name": "Estrange (IRE)",
+          "status": "Scratched"
+        }
+      ],
+      "raw_win_values": 17,
+      "winner": "Daryz (FR)",
+      "market_semantics": "HKJC-published WIN; per-market normalization not inferred from country"
+    },
+    {
+      "country": "United Kingdom",
+      "race": "Champion Stakes",
+      "id": "20251018S306",
+      "display_no": 5,
+      "source_meeting_date": "2025-10-18",
+      "shanghai_day": "2025-10-18",
+      "runners": 11,
+      "finishers": 11,
+      "not_ran": [],
+      "raw_win_values": 11,
+      "winner": "Calandagan (IRE)",
+      "market_semantics": "HKJC-published WIN; per-market normalization not inferred from country"
+    },
+    {
+      "country": "Ireland",
+      "race": "Irish Champion Stakes",
+      "id": "20250913S207",
+      "display_no": 7,
+      "source_meeting_date": "2025-09-13",
+      "shanghai_day": "2025-09-14",
+      "runners": 8,
+      "finishers": 8,
+      "not_ran": [],
+      "raw_win_values": 8,
+      "winner": "Delacroix (IRE)",
+      "market_semantics": "HKJC-published WIN; per-market normalization not inferred from country"
+    },
+    {
+      "country": "United States of America",
+      "race": "Breeders' Cup Classic",
+      "id": "20251102S203",
+      "display_no": 2,
+      "source_meeting_date": "2025-11-02",
+      "shanghai_day": "2025-11-02",
+      "runners": 10,
+      "finishers": 9,
+      "not_ran": [
+        {
+          "name": "Sovereignty (USA)",
+          "status": "Scratched"
+        }
+      ],
+      "raw_win_values": 9,
+      "winner": "Forever Young (JPN)",
+      "market_semantics": "HKJC-published WIN; per-market normalization not inferred from country"
+    },
+    {
+      "country": "Saudi Arabia",
+      "race": "Saudi Cup",
+      "id": "20250222S207",
+      "display_no": 7,
+      "source_meeting_date": "2025-02-22",
+      "shanghai_day": "2025-02-23",
+      "runners": 15,
+      "finishers": 14,
+      "not_ran": [
+        {
+          "name": "Scotland Yard (USA)",
+          "status": "ScratchedReserved"
+        }
+      ],
+      "raw_win_values": 14,
+      "winner": "Forever Young (JPN)",
+      "market_semantics": "HKJC-published WIN; per-market normalization not inferred from country"
+    }
+  ],
+  "limits": [
+    "All quotations fetched after the sampled historical races; no live future-release lifecycle observed",
+    "No bulk annual coverage rate, automatic correction discovery or SLA established",
+    "Do not overwrite one market with a different market quote or interpret an empty feed as cancellation"
+  ]
+}

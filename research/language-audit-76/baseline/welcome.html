@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="mul">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>GⅠ Race Calendar · Choose your language</title>
+  <link rel="stylesheet" href="style.css?v=73">
+  <link rel="stylesheet" href="settings.css">
+  <link rel="stylesheet" href="welcome.css">
+  <link rel="stylesheet" href="ui-controls.css?v=44">
+</head>
+<body class="welcome-page">
+  <div class="review-bar"><span><b>DESIGN 22</b><span lang="zh-CN">首次启动语言选择</span></span><span lang="zh-CN">网页演示 · 继续后进入所选语言的设置页预览</span></div>
+  <main class="welcome-main">
+    <div class="welcome-brand"><span class="settings-emblem" aria-hidden="true">GⅠ</span><span>GⅠ RACE CALENDAR<small>WELCOME TO YOUR RACING DAYS</small></span></div>
+    <section class="welcome-card" aria-labelledby="welcome-title">
+      <div class="welcome-decoration" aria-hidden="true">GⅠ<span>✦</span></div>
+      <p class="welcome-kicker">LET’S GET STARTED</p>
+      <h1 id="welcome-title"><span lang="zh-CN">请选择语言</span><span lang="ja">言語を選択</span><span lang="en">Choose your language</span></h1>
+      <p id="welcome-note"><span lang="zh-CN">之后可以在设置中修改。</span><span lang="ja">あとから設定で変更できます。</span><span lang="en">You can change this later in Settings.</span></p>
+      <form id="welcome-form" autocomplete="off">
+        <fieldset class="language-options"><legend class="visually-hidden"><span lang="zh-CN">界面语言</span> / <span lang="ja">表示言語</span> / <span lang="en">Interface language</span></legend>
+          <label><input type="radio" name="language" value="zh" required><span class="language-code" aria-hidden="true">中</span><span><b lang="zh-CN">中文</b><small lang="en">Chinese</small></span><span class="language-check" aria-hidden="true">✓</span></label>
+          <label><input type="radio" name="language" value="ja" required><span class="language-code" aria-hidden="true">日</span><span><b lang="ja">日本語</b><small lang="en">Japanese</small></span><span class="language-check" aria-hidden="true">✓</span></label>
+          <label><input type="radio" name="language" value="en" required><span class="language-code" aria-hidden="true">EN</span><span><b lang="en">English</b><small lang="en">English</small></span><span class="language-check" aria-hidden="true">✓</span></label>
+        </fieldset>
+        <p id="welcome-feedback" role="status" aria-live="polite"></p>
+        <div class="welcome-actions"><button id="welcome-continue" type="submit" disabled><span lang="zh-CN">继续</span> / <span lang="ja">続ける</span> / <span lang="en">Continue</span><b aria-hidden="true">›</b></button></div>
+      </form>
+      <p class="welcome-selection-hint" id="welcome-selection-hint"><span lang="zh-CN">请选择一种语言</span> · <span lang="ja">言語を選んでください</span> · <span lang="en">Select a language to continue</span></p>
+    </section>
+    <p class="welcome-footer">GⅠ RACE CALENDAR · FIRST LAUNCH STUDY</p>
+  </main>
+  <script src="welcome.js?v=74" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* 日常操作预览独立于角色背景及旧评审页，继续复用月历的地区色。 */
+.calendar-filter-controls{display:contents}
+.change-review-entry{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:15px;padding:16px 20px;margin:0 0 18px;border:1px solid #d5c4e7;border-left:5px solid #a384c0;border-radius:13px;background:linear-gradient(110deg,#f5edfc,#fffdf7);box-shadow:0 3px 0 #e7ddec}
+.change-review-entry>div:first-child{min-width:220px}
+.change-review-entry span{display:block;color:#ad92c0;font-size:9px;font-weight:750;letter-spacing:1px}
+.change-review-entry strong{display:block;color:#89679f;font-size:17px;margin:5px 0}
+.change-review-entry small{display:block;color:#ad98b8;font-size:9px;line-height:1.7}
+.change-review-links{display:flex;gap:9px;flex-wrap:wrap}
+.change-review-links a{padding:10px 14px;border:1px solid #cfbcdf;border-radius:20px;background:linear-gradient(#b79cd0,#9b7bb6);box-shadow:inset 0 1px 0 #ffffff70,0 3px 0 #85629f;color:#fff;font-size:11px;font-weight:750;white-space:nowrap;text-decoration:none}
+.change-review-links a:hover{filter:brightness(1.04)}
+.change-review-links a:first-child{background:linear-gradient(#a5d665,#88bd4e);border-color:#8bb94e;box-shadow:inset 0 1px 0 #ffffff70,0 3px 0 #75a83e}
+.month-jump-hit[hidden],.calendar-soft-button[hidden],.calendar-update[hidden],.calendar-empty[hidden],.calendar-state-study[hidden]{display:none}
+body[data-calendar-mode="daily"]>.review-bar,
+body[data-calendar-mode="daily"] #calendar-view>:is(.background-review,.entry-study,.density-preview-link,.palette-review,.design-notes){display:none}
+body[data-calendar-mode="daily"] main{padding-top:20px}
+body[data-calendar-mode="daily"] .season-strip{height:90px;margin-bottom:18px}
+body[data-calendar-mode="daily"] .season-copy h1{font-size:25px}
+body[data-calendar-mode="daily"] .season-label b{font-size:17px;letter-spacing:1px}
+body[data-calendar-mode="daily"] .season-art{top:-10px}
+body[data-calendar-mode="daily"] .calendar-toolbar{gap:20px;flex-wrap:wrap;padding:18px 22px}
+body[data-calendar-mode="daily"] .month-control{gap:12px}
+body[data-calendar-mode="daily"] .month-title{padding-right:19px;min-width:128px;border-radius:10px}
+body[data-calendar-mode="daily"] .month-title:hover{background:#f5f1f9}
+.month-jump-hit{position:absolute;inset:-5px;border:0;border-radius:10px;background:none;color:#a791b5}
+.month-jump-hit i{position:absolute;right:6px;top:12px;font-style:normal;font-size:17px}
+body[data-calendar-mode="daily"] .calendar-filter-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.calendar-soft-button{border:1px solid #dcd2e5;border-radius:18px;padding:8px 14px;background:linear-gradient(#fff,#faf6fd);color:#8b709d;font-size:11px;font-weight:750;white-space:nowrap;box-shadow:inset 0 1px 0 #fff,0 2px 0 #e7dfed}
+.calendar-soft-button:hover{background:#f4ecfa}
+.calendar-soft-button.has-selection{color:#fff;background:linear-gradient(#b49ad0,#9573b6);border-color:#9876ba;box-shadow:0 2px 0 #7e5a9c}
+body[data-calendar-mode="daily"] .calendar-hint{display:block;text-align:right}
+body[data-calendar-mode="daily"] .calendar-hint #calendar-month-summary{color:#8e7a9d;font-size:11px;font-weight:700;margin:0}
+body[data-calendar-mode="daily"] .calendar-hint>span{display:none}
+.calendar-update{display:flex;gap:12px;align-items:center;padding:11px 16px;margin-bottom:16px;border:1px solid #d9e5c7;border-radius:13px;background:linear-gradient(110deg,#f7fce9,#fffef9);box-shadow:0 3px 0 #e2e8d5}
+.update-orb{display:grid;place-items:center;flex:none;width:30px;height:30px;border:2px solid #fff;border-radius:50%;background:#a2c56b;color:#fff;font-size:17px;font-weight:800;box-shadow:0 1px 0 #c4d4ad}
+.calendar-update>div{flex:1;min-width:0}
+.calendar-update strong{display:block;font-size:12px;line-height:1.6;color:#6c8c4d}
+.calendar-update small{display:block;font-size:9px;line-height:1.7;margin-top:2px;color:#99a384}
+.calendar-update>button{border:1px solid #d1dcbe;border-radius:18px;background:#fff;color:#829961;font-size:11px;font-weight:750;padding:8px 15px;white-space:nowrap;box-shadow:0 2px 0 #e0e7d4}
+.calendar-update>button:disabled{opacity:.65}
+.calendar-update[data-state="checking"] .update-orb{background:#a995c4}
+.calendar-update[data-state="checking"] strong{color:#8d73a7}
+.calendar-update[data-state="offline"]{background:#f4f1f8;border-color:#dfd5e9;box-shadow:0 3px 0 #e6e0ed}
+.calendar-update[data-state="offline"] .update-orb{background:#b3a3bf}
+.calendar-update[data-state="offline"] strong{color:#8e7b9e}
+.calendar-update[data-state="offline"] small{color:#aa9cb4}
+.calendar-update[data-state="failed"]{background:#fff8e9;border-color:#e9d6ac;box-shadow:0 3px 0 #eee2c9}
+.calendar-update[data-state="failed"] .update-orb{background:#d8aa5d}
+.calendar-update[data-state="failed"] strong{color:#ad864d}
+.calendar-update[data-state="failed"] small{color:#b4a080}
+.calendar-empty{display:flex;align-items:center;gap:14px;margin:0 20px 16px;padding:16px 20px;border:1px dashed #dcd2e7;border-radius:12px;background:#faf7fd}
+.empty-calendar-icon{font-size:36px;color:#b6a3c7;font-weight:400}
+.calendar-empty>div{flex:1;min-width:0}
+.calendar-empty b{display:block;font-size:13px;color:#8d759e}
+.calendar-empty p{font-size:10px;line-height:1.8;color:#ad9cb7;margin:5px 0 0}
+.calendar-state-study{display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin:22px 2px 18px;font-size:10px;color:#a394ae;line-height:1.7}
+.calendar-state-study>div{flex:1;min-width:220px}
+.calendar-state-study b{display:block;color:#8d7c98;font-size:11px}
+.calendar-state-study span{display:block}
+.calendar-state-study select{font:inherit;margin-left:5px;padding:6px 8px;border:1px solid #ded4e6;border-radius:7px;color:#917a9f;background:#fff}
+.calendar-state-study a{text-decoration:none}
+.calendar-control-dialog{width:min(480px,calc(100vw - 32px))}
+.calendar-control-dialog .dialog-ribbon form{margin:0}
+.calendar-control-dialog .dialog-body{padding:22px 26px 25px}
+.calendar-control-dialog .dialog-body>h2{font-size:23px;margin:5px 0 18px}
+.control-kicker{color:#b6a1c4;letter-spacing:2px;font-size:8px;font-weight:800;margin:0}
+.control-note{font-size:10px;color:#ad9ab8;line-height:1.8;margin:12px 0}
+.calendar-year-control{display:flex;justify-content:center;align-items:center;gap:24px;margin:23px 0}
+.calendar-year-control label{display:flex;align-items:center;gap:6px;color:#947aa5;font-size:14px;font-weight:750}
+.calendar-year-control input{width:106px;font-family:inherit;font-size:24px;font-weight:800;text-align:center;padding:8px 3px;border:1px solid #e0d4e9;border-radius:9px;background:#fff;color:#886c9d;appearance:textfield}
+.calendar-year-control input::-webkit-inner-spin-button{appearance:none}
+.calendar-month-options{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}
+.calendar-month-options button{padding:12px 0;border:1px solid #e2d6ea;border-radius:11px;background:linear-gradient(#fff,#f8f4fc);box-shadow:0 3px 0 #e5ddec;color:#a28bb2}
+.calendar-month-options b{font-size:20px}
+.calendar-month-options span{font-size:9px;margin-left:4px}
+.calendar-month-options button[aria-pressed="true"]{border-color:#8bc044;background:linear-gradient(#abd96b,#8bc64a);color:#fff;box-shadow:inset 0 1px 0 #ffffff80,0 3px 0 #70a638}
+.region-selection-actions{display:flex;align-items:center;gap:10px;margin:18px 0 12px}
+.region-selection-actions button{font-size:10px;padding:5px 11px;border:1px solid #dfd3e6;background:#fff;border-radius:13px;color:#a089af}
+.region-selection-actions>span{margin-left:auto;color:#b09ebe;font-size:10px}
+.calendar-region-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:23px}
+.calendar-region-options label{position:relative;display:flex;align-items:center;gap:10px;padding:12px 10px;cursor:pointer;border:1px solid #e3dae8;border-radius:10px;background:#fff;box-shadow:0 2px 0 #ece6ef}
+.calendar-region-options input{position:absolute;opacity:0;width:1px;height:1px}
+.calendar-region-options label:has(input:focus-visible){outline:3px solid #445ecb;outline-offset:2px}
+.calendar-region-options label:has(input:checked){border-color:var(--region-border);background:linear-gradient(115deg,#fff,var(--region-fill));box-shadow:0 2px 0 var(--region-shadow)}
+.region-option-color{width:6px;height:28px;border-radius:3px;background:var(--region-ink);flex:none}
+.calendar-region-options b{display:block;color:var(--region-ink);font-size:11px}
+.calendar-region-options small{display:block;color:#ab98b4;font-size:9px;margin-top:4px}
+.region-option-check{margin-left:auto;color:var(--region-ink);font-size:15px;opacity:0}
+.calendar-region-options input:checked~.region-option-check{opacity:1}
+.calendar-change-study[hidden],.race-change-notice[hidden],.race-change-notice [hidden]{display:none}
+.calendar-change-study{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:12px 16px;margin-bottom:17px;border:1px dashed #ddcde8;border-radius:12px;background:#fbf8fe}
+.calendar-change-study>div{flex:1;min-width:240px}
+.calendar-change-study b{display:block;color:#9679a8;font-size:11px}
+.calendar-change-study small{display:block;color:#b09abd;font-size:9px;line-height:1.7;margin-top:4px}
+.calendar-change-study button{padding:7px 11px;border:1px solid #dfd1e7;border-radius:16px;background:#fff;color:#a389b4;font-size:10px;box-shadow:0 2px 0 #e9e0ee}
+.race-change-flag{position:absolute;right:-5px;top:-8px;z-index:2;display:grid;place-items:center;width:23px;height:23px;padding:0;border:2px solid #fff;border-radius:50%;background:linear-gradient(#fff6c5,#ffe496);color:#b58722;font-size:13px;line-height:1;box-shadow:0 2px 0 #dab758}
+.race-card:has(.race-change-flag) .game-alert{right:23px}
+.race-change-note{display:inline-flex;align-items:center;margin-top:6px;padding:2px 5px;border:1px solid #e8cc99;border-radius:5px;background:#fff7e5;color:#ad8239;font-size:8px;font-weight:750;line-height:1.3}
+.race-change-note[data-change="cancelled"]{color:#9a839f;background:#f4eff6;border-color:#d9cbdc}
+.race-change-note[data-change="withdrawn"]{color:#a37a55;background:#fbf1e7;border-color:#e4ceb5}
+.fold-change-alert{display:inline-grid;place-items:center;width:17px;height:17px;margin-left:7px;border:1px solid #e6c770;border-radius:50%;background:#fff1b4;font-size:10px;vertical-align:middle}
+.race-change-notice{padding:14px 16px;margin:17px 0;border:1px solid #e5ce9f;border-radius:12px;background:linear-gradient(110deg,#fff7e6,#fffdf7);box-shadow:0 2px 0 #eee2c9}
+.race-change-notice>b{display:block;color:#ad823d;font-size:13px}
+#race-change-dates{font-size:11px;color:#b59869;line-height:1.8;margin-top:8px}
+#race-change-dates del{color:#b7a78c}
+#race-change-dates strong{color:#a17b36}
+.race-change-notice p{margin:8px 0;font-size:10px;line-height:1.9;color:#b09672}
+.race-change-notice small{display:block;color:#bcaa92;font-size:8px;line-height:1.8}
+.race-change-notice[data-change="cancelled"]{background:linear-gradient(110deg,#f5f0f8,#fdfbfe);border-color:#dcd0e5;box-shadow:0 2px 0 #e9e0ed}
+.race-change-notice[data-change="cancelled"]>b{color:#9a7cab}
+.race-change-notice[data-change="cancelled"] p,.race-change-notice[data-change="cancelled"] #race-change-dates{color:#ab97b8}
+.calendar-change-study.update-rule-study{border-style:solid;border-color:#e7d6af;background:linear-gradient(110deg,#fffbec,#fdfaf5)}
+.update-rule-study .update-rule-actions{display:flex;gap:8px;flex-wrap:wrap;flex:1 1 100%}
+.update-rule-study p{flex-basis:100%;font-size:10px;color:#a18c67;line-height:1.8;margin:0}
+.change-field-row{padding:7px 0;border-bottom:1px dashed #eadcc0;overflow-wrap:anywhere}
+.change-field-row:last-child{border:0}
+.change-field-row>span{display:block;font-size:10px;font-weight:750;color:#a28b61}
+.change-latest-label{display:block;color:#bea270;font-size:9px;font-weight:750;letter-spacing:1px;margin-bottom:5px}
+.race-change-history{margin-top:14px;padding-top:11px;border-top:1px dashed #e4d2ad}
+.race-change-history>summary{cursor:pointer;color:#ab8e5c;font-size:11px;font-weight:750;padding:3px 0}
+.race-change-history>summary:focus-visible{outline:2px solid #ad88c6;outline-offset:4px;border-radius:3px}
+.change-history-record{margin-top:11px;padding:11px 13px;border:1px solid #e8dfcc;border-radius:9px;background:#fffdf8}
+.change-history-record>b{display:block;font-size:11px;color:#a28c6a}
+.change-history-record small{margin:4px 0 7px}
+.change-history-fields{font-size:11px;line-height:1.8;color:#ad9878}
+.change-history-fields del{color:#baad98}
+.change-history-fields strong{color:#a58b61}
+dialog[data-cancelled="true"] #race-panel>:is(.race-content-switch,.entry-header,.entry-view-description,.entry-table,.odds-preview-control,.odds-status,.entry-sample-note,.finish-legend){display:none}
+dialog[data-cancelled="true"] #game-race-bet{display:none}
+.withdrawn-label{display:inline-block;margin-left:6px;padding:2px 5px;border:1px solid #dccccf;border-radius:5px;background:#f6f0f4;color:#b096a5;font-size:9px;font-weight:650}
+.dead-heat-label{display:block;margin-top:4px;color:#b18531;font-size:9px;font-weight:750}
+.game-preview-balance{font-size:10px;color:#b39a65;white-space:nowrap}
+.game-preview-balance strong{display:block;font-size:23px;line-height:1.7;color:#a37d35;font-variant-numeric:tabular-nums}
+.runner-withdrawn .horse-name-button{color:#b8a6be}
+.runner-withdrawn .result-position{font-size:10px;color:#ad99b5;background:#f2edf6}
+@media(max-width:1100px){body[data-calendar-mode="daily"] .calendar-hint{width:100%;text-align:left}body[data-calendar-mode="daily"] .calendar-hint small{display:inline;margin-left:12px}body[data-calendar-mode="daily"] .calendar-toolbar{gap:14px}}
+@media(max-width:760px){body[data-calendar-mode="daily"] .calendar-toolbar{min-width:600px;padding:15px}body[data-calendar-mode="daily"] .season-strip{height:80px}body[data-calendar-mode="daily"] .season-copy h1{font-size:21px}.calendar-update{margin-bottom:14px;padding:10px 12px}.calendar-update strong{font-size:11px}.calendar-update>button{padding:7px 10px;font-size:10px}.calendar-empty{min-width:560px;margin:0 15px 15px}.calendar-state-study{margin:18px 4px}.calendar-update small{font-size:8px}}
+@media(max-width:480px){.calendar-control-dialog .dialog-body{padding:20px}.calendar-month-options{gap:9px}.calendar-region-options{gap:8px}.calendar-region-options label{padding:11px 8px;gap:7px}.calendar-update{gap:8px}.update-orb{width:25px;height:25px}.calendar-update strong{font-size:10px}.calendar-update small>span{display:block}.calendar-state-study>div{min-width:100%;flex-basis:100%}}
+
+html[lang="en"] .weekday-row > div > span{display:none}

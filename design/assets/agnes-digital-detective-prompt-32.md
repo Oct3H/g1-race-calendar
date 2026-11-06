@@ -1,0 +1,11 @@
+# Agnes Digital detective half-body line art
+
+2026-10-22, built-in image_gen.imagegen edit. Latest user correction supersedes the unfinished nosebleed variants: use the attached detective illustration and no nosebleed.
+
+Content/edit reference: [local reference, not distributed]).
+Style reference only: eishin-flash-half-v1.png, the accepted translucent lavender calendar background.
+Final target: agnes-digital-detective-half-v1.png. Generated derivative illustration, not an official game screenshot. References are preserved unchanged.
+
+## Exact prompt
+
+Use case: style-transfer. Make a transparent HALF-BODY LINE-ART rendition of the character in IMAGE 1. IMAGE 1 is the content/edit target: the user-supplied Agnes Digital detective illustration. IMAGE 2 is a STYLE REFERENCE ONLY for the existing Eishin Flash calendar watermark; do NOT borrow Eishin Flash's face, short hair or outfit. Preserve IMAGE 1's recognizable detective hat with the enormous striped bow and horse ears, side hair ornaments, long outward-curled hair, detective cape and jacket, collar bow, raised magnifying glass over one eye, cheeky slightly open smile, and lively forward-leaning three-quarter pose. Crop/composition: head and hat through hips, no legs; keep entire hat, ears, magnifying glass and holding hand within the canvas, comfortable margins. Reinterpret as clean simplified thin pale-lavender contours (#a48bb7 / #ad97bf), like delicate planner line art. Remove all full-color rendering, heavy shading and large filled areas, keep readable face/eye and coat contours. The background must be truly transparent, not a white rectangle. Airy transparent interiors where practical, no fog/glow/halo or checkerboard texture. Remove the source speech balloon, exclamation marks and Japanese caption. IMPORTANT user correction: absolutely NO NOSEBLEED, NO BLOOD, NO TISSUE; keep her normal eyes as in the detective reference, not heart-shaped pupils. No added hearts, no extra characters, no scene, no UI, no text, no signature or watermark. One muted lavender ink, suitable for subtle display on the LEFT quarter of a cream/light-green calendar. Preserve fully clothed detective silhouette and reference personality.

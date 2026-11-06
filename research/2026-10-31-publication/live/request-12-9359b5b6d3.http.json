@@ -1,0 +1,19 @@
+{
+  "name": "request-12-9359b5b6d3",
+  "url": "https://japanracing.jp/_news2026/pdf/261031.pdf",
+  "method": "GET",
+  "requested_at": "2026-10-31T13:01:10.702093+00:00",
+  "status": 200,
+  "final_url": "https://japanracing.jp/_news2026/pdf/261031.pdf",
+  "headers": {
+    "date": "Sat, 31 Oct 2026 13:01:11 GMT",
+    "content-type": "application/pdf",
+    "content-length": "35490",
+    "server": "Apache",
+    "last-modified": "Sat, 31 Oct 2026 08:50:11 GMT",
+    "etag": "\"8aa2-65f1f002036c0\"",
+    "cache-control": "no-cache"
+  },
+  "bytes": 35490,
+  "sha256": "8b2ca138bf93e3bea9355ac104a8165228d7df1560c84182d3038ce2fd3e1889"
+}

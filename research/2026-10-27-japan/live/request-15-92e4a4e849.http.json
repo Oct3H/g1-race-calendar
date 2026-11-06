@@ -1,0 +1,49 @@
+{
+  "name": "request-15-92e4a4e849",
+  "url": "https://www.keiba.go.jp/KeibaWeb/DataRoom/HorseMarkInfo?k_lineageLoginCode=30035409196",
+  "method": "GET",
+  "requested_at": "2026-10-27T11:08:04.008852+00:00",
+  "status": 200,
+  "final_url": "https://www.keiba.go.jp/KeibaWeb/DataRoom/HorseMarkInfo?k_lineageLoginCode=30035409196",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Tue, 27 Oct 2026 11:08:04 GMT",
+    "cache-control": "no-cache, private",
+    "server": "Apache"
+  },
+  "bytes": 40257,
+  "sha256": "7f68e1fc615cbbbc070f0ab546d0a5c1917ece9ca25b4f1f9130fd93417513c7",
+  "links": [
+    "/index.html",
+    "/jranet/",
+    "https://www.spat4.jp/keiba/pc",
+    "https://my.keiba.rakuten.co.jp/?scid=keiba_NAR_bet",
+    "https://www.oddspark.com/keiba/auth/VoteKeibaTop.do",
+    "/KeibaWeb/TodayRaceInfo/TodayRaceInfoTop",
+    "/KeibaWeb/MonthlyConveneInfo/MonthlyConveneInfoTop",
+    "/live/?20260804",
+    "/dirtgraderace/",
+    "/gradedrace/",
+    "/KeibaWeb/DataRoom/DataRoomTop",
+    "/guide/index.html",
+    "/KeibaWeb/DataRoom/RaceHorseInfo?k_lineageLoginCode=30035409196&k_activeCode=1",
+    "/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2026%2F10%2F12&k_raceNo=12&k_babaCode=10",
+    "/index.html",
+    "/association/",
+    "/sitemap.html",
+    "/link.html",
+    "/terms.html",
+    "/qa.html"
+  ],
+  "script_sources": [
+    "/KeibaWeb/resources/js/jquery-1.9.1.min.js?t=20260130_1",
+    "/KeibaWeb/resources/js/common.js?t=20260130_1",
+    "/KeibaWeb/resources/js/common2.js?t=20260130_1",
+    "/KeibaWeb/resources/js/monthltconveninfo.js?t=20260130_1",
+    "/KeibaWeb/resources/js/odd.js?t=20260130_1",
+    "/KeibaWeb/resources/js/recentButton.js?t=20260130_1",
+    "https://www.google.com/coop/cse/brand?form=cse-search-boxamp;lang=ja"
+  ],
+  "tables": 1,
+  "rows": 15
+}

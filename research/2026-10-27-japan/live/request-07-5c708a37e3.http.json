@@ -1,0 +1,35 @@
+{
+  "name": "request-07-5c708a37e3",
+  "url": "https://www.keiba.go.jp/dirtgraderace/2026/1012_milechampionshipnambuhai/racecard.html",
+  "method": "GET",
+  "requested_at": "2026-10-27T11:00:05.930494+00:00",
+  "status": 200,
+  "final_url": "https://www.keiba.go.jp/dirtgraderace/2026/1012_milechampionshipnambuhai/racecard.html",
+  "headers": {
+    "content-type": "text/html",
+    "content-length": "17738",
+    "date": "Tue, 27 Oct 2026 11:00:06 GMT",
+    "server": "AmazonS3",
+    "last-modified": "Fri, 09 Oct 2026 05:31:08 GMT",
+    "etag": "\"e8fdc55ee942dbc1169ca005a0cf2746\"",
+    "cache-control": "public, max-age=360, immutable"
+  },
+  "bytes": 17738,
+  "sha256": "089e62f89301743ddda9927f7e6691c944c1cbf843cc4e5d9e256e7085d9dd36",
+  "links": [
+    "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026/10/12&k_raceNo=12&k_babaCode=10",
+    "#wrapper"
+  ],
+  "script_sources": [
+    "https://www.googletagmanager.com/gtag/js?id=G-FGDLX751XZ",
+    "../../common/js/jquery.js",
+    "../../common/js/common.js",
+    "../../common/js/picturefill.min.js",
+    "../common/js/race.js",
+    "../common/js/scroll-hint.min.js",
+    "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-602c882a25004a58",
+    "../common/js/scroll-hint.js"
+  ],
+  "tables": 0,
+  "rows": 0
+}

@@ -1,0 +1,36 @@
+{
+  "verified_on": "2026-11-05",
+  "temporary_database_only": true,
+  "cases": [
+    {
+      "cache_key": "detail.race.ifha-2023-hk-longineshongkongcup",
+      "runners": 11,
+      "source": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2023%2F12%2F10&racecourse=ST&RaceNo=8",
+      "updated_at": "2026-11-05T13:44:02.239Z"
+    },
+    {
+      "cache_key": "detail.race.ifha-2026-aus-ladbrokescoxplate",
+      "runners": 12,
+      "source": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20261024&Racecourse=S1&RaceNo=8",
+      "updated_at": "2026-11-05T13:44:04.862Z"
+    },
+    {
+      "cache_key": "detail.race.jra-2026-kikuka",
+      "runners": 18,
+      "source": "https://japanracing.jp/_news2026/261025.html",
+      "updated_at": "2026-11-05T13:44:04.650Z"
+    },
+    {
+      "cache_key": "detail.race.nar-2026-%E3%83%9E%E3%82%A4%E3%83%AB%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97%E5%8D%97%E9%83%A8%E6%9D%AF",
+      "runners": 11,
+      "source": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2026%2F10%2F12&k_raceNo=12&k_babaCode=10",
+      "updated_at": "2026-11-05T13:35:28.835Z"
+    },
+    {
+      "cache_key": "detail.race.nar-2026-JBC%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF",
+      "runners": 12,
+      "source": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2026%2F11%2F03&k_raceNo=9&k_babaCode=22",
+      "updated_at": "2026-11-05T13:44:12.652Z"
+    }
+  ]
+}

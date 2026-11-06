@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-10-22",
+  "scope": "Local fictional prototype only",
+  "win_fixture": {
+    "cash": "¥522,000",
+    "modal_overflow": false,
+    "overflow": false,
+    "profit": "+¥22,000",
+    "title": "本场命中！",
+    "unread": 1
+  },
+  "winner_sync_after_close": {
+    "cash": "¥522,000",
+    "race": "秋華賞",
+    "unread": 0,
+    "view": "results",
+    "winner": "1"
+  },
+  "loss_fixture": {
+    "image_loaded": true,
+    "image_visible": true,
+    "overflow": false,
+    "placeholder_hidden": true,
+    "profit": "−¥10,000"
+  },
+  "bankruptcy_fixture": {
+    "bank": "¥30,000",
+    "cash": "¥0",
+    "japanese_visible": true,
+    "overflow": false,
+    "profit": "−¥500,000",
+    "rows": 3
+  },
+  "bank_recovery": {
+    "bank": "¥0",
+    "cash": "¥30,000",
+    "withdraw_disabled": true
+  },
+  "all_funds_pending": {
+    "cash": "¥0",
+    "note": "资金已押出 · 等待未结算马券，不判定破产",
+    "pending": true,
+    "tickets": "1 张",
+    "title": "模拟下注"
+  },
+  "narrow_shop": {
+    "calendar_cells": 35,
+    "header_right": 664,
+    "image_loaded": true,
+    "page_width": 682,
+    "shop": {
+      "bottom": 124.84375,
+      "height": 64,
+      "left": 536,
+      "right": 600,
+      "top": 60.84375,
+      "width": 64,
+      "x": 536,
+      "y": 60.84375
+    },
+    "viewport": 682
+  },
+  "final_dom": {
+    "calendar_cells": 35,
+    "page_width": 1280,
+    "shop_image_loaded": true,
+    "total_ids": 145,
+    "unique_ids": 145,
+    "viewport": 1280
+  }
+}

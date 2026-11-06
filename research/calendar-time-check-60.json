@@ -1,0 +1,49 @@
+{
+  "round": 60,
+  "date": "2026-10-25",
+  "previewUrl": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&refund=preview&v=60",
+  "confirmedRules": [
+    "Keep browsed month/filter while open across month boundary",
+    "Recompute purchase/voluntary-refund eligibility from current computer date/timezone; no permanent cutoff lock; cancelled/final-result guards retained",
+    "Bank day follows timezone fixed on first shop activation, independent of later computer timezone"
+  ],
+  "implementation": {
+    "calendar": "Local minute-aligned timeout plus focus/pageshow/visibility recheck refreshes today marker/date grouping on signature change; no navigation, source fetching or persisted cutoff flags",
+    "bank": "bankTimeZone stored once at activation; accrual uses that zone and bankAnchorDay; bank UI shows fixed zone",
+    "reuse": "Existing dateInZone, eligibility, bank day arithmetic and game UI; no added dependency"
+  },
+  "checks": {
+    "scripts": 10,
+    "allPass": true,
+    "new": "check_calendar_clock.mjs",
+    "extended": [
+      "check_shop_start_preview.mjs",
+      "check_result_correction_preview.mjs"
+    ],
+    "other": [
+      "check_startup_preview.mjs",
+      "check_game_preview.mjs",
+      "check_change_preview.mjs",
+      "check_ticket_folder.mjs",
+      "check_ticket_confirmation.mjs",
+      "check_data_quality_preview.mjs",
+      "check_voluntary_refund.mjs"
+    ],
+    "staticTemplateIds": 235,
+    "moduleSyntaxImports": 3,
+    "resources": "PASS",
+    "css": "PASS",
+    "head": {
+      "count": 5,
+      "status": 200,
+      "cacheControl": "no-store"
+    }
+  },
+  "limitations": [
+    "No automated browser rendering, geometry or native macOS lifecycle checks",
+    "In-memory prototype resets on reload; formal account/cache persistence not implemented",
+    "Current-date policy can reopen date eligibility after rollback when no final/cancelled state prohibits it; intentionally not strict anti-cheat",
+    "Fixed bank timezone does not provide a trusted external clock; forward clock tampering is outside this design guarantee",
+    "Actual native-window experience explicitly deferred by user; real regional data audit is next"
+  ]
+}

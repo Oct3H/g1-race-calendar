@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {writeFile} from 'node:fs/promises';
+import {loadPage} from './dom-runner.mjs';
+const query='preview=calendar&settingsMenu=preview&lang=en&year=2026&month=10';
+const before=await loadPage('index.html',query,new URL('./baseline/',import.meta.url));
+before.qa.showRace(before.qa.races.find(r=>r.id==='shuka'),null);before.click('.horse-name-button');
+const old=before.document.querySelector('.horse-profile-facts');assert.ok(old);assert.match(old.textContent,/性龄/);
+const after=await loadPage('index.html',query);after.qa.showRace(after.qa.races.find(r=>r.id==='shuka'),null);after.click('.horse-name-button');
+const current=after.document.querySelector('.horse-profile-facts');assert.ok(current);assert.doesNotMatch(current.textContent,/性龄|练马师|母父/);assert.match(current.textContent,/age/i);
+const expected=before.qa.races.map(r=>[r.id,r.name,r.startAt]);
+assert.equal(JSON.stringify(after.qa.races.map(r=>[r.id,r.name,r.startAt])),JSON.stringify(expected));
+await writeFile(new URL('./regression-evidence.json',import.meta.url),JSON.stringify({status:'PASSED',method:'Actual pre-fix and current controllers, offline DOM; no browser rendering',before:{horseProfileContainsUntranslatedChinese:true},after:{horseProfileEnglish:true,raceIdentitiesNamesAndTimesUnchanged:true}},null,2)+'\n');
+console.log('PASS: old English horse profile fails language check; current passes; source race identities/names/times unchanged.');

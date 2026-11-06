@@ -1,0 +1,35 @@
+{
+  "name": "request-03-ed2e9aadd5",
+  "url": "https://www.keiba.go.jp/dirtgraderace/2026/1103_JBCclassic/racecard.html",
+  "method": "GET",
+  "requested_at": "2026-10-31T12:55:11.043815+00:00",
+  "status": 200,
+  "final_url": "https://www.keiba.go.jp/dirtgraderace/2026/1103_JBCclassic/racecard.html",
+  "headers": {
+    "content-type": "text/html",
+    "content-length": "15754",
+    "date": "Sat, 31 Oct 2026 12:55:11 GMT",
+    "server": "AmazonS3",
+    "last-modified": "Fri, 30 Oct 2026 03:05:49 GMT",
+    "etag": "\"930d20a08656c03be5dcbeddbf8c2377\"",
+    "cache-control": "public, max-age=360, immutable"
+  },
+  "bytes": 15754,
+  "sha256": "9c413502a8e0117dbad39b83711c399c92dd679da5510dfd71357a15ca3f7a0d",
+  "links": [
+    "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026/11/03&k_raceNo=9&k_babaCode=22",
+    "#wrapper"
+  ],
+  "script_sources": [
+    "https://www.googletagmanager.com/gtag/js?id=G-FGDLX751XZ",
+    "../../common/js/jquery.js",
+    "../../common/js/common.js",
+    "../../common/js/picturefill.min.js",
+    "../common/js/race.js",
+    "../common/js/scroll-hint.min.js",
+    "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-602c882a25004a58",
+    "../common/js/scroll-hint.js"
+  ],
+  "tables": 0,
+  "rows": 0
+}

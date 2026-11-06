@@ -1,0 +1,50 @@
+# Build products and local app state
+/dist/
+/build/
+.build/
+DerivedData/
+*.app/
+*.dmg
+*.pkg
+*.dSYM/
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db
+*.db-*
+running.lock
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.codex/
+.agents/
+AGENTS.md
+CONTINUE.md
+/.local-notes/
+
+# Dependencies, interpreter caches and temporary files
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+*.log
+*.tmp
+*.swp
+.DS_Store
+._*
+
+# Local authoring outputs; runtime assets and test fixtures stay versioned
+/design-review-*.png
+/research/language-audit-76/*.ast.json
+/research/language-audit-76/parse.mjs
+/research/**/public-*.js
+/research/2026-10-25-source-followup/era_public_bundle.response

@@ -1,0 +1,1653 @@
+{
+  "year": 2025,
+  "scope": "Internationally recognized flat Thoroughbred G1 in OSAF Part I countries",
+  "checked_on": "2026-10-21",
+  "status": "All87 OSAF2025 G1 calendar entries captured. Per-race verification status distinguishes actual dated results from programmes or calendar-only corroboration.",
+  "races": [
+    {
+      "name": "Ciudad de Montevideo",
+      "date": "2025-01-06",
+      "country": "URU",
+      "surface": "dirt",
+      "track": "Maroñas",
+      "distance_meters": 2000,
+      "source_url": "https://www.gub.uy/ministerio-economia-finanzas/comunicacion/noticias/se-corrio-gran-premio-jose-pedro-ramirez-2025",
+      "verification_note": "Uruguay Ministry of Economy and Finance 2025-01-07 post-event report explicitly states both G1 races were run on Monday 6 January at Maroñas; surface from OSAF pattern calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.gub.uy/ministerio-economia-finanzas/comunicacion/noticias/se-corrio-gran-premio-jose-pedro-ramirez-2025"
+      ]
+    },
+    {
+      "name": "José Pedro Ramírez",
+      "date": "2025-01-06",
+      "country": "URU",
+      "surface": "dirt",
+      "track": "Maroñas",
+      "distance_meters": 2400,
+      "source_url": "https://www.gub.uy/ministerio-economia-finanzas/comunicacion/noticias/se-corrio-gran-premio-jose-pedro-ramirez-2025",
+      "verification_note": "Uruguay Ministry of Economy and Finance 2025-01-07 post-event report explicitly states both G1 races were run on Monday 6 January at Maroñas; surface from OSAF pattern calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.gub.uy/ministerio-economia-finanzas/comunicacion/noticias/se-corrio-gran-premio-jose-pedro-ramirez-2025"
+      ]
+    },
+    {
+      "name": "El Derby",
+      "date": "2025-02-02",
+      "country": "CHI",
+      "surface": "turf",
+      "track": "V. Sporting Club",
+      "distance_meters": 2400,
+      "source_url": "https://www.sporting.cl/sporting/site/artic/20180420/asocfile/20180420113133/memoria_2025_web.pdf",
+      "verification_note": "Sporting official2025 annual report states ElDerby was run on the fifth Sunday of2025 and LuckyRed won; fifth Sunday was02February2025. Official day programme independently corroborates02February.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.sporting.cl/hipica/upload/magazine/2025-02-02/PROGRAMA_SPORTING_DOMINGO_2_DE_FEBRERO_DE_2025.pdf",
+        "https://www.sporting.cl/sporting/site/artic/20180420/asocfile/20180420113133/memoria_2025_web.pdf"
+      ]
+    },
+    {
+      "name": "Estado do Rio de Janeiro - 1° Etapa Triple Corona",
+      "date": "2025-02-09",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 1600,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Henrique Possolo - 1° Etapa Triple Corona",
+      "date": "2025-02-09",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 1600,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Miguel Alfredo Martínez de Hoz",
+      "date": "2025-02-15",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 2000,
+      "source_url": "https://www.studbook.org.ar/reuniones/carrera-pdf/226519/11-gran-premio-miguel-alfredo-martinez-de-hoz-g1-2000",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/reuniones/carrera-pdf/226519/11-gran-premio-miguel-alfredo-martinez-de-hoz-g1-2000"
+      ]
+    },
+    {
+      "name": "Diana - 2° Etapa Triple Corona",
+      "date": "2025-03-09",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 2000,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Francisco Eduardo de Paula Machado - 2° Etapa Triple Corona",
+      "date": "2025-03-09",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 2000,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "De Honor",
+      "date": "2025-04-05",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 2000,
+      "source_url": "https://consvc.hkjc.com/-/media/Sites/JCRW/FormGuide/Simulcast/25_26/20251019/OSE20251019_starter_all.pdf",
+      "verification_note": "HKJC official international form guide lists NeedYouTonight finishing2nd in G1 GranPremio deHonor on5Apr25 at Palermo, dirt.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://consvc.hkjc.com/-/media/Sites/JCRW/FormGuide/Simulcast/25_26/20251019/OSE20251019_starter_all.pdf"
+      ]
+    },
+    {
+      "name": "Gilberto Lerena",
+      "date": "2025-04-05",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "Palermo",
+      "distance_meters": 2200,
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81327",
+      "verification_note": "OSAF published date corroborated by IFHA2025 G1 calendar row; exact official result page not retrieved in this pass.",
+      "date_status": "official_calendar_corroborated",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81327"
+      ]
+    },
+    {
+      "name": "Cruzeiro do Sul (Derby) - 3° Etapa Triple Corona",
+      "date": "2025-04-06",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 2400,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Zélia Gonzaga Peixoto de Castro - 3° Etapa Triple Corona",
+      "date": "2025-04-06",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 2400,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Ciudad de Buenos Aires",
+      "date": "2025-05-01",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1000,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-carreras/24441",
+      "verification_note": "Palermo official whole-meeting results archive records all six G1 races on01May2025, with surface and recorded race times. Search-crawled official content accessible; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-carreras/24441"
+      ]
+    },
+    {
+      "name": "Criadores",
+      "date": "2025-05-01",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 2000,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-carreras/24441",
+      "verification_note": "Palermo official whole-meeting results archive records all six G1 races on01May2025, with surface and recorded race times. Search-crawled official content accessible; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-carreras/24441"
+      ]
+    },
+    {
+      "name": "De Las Américas - OSAF",
+      "date": "2025-05-01",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1600,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-carreras/24441",
+      "verification_note": "Palermo official whole-meeting results archive records all six G1 races on01May2025, with surface and recorded race times. Search-crawled official content accessible; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-carreras/24441"
+      ]
+    },
+    {
+      "name": "Jorge de Atucha",
+      "date": "2025-05-01",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1500,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-carreras/24441",
+      "verification_note": "Palermo official whole-meeting results archive records all six G1 races on01May2025, with surface and recorded race times. Search-crawled official content accessible; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-carreras/24441"
+      ]
+    },
+    {
+      "name": "Montevideo",
+      "date": "2025-05-01",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1500,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-carreras/24441",
+      "verification_note": "Palermo official whole-meeting results archive records all six G1 races on01May2025, with surface and recorded race times. Search-crawled official content accessible; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-carreras/24441"
+      ]
+    },
+    {
+      "name": "República Argentina",
+      "date": "2025-05-01",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 2000,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-carreras/24441",
+      "verification_note": "Palermo official whole-meeting results archive records all six G1 races on01May2025, with surface and recorded race times. Search-crawled official content accessible; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-carreras/24441"
+      ]
+    },
+    {
+      "name": "João Cecílio Ferraz",
+      "date": "2025-05-02",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 1500,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "Juliano Martins",
+      "date": "2025-05-02",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 1500,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "A.B.C.P.C.C. (Internacional)",
+      "date": "2025-05-03",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 1000,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "O.S.A.F. (Internacional)",
+      "date": "2025-05-03",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 2000,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "Gran Premio Hipódromo Chile",
+      "date": "2025-05-03",
+      "country": "CHI",
+      "surface": "dirt",
+      "track": "Hipódromo Chile",
+      "distance_meters": 2200,
+      "source_url": "https://hipodromo.cl/noticias/1348465/VIDEONOTICIA-Spazzatura-mas-cerca-del-Gran-Premio",
+      "verification_note": "Official Hipódromo Chile29March2025 announcement fixes G1 GranPremio to Saturday3May. Official annual Stud Book winners lists Spazzatura. Exact dated result page not retrieved.",
+      "date_status": "official_programme_and_result_report",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://hipodromo.cl/noticias/1348465/VIDEONOTICIA-Spazzatura-mas-cerca-del-Gran-Premio",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1015cua_gru_hch"
+      ]
+    },
+    {
+      "name": "São Paulo (Internacional)",
+      "date": "2025-05-04",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 2400,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "25 de Mayo - Copa Dr. Enrique Olivera",
+      "date": "2025-05-25",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 2400,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/425161/el-pulque",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/425161/el-pulque"
+      ]
+    },
+    {
+      "name": "De Potrancas",
+      "date": "2025-05-25",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 1600,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/439188/amour-d-ete",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/439188/amour-d-ete"
+      ]
+    },
+    {
+      "name": "Gran Criterium",
+      "date": "2025-05-25",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 1600,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/441289/ardiendo",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/441289/ardiendo"
+      ]
+    },
+    {
+      "name": "Club Hípico de Santiago - (Falabella) (Breeder's Cup)",
+      "date": "2025-05-25",
+      "country": "CHI",
+      "surface": "turf",
+      "track": "Club Hípico",
+      "distance_meters": 2000,
+      "source_url": "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250525",
+      "verification_note": "Stud Book de Chile official historical daily results contains this named race and finishing order on the recorded date; grade/surface crosschecked against OSAF calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250525"
+      ]
+    },
+    {
+      "name": "Arturo Lyon Peña",
+      "date": "2025-06-20",
+      "country": "CHI",
+      "surface": "turf",
+      "track": "Club Hípico",
+      "distance_meters": 1600,
+      "source_url": "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250620",
+      "verification_note": "Stud Book de Chile official historical daily results contains this named race and finishing order on the recorded date; grade/surface crosschecked against OSAF calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250620"
+      ]
+    },
+    {
+      "name": "Major Suckow",
+      "date": "2025-06-21",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 1000,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Roberto e Nelson Grimaldi Seabra",
+      "date": "2025-06-21",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 2000,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "GP Brasil",
+      "date": "2025-06-22",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 2400,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Jockey Club Brasileiro",
+      "date": "2025-06-22",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 1600,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Presidente da República",
+      "date": "2025-06-22",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 1600,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Jockey Club del Perú",
+      "date": "2025-06-22",
+      "country": "PER",
+      "surface": "dirt",
+      "track": "Monterrico",
+      "distance_meters": 2400,
+      "source_url": "https://es.scribd.com/document/940425715/estudiesupolla-3",
+      "verification_note": "Official Jockey Club del Perú Semana 26 magazine, reproduced on Scribd: Enforceable won on Sunday 22 June; primary document on a third-party mirror.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://es.scribd.com/document/940425715/estudiesupolla-3"
+      ]
+    },
+    {
+      "name": "Pamplona",
+      "date": "2025-06-22",
+      "country": "PER",
+      "surface": "turf",
+      "track": "Monterrico",
+      "distance_meters": 2000,
+      "source_url": "https://consvc.hkjc.com/-/media/Sites/JCRW/FormGuide/Simulcast/25_26/20251102/OSE20251102_starter_all.pdf",
+      "verification_note": "HKJC official Breeders Cup form guide lists La Kika winning G1 Premio Pamplona on 22Jun25, Monterrico, 2000m turf.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://consvc.hkjc.com/-/media/Sites/JCRW/FormGuide/Simulcast/25_26/20251102/OSE20251102_starter_all.pdf"
+      ]
+    },
+    {
+      "name": "Alberto Vial Infante",
+      "date": "2025-06-27",
+      "country": "CHI",
+      "surface": "turf",
+      "track": "Club Hípico",
+      "distance_meters": 1600,
+      "source_url": "https://www.clubhipico.cl/sala-prensa/noticias/created-puso-todo-en-orden/",
+      "verification_note": "Official Club Hípico post-event report dated Monday30June says this G1 was run the previous Friday; therefore27June. Official27June programme corroborates date.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.clubhipico.cl/sala-prensa/noticias/created-puso-todo-en-orden/",
+        "https://static.clubhipico.cl/archivos/programa-digital/27-06-2025.pdf"
+      ]
+    },
+    {
+      "name": "Estrellas Classic",
+      "date": "2025-06-28",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 2000,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-dia/24459",
+      "verification_note": "Palermo official meeting59 results records the six Estrellas G1 races on28June2025, on dirt; published OSAF calendar agrees. Search-crawled official content; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-dia/24459"
+      ]
+    },
+    {
+      "name": "Estrellas Distaff",
+      "date": "2025-06-28",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1800,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-dia/24459",
+      "verification_note": "Palermo official meeting59 results records the six Estrellas G1 races on28June2025, on dirt; published OSAF calendar agrees. Search-crawled official content; direct open returned403. Actual result corrects planned2000m to1800m; StudBook race result corroboration.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-dia/24459",
+        "https://www.studbook.org.ar/reuniones/carrera/228404/11-gran-premio-estrellas-distaff-g1-1800/420708"
+      ]
+    },
+    {
+      "name": "Estrellas Juvenile",
+      "date": "2025-06-28",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1600,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-dia/24459",
+      "verification_note": "Palermo official meeting59 results records the six Estrellas G1 races on28June2025, on dirt; published OSAF calendar agrees. Search-crawled official content; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-dia/24459"
+      ]
+    },
+    {
+      "name": "Estrellas Juvenile Fillies",
+      "date": "2025-06-28",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1600,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-dia/24459",
+      "verification_note": "Palermo official meeting59 results records the six Estrellas G1 races on28June2025, on dirt; published OSAF calendar agrees. Search-crawled official content; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-dia/24459"
+      ]
+    },
+    {
+      "name": "Estrellas Mile",
+      "date": "2025-06-28",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1600,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-dia/24459",
+      "verification_note": "Palermo official meeting59 results records the six Estrellas G1 races on28June2025, on dirt; published OSAF calendar agrees. Search-crawled official content; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-dia/24459"
+      ]
+    },
+    {
+      "name": "Estrellas Sprint",
+      "date": "2025-06-28",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1000,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-dia/24459",
+      "verification_note": "Palermo official meeting59 results records the six Estrellas G1 races on28June2025, on dirt; published OSAF calendar agrees. Search-crawled official content; direct open returned403.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-dia/24459"
+      ]
+    },
+    {
+      "name": "Tanteo de Potrancas",
+      "date": "2025-06-28",
+      "country": "CHI",
+      "surface": "dirt",
+      "track": "Hipódromo Chile",
+      "distance_meters": 1500,
+      "source_url": "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250628",
+      "verification_note": "Stud Book de Chile official historical daily results contains this named race and finishing order on the recorded date; grade/surface crosschecked against OSAF calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250628"
+      ]
+    },
+    {
+      "name": "Tanteo de Potrillos",
+      "date": "2025-06-28",
+      "country": "CHI",
+      "surface": "dirt",
+      "track": "Hipódromo Chile",
+      "distance_meters": 1500,
+      "source_url": "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250628",
+      "verification_note": "Stud Book de Chile official historical daily results contains this named race and finishing order on the recorded date; grade/surface crosschecked against OSAF calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250628"
+      ]
+    },
+    {
+      "name": "Dos Mil Guineas",
+      "date": "2025-07-26",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 1600,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/441289/ardiendo",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/441289/ardiendo"
+      ]
+    },
+    {
+      "name": "Polla de Potrancas (Joaquin Morande T.)",
+      "date": "2025-08-01",
+      "country": "CHI",
+      "surface": "turf",
+      "track": "Club Hípico",
+      "distance_meters": 1700,
+      "source_url": "https://static.clubhipico.cl/archivos/programa-digital/05-09-2025.pdf",
+      "verification_note": "Official ClubHipico later racecard includes dated01August2025 1700m turf past-performance rows with winner Eccentric, agreeing with official event photo archive and2025 classic winners table.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.clubhipico.cl/sala-prensa/",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1014clasicos_chs",
+        "https://static.clubhipico.cl/archivos/programa-digital/05-09-2025.pdf"
+      ]
+    },
+    {
+      "name": "J. Adhemar de Almeida Prado - Taça de Prata (Machos)",
+      "date": "2025-08-02",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 1600,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "Margarida Polak Lara - Taça de Prata (Hembras)",
+      "date": "2025-08-02",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 1600,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "Matias Machline - ABCPCC Clássica",
+      "date": "2025-08-02",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 2000,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "Polla de Potrillos (Roberto Allende U.)",
+      "date": "2025-08-03",
+      "country": "CHI",
+      "surface": "turf",
+      "track": "Club Hípico",
+      "distance_meters": 1700,
+      "source_url": "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250803",
+      "verification_note": "Stud Book de Chile official historical daily results contains this named race and finishing order on the recorded date; grade/surface crosschecked against OSAF calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250803"
+      ]
+    },
+    {
+      "name": "Mil Guineas María Luisa Solari Falabella",
+      "date": "2025-08-30",
+      "country": "CHI",
+      "surface": "dirt",
+      "track": "Hipódromo Chile",
+      "distance_meters": 1600,
+      "source_url": "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250830",
+      "verification_note": "Stud Book de Chile official historical daily results contains this named race and finishing order on the recorded date; grade/surface crosschecked against OSAF calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250830"
+      ]
+    },
+    {
+      "name": "General San Martín",
+      "date": "2025-09-06",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "Palermo",
+      "distance_meters": 2400,
+      "source_url": "https://www.studbook.org.ar/reuniones/carrera-pdf/229352/8-gran-premio-general-san-martin-g1-2400",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/reuniones/carrera-pdf/229352/8-gran-premio-general-san-martin-g1-2400"
+      ]
+    },
+    {
+      "name": "Polla de Potrancas",
+      "date": "2025-09-06",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1600,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/435645/souq",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/435645/souq"
+      ]
+    },
+    {
+      "name": "Polla de Potrillos",
+      "date": "2025-09-06",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1600,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/434349/last-chance",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/434349/last-chance"
+      ]
+    },
+    {
+      "name": "Barão de Piracicaba",
+      "date": "2025-09-06",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 1600,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "Ipiranga",
+      "date": "2025-09-06",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 1600,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "Dos Mil Guineas",
+      "date": "2025-09-06",
+      "country": "CHI",
+      "surface": "dirt",
+      "track": "Hipódromo Chile",
+      "distance_meters": 1600,
+      "source_url": "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250906",
+      "verification_note": "Stud Book de Chile official historical daily results contains this named race and finishing order on the recorded date; grade/surface crosschecked against OSAF calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20250906"
+      ]
+    },
+    {
+      "name": "Polla de Potrancas",
+      "date": "2025-09-14",
+      "country": "PER",
+      "surface": "dirt",
+      "track": "Monterrico",
+      "distance_meters": 1600,
+      "source_url": "https://hipodromodemonterrico.com.pe/noticias/1357179/lumina-marco-la-sorpresa",
+      "verification_note": "Official Monterrico post-event report explicitly states Sunday 14 September 2025; Lumina won; dirt corroborated by official day programme.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://hipodromodemonterrico.com.pe/noticias/1357179/lumina-marco-la-sorpresa"
+      ]
+    },
+    {
+      "name": "Selección de Potrancas",
+      "date": "2025-09-21",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "La Plata",
+      "distance_meters": 2000,
+      "source_url": "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81696",
+      "verification_note": "OSAF published date corroborated by IFHA2025 G1 calendar row; exact official result page not retrieved in this pass.",
+      "date_status": "official_calendar_corroborated",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81696"
+      ]
+    },
+    {
+      "name": "Jockey Club",
+      "date": "2025-10-04",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 2000,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/441289/ardiendo",
+      "verification_note": "Official Stud Book performance row:04October2025, SanIsidro race13, GranPremioJockeyClubG1,2000m turf; Ardiendo finished5th.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81688",
+        "https://www.studbook.org.ar/ejemplares/perfil/441289/ardiendo"
+      ]
+    },
+    {
+      "name": "San Isidro - Copa Melchor Ángel Posse",
+      "date": "2025-10-04",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 1600,
+      "source_url": "https://www.studbook.org.ar/reuniones/detalle-pdf/20860/20251004-san-isidro-93?of=1",
+      "verification_note": "Official04October2025 programme, page12, race10 G1SanIsidro,1600m turf. This PDF is a pre-race programme (of=1), not final results; exact dated result page remains pending.",
+      "date_status": "official_programme_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81687",
+        "https://www.studbook.org.ar/reuniones/detalle-pdf/20860/20251004-san-isidro-93?of=1"
+      ]
+    },
+    {
+      "name": "Suipacha",
+      "date": "2025-10-04",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 1000,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/413367/le-cornette",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/413367/le-cornette"
+      ]
+    },
+    {
+      "name": "Gran Criterium Mauricio Serrano Palma",
+      "date": "2025-10-04",
+      "country": "CHI",
+      "surface": "dirt",
+      "track": "Hipódromo Chile",
+      "distance_meters": 1900,
+      "source_url": "https://storage.elturf.com/pdf_volantes/pdf_hch/SDC2025.pdf",
+      "verification_note": "Official Hipódromo Chile4October2025 race programme lists G1 Gran Criterium; annual Stud Book G1 winner table names Teao. Exact dated result page not retrieved.",
+      "date_status": "official_programme_and_result_report",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://storage.elturf.com/pdf_volantes/pdf_hch/SDC2025.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1015cua_gru_hch"
+      ]
+    },
+    {
+      "name": "Nacional Ricardo Lyon",
+      "date": "2025-10-05",
+      "country": "CHI",
+      "surface": "turf",
+      "track": "Club Hípico",
+      "distance_meters": 2000,
+      "source_url": "https://static.clubhipico.cl/archivos/programa-digital/05-10-2025.pdf",
+      "verification_note": "Official5October programme; Stud Book de Chile2025 annual classic results names Eccentric, consistent with next-day official report. Exact dated result page retrieval remains pending.",
+      "date_status": "official_programme_and_result_report",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://static.clubhipico.cl/archivos/programa-digital/05-10-2025.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1014clasicos_chs"
+      ]
+    },
+    {
+      "name": "Selección",
+      "date": "2025-10-11",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 2000,
+      "source_url": "https://www.studbook.org.ar/reuniones/detalle-pdf/20802/20251011-palermo-94",
+      "verification_note": "Official Stud Book11October2025 final meeting results, page12: race11 GranPremioSelecciónG1,2000m dirt, Charm won.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.ifhaonline.org/default.asp?section=Racing&area=8&racepid=81696",
+        "https://www.studbook.org.ar/reuniones/detalle-pdf/20802/20251011-palermo-94"
+      ]
+    },
+    {
+      "name": "GP Jockey Club de São Paulo (2° EtapaTriple Corona São Paulo)",
+      "date": "2025-10-18",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 2000,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "Gran Premio Latinoamericano",
+      "date": "2025-10-18",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 2000,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "El Ensayo - (Mega)",
+      "date": "2025-10-31",
+      "country": "CHI",
+      "surface": "turf",
+      "track": "Club Hípico",
+      "distance_meters": 2400,
+      "source_url": "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20251031",
+      "verification_note": "Stud Book de Chile official historical daily results contains this named race and finishing order on the recorded date; grade/surface crosschecked against OSAF calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20251031"
+      ]
+    },
+    {
+      "name": "Copa de Oro Alfredo Lalor",
+      "date": "2025-11-01",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 2400,
+      "source_url": "https://www.studbook.org.ar/reuniones/detalle-pdf/20869/20251101-san-isidro-102",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/reuniones/detalle-pdf/20869/20251101-san-isidro-102"
+      ]
+    },
+    {
+      "name": "Enrique Acebal",
+      "date": "2025-11-01",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 2000,
+      "source_url": "https://www.studbook.org.ar/reuniones/carrera/230203/12-gran-premio-enrique-acebal-g1-2000/435111",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/reuniones/carrera/230203/12-gran-premio-enrique-acebal-g1-2000/435111"
+      ]
+    },
+    {
+      "name": "Alberto Solari Magnasco",
+      "date": "2025-11-01",
+      "country": "CHI",
+      "surface": "dirt",
+      "track": "Hipódromo Chile",
+      "distance_meters": 2000,
+      "source_url": "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20251101",
+      "verification_note": "Stud Book de Chile official historical daily results contains this named race and finishing order on the recorded date; grade/surface crosschecked against OSAF calendar.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://studbookdechile.cl/public/historicos/calendario/2025/index.php?menu=1100retros_20251101"
+      ]
+    },
+    {
+      "name": "Maipú",
+      "date": "2025-11-08",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1000,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/413367/le-cornette",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/413367/le-cornette"
+      ]
+    },
+    {
+      "name": "Nacional",
+      "date": "2025-11-08",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 2500,
+      "source_url": "https://old.palermo.com.ar/es/turf/ver-carrera/214073",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://old.palermo.com.ar/es/turf/ver-carrera/214073"
+      ]
+    },
+    {
+      "name": "Palermo",
+      "date": "2025-11-08",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "Palermo",
+      "distance_meters": 1600,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/438200/picasso",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/438200/picasso"
+      ]
+    },
+    {
+      "name": "Derby Paulista",
+      "date": "2025-11-15",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 2400,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "Diana",
+      "date": "2025-11-15",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Cidade Jardim",
+      "distance_meters": 2000,
+      "source_url": "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://jockeysp.com.br/corridas/temporadaclassicaword.asp?ano=2025"
+      ]
+    },
+    {
+      "name": "Dardo Rocha (Internacional)",
+      "date": "2025-11-19",
+      "country": "ARG",
+      "surface": "dirt",
+      "track": "La Plata",
+      "distance_meters": 2400,
+      "source_url": "https://www.hipodromolaplata.gba.gov.ar/ns2012/wsAdmin/programaOficial/verPrograma.php?ano=2025&fecha=19%2F11%2F2025&numReu=107&numeroPremio=13",
+      "verification_note": "Official19November2025 programme plus official winner history names TheGladiatorsHat as2025 winner. Exact dated final-result page not retrieved.",
+      "date_status": "official_programme_and_result_report",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.hipodromolaplata.gba.gov.ar/ns2012/wsAdmin/programaOficial/verPrograma.php?ano=2025&fecha=19%2F11%2F2025&numReu=107&numeroPremio=13",
+        "https://www.hipodromolaplata.gba.gov.ar/ns2012/pr_Prensa/pr_hist-dardorocha2.php"
+      ]
+    },
+    {
+      "name": "Derby Nacional",
+      "date": "2025-11-23",
+      "country": "PER",
+      "surface": "dirt",
+      "track": "Monterrico",
+      "distance_meters": 2400,
+      "source_url": "https://hipodromodemonterrico.com.pe/carreras-resultado-ver?id_carrera=788110&id_reunion=99681",
+      "verification_note": "Official Monterrico results: meeting477, Sunday 23 November2025, race10, G1 dirt, Khamal won.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://hipodromodemonterrico.com.pe/carreras-resultado-ver?id_carrera=788110&id_reunion=99681"
+      ]
+    },
+    {
+      "name": "St. Leger",
+      "date": "2025-12-06",
+      "country": "CHI",
+      "surface": "dirt",
+      "track": "Hipódromo Chile",
+      "distance_meters": 2200,
+      "source_url": "https://hipodromo.cl/carreras-programa-ver?id_carrera=821004",
+      "verification_note": "Official HipódromoChile later racecard lists dated6Dic25G1 2200m performance for ApoloRey:1st/15,2:14.90;2025 official StLeger announcement and programme corroborate identity.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://hipodromo.cl/noticias/1361573/participantes-del-st-leger-con-montas-confirmadas",
+        "https://hipodromo.cl/carreras-programa-ver?id_carrera=821004"
+      ]
+    },
+    {
+      "name": "Carlos Pellegrini Internacional",
+      "date": "2025-12-13",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 2400,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/425161/el-pulque",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/425161/el-pulque"
+      ]
+    },
+    {
+      "name": "Copa de Plata Roberto Vasquez Mansilla Internac",
+      "date": "2025-12-13",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 2000,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/424547/knows-all",
+      "verification_note": "Stud Book Argentino official Knows All profile lists 13/12/2025 SIS race 12 Gran Premio Copa de Plata (G1), 2000m, turf (C), finishing position 1; actual date directly corroborated by official past performance.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/424547/knows-all"
+      ]
+    },
+    {
+      "name": "Felix de Alzaga Unzué Internacional",
+      "date": "2025-12-13",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 1000,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/413367/le-cornette",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/413367/le-cornette"
+      ]
+    },
+    {
+      "name": "Joaquin S. de Anchorena Internacional",
+      "date": "2025-12-13",
+      "country": "ARG",
+      "surface": "turf",
+      "track": "San Isidro",
+      "distance_meters": 1600,
+      "source_url": "https://www.studbook.org.ar/ejemplares/perfil/430783/bluclette-rim",
+      "verification_note": "Official Argentine Stud Book or racecourse dated results/performance row explicitly records the named2025 G1 on the stated date; OSAF pattern calendar corroborates grade/surface.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.studbook.org.ar/ejemplares/perfil/430783/bluclette-rim"
+      ]
+    },
+    {
+      "name": "Linneo de Paula Machado",
+      "date": "2025-12-14",
+      "country": "BRZ",
+      "surface": "turf",
+      "track": "Gávea",
+      "distance_meters": 2000,
+      "source_url": "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf",
+      "verification_note": "Date, G1 status and turf corroborated by the racecourse official 2025 calendar/results archive including named winners.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://www.jcb.com.br/imagens/2025/12/CALENDARIO-CLASSICO-25-FINAL.pdf"
+      ]
+    },
+    {
+      "name": "GP Nacional \"Augusto B. Leguía\"",
+      "date": "2025-12-21",
+      "country": "PER",
+      "surface": "turf",
+      "track": "Monterrico",
+      "distance_meters": 2400,
+      "source_url": "https://hipodromodemonterrico.com.pe/noticias/1363244/maria-luisa-gano-la-cuarta-corona",
+      "verification_note": "Official Monterrico post-event report: Sunday21December2025, G1 2400m turf, Maria Luisa won.",
+      "date_status": "actual_result_verified",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://hipodromodemonterrico.com.pe/noticias/1363244/maria-luisa-gano-la-cuarta-corona"
+      ]
+    },
+    {
+      "name": "Las Oaks",
+      "date": "2025-12-26",
+      "country": "CHI",
+      "surface": "turf",
+      "track": "Club Hípico",
+      "distance_meters": 2000,
+      "source_url": "https://static.clubhipico.cl/archivos/programa-digital/26-12-2025.pdf",
+      "verification_note": "Official26December day programme plus official29December post-event report confirm Las Oaks was run and won by Noche Sublime; no independent result page carrying exact date retrieved.",
+      "date_status": "official_programme_and_result_report",
+      "grade": "G1",
+      "date_basis": "racecourse_local_date",
+      "start_at": null,
+      "source_urls": [
+        "https://www.osafweb.net/wp-content/uploads/Calendario-Clasico-Latinoamericano-2025-orden-cronologico.pdf",
+        "https://static.clubhipico.cl/archivos/programa-digital/26-12-2025.pdf",
+        "https://www.clubhipico.cl/sala-prensa/noticias/noche-sublime-celebro-en-las-oaks/"
+      ]
+    }
+  ],
+  "baseline_complete_against_osaf_calendar": true,
+  "actual_dates_fully_verified": false,
+  "counts_by_country": {
+    "ARG": 37,
+    "BRZ": 26,
+    "CHI": 17,
+    "PER": 5,
+    "URU": 2
+  },
+  "verification_counts": {
+    "actual_result_verified": 79,
+    "official_calendar_corroborated": 2,
+    "official_programme_and_result_report": 5,
+    "official_programme_verified": 1
+  },
+  "remaining_exact_result_verification": [
+    {
+      "name": "Gilberto Lerena",
+      "date": "2025-04-05",
+      "country": "ARG",
+      "status": "official_calendar_corroborated"
+    },
+    {
+      "name": "Gran Premio Hipódromo Chile",
+      "date": "2025-05-03",
+      "country": "CHI",
+      "status": "official_programme_and_result_report"
+    },
+    {
+      "name": "Selección de Potrancas",
+      "date": "2025-09-21",
+      "country": "ARG",
+      "status": "official_calendar_corroborated"
+    },
+    {
+      "name": "San Isidro - Copa Melchor Ángel Posse",
+      "date": "2025-10-04",
+      "country": "ARG",
+      "status": "official_programme_verified"
+    },
+    {
+      "name": "Gran Criterium Mauricio Serrano Palma",
+      "date": "2025-10-04",
+      "country": "CHI",
+      "status": "official_programme_and_result_report"
+    },
+    {
+      "name": "Nacional Ricardo Lyon",
+      "date": "2025-10-05",
+      "country": "CHI",
+      "status": "official_programme_and_result_report"
+    },
+    {
+      "name": "Dardo Rocha (Internacional)",
+      "date": "2025-11-19",
+      "country": "ARG",
+      "status": "official_programme_and_result_report"
+    },
+    {
+      "name": "Las Oaks",
+      "date": "2025-12-26",
+      "country": "CHI",
+      "status": "official_programme_and_result_report"
+    }
+  ]
+}

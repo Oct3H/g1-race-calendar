@@ -1,0 +1,21 @@
+{
+  "name": "ja_prerace_odds_pdf",
+  "url": "https://japanracing.jp/_news2026/pdf/261024.pdf",
+  "method": "GET",
+  "requested_at": "2026-10-26T12:24:05.833245+00:00",
+  "status": 200,
+  "final_url": "https://japanracing.jp/_news2026/pdf/261024.pdf",
+  "headers": {
+    "date": "Mon, 26 Oct 2026 12:24:11 GMT",
+    "content-type": "application/pdf",
+    "content-length": "35474",
+    "server": "Apache",
+    "last-modified": "Sat, 24 Oct 2026 08:45:58 GMT",
+    "etag": "\"8a92-65e9220281d80\"",
+    "cache-control": "no-cache"
+  },
+  "bytes": 35474,
+  "sha256": "5a2159bc504ec86f07db4feaf44b8b61ccdc78dcb9501fc92704c209e86c7d44",
+  "discovered_from": "https://japanracing.jp/en/",
+  "observed_href": "../_news2026/pdf/261024.pdf"
+}

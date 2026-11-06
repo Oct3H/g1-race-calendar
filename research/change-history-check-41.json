@@ -1,0 +1,16 @@
+{
+  "round": 41,
+  "date": "2026-10-23",
+  "preview": "http://127.0.0.1:8765/index.html?preview=calendar&year=2026&month=10&updates=history&entry=compact&race=update-demo&v=41",
+  "decision": "Latest change expanded, earlier changes collapsed, newest historical revision first.",
+  "checks": [
+    "check_race_change_rules.mjs passed: prior values, legacy schedule snapshots, old withdrawal numbers, history order and no duplicate history",
+    "check_change_preview.mjs passed: history count, multi-field historical values, collapse on re-entry, clear on race switch, repeat updates, fixture reset, postponement then cancellation, refund idempotence and independent unread state",
+    "check_game_preview.mjs and check_ticket_confirmation.mjs passed",
+    "design.js and game-design.js module syntax passed",
+    "149 unique static IDs / 195 unique static-and-template IDs; resource and import paths exist",
+    "5 HEAD-only local preview/resource checks returned 200 and no-store"
+  ],
+  "visual_review": "Not automatically performed. Existing browser access restriction was not bypassed; user review pending.",
+  "limits": "Fictional in-memory prototype. No official feed, persistent change history or formal wallet storage is connected."
+}

@@ -1,0 +1,13 @@
+{
+  "round": 48,
+  "date": "2026-10-23",
+  "preview": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&game=tickets&v=48",
+  "decision": "Collapse purchase time, odds source and odds-acquired time per ticket, with a View details entry. Keep amount, locked odds, return/status and reason visible.",
+  "implementation": "Native details/summary, no open attribute. Labels switch between 查看详情 and 收起详情 via CSS. Same region tokens; no new modal, source fetch, order action or monetary change.",
+  "checks": [
+    "check_ticket_folder.mjs PASS: all 7 metadata sections default collapsed; source/timestamps retained inside their own details; core values remain and grouping does not alter ledger",
+    "Updated module syntax, CSS block/parenthesis balance and v48 entry chain PASS",
+    "4 HEAD-only requests returned 200 / no-store"
+  ],
+  "visual_review": "No browser rendering, click or native-keyboard measurement performed; existing access restriction respected. Native HTML disclosure structure and renderer output checked; user website review pending."
+}

@@ -1,0 +1,27 @@
+{
+  "error": "Source unavailable: None",
+  "navigation_reference": {
+    "url": "https://japanracing.jp/en/common/js/redirect.js",
+    "source_requested_at": "2026-10-26T13:18:20.073624+00:00",
+    "sha256": "351b9d5d720fcce22b694072630c31375e3c5f422cd9c7119e1d4c5b2581106d",
+    "original_evidence": "../2026-10-26-discovery/live/request-04-55d36334d0.response",
+    "local_evidence": "live/reference-year-rule-351b9d5d720f.response",
+    "type": "cached generic navigation rule, not fresh race data"
+  },
+  "requests": [
+    {
+      "name": "request-01-49705d6695",
+      "url": "https://japanracing.jp/en/",
+      "method": "GET",
+      "requested_at": "2026-10-27T11:53:02.725128+00:00",
+      "status": null,
+      "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "discovered_from": null,
+      "observed_href": null,
+      "redirect_rule": null,
+      "evidence": "live/request-01-49705d6695.response"
+    }
+  ]
+}

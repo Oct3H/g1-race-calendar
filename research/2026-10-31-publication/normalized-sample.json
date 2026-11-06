@@ -1,0 +1,99 @@
+{
+  "race": {
+    "id": "japan:2026:tennoshoautumn",
+    "startAt": "2026-11-01T15:40:00+09:00",
+    "sampleEntriesConfirmed": true,
+    "sampleOfficialOdds": true,
+    "sampleOddsSource": "https://japanracing.jp/_news2026/pdf/261031.pdf",
+    "sampleOddsAt": "2026-10-31T17:30:00+09:00"
+  },
+  "fetchedAt": "2026-10-31T13:01:10.702093+00:00",
+  "horses": [
+    {
+      "number": 1,
+      "name": "Croix du Nord(JPN)",
+      "odds": "2.5"
+    },
+    {
+      "number": 2,
+      "name": "Elton Barows(JPN)",
+      "odds": "226.6"
+    },
+    {
+      "number": 3,
+      "name": "Regaleira(JPN)",
+      "odds": "9.8"
+    },
+    {
+      "number": 4,
+      "name": "Readiness(JPN)",
+      "odds": "49.5"
+    },
+    {
+      "number": 5,
+      "name": "Champagne Color(JPN)",
+      "odds": "171.9"
+    },
+    {
+      "number": 6,
+      "name": "Seiun Hades(JPN)",
+      "odds": "27.2"
+    },
+    {
+      "number": 7,
+      "name": "Masquerade Ball(JPN)",
+      "odds": "2.4"
+    },
+    {
+      "number": 8,
+      "name": "Jun Blossom(JPN)",
+      "odds": "234.7"
+    },
+    {
+      "number": 9,
+      "name": "Ho O Biscuits(JPN)",
+      "odds": "66.0"
+    },
+    {
+      "number": 10,
+      "name": "Nebra Disk(JPN)",
+      "odds": "46.5"
+    },
+    {
+      "number": 11,
+      "name": "Shake Your Heart(JPN)",
+      "odds": "11.5"
+    },
+    {
+      "number": 12,
+      "name": "Cosmo Kuranda(JPN)",
+      "odds": "109.2"
+    },
+    {
+      "number": 13,
+      "name": "Realize Sirius(JPN)",
+      "odds": "36.2"
+    },
+    {
+      "number": 14,
+      "name": "Tagano Dude(JPN)",
+      "odds": "120.3"
+    },
+    {
+      "number": 15,
+      "name": "Sakura Farrel(JPN)",
+      "odds": "102.7"
+    },
+    {
+      "number": 16,
+      "name": "Giovanni(JPN)",
+      "odds": "58.1"
+    },
+    {
+      "number": 17,
+      "name": "Danon Decile(JPN)",
+      "odds": "11.2"
+    }
+  ],
+  "limitation": "English source names; Japanese display mapping not validated here"
+}

@@ -1,0 +1,49 @@
+{
+  "round": 77,
+  "status": "PASSED",
+  "method": "Actual modules and events in offline DOM; not browser rendering",
+  "checks": [
+    {
+      "language": "zh",
+      "cases": [
+        "shortcut replacement and selection",
+        "empty/zero/negative/fraction/over-balance/unsafe/text rejected",
+        "invalid submission leaves cash and tickets unchanged",
+        "¥1 and non-hundred amounts accepted",
+        "quote math and recovery",
+        "low balance shortcuts disabled",
+        "two independent purchases debit exactly once",
+        "JP/AU theme attributes",
+        "no missing UI messages"
+      ]
+    },
+    {
+      "language": "ja",
+      "cases": [
+        "shortcut replacement and selection",
+        "empty/zero/negative/fraction/over-balance/unsafe/text rejected",
+        "invalid submission leaves cash and tickets unchanged",
+        "¥1 and non-hundred amounts accepted",
+        "quote math and recovery",
+        "low balance shortcuts disabled",
+        "two independent purchases debit exactly once",
+        "JP/AU theme attributes",
+        "no missing UI messages"
+      ]
+    },
+    {
+      "language": "en",
+      "cases": [
+        "shortcut replacement and selection",
+        "empty/zero/negative/fraction/over-balance/unsafe/text rejected",
+        "invalid submission leaves cash and tickets unchanged",
+        "¥1 and non-hundred amounts accepted",
+        "quote math and recovery",
+        "low balance shortcuts disabled",
+        "two independent purchases debit exactly once",
+        "JP/AU theme attributes",
+        "no missing UI messages"
+      ]
+    }
+  ]
+}

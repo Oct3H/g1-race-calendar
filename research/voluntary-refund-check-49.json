@@ -1,0 +1,35 @@
+{
+  "round": 49,
+  "date": "2026-10-23",
+  "previewUrl": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&game=tickets&refund=preview&v=49",
+  "scope": "Opt-in voluntary refund design preview; fictional in-memory records only",
+  "rules": {
+    "clock": "Computer system date in its current time zone",
+    "voluntaryRefund": "Allowed through D-3; blocked on D-2, D-1, D0 and all past dates; rechecked at confirmation",
+    "purchase": "Existing eligibility remains; D-1 allowed, D0 and past blocked",
+    "automaticOfficialRefund": "Unaffected by voluntary refund deadline",
+    "amount": "One selected ticket's full principal; retain history and source snapshot; bank and other tickets unchanged",
+    "ordinaryEntry": "Keeps original no-voluntary-refund rule until preview approval"
+  },
+  "checks": {
+    "check_voluntary_refund.mjs": "PASS: calendar cutoffs, Shanghai/Tokyo, DST, year/leap-month boundaries, purchase cutoff, single-ticket credit, idempotency, official refund independence",
+    "check_ticket_folder.mjs": "PASS: baseline and opt-in fixture, render, actual refund handler, keep-ticket no mutation, repeat no credit, stale confirmation rejected inline",
+    "check_ticket_confirmation.mjs": "PASS",
+    "check_game_preview.mjs": "PASS",
+    "check_change_preview.mjs": "PASS",
+    "static": "PASS: 152 static and 202 combined static/template IDs unique; local assets/imports exist; modified modules parse; CSS delimiters balanced",
+    "head": [
+      {"path": "/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&game=tickets&refund=preview&v=49", "status": 200, "cacheControl": "no-store"},
+      {"path": "/design.js?v=49", "status": 200, "cacheControl": "no-store"},
+      {"path": "/game-design.js?v=49", "status": 200, "cacheControl": "no-store"},
+      {"path": "/voluntary-refund-preview.mjs?v=49", "status": 200, "cacheControl": "no-store"},
+      {"path": "/ticket-folder.css?v=49", "status": 200, "cacheControl": "no-store"}
+    ],
+    "fixture": {"races": 4, "tickets": 9, "cashBefore": 485000, "refundedTicketPrincipal": 5000, "cashAfter": 490000, "sameHorseOtherTicketPending": 12000}
+  },
+  "limitations": [
+    "Existing local browser access restriction respected: no automated browser rendering, clicking, screenshot or visual measurement performed",
+    "Node DOM doubles validate logic and generated markup, not browser layout or native keyboard behavior",
+    "No persistence, actual official quotes or real result retrieval introduced"
+  ]
+}

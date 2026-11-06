@@ -1,0 +1,8 @@
+#race-dialog h2, #race-dialog .horse-profile-facts dd { overflow-wrap: anywhere; }
+#race-dialog .race-heading { flex-wrap: wrap; }
+#race-dialog .horse-name-button { min-width: 0; overflow-wrap: anywhere; }
+#history-panel [hidden] { display: none; }
+.history-unresolved { margin: 16px 0; padding: 16px; border: 1px solid #e8d9ad; border-radius: 12px; background: #fff9e9; color: #997c42; }
+.history-unresolved h3 { margin: 0 0 8px; font-size: 16px; }
+.history-unresolved p { margin: 8px 0; font-size: 12px; line-height: 1.8; }
+.history-unresolved small { display: block; font-size: 10px; }

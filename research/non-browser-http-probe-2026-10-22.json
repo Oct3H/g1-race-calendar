@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-22T17:11:30.013177+08:00",
+  "method": "Python standard-library urllib.request; no browser, cookies, credentials, custom headers, retries or anti-bot bypass",
+  "jra": {
+    "url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/g1.html",
+    "status": 403,
+    "outcome": "HTTPError after normal non-browser GET; earlier sandbox-only DNS failure is recorded separately from remote status"
+  },
+  "hkjc": {
+    "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251025&focus=Y&Racecourse=S1&RaceNo=10",
+    "status": 200,
+    "bytes": 33817,
+    "content_type": "text/html",
+    "declared_charset": null,
+    "html_check": {
+      "table_count": 0,
+      "table_row_count": 0,
+      "script_count": 43,
+      "loading_indicator": true,
+      "contains_known_winner_name": false,
+      "contains_race_name": false
+    },
+    "outcome": "HTTP 200 application shell: no result table/rows or known race/winner names. This response is not a successful race-data extraction."
+  },
+  "hkjc_public_config": {
+    "url": "https://racing.hkjc.com/simulcast/informationAsset/config/globalConfig.js",
+    "status": 200,
+    "bytes": 2849,
+    "observation": "Page-referenced public configuration includes GraphQL endpoint locations. No GraphQL query, data extraction, private credentials or supported API contract verified."
+  }
+}

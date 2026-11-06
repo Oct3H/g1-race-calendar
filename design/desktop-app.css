@@ -1,0 +1,23 @@
+body[data-desktop] :is(.review-bar, .change-review-entry, #calendar-state-study, .game-demo-controls, [data-i18n="welcomePreview"], .settings-footer, .density-preview-link) {
+  display: none !important;
+}
+
+body[data-desktop] #cache-view :is(.cache-demo-toolbar, .cache-overview, .cache-collection, .cache-years:not(.desktop-cache-panel), .cache-policy, .cache-review-footer) {
+  display: none;
+}
+
+.desktop-cache-panel p { margin: 0 0 16px; }
+.desktop-cache-panel button { margin: 0 8px 8px 0; }
+.desktop-source-note, .source-placeholder[data-live-source] { font-size: .9rem; }
+.source-placeholder[data-live-source] > :not(a, .desktop-source-time, .desktop-detail-refresh),
+dialog:not([data-live-race]) .source-placeholder[data-live-source] > :is(a, .desktop-source-time, .desktop-detail-refresh) { display: none; }
+dialog:not([data-live-race]) .source-placeholder[data-live-source] > :not(a, .desktop-source-time) { display: revert; }
+.source-placeholder[data-live-source] a, .desktop-source-note a { color: inherit; font-weight: 700; }
+
+dialog[data-live-race] :is(.odds-preview-control, #odds-status, .entry-sample-note, .horse-name-heading small, .runners-table th.result-only small, .odds-heading small, .desktop-history-missing, .runners-table th:nth-child(9)) {
+  display: none;
+}
+dialog[data-live-race] .runners-table .horse-name { font-weight: 700; }
+dialog[data-live-race] .horse-hero .sample-tag { display: none; }
+.desktop-detail-refresh { margin-inline-start: auto; }
+.horse-data-status a { margin-inline-start: 12px; }

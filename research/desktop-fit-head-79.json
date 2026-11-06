@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/index.html?preview=calendar&detailReview=preview&lang=zh&year=2026&month=10&v=79",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/index.html?preview=calendar&detailReview=preview&lang=en&year=2026&month=10&v=79",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/settings.html?lang=en&v=79",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/desktop-fit.css?v=79",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/design.js?v=79",
+    "status": 200,
+    "cacheControl": "no-store"
+  }
+]

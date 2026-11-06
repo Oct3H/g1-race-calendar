@@ -1,0 +1,44 @@
+{
+  "round": 52,
+  "date": "2026-10-24",
+  "previewUrl": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&quality=official-partial&entry=compact&race=quality-demo&refund=preview&v=52",
+  "request": "Centred Machikane Tannhauser crying expression bubble between prizes and table; open exception details on click",
+  "implementation": "Native details/summary, initially collapsed; CSS centred bubble; existing exception content moved under summary; all quality scenarios plus actual missing prize/time fields; normal complete data hides entry",
+  "asset": {
+    "file": "design/assets/machikane-tannhauser-cry.png",
+    "source": "https://github.com/Asanatsa/additional-sticker/tree/1a8b7da78e437738f8d98938421e7e78537be2ba/stickers/sblj",
+    "author": "是我祭祭哒",
+    "sourceLabel": "哭",
+    "dimensions": [
+      447,
+      412
+    ],
+    "colourType": 6,
+    "bytes": 197539,
+    "sha256": "ca69745bc13be41cb14eb1bcc85f7198f8f45bfe675adc9939daef1ea9747542",
+    "inspection": "Downloaded PNG visually inspected; pixels not edited; not claimed to be official game material"
+  },
+  "checks": {
+    "check_data_quality_preview.mjs": "PASS: placement after prizes/before table controls, native closed markup, seven states, normal missing fields, normal complete fields hidden, no ledger mutation, open state preserved on content refresh; existing quality/payment checks retained",
+    "check_change_preview.mjs": "PASS: entering race resets exception disclosure; existing change/refund behaviours retained",
+    "static": "PASS: 215 combined HTML/template IDs unique; literal resources/imports exist; changed modules parse; CSS delimiters balanced",
+    "head": {
+      "count": 6,
+      "allStatus": 200,
+      "allCacheControl": "no-store",
+      "paths": [
+        "/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&quality=official-partial&entry=compact&race=quality-demo&refund=preview&v=52",
+        "/design.js?v=52",
+        "/game-design.js?v=52",
+        "/data-quality-preview.mjs?v=52",
+        "/data-quality-preview.css?v=52",
+        "/assets/machikane-tannhauser-cry.png"
+      ]
+    }
+  },
+  "limitations": [
+    "No automated local browser access, rendering or screenshots; existing restriction respected",
+    "CSS centring and native markup inspected, not browser layout/native keyboard verification",
+    "Exception expansion does not settle, refund, fetch data or acknowledge financial notifications; no new storage or OS window behaviour"
+  ]
+}

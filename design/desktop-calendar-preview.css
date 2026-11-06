@@ -1,0 +1,311 @@
+/* Review-only window layout. Race cards, dialogs, palettes and their controls come from the existing calendar. */
+body[data-calendar-workspace-preview] > .app-header > :is(.month-control, .calendar-filter-controls),
+body[data-calendar-workspace-preview] .header-actions > #calendar-refresh {
+  display: none;
+}
+
+body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) {
+  --workspace-line: #e1ddda;
+  --workspace-ink: #554361;
+  height: 100dvh;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  overflow: hidden;
+  background: #faf9f5;
+}
+
+body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) > .app-header {
+  position: relative;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr) auto;
+  grid-template-areas: "brand month filters actions";
+  align-items: center;
+  gap: 10px 18px;
+  height: auto;
+  min-height: 58px;
+  padding: 7px 17px;
+  border-bottom: 1px solid var(--workspace-line);
+  background: linear-gradient(#fffcff, #f6f2f8);
+  box-shadow: inset 0 2px #a0d067;
+}
+
+[data-calendar-workspace-preview] .app-header .brand { grid-area: brand; }
+[data-calendar-workspace-preview] .app-header .month-control { grid-area: month; }
+[data-calendar-workspace-preview] .app-header .calendar-filter-controls { grid-area: filters; }
+[data-calendar-workspace-preview] .app-header .header-actions { grid-area: actions; }
+
+body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .app-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .brand .brand-emblem {
+  flex: 0 0 32px;
+  width: 32px;
+  height: 32px;
+  transform: none;
+}
+[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .brand-emblem svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .brand strong { font-size: 15px; white-space: nowrap; }
+[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .brand small { display: none; }
+
+body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) > .app-header > .month-control {
+  display: flex;
+  gap: 7px;
+}
+
+[data-calendar-workspace-preview] .app-header .month-title {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  min-width: 0 !important;
+  padding: 3px 19px 3px 5px !important;
+  white-space: nowrap;
+}
+
+[data-calendar-workspace-preview] .month-title .year { font-size: 15px; color: #79648a; }
+[data-calendar-workspace-preview] #calendar-title { margin: 0; font-size: 23px; line-height: 1.1; color: #503e60; }
+[data-calendar-workspace-preview] #calendar-title span { margin-left: 2px; font-size: 15px; }
+[data-calendar-workspace-preview] .month-title .english-month { display: none; }
+[data-calendar-workspace-preview] .month-jump-hit { inset: 0; }
+[data-calendar-workspace-preview] .month-jump-hit i { inset: 5px 4px auto auto; font-size: 14px; }
+[data-calendar-workspace-preview] .app-header .arrow-button { width: 28px; height: 28px; min-width: 28px; font-size: 16px; }
+
+body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) > .app-header > .calendar-filter-controls {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+  min-width: 0;
+}
+
+[data-calendar-workspace-preview] .app-header .region-filters { padding: 3px; gap: 1px; }
+[data-calendar-workspace-preview] .app-header .filter { padding: 6px 9px; font-size: 11px; white-space: nowrap; }
+[data-calendar-workspace-preview] .app-header .calendar-soft-button { padding: 6px 9px; font-size: 11px; }
+body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .app-header .header-actions {
+  width: auto;
+  flex-wrap: nowrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) #calendar-refresh {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 6px 10px;
+  border: 1px solid #b5ca97;
+  border-radius: 11px;
+  color: #50663b;
+  background: linear-gradient(#fbfff5, #edf5e1);
+  box-shadow: 0 1px #cad9b8, inset 0 1px #fff;
+  font-size: 11px;
+  font-weight: 750;
+  white-space: nowrap;
+}
+[data-calendar-workspace-preview] #calendar-refresh:enabled:hover { background: #e8f3d9; }
+[data-calendar-workspace-preview] #calendar-refresh:disabled { opacity: .6; cursor: progress; }
+
+[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .game-shop-launcher,
+[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .game-shop-launcher img {
+  width: 43px;
+  height: 43px;
+}
+[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .settings-menu-trigger {
+  min-height: 32px;
+  padding: 6px 9px;
+  border-radius: 11px;
+  gap: 5px;
+}
+[data-calendar-workspace-preview] .settings-menu-trigger svg { width: 14px; height: 14px; }
+
+[data-calendar-workspace-preview] #game-dialog[open] {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+[data-calendar-workspace-preview] #game-dialog > .dialog-ribbon {
+  flex: none;
+  position: relative;
+}
+[data-calendar-workspace-preview] #game-dialog > .game-body {
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: inherit;
+}
+
+body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) > main {
+  width: 100%;
+  max-width: none;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+[data-calendar-workspace-preview] #calendar-view:not([hidden]) {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  height: 100%;
+  min-height: 0;
+}
+
+[data-calendar-workspace-preview] #calendar-view > :not(.calendar-shell, .workspace-status),
+[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .page-footer,
+[data-calendar-workspace-preview] #calendar-view > .calendar-shell > .calendar-toolbar {
+  display: none !important;
+}
+
+[data-calendar-workspace-preview] .calendar-shell {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: #fffdfb;
+}
+
+[data-calendar-workspace-preview] .workspace-calendar-scroll {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: auto;
+}
+
+[data-calendar-workspace-preview] .workspace-calendar-scroll:focus-visible { outline: 2px solid #a080c0; outline-offset: -2px; }
+[data-calendar-workspace-preview] .weekday-row { position: sticky; top: 0; z-index: 3; flex: none; min-width: 0; border-top: 0; }
+[data-calendar-workspace-preview] .weekday-row > div { padding-block: 8px; }
+[data-calendar-workspace-preview] .month-grid { flex: 1 0 auto; min-width: 0; grid-auto-rows: minmax(86px, auto); }
+[data-calendar-workspace-preview] .month-grid .day { min-width: 0; min-height: 86px; padding: 7px 6px 8px; }
+[data-calendar-workspace-preview] .month-grid .day:nth-child(7n) { border-right: 0; }
+[data-calendar-workspace-preview] .month-grid .date { height: 22px; margin-bottom: 2px; }
+[data-calendar-workspace-preview] .month-grid .race-card { min-height: 0; padding: 5px 7px; }
+[data-calendar-workspace-preview] .month-grid .card-top { margin-bottom: 2px; }
+[data-calendar-workspace-preview] .month-grid .race-name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  line-height: 1.3;
+}
+
+.workspace-status {
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 34px;
+  padding: 4px 12px;
+  border-top: 1px solid var(--workspace-line);
+  background: #faf7fc;
+  color: #725d80;
+  font-size: 11px;
+}
+
+body[data-calendar-workspace-preview] .workspace-status .calendar-hint {
+  flex: none;
+  width: auto;
+  text-align: left;
+}
+[data-calendar-workspace-preview] .workspace-status .calendar-hint small { display: none; }
+[data-calendar-workspace-preview] .workspace-status .calendar-hint #calendar-month-summary { color: var(--workspace-ink); }
+[data-calendar-workspace-preview] .workspace-status .calendar-update {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  gap: 6px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+[data-calendar-workspace-preview] .workspace-status .calendar-update > div {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+[data-calendar-workspace-preview] .workspace-status .calendar-update strong { font-size: 11px; color: #62556a; }
+[data-calendar-workspace-preview] .workspace-status .calendar-update small { min-width: 0; overflow: hidden; text-overflow: ellipsis; color: #7b6d81; }
+[data-calendar-workspace-preview] .workspace-status .calendar-update:is([data-state="failed"], [data-state="offline"]) strong { color: #925c35; }
+[data-calendar-workspace-preview] .workspace-status .update-orb { width: 16px; height: 16px; border-width: 1px; font-size: 10px; }
+
+.workspace-preview-badge {
+  flex: none;
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: #69547e;
+  background: #eee5f5;
+  font-size: 10px;
+  font-weight: 700;
+}
+.workspace-status-details { position: relative; flex: none; }
+.workspace-zone { display: block; margin: 5px 8px; color: #725d80; }
+.workspace-status-details > summary { padding: 4px; cursor: pointer; font-weight: 750; white-space: nowrap; }
+.workspace-status-panel {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 9px);
+  width: min(440px, calc(100vw - 24px));
+  max-height: min(490px, 68dvh);
+  padding: 12px;
+  overflow-y: auto;
+  border: 1px solid #d9cbe2;
+  border-radius: 14px;
+  background: #fffcff;
+  box-shadow: 0 8px 26px #57406226;
+}
+[data-calendar-workspace-preview] .workspace-status-panel > .calendar-footer {
+  min-width: 0;
+  flex-wrap: wrap;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+}
+[data-calendar-workspace-preview] .workspace-status-panel > :is(.calendar-state-study, .calendar-change-study) {
+  margin: 9px 0 0;
+  padding: 9px;
+}
+
+@media (max-width: 1110px) {
+  [data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) .brand > :last-child { display: none; }
+  body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) > .app-header { column-gap: 9px; }
+}
+
+@media (max-width: 830px) {
+  body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) > .app-header {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas: "brand month actions" "filters filters filters";
+    row-gap: 3px;
+    padding: 6px 9px;
+  }
+  body[data-calendar-workspace-preview]:has(#calendar-view:not([hidden])) > .app-header > .calendar-filter-controls {
+    justify-content: start;
+  }
+  [data-calendar-workspace-preview] .month-grid .day { padding-inline: 4px; }
+  [data-calendar-workspace-preview] .month-grid .race-card { padding: 4px 5px; }
+  [data-calendar-workspace-preview] .weekday-row > div > span { display: none; }
+  [data-calendar-workspace-preview] #calendar-checked-at { display: none; }
+  .workspace-status { gap: 5px 8px; flex-wrap: wrap; }
+  .workspace-status .calendar-update { flex-basis: 235px; }
+  .workspace-status-details { margin-left: auto; }
+}

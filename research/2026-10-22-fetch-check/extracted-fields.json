@@ -1,0 +1,824 @@
+{
+  "checked_at": "2026-10-22T11:21:04.096046+00:00",
+  "method": "Offline parsing and identity/row-count/field assertions against saved direct HTTP responses; no browser; no fabricated missing values",
+  "sources": {
+    "jra_2026_directory": {
+      "url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/g1.html",
+      "passed": false,
+      "status": 403,
+      "missing": [
+        "年度赛事目录",
+        "未来赛事自动发现链路"
+      ],
+      "reason": "HTTP 403; not bypassed"
+    },
+    "jra_arima_2025_result": {
+      "url": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2025.html",
+      "passed": false,
+      "status": 403,
+      "missing": [
+        "赛事身份",
+        "逐马赛果",
+        "赔率"
+      ],
+      "reason": "HTTP 403; not bypassed"
+    },
+    "nar_teio_2025": {
+      "urls": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2025%2F07%2F02&k_raceNo=11&k_babaCode=20",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F07%2F02&k_raceNo=11&k_babaCode=20"
+      ],
+      "passed": true,
+      "status": [
+        200,
+        200
+      ],
+      "identity": {
+        "name_raw": "第４８回 帝王賞JpnＩ４上選定馬重賞",
+        "date": "2025-07-02",
+        "course": "大井",
+        "race_no": 11,
+        "grade_raw": "JpnＩ",
+        "surface_raw": "ダート",
+        "distance_m": 2000,
+        "winner_prize_jpy": 80000000
+      },
+      "entries": [
+        {
+          "horse_no": 1,
+          "horse_name": "ヒーローコール",
+          "horse_source_id": "30076401076",
+          "jockey_raw": "山中悠（船橋）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 2,
+          "horse_name": "ミッキーファイト",
+          "horse_source_id": "30097400486",
+          "jockey_raw": "ルメー（JRA）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 3,
+          "horse_name": "アウトレンジ",
+          "horse_source_id": "30097406476",
+          "jockey_raw": "松山弘（JRA）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 4,
+          "horse_name": "シンメデージー",
+          "horse_source_id": "30002404186",
+          "jockey_raw": "吉原寛（金沢）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 5,
+          "horse_name": "ディクテオン",
+          "horse_source_id": "30027403356",
+          "jockey_raw": "矢野貴（大井）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 6,
+          "horse_name": "ラムジェット",
+          "horse_source_id": "30018405586",
+          "jockey_raw": "三浦皇（JRA）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 7,
+          "horse_name": "オピニオンリーダー",
+          "horse_source_id": "30052409076",
+          "jockey_raw": "本田重（船橋）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 8,
+          "horse_name": "ヴィアメント",
+          "horse_source_id": "30086405646",
+          "jockey_raw": "クアト（大井）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 9,
+          "horse_name": "メイショウハリオ",
+          "horse_source_id": "30078409246",
+          "jockey_raw": "濱中俊（JRA）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 10,
+          "horse_name": "ミックファイア",
+          "horse_source_id": "30056401276",
+          "jockey_raw": "御神訓（大井）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 11,
+          "horse_name": "キタノヴィジョン",
+          "horse_source_id": "30083406846",
+          "jockey_raw": "石川倭（北海道）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 12,
+          "horse_name": "ウィルソンテソーロ",
+          "horse_source_id": "30054408266",
+          "jockey_raw": "川田将（JRA）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 13,
+          "horse_name": "グランデマーレ",
+          "horse_source_id": "30076402946",
+          "jockey_raw": "本村直（大井）",
+          "win_odds_raw": null
+        },
+        {
+          "horse_no": 14,
+          "horse_name": "ノットゥルノ",
+          "horse_source_id": "30093408466",
+          "jockey_raw": "武 豊（JRA）",
+          "win_odds_raw": null
+        }
+      ],
+      "results": [
+        {
+          "position_raw": "1",
+          "horse_no": 2,
+          "horse_name": "ミッキーファイト",
+          "jockey_raw": "ルメー （JRA）",
+          "trainer_raw": "田中博",
+          "finish_time": "2:03.1",
+          "margin_raw": null,
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "2",
+          "horse_no": 3,
+          "horse_name": "アウトレンジ",
+          "jockey_raw": "松山弘 （JRA）",
+          "trainer_raw": "大久龍",
+          "finish_time": "2:03.1",
+          "margin_raw": "クビ",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "3",
+          "horse_no": 14,
+          "horse_name": "ノットゥルノ",
+          "jockey_raw": "武 豊 （JRA）",
+          "trainer_raw": "中舘英",
+          "finish_time": "2:03.6",
+          "margin_raw": "2.1/2",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "4",
+          "horse_no": 5,
+          "horse_name": "ディクテオン",
+          "jockey_raw": "矢野貴 （大井）",
+          "trainer_raw": "荒山勝",
+          "finish_time": "2:03.9",
+          "margin_raw": "1.1/2",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "5",
+          "horse_no": 12,
+          "horse_name": "ウィルソンテソーロ",
+          "jockey_raw": "川田将 （JRA）",
+          "trainer_raw": "高木登",
+          "finish_time": "2:04.1",
+          "margin_raw": "1.1/4",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "6",
+          "horse_no": 6,
+          "horse_name": "ラムジェット",
+          "jockey_raw": "三浦皇 （JRA）",
+          "trainer_raw": "佐々晶",
+          "finish_time": "2:04.4",
+          "margin_raw": "1.1/2",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "7",
+          "horse_no": 7,
+          "horse_name": "オピニオンリーダー",
+          "jockey_raw": "本田重 （船橋）",
+          "trainer_raw": "小久智",
+          "finish_time": "2:04.5",
+          "margin_raw": "1/2",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "8",
+          "horse_no": 8,
+          "horse_name": "ヴィアメント",
+          "jockey_raw": "クアト （大井）",
+          "trainer_raw": "藤田輝",
+          "finish_time": "2:05.3",
+          "margin_raw": "4",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "9",
+          "horse_no": 4,
+          "horse_name": "シンメデージー",
+          "jockey_raw": "吉原寛 （金沢）",
+          "trainer_raw": "打越勇",
+          "finish_time": "2:05.5",
+          "margin_raw": "1",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "10",
+          "horse_no": 11,
+          "horse_name": "キタノヴィジョン",
+          "jockey_raw": "石川倭 （北海道）",
+          "trainer_raw": "渡邉和",
+          "finish_time": "2:05.7",
+          "margin_raw": "1.1/4",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "11",
+          "horse_no": 10,
+          "horse_name": "ミックファイア",
+          "jockey_raw": "御神訓 （大井）",
+          "trainer_raw": "渡邉和",
+          "finish_time": "2:06.0",
+          "margin_raw": "1.1/2",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "12",
+          "horse_no": 1,
+          "horse_name": "ヒーローコール",
+          "jockey_raw": "山中悠 （船橋）",
+          "trainer_raw": "小久智",
+          "finish_time": "2:07.8",
+          "margin_raw": "9",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "13",
+          "horse_no": 13,
+          "horse_name": "グランデマーレ",
+          "jockey_raw": "本村直 （大井）",
+          "trainer_raw": "高岩孝",
+          "finish_time": "2:09.1",
+          "margin_raw": "6",
+          "win_odds_raw": null
+        },
+        {
+          "position_raw": "除外",
+          "horse_no": 9,
+          "horse_name": "メイショウハリオ",
+          "jockey_raw": "濱中俊 （JRA）",
+          "trainer_raw": "岡田稲",
+          "finish_time": null,
+          "margin_raw": null,
+          "win_odds_raw": null
+        }
+      ],
+      "missing": [
+        "14 匹历史逐马单胜赔率均为空；单胜派彩 170 円另存于原表，不冒充逐马赔率",
+        "本次不是年度发现或未来公布窗口验证"
+      ]
+    },
+    "hkjc_cup_2025": {
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?RaceNo=8&racecourse=ST&racedate=2025%2F12%2F14",
+      "passed": true,
+      "status": 200,
+      "identity": {
+        "date": "2025-12-14",
+        "name_raw": "浪琴香港盃",
+        "grade_distance_raw": "一級賽 - 2000米",
+        "course": "沙田",
+        "surface_raw": "草地 - \"A\" 賽道",
+        "total_prize_raw": "HK$ 40,000,000"
+      },
+      "headers_raw": [
+        "名次",
+        "馬號",
+        "馬名",
+        "騎師",
+        "練馬師",
+        "實際 負磅",
+        "排位 體重",
+        "檔位",
+        "頭馬 距離",
+        "沿途 走位",
+        "完成 時間",
+        "獨贏 賠率"
+      ],
+      "results": [
+        {
+          "position": 1,
+          "horse_no": 1,
+          "horse_name_raw": "浪漫勇士 (E486)",
+          "jockey": "麥道朗",
+          "trainer": "沈集成",
+          "margin_from_winner_raw": "---",
+          "finish_time": "2:02.29",
+          "win_odds_raw": "1.1"
+        },
+        {
+          "position": 2,
+          "horse_no": 2,
+          "horse_name_raw": "寶徠歌劇 (L907)",
+          "jockey": "橫山和生",
+          "trainer": "上村洋行",
+          "margin_from_winner_raw": "1-3/4",
+          "finish_time": "2:02.56",
+          "win_odds_raw": "9.4"
+        },
+        {
+          "position": 3,
+          "horse_no": 7,
+          "horse_name_raw": "健身心 (L910)",
+          "jockey": "蘇銘倫",
+          "trainer": "葛威法",
+          "margin_from_winner_raw": "5-1/4",
+          "finish_time": "2:03.11",
+          "win_odds_raw": "10"
+        },
+        {
+          "position": 4,
+          "horse_no": 4,
+          "horse_name_raw": "名醫 (L909)",
+          "jockey": "麥文堅",
+          "trainer": "岳本賢",
+          "margin_from_winner_raw": "5-1/2",
+          "finish_time": "2:03.16",
+          "win_odds_raw": "34"
+        },
+        {
+          "position": 5,
+          "horse_no": 3,
+          "horse_name_raw": "利森名園 (J814)",
+          "jockey": "李慕華",
+          "trainer": "田中博康",
+          "margin_from_winner_raw": "5-3/4",
+          "finish_time": "2:03.20",
+          "win_odds_raw": "43"
+        },
+        {
+          "position": 6,
+          "horse_no": 6,
+          "horse_name_raw": "禪勝輝煌 (H212)",
+          "jockey": "紀仁安",
+          "trainer": "呂健威",
+          "margin_from_winner_raw": "6",
+          "finish_time": "2:03.24",
+          "win_odds_raw": "47"
+        },
+        {
+          "position": 7,
+          "horse_no": 5,
+          "horse_name_raw": "直線力山 (G435)",
+          "jockey": "韋紀力",
+          "trainer": "大衛希斯",
+          "margin_from_winner_raw": "8-3/4",
+          "finish_time": "2:03.68",
+          "win_odds_raw": "31"
+        }
+      ],
+      "missing": [
+        "本次历史赛果不证明赛前赔率可刷新",
+        "未核对整年覆盖或赛前出马表发布流程"
+      ]
+    },
+    "hkjc_cox_2025_html": {
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251025&focus=Y&Racecourse=S1&RaceNo=10",
+      "passed": false,
+      "status": 200,
+      "table_count": 0,
+      "missing": [
+        "逐马数据"
+      ],
+      "reason": "HTML application shell; a separate public query succeeded below"
+    },
+    "hkjc_cox_2025_public_query": {
+      "url": "https://info.cld.hkjc.com/graphql/base/",
+      "passed": true,
+      "status": 200,
+      "identity": {
+        "id": "20251025S109",
+        "no": 10,
+        "raceName_en": "Cox Plate",
+        "postTime": "2025-10-25T14:40:00+08:00",
+        "country_en": "Australia",
+        "distance": 2040,
+        "raceTrack": {
+          "description_en": "Turf",
+          "description_ch": "草地"
+        },
+        "raceCourse": {
+          "description_en": "Moonee Valley Racecourse",
+          "description_ch": "滿利谷馬場",
+          "displayCode": ""
+        },
+        "raceClass_en": "Group 1",
+        "raceResults": [
+          {
+            "status": "WCFULLMARGIN",
+            "raceTime": "2:05.03",
+            "mgnInd": "L"
+          }
+        ]
+      },
+      "results": [
+        {
+          "horse": {
+            "id": "20251025S10901H",
+            "name_en": "Light Infantry Man (FR)",
+            "name_ch": "輕取勝"
+          },
+          "color": "20251025_S1_r9_h01",
+          "id": "20251025S10901",
+          "no": "1",
+          "handicapWeight": "130",
+          "jockey": {
+            "code": "20251025S10901J",
+            "name_en": "Ethan Brown",
+            "name_ch": "布浩榮"
+          },
+          "trainer": {
+            "code": "20251025S10901T",
+            "name_en": "Ciaron Maher",
+            "name_ch": "馬漢雅"
+          },
+          "last6run": "9/6/11/11/1",
+          "internationalRating": "115",
+          "sire": "Fast Company (IRE)",
+          "sexNm": {
+            "chinese": "閹",
+            "english": "G"
+          },
+          "age": 7,
+          "barrierDrawNumber": "8",
+          "gearInfo": "",
+          "margin": null,
+          "marginNm": null,
+          "lbwNm": {
+            "chinese": "3.45 馬位",
+            "english": "3.45 LENGTHS"
+          },
+          "winOdds": "31",
+          "finalPosition": 5,
+          "deadHeat": false,
+          "status": "Ran"
+        },
+        {
+          "horse": {
+            "id": "20251025S10902H",
+            "name_en": "Antino (NZ)",
+            "name_ch": "好天朗"
+          },
+          "color": "20251025_S1_r9_h02",
+          "id": "20251025S10902",
+          "no": "2",
+          "handicapWeight": "130",
+          "jockey": {
+            "code": "20251025S10902J",
+            "name_en": "Blake Shinn",
+            "name_ch": "薛恩"
+          },
+          "trainer": {
+            "code": "20251025S10902T",
+            "name_en": "Tony Gollan",
+            "name_ch": "高亮能"
+          },
+          "last6run": "2/4/5/1/1",
+          "internationalRating": "120",
+          "sire": "Redwood (GB)",
+          "sexNm": {
+            "chinese": "閹",
+            "english": "G"
+          },
+          "age": 7,
+          "barrierDrawNumber": "6",
+          "gearInfo": "B",
+          "margin": null,
+          "marginNm": null,
+          "lbwNm": {
+            "chinese": "7.7 馬位",
+            "english": "7.7 LENGTHS"
+          },
+          "winOdds": "4.7",
+          "finalPosition": 8,
+          "deadHeat": false,
+          "status": "Ran"
+        },
+        {
+          "horse": {
+            "id": "20251025S10903H",
+            "name_en": "Attrition (AUS)",
+            "name_ch": "耗敵"
+          },
+          "color": "20251025_S1_r9_h03",
+          "id": "20251025S10903",
+          "no": "3",
+          "handicapWeight": "130",
+          "jockey": {
+            "code": "20251025S10903J",
+            "name_en": "Craig Williams",
+            "name_ch": "韋紀力"
+          },
+          "trainer": {
+            "code": "20251025S10903T",
+            "name_en": "Mitchell Freedman",
+            "name_ch": "菲道明"
+          },
+          "last6run": "2/3/3/9/8",
+          "internationalRating": "111",
+          "sire": "Churchill (IRE)",
+          "sexNm": {
+            "chinese": "雄",
+            "english": "H"
+          },
+          "age": 6,
+          "barrierDrawNumber": "2",
+          "gearInfo": "V/TT",
+          "margin": null,
+          "marginNm": null,
+          "lbwNm": {
+            "chinese": "3.35 馬位",
+            "english": "3.35 LENGTHS"
+          },
+          "winOdds": "33",
+          "finalPosition": 4,
+          "deadHeat": false,
+          "status": "Ran"
+        },
+        {
+          "horse": {
+            "id": "20251025S10904H",
+            "name_en": "Buckaroo (GB)",
+            "name_ch": "實幹牛仔"
+          },
+          "color": "20251025_S1_r9_h04",
+          "id": "20251025S10904",
+          "no": "4",
+          "handicapWeight": "130",
+          "jockey": {
+            "code": "20251025S10904J",
+            "name_en": "Mark Zahra",
+            "name_ch": "薛凱華"
+          },
+          "trainer": {
+            "code": "20251025S10904T",
+            "name_en": "Chris Waller",
+            "name_ch": "華禮納"
+          },
+          "last6run": "3/2/3/10/7",
+          "internationalRating": "114",
+          "sire": "Fastnet Rock (AUS)",
+          "sexNm": {
+            "chinese": "閹",
+            "english": "G"
+          },
+          "age": 7,
+          "barrierDrawNumber": "4",
+          "gearInfo": "B/TT",
+          "margin": null,
+          "marginNm": null,
+          "lbwNm": {
+            "chinese": "0.1 馬位",
+            "english": "0.1 LENGTH"
+          },
+          "winOdds": "15",
+          "finalPosition": 2,
+          "deadHeat": false,
+          "status": "Ran"
+        },
+        {
+          "horse": {
+            "id": "20251025S10905H",
+            "name_en": "Globe (NZ)",
+            "name_ch": "全地球"
+          },
+          "color": "20251025_S1_r9_h05",
+          "id": "20251025S10905",
+          "no": "5",
+          "handicapWeight": "130",
+          "jockey": {
+            "code": "20251025S10905J",
+            "name_en": "Ben Melham",
+            "name_ch": "苗康文"
+          },
+          "trainer": {
+            "code": "20251025S10905T",
+            "name_en": "M Price & M Kent (Jnr)",
+            "name_ch": "佩思及肯爾迪"
+          },
+          "last6run": "1/2/4/2/13",
+          "internationalRating": "115",
+          "sire": "Charm Spirit (IRE)",
+          "sexNm": {
+            "chinese": "閹",
+            "english": "G"
+          },
+          "age": 7,
+          "barrierDrawNumber": "7",
+          "gearInfo": "",
+          "margin": null,
+          "marginNm": null,
+          "lbwNm": null,
+          "winOdds": "",
+          "finalPosition": 0,
+          "deadHeat": false,
+          "status": "Scratched"
+        },
+        {
+          "horse": {
+            "id": "20251025S10906H",
+            "name_en": "Via Sistina (IRE)",
+            "name_ch": "精緻之道"
+          },
+          "color": "20251025_S1_r9_h06",
+          "id": "20251025S10906",
+          "no": "6",
+          "handicapWeight": "126",
+          "jockey": {
+            "code": "20251025S10906J",
+            "name_en": "James McDonald",
+            "name_ch": "麥道朗"
+          },
+          "trainer": {
+            "code": "20251025S10906T",
+            "name_en": "Chris Waller",
+            "name_ch": "華禮納"
+          },
+          "last6run": "3/3/1/1/1",
+          "internationalRating": "127",
+          "sire": "Fastnet Rock (AUS)",
+          "sexNm": {
+            "chinese": "雌",
+            "english": "M"
+          },
+          "age": 8,
+          "barrierDrawNumber": "5",
+          "gearInfo": "XB",
+          "margin": null,
+          "marginNm": null,
+          "lbwNm": {
+            "chinese": "-",
+            "english": "-"
+          },
+          "winOdds": "1.9",
+          "finalPosition": 1,
+          "deadHeat": false,
+          "status": "Ran"
+        },
+        {
+          "horse": {
+            "id": "20251025S10907H",
+            "name_en": "Treasurethe Moment (AUS)",
+            "name_ch": "珍惜當下"
+          },
+          "color": "20251025_S1_r9_h07",
+          "id": "20251025S10907",
+          "no": "7",
+          "handicapWeight": "122",
+          "jockey": {
+            "code": "20251025S10907J",
+            "name_en": "Damian Lane",
+            "name_ch": "連達文"
+          },
+          "trainer": {
+            "code": "20251025S10907T",
+            "name_en": "Matt Laurie",
+            "name_ch": "羅滿德"
+          },
+          "last6run": "2/2/1/1/1",
+          "internationalRating": "115",
+          "sire": "Alabama Express (AUS)",
+          "sexNm": {
+            "chinese": "雌",
+            "english": "F"
+          },
+          "age": 4,
+          "barrierDrawNumber": "1",
+          "gearInfo": "CP",
+          "margin": null,
+          "marginNm": null,
+          "lbwNm": {
+            "chinese": "1.6 馬位",
+            "english": "1.6 LENGTHS"
+          },
+          "winOdds": "5.7",
+          "finalPosition": 3,
+          "deadHeat": false,
+          "status": "Ran"
+        },
+        {
+          "horse": {
+            "id": "20251025S10908H",
+            "name_en": "Aeliana (NZ)",
+            "name_ch": "陽光小姐"
+          },
+          "color": "20251025_S1_r9_h08",
+          "id": "20251025S10908",
+          "no": "8",
+          "handicapWeight": "122",
+          "jockey": {
+            "code": "20251025S10908J",
+            "name_en": "Hugh Bowman",
+            "name_ch": "布文"
+          },
+          "trainer": {
+            "code": "20251025S10908T",
+            "name_en": "Chris Waller",
+            "name_ch": "華禮納"
+          },
+          "last6run": "5/2/2/1/2",
+          "internationalRating": "114",
+          "sire": "Castelvecchio (AUS)",
+          "sexNm": {
+            "chinese": "雌",
+            "english": "F"
+          },
+          "age": 4,
+          "barrierDrawNumber": "7",
+          "gearInfo": "",
+          "margin": null,
+          "marginNm": null,
+          "lbwNm": {
+            "chinese": "5.2 馬位",
+            "english": "5.2 LENGTHS"
+          },
+          "winOdds": "7.3",
+          "finalPosition": 6,
+          "deadHeat": false,
+          "status": "Ran"
+        },
+        {
+          "horse": {
+            "id": "20251025S10909H",
+            "name_en": "Nepotism (AUS)",
+            "name_ch": "起任唯親"
+          },
+          "color": "20251025_S1_r9_h09",
+          "id": "20251025S10909",
+          "no": "9",
+          "handicapWeight": "109",
+          "jockey": {
+            "code": "20251025S10909J",
+            "name_en": "Zac Lloyd",
+            "name_ch": "勞樑棟"
+          },
+          "trainer": {
+            "code": "20251025S10909T",
+            "name_en": "M, J & W Hawkes",
+            "name_ch": "賀米高、賀嘉時及賀維恩"
+          },
+          "last6run": "7/8/9/1/1",
+          "internationalRating": "105",
+          "sire": "Brutal (NZ)",
+          "sexNm": {
+            "chinese": "雄",
+            "english": "C"
+          },
+          "age": 3,
+          "barrierDrawNumber": "3",
+          "gearInfo": "",
+          "margin": null,
+          "marginNm": null,
+          "lbwNm": {
+            "chinese": "5.7 馬位",
+            "english": "5.7 LENGTHS"
+          },
+          "winOdds": "21",
+          "finalPosition": 7,
+          "deadHeat": false,
+          "status": "Ran"
+        }
+      ],
+      "missing": [
+        "本查询未请求赏金",
+        "近五场只有 last6run 简写，未取得逐场赛事详情",
+        "仅为当前公开网页使用的内部查询响应，不是已验证的正式稳定 API 合同",
+        "单场历史赛果不证明赛前实时赔率或未来赛事自动发现"
+      ]
+    }
+  },
+  "overall": {
+    "passed": [
+      "NAR 静态出马表与赛果名单匹配",
+      "HKJC 香港盃静态 HTML 七匹赛果与独赢赔率",
+      "HKJC Cox Plate 公开查询八匹赛果、赔率及一匹退出"
+    ],
+    "not_passed": [
+      "JRA 无浏览器年度目录与赛事详情",
+      "应用的端到端自动发现/合并/持久缓存更新",
+      "未来出马表公布后的真实更新窗口",
+      "赛前赔率连续可用性与所有地区覆盖"
+    ]
+  }
+}

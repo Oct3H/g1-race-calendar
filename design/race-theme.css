@@ -1,0 +1,161 @@
+/* The palette lives in style.css and is shared with the calendar bubbles. */
+dialog[data-color-region],
+#game-dialog[data-color-region] {
+  border-color: var(--region-border);
+  box-shadow: 0 6px 0 var(--region-shadow), 0 25px 100px #35244540;
+}
+
+#game-dialog[data-color-region] {
+  scrollbar-color: var(--region-border) var(--cream);
+}
+
+dialog[data-color-region] .dialog-ribbon,
+#game-dialog[data-color-region] .dialog-ribbon {
+  background: linear-gradient(#ffffff35, #00000008), var(--region-ink);
+  border-bottom-color: var(--region-ink);
+}
+
+dialog[data-color-region] :is(.dialog-body > h2, .race-region, .entry-header h3,
+  .source-placeholder b, .horse-hero h2, .horse-form-heading h3,
+  .history-result-heading, .back-to-entries, .current-race-button,
+  .past-race-button, #history-horse-name) {
+  color: var(--region-ink);
+}
+
+dialog[data-color-region] :is(.race-facts, .entry-table, .horse-profile-facts > div,
+  .horse-race-summary > div, .history-result) {
+  border-color: var(--region-border);
+}
+
+dialog[data-color-region] :is(.entry-view-switch, .runners-table thead,
+  .horse-profile-facts > div, .horse-race-summary > div) {
+  background: var(--region-fill);
+}
+
+dialog[data-color-region] .entry-view-switch {
+  border-color: var(--region-border);
+}
+
+dialog[data-color-region] :is(.entry-view-switch button, .runners-table thead,
+  .runners-table thead th small, .horse-profile-facts dd, .horse-race-summary b) {
+  color: var(--region-ink);
+}
+
+dialog[data-color-region] .entry-view-switch button[aria-pressed="true"] {
+  color: #fff;
+  border-color: var(--region-ink);
+  background: linear-gradient(#ffffff35, transparent), var(--region-ink);
+  box-shadow: inset 0 1px 0 #ffffff66, 0 2px 0 var(--region-ink);
+  text-shadow: 0 1px 1px #00000025;
+}
+
+dialog[data-color-region] .runners-table tbody tr:not([data-finish="win"]) .horse-name-button,
+dialog[data-color-region] .horse-name-button span {
+  color: var(--region-ink);
+}
+
+dialog[data-color-region] .runners-table tbody tr:hover {
+  background: var(--region-fill);
+}
+
+dialog[data-color-region] .horse-emblem {
+  background: linear-gradient(145deg, #ffffff45, transparent), var(--region-ink);
+  border-color: var(--region-border);
+  box-shadow: inset 0 2px 0 #ffffff70, 0 3px 0 var(--region-shadow);
+}
+
+dialog[data-color-region] .primary-button,
+#race-dialog[data-color-region] .game-primary,
+#game-dialog[data-color-region] .game-primary {
+  background: linear-gradient(#ffffff35, transparent), var(--region-ink);
+  border-color: var(--region-ink);
+  color: #fff;
+  box-shadow: inset 0 2px 0 #ffffff77, 0 4px 0 var(--region-ink);
+  text-shadow: 0 1px 1px #00000030;
+}
+
+dialog[data-color-region] .primary-button:active,
+#race-dialog[data-color-region] .game-primary:active,
+#game-dialog[data-color-region] .game-primary:active:not(:disabled) {
+  box-shadow: inset 0 2px 0 #ffffff77, 0 2px 0 var(--region-ink);
+}
+
+#game-dialog[data-color-region] .close-button {
+  color: var(--region-ink);
+}
+
+#game-dialog[data-color-region] :is(.game-heading h2, .game-heading p,
+  .game-bet-race, .game-bet-race > small, .game-horse-choices legend,
+  .game-horse-choices b, .game-ticket-preview-heading,
+  .game-ticket-preview-heading > span, .game-ticket-selection > b,
+  .game-ticket-balance, .game-ticket-balance b, .game-amount-row,
+  .game-amount-row input, .game-text-button, .game-quick-amounts button,
+  .game-result-details > div, .game-result-details b, #game-result-caption) {
+  color: var(--region-ink);
+}
+
+#game-dialog[data-color-region] :is(.game-bet-race, .game-ticket-preview,
+  .game-amount-row, .game-text-button, .game-quick-amounts button,
+  .game-horse-choices label, .game-ticket-preview-heading, .game-result-details) {
+  border-color: var(--region-border);
+}
+
+#game-dialog[data-color-region] :is(.game-bet-race, .game-text-button,
+  .game-quick-amounts button) {
+  background: linear-gradient(#ffffff80, transparent), var(--region-fill);
+  box-shadow: inset 0 1px 0 #fff, 0 2px 0 var(--region-shadow);
+}
+
+#game-dialog[data-color-region] .game-ticket-preview {
+  background: linear-gradient(125deg, #fff, var(--region-fill));
+  box-shadow: inset 0 2px 0 #fff, 0 3px 0 var(--region-shadow);
+}
+
+#game-dialog[data-color-region] .game-horse-choices label:has(input:checked) {
+  background: var(--region-fill);
+  border-color: var(--region-ink);
+  box-shadow: 0 2px 0 var(--region-shadow);
+}
+
+#game-dialog[data-color-region] .game-horse-choices input {
+  accent-color: var(--region-ink);
+}
+
+#game-dialog[data-color-region] .game-horse-number {
+  color: var(--region-ink);
+  background: var(--region-fill);
+}
+
+#game-dialog[data-color-region] .game-horse-choices label:has(input:checked) .game-horse-number,
+#game-dialog[data-color-region] .game-ticket-selection > .game-horse-number {
+  color: #fff;
+  background: var(--region-ink);
+  box-shadow: inset 0 1px 0 #ffffff66;
+}
+
+#game-dialog[data-color-region] .game-amount-row:focus-within {
+  border-color: var(--region-ink);
+  outline-color: var(--region-border);
+}
+
+#game-dialog[data-color-region] .game-quick-amounts button[aria-pressed="true"] {
+  background: var(--region-fill);
+  border-color: var(--region-ink);
+  box-shadow: inset 0 0 0 1px var(--region-ink), 0 2px 0 var(--region-shadow);
+}
+
+/* Keep payout, rank and warning colours semantic; the ticket frame identifies the race. */
+#game-dialog .game-ticket[data-color-region] {
+  border-color: var(--region-border);
+  border-left-color: var(--region-ink);
+  background: linear-gradient(110deg, #fff, var(--region-fill));
+  box-shadow: 0 3px 0 var(--region-shadow);
+}
+
+#game-dialog .game-ticket[data-color-region] :is(b, .game-ticket-open) {
+  color: var(--region-ink);
+}
+
+#game-dialog .game-ticket[data-color-region] .game-ticket-demo {
+  border-top-color: var(--region-border);
+}

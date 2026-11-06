@@ -1,0 +1,32 @@
+.first-collection-review[hidden],.first-collection-panel[hidden],.first-collection-panel [hidden]{display:none!important}
+.first-collection-review{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin:0 2px 12px;color:#9d8ba9;font-size:10px;line-height:1.7}
+.first-collection-review b{color:#8d759f;font-size:11px;margin-right:12px}
+.first-collection-review select{font:inherit;margin-left:6px;max-width:100%;padding:6px 10px;border:1px solid #dfd3e8;border-radius:9px;background:#fffdf9;color:#8d759f}
+.first-collection-panel{margin-bottom:18px;padding:14px 18px;border:1px solid #d7e4bf;border-top:4px solid #94c84f;border-radius:16px;background:linear-gradient(115deg,#f6fbe9,#fffef9);box-shadow:0 3px 0 #e1e8d3}
+.first-collection-heading{display:flex;align-items:center;gap:13px}
+.first-collection-symbol{display:grid;place-items:center;flex:none;width:36px;height:36px;border:2px solid #fff;border-radius:50%;background:linear-gradient(#b1d878,#91bf55);color:#fff;font-size:20px;font-weight:800;box-shadow:0 2px 0 #d4e0bf}
+.first-collection-copy{flex:1;min-width:0}
+.first-collection-copy strong{display:block;color:#6b884b;font-size:14px;line-height:1.6}
+.first-collection-copy p{margin:3px 0 0;color:#8e9b7e;font-size:10px;line-height:1.7;overflow-wrap:anywhere}
+.first-collection-actions{display:flex;flex-wrap:wrap;gap:8px;flex:none}
+.first-collection-actions .calendar-soft-button{font-size:10px;padding:7px 12px;min-height:32px}
+.first-collection-progress{border-top:1px solid #e0e8d3;margin-top:13px;padding-top:14px}
+.first-collection-progress ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0;padding:0;list-style:none}
+.first-collection-progress li{display:flex;gap:9px;align-items:flex-start;min-width:0}
+.first-collection-progress i{display:grid;place-items:center;flex:none;width:22px;height:22px;border-radius:50%;background:#efebf3;color:#ae9dbb;font-size:10px;font-style:normal;font-weight:800}
+.first-collection-progress li[data-complete="true"] i{background:#e1edce;color:#7da248}
+.first-collection-progress b{display:block;color:#7e6b8a;font-size:11px;line-height:1.6}
+.first-collection-progress span{display:block;margin-top:3px;color:#a092aa;font-size:10px;line-height:1.7;overflow-wrap:anywhere}
+.first-collection-progress>p{margin:13px 0 0;color:#a699af;font-size:10px;line-height:1.7}
+.first-collection-panel[data-tone="muted"]{border-color:#dfd4e8;border-top-color:#b2a1c2;background:linear-gradient(115deg,#f5f1f9,#fffdf9);box-shadow:0 3px 0 #e8e0ed}
+.first-collection-panel[data-tone="muted"] .first-collection-symbol{background:#b4a5c1;box-shadow:0 2px 0 #e3dbe9}
+.first-collection-panel[data-tone="muted"] strong{color:#8d779e}
+.first-collection-panel[data-tone="muted"] .first-collection-copy p{color:#a596af}
+.first-collection-panel[data-tone="amber"]{border-color:#e7d5ad;border-top-color:#d5ad65;background:linear-gradient(115deg,#fff8e8,#fffef9);box-shadow:0 3px 0 #eee4ce}
+.first-collection-panel[data-tone="amber"] .first-collection-symbol{background:#d2ac69;box-shadow:0 2px 0 #eddfbf}
+.first-collection-panel[data-tone="amber"] strong{color:#a1804c}
+.first-collection-panel[data-tone="amber"] .first-collection-copy p{color:#b09b78}
+body[data-first-collection-preview] #calendar-update,body[data-first-collection-preview] #calendar-state-study{display:none!important}
+body[data-collection-has-dates="false"] #calendar .race-card,body[data-collection-has-dates="false"] #calendar .day-more,body[data-collection-has-dates="false"] #calendar .demo-day-label{display:none!important}
+@media(max-width:1000px){.first-collection-heading{flex-wrap:wrap}.first-collection-actions{width:100%;padding-left:49px}.first-collection-progress ol{gap:10px}.first-collection-review>div{max-width:100%}}
+@media(max-width:640px){.first-collection-panel{padding:12px}.first-collection-copy{min-width:180px}.first-collection-actions{padding-left:0}.first-collection-progress ol{grid-template-columns:1fr;gap:12px}.first-collection-review label{width:100%}.first-collection-review select{max-width:calc(100% - 60px)}}

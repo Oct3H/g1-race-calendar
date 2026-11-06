@@ -1,0 +1,186 @@
+{
+  "data": {
+    "raceMeetingProfile": [
+      {
+        "races": [
+          {
+            "no": 1,
+            "status": "RESULT",
+            "runners": [
+              {
+                "no": "1",
+                "status": "Ran"
+              },
+              {
+                "no": "2",
+                "status": "Ran"
+              },
+              {
+                "no": "3",
+                "status": "Ran"
+              },
+              {
+                "no": "4",
+                "status": "Ran"
+              },
+              {
+                "no": "5",
+                "status": "Ran"
+              },
+              {
+                "no": "6",
+                "status": "Ran"
+              },
+              {
+                "no": "7",
+                "status": "Ran"
+              },
+              {
+                "no": "8",
+                "status": "Ran"
+              },
+              {
+                "no": "9",
+                "status": "Ran"
+              },
+              {
+                "no": "10",
+                "status": "Ran"
+              },
+              {
+                "no": "11",
+                "status": "Ran"
+              },
+              {
+                "no": "12",
+                "status": "Ran"
+              },
+              {
+                "no": "13",
+                "status": "Ran"
+              },
+              {
+                "no": "14",
+                "status": "Ran"
+              },
+              {
+                "no": "15",
+                "status": "Ran"
+              },
+              {
+                "no": "16",
+                "status": "Ran"
+              },
+              {
+                "no": "17",
+                "status": "Ran"
+              },
+              {
+                "no": "18",
+                "status": "Ran"
+              }
+            ]
+          }
+        ],
+        "pmPools": [
+          {
+            "id": "20261025S2WIN1",
+            "oddsNodes": [
+              {
+                "combString": "01",
+                "hotFavourite": false,
+                "oddsValue": "54"
+              },
+              {
+                "combString": "02",
+                "hotFavourite": false,
+                "oddsValue": "21"
+              },
+              {
+                "combString": "03",
+                "hotFavourite": false,
+                "oddsValue": "25"
+              },
+              {
+                "combString": "04",
+                "hotFavourite": false,
+                "oddsValue": "245"
+              },
+              {
+                "combString": "05",
+                "hotFavourite": false,
+                "oddsValue": "19"
+              },
+              {
+                "combString": "06",
+                "hotFavourite": false,
+                "oddsValue": "24"
+              },
+              {
+                "combString": "07",
+                "hotFavourite": false,
+                "oddsValue": "130"
+              },
+              {
+                "combString": "08",
+                "hotFavourite": true,
+                "oddsValue": "2.0"
+              },
+              {
+                "combString": "09",
+                "hotFavourite": false,
+                "oddsValue": "13"
+              },
+              {
+                "combString": "10",
+                "hotFavourite": false,
+                "oddsValue": "3.0"
+              },
+              {
+                "combString": "11",
+                "hotFavourite": false,
+                "oddsValue": "39"
+              },
+              {
+                "combString": "12",
+                "hotFavourite": false,
+                "oddsValue": "76"
+              },
+              {
+                "combString": "13",
+                "hotFavourite": false,
+                "oddsValue": "140"
+              },
+              {
+                "combString": "14",
+                "hotFavourite": false,
+                "oddsValue": "59"
+              },
+              {
+                "combString": "15",
+                "hotFavourite": false,
+                "oddsValue": "92"
+              },
+              {
+                "combString": "16",
+                "hotFavourite": false,
+                "oddsValue": "70"
+              },
+              {
+                "combString": "17",
+                "hotFavourite": false,
+                "oddsValue": "177"
+              },
+              {
+                "combString": "18",
+                "hotFavourite": false,
+                "oddsValue": "168"
+              }
+            ],
+            "lastUpdateTime": "2026-10-25T14:55:37.413+08:00"
+          }
+        ]
+      }
+    ]
+  }
+}

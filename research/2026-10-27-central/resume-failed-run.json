@@ -1,0 +1,76 @@
+{
+  "error": "Source unavailable: None",
+  "navigation_reference": {
+    "url": "https://japanracing.jp/en/common/js/redirect.js",
+    "source_requested_at": "2026-10-26T13:18:20.073624+00:00",
+    "sha256": "351b9d5d720fcce22b694072630c31375e3c5f422cd9c7119e1d4c5b2581106d",
+    "original_evidence": "../2026-10-26-discovery/live/request-04-55d36334d0.response",
+    "local_evidence": "live/reference-year-rule-351b9d5d720f.response",
+    "type": "cached generic navigation rule, not fresh race data"
+  },
+  "entry_references": [
+    {
+      "url": "https://japanracing.jp/en/",
+      "source_requested_at": "2026-10-27T10:55:57.875428+00:00",
+      "sha256": "bab92aefca40032f8768bfd1816b65f2cad176f4a505f8bdb666d275137cd48e",
+      "original_evidence": "../2026-10-27-japan/live/request-01-49705d6695.response",
+      "local_evidence": "live/reference-entry-bab92aefca40.response",
+      "discovered_from": null,
+      "observed_href": null,
+      "type": "cached entry HTML; not a new HTTP read"
+    },
+    {
+      "url": "https://japanracing.jp/en/racing/schedule/graded/",
+      "source_requested_at": "2026-10-27T10:56:01.046604+00:00",
+      "sha256": "3b290e65e7109167c6fdecb3ddb00ef809090f5b984267b2098ccc1d963759cb",
+      "original_evidence": "../2026-10-27-japan/live/request-02-d3942780d2.response",
+      "local_evidence": "live/reference-entry-3b290e65e710.response",
+      "discovered_from": "https://japanracing.jp/en/",
+      "observed_href": "/en/racing/schedule/graded/",
+      "type": "cached entry HTML; not a new HTTP read"
+    },
+    {
+      "url": "https://japanracing.jp/en/racing/schedule/graded/list/",
+      "source_requested_at": "2026-10-27T10:56:01.677794+00:00",
+      "sha256": "d104d4326d5ecd7e1b4d85e26d6a819a94063c471d4240bfb91ebb042b5f6f20",
+      "original_evidence": "../2026-10-27-japan/live/request-03-aec767fc18.response",
+      "local_evidence": "live/reference-entry-d104d4326d5e.response",
+      "discovered_from": "https://japanracing.jp/en/racing/schedule/graded/",
+      "observed_href": "list/",
+      "type": "cached entry HTML; not a new HTTP read"
+    }
+  ],
+  "requests": [
+    {
+      "name": "request-01-49705d6695",
+      "url": "https://japanracing.jp/en/",
+      "method": "GET",
+      "requested_at": "2026-10-27T11:53:02.725128+00:00",
+      "status": null,
+      "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "discovered_from": null,
+      "observed_href": null,
+      "redirect_rule": null,
+      "evidence": "live/request-01-49705d6695.response"
+    },
+    {
+      "name": "request-02-3fedf0fa1d",
+      "url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+      "method": "GET",
+      "requested_at": "2026-10-27T11:56:03.739640+00:00",
+      "status": null,
+      "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "discovered_from": "https://japanracing.jp/en/racing/schedule/graded/list/",
+      "observed_href": null,
+      "redirect_rule": {
+        "script_url": "https://japanracing.jp/en/common/js/redirect.js",
+        "year": 2026
+      },
+      "evidence": "live/request-02-3fedf0fa1d.response"
+    }
+  ]
+}

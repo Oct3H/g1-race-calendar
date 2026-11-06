@@ -1,0 +1,68 @@
+{
+  "source_parent_links_and_sha256": 16,
+  "nar_annual_instances_by_year": {
+    "2023": 10,
+    "2024": 13,
+    "2025": 13,
+    "2026": 13
+  },
+  "root_cards_in_annual_list": true,
+  "future_introduction_links_preserved_without_fabricated_draw_or_time": 2,
+  "unlinked_local_date_kept_and_central_or_lower_grade_excluded": true,
+  "empty_or_wrong_year_document_rejected": true,
+  "independent_cache_replay": {
+    "prior_records": 27,
+    "new_nar_records": 10,
+    "retained_total": 37,
+    "jra_data_from": "2026-10-26 saved success, not freshly fetched on 2026-10-27"
+  },
+  "nar_past_runner_identity_name_and_final_win_agreement": {
+    "entries": 11,
+    "finishers": 11,
+    "win_values": 11,
+    "stage": "historical final, not pre-race availability"
+  },
+  "jbc_future_intended_entries_not_promoted_to_final_draw": true,
+  "horse_history": {
+    "profile_rows": 14,
+    "prior_five": [
+      {
+        "date": "2026/07/26",
+        "course": "Ｊ中京",
+        "name": "東海ＳＧIII"
+      },
+      {
+        "date": "2026/05/31",
+        "course": "Ｊ東京",
+        "name": "ＡＲＦ杯薫風Ｓ４歳上３勝クラス"
+      },
+      {
+        "date": "2026/04/25",
+        "course": "Ｊ東京",
+        "name": "鎌倉Ｓ４歳上３勝クラス"
+      },
+      {
+        "date": "2026/02/14",
+        "course": "Ｊ東京",
+        "name": "銀蹄Ｓ４歳上３勝クラス"
+      },
+      {
+        "date": "2025/11/16",
+        "course": "Ｊ東京",
+        "name": "３歳上２勝クラス"
+      }
+    ],
+    "prior_five_detail_links_established": 0,
+    "prior_five_win_odds_established": false,
+    "limitation": "Five prior central starts are listed, but this NAR profile links only the current local race; no fabricated history URLs"
+  },
+  "japan_navigation_failure": {
+    "origin_http_status": null,
+    "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+    "prior_cache_retained": true
+  },
+  "requests_by_status": {
+    "200": 15,
+    "None": 1
+  }
+}

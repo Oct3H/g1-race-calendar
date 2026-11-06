@@ -1,0 +1,12 @@
+{
+  "warm_cache_navigation": {
+    "saved_g1_rows": 24,
+    "new_network_reads": 0
+  },
+  "saved_graded_rows": 129,
+  "prior_five_unique_candidates": 1,
+  "verified_history_detail_pages": 0,
+  "wrong_identity_fields_rejected": 5,
+  "two_distinct_live_request_failures": true,
+  "limitation": "Both live attempts failed at the request tunnel; origin status unknown. Replay and candidate links are not fresh detail verification."
+}

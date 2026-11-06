@@ -1,0 +1,10 @@
+{
+  "name": "request-04-55d36334d0",
+  "url": "https://japanracing.jp/en/common/js/redirect.js",
+  "method": "GET",
+  "requested_at": "2026-10-27T10:56:02.345455+00:00",
+  "status": null,
+  "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

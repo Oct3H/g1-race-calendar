@@ -1,0 +1,9 @@
+{
+  "query": "query SIM_getUpcomingRace($localSim: LocalSim, $oddsTypes: [OddsType]) {\n  commonMeetings(localSim: $localSim) {\n    id\n    venueCode\n    date\n    status\n    season\n    totalNumberOfRace\n    currentNumberOfRace\n    country {\n      code\n      namech\n      nameen\n      seq\n    }\n    races {\n      id\n      no\n      postTime\n      status\n      raceResults {\n        status\n      }\n      raceName_en\n      raceName_ch\n      raceTrack {\n        code\n        description_ch\n        description_en\n      }\n      countryCodeNm {\n        code\n        english\n        chinese\n      }\n    }\n    pmPools(oddsTypes: $oddsTypes) {\n      oddsType\n      status\n      leg {\n        races\n      }\n    }\n  }\n}\n",
+  "variables": {
+    "localSim": "SIM",
+    "oddsTypes": [
+      "WIN"
+    ]
+  }
+}

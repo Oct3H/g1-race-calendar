@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "representative-fields",
+      "title": "代表赛事已取得具体字段，赔率覆盖因来源不同",
+      "queries": [
+        {
+          "id": "saved-runner-checks",
+          "source": {
+            "label": "NAR、HKJC、Deutscher Galopp 保存的官方响应",
+            "files": [
+              {
+                "label": "field-checks.json"
+              },
+              {
+                "label": "check_saved_fields.py"
+              }
+            ],
+            "filters": [
+              "范围：本轮代表赛事",
+              "赔率：原始逐马单胜／独赢字段"
+            ],
+            "caveats": [
+              "本表是选定历史样本的字段计数，不是整个地区或全年度覆盖率。",
+              "NAR 单胜派彩没有替代缺失的逐马赔率。"
+            ]
+          },
+          "capturedAt": "2026-10-25T14:07:47.695165+00:00",
+          "columns": [
+            {
+              "field": "sample",
+              "label": "样本"
+            },
+            {
+              "field": "runners",
+              "label": "核对的逐马记录"
+            },
+            {
+              "field": "odds",
+              "label": "有赔率记录"
+            }
+          ],
+          "rows": [
+            {
+              "sample": "2025 帝王賞（含一匹除外）",
+              "runners": 14,
+              "odds": 0
+            },
+            {
+              "sample": "2025 香港盃",
+              "runners": 7,
+              "odds": 7
+            },
+            {
+              "sample": "2025 Grosser Preis von Baden（完赛）",
+              "runners": 6,
+              "odds": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "access-limitations",
+      "title": "一些来源尚未取得完整数据",
+      "queries": [
+        {
+          "id": "bounded-http-probe",
+          "source": {
+            "label": "21 个官方页面的普通 HTTP 请求",
+            "files": [
+              {
+                "label": "http-probe.json"
+              }
+            ],
+            "filters": [
+              "日期：2026-10-25",
+              "每页一次：不登录、不重试、不绕过限制"
+            ],
+            "caveats": [
+              "14 个 HTTP 200 和 7 个 HTTP 403 只是页面访问结果，HTTP 200 不等于有完整赛果。",
+              "JRA 三个路径、英国 BHA、爱尔兰 HRI 两个路径及法国文章路径本轮返回 403。",
+              "单次拒绝不证明该机构所有公开路径永久不可用。"
+            ]
+          },
+          "capturedAt": "2026-10-25T13:55:28.260415+00:00",
+          "summary": "尚不能承诺各地区完整覆盖或持续更新。"
+        }
+      ]
+    },
+    {
+      "id": "discovery-boundaries",
+      "title": "发现未来赛事已验证一条路径，公布后的更新尚待验证",
+      "queries": [
+        {
+          "id": "saved-discovery-queries",
+          "source": {
+            "label": "NAR 赛事首页链接与 HKJC 公开只读查询",
+            "files": [
+              {
+                "label": "discovery-probe.json"
+              },
+              {
+                "label": "field-checks.json"
+              }
+            ],
+            "filters": [
+              "NAR：从首页实际 href 进入 JBC Classic 2026 页面",
+              "HKJC：使用列表返回的赛日与来源马匹 ID"
+            ],
+            "caveats": [
+              "NAR 页面仍是出走予定，注明 10 月 30 日公布枠顺，不能当成最终出马表。",
+              "HKJC 本次列表只返回当天已完赛赛日；马匹资料查询为空。",
+              "两个历史 Cox Plate 快照一致，不证明未来公布、实时赔率或更正的更新可靠性。"
+            ]
+          },
+          "summary": "未来赛程发现、最终名单发布、赛前赔率和正式赛果需要分别验证。"
+        }
+      ]
+    }
+  ]
+}

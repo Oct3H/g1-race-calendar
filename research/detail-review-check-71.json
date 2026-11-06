@@ -1,0 +1,15 @@
+{
+  "round": 71,
+  "status": "passed",
+  "checks": [
+    "opt-in review links",
+    "unknown time is not midnight",
+    "missing prizes",
+    "long horse and pedigree fields",
+    "unresolved history keeps own performance only",
+    "return focus and scroll",
+    "resolved history restores metadata",
+    "actual dialog cross-day fields"
+  ],
+  "method": "actual controllers with DOM doubles; no pixel or live-source validation"
+}

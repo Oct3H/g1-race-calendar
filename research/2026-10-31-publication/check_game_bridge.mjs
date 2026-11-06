@@ -1,0 +1,21 @@
+// Fresh official snapshot -> existing in-memory rules. Not a production wallet.
+import assert from 'node:assert/strict';
+import {readFile,writeFile} from 'node:fs/promises';
+import {placeTicket,canBet,dayKey} from '../../design/game-state.mjs';
+import {createUnopenedShop,activateShop} from '../../design/shop-start-preview.mjs';
+const sample=JSON.parse(await readFile(new URL('./normalized-sample.json',import.meta.url),'utf8'));
+const report=JSON.parse(await readFile(new URL('./publication.json',import.meta.url),'utf8'));
+const now=new Date(sample.fetchedAt),zone='Asia/Shanghai';
+const state=createUnopenedShop();activateShop(state,now,zone);
+assert.equal(canBet(sample.race,now,zone),true);
+const horse=sample.horses[0],ticket=placeTicket(state,sample.race,horse,10000,now,zone);
+assert.equal(state.cash,490000);assert.equal(ticket.odds,horse.odds);assert.equal(ticket.source,sample.race.sampleOddsSource);
+assert.equal(ticket.oddsAt,sample.race.sampleOddsAt);assert.equal(ticket.status,'pending');assert.equal(ticket.returned,undefined);
+const snapshot=JSON.stringify(state);
+const raceMorning=new Date(new Date(sample.race.startAt).getTime()-8*60*60*1000);
+assert.equal(dayKey(raceMorning,zone),dayKey(new Date(sample.race.startAt),zone));
+assert.throws(()=>placeTicket(state,sample.race,horse,1,raceMorning,zone),/比赛当日/);assert.equal(JSON.stringify(state),snapshot);
+const nar={id:report.nar.selected_event.key,startAt:report.nar.selected_event.scheduled_start_at,sampleEntriesConfirmed:true,sampleOfficialOdds:false};
+assert.ok(nar.startAt);assert.equal(canBet(nar,now,zone),false);
+await writeFile(new URL('./game-bridge.json',import.meta.url),JSON.stringify({status:'PASSED',method:'Fresh official snapshot passed to existing local game rules, independent memory state',quoteSource:ticket.source,quoteAt:ticket.oddsAt,checks:['first shop grant before purchase','qualified D-1 quote accepted','purchase debits and locks source/time/odds','no result means no return or settlement','D0 blocked without refreshing','NAR final entries without odds remain blocked'],limitations:['No production adapter, database or wallet','No final result yet, no real settlement tested']},null,2)+'\n');
+console.log('PASS: real 17-runner official snapshot qualifies pre-day; source/price locked, cash debited, no payout, D0 and missing-odds NAR blocked. Memory replay only.');

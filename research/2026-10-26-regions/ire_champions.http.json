@@ -1,0 +1,19 @@
+{
+  "name": "ire_champions",
+  "url": "https://info.cld.hkjc.com/graphql/base/",
+  "method": "POST",
+  "requested_at": "2026-10-26T12:30:04.488020+00:00",
+  "status": 200,
+  "final_url": "https://info.cld.hkjc.com/graphql/base/",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-encoding": "gzip",
+    "content-length": "19993",
+    "cache-control": "public, max-age=30",
+    "date": "Mon, 26 Oct 2026 12:30:05 GMT"
+  },
+  "bytes": 19993,
+  "sha256": "340397e5b4aa8a769eff4d0f77eca73d7e16d8b1b1e2564962c0ee4aa6bf8ece",
+  "graphql_errors": null,
+  "parameter_origin": "HKJC public 20250913 Irish Champion Stakes Day form guide: S2"
+}

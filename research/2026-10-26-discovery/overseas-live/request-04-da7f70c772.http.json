@@ -1,0 +1,40 @@
+{
+  "name": "request-04-da7f70c772",
+  "url": "https://www.breederscup.com/",
+  "method": "GET",
+  "requested_at": "2026-10-26T13:33:44.938427+00:00",
+  "status": 200,
+  "final_url": "https://www.breederscup.com/",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "63426",
+    "date": "Mon, 26 Oct 2026 13:33:56 GMT",
+    "cache-control": "max-age=300, s-maxage=240, stale-while-revalidate=60",
+    "etag": "\"7vk0xvjxya1cw1\""
+  },
+  "bytes": 63426,
+  "sha256": "1e8c7a91c0ed2ccfc4f6b74a0a2ecb81d731b865be1e7f4dc841c4d0fc9a25c8",
+  "links": [],
+  "script_sources": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.blueconic.net/breederscup.js",
+    "https://cdn.jwplayer.com/libraries/UGmRs6LU.js",
+    "//js.hsforms.net/forms/v2.js",
+    "https://contest.breederscup.com/embedded.js",
+    "/_next/static/chunks/08~aw~da3izq0.js",
+    "/_next/static/chunks/0avn0tmkb5e9z.js",
+    "/_next/static/chunks/0zgt62y7263re.js",
+    "/_next/static/chunks/0w.g~grcvs0na.js",
+    "/_next/static/chunks/turbopack-0y6i4nq7a4v6q.js",
+    "/_next/static/chunks/0d9p_gxv-3574.js",
+    "/_next/static/chunks/0whh034sqqlkl.js",
+    "/_next/static/chunks/16t1ffj3urvva.js",
+    "/_next/static/chunks/0x81ibnio.y~l.js",
+    "/_next/static/chunks/turbopack-0nbyd12d6.b75.js",
+    "/_next/static/VFZ4zERlUl2NAGmhns3mx/_buildManifest.js",
+    "/_next/static/VFZ4zERlUl2NAGmhns3mx/_ssgManifest.js",
+    "/_next/static/VFZ4zERlUl2NAGmhns3mx/_clientMiddlewareManifest.js"
+  ],
+  "tables": 0,
+  "rows": 0
+}

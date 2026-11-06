@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/index.html?preview=calendar&settingsMenu=preview&lang=en&year=2026&month=10&v=76",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/index.html?preview=calendar&lang=ja&v=76",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/settings.html?lang=en&section=language&v=76",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/welcome.html?v=76",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/ui-language.mjs?v=76",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/ui-messages.mjs?v=76",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/ui-locale-variants.mjs?v=76",
+    "status": 200,
+    "cacheControl": "no-store"
+  }
+]

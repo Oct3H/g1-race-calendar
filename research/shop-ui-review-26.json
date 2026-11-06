@@ -1,0 +1,44 @@
+{
+  "ticket": "Cox Plate\n2 号 Silver Circuit · ¥10,000 × 4.8 倍\n待赛果\n演示赛果",
+  "narrowWallet": {
+    "modalScrollWidth": 642,
+    "modalWidth": 642,
+    "pageWidth": 682,
+    "removedLabel": true,
+    "viewport": 682
+  },
+  "header": {
+    "buttonText": "¥500,000\n¥0",
+    "calendarDays": 35,
+    "label": "打开特别周的小店，可用资金 ¥500,000，银行 ¥0",
+    "pageWidth": 1280,
+    "viewport": 1280
+  },
+  "desktopWallet": {
+    "brokenImages": [],
+    "duplicateIds": [],
+    "modalScrollWidth": 744,
+    "modalWidth": 744,
+    "pageWidth": 1280,
+    "removedLabel": true,
+    "title": "特别周的小店",
+    "upcomingCards": 4,
+    "viewport": 1280
+  },
+  "console": [],
+  "flow": {
+    "bankAfterSevenDays": 70000,
+    "withdrawn": 10000,
+    "cashAfterWithdrawal": 510000,
+    "bankAfterWithdrawal": 60000,
+    "stake": 10000,
+    "lockedOdds": "4.8",
+    "previewTotalReturn": 48000,
+    "previewNetProfit": 38000,
+    "afterOrder": {
+      "cash": "¥500,000",
+      "bank": "¥60,000"
+    }
+  },
+  "note": "Round 26 UI verification, local fictional data only; engine unchanged. Desktop viewport restored and example funds reset for review."
+}

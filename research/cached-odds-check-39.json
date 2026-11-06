@@ -1,0 +1,15 @@
+{
+  "round": 39,
+  "date": "2026-10-23",
+  "decision": "Cached official Win odds may be used after a failed refresh or offline. System calendar race day blocks all purchases.",
+  "checks": [
+    "check_ticket_confirmation.mjs: failed/offline warning, retained odds/time, enabled cached purchase before race day, disabled in all modes on race day, cutoff timer updates an open form",
+    "check_game_preview.mjs: cached odds/source/time retained, midnight submission rejected without changing wallet in success/failed/offline modes; existing rules pass",
+    "check_change_preview.mjs: existing change read state and refunds pass",
+    "design.js and game-design.js module syntax pass",
+    "190 unique static/template IDs",
+    "4 HEAD-only preview/resource checks: 200 and no-store"
+  ],
+  "visual_review": "User webpage review pending; no browser automation or workaround used.",
+  "limits": "Fictional in-memory preview; no real odds fetch, persistent wallet, or system clock rollback protection."
+}

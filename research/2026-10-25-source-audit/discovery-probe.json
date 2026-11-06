@@ -1,0 +1,110 @@
+{
+  "checked_at": "2026-10-25T14:05:01.573725+00:00",
+  "method": "Only observed public client queries; one request per query, no authentication, introspection or retries; NAR child URL from returned parent href",
+  "records": [
+    {
+      "name": "hkjc_upcoming",
+      "url": "https://info.cld.hkjc.com/graphql/base/",
+      "operation": "SIM_getUpcomingRace",
+      "variables": {
+        "localSim": "SIM",
+        "oddsTypes": [
+          "WIN"
+        ]
+      },
+      "reused_saved_response": true,
+      "saved_at": "2026-10-25T13:58:23.271739+00:00",
+      "errors": null
+    },
+    {
+      "name": "hkjc_discovered_meeting",
+      "url": "https://info.cld.hkjc.com/graphql/base/",
+      "operation": "RaceMeetingProfile",
+      "variables": {
+        "date": "2026-10-25",
+        "venueCode": "S2",
+        "oddsTypes": [
+          "WIN"
+        ]
+      },
+      "reused_saved_response": true,
+      "saved_at": "2026-10-25T13:58:24.184464+00:00",
+      "errors": null
+    },
+    {
+      "name": "hkjc_discovered_horse",
+      "url": "https://info.cld.hkjc.com/graphql/base/",
+      "operation": "SimulcastHorseProfile",
+      "variables": {
+        "ids": [
+          "20261025S20101H"
+        ],
+        "meetingDate": "2026-10-25",
+        "raceNumber": "1"
+      },
+      "requested_at": "2026-10-25T14:04:58.605585+00:00",
+      "client_evidence": "2026-10-22-fetch-check/public-39-oxo0t1ynu4.js",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "content_encoding": "gzip",
+      "bytes": 51,
+      "sha256": "3aafc37882ebd0805c8f5738faf221579084591469b5b8d478140138827976b5",
+      "errors": null
+    },
+    {
+      "name": "hkjc_cox_2025_repeat",
+      "url": "https://info.cld.hkjc.com/graphql/base/",
+      "operation": "RaceResultsProfile",
+      "variables": {
+        "date": "2025-10-25",
+        "venueCode": "S1"
+      },
+      "requested_at": "2026-10-25T14:04:59.557087+00:00",
+      "client_evidence": "2026-10-22-fetch-check/public-39-oxo0t1ynu4.js",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "content_encoding": "gzip",
+      "bytes": 19913,
+      "sha256": "b04ef526c18eee1f9f6afb10850213a37ff21e8dba3a30d8ab62155a1a4895d1",
+      "errors": null
+    },
+    {
+      "name": "nar_discovered_jbc_2026",
+      "url": "https://www.keiba.go.jp/dirtgraderace/2026/1103_JBCclassic/racecard.html",
+      "requested_at": "2026-10-25T14:05:00.735691+00:00",
+      "status": 200,
+      "final_url": "https://www.keiba.go.jp/dirtgraderace/2026/1103_JBCclassic/racecard.html",
+      "content_type": "text/html",
+      "headers": {
+        "content-type": "text/html",
+        "content-length": "13246",
+        "server": "AmazonS3",
+        "last-modified": "Sat, 24 Oct 2026 09:38:37 GMT",
+        "date": "Sun, 25 Oct 2026 14:05:02 GMT",
+        "etag": "\"8ba730014ba0c671ab69b061e6b5aae6\"",
+        "cache-control": "public, max-age=360, immutable"
+      },
+      "bytes": 13246,
+      "sha256": "2cac7970d15e44f929a0781f118903495102aa12af695dc14e6f054c5d69130f",
+      "decoding": "UTF-8",
+      "tables": 0,
+      "rows": 0,
+      "links": [
+        "https://www.kanazawakeiba.com/wp-content/uploads/2026/10/25c157d6a073f0565bd2b871358a9839.pdf",
+        "#wrapper"
+      ],
+      "script_sources": [
+        "https://www.googletagmanager.com/gtag/js?id=G-FGDLX751XZ",
+        "../../common/js/jquery.js",
+        "../../common/js/common.js",
+        "../../common/js/picturefill.min.js",
+        "../common/js/race.js",
+        "../common/js/scroll-hint.min.js",
+        "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-602c882a25004a58",
+        "../common/js/scroll-hint.js"
+      ],
+      "discovered_from": "https://www.keiba.go.jp/dirtgraderace/",
+      "discovered_href": "2026/1103_JBCclassic/racecard.html"
+    }
+  ]
+}

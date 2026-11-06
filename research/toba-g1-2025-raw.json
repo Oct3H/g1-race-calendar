@@ -1,0 +1,1805 @@
+{
+  "source": "https://toba.org/graded-stakes/2025-races/",
+  "columns": [
+    "track",
+    "date",
+    "division",
+    "name",
+    "grade",
+    "age",
+    "sex",
+    "distance_furlongs",
+    "surface",
+    "field_size",
+    "purse",
+    "winner"
+  ],
+  "rows": [
+    {
+      "cells": [
+        "GP",
+        "1/25/2025",
+        "3UP R D",
+        "PEGASUS WORLD CUP INVITATIONAL S.",
+        "1",
+        "3U",
+        "",
+        "9",
+        "",
+        "11",
+        "$2,925,400",
+        "White Abarrio"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=13&BorP=P&TID=GP&CTRY=USA&DT=1/25/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "GP",
+        "1/25/2025",
+        "3UP R T M",
+        "PEGASUS WORLD CUP TURF INVITATIONAL S. PRESENTED BY QATAR RACING",
+        "1",
+        "3U",
+        "",
+        "9",
+        "T",
+        "12",
+        "$928,400",
+        "Spirit of St. Louis"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=12&BorP=P&TID=GP&CTRY=USA&DT=1/25/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "3/1/2025",
+        "3UP R D",
+        "SANTA ANITA H. PRESENTED BY YAAMAVA' RESORT & CASINO",
+        "1",
+        "3U",
+        "",
+        "10",
+        "",
+        "8",
+        "$301,500",
+        "Locked"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=SA&CTRY=USA&DT=3/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "3/1/2025",
+        "3UP R T M",
+        "FRANK E. KILROE MILE S.",
+        "1",
+        "3U",
+        "",
+        "8",
+        "T",
+        "7",
+        "$301,000",
+        "Formidable Man"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=SA&CTRY=USA&DT=3/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "3/8/2025",
+        "3UP F/M R D",
+        "B. WAYNE HUGHES BEHOLDER MILE S. PRESENTED BY FANDUEL TV",
+        "1",
+        "3U",
+        "f",
+        "8",
+        "",
+        "6",
+        "$300,500",
+        "Cavalieri"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=SA&CTRY=USA&DT=3/8/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "GP",
+        "3/29/2025",
+        "3YO R D",
+        "CURLIN FLORIDA DERBY PRESENTED BY HILL 'N' DALE FARMS AT XALAPA",
+        "1",
+        "3",
+        "",
+        "9",
+        "",
+        "10",
+        "$1,020,000",
+        "Tappan Street"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=14&BorP=P&TID=GP&CTRY=USA&DT=3/29/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "OP",
+        "3/29/2025",
+        "3YO R D",
+        "ARKANSAS DERBY",
+        "1",
+        "3",
+        "",
+        "9",
+        "",
+        "9",
+        "$1,500,000",
+        "Sandman"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=13&BorP=P&TID=OP&CTRY=USA&DT=3/29/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "4/5/2025",
+        "3YO R D",
+        "SANTA ANITA DERBY",
+        "1",
+        "3",
+        "",
+        "9",
+        "",
+        "5",
+        "$500,000",
+        "Journalism"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=SA&CTRY=USA&DT=4/5/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "4/7/2025",
+        "3YO F R D",
+        "CENTRAL BANK ASHLAND S.",
+        "1",
+        "3",
+        "f",
+        "8.5",
+        "",
+        "8",
+        "$742,782",
+        "La Cara"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=KEE&CTRY=USA&DT=4/7/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "4/8/2025",
+        "3UP F/M SPR",
+        "RESOLUTE RACING MADISON S.",
+        "1",
+        "3U",
+        "f",
+        "7",
+        "",
+        "6",
+        "$623,338",
+        "Positano Sunset"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=KEE&CTRY=USA&DT=4/8/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "4/8/2025",
+        "3YO R D",
+        "TOYOTA BLUE GRASS S.",
+        "1",
+        "3",
+        "",
+        "9",
+        "",
+        "7",
+        "$1,225,625",
+        "Burnham Square"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=KEE&CTRY=USA&DT=4/8/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "4/11/2025",
+        "3UP R T M",
+        "MAKER'S MARK MILE S.",
+        "1",
+        "3U",
+        "",
+        "8",
+        "T",
+        "7",
+        "$552,013",
+        "Carl Spackler (IRE)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=KEE&CTRY=USA&DT=4/11/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "OP",
+        "4/12/2025",
+        "3UP F/M R D",
+        "APPLE BLOSSOM H.",
+        "1",
+        "3U",
+        "f",
+        "8.5",
+        "",
+        "6",
+        "$1,250,000",
+        "Thorpedo Anna"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=OP&CTRY=USA&DT=4/12/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "4/12/2025",
+        "3UP F/M R T M",
+        "JENNY WILEY S.",
+        "1",
+        "3U",
+        "f",
+        "8.5",
+        "T",
+        "8",
+        "$521,657",
+        "Choisya (GB)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=KEE&CTRY=USA&DT=4/12/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "CD",
+        "5/2/2025",
+        "3YO F R D",
+        "LONGINES KENTUCKY OAKS",
+        "1",
+        "3",
+        "f",
+        "9",
+        "",
+        "13",
+        "$1,500,000",
+        "Good Cheer"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=CD&CTRY=USA&DT=5/2/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "CD",
+        "5/2/2025",
+        "3UP F/M R D",
+        "FASIG-TIPTON LA TROIENNE S.",
+        "1",
+        "3U",
+        "f",
+        "8.5",
+        "",
+        "7",
+        "$992,000",
+        "Raging Sea"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=7&BorP=P&TID=CD&CTRY=USA&DT=5/2/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "CD",
+        "5/3/2025",
+        "3YO R D",
+        "KENTUCKY DERBY PRESENTED BY WOODFORD RESERVE",
+        "1",
+        "3",
+        "",
+        "10",
+        "",
+        "19",
+        "$5,000,000",
+        "Sovereignty"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=12&BorP=P&TID=CD&CTRY=USA&DT=5/3/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "CD",
+        "5/3/2025",
+        "3UP F/M SPR",
+        "DERBY CITY DISTAFF S. PRESENTED BY KENDALL-JACKSON WINERY",
+        "1",
+        "3U",
+        "f",
+        "7",
+        "",
+        "10",
+        "$999,600",
+        "Kopion"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=CD&CTRY=USA&DT=5/3/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "CD",
+        "5/3/2025",
+        "3UP R T M",
+        "OLD FORESTER BOURBON TURF CLASSIC S.",
+        "1",
+        "3U",
+        "",
+        "9",
+        "T",
+        "10",
+        "$934,200",
+        "Spirit of St. Louis"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=CD&CTRY=USA&DT=5/3/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "CD",
+        "5/3/2025",
+        "3UP SPR",
+        "CHURCHILL DOWNS S. PRESENTED BY FORD",
+        "1",
+        "3U",
+        "",
+        "7",
+        "",
+        "11",
+        "$935,000",
+        "Mindframe"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=CD&CTRY=USA&DT=5/3/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "CD",
+        "5/3/2025",
+        "3YO R T",
+        "AMERICAN TURF S. PRESENTED BY FORD",
+        "1",
+        "3",
+        "",
+        "8.5",
+        "T",
+        "14",
+        "$924,780",
+        "Zulu Kingdom (IRE)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=CD&CTRY=USA&DT=5/3/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "PIM",
+        "5/17/2025",
+        "3YO R D",
+        "PREAKNESS S.",
+        "1",
+        "3",
+        "",
+        "9.5",
+        "",
+        "9",
+        "$2,000,000",
+        "Journalism"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=13&BorP=P&TID=PIM&CTRY=USA&DT=5/17/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "5/26/2025",
+        "3UP F/M RT M",
+        "GAMELY S.",
+        "1",
+        "3U",
+        "f",
+        "9",
+        "T",
+        "7",
+        "$301,000",
+        "Be Your Best (IRE)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=7&BorP=P&TID=SA&CTRY=USA&DT=5/26/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "5/26/2025",
+        "3UP R T M",
+        "SHOEMAKER MILE S.",
+        "1",
+        "3U",
+        "",
+        "8",
+        "T",
+        "9",
+        "$302,000",
+        "King of Gosford (GB)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=SA&CTRY=USA&DT=5/26/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "6/6/2025",
+        "3UP F/M RD",
+        "OGDEN PHIPPS S. PRESENTED BY FORD",
+        "1",
+        "3U",
+        "f",
+        "9",
+        "",
+        "6",
+        "$485,000",
+        "Dorth Vader"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=SAR&CTRY=USA&DT=6/6/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "6/6/2025",
+        "3UP F/M RT L",
+        "NEW YORK S. PRESENTED BY RIVERS CASINO",
+        "1",
+        "3U",
+        "f",
+        "9.5",
+        "T",
+        "7",
+        "$750,000",
+        "She Feels Pretty"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=12&BorP=P&TID=SAR&CTRY=USA&DT=6/6/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "6/6/2025",
+        "3UP F/M RT M",
+        "JUST A GAME S. PRESENTED BY RESOLUTE RACING",
+        "1",
+        "3U",
+        "f",
+        "8",
+        "T",
+        "9",
+        "$500,000",
+        "Dynamic Pricing (IRE)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=13&BorP=P&TID=SAR&CTRY=USA&DT=6/6/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "6/6/2025",
+        "3YO F R D",
+        "DK HORSE ACORN S.",
+        "1",
+        "3",
+        "f",
+        "9",
+        "",
+        "6",
+        "$500,000",
+        "La Cara"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=SAR&CTRY=USA&DT=6/6/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "6/7/2025",
+        "3YO R D",
+        "BELMONT S. PRESENTED BY NYRA BETS",
+        "1",
+        "3",
+        "",
+        "10",
+        "",
+        "8",
+        "$2,000,000",
+        "Sovereignty"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=13&BorP=P&TID=SAR&CTRY=USA&DT=6/7/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "6/7/2025",
+        "3UP R D",
+        "HILL 'N' DALE METROPOLITAN H.",
+        "1",
+        "3U",
+        "",
+        "8",
+        "",
+        "5",
+        "$970,000",
+        "Raging Torrent"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=SAR&CTRY=USA&DT=6/7/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "6/7/2025",
+        "3YO SPR",
+        "WOODY STEPHENS S.",
+        "1",
+        "3",
+        "",
+        "7",
+        "",
+        "10",
+        "$500,000",
+        "Patch Adams"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=SAR&CTRY=USA&DT=6/7/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "6/8/2025",
+        "3UP R T M",
+        "RESORTS WORLD CASINO MANHATTAN S.",
+        "1",
+        "3U",
+        "",
+        "9",
+        "T",
+        "8",
+        "$1,000,000",
+        "Deterministic"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=13&BorP=P&TID=SAR&CTRY=USA&DT=6/8/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "6/8/2025",
+        "3UP T SPR",
+        "JAIPUR S.",
+        "1",
+        "3U",
+        "",
+        "5.5",
+        "T",
+        "10",
+        "$500,000",
+        "Ag Bullet"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=12&BorP=P&TID=SAR&CTRY=USA&DT=6/8/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "CD",
+        "6/28/2025",
+        "3UP R D",
+        "STEPHEN FOSTER S.",
+        "1",
+        "3U",
+        "",
+        "9",
+        "",
+        "6",
+        "$940,000",
+        "Mindframe"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=CD&CTRY=USA&DT=6/28/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "7/4/2025",
+        "3YO R T",
+        "BELMONT DERBY INVITATIONAL S.",
+        "1",
+        "3",
+        "",
+        "9",
+        "T",
+        "7",
+        "$750,000",
+        "Test Score"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=SAR&CTRY=USA&DT=7/4/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "7/5/2025",
+        "3YO F R T",
+        "BELMONT OAKS INVITATIONAL S.",
+        "1",
+        "3",
+        "f",
+        "9",
+        "T",
+        "7",
+        "$500,000",
+        "Fionn"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=SAR&CTRY=USA&DT=7/5/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "7/12/2025",
+        "3UP F/M RT M",
+        "DUNKIN' DIANA S.",
+        "1",
+        "3U",
+        "f",
+        "9",
+        "T",
+        "5",
+        "$485,000",
+        "Excellent Truth (IRE)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=SAR&CTRY=USA&DT=7/12/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "MTH",
+        "7/19/2025",
+        "3YO R D",
+        "NYRA BETS HASKELL S.",
+        "1",
+        "3",
+        "",
+        "9",
+        "",
+        "8",
+        "$1,017,500",
+        "Journalism"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=12&BorP=P&TID=MTH&CTRY=USA&DT=7/19/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "7/19/2025",
+        "3YO F R D",
+        "COACHING CLUB AMERICAN OAKS INVITATIONAL S.",
+        "1",
+        "3",
+        "f",
+        "9",
+        "",
+        "4",
+        "$465,000",
+        "Scottish Lassie"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=SAR&CTRY=USA&DT=7/19/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "7/26/2025",
+        "3UP SPR",
+        "BING CROSBY S.",
+        "1",
+        "3U",
+        "",
+        "6",
+        "",
+        "9",
+        "$402,000",
+        "Lovesick Blues"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=DMR&CTRY=USA&DT=7/26/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "8/2/2025",
+        "3UP F/M RD",
+        "CLEMENT L. HIRSCH S. PRESENTED BY OAK TREE RACING ASSOCIATION",
+        "1",
+        "3U",
+        "f",
+        "8.5",
+        "",
+        "6",
+        "$400,500",
+        "Seismic Beauty"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=DMR&CTRY=USA&DT=8/2/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/2/2025",
+        "3UP R D",
+        "WHITNEY S.",
+        "1",
+        "3U",
+        "",
+        "9",
+        "",
+        "9",
+        "$1,000,000",
+        "Sierra Leone"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=SAR&CTRY=USA&DT=8/2/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/2/2025",
+        "3UP R T M",
+        "FANDUEL FOURSTARDAVE S.",
+        "1",
+        "3U",
+        "",
+        "8",
+        "T",
+        "10",
+        "$750,000",
+        "Deterministic"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=SAR&CTRY=USA&DT=8/2/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/2/2025",
+        "3YO F SPR",
+        "TEST S. PRESENTED BY TICKETMASTER",
+        "1",
+        "3",
+        "f",
+        "7",
+        "",
+        "8",
+        "$500,000",
+        "Kilwin"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=SAR&CTRY=USA&DT=8/2/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/2/2025",
+        "3YO R T",
+        "SARATOGA DERBY INVITATIONAL S.",
+        "1",
+        "3",
+        "",
+        "9.5",
+        "T",
+        "9",
+        "$750,000",
+        "World Beater"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=SAR&CTRY=USA&DT=8/2/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/9/2025",
+        "3UP R T L",
+        "RESORTS WORLD CASINO SWORD DANCER S.",
+        "1",
+        "3U",
+        "",
+        "12",
+        "T",
+        "8",
+        "$750,000",
+        "El Cordobes (IRE)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=SAR&CTRY=USA&DT=8/9/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "CNL",
+        "8/9/2025",
+        "3UP R T L",
+        "ARLINGTON MILLION S.",
+        "1",
+        "3U",
+        "",
+        "10",
+        "T",
+        "7",
+        "$1,000,000",
+        "Fort Washington"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=CNL&CTRY=USA&DT=8/9/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "8/16/2025",
+        "3YO F R T",
+        "DEL MAR OAKS PRESENTED BY KEENELAND SALES S.",
+        "1",
+        "3",
+        "f",
+        "9",
+        "T",
+        "11",
+        "$303,000",
+        "Velocity"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=DMR&CTRY=USA&DT=8/16/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/16/2025",
+        "3YO F R D",
+        "ALABAMA S. PRESENTED BY KEENELAND SALES",
+        "1",
+        "3",
+        "f",
+        "10",
+        "",
+        "6",
+        "$600,000",
+        "Nitrogen"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=SAR&CTRY=USA&DT=8/16/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/23/2025",
+        "3UP F/M RD",
+        "PERSONAL ENSIGN S.",
+        "1",
+        "3U",
+        "f",
+        "9",
+        "",
+        "7",
+        "$500,000",
+        "Thorpedo Anna"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=SAR&CTRY=USA&DT=8/23/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/23/2025",
+        "3UP F/M SPR",
+        "RESORTS WORLD CASINO BALLERINA S.",
+        "1",
+        "3U",
+        "f",
+        "7",
+        "",
+        "8",
+        "$500,000",
+        "Hope Road"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=SAR&CTRY=USA&DT=8/23/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/23/2025",
+        "3UP SPR",
+        "FOREGO S.",
+        "1",
+        "3U",
+        "",
+        "7",
+        "",
+        "10",
+        "$500,000",
+        "Book'em Danno"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=12&BorP=P&TID=SAR&CTRY=USA&DT=8/23/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/23/2025",
+        "3YO R D",
+        "DRAFTKINGS TRAVERS S.",
+        "1",
+        "3",
+        "",
+        "10",
+        "",
+        "5",
+        "$1,212,500",
+        "Sovereignty"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=13&BorP=P&TID=SAR&CTRY=USA&DT=8/23/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/23/2025",
+        "3YO SPR",
+        "H. ALLEN JERKENS MEMORIAL S.",
+        "1",
+        "3",
+        "",
+        "7",
+        "",
+        "8",
+        "$500,000",
+        "Patch Adams"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=SAR&CTRY=USA&DT=8/23/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "8/30/2025",
+        "3UP R D",
+        "PACIFIC CLASSIC S.",
+        "1",
+        "3U",
+        "",
+        "10",
+        "",
+        "7",
+        "$1,001,000",
+        "Fierceness"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=DMR&CTRY=USA&DT=8/30/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/30/2025",
+        "2YO F D",
+        "SPINAWAY S.",
+        "1",
+        "2",
+        "f",
+        "7",
+        "",
+        "7",
+        "$300,000",
+        "Tommy Jo"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=SAR&CTRY=USA&DT=8/30/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "8/31/2025",
+        "3UP R D",
+        "JOCKEY CLUB GOLD CUP S.",
+        "1",
+        "3U",
+        "",
+        "10",
+        "",
+        "8",
+        "$1,000,000",
+        "Antiquarian"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=5&BorP=P&TID=SAR&CTRY=USA&DT=8/31/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SAR",
+        "9/1/2025",
+        "2YO D",
+        "SPENDTHRIFT FARM HOPEFUL S.",
+        "1",
+        "2",
+        "",
+        "7",
+        "",
+        "7",
+        "$300,000",
+        "Ted Noffey"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=SAR&CTRY=USA&DT=9/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "9/6/2025",
+        "2YO F D",
+        "DEL MAR DEBUTANTE S.",
+        "1",
+        "2",
+        "f",
+        "7",
+        "",
+        "7",
+        "$301,000",
+        "Bottle of Rouge"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=6&BorP=P&TID=DMR&CTRY=USA&DT=9/6/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KD",
+        "9/6/2025",
+        "3YO SPR",
+        "AINSWORTH FRANKLIN-SIMPSON S.",
+        "1",
+        "3",
+        "",
+        "6.5",
+        "T",
+        "12",
+        "$1,994,300",
+        "Troubleshooting"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=KD&CTRY=USA&DT=9/6/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "9/7/2025",
+        "2YO D",
+        "DEL MAR FUTURITY",
+        "1",
+        "2",
+        "",
+        "7",
+        "",
+        "6",
+        "$300,500",
+        "Brant"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=4&BorP=P&TID=DMR&CTRY=USA&DT=9/7/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "PRX",
+        "9/20/2025",
+        "3YO F R D",
+        "COTILLION S.",
+        "1",
+        "3",
+        "f",
+        "8.5",
+        "",
+        "7",
+        "$1,000,000",
+        "Cliquot"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=13&BorP=P&TID=PRX&CTRY=USA&DT=9/20/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "PRX",
+        "9/20/2025",
+        "3YO R D",
+        "PENNSYLVANIA DERBY",
+        "1",
+        "3",
+        "",
+        "9",
+        "",
+        "10",
+        "$1,000,000",
+        "Baeza"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=14&BorP=P&TID=PRX&CTRY=USA&DT=9/20/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "9/27/2025",
+        "3UP R D",
+        "GOODWOOD S. (formerly CALIFORNIA CROWN S.)",
+        "1",
+        "3U",
+        "",
+        "9",
+        "",
+        "6",
+        "$300,500",
+        "Nevada Beach"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=SA&CTRY=USA&DT=9/27/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "BAQ",
+        "9/27/2025",
+        "3UP R T L",
+        "JOE HIRSCH TURF CLASSIC S.",
+        "1",
+        "3U",
+        "",
+        "12",
+        "T",
+        "5",
+        "$485,000",
+        "Rebel's Romance (IRE)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=5&BorP=P&TID=BAQ&CTRY=USA&DT=9/27/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "10/3/2025",
+        "2YO F D",
+        "DARLEY ALCIBIADES S.",
+        "1",
+        "2",
+        "f",
+        "8.5",
+        "",
+        "6",
+        "$650,000",
+        "Tommy Jo"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=KEE&CTRY=USA&DT=10/3/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "10/4/2025",
+        "2YO D",
+        "CLAIBORNE BREEDERS' FUTURITY S.",
+        "1",
+        "2",
+        "",
+        "8.5",
+        "",
+        "6",
+        "$642,594",
+        "Ted Noffey"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=KEE&CTRY=USA&DT=10/4/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "10/4/2025",
+        "3UP F/M RT M",
+        "FIRST LADY S.",
+        "1",
+        "3U",
+        "f",
+        "8",
+        "T",
+        "11",
+        "$776,750",
+        "Simply in Front"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=KEE&CTRY=USA&DT=10/4/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "10/4/2025",
+        "3UP R T M",
+        "COOLMORE TURF MILE S.",
+        "1",
+        "3U",
+        "",
+        "8",
+        "T",
+        "11",
+        "$1,038,750",
+        "Rhetorical"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=KEE&CTRY=USA&DT=10/4/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "10/4/2025",
+        "2YO D",
+        "AMERICAN PHAROAH S. PRESENTED BY DK HORSE",
+        "1",
+        "2",
+        "",
+        "8.5",
+        "",
+        "6",
+        "$300,500",
+        "Intrepido"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=3&BorP=P&TID=SA&CTRY=USA&DT=10/4/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "BAQ",
+        "10/4/2025",
+        "2YO D",
+        "CHAMPAGNE S.",
+        "1",
+        "2",
+        "",
+        "8",
+        "",
+        "9",
+        "$500,000",
+        "Napoleon Solo"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=7&BorP=P&TID=BAQ&CTRY=USA&DT=10/4/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "BAQ",
+        "10/4/2025",
+        "2YO F D",
+        "FRIZETTE S.",
+        "1",
+        "2",
+        "f",
+        "8",
+        "",
+        "10",
+        "$400,000",
+        "Iron Orchard"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=6&BorP=P&TID=BAQ&CTRY=USA&DT=10/4/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "10/5/2025",
+        "3UP F/M RD",
+        "JUDDMONTE SPINSTER S.",
+        "1",
+        "3U",
+        "f",
+        "9",
+        "",
+        "5",
+        "$650,000",
+        "Gin Gin"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=KEE&CTRY=USA&DT=10/5/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "KEE",
+        "10/11/2025",
+        "3YO F R T",
+        "QUEEN ELIZABETH II CHALLENGE CUP S. PRESENTED BY DIXIANA",
+        "1",
+        "3",
+        "f",
+        "9",
+        "T",
+        "8",
+        "$665,300",
+        "Lush Lips (GB)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=KEE&CTRY=USA&DT=10/11/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "10/31/2025",
+        "2YO D",
+        "FANDUEL BREEDERS' CUP JUVENILE PRESENTED BY THOROUGHBRED AFTERCARE ALLIANCE",
+        "1",
+        "2",
+        "",
+        "8.5",
+        "",
+        "6",
+        "$1,760,000",
+        "Ted Noffey"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=DMR&CTRY=USA&DT=10/31/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "10/31/2025",
+        "2YO F D",
+        "NETJETS BREEDERS' CUP JUVENILE FILLIES",
+        "1",
+        "2",
+        "f",
+        "8.5",
+        "",
+        "9",
+        "$1,820,000",
+        "Super Corredora"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=7&BorP=P&TID=DMR&CTRY=USA&DT=10/31/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "10/31/2025",
+        "2YO F T",
+        "JOHN DEERE BREEDERS' CUP JUVENILE FILLIES TURF",
+        "1",
+        "2",
+        "f",
+        "8",
+        "T",
+        "12",
+        "$920,000",
+        "Balantina (IRE)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=DMR&CTRY=USA&DT=10/31/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "10/31/2025",
+        "2YO T",
+        "BREEDERS' CUP JUVENILE TURF",
+        "1",
+        "2",
+        "",
+        "8",
+        "T",
+        "14",
+        "$920,000",
+        "Gstaad (GB)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=DMR&CTRY=USA&DT=10/31/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "10/31/2025",
+        "2YO T",
+        "BREEDERS' CUP JUVENILE TURF SPRINT",
+        "1",
+        "2",
+        "",
+        "5",
+        "T",
+        "12",
+        "$920,000",
+        "Cy Fair"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=6&BorP=P&TID=DMR&CTRY=USA&DT=10/31/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/1/2025",
+        "3UP F/M RD",
+        "LONGINES BREEDERS' CUP DISTAFF",
+        "1",
+        "3U",
+        "f",
+        "9",
+        "",
+        "12",
+        "$1,840,000",
+        "Scylla"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=7&BorP=P&TID=DMR&CTRY=USA&DT=11/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/1/2025",
+        "3UP F/M RT L",
+        "MAKER'S MARK BREEDERS' CUP FILLY & MARE TURF",
+        "1",
+        "3U",
+        "f",
+        "11",
+        "T",
+        "13",
+        "$1,840,000",
+        "Gezora (FR)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=12&BorP=P&TID=DMR&CTRY=USA&DT=11/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/1/2025",
+        "3UP F/M SPR",
+        "PNC BANK BREEDERS' CUP FILLY & MARE SPRINT",
+        "1",
+        "3U",
+        "f",
+        "7",
+        "",
+        "7",
+        "$890,000",
+        "Splendora"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=4&BorP=P&TID=DMR&CTRY=USA&DT=11/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/1/2025",
+        "3UP R D",
+        "LONGINES BREEDERS' CUP CLASSIC",
+        "1",
+        "3U",
+        "",
+        "10",
+        "",
+        "9",
+        "$6,370,000",
+        "Forever Young (JPN)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=DMR&CTRY=USA&DT=11/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/1/2025",
+        "3UP R D",
+        "BREEDERS' CUP DIRT MILE",
+        "1",
+        "3U",
+        "",
+        "8",
+        "",
+        "8",
+        "$900,000",
+        "Nysos"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=DMR&CTRY=USA&DT=11/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/1/2025",
+        "3UP R T L",
+        "LONGINES BREEDERS' CUP TURF",
+        "1",
+        "3U",
+        "",
+        "12",
+        "T",
+        "14",
+        "$4,600,000",
+        "Ethical Diamond (IRE)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=DMR&CTRY=USA&DT=11/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/1/2025",
+        "3UP R T M",
+        "FANDUEL BREEDERS' CUP MILE PRESENTED BY PDJF",
+        "1",
+        "3U",
+        "",
+        "8",
+        "T",
+        "13",
+        "$1,840,000",
+        "Notable Speech (GB)"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=DMR&CTRY=USA&DT=11/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/1/2025",
+        "3UP SPR",
+        "CYGAMES BREEDERS' CUP SPRINT",
+        "1",
+        "3U",
+        "",
+        "6",
+        "",
+        "14",
+        "$1,840,000",
+        "Bentornato"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=6&BorP=P&TID=DMR&CTRY=USA&DT=11/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/1/2025",
+        "3UP T SPR",
+        "PREVAGEN BREEDERS' CUP TURF SPRINT",
+        "1",
+        "3U",
+        "",
+        "5",
+        "T",
+        "12",
+        "$920,000",
+        "Shisospicy"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=5&BorP=P&TID=DMR&CTRY=USA&DT=11/1/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/29/2025",
+        "3YO R T",
+        "HOLLYWOOD DERBY",
+        "1",
+        "3",
+        "",
+        "9",
+        "T",
+        "8",
+        "$301,500",
+        "Salamis"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=9&BorP=P&TID=DMR&CTRY=USA&DT=11/29/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/30/2025",
+        "2YO T",
+        "CECIL B. DEMILLE S.",
+        "1",
+        "3",
+        "",
+        "8",
+        "T",
+        "7",
+        "$101,000",
+        "Unrivaled Time"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=3&BorP=P&TID=DMR&CTRY=USA&DT=11/30/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "DMR",
+        "11/30/2025",
+        "3UP F/M RT M",
+        "MATRIARCH S.",
+        "1",
+        "3U",
+        "f",
+        "8",
+        "T",
+        "9",
+        "$302,000",
+        "Segesta"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=7&BorP=P&TID=DMR&CTRY=USA&DT=11/30/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "12/28/2025",
+        "3YO F R T",
+        "AMERICAN OAKS PRESENTED BY CYGAMES",
+        "1",
+        "3",
+        "f",
+        "10",
+        "T",
+        "11",
+        "$303,000",
+        "Ambaya"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=11&BorP=P&TID=SA&CTRY=USA&DT=12/28/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "12/28/2025",
+        "3YO F SPR",
+        "LA BREA S. PRESENTED BY DON JULIO",
+        "1",
+        "3",
+        "f",
+        "7",
+        "",
+        "10",
+        "$302,500",
+        "Usha"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=8&BorP=P&TID=SA&CTRY=USA&DT=12/28/2025&DAY=D&STYLE=EQB"
+      ]
+    },
+    {
+      "cells": [
+        "SA",
+        "12/28/2025",
+        "3YO SPR",
+        "MALIBU S.",
+        "1",
+        "3",
+        "",
+        "7",
+        "",
+        "7",
+        "$301,000",
+        "Goal Oriented"
+      ],
+      "links": [
+        "http://www.equibase.com/premium/eqbPDFChartPlus.cfm?RACE=10&BorP=P&TID=SA&CTRY=USA&DT=12/28/2025&DAY=D&STYLE=EQB"
+      ]
+    }
+  ]
+}

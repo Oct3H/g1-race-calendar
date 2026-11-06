@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="ja">
+<head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FGDLX751XZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FGDLX751XZ');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>レース一覧 2026年｜ダートグレード競走特設サイト</title>
+
+<meta name="description" content="ダートグレード競走特設サイトの「レース一覧 2026年」ページです。">
+<meta name="keywords" content="ダートグレード,ダートグレード競走,JRA,地方競馬">
+<meta name="thumbnail" content="https://www.keiba.go.jp/dirtgraderace/common/img/thumbnail.jpg">
+<link rel="apple-touch-icon" href="https://www.keiba.go.jp/dirtgraderace/common/img/apple-touch-icon.png">
+<link rel="icon" href="https://www.keiba.go.jp/dirtgraderace/common/img/favicon.ico">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="レース一覧 2026年｜ダートグレード競走特設サイト">
+<meta property="og:description" content="ダートグレード競走特設サイトの「レース一覧 2026年」ページです。">
+<meta property="og:image" content="https://www.keiba.go.jp/dirtgraderace/common/img/og.jpg">
+<meta property="og:url" content="https://www.keiba.go.jp/dirtgraderace/2026/racelist/index.html">
+
+<link href="../../common/css/common.css" rel="stylesheet">
+<script src="../../common/js/jquery.js" type="text/javascript"></script>
+<script src="../../common/js/common.js" type="text/javascript"></script>
+<script src="../../common/js/picturefill.min.js" type="text/javascript"></script>
+
+<!-- individual file -->
+<link href="css/racelist.css" rel="stylesheet">
+<script src="js/race_filtering.js" type="text/javascript"></script>
+<script src="../../common/js/racelist.js" type="text/javascript"></script>
+
+<script>
+$(function(){
+$("#common_header").load("../../common/html/common_header.html");
+$("#common_footer").load("../../common/html/common_footer.html");
+});
+</script>
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-602c882a25004a58"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+
+<div id="common_header"></div>
+
+
+<div class="contents">
+
+
+<section id="racelist">
+<h1 class="title"><img src="img/racelist_title.png" alt="年間レース一覧 Race List" width="522"/></h1>
+<p class="page_title">2026年 ダートグレード競走<br>
+年間レース一覧</p>
+
+<!-- 年アーカイブ発生時 -->
+<div class="racelist_dd">
+<div class="dd">
+表示する年を選択
+</div>
+<ul class="dd_menu"></ul>
+</div>
+<!-- /年アーカイブ発生時 -->
+
+<!--
+<p class="txt_supplement">4月以降の競走のレース詳細ページは順次公開となります。</p>
+-->
+
+<ul class="tab_maincate">
+  <li><a href="javascript:void(0)" class="filter_cate active" data-filter="all"><span>すべて</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_cate" data-filter="age_2"><span>2歳</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_cate" data-filter="age_3"><span>3歳</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_cate" data-filter="under_1500"><span>3・4歳以上<br>1500m以下</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_cate" data-filter="over_1600"><span>3・4歳以上<br>1600m以上</span></a></li>
+</ul>
+<ul class="tab_subcate">
+  <li><a href="javascript:void(0)" class="filter_subCate active" data-filter="all"><span>すべて</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_subCate" data-filter="east"><span>東日本</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_subCate" data-filter="west"><span>西日本</span></a></li>
+  <li><a href="javascript:void(0)" class="filter_subCate" data-filter="mare"><span>牝馬</span></a></li>
+</ul>
+
+<div id="list" class="js-filtering">
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>1</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0121_bluebirdcup/racecard.html">
+    <p>1月21日(水)</p>
+    <h4 class="jpn3">ブルーバードカップ</h4>
+    <p>船橋 左1800m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+    <a href="https://www.jra.go.jp/keiba/thisweek/2026/0125_2/index.html" target="_blank">
+    <p>1月25日(日)</p>
+    <h4 class="g2">プロキオンステークス</h4>
+    <p>京都 右1800m</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>2</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <a href="https://www.jra.go.jp/keiba/thisweek/2026/0201_1/index.html" target="_blank">
+    <p>2月1日(日)</p>
+    <h4 class="g3">根岸ステークス</h4>
+    <p>東京 左1400m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east","mare"]'>
+  <a href="/dirtgraderace/2026/0211_queensho/racecard.html">
+    <p>2月11日(祝水)</p>
+    <h4 class="jpn3">クイーン賞</h4>
+    <p>船橋 左1800m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/0212_sagakinen/racecard.html">
+    <p>2月12日(木)</p>
+    <h4 class="jpn3">佐賀記念</h4>
+    <p>佐賀 右2000m 19:30発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0218_kumotorisho/racecard.html">
+    <p>2月18日(水)</p>
+    <h4 class="jpn3">雲取賞</h4>
+    <p>大井 右1800m 16:35発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="https://www.jra.go.jp/keiba/g1/feb/data.html" target="_blank">
+    <p>2月22日(日)</p>
+    <h4 class="g1">フェブラリーステークス</h4>
+    <p>東京 左1600m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/0223_kakitsubatakinen/racecard.html">
+    <p>2月23日(祝月)</p>
+    <h4 class="jpn3">かきつばた記念</h4>
+    <p>名古屋 右1500m 17:50発走</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>3</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0311_diolitekinen/racecard.html">
+    <p>3月11日(水)</p>
+    <h4 class="jpn2">ダイオライト記念</h4>
+    <p>船橋 左2400m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/0324_kurofunesho/racecard.html">
+    <p>3月24日(火)</p>
+    <h4 class="jpn3">黒船賞</h4>
+    <p>高知 右1400m 16:45発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0325_keihinhai/racecard.html">
+    <p>3月25日(水)</p>
+    <h4 class="jpn2">京浜盃</h4>
+    <p>大井 右1700m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="https://www.jra.go.jp/keiba/thisweek/2026/0329_1/index.html" target="_blank">
+    <p>3月29日(日)</p>
+    <h4 class="g3">マーチステークス</h4>
+    <p>中山 右1800m</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>4</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="over_1600" data-subcate='["west","mare"]'>
+  <a href="/dirtgraderace/2026/0401_hyogojo-ohai/racecard.html"> 
+    <p>4月1日(水)</p>
+    <h4 class="jpn3">兵庫女王盃</h4>
+    <p>園田 右1870m 16:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0408_kawasakikinen/racecard.html"> 
+    <p>4月8日(水)</p>
+    <h4 class="jpn1">川崎記念</h4>
+    <p>川崎 左2100m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0415_tokyosprint/racecard.html"> 
+    <p>4月15日(水)</p>
+    <h4 class="jpn3">東京スプリント</h4>
+    <p>大井 右1200m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <a href="https://www.jra.go.jp/keiba/thisweek/2026/0418_1/" target="_blank">
+    <p>4月18日(土)</p>
+    <h4 class="g3">アンタレスステークス</h4>
+    <p>阪神 右1800m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0429_hanedahai/racecard.html"> 
+    <p>4月29日(祝水)</p>
+    <h4 class="jpn1">羽田盃</h4>
+    <p>大井 右1800m 20:05発走</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>5</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="age_3" data-subcate='["west"]'>
+  <a href="https://www.jra.go.jp/keiba/thisweek/2026/0502_2/" target="_blank">
+    <p>5月2日(土)</p>
+    <h4 class="g3">ユニコーンステークス</h4>
+    <p>京都 右1900m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/0504_nagoyagrandprix/racecard.html"> 
+    <p>5月4日(祝月)</p>
+    <h4 class="jpn2">名古屋グランプリ</h4>
+    <p>名古屋 右2100m 18:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0505_kashiwakinen/racecard.html"> 
+    <p>5月5日(祝火)</p>
+    <h4 class="jpn1">かしわ記念</h4>
+    <p>船橋 左1600m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_3" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/0506_hyogochampionship/racecard.html"> 
+    <p>5月6日(休水)</p>
+    <h4 class="jpn2">兵庫チャンピオンシップ</h4>
+    <p>園田 右1400m 16:15発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/0513_empresshai/racecard.html"> 
+    <p>5月13日(水)</p>
+    <h4 class="jpn2">エンプレス杯</h4>
+    <p>川崎 左2100m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <a href="https://www.jra.go.jp/keiba/thisweek/2026/0523_1/" target="_blank">
+    <p>5月23日(土)</p>
+    <h4 class="g3">平安ステークス</h4>
+    <p>京都 右1900m</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>6</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0610_tokyoderby/racecard.html"> 
+    <p>6月10日(水)</p>
+    <h4 class="jpn1">東京ダービー</h4>
+    <p>大井 右2000m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_3" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/0617_kantooaks/racecard.html"> 
+    <p>6月17日(水)</p>
+    <h4 class="jpn2">関東オークス</h4>
+    <p>川崎 左2100m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0624_sakitamahai/racecard.html"> 
+    <p>6月24日(水)</p>
+    <h4 class="jpn1">さきたま杯</h4>
+    <p>浦和 左1400m 18:50発走</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>7</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0701_teiosho/racecard.html"> 
+    <p>7月1日(水)</p>
+    <h4 class="jpn1">帝王賞</h4>
+    <p>大井 右2000m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/0708_sparkingladycup/racecard.html"> 
+    <p>7月8日(水)</p>
+    <h4 class="jpn3">スパーキングレディーカップ</h4>
+    <p>川崎 左1600m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0720_mercurycup/racecard.html"> 
+    <p>7月20日(祝月)</p>
+    <h4 class="jpn3">マーキュリーカップ</h4>
+    <p>盛岡 左2000m 18:15発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["west"]'>
+  <a href="https://www.jra.go.jp/keiba/thisweek/2026/0726_2/index.html" target="_blank">
+    <p>7月26日(日)</p>
+    <h4 class="g3">東海ステークス</h4>
+    <p>中京 左1400m</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>8</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="https://www.jra.go.jp/keiba/thisweek/2026/0808_1/" target="_blank">
+    <p>8月8日(土)</p>
+    <h4 class="g3">エルムステークス</h4>
+    <p>札幌 右1700m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="https://www.jra.go.jp/keiba/thisweek/2026/0809_1/" target="_blank">
+    <p>8月9日(日)</p>
+    <h4 class="g3">レパードステークス</h4>
+    <p>新潟 左1800m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0811_clustercup/racecard.html"> 
+    <p>8月11日(祝火)</p>
+    <h4 class="jpn3">クラスターカップ</h4>
+    <p>盛岡 左1200m 17:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0813_hokkaidosprintcup/racecard.html"> 
+    <p>8月13日(木)</p>
+    <h4 class="jpn3">北海道スプリントカップ</h4>
+    <p>門別 右1200m 19:55発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/0827_breedersgoldcup/racecard.html"> 
+    <p>8月27日(木)</p>
+    <h4 class="jpn3">ブリーダーズゴールドカップ</h4>
+    <p>門別 右2000m 19:55発走</p>
+  </a>
+</li>
+</ul>
+</div>
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>9</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0901_kozukatasho/racecard.html"> 
+    <p>9月1日(火)</p>
+    <h4 class="jpn2">不来方賞</h4>
+    <p>盛岡 左2000m 17:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/0903_summerchampion/racecard.html"> 
+    <p>9月3日(木)</p>
+    <h4 class="jpn3">サマーチャンピオン</h4>
+    <p>佐賀 右1400m 20:00発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0922_hakusandaishoten/racecard.html"> 
+    <p>9月22日(休火)</p>
+    <h4 class="jpn3">白山大賞典</h4>
+    <p>金沢 右2100m 18:00発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0923_ovalsprint/racecard.html"> 
+    <p>9月23日(祝水)</p>
+    <h4 class="jpn3">オーバルスプリント</h4>
+    <p>浦和 左1400m 18:15発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+   <a href="https://www.jra.go.jp/keiba/race/089/data.html" target="_blank">
+    <p>9月26日(土)</p>
+    <h4 class="g3">シリウスステークス</h4>
+    <p>阪神 右2000m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/0930_nippontvhai/racecard.html"> 
+    <p>9月30日(水)</p>
+    <h4 class="jpn2">日本テレビ盃</h4>
+    <p>船橋 左1800m 20:05発走</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>10</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="age_3" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/1001_marinecup/racecard.html"> 
+    <p>10月1日(木)</p>
+    <h4 class="jpn3">マリーンカップ</h4>
+    <p>船橋 左1800m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/1006_ladiesprelude/racecard.html">  
+    <p>10月6日(火)</p>
+    <h4 class="jpn2">レディスプレリュード</h4>
+    <p>大井 右1800m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_3" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1007_japandirtclassic/racecard.html">  
+    <p>10月7日(水)</p>
+    <h4 class="jpn1">ジャパンダートクラシック</h4>
+    <p>大井 右2000m 20:05発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1008_tokyohai/racecard.html">  
+    <p>10月8日(木)</p>
+    <h4 class="jpn2">東京盃</h4>
+    <p>大井 右1200m 20:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1012_milechampionshipnambuhai/racecard.html"> 
+    <p>10月12日(祝月)</p>
+    <h4 class="jpn1">マイルチャンピオンシップ南部杯</h4>
+    <p>盛岡 左1600m 18:15発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_2" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/1029_edelweisssho/racecard.html"> 
+    <p>10月29日(木)</p>
+    <h4 class="jpn3">エーデルワイス賞</h4>
+    <p>門別 右1200m 19:55発走</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>11</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="age_2" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1103_JBCnisaiyushun/racecard.html"> 
+    <p>11月3日(祝火)</p>
+    <h4 class="jpn3">JBC2歳優駿</h4>
+    <p>門別 右1800m 15:40発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"],[mare]'>
+  <a href="/dirtgraderace/2026/1103_JBCladiesclassic/racecard.html"> 
+    <p>11月3日(祝火)</p>
+    <h4 class="jpn1">JBCレディスクラシック</h4>
+    <p>金沢 右1500m 14:25発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1103_JBCsprint/racecard.html"> 
+    <p>11月3日(祝火)</p>
+    <h4 class="jpn1">JBCスプリント</h4>
+    <p>金沢 右1400m 15:10発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1103_JBCclassic/racecard.html"> 
+    <p>11月3日(祝火)</p>
+    <h4 class="jpn1">JBCクラシック</h4>
+    <p>金沢 右2100m 16:25発走</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <!--<a href="" target="_blank">-->
+    <p>11月8日(日)</p>
+    <h4 class="g3">みやこステークス</h4>
+    <p>京都 右1800m</p>
+  <!--</a>-->
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <!--<a href="" target="_blank">-->
+    <p>11月14日(土)</p>
+    <h4 class="g3">武蔵野ステークス</h4>
+    <p>東京 左1600m</p>
+  <!--</a>-->
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1125_urawakinen/introduction.html"> 
+    <p>11月25日(水)</p>
+    <h4 class="jpn2">浦和記念</h4>
+    <p>浦和 左2000m 17:45発走予定</p>
+  </a>
+</li>
+<li class="js-item" data-cate="age_2" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/1126_hyogojuniorgrandprix/introduction.html"> 
+    <p>11月26日(木)</p>
+    <h4 class="jpn2">兵庫ジュニアグランプリ</h4>
+    <p>園田 右1400m 16:15発走予定</p>
+  </a>
+</li>
+</ul>
+</div>
+
+
+<div class="month">
+<h3 class="h">
+  <span class="year">2026年</span>
+  <span>12</span>月
+</h3>
+<ul>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <!--<a href="" target="_blank">-->
+    <p>12月6日(日)</p>
+    <h4 class="g1">チャンピオンズカップ</h4>
+    <p>中京 左1800m</p>
+  <!--</a>-->
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["east"]'>
+  <!--<a href="" target="_blank">-->
+    <p>12月13日(日)</p>
+    <h4 class="g3">カペラステークス</h4>
+    <p>中山 右1200m</p>
+  <!--</a>-->
+</li>
+<li class="js-item" data-cate="age_2" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1216_zen-nipponnisaiyushun/introduction.html"> 
+    <p>12月16日(水)</p>
+    <h4 class="jpn1">全日本2歳優駿</h4>
+    <p>川崎 左1600m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/1223_nagoyadaishoten/introduction.html"> 
+    <p>12月23日(水)</p>
+    <h4 class="jpn3">名古屋大賞典</h4>
+    <p>名古屋 右2000m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="under_1500" data-subcate='["west"]'>
+  <a href="/dirtgraderace/2026/1224_hyogogoldtrophy/introduction.html"> 
+    <p>12月24日(木)</p>
+    <h4 class="jpn3">兵庫ゴールドトロフィー</h4>
+    <p>園田 右1400m</p>
+  </a>
+</li>
+<li class="js-item" data-cate="over_1600" data-subcate='["east"]'>
+  <a href="/dirtgraderace/2026/1229_tokyodaishoten/introduction.html"> 
+    <p>12月29日(火)</p>
+    <h4 class="g1">東京大賞典</h4>
+    <p>大井 右2000m</p>
+  </a>
+</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+
+<ul class="btns">
+<li><a href="../calendar.html"><img src="img/btn_google_calendar.png" alt="Googleカレンダーでレース一覧を見る"></a></li>
+<li><a href="../../"><img src="../../common/img/btn_toppage.png" alt="トップページへ戻る"></a></li>
+</ul>
+
+
+</div>
+
+
+<div id="common_footer"></div>
+
+</div>
+
+<div class="flow_link_wrapper is_flow">
+  <ul class="flow_link">
+    <li><a href="#wrapper"><img src="../../common/img/link_pagetop.png" alt="pagetop" /></a></li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+{
+  "collected_date": "2026-10-22",
+  "method": "Browser-rendered public pre-race Field view; one explicit reload, then rendered content checked again. Necessary facts transcribed from DOM; no odds links clicked.",
+  "source_url": "https://www.racing.com/form/2026-10-24/flemington/race/8",
+  "title": "Form | Field | Flemington | Race 8 | Saturday | 24 October 2026 | VIC | Racing.com",
+  "race": {
+    "name": "Ladbrokes Cox Plate",
+    "source_date": "2026-10-24",
+    "venue": "Flemington",
+    "race_number": 8,
+    "grade_raw": "Group 1",
+    "distance_m": 2040,
+    "surface_raw": "Turf",
+    "prize_total_raw": "$6,000,000",
+    "display_time_raw": "2:10pm",
+    "display_timezone": "not verified"
+  },
+  "odds": {
+    "page_host": "Racing.com",
+    "provider": "Sportsbet",
+    "provider_evidence": "Sportsbet logo visible above W/P column; see screenshot racing-com-cox-plate-2026-pre-race.png",
+    "market_label_raw": "W",
+    "bookmaker_market_type": "not explicitly labelled fixed/tote in this view",
+    "decimal_definition_source": "https://www.sportsbet.com.au/huddle/punter-iq/guide/how-do-odds-work-betting",
+    "decimal_definition_note": "Provider documentation defines decimal values as total return including initial stake. Its form-guide help describes Win fixed odds; this view itself only says W/P.",
+    "adoption_status": "Research only: commercial bookmaker price is not adopted as local racing authority data or silently added to confirmed local-authority-then-HKJC priority.",
+    "source_updated_at": null
+  },
+  "reload": {
+    "rendered_race_loaded": true,
+    "win_count": 12,
+    "same_values_as_first_load": true,
+    "limitations": "Two reads of one race do not prove price changes, freshness, ongoing availability, full G1 coverage, or supported API access."
+  },
+  "rows": [
+    {
+      "number": 1,
+      "horse_name_raw": "Ceolwulf (NZ)",
+      "barrier": 3,
+      "trainer_raw": "J.J.W.Pride",
+      "jockey_raw": "C.Schofield",
+      "win_raw": "$7.00"
+    },
+    {
+      "number": 2,
+      "horse_name_raw": "Light Infantry Man (FR)",
+      "barrier": 11,
+      "trainer_raw": "C.Maher",
+      "jockey_raw": "H.T.Coffey",
+      "win_raw": "$31.00"
+    },
+    {
+      "number": 3,
+      "horse_name_raw": "Sir Delius (GB)",
+      "barrier": 5,
+      "trainer_raw": "Gai Waterhouse & Adrian Bott",
+      "jockey_raw": "C.Williams",
+      "win_raw": "$4.20"
+    },
+    {
+      "number": 4,
+      "horse_name_raw": "Attrition",
+      "barrier": 4,
+      "trainer_raw": "M.Freedman",
+      "jockey_raw": "J.Mott",
+      "win_raw": "$61.00"
+    },
+    {
+      "number": 5,
+      "horse_name_raw": "Cosmic Crusader (NZ)",
+      "barrier": 8,
+      "trainer_raw": "A.Leek",
+      "jockey_raw": "W.A.Pike",
+      "win_raw": "$8.00"
+    },
+    {
+      "number": 6,
+      "horse_name_raw": "Birdman (IRE)",
+      "barrier": 1,
+      "trainer_raw": "C.J.Waller",
+      "jockey_raw": "B.J.Melham",
+      "win_raw": "$12.00"
+    },
+    {
+      "number": 7,
+      "horse_name_raw": "Land Legend (FR)",
+      "barrier": 12,
+      "trainer_raw": "C.Maher",
+      "jockey_raw": "E.P.Brown",
+      "win_raw": "$41.00"
+    },
+    {
+      "number": 8,
+      "horse_name_raw": "Middle Earth (GB)",
+      "barrier": 7,
+      "trainer_raw": "C.Maher",
+      "jockey_raw": "J.M.Allen",
+      "win_raw": "$126.00"
+    },
+    {
+      "number": 9,
+      "horse_name_raw": "Saint George (GB)",
+      "barrier": 6,
+      "trainer_raw": "C.Maher",
+      "jockey_raw": "B.A.Shinn",
+      "win_raw": "$23.00"
+    },
+    {
+      "number": 10,
+      "horse_name_raw": "Aeliana (NZ)",
+      "barrier": 10,
+      "trainer_raw": "C.J.Waller",
+      "jockey_raw": "J.B.McDonald",
+      "win_raw": "$4.60"
+    },
+    {
+      "number": 11,
+      "horse_name_raw": "Warwoven",
+      "barrier": 2,
+      "trainer_raw": "B.Baker",
+      "jockey_raw": "R.King",
+      "win_raw": "$4.60"
+    },
+    {
+      "number": 12,
+      "horse_name_raw": "Blind Raise (NZ)",
+      "barrier": 9,
+      "trainer_raw": "Trent Busuttin & Natalie Young",
+      "jockey_raw": "J.L.Melham",
+      "win_raw": "$15.00"
+    }
+  ]
+}

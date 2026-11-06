@@ -1,0 +1,29 @@
+{
+  "round": 54,
+  "date": "2026-10-24",
+  "previewUrl": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&quality=official-partial&entry=compact&race=quality-demo&refund=preview&view=results&v=54",
+  "request": "Choose non-crying face; circular avatar without tail; separate speech upper-right; only avatar opens dimmed central exception details; smaller and higher, no table or other spacing impact.",
+  "implementation": {
+    "asset": "design/assets/machikane-tannhauser-reference-v1.png (unchanged pixels); crying version no longer consumed",
+    "avatar": "52px circle, 44px image, absolute top 6px left 51%; narrow 48px/40px right-aligned; no tail",
+    "speech": "Separate passive upper-right text, current scenario 部分赛果资料待补; other existing scenarios preserve their summary",
+    "flow": "Removed reserved padding and min-height and header wrapping rule; overlay participates in no normal flow",
+    "modal": "Sibling native dialog with region copied from race, dimmed backdrop, native close forms and Escape support; backdrop click closes, content click does not; focus-return callback; close existing modal on race entry or parent close",
+    "finance": "No money changes or result acknowledgements from exception UI"
+  },
+  "checks": {
+    "check_data_quality_preview.mjs": "PASS: fixed A markup, avatar-only open, region, duplicate guard, content/backdrop event handling, focus-return callback and parent-close handling with DOM doubles; existing seven scenarios and ledger/payment checks retained.",
+    "check_change_preview.mjs": "PASS: race entry closes previous exception modal; existing changes/refunds/eligibility preserved.",
+    "static": "PASS: 217 combined IDs unique; 17 local HTML resources exist; three module syntax/import checks; balanced CSS; HTML nesting validated; sibling modal; two native close forms; no reserved padding/min-height.",
+    "head": {
+      "count": 6,
+      "allStatus": 200,
+      "allCacheControl": "no-store"
+    }
+  },
+  "limitations": [
+    "No browser rendering, screenshot, measured geometry or native keyboard/focus-trap testing. Existing browser access restriction respected.",
+    "Visibility and spacing judged through source/CSS; user website review needed.",
+    "Still a fictional in-memory prototype; no formal desktop implementation, real data fetching or new finance rules."
+  ]
+}

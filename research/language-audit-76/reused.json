@@ -1,0 +1,506 @@
+{
+  "请选择语言": [
+    "Choose your language",
+    "言語を選択"
+  ],
+  "继续": [
+    "Continue",
+    "続ける"
+  ],
+  "之后可以在设置中修改。": [
+    "You can change this later in Settings.",
+    "あとから設定で変更できます。"
+  ],
+  "仅切换界面语言，赛事名与马名保留原规则。": [
+    "Only the interface changes. Race and horse names keep their regional naming rules.",
+    "画面の言語のみ変更します。レース名と馬名の表示ルールは維持されます。"
+  ],
+  "已选择：中文": [
+    "Selected: English",
+    "選択中：日本語"
+  ],
+  "电脑时区": [
+    "Computer time zone",
+    "PCのタイムゾーン"
+  ],
+  "预览时区": [
+    "Preview time zone",
+    "プレビューのタイムゾーン"
+  ],
+  "排版示例": [
+    "Layout sample",
+    "表示サンプル"
+  ],
+  "展开其余 {0} 场": [
+    "Show {0} more",
+    "残り{0}件を表示"
+  ],
+  "收起其余 {0} 场": [
+    "Hide {0} races",
+    "残り{0}件を閉じる"
+  ],
+  "{0}，{1}，查看示例详情": [
+    "{0}, {1}, view sample details",
+    "{0}、サンプル詳細を表示"
+  ],
+  "月": [
+    "",
+    "月"
+  ],
+  "{0}年{1}月，选择年月": [
+    "Choose month: {0}-{1}",
+    "{0}年{1}月を選択"
+  ],
+  "{0}年{1}月示例月历": [
+    "Sample race calendar: {0}-{1}",
+    "{0}年{1}月のサンプル"
+  ],
+  "本月 {0} 场 · 示例资料": [
+    "{0} {1} this month · Sample data",
+    "今月 {0} レース · サンプル"
+  ],
+  "本月资料未载入": [
+    "Data not loaded for this month",
+    "今月のデータは未取得"
+  ],
+  "当前筛选没有匹配赛事": [
+    "No races match these filters",
+    "条件に一致するレースはありません"
+  ],
+  "本月资料尚未载入": [
+    "Data not loaded for this month",
+    "今月のデータは未取得"
+  ],
+  "可以放宽地区筛选，再看看这个月的赛程。": [
+    "Select more regions to see this month’s races.",
+    "地域フィルターを広げてください。"
+  ],
+  "这里保留完整日期格。没有资料不代表没有比赛；本轮仅提供 2026 年 10—11 月的少量样例。": [
+    "Missing data does not mean no races. This preview contains selected October–November 2026 samples.",
+    "未取得は開催なしを意味しません。2026年10〜11月の一部サンプルです。"
+  ],
+  "显示全部地区": [
+    "Show all regions",
+    "全地域を表示"
+  ],
+  "查看 10 月示例": [
+    "Open October sample",
+    "10月のサンプルへ"
+  ],
+  "已选 {0} 个地区 ⌄": [
+    "{0} regions selected ⌄",
+    "{0} 地域選択 ⌄"
+  ],
+  "细分地区 ⌄": [
+    "Regions ⌄",
+    "地域 ⌄"
+  ],
+  "已选 {0} / 9": [
+    "Selected {0} / 9",
+    "{0} / 9 選択"
+  ],
+  "· 最近检查 {0}（演示）": [
+    "· Last checked {0} (sample)",
+    "· 最終確認 {0}（サンプル）"
+  ],
+  "GⅠ 赛马日历": [
+    "GⅠ Race Calendar",
+    "GⅠ レースカレンダー"
+  ],
+  "设置": [
+    "Settings",
+    "設定"
+  ],
+  "语言与显示": [
+    "Language & display",
+    "言語と表示"
+  ],
+  "中文 · 日本語 · English": [
+    "中文 · 日本語 · English",
+    "中文 · 日本語 · English"
+  ],
+  "资料来源": [
+    "Data source",
+    "データの出典"
+  ],
+  "来源目录与赔率市场": [
+    "Sources and odds markets",
+    "参照元とオッズ市場"
+  ],
+  "缓存管理": [
+    "Cache management",
+    "キャッシュ管理"
+  ],
+  "更新记录与按年清理": [
+    "Updates and cleanup by year",
+    "更新記録・年別削除"
+  ],
+  "预览": [
+    "Preview",
+    "プレビュー"
+  ],
+  "‹ 返回赛历": [
+    "‹ Back to calendar",
+    "‹ カレンダーへ"
+  ],
+  "让熟悉的赛历，用你习惯的语言呈现。": [
+    "Your familiar race calendar, in the language you prefer.",
+    "いつものレースカレンダーを、使い慣れた言語で。"
+  ],
+  "资料有出处，更新有记录。": [
+    "Trace the source. Keep the update record.",
+    "出典を確認し、更新の記録を残す。"
+  ],
+  "日本": [
+    "Japan",
+    "日本"
+  ],
+  "当地官方赛果、SP 或派彩；不同字段分别核验": [
+    "Official results, SP or dividends; definitions checked separately",
+    "現地公式の結果、SPまたは払戻金。項目ごとに定義を確認"
+  ],
+  "已核对 BCC 官网与 Equibase 公开赛果 PDF": [
+    "BCC official page and public Equibase result PDF checked",
+    "BCC公式ページとEquibase公開結果PDFを確認済み"
+  ],
+  "显示语言": [
+    "Display language",
+    "表示言語"
+  ],
+  "当地权威赛马机构": [
+    "Authoritative local racing bodies",
+    "現地の信頼できる競馬機関"
+  ],
+  "设置页三语预览": [
+    "Settings in three languages",
+    "設定ページの3言語プレビュー"
+  ],
+  "海外赔率来源顺序": [
+    "Source priority for overseas odds",
+    "海外オッズの情報源の優先順位"
+  ],
+  "优先采用可信、且市场与赔率口径已核实的数据。": [
+    "Use trustworthy local data first, once its market and odds format have been verified.",
+    "市場とオッズの定義を確認できた、信頼性のあるデータを優先します。"
+  ],
+  "JRA／地方赛事与马匹资料；netkeiba 为补充候选": [
+    "JRA and local races and horse records; netkeiba is a potential supplement",
+    "JRA・地方競馬のレースと競走馬情報。netkeibaは補完候補"
+  ],
+  "单胜最终赔率 · 含本金": [
+    "Final Win odds · Includes stake",
+    "単勝確定オッズ · 元本を含む"
+  ],
+  "两者都无可靠数据时显示暂无资料；不拼接或平均不同市场的赔率。": [
+    "If neither has reliable data, show “Unavailable”. Do not combine or average odds from different markets.",
+    "どちらも信頼できるデータがない場合は「情報なし」と表示します。異なる市場のオッズを混合・平均しません。"
+  ],
+  "赛事日历": [
+    "Race calendar",
+    "レースカレンダー"
+  ],
+  "赛果": [
+    "Results",
+    "レース結果"
+  ],
+  "澳大利亚": [
+    "Australia",
+    "オーストラリア"
+  ],
+  "设置与来源展示设计 · 选择通过网址保留，不写入应用偏好": [
+    "Settings and source display prototype. Selections stay in the URL, not in app preferences",
+    "設定・出典表示のデザイン。選択はURLに保持され、アプリ設定には保存されません"
+  ],
+  "全部赛事": [
+    "All races",
+    "全レース"
+  ],
+  "国际赛事排名": [
+    "International race rankings",
+    "国際レースランキング"
+  ],
+  "名称保留原规则": [
+    "Keep regional names",
+    "名称の表示ルールを維持"
+  ],
+  "赛事详情中的来源展示": [
+    "Source details on a race page",
+    "レース詳細での出典表示"
+  ],
+  "赛事、赏金或赛果；法国直接详情仍待验证": [
+    "Races, purses or results; direct French race details still unverified",
+    "レース・賞金・結果。フランスの詳細データの直接取得は未確認"
+  ],
+  "选择应用界面的语言。赛事与马匹名称保留各地区原有的显示规则。": [
+    "Choose the language of the interface. Race and horse names keep their regional naming rules.",
+    "画面の表示言語を選択します。レース名と馬名は、地域ごとの表示ルールを維持します。"
+  ],
+  "查看资料来自哪里，以及海外独赢赔率的来源顺序。": [
+    "See where the data comes from and which sources take priority for overseas Win odds.",
+    "データの出典と、海外の単勝オッズに使用する情報源の優先順位を確認できます。"
+  ],
+  "阿联酋／沙特": [
+    "UAE / Saudi Arabia",
+    "UAE／サウジアラビア"
+  ],
+  "市场／类型": [
+    "Market / type",
+    "市場／種別"
+  ],
+  "当前预览：中文 · 界面文字即时切换": [
+    "Preview: English · Interface language updated",
+    "プレビュー：日本語 · 画面の表示を切り替えました"
+  ],
+  "年度前百名单与排序": [
+    "Annual Top 100 list and ranking",
+    "年間トップ100と順位"
+  ],
+  "英国／爱尔兰": [
+    "Great Britain / Ireland",
+    "英国／アイルランド"
+  ],
+  "代表资料已核对 · 尚未正式接入": [
+    "Sample records checked · Live integration pending",
+    "一部の資料を確認済み · 本番接続は未実装"
+  ],
+  "当地缺少可信数据时，使用已核实的港马会资料，并标明市场。": [
+    "When trustworthy local data is unavailable, use verified HKJC data and identify its market.",
+    "現地の信頼できるデータがない場合は、確認済みのHKJCデータを使用し、市場を明記します。"
+  ],
+  "日本日文 · 香港繁体中文 · 其他地区英文。语言切换不会改写来源原名。": [
+    "Japanese for Japan, Traditional Chinese for Hong Kong, and English elsewhere. Switching language does not rewrite source names.",
+    "日本は日本語、香港は繁体字中国語、その他の地域は英語。言語を切り替えても、出典の名称は変更しません。"
+  ],
+  "已核对的历史记录": [
+    "Verified historical record",
+    "確認済みの過去データ"
+  ],
+  "本页与示例可切换语言，尚未启用全局设置": [
+    "Language preview for this page and its examples; global settings are not active",
+    "このページと表示例のみ切り替え可能。アプリ全体への適用は未実装です"
+  ],
+  "目录汇总当前核验来源，不代表每场或每个字段均有数据。具体赛事仍显示实际采用的出处。": [
+    "This directory lists sources reviewed so far. Coverage varies by race and field. Each race will identify the sources actually used.",
+    "これまで確認した情報源の一覧です。全レース・全項目の取得を保証するものではありません。各レースには実際に使用した出典を表示します。"
+  ],
+  "香港／海外转播": [
+    "Hong Kong / Overseas simulcasts",
+    "香港／海外中継"
+  ],
+  "香港赛马会": [
+    "Hong Kong Jockey Club",
+    "香港ジョッキークラブ"
+  ],
+  "名称显示示例": [
+    "Name display examples",
+    "名称の表示例"
+  ],
+  "海外": [
+    "Overseas",
+    "海外"
+  ],
+  "界面预览": [
+    "Interface preview",
+    "画面プレビュー"
+  ],
+  "预览首次启动语言选择 ↗": [
+    "Preview first-launch language selection ↗",
+    "初回起動の言語選択をプレビュー ↗"
+  ],
+  "设置分类": [
+    "Settings categories",
+    "設定メニュー"
+  ],
+  "法国／德国": [
+    "France / Germany",
+    "フランス／ドイツ"
+  ],
+  "来源原值": [
+    "Original value",
+    "出典の元の値"
+  ],
+  "核验日期": [
+    "Verified on",
+    "確認日"
+  ],
+  "官方比赛册、赏金与赛后摘要；完整直连赛果待验证": [
+    "Official racebooks, purses and result summaries; direct full results still unverified",
+    "公式レースブック・賞金・結果概要。全着順の直接取得は未確認"
+  ],
+  "本地赛果与独赢；部分海外转播赛果及赛前资料": [
+    "Local results and Win odds; selected overseas results and pre-race guides",
+    "香港の結果と単勝。一部の海外中継レースの結果・出走資料"
+  ],
+  "出马表": [
+    "Racecard",
+    "出馬表"
+  ],
+  "马匹资料": [
+    "Horse profile",
+    "競走馬情報"
+  ],
+  "着差": [
+    "Margin",
+    "着差"
+  ],
+  "历史来源展示示例，非实时赔率。原值 15/8 换算为含本金倍率：1＋15/8＝2.875。": [
+    "A historical display example, not live odds. Fractional odds of 15/8 become a return including stake of 1 + 15/8 = 2.875.",
+    "過去データの表示例であり、リアルタイムのオッズではありません。15/8を元本込みの倍率に換算：1＋15/8＝2.875。"
+  ],
+  "部分赛事与赏金；逐马详情及赔率仍需验证": [
+    "Selected races and purses; runner details and odds need further verification",
+    "一部のレースと賞金。全馬の詳細・オッズは要確認"
+  ],
+  "美国": [
+    "United States",
+    "米国"
+  ],
+  "来源目录": [
+    "Source directory",
+    "情報源一覧"
+  ],
+  "倍": [
+    "×",
+    "倍"
+  ],
+  "中文": [
+    "English",
+    "日本語"
+  ],
+  "香港": [
+    "Hong Kong",
+    "香港"
+  ],
+  "阿拉伯国家": [
+    "Arab countries",
+    "アラブ諸国"
+  ],
+  "英国": [
+    "Great Britain",
+    "英国"
+  ],
+  "法国": [
+    "France",
+    "フランス"
+  ],
+  "德国": [
+    "Germany",
+    "ドイツ"
+  ],
+  "其他": [
+    "Other",
+    "その他"
+  ],
+  "部分来源失败": [
+    "Some sources failed",
+    "一部取得失敗"
+  ],
+  "选择年月": [
+    "Choose month",
+    "年月を選択"
+  ],
+  "今天": [
+    "Today",
+    "今日"
+  ],
+  "细分地区": [
+    "Regions",
+    "地域"
+  ],
+  "JP 日本": [
+    "JP Japan",
+    "JP 日本"
+  ],
+  "US 美国": [
+    "US United States",
+    "US 米国"
+  ],
+  "HK 香港": [
+    "HK Hong Kong",
+    "HK 香港"
+  ],
+  "UAE / KSA 阿拉伯国家": [
+    "UAE / KSA Arab countries",
+    "UAE / KSA アラブ諸国"
+  ],
+  "GB 英国": [
+    "GB Great Britain",
+    "GB 英国"
+  ],
+  "FR 法国": [
+    "FR France",
+    "FR フランス"
+  ],
+  "DE 德国": [
+    "DE Germany",
+    "DE ドイツ"
+  ],
+  "AU 澳大利亚": [
+    "AU Australia",
+    "AU オーストラリア"
+  ],
+  "IE 等其他": [
+    "IE / Other",
+    "IE その他"
+  ],
+  "草地": [
+    "Turf",
+    "芝"
+  ],
+  "泥地": [
+    "Dirt",
+    "ダート"
+  ],
+  "人工跑道": [
+    "All-weather",
+    "全天候"
+  ],
+  "赛程与时间为示例；17 日含虚构折叠记录。": [
+    "Sample dates and times; the 17th includes fictional folded races.",
+    "日時はサンプル。17日は折りたたみ例を含みます。"
+  ],
+  "交互设计预览": [
+    "Interaction preview",
+    "操作プレビュー"
+  ],
+  "年月与筛选可操作；赛程、更新时间为排版示例。状态切换不会联网，刷新页面会重置。": [
+    "Month and filters are interactive. Dates and updates are samples; no requests are sent and reloading resets the preview.",
+    "年月・条件は操作できます。データはサンプルで、通信せず再読み込みでリセットします。"
+  ],
+  "更新结果": [
+    "Update result",
+    "更新結果"
+  ],
+  "成功": [
+    "Success",
+    "成功"
+  ],
+  "离线": [
+    "Offline",
+    "オフライン"
+  ],
+  "查看完整设计稿 ›": [
+    "Open full design preview ›",
+    "デザイン全体を見る ›"
+  ],
+  "想看哪些地区？": [
+    "Which regions would you like to see?",
+    "表示する地域を選択"
+  ],
+  "可同时选择多个地区，只改变显示，不改变资料收集范围。": [
+    "Choose multiple regions. This only changes the display, not the data collection scope.",
+    "複数の地域を選択できます。表示のみ変更し、収集範囲は変更しません。"
+  ],
+  "全选": [
+    "Select all",
+    "すべて選択"
+  ],
+  "清空": [
+    "Clear",
+    "クリア"
+  ],
+  "应用筛选": [
+    "Apply filters",
+    "適用"
+  ]
+}

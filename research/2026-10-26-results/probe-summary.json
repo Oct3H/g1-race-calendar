@@ -1,0 +1,23 @@
+[
+  {
+    "name": "kikuka_results",
+    "status": 200,
+    "bytes": 3977,
+    "graphql_errors": null,
+    "error": null
+  },
+  {
+    "name": "kikuka_win_time",
+    "status": 200,
+    "bytes": 399,
+    "graphql_errors": null,
+    "error": null
+  },
+  {
+    "name": "official_amendment",
+    "status": 404,
+    "bytes": 1245,
+    "graphql_errors": null,
+    "error": "HTTP Error 404: Not Found"
+  }
+]

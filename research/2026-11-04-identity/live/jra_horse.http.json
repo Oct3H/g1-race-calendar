@@ -1,0 +1,10 @@
+{
+  "name": "jra_horse",
+  "url": "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102022103264%2F18",
+  "method": "GET",
+  "requested_at": "2026-11-04T09:33:22.986951+00:00",
+  "status": 403,
+  "error": "HTTP Error 403: Forbidden",
+  "bytes": 402,
+  "sha256": "6e3696905965492f1dc0066db10cee65edf1e3759103f35a513fdd48df204602"
+}

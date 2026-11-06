@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-22T11:07:42.115896+00:00",
+  "method": "Python standard-library urllib.request GET; default Python user agent, no cookies, credentials, custom headers, browser, retries or bypass",
+  "sources": [
+    {
+      "name": "jra_2026_directory",
+      "url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/g1.html",
+      "requested_at": "2026-10-22T11:07:42.069257+00:00",
+      "status": null,
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "name": "jra_arima_2025_result",
+      "url": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2025.html",
+      "requested_at": "2026-10-22T11:07:42.069383+00:00",
+      "status": null,
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "name": "nar_teio_2025_entries",
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2025%2F07%2F02&k_raceNo=11&k_babaCode=20",
+      "requested_at": "2026-10-22T11:07:42.069444+00:00",
+      "status": null,
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "name": "nar_teio_2025_result",
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F07%2F02&k_raceNo=11&k_babaCode=20",
+      "requested_at": "2026-10-22T11:07:42.115465+00:00",
+      "status": null,
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "name": "hkjc_cox_2025_result",
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251025&focus=Y&Racecourse=S1&RaceNo=10",
+      "requested_at": "2026-10-22T11:07:42.115532+00:00",
+      "status": null,
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "name": "hkjc_cup_2025_result",
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?RaceNo=8&racecourse=ST&racedate=2025%2F12%2F14",
+      "requested_at": "2026-10-22T11:07:42.115608+00:00",
+      "status": null,
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ]
+}

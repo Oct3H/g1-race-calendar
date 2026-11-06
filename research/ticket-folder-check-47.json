@@ -1,0 +1,45 @@
+{
+  "round": 47,
+  "date": "2026-10-23",
+  "preview": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&game=tickets&v=47",
+  "confirmed": [
+    "Multiple horses per race and repeat purchases of the same horse are allowed. Each purchase remains a separate order with its own confirmed odds/source/time.",
+    "No voluntary cancellation after purchase. Official withdrawal/cancellation retains automatic refund rules.",
+    "Group tickets by race for display only; expand to see individual records. No averaging odds or merging payouts."
+  ],
+  "design": [
+    "Pending groups first; groups otherwise follow latest purchase; individual records newest first. First group open, others collapsed, native details.",
+    "Race colour tokens reused for each group/order. Summary shows dated race name, count, total purchases and actual returns. Rows show horse, ID, amount, locked odds, estimate or actual return, timestamps/source and addition marker.",
+    "Purchase confirmation identifies existing pending orders for the selected horse and explains independent addition/no voluntary reversal. Existing qualification checks retained."
+  ],
+  "fixture": {
+    "races": 3,
+    "tickets": 7,
+    "cash": 502000,
+    "pending": 3,
+    "won": 2,
+    "lost": 1,
+    "void": 1,
+    "cox_same_horse_odds": [
+      "3.2",
+      "3.6"
+    ],
+    "shuka_returns": [
+      32000,
+      18000,
+      0
+    ],
+    "arc_refund": 6000,
+    "historical_results_already_viewed": true
+  },
+  "checks": [
+    "check_ticket_folder.mjs PASS: actual fixture/renderers, group and record counts, individual odds/totals/region/source snapshots, separate payouts, no ledger mutation from grouping, repeat fixture load idempotence",
+    "check_game_preview.mjs PASS: added multi-horse and same-horse purchases, independent per-order rounding, separate source quote times, repeat settlement, all same-horse additions refunded on withdrawal while other horse stays pending",
+    "check_ticket_confirmation.mjs PASS: addition context visible and original odds unchanged; existing date/cached-quote rules retained",
+    "check_change_preview.mjs PASS: existing result/refund/change flows and regional binding",
+    "152 unique static IDs / 202 unique static-and-template IDs; local assets/imports, JS syntax, scoped CSS balance PASS",
+    "6 HEAD-only local requests returned 200 / no-store"
+  ],
+  "visual_review": "Not automatically rendered. Existing browser access restriction respected. Node/DOM-double checks do not prove native details, focus, responsive layout or final appearance. User review pending.",
+  "limits": "Fictional in-memory design prototype. No live odds/results, persistent wallet, new order filters or default adoption of settings menu preview."
+}

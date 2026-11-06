@@ -1,0 +1,75 @@
+{
+  "method": "One unauthenticated GET per public URL, urllib standard library; token hints use text outside script/style. Not a stability/API test.",
+  "sources": [
+    {
+      "id": "ifha",
+      "url": "https://www.ifhaonline.org/resources/WTGradedRanking/LWGRank.asp?batch=10",
+      "checked_at": "2026-10-21T07:40:18.466583+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "jra",
+      "url": "https://www.jra.go.jp/datafile/seiseki/g1/arima/result/arima2025.html",
+      "checked_at": "2026-10-21T07:40:18.466734+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "nar",
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/CompeteTable?k_babaCode=20&k_raceDate=2025%2F07%2F02&k_raceNo=11",
+      "checked_at": "2026-10-21T07:40:18.466794+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "hkjc",
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?RaceNo=8&racecourse=ST&racedate=2025%2F12%2F14",
+      "checked_at": "2026-10-21T07:40:18.531683+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "era",
+      "url": "https://emiratesracing.com/racecard/2025-04-05/9/results",
+      "checked_at": "2026-10-21T07:40:18.531743+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "germany",
+      "url": "https://www.deutscher-galopp.de/gr/renntage/rennen.php?d=20250907&id=1356402&s=R",
+      "checked_at": "2026-10-21T07:40:18.531820+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "bha",
+      "url": "https://www.britishhorseracing.com/racing/results/",
+      "checked_at": "2026-10-21T07:40:18.531891+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "hri",
+      "url": "https://www.hri.ie/results/race-result/?date=2025-09-13&venue=LP",
+      "checked_at": "2026-10-21T07:40:18.531939+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "breeders-cup",
+      "url": "https://www.breederscup.com/races/2025-classic?tab=overview",
+      "checked_at": "2026-10-21T07:40:18.532002+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "australia",
+      "url": "https://www.racingaustralia.horse/FreeFields/RaceHistory.aspx?GroupID=2",
+      "checked_at": "2026-10-21T07:40:18.532067+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ]
+}

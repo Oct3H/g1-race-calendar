@@ -1,0 +1,10 @@
+{
+  "name": "cdi_amendment_2022",
+  "url": "https://www.churchilldownsincorporated.com/resources/kentucky-derby-and-oaks/churchill-downs-statement-in-response-to-khrc-stewards-ruling-on-kentucky-derby-147/",
+  "method": "GET",
+  "requested_at": "2026-10-26T12:25:14.257946+00:00",
+  "status": null,
+  "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

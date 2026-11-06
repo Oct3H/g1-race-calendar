@@ -1,0 +1,9 @@
+{
+  "html_ids_unique": 189,
+  "local_asset_links": "passed",
+  "new_css_structure": "balanced, not browser-rendered",
+  "preview_checks": "six states and actual initialization/events with DOM doubles",
+  "http_head": "index, CSS and JS: 200 / no-store via direct loopback HEAD",
+  "visual_rendering": "not performed under existing local browser restriction",
+  "scope": "preview only; no network, persistence or game function calls"
+}

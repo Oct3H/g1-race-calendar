@@ -1,0 +1,109 @@
+{
+  "checked_at": "2026-10-25T14:07:47.695165+00:00",
+  "scope": "Saved representative samples only; no annual coverage percentage or future publication stability established",
+  "http": {
+    "requests": 21,
+    "status_counts": {
+      "200": 14,
+      "403": 7
+    }
+  },
+  "ranking": {
+    "rows": 100,
+    "columns": 11,
+    "unique_race_track_country": 100,
+    "country_counts": {
+      "JPN": 15,
+      "GB": 20,
+      "USA": 16,
+      "UAE": 3,
+      "FR": 10,
+      "IRE": 4,
+      "KSA": 1,
+      "AUS": 19,
+      "HK": 11,
+      "GER": 1
+    },
+    "same_as_previous_snapshot": true
+  },
+  "nar_teio": {
+    "entries": 14,
+    "finishers": 13,
+    "excluded": 1,
+    "runner_odds_present": 0,
+    "runner_odds_denominator": 14
+  },
+  "hkjc_cup": {
+    "finishers": 7,
+    "runner_odds_present": 7,
+    "runner_odds_denominator": 7
+  },
+  "germany": {
+    "entries": 8,
+    "finishers": 6,
+    "nonstarter_numbers": [
+      "5",
+      "7"
+    ],
+    "runner_odds_present": 6,
+    "runner_odds_denominator": 6,
+    "winner_quote_raw": "2,9",
+    "winner_quote_decimal": "2.9",
+    "margin_meaning": "Preserve raw Abstand; do not relabel as lengths behind winner"
+  },
+  "horse_history": {
+    "source_rows": 14,
+    "cutoff_exclusive": "2025-07-02",
+    "prior_five": [
+      {
+        "date": "2025/04/19",
+        "name_raw": "アンタレスＳＧIII"
+      },
+      {
+        "date": "2025/02/23",
+        "name_raw": "フェブラリーＳＧＩ"
+      },
+      {
+        "date": "2024/12/19",
+        "name_raw": "名古屋大賞典JpnIII"
+      },
+      {
+        "date": "2024/10/02",
+        "name_raw": "ジャパンダートクラシックJpnＩ"
+      },
+      {
+        "date": "2024/08/04",
+        "name_raw": "レパードＳＧIII"
+      }
+    ],
+    "full_prior_start_odds": "not established"
+  },
+  "hkjc_discovery": {
+    "meetings": 1,
+    "discovered_runners": 18,
+    "odds_present": 18,
+    "meeting_status": "CLOSED",
+    "date": "2026-10-25",
+    "horse_profile_rows": 0,
+    "limitation": "Same-day completed race; not future annual discovery or pre-race odds proof"
+  },
+  "hkjc_historical_repeat": {
+    "race_id": "20251025S109",
+    "display_race_no": 10,
+    "selected_fields_equal": true,
+    "limitation": "Two historical snapshots do not test live publication or corrections"
+  },
+  "nar_discovery": {
+    "parent_href_followed": true,
+    "child_status": 200,
+    "declarations_state": "intended runners, not final draw",
+    "draw_expected_date": "2026-10-30"
+  },
+  "us_embedded": {
+    "name": "Breeders' Cup Classic",
+    "date_raw": "2025-11-01T22:25:00.000Z",
+    "purse_raw": "$7,000,000",
+    "grade": 1,
+    "runner_result_table_in_snapshot": false
+  }
+}

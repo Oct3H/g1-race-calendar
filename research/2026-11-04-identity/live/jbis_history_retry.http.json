@@ -1,0 +1,10 @@
+{
+  "name": "jbis_history_retry",
+  "url": "https://www.jbis.or.jp/horse/0001358349/record/",
+  "method": "GET",
+  "requested_at": "2026-11-04T09:34:03.912950+00:00",
+  "status": null,
+  "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

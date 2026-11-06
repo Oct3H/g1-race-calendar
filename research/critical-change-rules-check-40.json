@@ -1,0 +1,17 @@
+{
+  "round": 40,
+  "date": "2026-10-23",
+  "preview": "http://127.0.0.1:8765/index.html?preview=calendar&year=2026&month=10&updates=changed&v=40",
+  "confirmed": ["critical schedule and runner revisions warn", "first publication and missing-field completion do not warn", "new critical revisions warn again after read", "repeat fetching identical information preserves read state"],
+  "checks": [
+    "check_race_change_rules.mjs passed",
+    "check_change_preview.mjs passed including actual review handlers, six field differences, notice/read behavior, rider and weight in entries, duplicate/ordinary updates, and a fresh warning on another revision",
+    "check_game_preview.mjs, check_ticket_confirmation.mjs and check_calendar_navigation.mjs passed",
+    "design.js module syntax passed; race-change-state.mjs loaded by rule tests",
+    "146 unique static IDs / 192 unique static-and-template IDs; local resources and imports exist",
+    "4 HEAD-only requests returned 200/no-store after restarting loopback preview service"
+  ],
+  "visual_verification": "Not automatically performed. Existing browser access restriction was not bypassed. User webpage review pending.",
+  "limits": "In-memory fictional examples. Complete declared lists and stable fictional runner IDs are supplied. Real official feed matching, partial-feed reconciliation, persistence and result-correction settlement are not implemented.",
+  "pending_design": "Whether earlier change records should be collapsed, expanded or omitted from the details. Current prototype displays the most recent revision."
+}

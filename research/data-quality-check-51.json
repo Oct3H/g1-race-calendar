@@ -1,0 +1,23 @@
+{
+  "round": 51,
+  "date": "2026-10-24",
+  "previewUrl": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&quality=official-partial&entry=compact&race=quality-demo&refund=preview&v=51",
+  "scenarios": ["unpublished", "partial-entries", "cached-failed", "empty-failed", "results-pending", "official-partial", "conflict"],
+  "scope": "Fictional data-availability preview; reuse existing calendar, race tables, horse profile, region themes and per-ticket payout",
+  "checks": {
+    "check_data_quality_preview.mjs": "PASS: seven states, empty vs failed, unknown-rank markup without false placement colours, missing odds per horse, cached odds allowed, pending/conflict blocked, official partial-result payout only on display, repeat no credit, ordinary controls restored and links preserved",
+    "existing": {"check_change_preview.mjs": "PASS", "check_ticket_folder.mjs": "PASS", "check_ticket_confirmation.mjs": "PASS", "check_game_preview.mjs": "PASS", "check_voluntary_refund.mjs": "PASS"},
+    "static": {"uniqueHtmlIds": 161, "uniqueHtmlAndTemplateIds": 212, "literalResourcesImportsSyntaxCSSVersions": "PASS"},
+    "head": [
+      {"path": "/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&quality=official-partial&entry=compact&race=quality-demo&refund=preview&v=51", "status": 200, "cacheControl": "no-store"},
+      {"path": "/design.js?v=51", "status": 200, "cacheControl": "no-store"},
+      {"path": "/game-design.js?v=51", "status": 200, "cacheControl": "no-store"},
+      {"path": "/data-quality-preview.mjs?v=51", "status": 200, "cacheControl": "no-store"},
+      {"path": "/data-quality-preview.css?v=51", "status": 200, "cacheControl": "no-store"}
+    ],
+    "officialPartialPayout": {"stake": 10000, "lockedOdds": "3.2", "cashBeforeDisplay": 490000, "cashAfterDisplay": 522000, "repeatDisplayCash": 522000}
+  },
+  "reuseDecision": "Existing preview functions and native DOM/CSS satisfy the design need; no external dependency or package research needed",
+  "remaining": ["User visual review of availability states", "Correction difference and zero-balance bankruptcy preview", "Startup/window preview", "Real regional coverage, discovery and sustained updates after design steps"],
+  "limitations": ["Existing local browser access restriction respected; no automated rendering, screenshots, browser clicking or native dialog verification", "No real source fetch, correction accounting, persistence or OS window implementation introduced"]
+}

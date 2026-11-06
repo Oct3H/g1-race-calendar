@@ -1,0 +1,82 @@
+{
+  "本次整理 451 个举办实例，覆盖 18 个国家／地区；B 版共 122 场，含日本 37 场与海外前百中的 85 场。保留来源当地日期，仅用于本次密度比较。": [
+    "451 race editions across 18 countries/regions. B contains 122 races: 37 in Japan and 85 overseas Top 100 races. Source-local dates are retained for this density comparison only.",
+    "18か国・地域の451開催を整理しました。Bは122レースで、日本37・海外上位100の85レースです。今回は密度比較のため参照元の現地日付を保持します。"
+  ],
+  "集合按 2025 年当地日期与当年等级整理；不含障碍赛、纯血阿拉伯马赛和海外仅国内认可的 GⅠ。日本 JpnⅠ 单独纳入。": [
+    "Compiled by 2025 local dates and that year's grades. Excludes jumps, purebred Arabian races and overseas GⅠ recognized only domestically. Japan's JpnⅠ is included separately.",
+    "2025年の現地日付と当年の格付けで整理しました。障害・純血アラブ競走・海外の国内認定のみのGⅠを除外し、日本JpnⅠは別途含めます。"
+  ],
+  "部分日期已对照赛果，部分仍以官方年度赛程为依据；赛事详情保留每条验证说明。本次不是所有赛事逐场赛果的完整核验，也不是实时资料服务。": [
+    "Some dates are checked against results; others rely on official annual schedules. Each race retains its verification notes. This is neither full result verification of every race nor a live data service.",
+    "一部の日付は結果と照合済みで、他は公式年間日程に基づきます。各レースに検証注記を残しています。全レースの結果を完全照合したものでも、リアルタイムサービスでもありません。"
+  ],
+  "同年两届的澳大利亚 C.F. Orr Stakes 保留为两个举办实例。已采用已知改期后的日期，包括 Tancred、Jaipur／Manhattan、新西兰春季赛事。": [
+    "The two 2025 C.F. Orr Stakes editions in Australia remain separate. Known rescheduled dates are applied, including Tancred, Jaipur/Manhattan and New Zealand spring races.",
+    "豪州C.F. Orr Stakesの同年2開催は別々に保持し、Tancred・Jaipur/Manhattan・NZ春季競走など既知の日程変更を反映しています。"
+  ],
+  "美国汇总表误标为 GⅠ 的 Cecil B. DeMille 已按赛场官方 GⅢ 排除；南非 2025 已降为 GⅡ 的 Golden Horse Sprint、Woolavington 2000 及新西兰 Levin Classic 亦不纳入。": [
+    "Cecil B. DeMille was incorrectly listed as GⅠ in a US summary and excluded using the track's official GⅢ grade. Golden Horse Sprint, Woolavington 2000 and Levin Classic, downgraded to GⅡ in 2025, are also excluded.",
+    "米国集計でGⅠと誤記されたCecil B. DeMilleは主催者の公式GⅢに基づき除外し、2025年にGⅡへ降格したGolden Horse Sprint・Woolavington 2000・Levin Classicも含めていません。"
+  ],
+  "海外前百按保存的 2025 完整 100 条榜单逐项匹配；其中日本 15 场与日本全量集合合并，不重复计数。": [
+    "Overseas Top 100 entries are matched against the saved full 2025 list. Its 15 Japan races are merged into the full Japan set without double counting.",
+    "海外上位100は保存済み2025年の全100項目と照合しました。日本15レースは日本全量集合に統合し、重複計上しません。"
+  ],
+  "尚未收集精确发走时间，所以这里按来源当地日期显示；正式应用取得时刻后再按电脑时区换日。出马表、赔率和赏金尚未接入。": [
+    "Exact start times have not been collected, so source-local dates are shown. The app will convert dates to the computer time zone once times are known. Racecards, odds and purses are not connected yet.",
+    "正確な発走時刻は未取得のため、参照元の現地日付を表示します。正式版では時刻取得後にPCのタイムゾーンで変換します。出馬表・オッズ・賞金は未接続です。"
+  ],
+  "IFHA · 2025 年度前百榜单": [
+    "IFHA · 2025 annual Top 100",
+    "IFHA・2025年の年間上位100"
+  ],
+  "IFHA · 各国主要赛事日期库（已补全缺项）": [
+    "IFHA · Major race dates by country (gaps supplemented)",
+    "IFHA・各国の主要競走日付（不足分補完済み）"
+  ],
+  "JRA · 2025 年 GⅠ 赛果目录": [
+    "JRA · 2025 GⅠ results directory",
+    "JRA・2025年GⅠ結果一覧"
+  ],
+  "NAR · 2025 年泥地等级赛目录": [
+    "NAR · 2025 dirt graded races",
+    "NAR・2025年ダートグレード競走一覧"
+  ],
+  "TOBA · 2025 美国等级赛赛果": [
+    "TOBA · 2025 US graded-stakes results",
+    "TOBA・2025年米国グレード競走結果"
+  ],
+  "BHA · 2025 英国平地等级赛目录": [
+    "BHA · 2025 British flat Pattern races",
+    "BHA・2025年英国平地重賞一覧"
+  ],
+  "Racing Australia · 2025/26 等级赛日期": [
+    "Racing Australia · 2025/26 Group race dates",
+    "Racing Australia・2025/26年グループ競走日程"
+  ],
+  "OSAF · 2025 拉丁美洲等级赛日历": [
+    "OSAF · 2025 Latin American graded-race calendar",
+    "OSAF・2025年ラテンアメリカ重賞日程"
+  ],
+  "{6}，查看马匹示例资料": [
+    "{6}, open sample horse profile",
+    "{6}、馬のサンプル資料を開く"
+  ],
+  "请输入马券金额。": [
+    "Enter a ticket amount.",
+    "購入金額を入力してください。"
+  ],
+  "请输入 ¥1 起的整数金额。": [
+    "Enter a whole number of at least ¥1.",
+    "¥1以上の整数を入力してください。"
+  ],
+  "金额超过可用资金 {0}。": [
+    "Amount exceeds available funds of {0}.",
+    "購入金額が利用可能額 {0} を超えています。"
+  ],
+  "¥1 起，仅限整数；可用资金 {0}。快捷金额会替换当前输入。": [
+    "Whole yen from ¥1. Available: {0}. Shortcuts replace the current amount.",
+    "¥1以上の整数。利用可能額：{0}。金額ボタンは入力中の金額を置き換えます。"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "checked_at": "2026-10-25T14:53:50.510218+00:00",
+  "scope": "Two seed requests and four observed-link requests; representative evidence only",
+  "japan_english": {
+    "publisher": "JAIRS / Horse Racing in Japan",
+    "year": 2026,
+    "flat_g1_count": 24,
+    "arima": {
+      "heading_raw": "Dec. 27ARIMA KINEN (The Grand Prix)",
+      "grade": "G1",
+      "course": "NAKAYAMA",
+      "distance_surface_raw": "2,500/Turf",
+      "age_sex_raw": "3yo&up",
+      "first_prize_jpy": 500000000
+    },
+    "discovered_detail_status": 200,
+    "detail_kind": "conditions and prior-year winner, not current-race runners or results",
+    "limits": [
+      "No direct JRA Japanese result access established",
+      "English names need identity mapping; do not replace Japanese display names",
+      "Total Value purse scope unverified",
+      "USD 000 is a placeholder, not a zero conversion"
+    ]
+  },
+  "era": {
+    "date": "2025-04-05",
+    "race_no": 9,
+    "entries": 11,
+    "results": 11,
+    "names_and_numbers_match": true,
+    "raw_sp_populated": 11,
+    "winner": "HIT SHOW (USA)",
+    "winner_sp_raw": "41",
+    "purse_usd": 12000000,
+    "winner_prize_usd": 6960000,
+    "results_summary": [
+      {
+        "position": 1,
+        "horse_number_draw_raw": "2 (7)",
+        "name_raw": "HIT SHOW (USA)",
+        "margin_raw": "-",
+        "starting_price_raw": "41"
+      },
+      {
+        "position": 2,
+        "horse_number_draw_raw": "6 (8)",
+        "name_raw": "MIXTO (USA)",
+        "margin_raw": "0.64L",
+        "starting_price_raw": "34"
+      },
+      {
+        "position": 3,
+        "horse_number_draw_raw": "1 (5)",
+        "name_raw": "FOREVER YOUNG (JPN)",
+        "margin_raw": "2.03L",
+        "starting_price_raw": "1.30 Fav"
+      },
+      {
+        "position": 4,
+        "horse_number_draw_raw": "10 (1)",
+        "name_raw": "WALK OF STARS (GB)",
+        "margin_raw": "4.48L",
+        "starting_price_raw": "9"
+      },
+      {
+        "position": 5,
+        "horse_number_draw_raw": "3 (6)",
+        "name_raw": "IL MIRACOLO (USA)",
+        "margin_raw": "5.76L",
+        "starting_price_raw": "71"
+      },
+      {
+        "position": 6,
+        "horse_number_draw_raw": "9 (4)",
+        "name_raw": "USHBA TESORO (JPN)",
+        "margin_raw": "5.81L",
+        "starting_price_raw": "14"
+      },
+      {
+        "position": 7,
+        "horse_number_draw_raw": "11 (3)",
+        "name_raw": "WILSON TESORO (JPN)",
+        "margin_raw": "7.73L",
+        "starting_price_raw": "23"
+      },
+      {
+        "position": 8,
+        "horse_number_draw_raw": "8 (2)",
+        "name_raw": "RATTLE N ROLL (USA)",
+        "margin_raw": "8.08L",
+        "starting_price_raw": "26"
+      },
+      {
+        "position": 9,
+        "horse_number_draw_raw": "7 (9)",
+        "name_raw": "RAMJET (JPN)",
+        "margin_raw": "10.58L",
+        "starting_price_raw": "26"
+      },
+      {
+        "position": 10,
+        "horse_number_draw_raw": "5 (11)",
+        "name_raw": "KATONAH (USA)",
+        "margin_raw": "13.9L",
+        "starting_price_raw": "71"
+      },
+      {
+        "position": 11,
+        "horse_number_draw_raw": "4 (10)",
+        "name_raw": "IMPERIAL EMPEROR (IRE)",
+        "margin_raw": "30.58L",
+        "starting_price_raw": "6.50"
+      }
+    ],
+    "limits": [
+      "Starting price market/format still unverified; not normalized or used for purchases",
+      "No pre-race quote refresh or official correction lifecycle proved",
+      "Mother-sire and full as-of five-start coverage not established",
+      "One historic race does not establish annual top100 coverage"
+    ]
+  }
+}

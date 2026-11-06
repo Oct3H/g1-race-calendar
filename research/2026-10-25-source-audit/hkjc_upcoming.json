@@ -1,0 +1,59 @@
+{
+  "data": {
+    "commonMeetings": [
+      {
+        "id": "20261025S2",
+        "venueCode": "S2",
+        "date": "2026-10-25",
+        "status": "CLOSED",
+        "season": "26/27",
+        "totalNumberOfRace": 1,
+        "currentNumberOfRace": 1,
+        "country": [
+          {
+            "code": "JPN",
+            "namech": "日本",
+            "nameen": "JAPAN",
+            "seq": "1"
+          }
+        ],
+        "races": [
+          {
+            "id": "20261025S201",
+            "no": 1,
+            "postTime": "2026-10-25T14:40:00+08:00",
+            "status": "RESULT",
+            "raceResults": [
+              {
+                "status": "WCFULLMARGIN"
+              }
+            ],
+            "raceName_en": "Kikuka Sho (Japanese St. Leger)",
+            "raceName_ch": "菊花賞",
+            "raceTrack": {
+              "code": "",
+              "description_ch": "草地",
+              "description_en": "Turf"
+            },
+            "countryCodeNm": {
+              "code": null,
+              "english": "JPN",
+              "chinese": "JPN"
+            }
+          }
+        ],
+        "pmPools": [
+          {
+            "oddsType": "WIN",
+            "status": "PAYOUT",
+            "leg": {
+              "races": [
+                1
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

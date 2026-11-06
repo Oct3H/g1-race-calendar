@@ -1,0 +1,16 @@
+{
+  "round": 43,
+  "date": "2026-10-23",
+  "preview": "http://127.0.0.1:8765/index.html?preview=calendar&year=2026&month=10&game=win&v=43",
+  "decision": "Purchase debits immediately. Confirmed results only enable the red alert. Opening results via the race bubble or shop settles once. Cancellation/withdrawal refunds remain automatic.",
+  "checks": [
+    "check_game_preview.mjs: confirmed-result recording does not credit or settle tickets; ready result is unread; no result cannot settle; repeated settlement/fetch does not re-credit; confirmed but unviewed ticket can still be void-refunded",
+    "check_change_preview.mjs: actual showResult, race interception and shop-entry functions trigger settlement on display; direct review URL does not open or settle automatically; refund-only display leaves ready winnings pending; loss then bankruptcy after click; previous dead-heat, refund and change-history checks pass",
+    "check_ticket_confirmation.mjs and check_race_change_rules.mjs passed",
+    "design.js, game-design.js and game-state.mjs syntax passed",
+    "152 unique static IDs / 198 unique static-and-template IDs; resources, imports and v43 references exist",
+    "5 HEAD-only local preview/resource checks returned 200 and no-store"
+  ],
+  "visual_review": "Not automatically performed. Existing browser access restriction was not bypassed; user webpage review pending.",
+  "limits": "Fictional in-memory prototype. No official result ingestion, persistent wallet, retrospective correction or negative-balance feature."
+}

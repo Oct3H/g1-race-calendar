@@ -1,0 +1,30 @@
+{
+  "round": 58,
+  "date": "2026-10-24",
+  "previewUrl": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&refund=preview&v=58",
+  "rules": [
+    "Normal launch: 0 cash, 0 bank, not activated",
+    "First shop visit only: grant 500000 once; bank starts at zero, next local date accrues 10000/day capped at 1000000; no pre-activation days",
+    "Detail purchase entry defaults off even after activation; independent shop toggle changes current detail immediately; settlement entry independent"
+  ],
+  "checks": {
+    "scripts": 8,
+    "allPassed": true,
+    "new": "check_shop_start_preview.mjs",
+    "integration": "check_result_correction_preview.mjs now also checks normal unopened launch, first visit and on/off/current-view/reopen behavior",
+    "staticTemplateIds": 230,
+    "moduleSyntaxImports": 4,
+    "css": "PASS",
+    "head": {
+      "count": 6,
+      "status": 200,
+      "cacheControl": "no-store"
+    }
+  },
+  "limitations": [
+    "No browser rendering/native UI measurement",
+    "In-memory preview resets on reload; formal persistent activation/account/preferences remain unimplemented",
+    "Explicit design fixture URLs load historical active snapshots; use the normal URL above for first-visit review",
+    "Local date rollback does not mint negative or duplicate daily grants; broader clock/timezone policy remains part of startup discussion"
+  ]
+}

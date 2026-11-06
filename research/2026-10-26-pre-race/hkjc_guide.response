@@ -1,0 +1,947 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+
+<head>
+  <title>The Hong Kong Jockey Club</title>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" type="text/css" href="HR_Guide.css" media="screen">
+</head>
+
+<body>
+  <div id="header">
+    <h1><a name="top"></a>Horse Racing Betting Guide</h1>
+    <h2>Table of Contents</h2>
+    <p id="bettypenav">
+      <br>
+      <b><a href="#1">A. Pari-Mutuel Pools</a></b>
+      <br><br>
+      <a href="#2">&nbsp;&nbsp;1. Pari-Mutuel Local Pools</a>
+      <br>
+      <a href="#3">&nbsp;&nbsp;&nbsp;&nbsp;1.1. Dividend Qualification</a>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <a href="#4">Single-race Pools</a> |
+      <a href="#5">Multi-race Pools</a> | <a href="#6">Jackpot Pools</a> ]
+      <br>
+      <a href="#7">&nbsp;&nbsp;&nbsp;&nbsp;1.2. Rebate</a>
+      <br><br>
+      <a href="#8">&nbsp;&nbsp;2. Pari-Mutuel Outbound Commingling Pools</a>
+      <br>
+      <a href="#9">&nbsp;&nbsp;&nbsp;&nbsp;2.1. Dividend Qualification</a>
+      <br><br>
+      <a href="#10">&nbsp;&nbsp;3. All Up or Cross Pool All Up Betting</a>
+      <br><br>
+      <a href="#11">&nbsp;&nbsp;4. About Flexi Bet</a>
+      <br><br>
+      <b><a href="#12">B. Fixed Odds Bet Types</a></b>
+      <br><br>
+      <b><a href="#13">C. Dividend Collection</a></b>
+      <br><br>
+    </p>
+  </div>
+  <div class="colmask leftmenu">
+    <div class="colleft">
+      <div class="col1">
+        <!-- Page 1 start -->
+
+        <h2><a name="1"></a>A. Pari-Mutuel Pools</h2>
+
+        <h3><a name="2"></a>1. Pari-Mutuel Local Pools</h3>
+
+        <p>
+          Dividend will be shared by the number of winning combinations of a
+          particular pool. Winners will share the percentage of pool payout in
+          proportion to their winning stakes.
+        </p>
+        <p>Percentage of Dividend for each Pool</p>
+        <table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="1" cellspacing="1">
+                  <tbody>
+                    <tr valign="TOP" bgcolor="#666666">
+                      <td width="70%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Single Pools</font>
+                          </b>
+                        </div>
+                      </td>
+                      <td width="30%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">% of Pool paid out as Dividend</font>
+                          </b>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="70%">
+                        <strong>Win / Place / Quinella / Quinella Place /
+                          Double</strong>
+                      </td>
+                      <td width="30%" align="center">82.5%</td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="70%"><b>Forecast</b></td>
+                      <td width="30%" align="center">80.5%</td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="70%" bgcolor="#FFFFFF"><b>Trio</b></td>
+                      <td width="30%" align="center">77%</td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="70%" bgcolor="#DBE8F3">
+                        <b>Tierce / First 4 / Quartet / Treble</b>
+                      </td>
+                      <td width="30%" align="center">75%</td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="70%" bgcolor="#FFFFFF">
+                        <b>Triple Trio</b>^
+                      </td>
+                      <td width="30%" align="center">75%</td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="70%" bgcolor="#DBE8F3">
+                        <b>Double Trio* / Six Up**</b>
+                      </td>
+                      <td width="30%" align="center">75%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="gray">
+          <small>^7.5 percent of the Pool will be deducted as Jackpot Reserve
+            Deduction</small><br>
+          <small>*0.5 percent of the Pool will be deducted as Operator Reserve
+            Deduction (to be deducted from the Club’s revenue)</small><br>
+          <small>**2 percent of the Pool will be deducted as Operator Reserve Deduction (to be deducted from the Club’s revenue)</small><br>
+        </p>
+        <p></p>
+        <table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="1" cellspacing="1">
+                  <tbody>
+                    <tr valign="TOP" bgcolor="#666666">
+                      <td width="70%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Merged Pool</font>
+                          </b>
+                        </div>
+                      </td>
+                      <td width="30%" height="10" align="right">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">% of Pool paid out as Dividend</font>
+                          </b>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="70%" bgcolor="#FFFFFF">
+                        <b>Quartet &amp; First 4<sup>+</sup></b>
+                      </td>
+                      <td width="30%" align="center">75%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="gray">
+          <small><sup>+</sup>0.5 percent of the Pool will be deducted as Jackpot
+            Reserve Deduction</small>
+        </p>
+        <p></p>
+        <br>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <h4><a name="3"></a>1.1. Dividend Qualification</h4>
+        <br>
+        <p>
+          <b><a name="4"></a>Single-race Pools</b>
+        </p>
+        <p>
+          Single-race Pools are the simple and straight-forward betting pools
+          for beginners to enjoy betting entertainment.
+        </p>
+        <p></p>
+        <table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" border="0" cellpadding="1" cellspacing="1">
+                  <tbody>
+                    <tr valign="TOP">
+                      <td width="20%" height="37" bgcolor="#666666">
+                        <div align="center">
+                          <strong>
+                            <font color="#FFFFFF" class="td_header">Single-race<br>
+                              Pools</font>
+                          </strong>
+                        </div>
+                      </td>
+                      <td width="56%" height="37" bgcolor="#666666">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF" class="td_header">Dividend Qualification
+                            </font>
+                          </b>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="20%"><b>Win</b></td>
+                      <td width="56%">1<sup>st</sup> in a race</td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="20%" bgcolor="#DBE8F3"><b>Place</b></td>
+                      <td width="56%">
+                        1<sup>st</sup>, 2<sup>nd</sup> or 3<sup>rd</sup> in a
+                        race, or 1<sup>st</sup> or 2<sup>nd</sup> in a race of
+                        4 to 6 declared starters (applicable to local races)
+                        <br>
+                        <br>
+                        1<sup>st</sup>, 2<sup>nd</sup>, 3<sup>rd</sup> or
+                        4<sup>th</sup> in a race, or 1<sup>st</sup>, 2<sup>nd</sup>
+                        or 3<sup>rd</sup> in a race of 7 to 20 declared
+                        starters, or 1<sup>st</sup> or 2<sup>nd</sup> in a
+                        race of 4 to 6 declared starters (applicable to
+                        designated simulcast races)
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="20%"><b>Quinella</b></td>
+                      <td width="56%">
+                        1<sup>st</sup> and 2<sup>nd</sup> in any order in a
+                        race
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="20%"><b>Quinella Place</b></td>
+                      <td width="56%">
+                        Any two of the first three placed horses in any order
+                        in a race
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="20%"><b>Forecast</b></td>
+                      <td width="56%">
+                        1<sup>st</sup> and 2<sup>nd</sup> in correct order in
+                        a race
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="20%"><b>Trio</b></td>
+                      <td width="56%">
+                        1<sup>st</sup>, 2<sup>nd</sup> and 3<sup>rd</sup> in
+                        any order in a race
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="20%"><b>Tierce</b></td>
+                      <td width="56%">
+                        1<sup>st</sup> , 2<sup>nd</sup> and 3<sup>rd</sup> in
+                        correct order in a race
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td><b>First 4</b></td>
+                      <td>
+                        1<sup>st</sup>, 2<sup>nd</sup>, 3<sup>rd</sup> and
+                        4<sup>th</sup> in any order in a race
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="20%"><b>Quartet</b></td>
+                      <td width="56%">
+                        1<sup>st</sup>, 2<sup>nd</sup>, 3<sup>rd</sup> and
+                        4<sup>th</sup> in correct order in a race
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p></p>
+        <br>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <p>
+          <b><a name="5"></a>Multi-race Pools</b>
+        </p>
+        <p>
+          To experience the betting entertainment and increase the challenge,
+          you may consider the multi-race pools.
+        </p>
+        <p></p>
+        <table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="1" cellspacing="1">
+                  <tbody>
+                    <tr valign="TOP" bgcolor="#666666">
+                      <td width="18%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Multi-race<br>
+                              Pools</font>
+                          </b>
+                        </div>
+                      </td>
+                      <td width="82%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Dividend Qualification</font>
+                          </b>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td rowspan="2" bgcolor="#DBE8F3">
+                        <b>Double</b><br><br>
+                      </td>
+                      <td>
+                        1<sup>st</sup> in each of the two nominated races
+                        <br><br>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td bgcolor="#DBE8F3">
+                        <b>Consolation :</b>1<sup>st</sup> in 1<sup>st</sup>
+                        nominated race and 2<sup>nd</sup> in 2<sup>nd</sup>
+                        nominated race
+                        <o:p></o:p>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td rowspan="2">
+                        <b>Treble<br>
+                          <br>
+                        </b>
+                      </td>
+                      <td>
+                        1<sup>st</sup> in each of the three nominated races
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td>
+                        <b>Consolation : </b>1<sup>st</sup> in the first two
+                        Legs and 2<sup>nd</sup> in 3<sup>rd</sup> Leg of the
+                        three nominated races
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p></p>
+        <br>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <p>
+          <b><a name="6"></a>Jackpot Pools</b>
+        </p>
+        <p>
+          Double Trio, Triple Trio and Six Up are known as jackpot pools,
+          where the jackpot will be carried foward to the next meeting if
+          there is no winning units. Check out if any jackpot is available in
+          the upcoming race meeting.
+        </p>
+        <p></p>
+        <table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="1" cellspacing="1">
+                  <tbody>
+                    <tr valign="TOP" bgcolor="#666666">
+                      <td width="18%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Jackpot<br>
+                              Pools</font>
+                          </b>
+                        </div>
+                      </td>
+                      <td width="82%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Dividend Qualification</font>
+                          </b>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="19%"><b>Double Trio</b></td>
+                      <td width="81%">
+                        1<sup>st</sup>, 2<sup>nd</sup> and 3<sup>rd</sup> in
+                        any order in each of the two nominated races
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="19%" rowspan="2">
+                        <b>Triple Trio<br> </b>
+                      </td>
+                      <td width="81%">
+                        1<sup>st</sup>, 2<sup>nd</sup> and 3<sup>rd</sup> in
+                        any order in each of the three nominated races
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#ffffff">
+                      <td width="81%" bgcolor="#ffffff">
+                        <p>
+                          <b>Consolation :</b>Select correctly the
+                          1<sup>st</sup>, 2<sup>nd</sup> and 3<sup>rd</sup>
+                          horses in any order in the first two Legs of the
+                          three nominated races
+                        </p>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td rowspan="2" bgcolor="#DBE8F3"><b>Six Up</b></td>
+                      <td width="81%" height="43" bgcolor="#DBE8F3">
+                        1<sup>st</sup> or 2<sup>nd</sup> in each of the six
+                        nominated races
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#D9FFEC">
+                      <td height="49" bgcolor="#DBE8F3">
+                        <b>Six Win Bonus :</b>1<sup>st</sup> in each of the
+                        six nominated races
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p></p>
+        <br>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <h4><a name="7"></a>1.2. Rebate</h4>
+        <p>
+          Rebate applies to each bet placed in Win, Place, Quinella and
+          Quinella Place for all local and overseas races (except Outbound
+          Commingling).
+        </p>
+        <p>
+          • Whether it be a bet on a single race, a bet consisted in All Up
+          betting^ or a bet consisted in Cross Pool All Up betting^, any
+          ticket* or betline** with a total losing bet amount of HK$10,000 or
+          above placed on designated pool will be eligible to receive a rebate
+          of prescribed percentage of the total losing bet amount
+          <br>
+        </p>
+        <p>
+          • The rate of rebate for any losing bet consisted in All Up betting^
+          and/or Cross Pool All Up betting^ will be determined according to
+          the bet type placed for the losing leg, irrespective of the bet type
+          for the winning legs in that bet
+        </p>
+        <p></p>
+        <table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="1" cellspacing="1">
+                  <tbody>
+                    <tr valign="TOP" bgcolor="#666666">
+                      <td height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Rebate Percentage</font>
+                          </b>
+                        </div>
+                      </td>
+                      <td height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Local Races</font>
+                          </b>
+                        </div>
+                      </td>
+                      <td>
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Overseas Races</font>
+                          </b>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="20%">Win / Place</td>
+                      <td width="12%">
+                        <div align="center">10%</div>
+                      </td>
+                      <td rowspan="2" width="12%">
+                        <div align="center">6%</div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="20%">Quinella / Quinella Place</td>
+                      <td width="12%">
+                        <div align="center">12%</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="gray">
+          <small>^All Up as well as Cross Pool All Up bets are not available
+            between local and overseas races</small><br>
+          <small>*Applicable to Cash Betting, Electronic Shroff Card and
+            eWallet</small>
+          <br>
+          <small>**Applicable to Telebet and Digital Channels including Online
+            Betting Service (eWin), Classic 3-in-1 and Racing Touch App
+          </small>
+        </p>
+        <br>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <h3><a name="8"></a>2. Pari-Mutuel Outbound Commingling Pools</h3>
+        <p>
+          On designated simulcast races from France, Win and Place Bets will
+          be outbound commingled to the respective Pools operated by Pari
+          Mutuel Urbain (“PMU”) of France, in accordance with PMU’s modified
+          horse race betting rules.
+        </p>
+        <table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="1" cellspacing="1">
+                  <tbody>
+                    <tr valign="TOP" bgcolor="#666666">
+                      <td width="30%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Pool</font>
+                          </b>
+                        </div>
+                      </td>
+                      <td width="70%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">% of Pool paid out as Dividend</font>
+                          </b>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="30%"><b>Win / Place</b></td>
+                      <td width="70%">
+                        84.95% (subject to the rate announced by France PMU
+                        from time to time)
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+
+        <h4><a name="9"></a>2.1. Dividend Qualification</h4>
+        <p></p>
+        <table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="1" cellspacing="1">
+                  <tbody>
+                    <tr valign="TOP" bgcolor="#666666">
+                      <td width="30%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Single-race Pools</font>
+                          </b>
+                        </div>
+                      </td>
+                      <td width="70%" height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF">Dividend Qualification</font>
+                          </b>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td width="30%"><b>Win</b></td>
+                      <td width="70%">
+                        Selection of an individual runner finishing 1<sup>st</sup>
+                        in a race
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="30%" bgcolor="#DBE8F3"><b>Place</b></td>
+                      <td width="70%">
+                        <b>3 Dividends: </b>Selection of an individual runner
+                        finishing 1<sup>st</sup>, 2<sup>nd</sup> or 3<sup>rd</sup>
+                        in a race (For races with 8 or more Declared
+                        Starters)<br>
+                        <b>2 Dividends: </b>Selection of an individual runner
+                        finishing 1<sup>st</sup> or 2<sup>nd</sup>
+                        in a race (For races with 4, 5, 6 or 7 Declared
+                        Starters)
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p></p>
+        <br>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <h3><a name="10"></a>3. All Up or Cross Pool All Up Betting</h3>
+        <p>
+          You can enjoy greater flexibility by choosing All Up or Cross Pool
+          All Up bet. Simply by placing bets in the same or different betting
+          pools for 2 races to a maximum of 6 races. Any dividend entitlement
+          from a winning Leg will be automatically carried forward and
+          reinvested in the subsequent Leg specified in your bet selection.
+        </p>
+        <p></p>
+        <table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="1" cellspacing="1">
+                  <tbody>
+                    <tr valign="TOP" bgcolor="#666666">
+                      <td height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF"></font>
+                          </b>
+                        </div>
+                      </td>
+                      <td height="10">
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF" class="td_header">All Up Betting <br>(same betting pool in each
+                              leg)<br></font>
+                          </b>
+                        </div>
+                      </td>
+                      <td>
+                        <div align="center">
+                          <b>
+                            <font color="#FFFFFF" class="td_header">Cross Pool All Up Betting<br>(different
+                              betting pools in each leg allowed)<br></font>
+                          </b>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#DBE8F3">
+                      <td width="15%"><b>Select 2 to 3 races</b><br></td>
+                      <td width="22%">
+                        &nbsp;•&nbsp;Forecast, Trio<br>
+                        <br>&nbsp;e.g. Forecast → Forecast <br>
+                      </td>
+                      <td width="27%">
+                        &nbsp;•&nbsp;Win, Place, Quinella, Quinella Place,
+                        Forecast, Trio<br>
+                        <br>&nbsp;e.g. Forecast → Trio → Win
+                      </td>
+                    </tr>
+                    <tr valign="TOP" bgcolor="#FFFFFF">
+                      <td>
+                        <b>Select 2 to 6 races<br> </b>
+                      </td>
+                      <td width="27%">
+                        &nbsp;•&nbsp;Win, Place, Quinella, Quinella Place<br>
+                        <br>&nbsp;e.g. Win → Win
+                      </td>
+                      <td width="27%">
+                        &nbsp;•&nbsp;Win, Place, Quinella, Quinella Place<br>
+                        <br>&nbsp;e.g. Win → Place → Quinella
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p></p>
+        <br>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <h3><a name="11"></a>4. About Flexi Bet</h3>
+        <p>
+          'Flexi Bet' minimum unit bet amount is now lowered to $1, you can
+          make use of the same betting amount with more combinations, and
+          master your betting strategy with a better chance to win.
+          <br><br>The minimum amount per unit bet of different betting
+          pools are as follows:
+        </p>
+
+        <table width="95%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tbody>
+            <tr></tr>
+          </tbody>
+        </table>
+        <table width="95%" border="1" cellpadding="1" cellspacing="1">
+          <tbody>
+            <tr valign="TOP" bgcolor="#666666">
+              <td colspan="2" rowspan="2" width="40%">
+                <div align="center">
+                  <b>
+                    <font color="#FFFFFF" class="td_header">&nbsp;</font>
+                  </b>
+                </div>
+              </td>
+              <td colspan="3" width="60%">
+                <div align="center">
+                  <b>
+                    <font color="#FFFFFF" class="td_header">Total Bet Amount for a ticket or betline
+                    </font>
+                  </b>
+                </div>
+              </td>
+            </tr>
+            <tr valign="TOP" bgcolor="#666666">
+              <td>
+                <div align="center">
+                  <b>
+                    <font color="#FFFFFF" class="td_header">&lt;$24</font>
+                  </b>
+                </div>
+              </td>
+              <td>
+                <div align="center">
+                  <b>
+                    <font color="#FFFFFF" class="td_header">$24 - &lt;$100</font>
+                  </b>
+                </div>
+              </td>
+              <td>
+                <div align="center">
+                  <b>
+                    <font color="#FFFFFF" class="td_header">≥$100</font>
+                  </b>
+                </div>
+              </td>
+            </tr>
+            <tr valign="TOP" bgcolor="#FFFFFF">
+              <td rowspan="3"><strong>Single-race Pools</strong><br></td>
+              <td valign="top">
+                <p>Win, Place, Quinella, Quinella Place</p>
+              </td>
+              <td rowspan="8" align="center">$10</td>
+              <td rowspan="2" align="center">$10</td>
+              <td align="center">$10</td>
+            </tr>
+            <tr valign="TOP" bgcolor="#FFFFFF">
+              <td valign="top">Forecast, Trio, Tierce, First 4</td>
+              <td align="center">$1</td>
+            </tr>
+            <tr valign="TOP" bgcolor="#FFFFFF">
+              <td valign="top">Quartet</td>
+              <td colspan="2" align="center">$1</td>
+            </tr>
+            <tr valign="TOP" bgcolor="#FFFFFF">
+              <td rowspan="3"><strong>Multi-race Pools</strong><br></td>
+              <td valign="top">Double Trio, Treble</td>
+              <td rowspan="5" align="center">$10</td>
+              <td align="center">$1</td>
+            </tr>
+            <tr valign="TOP" bgcolor="#FFFFFF">
+              <td valign="top">Triple Trio, Six Up</td>
+              <td align="center">$2</td>
+            </tr>
+            <tr valign="TOP" bgcolor="#FFFFFF">
+              <td valign="top">Double</td>
+              <td align="center">$10</td>
+            </tr>
+            <tr valign="TOP" bgcolor="#FFFFFF">
+              <td rowspan="2">
+                <strong>All Up &amp; Cross Pool All Up</strong><br>
+              </td>
+              <td valign="top">
+                Win, Place, Quinella, Quinella Place, Forecast, Trio
+              </td>
+              <td rowspan="2" align="center">$1</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <h2><a name="12"></a>B. Fixed Odds Bet Types</h2>
+        <h3>Jockey Challenge</h3>
+        <p>
+          Pick your favorite jockey and target odds. Dividend is calculated
+          based on the fixed odds at the time the bet is accepted and will not
+          be affected by any subsequent odds change.
+        </p>
+        <h4>How to Play</h4>
+        <p>
+          Jockeys participating in the nominated races in a Jockey Challenge
+          will be numbered 1 to 14. No. 1 to 13 will be assigned to one named
+          jockey each, while No. 14 will include the rest of the jockeys.
+          Select correctly the jockey with the most Jockey Challenge Points in
+          a Jockey Challenge and your winnings will be paid at the price
+          taken.
+        </p>
+        <p>
+          “Jockey Challenge Points” means the points assigned to the jockeys
+          actually riding the 1<sup>st</sup>, 2<sup>nd</sup> and 3<sup>rd</sup>
+          horses, respectively, on the Jockey Challenge Scheduled Rides.*
+        </p>
+        <p class="gray">
+          *Means the rides that a jockey is engaged to ride in the nominated
+          races at the start selling of Jockey Challenge. The Jockey Challenge
+          Scheduled Rides List will be released at the start selling time of
+          Jockey Challenge, please refer to the Scheduled Rides List for
+          details
+        </p>
+        <h4>In Play Betting Available</h4>
+        <p>
+          In Play Betting is available for Jockey Challenge. Bets may be
+          placed until the start of second last race. Selling will be suspended
+          at the start of each race, and will resume after the Weighed in
+          Signal is displayed. Odds and the Jockey Challenge Points will be
+          updated after each race.
+        </p>
+
+        <h4>Jockey Challenge Points</h4>
+        <p>
+          Jockeys riding the first three placed horses^ on their Scheduled
+          Rides will earn Jockey Challenge Points as follows (Dead-heat
+          situations excepted):
+          <br>
+          1<sup>st</sup> place: 12 points<br>
+          2<sup>nd</sup> place: 6 points<br>
+          3<sup>rd</sup> place: 4 points
+        </p>
+        <p>
+          Jockey Challenge Points scored by Substitute Jockeys<sup>#</sup>
+          will not count. The jockey with the highest accumulated Jockey
+          Challenge Points in a Jockey Challenge will be declared as the
+          winner. The Jockey Challenge Points for all jockeys (including the
+          individual jockeys in No.14 "Others") will be counted on an
+          individual basis.
+        </p>
+        <p class="gray">
+          ^No Jockey Challenge Points for the rest of the finishing positions
+          <br>
+          <sup>#</sup>A jockey who rides a Non-Scheduled Ride in a race
+        </p>
+
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <h3>Trainer Challenge</h3>
+        <p>
+          Pick your favorite trainer and target odds. Dividend is calculated
+          based on the fixed odds at the time the bet is accepted and will not
+          be affected by any subsequent odds change.
+        </p>
+
+        <h4>How to Play</h4>
+        <p>
+          Trainers who saddle up starters in the nominated races in a Trainer
+          Challenge will be numbered 1 to 21. No. 1 to 20 will be assigned to
+          one named trainer each (up to 20 named trainers), while No. 21 will
+          include the rest of the trainers. Select correctly the trainer with
+          the most Trainer Challenge Points in a Trainer Challenge and your
+          winnings will be paid at the price taken.
+        </p>
+        <p></p>
+        <p>
+          “Trainer Challenge Points” refer to the points the trainers scored
+          from each of their starters finishing 1<sup>st</sup>, 2<sup>nd</sup>
+          &amp; 3<sup>rd</sup> place.
+        </p>
+        <p></p>
+        <h4>In Play Betting Available</h4>
+
+        <p>
+          In Play Betting is available for Trainer Challenge. Bets may be
+          placed until the start of second last race. Selling will be suspended
+          at the start of each race, and will resume after the Weighed in
+          Signal is displayed. Odds and the Trainer Challenge Points will be
+          updated after each race.
+        </p>
+
+        <h4>Trainer Challenge Points</h4>
+        <p>
+          Trainers of the first three placed horses^ will earn Trainer
+          Challenge Points as follows (Dead-heat situations excepted):
+          <br>
+          1<sup>st</sup> place: 12 points<br>
+          2<sup>nd</sup> place: 6 points<br>
+          3<sup>rd</sup> place: 4 points
+        </p>
+        <p>
+          Where a Trainer has more than one starter in a race nominated for
+          Trainer Challenge, the Trainer Challenge Points he will score from
+          each of his starters in such race will be counted for the Trainer
+          Challenge. A Trainer can earn at most 22 points in a race provided
+          that the first three placed horses are all from his stable.
+        </p>
+        <p>
+          The trainer with the highest accumulated Trainer Challenge Points in
+          a Trainer Challenge will be declared as the winner. The Trainer
+          Challenge Points for all trainers (including the individual trainers
+          in No.21 “Others”) will be counted on an individual basis.
+        </p>
+        <p></p>
+        <p class="gray">
+          ^ No Trainer Challenge Points for the rest of the finishing
+          positions <br>
+        </p>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+
+        <h2><a name="13"></a>C. Dividend Collection</h2>
+        <p>
+          Valid betting tickets must be presented for payment within 60 days
+          of the date after the relevant race meeting (Example: Winning
+          tickets for races held on 1 March can be presented for payment on
+          any day from 1 March to 30 April).
+        </p>
+        <p class="backtotop"><a href="#top" class="backtotop">^ Top</a></p>
+        <!-- Page 1 end -->
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <p>
+      <strong>
+        Content of this page is for reference only. For details, please refer
+        to the Horse Race Betting Rules of HKJC Horse Race Betting Limited
+        (the "Rules"). All horse race bets are handled in accordance with the
+        Rules. In the event of any inconsistency between this page and the
+        Rules, the Rules shall prevail. Horse Race Betting Rules available at
+        About &gt; Terms and Conditions.</strong>
+    </p>
+  </div>
+
+
+</body>
+
+</html>

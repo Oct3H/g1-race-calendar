@@ -1,0 +1,19 @@
+{
+  "name": "kd_disqualifications",
+  "url": "https://www.kentuckyderby.com/wp-content/uploads/sites/2/2023/10/Disqualifications_Inquiries_and_Claims_of_Foul__Kentucky_Derby__2024_.pdf",
+  "method": "GET",
+  "requested_at": "2026-10-26T12:20:18.127020+00:00",
+  "status": 200,
+  "final_url": "https://www.kentuckyderby.com/wp-content/uploads/sites/2/2023/10/Disqualifications_Inquiries_and_Claims_of_Foul__Kentucky_Derby__2024_.pdf",
+  "headers": {
+    "content-type": "application/pdf",
+    "content-length": "223248",
+    "server": "AmazonS3",
+    "date": "Mon, 26 Oct 2026 12:20:20 GMT",
+    "last-modified": "Fri, 27 Oct 2023 17:23:20 GMT",
+    "etag": "\"8a015baae1b2f1fdedf9e326d32f541b\"",
+    "cache-control": "max-age=31536000"
+  },
+  "bytes": 223248,
+  "sha256": "1c8aa6b555c857ed7b162ae415182cd5570825c1f78fe7d1e339192defda5991"
+}

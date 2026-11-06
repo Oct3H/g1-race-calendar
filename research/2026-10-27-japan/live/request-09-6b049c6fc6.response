@@ -1,0 +1,44 @@
+
+/* 年選択ドロップダウン */
+jQuery(function ($) {
+
+	// li要素のHTMLを作成
+	const menuHtml = `
+	<li><a href="../../2026/racelist/index.html">2026年</a></li>
+	<li><a href="../../2025/racelist/index.html">2025年</a></li>
+	<li><a href="../../2024/racelist/index.html">2024年</a></li>
+	<li><a href="../../2023/racelist/index.html">2023年</a></li>
+	<li><a href="../../2022/racelist/index.html">2022年</a></li>
+	<li><a href="../../2021/racelist/index.html">2021年</a></li>
+	`;
+
+	// .dd_menuのul要素に挿入
+	$(".dd_menu").html(menuHtml);
+
+
+	// ドロップダウンを設定
+	$(".dd_menu").css("display", "none");
+	
+	$(".dd").click(function (e) {
+		e.stopPropagation(); // 親要素などへのクリックイベント伝播を防ぐ
+
+		$(".dd").not(this).removeClass("open");
+		$(".dd").not(this).next().slideUp(300);
+		$(this).toggleClass("open");
+		$(this).next().slideToggle(300);
+	});
+
+	//メニュー内リンクをクリックしたときに閉じる
+	$(".dd_menu a").click(function () {
+		$(".dd").removeClass("open");
+		$(".dd_menu").slideUp(300);
+	});
+
+	// エリア外クリックで閉じる
+	$(document).on("click", function (e) {
+		if (!$(e.target).closest(".dd, .dd_menu").length) {
+			$(".dd").removeClass("open");
+			$(".dd_menu").slideUp(300);
+		}
+	});
+});

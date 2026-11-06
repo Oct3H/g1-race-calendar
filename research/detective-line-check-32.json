@@ -1,0 +1,43 @@
+{
+  "asset": "assets/agnes-digital-detective-half-v1.png",
+  "mode": "RGBA",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "alpha_range": [
+    0,
+    254
+  ],
+  "static_ids_unique": true,
+  "detective_link_present": true,
+  "nosebleed_drafts_not_referenced": true,
+  "visual_browser_check": "not completed: CUA URL protocol policy rejected acquisition of existing localhost preview tab; no browser workaround attempted",
+  "image_visual_check": "hat, bow, magnifier, half-body silhouette and no nosebleed inspected in generated file",
+  "http_head_only": [
+    {
+      "path": "/index.html?background=agnes-detective&v=32",
+      "status": 200,
+      "type": "text/html",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/assets/agnes-digital-detective-half-v1.png",
+      "status": 200,
+      "type": "image/png",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/background-preview.css?v=32",
+      "status": 200,
+      "type": "text/css",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/design.js?v=32",
+      "status": 200,
+      "type": "text/javascript",
+      "cache_control": "no-store"
+    }
+  ]
+}

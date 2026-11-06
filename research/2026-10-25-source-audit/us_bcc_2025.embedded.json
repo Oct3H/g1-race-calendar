@@ -1,0 +1,1742 @@
+{
+  "props": {
+    "pageProps": {
+      "blocks": [
+        {
+          "header": {
+            "uid": "blt7fa07ac6d8156c5e",
+            "primaryConfig": {
+              "breedersCupLogo": {
+                "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltefb672bc50e127b7/647e4182959576775835eec0/Breeders_Cup_Identity_White_TM.png",
+                "alt": ""
+              },
+              "breedersCupLogoUrl": "/",
+              "countdownClock": [
+                {
+                  "uid": "blt214144fe71145148",
+                  "title": "Countdown Clock",
+                  "sponsorLogo": {
+                    "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt5f3b77512900cce7/68cc864c34cb6c72b4180348/Longines_MC_logo_1_ReUpload.svg"
+                  },
+                  "sponsorLogoUrl": "https://www.breederscup.com/tickets",
+                  "eventStartTime": "2026-10-30T15:55:00.000Z",
+                  "strings": {
+                    "eventLocation": "Keeneland",
+                    "shortEventLocation": "Keeneland",
+                    "eventDate": "October 30 & 31",
+                    "shortEventDate": "Oct. 30-31"
+                  }
+                }
+              ],
+              "displayMode": "prominent",
+              "navigationLinks": [
+                {
+                  "type": "Nav Text",
+                  "title": "Races",
+                  "url": "/races/bcwc/2026",
+                  "urlPrefix": "",
+                  "openInNewTab": false,
+                  "navIcon": null,
+                  "cta": []
+                },
+                {
+                  "type": "Nav Text",
+                  "title": "Pre-Entries",
+                  "url": "/horses/contenders",
+                  "urlPrefix": "",
+                  "openInNewTab": false,
+                  "navIcon": null,
+                  "cta": []
+                },
+                {
+                  "type": "Nav Text",
+                  "title": "Shop",
+                  "url": "https://breederscupshop.com/",
+                  "urlPrefix": "",
+                  "openInNewTab": true,
+                  "navIcon": null,
+                  "cta": []
+                },
+                {
+                  "type": "Nav Button",
+                  "title": "Tickets",
+                  "url": "/tickets",
+                  "urlPrefix": "",
+                  "openInNewTab": false,
+                  "navIcon": null,
+                  "cta": [
+                    {
+                      "buttonText": "Tickets",
+                      "url": "/tickets",
+                      "attributes": {
+                        "style": "Gold Gradient",
+                        "openInNewTab": false,
+                        "behavior": "default"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "hamburgerConfig": {
+              "backgroundTextureImage": {
+                "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt8ad41f7754003099/615a43467ab23a526f225121/image_27.png"
+              },
+              "upperSectionConfig": {
+                "upperLeftLinks": {
+                  "title": "FOLLOW US",
+                  "iconLinks": [
+                    {
+                      "title": "Facebook",
+                      "url": "https://www.facebook.com/breederscup",
+                      "image": {
+                        "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt37bed29d8b06e070/62e15425412cd777d804f673/FB.svg"
+                      },
+                      "openInNewTab": true
+                    },
+                    {
+                      "title": "Instagram",
+                      "url": "https://www.instagram.com/breederscup/",
+                      "image": {
+                        "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blta8d915b21bfb24dc/62e15425ce66ad7665f808f5/IG.svg"
+                      },
+                      "openInNewTab": true
+                    },
+                    {
+                      "title": "TikTok",
+                      "url": "https://www.tiktok.com/@breederscup",
+                      "image": {
+                        "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blte78cf0f277f26fb4/62e15425d55ebc765f494a50/TT.svg"
+                      },
+                      "openInNewTab": false
+                    },
+                    {
+                      "title": "X",
+                      "url": "https://twitter.com/breederscup",
+                      "image": {
+                        "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltc68c5bd4f74e5b3a/651ca0b53ce1e86cffffec2a/23-BC-088_Website-Nav_TW-to-X_update.svg"
+                      },
+                      "openInNewTab": true
+                    },
+                    {
+                      "title": "YouTube",
+                      "url": "https://www.youtube.com/channel/UCWZuaUWzzl60uclgZ9QsOJw",
+                      "image": {
+                        "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt8ab58b0fe2381543/62e15425504b12685ede95db/YT.svg"
+                      },
+                      "openInNewTab": true
+                    }
+                  ]
+                },
+                "upperRightLinks": [
+                  {
+                    "title": "SHOP",
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blte9eeb8b5701a14bd/613102d29db95e7ff74b6046/ShopGold.svg"
+                    },
+                    "url": "https://breederscupshop.com/?ref=header-shop-button",
+                    "openInNewTab": false
+                  }
+                ],
+                "primaryCta": {
+                  "buttonText": "Tickets",
+                  "url": "/tickets",
+                  "attributes": {
+                    "style": "Gold Gradient",
+                    "openInNewTab": false,
+                    "behavior": "default"
+                  }
+                }
+              },
+              "navigationCategories": [
+                {
+                  "name": "Races",
+                  "navigationLinks": [
+                    {
+                      "type": "Nav Text",
+                      "title": "Breeders' Cup World Championships",
+                      "url": "/races/bcwc/2026",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Challenge Series Results",
+                      "url": "/races/challenge-series",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Dirt Dozen",
+                      "url": "/races/dirt-dozen",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "How It Works",
+                      "url": "/races/how-it-works",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Past Results",
+                      "url": "/results",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Safety & Integrity",
+                      "url": "/safety",
+                      "openInNewTab": false,
+                      "cta": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Horses",
+                  "navigationLinks": [
+                    {
+                      "type": "Nav Text",
+                      "title": "Pre-Entries",
+                      "url": "/horses/contenders",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Workout Towels",
+                      "url": "/horses/workout-towels",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Classic Rankings",
+                      "url": "/rankings",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Hall of Champions",
+                      "url": "/horses/hall-of-champions",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Breeding & Nominations",
+                      "url": "/horses/breeding-nominations",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Horsemen's Portal: Nominations & Racing",
+                      "url": "https://members.breederscup.com/",
+                      "openInNewTab": true,
+                      "cta": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Tickets",
+                  "navigationLinks": [
+                    {
+                      "type": "Nav Text",
+                      "title": "All Ticket Information",
+                      "url": "/tickets",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Available Tickets",
+                      "url": "/tickets/general-admission",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "FAQs",
+                      "url": "/tickets/faqs",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Future Host Sites",
+                      "url": "/future-host-site",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Button",
+                      "title": "Buy Now",
+                      "url": "https://seatgeek.com/breeders-cup-world-championships-tickets?aid=16205&pid=bcweb&rid=2690901&utm_medium=partnership&utm_source=breederscup_ticketing&utm_campaign=bcweb",
+                      "openInNewTab": true,
+                      "cta": [
+                        {
+                          "buttonText": "Buy Now",
+                          "url": "https://seatgeek.com/breeders-cup-world-championships-tickets?aid=16205&pid=bcweb&rid=2690901&utm_medium=partnership&utm_source=breederscup_ticketing&utm_campaign=bcweb",
+                          "attributes": {
+                            "style": "Gold Gradient",
+                            "openInNewTab": true,
+                            "behavior": "ticket-sales"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Watch",
+                  "navigationLinks": [
+                    {
+                      "type": "Nav Text",
+                      "title": "Watch",
+                      "url": "/watch",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Live",
+                      "url": "/live",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "International Broadcast Info",
+                      "url": "/how-to-watch/international",
+                      "openInNewTab": false,
+                      "cta": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Latest",
+                  "navigationLinks": [
+                    {
+                      "type": "Nav Text",
+                      "title": "News",
+                      "url": "/news",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Video",
+                      "url": "/video",
+                      "openInNewTab": false,
+                      "cta": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Experience",
+                  "navigationLinks": [
+                    {
+                      "type": "Nav Text",
+                      "title": "The Breeders' Cup Experience",
+                      "url": "/experience",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Plan Your Visit",
+                      "url": "/experience/plan-your-visit",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Parking & Transportation",
+                      "url": "/parking",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Fan Hub",
+                      "url": "/fan-hub",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Breeders' Cup Festival",
+                      "url": "https://www.breederscupfestival.com/",
+                      "openInNewTab": true,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Lifestyle & Fashion",
+                      "url": "/experience/lifestyle",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Official Mobile App",
+                      "url": "/app",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Admission Policy",
+                      "url": "/tickets/admission-policy",
+                      "openInNewTab": false,
+                      "cta": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Wager",
+                  "navigationLinks": [
+                    {
+                      "type": "Nav Text",
+                      "title": "Wager Overview",
+                      "url": "/wager",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Future Wager",
+                      "url": "/futurewager",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Breeders' Cup Betting Challenge",
+                      "url": "/bcbc",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "In The Money Horseplayers Tour",
+                      "url": "https://breederscup.com/horseplayers-tour",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Breeders' Cup Betting",
+                      "url": "https://www.fanduel.com/breeders-cup-betting",
+                      "openInNewTab": true,
+                      "cta": []
+                    }
+                  ]
+                },
+                {
+                  "name": "About",
+                  "navigationLinks": [
+                    {
+                      "type": "Nav Text",
+                      "title": "History",
+                      "url": "/about",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Charities",
+                      "url": "/charities",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Board & Members",
+                      "url": "/about/board-of-directors-members",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Staff",
+                      "url": "/about/staff",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Media",
+                      "url": "/media-center",
+                      "openInNewTab": false,
+                      "cta": []
+                    },
+                    {
+                      "type": "Nav Text",
+                      "title": "Partners",
+                      "url": "/about/corporate-partners",
+                      "openInNewTab": false,
+                      "cta": []
+                    }
+                  ]
+                }
+              ],
+              "promoBanner": [
+                {
+                  "ContentTypeUid": "block_promo_banner_slider",
+                  "uid": "blt24e95c3a8ed8dfa7",
+                  "Version": 58,
+                  "locale": "en-us",
+                  "ACL": {},
+                  "InProgress": false,
+                  "createdAt": "2022-05-27T19:20:31.671Z",
+                  "createdBy": "blta46375476b4f83a9",
+                  "references": [
+                    {
+                      "ContentTypeUid": "block_promo_banner",
+                      "uid": "bltf1043772f5b8bf9f",
+                      "Version": 5,
+                      "locale": "en-us",
+                      "ACL": {},
+                      "InProgress": false,
+                      "backgroundImage": {
+                        "xlDesktop": null,
+                        "desktop": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltb462325294478a51/6acfded56ac96cc2e6a0e1c1/_Hamburger-banner_1280x240.jpg"
+                        },
+                        "useDesktopSmartCrop": false,
+                        "tablet": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltd0f69da7889c2f97/6ace54a7f0773376f0f8885f/_Hamburger-banner_688x600.jpg"
+                        },
+                        "mobile": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltb082c4607857ee82/6ace54a7ea4732467b30f339/_Hamburger-banner_320x570.jpg"
+                        }
+                      },
+                      "clickableBannerUrl": "https://racing.fanduel.com/promos/B10G50RACQST0626?onelink_id=V8wF&pid=breeders-cup&af_xp=custom&af_click_lookback=7d&af_adset=bet-10-get-50&source_caller=ui&c=bet-10-get-50&shortlink=i19emlqm",
+                      "createdAt": "2024-10-22T15:24:15.379Z",
+                      "createdBy": "blta46375476b4f83a9",
+                      "ctaButtons": [],
+                      "description": "",
+                      "largeTitle": "",
+                      "largeTitleMiddlePlacement": false,
+                      "tags": [],
+                      "title": "FanDuel Ad Hamburger Menu",
+                      "updatedAt": "2026-10-17T14:00:23.931Z",
+                      "updatedBy": "blta46375476b4f83a9",
+                      "publishDetails": {
+                        "time": "2026-10-17T14:00:33.281Z",
+                        "user": "blta46375476b4f83a9",
+                        "environment": "bltbe5baf815e13df4d",
+                        "locale": "en-us"
+                      }
+                    },
+                    {
+                      "ContentTypeUid": "block_promo_banner",
+                      "uid": "blt0dd59f169d1b4468",
+                      "Version": 1,
+                      "locale": "en-us",
+                      "ACL": {},
+                      "InProgress": false,
+                      "backgroundImage": {
+                        "xlDesktop": null,
+                        "desktop": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt3b6dfbb5f5428fb8/6abbf51b82545e2d2c57910d/2026_BCWC_Tune-In_Bet_Messaging_Promo_Banner_1280x240.jpg"
+                        },
+                        "useDesktopSmartCrop": false,
+                        "tablet": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt41234ddb7861ae76/6abbf51c5b49f8de87e3cac9/2026_BCWC_Tune-In_Bet_Messaging_Promo_Banner_688x600.jpg"
+                        },
+                        "mobile": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt9957ca14e11e650e/6abbf51c385d18ed8bf692fe/2026_BCWC_Tune-In_Bet_Messaging_Promo_Banner_320x570.jpg"
+                        }
+                      },
+                      "clickableBannerUrl": "/watch",
+                      "createdAt": "2026-09-29T17:35:26.668Z",
+                      "createdBy": "blta46375476b4f83a9",
+                      "ctaButtons": [],
+                      "description": "<p><br></p>",
+                      "largeTitle": "<p><br></p>",
+                      "largeTitleMiddlePlacement": false,
+                      "tags": [],
+                      "title": "Hamburger Promo Banner: Watch With Link",
+                      "updatedAt": "2026-09-29T17:35:26.668Z",
+                      "updatedBy": "blta46375476b4f83a9",
+                      "publishDetails": {
+                        "time": "2026-09-29T17:35:32.747Z",
+                        "user": "blta46375476b4f83a9",
+                        "environment": "bltbe5baf815e13df4d",
+                        "locale": "en-us"
+                      }
+                    },
+                    {
+                      "ContentTypeUid": "block_promo_banner",
+                      "uid": "bltea0377d180013062",
+                      "locale": "en-us",
+                      "Version": 12,
+                      "ACL": {},
+                      "InProgress": false,
+                      "backgroundImage": {
+                        "xlDesktop": null,
+                        "desktop": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltc203148e9e67787f/6ab3efcbf3b126bd13650d04/Promo-Banners_Promo-Banner_1280x240.png"
+                        },
+                        "useDesktopSmartCrop": false,
+                        "tablet": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blta5384b255bf1ee18/6ab3efcc44675f4fe16f89da/Promo-Banners_Promo-Banner_688x600.png"
+                        },
+                        "mobile": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt23abdbed1e5f8f48/6ab3efcbbf5efb3901d385b2/Promo-Banners_Promo-Banner_320x570.png"
+                        }
+                      },
+                      "clickableBannerUrl": "/app",
+                      "createdAt": "2024-04-23T19:03:20.696Z",
+                      "createdBy": "blt5a50b3c4daf0fdef",
+                      "ctaButtons": [],
+                      "description": "",
+                      "largeTitle": "",
+                      "largeTitleMiddlePlacement": false,
+                      "tags": [],
+                      "title": "Mobile App Hamburger Menu Promo Banner",
+                      "updatedAt": "2026-09-23T15:47:16.955Z",
+                      "updatedBy": "blta46375476b4f83a9",
+                      "publishDetails": {
+                        "time": "2026-09-23T15:47:24.447Z",
+                        "user": "blta46375476b4f83a9",
+                        "environment": "bltbe5baf815e13df4d",
+                        "locale": "en-us"
+                      }
+                    },
+                    {
+                      "ContentTypeUid": "block_promo_banner",
+                      "uid": "blt1ebc74fe900e396e",
+                      "Version": 5,
+                      "locale": "en-us",
+                      "ACL": {},
+                      "InProgress": false,
+                      "backgroundImage": {
+                        "xlDesktop": null,
+                        "desktop": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt23038426e8bf0ec4/69f3a4c1cc157b627b21b827/2026_BGA_Hamburger_promo.png"
+                        },
+                        "useDesktopSmartCrop": false,
+                        "tablet": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt7458f6cb19ebc005/69f364769df29a4ea7c1c7b3/2026_BGA_688_x_600.png"
+                        },
+                        "mobile": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blta098a274a2061abe/69f36476c58f74534c258224/2026_BGA_320_x_600.png"
+                        }
+                      },
+                      "clickableBannerUrl": "https://www.bluegrassairport.com/",
+                      "createdAt": "2026-04-30T14:29:59.842Z",
+                      "createdBy": "blt9e96ed30c73c9686",
+                      "ctaButtons": [],
+                      "description": "",
+                      "largeTitle": "",
+                      "largeTitleMiddlePlacement": false,
+                      "tags": [],
+                      "title": "2026 Blue Grass Airport Hamburger Menu Banner",
+                      "updatedAt": "2026-04-30T19:01:53.369Z",
+                      "updatedBy": "blt9e96ed30c73c9686",
+                      "publishDetails": {
+                        "time": "2026-04-30T19:02:01.111Z",
+                        "user": "blt9e96ed30c73c9686",
+                        "environment": "bltbe5baf815e13df4d",
+                        "locale": "en-us"
+                      }
+                    }
+                  ],
+                  "tags": [],
+                  "title": "Hamburger Menu Promo Banner Slider",
+                  "updatedAt": "2026-10-22T20:35:18.015Z",
+                  "updatedBy": "blta46375476b4f83a9",
+                  "publishDetails": {
+                    "time": "2026-10-22T20:35:21.076Z",
+                    "user": "blta46375476b4f83a9",
+                    "environment": "bltbe5baf815e13df4d",
+                    "locale": "en-us"
+                  }
+                }
+              ],
+              "lowerSectionConfig": {
+                "title": "WHERE THE WORLD'S GREATEST COME TOGETHER",
+                "countries": [
+                  {
+                    "uid": "blt911cd299bdfb55fa",
+                    "title": "Argentina",
+                    "abbreviation": "ARG",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltfd85ba8ed2351bda/61aa496bf4f01a1e53e2c644/Argentina.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "blte17ba0c863f0f9a3",
+                    "title": "Australia",
+                    "abbreviation": "AUS",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt8ffe9914a34f7bc5/61aa49b17b288471c602be04/Flag_of_Australia.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "blt0c9dd2785639182f",
+                    "title": "Brazil",
+                    "abbreviation": "BRA",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltb2da63183634b555/61aa4ccdd141f11fa179ae21/brazil.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "bltd313850291635aef",
+                    "title": "Canada",
+                    "abbreviation": "CAN",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt4c78a5ec75e090d2/61aa4b152e86841fa22388d7/Flag_of_Canada.jpg",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "bltbade43d7316c55b9",
+                    "title": "Chile",
+                    "abbreviation": "CHL",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt3eb0d27a3a780275/61aa4b95425bc6598f47b3d0/chile.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "blt952f4fa5875984b9",
+                    "title": "France",
+                    "abbreviation": "FRA",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt32d4aec5d5cd2faf/61490dcf77d06a0c9835e9fd/France_Flag.png"
+                    }
+                  },
+                  {
+                    "uid": "blt68f070d554c23a1d",
+                    "title": "GERMANY",
+                    "abbreviation": "GER",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltabb922416bd2baaa/60d3622507060a4ae3f14679/GERFlag.png"
+                    }
+                  },
+                  {
+                    "uid": "blta32e5b692b12a246",
+                    "title": "Ireland",
+                    "abbreviation": "IRE",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt613f9a736c40223a/61aa4c2b2f8b9e70946988d3/ireland.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "bltddddd2aba803f27e",
+                    "title": "Japan",
+                    "abbreviation": "JPN",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blta6f52e264bde8855/61aa4c7d55cf14733fc5bc35/japan.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "blt4b8686ea82833fd4",
+                    "title": "New Zealand",
+                    "abbreviation": "NZL",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltde15c95e1819160b/61aa4d361dbfc323d33b0acf/new-zealand_1.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "blt9d5daeded813ea89",
+                    "title": "Peru",
+                    "abbreviation": "PER",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltcc7330cc49845163/6291285cd0f3ca0f53e07c0c/Image_2022-05-27_at_12.35.37_PM.png"
+                    }
+                  },
+                  {
+                    "uid": "blt81e1aa4cef5e5e14",
+                    "title": "South Africa",
+                    "abbreviation": "SAF",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt8e12ea98946f37eb/61aa4de8f4f01a1e53e2c686/south-africa.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "blt7f7d5d2e3f0b2809",
+                    "title": "United Arab Emirates",
+                    "abbreviation": "ARE",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt143bcf923cbd448a/61aa4f1092da7e58659cfc10/united-arab-emirates.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "blt440e3ce320965a9b",
+                    "title": "United Kingdom / England",
+                    "abbreviation": "GBR",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt02676e7705186e63/61aa4e462e86841fa22388f0/united-kingdom.png",
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "uid": "blt1af49e3a6a89373f",
+                    "title": "USA",
+                    "abbreviation": "USA",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt9de45bbdff160673/60d219911e0505677a882fa1/USAFlag.png"
+                    }
+                  },
+                  {
+                    "uid": "blt919360340f6a541a",
+                    "title": "Uruguay",
+                    "abbreviation": "URU",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt818e1e1f270f02c4/6861abd00090ec257972af13/uruguayan-flag-small.gif"
+                    }
+                  },
+                  {
+                    "uid": "blt23f61b88ebea7f55",
+                    "title": "Venezuela",
+                    "abbreviation": "VEN",
+                    "flag": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltde1a6103313dd4b0/61aa4f506b14b6709abf44fa/venezuela.png",
+                      "alt": ""
+                    }
+                  }
+                ]
+              }
+            },
+            "sponsor": null
+          }
+        },
+        {
+          "heroBanner": {
+            "backgroundImage": {
+              "xlDesktop": null,
+              "useDesktopSmartCrop": false,
+              "desktop": {
+                "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt23f8ea1ef3534afa/69069740f63213ff6ab2009f/Classic_-_Homepage_Desktop_1440x500_V1.jpg"
+              },
+              "tablet": {
+                "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltc0cd5543a36bc96b/69069740114ad78ada64f0b1/Classic_-_Homepage_Tablet_768x500_V1.jpg"
+              },
+              "mobile": {
+                "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt24f851f3b050c45f/69069740d1430d476689c22e/Classic_-_Homepage_Mobile_360x500_V1.jpg"
+              }
+            },
+            "leftHeroConfigFields": {
+              "raceDetails": [
+                {
+                  "uid": "blta1ab9142edf4ebcd",
+                  "raceName": "Breeders' Cup Classic",
+                  "raceDetails": {
+                    "type": "World Championships",
+                    "bcType": "Classic",
+                    "sponsor": [],
+                    "sponsorLogo": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltb2341aaa147a6de7/62963af60d6f4a0fbcbefc6b/Longines5.31.svg",
+                      "alt": ""
+                    },
+                    "date": "2025-11-01T22:25:00.000Z",
+                    "priorYearChampionPhoto": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt7e2c69f5f6a26562/6737a9a319d0a891a4f23d98/24-BC-199_Video-Thumbnail_Day2-600x450_v1-SierraLeone.jpg"
+                    },
+                    "displayPostTime": true,
+                    "isCompleted": true,
+                    "isLive": true,
+                    "purse": "$7,000,000",
+                    "distance": "1 1/4 miles",
+                    "grade": 1,
+                    "ageV2": "3+",
+                    "division": "Longines Classic",
+                    "exacta": "",
+                    "trifecta": "",
+                    "superfecta": "",
+                    "superHighFive": "",
+                    "dailyDouble": "",
+                    "pick3": "",
+                    "pick4": "",
+                    "pick5": "",
+                    "pick6": "",
+                    "region": ""
+                  },
+                  "isTvScheduled": true,
+                  "broadcast": {
+                    "partners": [
+                      {
+                        "logo": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltf79bd4e964d5f80e/68d41e0fc07c892e73863c80/NBC_Logo_2025.svg"
+                        },
+                        "time": "3:30-7 P.M. ET"
+                      },
+                      {
+                        "logo": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blta5b3a045ace774e7/62bf0ac39a55544ea3af8314/22-BC-162_New-BCcom_Network-Logo-SVGs_146x60-v1-05-Peacock.svg",
+                          "alt": ""
+                        },
+                        "time": ""
+                      }
+                    ]
+                  },
+                  "trackDetails": [
+                    {
+                      "uid": "blt491ef0de361a8666",
+                      "details": {
+                        "name": "Del Mar",
+                        "logo": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltd22cd20f3175c3f4/61e830b7b401003502572b15/delmartrack.png"
+                        },
+                        "image": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltd5b96de0f5d0398d/613ab7badadef826b2db456a/DelMarTrackImage.jpeg"
+                        },
+                        "locationBcbc": "Del Mar",
+                        "timeZone": -7
+                      }
+                    }
+                  ],
+                  "raceDescription": "<h1>Forever Young (JPN) Wins a Classic Breeders’ Cup Classic&nbsp;</h1><p>Susumu Fujita’s Forever Young (JPN) ($9), third in last &nbsp;year’s race behind Sierra Leone and Fierceness, turned the tables Saturday afternoon at Del Mar &nbsp;to win the 42nd running of the $7 million Longines Breeders’ Cup Classic (G1) for 3-year-olds &nbsp;and up by a half-length over Sierra Leone.&nbsp;</p><p>Trained by Yoshito Yahagi and ridden by Ryusei Sakai, Forever Young covered the mile and a &nbsp;quarter over a fast track in 2:00.19. The victory is the third for Yahagi in the World &nbsp;Championships and first in the Classic. It is Sakai’s first Breeders’ Cup win.&nbsp;</p><p>More forwardly placed than last year, Forever Young tracked in third behind Contrary Thinking &nbsp;and Fierceness through opening fractions of :23.04, :45.97 and 1:10.48.&nbsp;</p><p>Approaching the far turn, Sakai gave Forever Young his cue and he swept to the front with &nbsp;Mindframe and Journalism also on the move and Fierceness saving ground on the inside. Forever &nbsp;Young maintained a safe margin over Fierceness and then was able to hold the late charge from &nbsp;Sierra Leone.&nbsp;</p><p>Sierra Leone finished a length in front of Fierceness who was 2 ¼ lengths in front of Journalism &nbsp;with Mindframe, Baeza, Nevada Beach, Antiquarian and Contrary Thinking following in order.&nbsp;</p><p>Forever Young is a 4-year-old son of Real Steel (JPN) out of the Congrats mare Forever Darling. &nbsp;The victory was worth $3,640,000 and increased his earnings to $19,358,590 with a record of &nbsp;13-10-0-3 that includes three Grade or Group 1 wins.&nbsp;</p>",
+                  "surface": "",
+                  "bettingCtaOverride": {
+                    "cta": []
+                  }
+                }
+              ],
+              "background": null,
+              "ctaButtons": [
+                {
+                  "buttonText": "Results Chart",
+                  "url": "https://assets.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt7af912c85f2c0fc6/6a2c596dc5524b8a199b4f57/2025_Classic_Results_Chart.pdf",
+                  "attributes": {
+                    "style": "Purple",
+                    "openInNewTab": true,
+                    "behavior": "default"
+                  }
+                }
+              ],
+              "description": "",
+              "largeTitle": "",
+              "smallTitle": "",
+              "sponsorImage": null
+            },
+            "title": "2025 Classic Hero Banner",
+            "sticky": true,
+            "condensedHero": false,
+            "links": [
+              {
+                "title": "2026",
+                "url": "/races/2026-classic"
+              },
+              {
+                "title": "2025",
+                "url": "/races/2025-classic"
+              },
+              {
+                "title": "2024",
+                "url": "/races/2024-classic"
+              },
+              {
+                "title": "2023",
+                "url": "/races/2023-classic"
+              },
+              {
+                "title": "2022",
+                "url": "/races/bcwc/2022/classic"
+              },
+              {
+                "title": "2021",
+                "url": "/races/2021-longines-classic"
+              },
+              {
+                "title": "2020",
+                "url": "/races/bcwc/2020/classic"
+              },
+              {
+                "title": "2019",
+                "url": "/races/bcwc/2019/classic"
+              },
+              {
+                "title": "2018",
+                "url": "/races/bcwc/2018/classic"
+              },
+              {
+                "title": "2017",
+                "url": "/races/bcwc/2017/classic"
+              },
+              {
+                "title": "2016",
+                "url": "/races/bcwc/2016/classic"
+              },
+              {
+                "title": "2015",
+                "url": "/races/bcwc/2015/classic"
+              },
+              {
+                "title": "2014",
+                "url": "/races/bcwc/2014/classic"
+              },
+              {
+                "title": "2013",
+                "url": "/races/bcwc/2013/classic"
+              },
+              {
+                "title": "2012",
+                "url": "/races/bcwc/2012/classic"
+              },
+              {
+                "title": "2011",
+                "url": "/races/bcwc/2011/classic"
+              },
+              {
+                "title": "2010",
+                "url": "/races/bcwc/2010/classic"
+              },
+              {
+                "title": "2009",
+                "url": "/races/bcwc/2009/classic"
+              },
+              {
+                "title": "2008",
+                "url": "/races/bcwc/2008/classic"
+              },
+              {
+                "title": "2007",
+                "url": "/races/bcwc/2007/classic"
+              },
+              {
+                "title": "2006",
+                "url": "/races/bcwc/2006/classic"
+              },
+              {
+                "title": "2005",
+                "url": "/races/bcwc/2005/classic"
+              },
+              {
+                "title": "2004",
+                "url": "/races/bcwc/2004/classic"
+              },
+              {
+                "title": "2003",
+                "url": "/races/bcwc/2003/classic"
+              },
+              {
+                "title": "2002",
+                "url": "/races/bcwc/2002/classic"
+              },
+              {
+                "title": "2001",
+                "url": "/races/bcwc/2001/classic"
+              },
+              {
+                "title": "2000",
+                "url": "/races/bcwc/2000/classic"
+              },
+              {
+                "title": "1999",
+                "url": "/races/bcwc/1999/classic"
+              },
+              {
+                "title": "1998",
+                "url": "/races/bcwc/1998/classic"
+              },
+              {
+                "title": "1997",
+                "url": "/races/bcwc/1997/classic"
+              },
+              {
+                "title": "1996",
+                "url": "/races/bcwc/1996/classic"
+              },
+              {
+                "title": "1995",
+                "url": "/races/bcwc/1995/classic"
+              },
+              {
+                "title": "1994",
+                "url": "/races/bcwc/1994/classic"
+              },
+              {
+                "title": "1993",
+                "url": "/races/bcwc/1993/classic"
+              },
+              {
+                "title": "1992",
+                "url": "/races/bcwc/1992/classic"
+              },
+              {
+                "title": "1991",
+                "url": "/races/bcwc/1991/classic"
+              },
+              {
+                "title": "1990",
+                "url": "/races/bcwc/1990/classic"
+              },
+              {
+                "title": "1989",
+                "url": "/races/bcwc/1989/classic"
+              },
+              {
+                "title": "1988",
+                "url": "/races/bcwc/1988/classic"
+              },
+              {
+                "title": "1987",
+                "url": "/races/bcwc/1987/classic"
+              },
+              {
+                "title": "1986",
+                "url": "/races/bcwc/1986/classic"
+              },
+              {
+                "title": "1985",
+                "url": "/races/bcwc/1985/classic"
+              },
+              {
+                "title": "1984",
+                "url": "/races/bcwc/1984/classic"
+              }
+            ],
+            "replayVideo": {
+              "uid": "blt6d03fd983baedfc3",
+              "title": "20251101 R09 Breeders' Cup Classic (G1) Won By Forever Young (JPN)",
+              "videoId": "XiwckiPw",
+              "length": "2:15",
+              "thumbnails": {
+                "default": {
+                  "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt011592d027f3f22e/69068fab1a428e0c3248689b/XiwckiPw.jpg"
+                },
+                "largeCard": null,
+                "smallVerticalCard": null,
+                "horizontalCard": null,
+                "mobileHorizontalCard": null
+              },
+              "preRollAd": [],
+              "publishDate": "2025-11-01T22:47:01.000Z",
+              "ogTags": [],
+              "cardType": "Video"
+            }
+          }
+        },
+        {
+          "tabs": {
+            "tabs": [
+              {
+                "title": "Overview",
+                "content": [
+                  {
+                    "detailBanner": {
+                      "ContentTypeUid": "block_detail_banner",
+                      "uid": "bltb6d1555cec25c86b",
+                      "title": "2025 Classic Detail Banner",
+                      "manualEntryConfig": [
+                        {
+                          "title": "DATE",
+                          "value": "NOV 1, 2025",
+                          "Metadata": {
+                            "uid": "csee49e5c3562fbe48"
+                          }
+                        },
+                        {
+                          "title": "DISTANCE",
+                          "value": "1 1/4 MILES (DIRT)",
+                          "Metadata": {
+                            "uid": "cs6c7b586a2f97a240"
+                          }
+                        },
+                        {
+                          "title": "PURSE",
+                          "value": "$7,000,000",
+                          "Metadata": {
+                            "uid": "cs478d5534b0f378e6"
+                          }
+                        },
+                        {
+                          "title": "GRADE",
+                          "value": "1",
+                          "Metadata": {
+                            "uid": "cscd3f60ef0ce82aba"
+                          }
+                        },
+                        {
+                          "title": "AGE",
+                          "value": "3+",
+                          "Metadata": {
+                            "uid": "cs69d618d69cd60b31"
+                          }
+                        }
+                      ],
+                      "logo": {
+                        "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blte1ab13c18f3b59b4/672d5a48ee4d41da02396f2e/BreedersCup_DelMar_2025_RGB_DBG.png"
+                      },
+                      "backgroundTextureImage": null,
+                      "tags": [],
+                      "locale": "en-us",
+                      "createdBy": "blt608d82c0d7af6f7e",
+                      "updatedBy": "blt608d82c0d7af6f7e",
+                      "createdAt": "2024-11-11T17:14:15.467Z",
+                      "updatedAt": "2024-11-11T17:39:05.311Z",
+                      "ACL": {},
+                      "Version": 2,
+                      "InProgress": false,
+                      "publishDetails": {
+                        "time": "2025-01-06T18:02:25.090Z",
+                        "user": "blta46375476b4f83a9",
+                        "environment": "bltbe5baf815e13df4d",
+                        "locale": "en-us"
+                      }
+                    }
+                  },
+                  {
+                    "overview": {
+                      "content": "<h1>Forever Young (JPN) Wins a Classic Breeders’ Cup Classic&nbsp;</h1><p>Susumu Fujita’s Forever Young (JPN) ($9), third in last &nbsp;year’s race behind Sierra Leone and Fierceness, turned the tables Saturday afternoon at Del Mar &nbsp;to win the 42nd running of the $7 million Longines Breeders’ Cup Classic (G1) for 3-year-olds &nbsp;and up by a half-length over Sierra Leone.&nbsp;</p><p>Trained by Yoshito Yahagi and ridden by Ryusei Sakai, Forever Young covered the mile and a &nbsp;quarter over a fast track in 2:00.19. The victory is the third for Yahagi in the World &nbsp;Championships and first in the Classic. It is Sakai’s first Breeders’ Cup win.&nbsp;</p><p>More forwardly placed than last year, Forever Young tracked in third behind Contrary Thinking &nbsp;and Fierceness through opening fractions of :23.04, :45.97 and 1:10.48.&nbsp;</p><p>Approaching the far turn, Sakai gave Forever Young his cue and he swept to the front with &nbsp;Mindframe and Journalism also on the move and Fierceness saving ground on the inside. Forever &nbsp;Young maintained a safe margin over Fierceness and then was able to hold the late charge from &nbsp;Sierra Leone.&nbsp;</p><p>Sierra Leone finished a length in front of Fierceness who was 2 ¼ lengths in front of Journalism &nbsp;with Mindframe, Baeza, Nevada Beach, Antiquarian and Contrary Thinking following in order.&nbsp;</p><p>Forever Young is a 4-year-old son of Real Steel (JPN) out of the Congrats mare Forever Darling. &nbsp;The victory was worth $3,640,000 and increased his earnings to $19,358,590 with a record of &nbsp;13-10-0-3 that includes three Grade or Group 1 wins.&nbsp;</p>",
+                      "ads": [],
+                      "manualTable": {
+                        "header": "",
+                        "headerImage": null,
+                        "rows": []
+                      },
+                      "assets": {
+                        "challengeSeriesWinnerImage": {
+                          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt2f51d9ea0dcd56bd/62d16e22719eb738924973c6/BC_Chall_4cLogo_Tagline.png"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "default": true
+              },
+              {
+                "title": "Results",
+                "contentId": "bltece2b61daf27f111",
+                "default": false
+              },
+              {
+                "title": "Race History",
+                "contentId": "blt580e2a0d79258afd",
+                "default": false
+              },
+              {
+                "title": "Gallery",
+                "contentId": "blta29a6b90d8be1c17",
+                "default": false
+              }
+            ]
+          }
+        },
+        {
+          "racesNavigation": {
+            "prev": {
+              "url": "/races/2025-turf",
+              "title": "Breeders' Cup Turf"
+            },
+            "returnTo": {
+              "url": "/races/BCWC/2025",
+              "title": "Breeders' Cup World Championships 2025"
+            },
+            "next": {
+              "url": "/races/2025-mile",
+              "title": "Breeders' Cup Mile"
+            }
+          }
+        },
+        {
+          "footer": {
+            "ContentTypeUid": "block_footer",
+            "uid": "blte088793bf7ac4b55",
+            "Version": 120,
+            "locale": "en-us",
+            "ACL": {},
+            "InProgress": false,
+            "copyrightDisclaimer": "Copyright 2025. All Rights Reserved.",
+            "countdownClock": [],
+            "createdAt": "2021-05-24T11:11:27.644Z",
+            "createdBy": "blte9c87515d27c3f01",
+            "navLinks": [
+              {
+                "label": "Media",
+                "Metadata": {
+                  "uid": "csd5916c5f8941cbdd"
+                },
+                "url": "/media-center"
+              },
+              {
+                "label": "Charity",
+                "Metadata": {
+                  "uid": "cse723a2d31ca97cb8"
+                },
+                "url": "/about/charities"
+              },
+              {
+                "label": "Horsemen",
+                "Metadata": {
+                  "uid": "csa317bb92ad8388fc"
+                },
+                "url": "https://members.breederscup.com/"
+              },
+              {
+                "label": "Partners",
+                "Metadata": {
+                  "uid": "cse407159b2ad8b32b"
+                },
+                "url": "/about/corporate-partners"
+              },
+              {
+                "label": "Shop",
+                "Metadata": {
+                  "uid": "cs5e2180af1f5d2fc4"
+                },
+                "url": "https://breederscupshop.com/?ref=header-shop-button"
+              },
+              {
+                "label": "Contact Us",
+                "Metadata": {
+                  "uid": "csa6120f8668bb21d9"
+                },
+                "url": "/about/staff"
+              },
+              {
+                "label": "Volunteer",
+                "Metadata": {
+                  "uid": "csb686d9ab4021b8c0"
+                },
+                "url": "/volunteer"
+              }
+            ],
+            "partnerImages": [
+              {
+                "title": "Race partners",
+                "Metadata": {
+                  "uid": "csc7dd16042adba83e"
+                },
+                "images": [
+                  {
+                    "name": "Longines",
+                    "Metadata": {
+                      "uid": "cs928539dffecea3d0"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt6b5d28ce180e7a0b/66f1ffa6192bf7784ff6c327/Longines_Logo-for-Footer-01.svg"
+                    },
+                    "url": "www.longines.com"
+                  },
+                  {
+                    "name": "Brown Advisory",
+                    "Metadata": {
+                      "uid": "cs637cc701cea1b8bb"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltdb5682924182ef7c/6a63a4e6f39ca9c4a2a0b3bd/BrownAdvisory_Footer_Corrected.svg"
+                    },
+                    "url": "https://www.brownadvisory.com/"
+                  },
+                  {
+                    "name": "Cygames",
+                    "Metadata": {
+                      "uid": "cse48c093bc09d4d3f"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt4cdd4afc22731b38/66f4455c8a50c09f4f68ffb6/Cygames-Logo_Footer-01.svg"
+                    },
+                    "url": "https://www.cygames.co.jp/en/"
+                  },
+                  {
+                    "name": "FanDuel",
+                    "Metadata": {
+                      "uid": "cs77784eea7f5166fa"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltea3471cca5281e7c/630cac5c10a0d31b7d9e5a37/FanDuel_Brand-Svgs_Footer.svg"
+                    },
+                    "url": "https://www.fanduel.com/"
+                  },
+                  {
+                    "name": "JohnDeere",
+                    "Metadata": {
+                      "uid": "cs49a449034c6ad437"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt4cc92f8712611338/66c355bc31665383c04a0e94/JohnDeere_Footer-01.svg"
+                    },
+                    "url": "https://www.deere.com/en/"
+                  },
+                  {
+                    "name": "Maker's Mark",
+                    "Metadata": {
+                      "uid": "cs71b1cb020ad407b4"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt6f9cd6d9ac72c996/68cc415a7ca47178d1135899/Makers_Mark_Footer_ReUpload.svg"
+                    },
+                    "url": "https://www.makersmark.com/"
+                  },
+                  {
+                    "name": "Prevagen",
+                    "Metadata": {
+                      "uid": "csdda1ff9587c3aa15"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltc66a1e17dcfcaa54/64bec552645d356a186a351d/Prevagen_Footer-01_v2-01.svg"
+                    },
+                    "url": "https://prevagen.com/"
+                  },
+                  {
+                    "name": "TVG",
+                    "Metadata": {
+                      "uid": "csea3a33aebd128c4e"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt9c3fff08a44439c1/61c0c322c548b77c207dc33a/TVG_Footer.svg",
+                      "alt": ""
+                    },
+                    "url": "www.tvg.com"
+                  }
+                ]
+              },
+              {
+                "title": "Industry Champions",
+                "Metadata": {
+                  "uid": "cs5f4d115b226ea338"
+                },
+                "images": [
+                  {
+                    "name": "Clairborne",
+                    "Metadata": {
+                      "uid": "cs0fb5c18735beae0d"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt2c132e4e2db8bfd3/61ec70e5ecbd3f1a43faae1d/Clairborne_Footer.svg"
+                    },
+                    "url": "https://claibornefarm.com/"
+                  },
+                  {
+                    "name": "Coolmore",
+                    "Metadata": {
+                      "uid": "cs4550255c7bd2ae60"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltd39090b911a3a2c0/68cc41bf5e30863abf70c374/Coolmore_Footer_ReUpload.svg"
+                    },
+                    "url": "https://coolmore.com/en/america/"
+                  },
+                  {
+                    "name": "Gainesway",
+                    "Metadata": {
+                      "uid": "cs755f46e004564fd7"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blta3a53bfbbd720eaf/6a639c7169550248ff88e14e/gaineswayfooter.svg"
+                    },
+                    "url": "https://gainesway.com/"
+                  },
+                  {
+                    "name": "Hill N Dale",
+                    "Metadata": {
+                      "uid": "cs65e4c6202b52f591"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt4e9b11db902aa511/6a639c712fd7e2b8ea1af829/HillnDalefooter.svg"
+                    },
+                    "url": "https://www.hillndalefarms.com/"
+                  },
+                  {
+                    "name": "LanesEnd",
+                    "Metadata": {
+                      "uid": "csc62bcaab2203807f"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt45b31612f8e5e223/61c0ca63c52c5b292ce23c7b/LanesEnd_Footer.svg",
+                      "alt": ""
+                    },
+                    "url": "https://lanesend.com/"
+                  },
+                  {
+                    "name": "Spendthrift",
+                    "Metadata": {
+                      "uid": "cs6712b3801af10f48"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltcb8a860558518edc/6a639c71abb7981195a1cbec/spendthriftfooter.svg"
+                    },
+                    "url": "https://www.spendthriftfarm.com/"
+                  },
+                  {
+                    "name": "Three Chimneys",
+                    "Metadata": {
+                      "uid": "cs424af514e392b015"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt2dd33171e3a53590/68cc41d3930d01d1d5a67dbb/Three_Chimneys_Footer_ReUpload.svg"
+                    },
+                    "url": "https://www.threechimneys.com/"
+                  },
+                  {
+                    "name": "Winstar",
+                    "Metadata": {
+                      "uid": "cs7415bde3e2f92014"
+                    },
+                    "image": {
+                      "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt36bce1aa39bb51c0/68cc41df0ff53e369712365a/Winstar_Footer_ReUpload.svg"
+                    },
+                    "url": "https://www.winstarfarm.com/"
+                  }
+                ]
+              }
+            ],
+            "stayConnected": [
+              {
+                "Version": 7,
+                "locale": "en-us",
+                "uid": "bltedbe2dd27d3081d7",
+                "ACL": {},
+                "InProgress": false,
+                "backgroundTextureImage": {
+                  "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt02b9033e4dc585e5/60d24f4bd78f9d375f082c83/StayConnectedBG.png"
+                },
+                "createdAt": "2021-06-22T21:03:12.006Z",
+                "createdBy": "blta6061d7fe91698b8",
+                "disclaimerMessage": "By checking this box, you agree to receive Breeders' Cup marketing emails",
+                "emailInput": "here",
+                "enterEmailText": "Enter e-mail",
+                "hubspotData": {
+                  "formguid": "7edc6a95-791e-42c3-8763-a94a9ae84305",
+                  "portalId": "20373454"
+                },
+                "signUpButtonText": "Sign Up",
+                "tags": [],
+                "thankYouForSigningUp": "<p>Thank you for signing up!</p>",
+                "title": "StayConnected",
+                "toStayConnectedText": "To Stay Connected with Breeders’ Cup",
+                "updatedAt": "2021-09-23T21:42:43.822Z",
+                "updatedBy": "bltb33262d75a182733",
+                "ContentTypeUid": "block_stay_connected",
+                "publishDetails": {
+                  "environment": "bltbe5baf815e13df4d",
+                  "locale": "en-us",
+                  "time": "2021-09-23T21:42:48.932Z",
+                  "user": "bltb33262d75a182733"
+                }
+              }
+            ],
+            "tags": [],
+            "title": "Footer2",
+            "updatedAt": "2026-07-24T17:46:45.114Z",
+            "updatedBy": "blt9e96ed30c73c9686",
+            "wageringPartners": [
+              {
+                "label": "TVG",
+                "Metadata": {
+                  "uid": "cs59e51decef43b9fa"
+                },
+                "url": "https://www.tvg.com/"
+              },
+              {
+                "label": "FANDUEL",
+                "Metadata": {
+                  "uid": "csd8247625cc20cf64"
+                },
+                "url": "https://www.fanduel.com/"
+              },
+              {
+                "label": "FANDUEL SPORTSBOOK",
+                "Metadata": {
+                  "uid": "cs8c9d593a43dfc59e"
+                },
+                "url": "https://sportsbook.fanduel.com/"
+              },
+              {
+                "label": "FANDUEL RACING",
+                "Metadata": {
+                  "uid": "cs05cabb5c4bedc2cd"
+                },
+                "url": "https://racing.fanduel.com/"
+              }
+            ],
+            "publishDetails": {
+              "time": "2026-07-24T17:47:13.357Z",
+              "user": "blt9e96ed30c73c9686",
+              "environment": "bltbe5baf815e13df4d",
+              "locale": "en-us"
+            }
+          }
+        }
+      ],
+      "title": "2025 Classic",
+      "descriptionBlurb": "",
+      "openGraphTags": [
+        {
+          "property": "og:title",
+          "content": "2025 Breeders' Cup Classic"
+        },
+        {
+          "property": "og:url",
+          "content": "www.breederscup.com/races/2025-classic"
+        },
+        {
+          "property": "og:type",
+          "content": "Website"
+        },
+        {
+          "property": "og:description",
+          "content": "2025 Breeders' Cup Classic"
+        }
+      ],
+      "statusCode": 200,
+      "errorMessage": "",
+      "tracking": "",
+      "renderBlockContext": {
+        "queryParams": {
+          "tab": "overview",
+          "index": [
+            "races",
+            "2025-classic"
+          ]
+        },
+        "region": "INT",
+        "type": "",
+        "origin": "breederscup.com",
+        "csPath": "/races/2025-classic",
+        "path": "/races/2025-classic?tab=overview",
+        "locale": "en-us",
+        "headers": "[\n    {\n        \"x-forwarded-for\": \"203.10.99.59, 64.252.74.78\",\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"web-app-origin.prod.bcw.nextleague.com\",\n        \"x-amzn-trace-id\": \"Root=1-6ade0a4e-3dafc6ab6033dc2130e5fc24\",\n        \"cloudfront-viewer-country-region\": \"13\",\n        \"user-agent\": \"Amazon CloudFront\",\n        \"via\": \"1.1 f0499023f5cce9a24cc0ed91910c47ee.cloudfront.net (CloudFront)\",\n        \"cloudfront-viewer-country-name\": \"Japan\",\n        \"x-origin-access-key\": \"gAh06VpCNgSWuW6p\",\n        \"cloudfront-viewer-country-region-name\": \"Tokyo\",\n        \"accept-encoding\": \"identity\",\n        \"x-amz-cf-id\": \"R-gbbKvv1ce-QDfSE8X81fRt_4ldjq4iIyrKtGOt6UT_V4X7474X0A==\",\n        \"x-forwarded-host\": \"web-app-origin.prod.bcw.nextleague.com\"\n    },\n    [\n        \"X-Forwarded-For\",\n        \"203.10.99.59, 64.252.74.78\",\n        \"X-Forwarded-Proto\",\n        \"https\",\n        \"X-Forwarded-Port\",\n        \"443\",\n        \"Host\",\n        \"web-app-origin.prod.bcw.nextleague.com\",\n        \"X-Amzn-Trace-Id\",\n        \"Root=1-6ade0a4e-3dafc6ab6033dc2130e5fc24\",\n        \"Cloudfront-Viewer-Country-Region\",\n        \"13\",\n        \"User-Agent\",\n        \"Amazon CloudFront\",\n        \"Via\",\n        \"1.1 f0499023f5cce9a24cc0ed91910c47ee.cloudfront.net (CloudFront)\",\n        \"Cloudfront-Viewer-Country-Name\",\n        \"Japan\",\n        \"X-Origin-Access-Key\",\n        \"gAh06VpCNgSWuW6p\",\n        \"Cloudfront-Viewer-Country-Region-Name\",\n        \"Tokyo\",\n        \"Accept-Encoding\",\n        \"identity\",\n        \"X-Amz-Cf-Id\",\n        \"R-gbbKvv1ce-QDfSE8X81fRt_4ldjq4iIyrKtGOt6UT_V4X7474X0A==\"\n    ]\n]",
+        "favicon": {
+          "regular": {
+            "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltf5a3213069ab333b/613bcb36dadef826b2db4968/Breeders_Cup_Favicon.png"
+          },
+          "appleTouch": {
+            "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blte802be552e7b20f7/613bcb5251f9bb3aa35e5fa4/Breeders_Cup_Favicon.png"
+          }
+        },
+        "theme": {
+          "primaryColor": "#512d6d"
+        },
+        "stage": "prod",
+        "features": {
+          "horseType": {
+            "type": "pre-entries",
+            "hideJockey": true,
+            "horseProfileAds": [
+              {
+                "ContentTypeUid": "collection_advertisement",
+                "type": "DFP Ad",
+                "dfpAdCard": {
+                  "adHeight": 250,
+                  "code": "<a href=\"https://www.breederscup.com/watch\" target=\"_blank\">\n<img src=\"https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt01673775b31df10d/6ac3eabb66fa96ff0be8b062/2026_BCWC_Tune-In_Bet_Messaging_Pop_Up_300x250.jpg\" width=\"300\" height=\"250\">\n</a>"
+                }
+              },
+              {
+                "ContentTypeUid": "collection_non_dfp_ad",
+                "media": {
+                  "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt6a506b496da07b67/6ace54a7cb3619a4c9dbce12/_Right-rail-banner_300x250.jpg"
+                },
+                "url": "https://racing.fanduel.com/promos/B10G50RACQST0626?onelink_id=V8wF&pid=breeders-cup&af_xp=custom&af_click_lookback=7d&af_adset=bet-10-get-50&source_caller=ui&c=bet-10-get-50&shortlink=i19emlqm"
+              }
+            ],
+            "keenelandSalesGrad": [
+              {
+                "title": "Keeneland Sales Grad",
+                "redirectUrl": "https://www.keeneland.com/sales/",
+                "label": "Presented by",
+                "logos": {
+                  "color": {
+                    "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt47302df6e371b596/6930b337a8606c4ef1964fce/KeenelandGradF_Rev_343_1.png"
+                  },
+                  "white": {
+                    "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt47302df6e371b596/6930b337a8606c4ef1964fce/KeenelandGradF_Rev_343_1.png"
+                  },
+                  "black": {
+                    "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt47302df6e371b596/6930b337a8606c4ef1964fce/KeenelandGradF_Rev_343_1.png"
+                  }
+                },
+                "sponsoredUrls": [],
+                "sponsoredSection": ""
+              }
+            ],
+            "equibaseSponsor": [
+              {
+                "title": "Equibase",
+                "redirectUrl": "https://www.equibase.com/",
+                "label": "POWERED BY",
+                "logos": {
+                  "color": {
+                    "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt4b45ea0180212d35/629e637a0d3e0c2148fe591b/equibase.png"
+                  },
+                  "white": {
+                    "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt4b45ea0180212d35/629e637a0d3e0c2148fe591b/equibase.png"
+                  },
+                  "black": {
+                    "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/blt4b45ea0180212d35/629e637a0d3e0c2148fe591b/equibase.png"
+                  }
+                },
+                "sponsoredUrls": [],
+                "sponsoredSection": ""
+              }
+            ],
+            "targetingRaceCtas": [],
+            "exploreBreedersCupNavigation": [
+              {
+                "title": "Championship Races",
+                "url": "/races/BCWC/2026"
+              },
+              {
+                "title": "All Pre-Entries",
+                "url": "/horses/pre-entries"
+              },
+              {
+                "title": "Watch",
+                "url": "/watch"
+              },
+              {
+                "title": "Latest News",
+                "url": "/news"
+              }
+            ]
+          },
+          "betting": {
+            "isHidden": true,
+            "cta": [
+              {
+                "buttonText": "BET WITH FANDUEL",
+                "url": "https://racing.fanduel.com/",
+                "attributes": {
+                  "style": "Blue FanDuel",
+                  "openInNewTab": true,
+                  "behavior": "default"
+                }
+              }
+            ]
+          }
+        },
+        "horse": null,
+        "targetingRace": null,
+        "breedersCupLogo": {
+          "src": "https://images.contentstack.io/v3/assets/blt9b0ea57b1efe7a70/bltefb672bc50e127b7/647e4182959576775835eec0/Breeders_Cup_Identity_White_TM.png",
+          "alt": ""
+        }
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/[[...index]]",
+  "query": {
+    "tab": "overview",
+    "index": [
+      "races",
+      "2025-classic"
+    ]
+  },
+  "buildId": "VFZ4zERlUl2NAGmhns3mx",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

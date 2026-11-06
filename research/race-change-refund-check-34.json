@@ -1,0 +1,78 @@
+{
+  "static_html": {
+    "unique_ids": 146,
+    "balanced_tags": true,
+    "local_resources_exist": true,
+    "change_control_ids_exist": [
+      "calendar-change-study",
+      "race-change-copy",
+      "race-change-dates",
+      "race-change-notice",
+      "race-change-refund",
+      "race-change-source",
+      "race-change-title",
+      "race-refund-demo-note"
+    ]
+  },
+  "syntax_checks": [
+    "design.js",
+    "game-design.js",
+    "game-state.mjs"
+  ],
+  "rules_check": "passed: refunds, cancellation, withdrawal, postponed locked odds and existing game rules",
+  "function_checks": "passed: change notices, dates, withdrawn rows, refund view, repeat viewing",
+  "navigation_regression": "passed: 360 months, leap years, year boundaries, timezone dates",
+  "browser_visual_check": "not_run_due_to_prior_browser_url_policy_rejection",
+  "new_dependencies": false,
+  "real_network_data_or_persistent_wallet": false,
+  "head_requests": [
+    {
+      "path": "/index.html?preview=calendar&changes=1&year=2026&month=10&v=34",
+      "status": 200,
+      "content_type": "text/html",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/index.html?preview=calendar&changes=1&year=2026&month=10&game=refund-cancelled&v=34",
+      "status": 200,
+      "content_type": "text/html",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/index.html?preview=calendar&changes=1&year=2026&month=10&game=refund-withdrawn&v=34",
+      "status": 200,
+      "content_type": "text/html",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/design.js?v=34",
+      "status": 200,
+      "content_type": "text/javascript",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/game-design.js?v=34",
+      "status": 200,
+      "content_type": "text/javascript",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/game-state.mjs?v=34",
+      "status": 200,
+      "content_type": "text/javascript",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/game-style.css?v=34",
+      "status": 200,
+      "content_type": "text/css",
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/calendar-workspace.css?v=34",
+      "status": 200,
+      "content_type": "text/css",
+      "cache_control": "no-store"
+    }
+  ]
+}

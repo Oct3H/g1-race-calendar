@@ -1,0 +1,10 @@
+{
+  "query": "query RacesWinOdds($date: String, $venueCode: String, $oddsTypes: [OddsType]) {\n  raceMeetingProfile(date: $date, venueCode: $venueCode) {\n    races {\n      no\n      status\n      runners {\n        no\n        status\n      } \n    }\n    pmPools(oddsTypes: $oddsTypes) {\n      id\n      oddsNodes {\n        combString\n        hotFavourite\n        oddsValue\n      }\n      lastUpdateTime\n    }\n  }\n}\n",
+  "variables": {
+    "date": "2026-10-25",
+    "venueCode": "S2",
+    "oddsTypes": [
+      "WIN"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "round": 72,
+  "status": "passed",
+  "method": "actual financial functions and controllers with DOM doubles",
+  "cases": [
+    "idle combined refresh",
+    "result -> latest correction -> refund",
+    "correction -> latest correction -> refund",
+    "refund supersedes stale bankruptcy",
+    "bankruptcy without refund",
+    "chronological shop queue",
+    "repeat refresh/view idempotence",
+    "ordinary inactive shop"
+  ],
+  "browserRendered": false,
+  "liveSourceUpdated": false
+}

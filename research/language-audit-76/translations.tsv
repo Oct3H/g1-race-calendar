@@ -1,0 +1,1119 @@
+0	GⅠ Race Calendar · Cache settings	GⅠ レースカレンダー・キャッシュ設定
+1	GⅠ Race Calendar · UI preview	GⅠ レースカレンダー・UIプレビュー
+2	Collecting · Sample	収集中・サンプル
+3	Paused · Sample	一時停止・サンプル
+4	Collection complete · Sample	収集完了・サンプル
+5	Waiting for connection · Sample	接続待ち・サンプル
+6	Current-year details cleared	本年の詳細を削除済み
+7	Saved on demand · Sample	必要に応じて保存・サンプル
+8	The calendar is available while current-year details are collected. Unpublished racecards remain pending.	本年の詳細を収集中でもカレンダーを閲覧できます。未発表の出馬表は発表待ちです。
+9	Saved data is retained. Resume from the saved progress without starting over.	保存済みデータは残ります。再開すると保存済みの進捗から続行します。
+10	Published data is complete in this sample. New information will be checked when needed.	サンプルでは発表済みデータの収集が完了しています。新しい情報は必要時に確認します。
+11	Saved data remains available offline. Continue when connected; old odds retain their update time.	オフラインでも保存済みデータを閲覧できます。接続後に続行し、過去のオッズには更新日時を表示します。
+12	Date bubbles are kept. The year will not download again automatically; retrieve individual races or download a selected year.	日付バブルは残ります。年全体は自動で再取得しません。レース単位または指定年を再取得できます。
+13	Date bubbles and retrieved details are kept. The year will not download again automatically.	日付バブルと取得済みの詳細は残ります。年全体は自動で再取得しません。
+14	Full-year collection stopped; retrieve details as needed	年全体の収集を停止しました。詳細は必要時に取得します
+15	2026 · Races, runners and related horse profiles	2026年・レース、出走馬と関連する馬の資料
+16	Resume when connected	接続後に再開
+17	Download 2026 data again	2026年のデータを再取得
+18	Resume collection	収集を再開
+19	Pause collection	収集を一時停止
+20	2024 and 2025 data	2024・2025年のデータ
+21	Cleared years are retrieved on demand	削除済みの年は必要時に取得
+22	Race details and horse profiles	レース詳細と馬の資料
+23	Racecards and finishing positions	出馬表と着順
+24	Published race dates	発表済みの開催日
+25	Schedule · Runners · Results · Related horses	基本日程・出走状況・結果・関連する馬
+26	Schedule · Confirmed runners · Finishing positions	基本日程・出走馬一覧・着順
+27	Unpublished dates await source updates	未発表の開催日は参照元の更新待ち
+28	Only date bubbles saved; details not collected	日付バブルのみ保存済み・詳細は未収集
+29	Details cleared	詳細を削除済み
+30	Date bubbles kept · Details retrieved online when needed	日付バブルを保持・詳細は必要時にオンラインで取得
+31	Details for one race saved on demand	1レース分の詳細を必要に応じて保存済み
+32	Other race details remain pending; the year has not been downloaded again	他のレース詳細は未取得です。年全体の再取得はしていません
+33	· Waiting for connection	・接続待ち
+34	· Collecting missing data	・不足分を収集中
+35	Updated {5}	{5} 更新
+36	Date bubbles: {7} MB	日付バブル {7} MB
+37	Current year	本年
+38	Clear details	詳細を削除
+39	Clear details for {0}	{0}年の詳細を削除
+40	Download {0} again	{0}年を再取得
+41	Download {0} data again	{0}年のデータを再取得
+42	Update published date bubbles for this year	この年の発表済み日付バブルを更新
+43	Download this year's racecards and finishing positions again	この年の出馬表と着順を再取得
+44	Download this year's races, runners and related horse profiles again	この年のレース、出走馬と関連する馬の資料を再取得
+45	Date bubbles only	日付バブルのみ
+46	{0} · Sample data updated	{0}・サンプルデータ更新
+47	Return to online sample	オンラインのサンプルに戻る
+48	Preview offline state	オフライン状態を確認
+49	Clear details for {0}?	{0}年の詳細を削除しますか？
+50	Estimated space freed: {0} MB. Date bubbles will still use {1} MB.	推定で{0} MBを解放します。日付バブルの{1} MBは残ります。
+51	This year's racecards, results and related horse profiles	この年の出馬表、結果と関連する馬の資料
+52	Saved racecards and finishing positions for this year	この年の保存済み出馬表と着順
+53	Sample: downloading 2026 data again while keeping existing cache. Use “Preview collection complete” to see the finished state.	サンプル：既存のキャッシュを残して2026年を再取得します。「収集完了を確認」で完了状態を表示できます。
+54	Sample: published date bubbles for {0} downloaded again; previously retrieved details retained.	サンプル：{0}年の発表済み日付バブルを再取得しました。追加取得済みの詳細は残ります。
+55	Sample: racecards and finishing positions for {0} downloaded again; other years retained.	サンプル：{0}年の出馬表と着順を再取得しました。他の年は残ります。
+56	Collection complete · Sample. Published current-year details are saved; unpublished content remains pending.	収集完了・サンプル。本年の発表済み詳細を保存しました。未発表の情報は発表待ちです。
+57	Sample update check: 2026-10-21 14:30. Each data update time is retained; cleared years are not downloaded again automatically.	更新確認のサンプル：2026-10-21 14:30。各データの更新日時は保持し、削除済みの年は自動で再取得しません。
+58	Sample: {0} details cleared, freeing {1} MB; date bubbles and other years retained.	サンプル：{0}年の詳細を削除して{1} MBを解放しました。日付バブルと他の年は残ります。
+59	Sample: one race from {0} retrieved on demand, adding 0.8 MB; no full-year download.	サンプル：{0}年の1レースを必要に応じて取得し、0.8 MB追加しました。年全体の再取得はしていません。
+60	Flow preview: this is an independent cache sample. Returning to the calendar restores the selected collection scene; no real download or cleanup occurs.	操作プレビュー：独立したキャッシュ例です。カレンダーに戻ると選択した収集状態を復元します。実際の取得や削除は行いません。
+61	Additional payout	返還額を追加
+62	Payout recovery	返還額を回収
+63	Shortfall · Balance set to zero	不足分を免除・残高ゼロ
+64	Three successive corrections	3回連続の訂正
+65	Changed to dead-heat winners	同着優勝に訂正
+66	No change to this ticket's amount	この馬券の金額に影響なし
+67	Correction arrives during settlement	精算表示中に訂正を受信
+68	New correction arrives during correction notice	訂正表示中に新たな訂正を受信
+69	Close correction notice	訂正通知を閉じる
+70	Official result correction · Fictional preview	公式結果の訂正・架空のプレビュー
+71	Change to available funds	今回の利用可能資金の変化
+72	View original settlement, published versions and adjustments	元の精算・公表版・調整履歴を見る
+73	Demo: query returns a new correction	デモ：照会から新しい訂正を受信
+74	Compare the latest official result with the last processed version. Stake and locked odds stay unchanged; the same version is never applied twice.	最新の公式結果と前回処理した版を比較します。購入額と固定オッズは変わらず、同じ版を二重に処理しません。
+75	Close and view race	閉じてレースを見る
+76	No. {0}{1}	{0}番{1}
+77	(dead heat)	（同着）
+78	Official Win odds at purchase (fictional)	購入時の公式単勝オッズ（架空）
+79	Other unrun ticket (fictional)	他の未出走馬券（架空）
+80	Official final correction notice (fictional)	公式の確定訂正通知（架空）
+81	{0} · Correction received, not viewed · Available {1}. {2}{3}	{0}・訂正受信済み、未確認・利用可能 {1}。{2}{3}
+82	Another ¥520,000 is in unrun tickets; bank: ¥30,000.	別の未出走馬券が¥520,000、銀行残高が¥30,000あります。
+83	Yellow change marker only; no new financial red exclamation mark.	黄色の変更マークのみ表示し、資金用の赤い感嘆符は追加しません。
+84	Open the red ! on 秋華賞 or enter the shop to view and apply the adjustment.	秋華賞の赤い ! または小店を開いて確認すると調整します。
+85	{0}. Open the 秋華賞 red !, then use the incoming-correction demo. Current amounts stay unchanged until you close the notice; the latest correction then follows automatically. Multiple arrivals can be simulated.	{0}。秋華賞の赤い ! を開き、訂正受信デモを使ってください。現在の表示額は保持し、閉じると最新訂正を自動で表示・処理します。複数回の受信も試せます。
+86	Official result received · Not yet settled	公式結果を取得済み・未精算
+87	First correction received · Not yet processed	最初の訂正を取得済み・未処理
+88	A new official correction has arrived. This notice stays unchanged; close it to view and apply the latest adjustment immediately.	新しい公式訂正を受信しました。現在の表示を保持し、閉じると最新の差額を直ちに表示・処理します。
+89	Continue to new correction	新しい訂正を確認
+90	Official correction returned by the initiated query (fictional)	実行中の照会から受信した公式訂正（架空）
+91	Additional payout applied	追加の返還額を入金しました
+92	Correction amount recovered	訂正差額を回収しました
+93	Result corrected · Amount unchanged	結果を訂正・金額に変更なし
+94	{0} · Latest winner: {1}	{0}・最新の優勝馬 {1}
+95	Before viewing: {0} → After viewing: {1}	確認前 {0} → 確認後 {1}
+96	Due: {0} · Recovered: {1} · Shortfall {2} waived, with no debt. Future payouts and bank withdrawals remain available normally.	回収予定 {0}・実回収 {1}・不足分 {2}は免除し、負債は残りません。今後の払戻しや銀行からの引出額は通常どおり利用できます。
+97	This correction reduced funds to zero. Review the adjustment first, then close to see the bankruptcy notice. Other pending tickets are retained.	今回の訂正で資金がゼロになりました。まず差額を確認し、閉じると破産通知を表示します。他の未精算馬券は残ります。
+98	This adjustment was applied when this notice opened.	この通知を開いた時点で差額を処理しました。
+99	Previously processed record; viewing again does not change funds.	処理済みの記録です。再表示しても資金は変わりません。
+100	#{0} · No. {1} {2}	#{0}・{1}番 {2}
+101	Stake {3} · Locked odds {4}×	購入額 {3}・固定オッズ {4}倍
+102	Previous entitlement {5} → Corrected {6}	訂正前の返還額 {5} → 訂正後 {6}
+103	Original settlement: {0}	元の精算：{0}
+104	#{0} · Winner {1} · Return {2}	#{0}・優勝 {1}・返還 {2}
+105	Published version {0} · {1}	公表版 {0}・{1}
+106	{2} · Winner {3} · {4}	{2}・優勝 {3}・{4}
+107	Viewed adjustment · {0}	確認済み調整・{0}
+108	{1} · Due {2} · Applied {3} · Waived {4}	{1}・予定 {2}・実処理 {3}・免除 {4}
+109	Continue to balance status	資金の状態を確認
+110	Continue to shop	小店へ進む
+111	Latest correction {0} viewed and applied · Available {1}. Viewing again makes no further adjustment. {2}	最新訂正 {0}を確認・処理済み。利用可能 {1}。再確認しても再調整しません。{2}
+112	Funds reduced to zero; close this adjustment to see the bankruptcy notice.	資金がゼロになりました。差額を閉じると破産通知を表示します。
+113	View this race's correction / processed records ›	このレースの訂正・処理済み記録を見る ›
+114	Startup and window preview ›	起動とウィンドウのプレビュー ›
+115	Original settlement return {0}	元の精算返還額 {0}
+116	Actual debits, credits and waivers are listed in this race's correction record.	実際の回収・追加返還・免除額は、このレースの訂正記録を参照してください。
+117	{0} · Entitlement {1} → {2} · Difference {3}	{0}・返還予定額 {1} → {2}・差額 {3}
+118	Racecard not published	出馬表の発表待ち
+119	Schedule published · Confirmed racecard pending	日程発表済み・確定出馬表は発表待ち
+120	Known dates remain visible. Entries are not confirmed runners; purchases require a final racecard and official Win odds.	既知の日付は表示します。登録は出走確定ではありません。確定出馬表と公式単勝オッズの取得まで購入できません。
+121	Schedule: 2026-10-20 12:00 · Runners not published (fictional)	日程：2026-10-20 12:00・出馬表未発表（架空）
+122	No tickets for this race · Purchase requires confirmed runners and official odds.	このレースの馬券はありません。出走確定と公式オッズ取得後に購入できます。
+123	Partially missing racecard	出馬表の一部が未取得
+124	Runners confirmed · Some fields missing	出走確定・一部項目は未取得
+125	Some jockeys and Win odds are missing. Available horse details remain visible; horses without odds cannot be selected and never borrow another horse's odds.	騎手と単勝オッズの一部が未取得です。取得済みの馬の資料は表示し、オッズのない馬は選択できません。他馬の値で代用しません。
+126	Runners / available odds: 2026-10-23 12:00 (fictional)	出走馬・取得済みオッズ：2026-10-23 12:00（架空）
+127	Only horses with verified odds can be purchased; other eligible horses remain selectable.	確認可能なオッズを取得した馬のみ購入でき、他の対象馬は引き続き選択できます。
+128	Failed · Cache retained	取得失敗・キャッシュを保持
+129	Fetch failed · Showing last successful data	今回の取得失敗・前回成功時のデータを表示
+130	A failed fetch does not mean unpublished or withdrawn. Keep the saved racecard and odds; confirmation locks the cached odds currently shown.	取得失敗は未発表や出走取消を意味しません。保存済みの出馬表とオッズを保持し、購入確定時に表示中のキャッシュオッズを固定します。
+131	Checked: 2026-10-24 12:00 · Last success: 2026-10-23 12:00 (fictional)	確認：2026-10-24 12:00・前回成功：2026-10-23 12:00（架空）
+132	Cached official odds remain usable; race-day and all other purchase rules still apply.	保存済み公式オッズは利用できますが、レース当日などの購入条件は通常どおり適用します。
+133	Failed · No cache	取得失敗・キャッシュなし
+134	Fetch failed · No usable cached data	データ取得失敗・利用可能なキャッシュなし
+135	The date bubble stays, but no racecard or odds are saved. Do not invent runners or label a fetch failure as unpublished. Retry manually or on the next visit.	日付バブルは残りますが、出馬表とオッズは未保存です。出走馬を捏造せず、取得失敗を未発表とも扱いません。手動または次回表示時に再確認します。
+136	Checked: 2026-10-24 12:00 · No successful record (fictional)	確認：2026-10-24 12:00・成功記録なし（架空）
+137	Confirmed runners and official odds unavailable · Purchases disabled; no charge.	出走確定と公式オッズを確認できないため購入できません。資金は減りません。
+138	Results not published	結果の発表待ち
+139	Scheduled start has passed · Awaiting official results	予定発走時刻を経過・公式結果の取得待ち
+140	Keep the saved racecard. Elapsed time alone cannot determine a winner, a losing ticket or a refund; wait for credible official results.	保存済み出馬表を表示します。時間の経過だけで優勝・不的中・返金を判断せず、信頼できる公式結果を待ちます。
+141	Racecard saved · No official result (fictional)	出馬表保存済み・公式結果なし（架空）
+142	One ticket bought · Stake deducted, return not credited; awaiting official results.	1枚購入済み・購入額は差引済み、返還額は未入金。公式結果待ちです。
+143	Official winner · Other fields pending	公式優勝馬・その他は未取得
+144	Official winner confirmed · Other positions and margins pending	公式優勝馬を確認・その他の着順と着差は未取得
+145	An authoritative final winner and absence of a dead heat are confirmed. Show the winner in gold; other positions stay unconfirmed, not inferred from horse numbers. Missing fields do not block viewing settlement.	信頼できる公式優勝馬と同着なしを確認しました。優勝馬は金色、他の着順は未確認のままとし、馬番から推測しません。不足項目があっても精算を確認できます。
+146	Official result confirmed: 2026-10-18 16:10 (fictional)	公式結果確認：2026-10-18 16:10（架空）
+147	One ticket bought · Red ! awaits viewing; payout is credited when opened, missing fields can follow later.	1枚購入済み・赤い ! は未確認です。結果を開くと返還し、不足項目は後で補完します。
+148	Key result needs verification	重要な結果を要確認
+149	Conflicting winner data · Settlement on hold	優勝馬情報が不一致・精算を保留
+150	Two results disagree on the winner, so no final result is qualified for settlement. Keep both source records and tickets; do not choose arbitrarily or refund automatically.	2つの結果で優勝馬が一致せず、精算に使える確定結果を確認できません。参照元と馬券を保持し、任意選択や自動返金はしません。
+151	Last checked: 2026-10-24 12:00 · Final winner unverified (fictional)	最終確認：2026-10-24 12:00・公式優勝馬は要確認（架空）
+152	One ticket bought · Funds unchanged; no settlement-ready red ! yet.	1枚購入済み・資金は変えず、精算可能な赤い ! はまだ表示しません。
+153	None (fictional update demo)	なし（架空の更新デモ）
+154	Official Win source (fictional demo)	公式単勝の参照元（架空デモ）
+155	Schedule saved · Waiting for final racecard and Win odds	日程保存済み・確定出馬表と単勝オッズ待ち
+156	Runners confirmed · Waiting for official Win odds	出走確定・公式単勝オッズ待ち
+157	Latest available data sample · Horses and results are fictional	最新取得データの表示例・馬と結果は架空
+158	Win odds	単勝オッズ
+159	This odds request failed. Keep the last successful value without changing the available result.	今回のオッズ取得に失敗しました。前回の成功値を保持し、取得済み結果は変更しません。
+160	Keep the data visible; the avatar explains update issues	データを表示し、更新の問題はアバターで説明
+161	Fictional examples: shop cards list missing requirements. The avatar explains failures without extra data sections. On recovery the avatar disappears; tables and spacing stay unchanged.	架空の例です。小店のカードに不足条件を表示し、取得失敗はアバターで説明します。データ欄は増やさず、復旧後は表や余白を変えずにアバターを消します。
+162	Shop · Pending-publication cards	小店・発表待ちカードを見る
+163	Details · Result updated, odds failed	詳細・結果更新済み、オッズ取得失敗
+164	Details · All updates successful	詳細・すべて更新成功
+165	{0} · Fictional data-state demo	{0}・架空のデータ状態デモ
+166	None (all data and official confirmation states here are fictional)	なし（この例のデータと公式確認状態はすべて架空）
+167	2025 GⅠ Race Calendar · Density comparison	2025年GⅠカレンダー・密度比較
+168	2025 · Actual schedule density comparison	2025年・実際の日程密度を比較
+169	Return to UI preview ›	UIプレビューへ戻る ›
+170	2025 race calendar home	2025年カレンダーのホーム
+171	Compare collection scopes	収集範囲をくらべる
+172	A year of racing at a glance.	一年のレースを、ひと目で。
+173	Compare collection scopes	収集範囲の比較
+174	2025 schedule version	2025年の日程版
+175	All GⅠ races	全GⅠレース
+176	Global flat GⅠ + Japan JpnⅠ	世界の平地GⅠ＋日本のJpnⅠ
+177	Overseas: Longines Top 100 only	海外はロンジン上位100のみ
+178	Keep all Japan GⅠ / JpnⅠ	日本GⅠ・JpnⅠはすべて保持
+179	B selected for collection. Using	正式な収集範囲はBを選択。参照：
+180	2025 annual ranking ↗	2025年の年間ランキング ↗
+181	, including ties.	。同順位を含みます。
+182	Races this month	今月のレース
+183	Race days this month	今月の開催日数
+184	Busiest day this month	今月の最多レース日
+185	Days with 3+ races folded	3件以上を折りたたむ日
+186	2025 month navigation	2025年の月移動
+187	This comparison uses	今回の比較は
+188	local racecourse dates	競馬場の現地日付
+189	to compare density. Exact start times have not been collected, so no cross-time-zone conversion is applied. Open a race to check its source.	で密度を比較します。正確な発走時刻は未取得のため時差による日付変換は行いません。レースから参照元を確認できます。
+190	Previous month	前の月
+191	Next month	次の月
+192	Region filters	地域フィルター
+193	All regions	全地域
+194	B · Overseas Top 100 only	B・海外は上位100のみ
+195	Loading local data…	ローカルデータを読み込み中…
+196	Tue	火
+197	Wed	水
+198	Thu	木
+199	Fri	金
+200	Sat	土
+201	Sun	日
+202	October 2025 calendar with actual dates	2025年10月の実際の日付カレンダー
+203	Region color legend	地域別の色の凡例
+204	Other regions keep their actual codes	その他の地域も実際の略号を保持
+205	Show 1–2 races; fold from 3 races onward.	1〜2件は表示し、3件以上は折りたたみます。
+206	Data and checks in this comparison	今回の資料と確認範囲
+207	Sources and region counts ⌄	参照元と地域別件数 ⌄
+208	2025 race counts by region; both versions exclude jumps and purebred Arabian races	2025年の地域別件数。両版とも障害競走と純血アラブ競走を除外
+209	Region	地域
+210	A · All	A・すべて
+211	B · Overseas Top 100	B・海外上位100
+212	Overseas races use internationally recognized GⅠ grades; Japan also includes JpnⅠ. The ranking covers ages 3+, so overseas two-year-old GⅠ races are excluded from B. Only collection scope differs; colors and folding rules stay the same.	海外は国際認定GⅠ、日本はJpnⅠも含みます。ランキングは3歳以上が対象のため、海外2歳GⅠはBに含みません。収集範囲のみ異なり、色と折りたたみ規則は共通です。
+213	View compiled data ↗	整理したデータを見る ↗
+214	Return to racecard, horse and cache UI previews ›	出馬表・馬・キャッシュのUIプレビューへ戻る ›
+215	Design notes	デザインについて
+216	Compare within the same month	同じ月で比較
+217	A / B switching keeps the month and region filter, making weekend density comparable.	A・Bを切り替えても月と地域条件を保ち、週末の密度を直接比較できます。
+218	Actual dates used here	今回は実際の日付を使用
+219	No fictional races or racecards from earlier UI previews are mixed in.	以前のUI案の架空レースや出馬表は混在しません。
+220	Forever Young in racing outfit	フォーエバーヤングの勝負服立ち絵
+221	Character artwork: official character page · © Cygames, Inc.	キャラクター画像：公式キャラクターページ・© Cygames, Inc.
+222	Date comparison · Not the finished app	日付比較用・正式アプリではありません
+223	Close race date details	レースの日付詳細を閉じる
+224	Source date data	参照元の日付情報
+225	Racecourse	競馬場
+226	2025 Longines race ranking	2025年ロンジン競走ランキング
+227	For calendar density comparison	カレンダー密度の比較用
+228	Only names, dates, grades and surfaces are compiled here. Racecards, results, odds and purses are not connected yet.	ここではレース名、日付、格付け、馬場のみ整理しています。出馬表、結果、オッズ、賞金は未接続です。
+229	Start times not collected; dates keep the source's local date.	発走時刻は未取得のため、参照元の現地日付を保持します。
+230	Back to calendar	カレンダーへ戻る
+231	United Arab Emirates	アラブ首長国連邦
+232	Saudi Arabia	サウジアラビア
+233	Ireland	アイルランド
+234	Canada	カナダ
+235	New Zealand	ニュージーランド
+236	South Africa	南アフリカ
+237	Argentina	アルゼンチン
+238	Brazil	ブラジル
+239	Chile	チリ
+240	Peru	ペルー
+241	Uruguay	ウルグアイ
+242	Unconfirmed	未確認
+243	Surface: {0}	馬場：{0}
+244	Unranked	ランキング対象外
+245	Rank {0}	{0}位
+246	Date source ↗	日付の参照元 ↗
+247	Official race record ↗	公式レース記録 ↗
+248	2025 Longines race ranking ↗	2025年ロンジン競走ランキング ↗
+249	{0}, {1}, view date and source	{0}、{1}、日付と参照元を見る
+250	Month {0}, A: {1} races, B: {2} races	{0}月、A {1}レース、B {2}レース
+251	Month {0}	{0}月
+252	{0}/{1}, {2} races	{0}月{1}日、{2}レース
+253	Month {0}	{0}月
+254	{0} races	{0}レース
+255	2025-{0} calendar with actual dates, {1}	2025年{0}月の実際の日付カレンダー、{1}
+256	All GⅠ	全GⅠ
+257	B has {0} fewer races than A · {1}% less	BはAより{0}レース少なく、{1}%減
+258	Month {0} races	{0}月のレース
+259	{0} days	{0}日
+260	A · All GⅠ	A・全GⅠ
+261	This month: A {0} / B {1} races	今月：A {0}・B {1}レース
+262	Local schedule could not be loaded. Reload or check the preview server.	ローカルの日程を読み込めませんでした。再読み込みするかプレビューサーバーを確認してください。
+263	Sprinters Stakes	スプリンターズS
+264	Prix de l’Arc de Triomphe	凱旋門賞
+265	Dewhurst Stakes	デューハーストS
+266	Official overseas racing website	海外の公式競馬サイト
+267	Champion Stakes	チャンピオンS
+268	Shuka Sho	秋華賞
+269	Cox Plate	コックスプレート
+270	Kikuka Sho	菊花賞
+271	Victoria Derby	ヴィクトリアダービー
+272	Tenno Sho (Autumn)	天皇賞（秋）
+273	Fictional race for folding interaction only	折りたたみ操作用の架空レース
+274	None (fictional layout sample)	なし（架空の表示サンプル）
+275	Fictional race for Traditional Chinese names and folding only	繁体字名と折りたたみ表示の架空サンプル
+276	Rescheduling layout sample, not a real race	日程変更の表示例・実際のレースではありません
+277	None (fictional change record)	なし（架空の変更記録）
+278	Cancellation layout sample, not a real race	開催中止の表示例・実際のレースではありません
+279	Runner-withdrawal layout sample, not a real race	出走取消の表示例・実際のレースではありません
+280	Fictional demo of first publication and later changes	初回発表と再変更の架空デモ
+281	None (fictional update demo)	なし（架空の更新デモ）
+282	IE / Other	IE その他
+283	Other regions	その他の地域
+284	Neck	クビ
+285	Short head	短アタマ
+286	Nose	ハナ
+287	Monday	月曜日
+288	Tuesday	火曜日
+289	Wednesday	水曜日
+290	Thursday	木曜日
+291	Friday	金曜日
+292	Saturday	土曜日
+293	Sunday	日曜日
+294	{0}×	{0}倍
+295	Frame	枠
+296	Draw	ゲート
+297	Japan sample · Frame colors	日本のサンプル・枠色
+298	Overseas sample · Draw and horse number shown separately	海外のサンプル・ゲートと馬番を区別
+299	Unavailable	未取得
+300	No data	データなし
+301	Sample jockey {0}	騎手 {0}
+302	Sample jockey {0}	騎手 {0}
+303	Sample stable {0}	厩舎 {0}
+304	Sample trainer {0}	調教師 {0}
+305	F3	牝3
+306	F3	牝3
+307	Unconfirmed	未確認
+308		着
+309	Dead heat	同着
+310	Withdrawn	出走取消
+311	Finished races open on Results · Ordered by placing. Open a horse name for its profile.	終了済みレースは結果を表示・着順順です。馬名から資料を開けます。
+312	Compact by default · Open a horse name for form; show Win odds when reliable data is available.	標準は簡潔表示。馬名から戦績を開き、信頼できるデータがある場合は単勝オッズを表示します。
+313	Detailed view · Trainer, recent form and sample odds added to the same runners.	詳細表示・同じ出走馬に調教師、近走成績とサンプルオッズを追加します。
+314	Race cancelled · No result for this race (sample)	開催中止・このレースの結果はありません（サンプル）
+315	Results not published (sample)	結果の発表待ち（サンプル）
+316	Racecard	出馬表
+317	Fictional result table; open horse names for sample profiles	架空の結果表・馬名からサンプル資料を表示
+318	Fictional racecard; open horse names for sample profiles	架空の出馬表・馬名からサンプル資料を表示
+319	Sample results · Scroll horizontally	サンプル結果・横にスクロール可能
+320	Sample racecard · Scroll horizontally	サンプル出馬表・横にスクロール可能
+321	Winner first · Others by horse number, placings unconfirmed	優勝馬を先頭に表示・他は馬番順で着順未確認
+322	Ordered by placing · Fictional margins	着順順・着差は架空
+323	Offline · Showing last successful odds. Last success: 2026-10-20 12:00 (sample); fictional source.	オフライン・前回成功時のオッズを表示。前回成功：2026-10-20 12:00（サンプル）、参照元は架空です。
+324	Offline · No previously saved odds available.	オフライン・前回成功時のオッズは保存されていません。
+325	Fetch failed · Showing last successful odds. Last success: 2026-10-20 12:00 (sample); fictional source.	今回の取得に失敗・前回成功時のオッズを表示。前回成功：2026-10-20 12:00（サンプル）、参照元は架空です。
+326	Fetch failed · No previous odds record available.	今回の取得に失敗・過去のオッズ記録はありません。
+327	Odds source: fictional · Last success: 2026-10-20 12:00 (sample)	オッズ参照元：架空・前回成功：2026-10-20 12:00（サンプル）
+328	No usable odds · Racecard and horse form remain available.	利用可能なオッズなし・出馬表と馬の戦績は閲覧できます。
+329	Last success · Return includes stake	前回成功値・購入額を含む倍率
+330	Includes stake · Sample	購入額を含む倍率・サンプル
+331	Final Win odds	単勝最終オッズ
+332	Fetch failed ·	今回の取得失敗・
+333	· Showing saved odds	・保存済みオッズを表示
+334	· No usable odds	・利用可能なオッズなし
+335	Cached · Return includes stake	キャッシュ・購入額を含む倍率
+336	Odds source: {0} · Retrieved: {1} (sample)	オッズ参照元：{0}・取得日時：{1}（サンプル）
+337	No usable odds	利用可能なオッズなし
+338	{0} race · Fictional horse profile	{0}のレース・架空の馬の資料
+339	Filly · Age 3 (sample)	牝・3歳（サンプル）
+340	Japan (sample)	日本（サンプル）
+341	Australia (sample)	オーストラリア（サンプル）
+342	Ireland (sample)	アイルランド（サンプル）
+343	Sample stable {0} (fictional)	厩舎 {0}（架空）
+344	Sample trainer {0} (fictional)	調教師 {0}（架空）
+345	Sample sire {0} (fictional)	父馬 {0}（架空）
+346	Sample sire {0} (fictional)	父馬 {0}（架空）
+347	Sample dam {0} (fictional)	母馬 {0}（架空）
+348	Sample dam {0} (fictional)	母馬 {0}（架空）
+349	Sample damsire {0} (fictional)	母父 {0}（架空）
+350	Sample damsire {0} (fictional)	母父 {0}（架空）
+351	Real Steel (JPN) · Name layout sample	Real Steel (JPN)・馬名の表示例
+352	Forever Darling · Name layout sample	Forever Darling・馬名の表示例
+353	Final Win odds for this race	本レースの単勝最終オッズ
+354	Win odds for this race	本レースの単勝オッズ
+355	{0} · Last success	{0}・前回成功値
+356	No data	データなし
+357	Fetch failed · Last success: 2026-10-20 12:00 (sample)	取得失敗・前回成功：2026-10-20 12:00（サンプル）
+358	Fetch failed · No previous odds	取得失敗・過去のオッズなし
+359	Fictional source · 10-20 12:00 (sample)	架空の参照元・10-20 12:00（サンプル）
+360	Source and update time appear when reliable data is available	信頼できるデータ取得時に参照元と更新日時を表示
+361	No usable odds for this horse · Never substitute another horse's value	この馬の利用可能なオッズなし・他馬の値で代用しません
+362	{0} · Retrieved: {1} (sample)	{0}・取得日時：{1}（サンプル）
+363	Withdrawn	出走取消済み
+364	Withdrawn from this race · Pending tickets for this horse receive a stake refund (sample)	本レースは出走取消・該当する未精算馬券の購入額を返金します（サンプル）
+365	Back to results	結果に戻る
+366	Back to racecard	出馬表に戻る
+367	Return to this race and results	このレースと結果に戻る
+368	Return to this race and racecard	このレースと出馬表に戻る
+369	16 runners · Sample	16頭・サンプル
+370	Final Win odds · Sample	単勝最終オッズ・サンプル
+371	Odds unavailable	オッズ未取得
+372	{0} · Sample racecourse	{0}・サンプル競馬場
+373	Total base purse	本賞金合計
+374	Total purse	賞金総額
+375	Winner's base purse	1着本賞金
+376	Winner's purse	1着賞金
+377	Base and added money both pending; stored separately (sample)	本賞金と付加賞は未取得で、別々に保存します（サンプル）
+378	Purse data pending (sample)	賞金データは未取得（サンプル）
+379	Offline; new odds could not be checked.	オフラインのため新しいオッズを確認できませんでした。
+380	This odds request failed.	今回のオッズ取得に失敗しました。
+381	Total and winner's purses	賞金総額・1着賞金
+382	Exact start time	正確な発走時刻
+383	Jockeys (horse numbers {0})	騎手（{0}番）
+384	Win odds (horse numbers {0})	単勝オッズ（{0}番）
+385	Other placings and margins	優勝馬以外の着順と着差
+386	No racecard retrieved	取得済みの出馬表なし
+387	8 runners · Only winner's placing confirmed	8頭・優勝馬の着順のみ確認済み
+388	8 runners · Sample	8頭・サンプル
+389	No successful record	成功記録なし
+390	{0} update failed	{0}の更新失敗
+391	{0} data categories failed to update	{0}項目の更新失敗
+392	Some data failed to update this time	一部のデータを今回更新できませんでした
+393	{0}: {1}{2}\nLast success: {3}	{0}：{1}{2}\n前回成功：{3}
+394	Attempted: {0}	今回の試行：{0}
+395	Result successfully updated: {0}. Showing the latest available data for each field.	結果更新成功：{0}。各項目の最新取得データを表示しています。
+396	Keep showing the latest available data.	取得済みの最新データを引き続き表示します。
+397	Still missing: {0}.	未取得の項目：{0}。
+398	Fictional state demo · Retry manually or on the next visit	架空の状態デモ・手動または次回表示時に再確認
+399	Viewing this explanation does not change funds. A failure does not mean withdrawal or cancellation and does not undo an official result already obtained.	説明の確認では資金を処理しません。取得失敗は出走取消や開催中止を意味せず、取得済みの公式結果も取り消しません。
+400	Confirmed runners not published	確定出馬表の発表待ち
+401	Some data pending	一部データは未取得
+402	This update failed	今回の更新失敗
+403	No usable data	利用可能なデータなし
+404	Some result fields pending	結果の一部項目は未取得
+405	Result needs verification	結果を要確認
+406	Some race data not yet obtained	レース情報の一部は未取得
+407	Missing: {0}. Keep saved data; never fill missing fields with guesses.	未取得：{0}。保存済みデータを表示し、不足項目を推測で埋めません。
+408	Sample missing fields · No successful update time for these fields	不足項目のサンプル・これらの項目の成功日時は未取得
+409	Viewing this explanation does not change funds; purchases and settlement still require verified data and date eligibility.	説明の確認では資金を処理しません。購入と精算は引き続き確認済みの情報と日付条件に従います。
+410	Settlement already viewed; reopening data does not pay again.	このレースの精算は確認済みです。資料を再表示しても二重に入金しません。
+411	Racecard could not be retrieved	今回の出馬表を取得できませんでした
+412	Confirmed racecard not published	確定出馬表の発表待ち
+413	Only the winner is officially confirmed. Other placings stay unconfirmed and are listed by horse number, not as a finishing order. Horse profiles remain accessible.	優勝馬のみ公式確認済みです。他の着順は未確認として馬番順で表示し、着順とは扱いません。馬の資料は引き続き開けます。
+414	{0}/{1} ({2})	{0}月{1}日（{2}）
+415	Sample	サンプル
+416	Source date · Sample	参照元の日付・サンプル
+417	{0} ({1}sample)	{0}（{1}サンプル）
+418	Originally scheduled ·	当初予定・
+419	Not published	発表待ち
+420	Exact time not obtained	正確な時刻は未取得
+421	Racecourse {0}/{1} {2} · {3}	競馬場 {0}/{1} {2}・{3}
+422	Added money separately: total {0} · Winner {1}. Excluded from the base purse above; all amounts fictional.	付加賞は別記：合計 {0}・1着 {1}。上の本賞金に含めず、金額はすべて架空です。
+423	Fictional amount · Shown in the race's original currency	架空の金額・レースの元通貨で表示
+424	Cancelled · Sample	開催中止・サンプル
+425	Finished · Sample	終了済み・サンプル
+426	Not finished · Sample	未終了・サンプル
+427	Race rescheduled	日程変更済み
+428	Race cancelled	開催中止
+429	Horse number {0} withdrawn	{0}番が出走取消
+430	Key race information changed	レースの重要情報を変更
+431	Start time	発走時刻
+432	Surface type	馬場種別
+433	Distance	距離
+434	Keep the original scheduled date	元の予定日を保持
+435	Keep this race on the calendar	レースを引き続き表示
+436	Previous changes ({0})	過去の変更（{0}）
+437	Sample updated: {0} · {1}	サンプル更新：{0}・{1}
+438	The bubble moves to the new date without duplicating the old date. Existing tickets remain valid at the locked odds until the rescheduled result.	バブルは新しい日付へ移動し、元の日付に重複表示しません。購入済み馬券は固定オッズのまま有効で、新日程の結果を待ちます。
+439	Cancelled race data stays viewable, but there is no result or new purchase. Pending tickets receive their stakes back and remain as void records.	中止レースの資料は閲覧できますが、結果や新規購入はありません。未精算馬券は購入額を返金し、無効記録として残します。
+440	Refund only pending tickets for the withdrawn horse. Other tickets await the result; withdrawn horses cannot be purchased.	取消馬の未精算馬券のみ返金します。他の馬券は結果待ちで、取消馬は新たに購入できません。
+441	The latest key change appears above; expand older records below. Opening details clears yellow unread alerts while retaining records. A new key change alerts again.	上に最新の重要変更を表示し、過去分は下で展開できます。詳細を開くと黄色の未読マークが消え、記録は残ります。新たな重要変更で再通知します。
+442	Fictional change record · Sample updated {0} · {1}	架空の変更記録・サンプル更新 {0}・{1}
+443	{0}-{1}-{2} {3}	{0}年{1}月{2}日 {3}
+444	A runner has withdrawn	出走取消あり
+445	Key information changed	重要情報を変更
+446	Unread change · {0}	未確認の変更・{0}
+447	Folded races contain unread sample settlements	折りたたみ内に未確認のサンプル精算あり
+448	Folded races contain schedule or runner changes	折りたたみ内に日程・出走変更あり
+449	Reset only the fictional update sample on the 29th; start with first publication.	29日の架空更新サンプルのみリセットします。初回発表から試せます。
+450	The racecard is already published; the first version is not loaded twice.	出馬表は発表済みです。初回分は二重に読み込みません。
+451	Sample jockey Z	騎手 Z
+452	Apply a key change first, then test the duplicate update.	先に重要変更を適用してから、同じ更新を試してください。
+453	Odds / purse update simulated; no new yellow alert. {0}.	オッズ・賞金の更新を受信した例です。新しい黄色の通知は出しません。{0}。
+454	Read alert stays cleared	確認済みマークは消えたまま
+455	Existing unread alert stays	既存の未確認マークは保持
+456	No yellow alert added	黄色の通知は追加しません
+457	Applied {0} key changes. Open 更新ルール確認（架空） on the 29th to review and clear ⚠️, then test duplicate or further changes.	重要変更を{0}件適用しました。29日の「更新ルール確認（架空）」を開いて確認し⚠️を消してから、同じ更新や再変更を試してください。
+458	Data updated, no new key change. {0}.	データを更新しました。新しい重要変更はありません。{0}。
+459	GⅠ Race Calendar · Calendar controls preview	GⅠレースカレンダー・操作プレビュー
+460	UI preview · Sample data	UIプレビュー・サンプルデータ
+461	No character background in this preview · Sample data	今回はキャラクター背景を使用しません・表示用データ
+462	GⅠ Race Calendar · Changes and refunds preview	GⅠレースカレンダー・変更と返金のプレビュー
+463	Checking for new data in the background	バックグラウンドで新しいデータを確認中
+464	Browse the saved calendar while checking	確認中も保存済みカレンダーを閲覧できます
+465	Checking…	確認中…
+466	Calendar ready	カレンダーを表示できます
+467	Sample data updated: 2026-10-20 18:20	サンプルデータ更新：2026-10-20 18:20
+468	Check updates ↻	更新を確認 ↻
+469	Offline · Saved calendar still available	オフライン・保存済みカレンダーを表示
+470	Last available update: 2026-10-20 18:20 (sample)	前回更新：2026-10-20 18:20（サンプル）
+471	Check again ↻	再確認 ↻
+472	Some sources failed · Saved data retained	一部の参照元で取得失敗・保存済みデータを保持
+473	JRA update unavailable · Last update 2026-10-20 18:20 (sample)	JRAの新データは未取得・前回更新2026-10-20 18:20（サンプル）
+474	Retry manually ↻	手動で再試行 ↻
+475	{0} official ranking ↗	{0}年の公式ランキング ↗
+476	Priority group	優先グループ
+477	Other races	その他のレース
+478	Official #{0}	公式 {0}位
+479	Eishin Flash · Left-side half-body background preview	エイシンフラッシュ・左側の上半身背景プレビュー
+480	Selected half-body line art on the left, using the current palette.	選択した上半身線画を左に配置し、現在の配色を使用します。
+481	Agnes Digital A · Cheering with hands together	アグネスデジタルA・両手を合わせて応援
+482	First hands-together version, retained for comparison.	初回の合掌案を比較用に残しています。
+483	Agnes Digital B · Taking notes	アグネスデジタルB・真剣にメモ
+484	First note-taking version, retained for comparison.	初回のメモ案を比較用に残しています。
+485	Agnes Digital · Detective half-body line art	アグネスデジタル・探偵の上半身線画
+486	Reference-based bow detective hat, magnifier and forward-leaning expression in pale-purple transparent line art.	参考画像のリボン付き探偵帽、虫眼鏡、前のめりの表情を淡紫の透明線画にしています。
+487	GⅠ Race Calendar · {0}	GⅠレースカレンダー・{0}
+488	Long-name / missing-data review · Not real runners; dates and performances are fictional	長い名前・不足項目の確認用です。実際の出走馬ではなく、日付と戦績は架空です
+489	Cross-date review · Sample local start 10/30 23:30, not a real start time	日付変更の確認例・現地10/30 23:30は架空の発走時刻です
+490	Long race name / missing data	長いレース名・不足項目
+491	Long horse name and pedigree	長い馬名と血統
+492	Historical race not yet located	過去レースの詳細は未特定
+493	Cross-date · Beijing	日付変更・北京
+494	Cross-date · New York	日付変更・ニューヨーク
+495	{0} · Source date from this horse's record (fictional sample)	{0}・この馬の戦績に記載された日付（架空のサンプル）
+496	Building the local calendar	ローカルカレンダーを作成中
+497	Read published dates first. Until the schedule is obtained, the month's race count is unconfirmed.	まず発表済みの日付を取得します。日程取得までは今月のレース数を確定しません。
+498	Schedule saved · You can browse the calendar	日程を保存済み・カレンダーを閲覧できます
+499	Racecards, results and horse profiles continue collecting in the background; unpublished content stays pending.	出馬表、結果、馬の資料はバックグラウンドで収集し、未発表の情報は発表待ちにします。
+500	Some sources unavailable · Saved schedule remains usable	一部の参照元に未接続・保存済み日程は閲覧可能
+501	Successful data is saved. Failed items wait for a manual check or the next visit.	取得に成功した情報は保存済みです。失敗した項目は手動確認または次回表示時に再確認します。
+502	Offline · Saved data remains available	オフライン・保存済みデータは閲覧可能
+503	No update this time. Check manually after connecting; previous data and its timestamps are kept.	今回は更新していません。接続後に手動確認でき、過去のデータと更新日時は保持します。
+504	Offline · No schedule saved yet	オフライン・日程はまだ保存されていません
+505	Calendar dates remain visible. Missing schedule data does not mean no races. Check manually once connected.	カレンダーの日付は表示します。日程未取得を開催なしとは判断しません。接続後に手動で確認してください。
+506	Published data collected	発表済みデータの収集が完了
+507	Unpublished racecards and results stay pending; obtain them at startup, on entering details or on manual refresh.	未発表の出馬表と結果は発表待ちです。今後は起動時、詳細表示時、手動更新時に補完します。
+508	Data collection paused	データ収集を一時停止
+509	Saved content is retained. Resume to continue from the same progress.	保存済みの内容は保持します。再開すると同じ進捗から続行します。
+510	Demo: manual check succeeded, unfinished collection resumes; no real request was sent.	デモ：手動確認が成功し、未完了の収集を再開しました。実際の通信はしていません。
+511	Demo: still offline; no retry or change to saved data.	デモ：引き続きオフラインです。再試行や保存済みデータの変更はしていません。
+512	Save in batches by source and year, without an unverifiable total percentage. All counts and states here are fictional.	参照元・年ごとに分けて保存し、確認できない総進捗率は表示しません。件数と状態はすべて架空です。
+513	Date bubbles saved · Calendar available	日付バブルを保存済み・カレンダーを閲覧可能
+514	Paused · Read published dates after resuming	一時停止中・再開後に発表済み日程を取得
+515	Wait for connection, then check manually; no dates saved yet	接続後の手動確認待ち・日付データはまだありません
+516	Reading available years; no dates invented for unpublished years	取得可能な年を確認中・未発表の年の日付は捏造しません
+517	Still offline after manual check. {0}	手動確認後もオフラインです。{0}
+518	Published schedule	発表済み日程
+519	Previous two years' racecards and results	直近2年の出馬表と結果
+520	Published content saved	発表済みの情報を保存済み
+521	Saved parts retained; missing content will be checked later	保存済み部分を保持し、不足分は後で取得
+522	Collect in batches; completed parts are available immediately	分割して収集し、取得済み部分は随時閲覧できます
+523	Collect in batches after obtaining the schedule	日程取得後に分割して収集
+524	Current-year details and horse profiles	本年の詳細と馬の資料
+525	Published content saved; remaining content awaits publication	発表済みの情報は保存済み・残りは発表待ち
+526	Sample: 12 race details saved; missing content awaits retrieval	サンプル：12レース分の詳細を保存済み・不足分は取得待ち
+527	Sample: 12 race details saved; collection continues	サンプル：12レース分の詳細を保存済み・残りを収集中
+528	Only published data is collected; prior five starts are retrieved on demand	発表済み情報のみ収集・過去5走は必要時に取得
+529	Schedule not obtained · Monthly race count unconfirmed	日程未取得・今月のレース数は未確認
+530	Pause	一時停止
+531	Buy ticket	馬券を購入
+532	! View result and settle	! 結果を確認して精算
+533	Virtual yen	仮想円
+534	Close shop	小店を閉じる
+535	Welcome♪	いらっしゃいませ♪
+536	Special Week, shop attendant	店員のスペシャルウィーク
+537	Available funds	利用可能な資金
+538	First shop visit grants ¥500,000 · Once only	初回来店時に¥500,000を付与・1回のみ
+539	Bank	銀行
+540	Daily +¥10,000 · Withdraw anytime	毎日＋¥10,000・いつでも引出可能
+541	Shop display settings	小店の表示設定
+542	Purchase entry in race details	レース詳細の購入入口
+543	Hidden by default. Enable to show “Buy ticket” in race details. Shop purchases remain available.	標準では非表示です。有効にするとレース詳細に購入入口を表示します。小店での購入は引き続き可能です。
+544	Off	無効
+545	Races in the next 30 days	今後30日以内のレース
+546	Win only	単勝のみ
+547	Purchases require confirmed runners and official Win odds; race day is closed. All eligibility states below are fictional.	出走確定と公式単勝オッズが購入条件で、レース当日は購入できません。以下の資格状態はすべて架空です。
+548	My tickets	馬券一覧
+549	Buy multiple horses in one race and add tickets for the same horse. Each order locks its own odds. {0}Official withdrawal or cancellation still refunds stakes automatically.	同じレースで複数の馬を購入でき、同じ馬への追加購入も可能です。毎回のオッズを個別に固定します。{0}公式の出走取消・開催中止では自動で購入額を返金します。
+550	Filter ticket status	馬券の状態で絞り込む
+551	Filtering only changes display; pending returns are credited when results are opened.	絞り込みは表示のみ変更します。未確認の返還額は結果を開くと入金します。
+552	Design demo · Settlement and refunds	デザインデモ・精算と返金
+553	These buttons replace fictional records. Results only add a red !; opening it triggers settlement. Refunds still process automatically after a successful update check.	ボタンで架空の記録を置き換えます。結果取得時は赤い ! のみ追加し、開くと精算します。返金は更新確認成功後に自動処理します。
+554	Load winning example	的中例を読み込む
+555	Load dead-heat example	同着優勝例を読み込む
+556	Load losing example	不的中例を読み込む
+557	Load bankruptcy example	破産例を読み込む
+558	Refresh demo: cancellation refund	更新デモ：開催中止の返金
+559	Refresh demo: withdrawal refund	更新デモ：出走取消の返金
+560	Load grouped ticket example	レース別馬券の例を読み込む
+561	Load mixed statuses / two unviewed races	複数状態・2レース未確認の例を読み込む
+562	Reset funds and demo	資金とデモをリセット
+563	Bank balance	銀行残高
+564	Daily +¥10,000 · Cap ¥1,000,000	毎日＋¥10,000・上限¥1,000,000
+565	Bank accumulation begins only after the first shop visit: zero that day, +¥10,000 daily from the next day, including days the calendar is closed. Withdrawals enter available funds.	銀行の加算は初回来店後に開始します。当日はゼロ、翌日から毎日¥10,000で、終了中の日数も加算します。引き出すと利用可能資金に移します。
+566	Withdrawal amount	引出額
+567	Withdraw all	全額を引き出す
+568	Transfer to available funds	利用可能資金へ移す
+569	Design demo · Elapsed days	デザインデモ・経過日数
+570	Compare daily accumulation, cap and withdrawals without waiting for real date changes.	実際の日付変更を待たず、日次加算・上限・引出状態を比較します。
+571	1 day passes	1日経過
+572	7 days pass	7日経過
+573	100 days pass	100日経過
+574	‹ Back to shop	‹ 小店へ戻る
+575	Choose horse	馬を選ぶ
+576	Win odds · Return includes stake	単勝オッズ・購入額を含む倍率
+577	Ticket stake	購入額
+578	This ticket	今回の馬券
+579	WIN · Win only	WIN・単勝
+580	Current spend	今回の支出
+581	Odds locked on confirmation	確認時に固定するオッズ
+582	Return if sole winner	単独優勝時の返還額
+583	Net profit if sole winner	単独優勝時の純利益
+584	Available after purchase	購入後の利用可能資金
+585	Purchase only for races within 30 days with confirmed runners and official Win odds. Recheck and lock odds at confirmation; race day is closed. Divide dead-heat returns by the number of winners and round down to whole yen.	今後30日以内で出走確定と公式単勝オッズがあるレースのみ購入できます。確認時に再判定してオッズを固定し、当日は購入できません。同着時は優勝馬数で返還額を割り、1円未満を切り捨てます。
+586	Confirm purchase	購入を確定
+587	Requested meme image pending	指定の表情画像は確認待ち
+588	Demo: query returns refund / correction	デモ：照会から返金・訂正を受信
+589	ギャンブルはやめよう。	ギャンブルはやめよう。
+590	Close and view race	閉じてレースを見る
+591	DESIGN 62 · Virtual yen only. Races, official-odds eligibility and results are fictional. Reloading resets the page; real data and fund storage are not connected.	DESIGN 62・仮想円のみ使用します。レース、公式オッズの資格、結果は架空です。再読み込みでリセットし、実データと資金保存は未接続です。
+592	Refund preview: voluntary refunds close on race day and the two preceding days; new purchases close on race day.	返金プレビュー：当日と前2日間は自主返金できず、当日は新規購入もできません。
+593	No voluntary cancellation after confirmation.	確定後の自主取消はできません。
+594	Available {0} · {1}	利用可能 {0}・{1}
+595	Check updates to simulate this query returning.	更新を確認して照会結果の受信を再現します。
+596	This update is processed. Settlement and corrections still apply only when viewed; open the race-detail avatar for issues.	今回の更新を処理しました。精算と訂正は確認時に入金し、異常はレース詳細のアバターから確認できます。
+597	Open Special Week's shop · Funds {0}, bank {1}	スペシャルウィークの小店を開く・資金 {0}、銀行 {1}
+598	{0} tickets have confirmed results · Returns not yet credited. Open the race's red ! to view and settle.	{0}枚の結果が確定・返還額は未入金です。レースの赤い ! を開いて確認・精算します。
+599	Some tickets still await results; no early settlement.	結果待ちの馬券があります。先に精算しません。
+600	This race is settled · Viewing again does not pay twice.	このレースは精算済み・再確認しても二重に入金しません。
+601	No tickets yet.	馬券はまだありません。
+602	Close settlement	精算を閉じる
+603	Special Week's shop	スペシャルウィークの小店
+604	Funds reached zero after correction · Wait for other tickets or withdraw from the bank	訂正回収後に資金がゼロ・他の馬券を待つか銀行から引き出せます
+605	Funds committed to tickets · Wait for pending tickets; not bankrupt	資金は馬券に投入済み・未精算馬券を待ち、破産とは判定しません
+606	Racecard not yet confirmed	出馬表は未確定
+607	Official Win odds not obtained	公式単勝オッズは未取得
+608	Runners confirmed · Official odds available (fictional eligibility)	出走確定・公式オッズ取得済み（架空の資格）
+609	Confirmed runners · Official odds	出走確定・公式オッズ
+610	Purchase unavailable	現在は購入できません
+611	Choose horse ›	馬を選ぶ ›
+612	No loaded races in the next 30 days. You can still compare the design examples below.	今後30日以内のレース資料は未読込です。下のデザイン例は引き続き比較できます。
+613	On	有効
+614	All	すべて
+615	Waiting for result	結果待ち
+616	Ready to view settlement	精算の確認待ち
+617	Settled	精算済み
+618	Refunded	返金済み
+619	{0} races · {1}{2} tickets	{0}レース・{1}{2}枚
+620	Waiting {0}	結果待ち {0}
+621	Ready to view {0}	確認待ち {0}
+622	Settled {0}	精算済み {0}
+623	Voluntary refunds {0}	自主返金 {0}
+624	Void {0}	無効 {0}
+625	Insufficient available funds	利用可能資金が不足
+626	{5} tickets	{5}枚
+627	Buy more / add tickets ›	購入を続ける・追加 ›
+628	Individual records · Newest first	個別の記録・新しい購入が先
+629	Total purchased	購入額合計
+630	Purchased in this filter	この条件の購入額
+631	Corrected entitlement	訂正後の返還予定額
+632	Returned	返還済み
+633	Returned in this filter	この条件の返還額
+634	View and settle	確認して精算
+635	View race	レースを見る
+636	New tickets lock the odds shown at their own confirmation	新しい馬券は今回の確認時のオッズを固定
+637	No “{0}” tickets	「{0}」の馬券はありません
+638	Try another status or return to all records.	他の状態を選ぶか、すべての記録に戻れます。
+639	Show all ›	すべて見る ›
+640	Your ticket folder is empty	馬券一覧は空です
+641	Choose an upcoming race above to buy your first ticket.	上から今後のレースを選び、最初の馬券を購入できます。
+642	Awaiting settlement click	精算のクリック待ち
+643	Voluntary refund · Stake returned	自主返金・購入額を返還済み
+644	Void · Refunded	無効・返金済み
+645	Corrected result ·	訂正結果・
+646	Won	的中
+647	Lost	不的中
+648	(entitlement)	（予定額）
+649	No record	記録なし
+650	This column shows corrected entitlements. Original settlement, actual adjustments and waivers are in this race's correction record.	この欄は訂正後の返還予定額です。元の精算、実際の調整、免除額はレースの訂正記録で確認できます。
+651	Voluntary refund · Stake credited to available funds · Neither win nor loss	自主返金・購入額を利用可能資金に返還・勝敗に含めません
+652	{0} · Neither win nor loss	{0}・勝敗に含めません
+653	Race cancelled	開催中止
+654	Selected horse withdrawn	選択した馬が出走取消
+655	Dead-heat win · Total return shared by {0} winners	同着的中・{0}頭の優勝馬で返還総額を分配
+656	Estimated return for a sole winner; divide by the number of winners in a dead heat.	単独優勝時の返還見積です。同着時は優勝馬数で分配します。
+657	Settled independently at this ticket's locked odds.	この馬券の固定オッズで個別に精算済みです。
+658	Request refund	返金を申請
+659	Preview ›	プレビュー ›
+660	Refund the full stake for this ticket?	この馬券の購入額を全額返金しますか？
+661	Only #{0} is affected; other tickets and additions remain. Voluntary refunds close on race day and the two preceding calendar days, and count as neither win nor loss.	#{0}のみを処理し、他の馬券や追加購入は残ります。当日と前2暦日間は自主返金できず、勝敗に含めません。
+662	Stake refund	購入額を返金
+663	Available after refund	返金後の利用可能資金
+664	Keep ticket	馬券を保持
+665	Confirm refund	返金を確定
+666	This order's stake	この購入の金額
+667	Locked odds · Return includes stake	固定オッズ・購入額を含む倍率
+668	View details	詳細を見る
+669	Hide details	詳細を閉じる
+670	Purchased: {13} · {14}	購入日時：{13}・{14}
+671	Odds source: {15}	オッズ参照元：{15}
+672	Odds retrieved: {16} · {17}	オッズ取得日時：{16}・{17}
+673	Additional purchase	追加購入
+674	Estimated return if sole winner	単独優勝時の返還見積
+675	Stake returned	購入額を返還済み
+676	Voluntary refund: {0} · {1}	自主返金日時：{0}・{1}
+677	View this race's correction record ›	このレースの訂正記録を見る ›
+678	Demo results / changes	結果・変更のデモ
+679	Simulate winning result	的中結果の取得を再現
+680	Simulate losing result	不的中結果の取得を再現
+681	Selected horse withdrawn	この馬が出走取消
+682	View {1}{2}	{1}{2}を見る
+683	Refund	返金
+684	Settlement	精算
+685	Voluntary refund preview is not enabled	自主返金プレビューは現在無効です
+686	Ticket not found	この馬券が見つかりません
+687	Stake {0} refunded. Find the record under “Refunded”.	購入額 {0}を返金しました。「返金済み」から記録を確認できます。
+688	Daily reset time zone · {0} (fixed at first shop visit)	換日タイムゾーン・{0}（初回来店時に固定）
+689	Historical demo account · Daily reset time zone unrecorded	過去のデモ口座・換日タイムゾーンの記録なし
+690	No runners currently eligible for purchase	現在購入できる出走馬がいません
+691	Choose your ticket	馬券を選びましょう
+692	No odds	オッズなし
+693	Refund preview: voluntary refunds close on race day and the two preceding calendar days.	返金プレビュー：当日と前2暦日間は自主返金できません。
+694	You already hold {0} tickets on this horse in this race, totaling {1}. This addition is a separate ticket; existing odds stay locked. {2}	このレースの同じ馬を{0}枚、合計{1}購入済みです。今回の追加は別の馬券となり、以前の固定オッズは変わりません。{2}
+695	This purchase creates a separate ticket. {0}Official withdrawal or cancellation still refunds stakes automatically.	今回は独立した馬券として購入します。{0}公式の出走取消・開催中止は引き続き自動返金します。
+696	Odds source: {0}\nRetrieved: {1} · Shared with race details	オッズ参照元：{0}\n取得日時：{1}・レース詳細と共通の資料
+697	{0} · Using previous cached official odds from {1}. Confirmation locks this price.	{0}・{1}取得の保存済み公式オッズを使用します。確定するとこの倍率を固定します。
+698	Currently offline	現在オフライン
+699	This odds fetch failed	今回のオッズ取得失敗
+700	No usable Win odds for this horse	この馬の利用可能な単勝オッズがありません
+701	Purchase unavailable now	現在は購入できません
+702	Confirm using cached odds ›	キャッシュのオッズで購入を確定 ›
+703	Confirm ticket purchase ›	馬券購入を確定 ›
+704	No verifiable official winner yet; keep waiting for results.	確認可能な公式優勝馬がまだないため、結果を待ちます。
+705	Ticket refunded · Stake returned	馬券の返金・購入額を返還済み
+706	Ticket void · Stake returned	馬券は無効・購入額を返還済み
+707	Funds have run out…	資金がなくなりました…
+708	You won this race!	このレースは的中！
+709	Winning ticket · Break-even	的中・収支ゼロ
+710	Winning ticket · Net loss	的中・純損失
+711	No winning ticket this race	このレースは不的中
+712	Special Week · Starry eyes	スペシャルウィーク・星の目
+713	Special Week · Crying	スペシャルウィーク・泣き顔
+714	Special Week · Asking her daughters for money	スペシャルウィーク・娘たちにお金をお願い
+715	Full stake returned · Neither win nor loss	購入額を全額返金・勝敗に含めません
+716	Winning ticket · Break-even	的中・収支ゼロ
+717	Special Week crying image candidate, from an Umayuru screenshot	『うまゆる』関連のスクリーンショットによるスペシャルウィークの泣き顔候補
+718	Original drawing of Special Week cheering with golden stars in her eyes	金色の星の目で喜ぶスペシャルウィークのオリジナル描画
+719	Funds zero after result correction · Other pending tickets retained	結果訂正の回収後に資金ゼロ・他の未精算馬券は保持
+720	All tickets settled	すべての馬券は精算済み
+721	Credited to available funds · Current {0} · Viewing again will not credit twice	利用可能資金へ返還済み・現在 {0}・再確認しても二重入金しません
+722	Current available funds	現在の利用可能資金
+723	Net profit for this race · Available {0}	このレースの純損益・利用可能 {0}
+724	{0} × {1}×{2}	{0} × {1}倍{2}
+725	Dead-heat win · {0} winners · Locked odds unchanged	同着的中・優勝{0}頭・固定オッズに変更なし
+726	Sole-winner return {1} → Actual {2}; share first, then round down.	単独優勝時の返還 {1} → 今回 {2}。分配後に端数を切り捨てます。
+727	No. {0} {1}	{0}番 {1}
+728	Voluntary refund · Neither win nor loss	自主返金・勝敗に含めません
+729	Void · {0}	無効・{0}
+730	Horse withdrawn	出走取消
+731	Stake refunded	購入額を返金
+732	Total return	返還総額
+733	Continue to refund	返金を確認
+734	Back to shop	小店へ戻る
+735	OK, back to calendar	確認してカレンダーへ戻る
+736	A refund has been credited automatically. This notice keeps its opening-time snapshot; close it to continue.	返金を自動で入金しました。この通知は開いた時点の表示を保持し、閉じると次へ進みます。
+737	Two unviewed results loaded; returns are not yet credited. Try the filters, then open the shop to view races from earliest to latest.	2レース分の未確認結果を読み込みました。返還額は未入金です。状態を切り替えた後に小店を開くと、開催時刻の早い順に表示します。
+738	Official correction (fictional)	公式訂正（架空）
+739	Official correction returned by this query (fictional)	今回の照会から受信した公式訂正（架空）
+740	This request failed; keep available data (fictional)	今回の取得失敗・取得済み資料を保持（架空）
+741	Official quote confirmed at purchase (fictional)	購入時に確認した公式オッズ（架空）
+742	Simulated {0} elapsed days; bank capped at ¥1,000,000.	{0}日間の加算を再現しました。銀行の上限は¥1,000,000です。
+743	Transferred {0} to available funds.	{0}を利用可能資金へ移しました。
+744	Ticket saved; this purchase's odds are locked.	馬券を保存し、今回のオッズを固定しました。
+745	Refund credited automatically; its notice follows the corrections.	返金を自動で入金しました。訂正通知の終了後に返金通知を表示します。
+746	Result correction unread; open to process the difference	結果訂正は未確認・開くと差額を処理
+747	Result unread; open to view and settle	結果は未確認・開いて確認と精算
+748	{0}, result awaits viewing or settlement	{0}、結果の確認・精算待ち
+749	Within 30 days · Runners confirmed · Official Win odds (demo) · Available {0}	今後30日以内・出走確定・公式単勝（デモ）・利用可能 {0}
+750	This race is not eligible now. Check races in the next 30 days.	このレースは現在購入対象外です。今後30日以内のレースを確認してください。
+751	Invalid number of elapsed days	経過日数が無効です
+752	Enter a whole-yen amount within the bank balance	銀行残高以内の整数額を入力してください
+753	Race finished	レースは終了済みです
+754	Start time not published	発走時刻は発表待ちです
+755	Purchases closed on race day and past dates	当日と過去の日付は購入できません
+756	Only races in the next 30 days can be purchased	今後30日以内のレースのみ購入できます
+757	Runners not confirmed	出馬表は未確定です
+758	No usable odds	利用可能なオッズがありません
+759	Invalid dead-heat winner count	同着優勝馬の数が無効です
+760	Race cancelled; ticket purchases closed	開催中止のため購入できません
+761	Selected horse withdrawn; choose another horse	選択した馬は出走取消です。他の馬を選んでください
+762	Enter a whole-yen amount within available funds	利用可能資金以内の整数額を入力してください
+763	Invalid winning horse number	優勝馬番が無効です
+764	Invalid refund reason	返金理由が無効です
+765	Invalid withdrawn horse number	取消馬番が無効です
+766	Fictional racecard · Refund demo	架空の出馬表・返金デモ
+767	Fictional racecard · Settlement demo	架空の出馬表・精算デモ
+768	GⅠ Race Calendar · Special Week's shop	GⅠレースカレンダー・スペシャルウィークの小店
+769	Calendar backgrounds and settlement flow	カレンダー背景と精算の流れ
+770	Sample schedule · Real race data not connected	サンプル日程・実際のレース情報は未接続
+771	GⅠ Race Calendar home	GⅠレースカレンダーのホーム
+772	UI design · Round 28	UIデザイン・第28案
+773	Result correction design preview	結果訂正のデザインプレビュー
+774	Corrections after settlement	精算後の結果訂正
+775	Compare correction scenarios	訂正の場面を比較
+776	All examples are fictional; switching scenarios replaces sample records. Real data connections and storage are not implemented.	すべて架空の例です。場面を切り替えるとサンプル記録を置き換えます。実データ接続と保存は未実装です。
+777	One update, several messages	1回の更新で複数の通知
+778	Uses existing refund, settlement and correction notices. Refunds auto-credit; other results and corrections wait for red ! or shop entry. The avatar explains issues. These independent fictional scenarios reset in-memory records when switched.	既存の返金・精算・訂正通知を使います。返金は自動入金し、他の結果や訂正は赤い ! または来店まで待機します。問題はアバターで説明します。架空の各場面は切替時にメモリ内の記録をリセットします。
+779	Same refresh	同じ更新で受信
+780	Updates during settlement	精算表示中に更新を受信
+781	Updates during correction	訂正表示中に更新を受信
+782	Refund after reaching zero	ゼロになった後に返金
+783	While viewing: current notice → new corrections → refund notice → bankruptcy check using latest balance. Other races keep their red !.	確認中：現在の通知→新訂正→返金通知→最新残高で破産判定。他のレースの赤い ! は残ります。
+784	Long names, missing data and historical matching	長い名前・不足項目・過去レースの特定
+785	Original detail layout retained. Names come from saved sources for typography only; runner relationships, dates and form are fictional. Compare Beijing and New York dates; ordinary entry follows the computer time zone.	既存の詳細配置を保ちます。保存資料の名前を表示確認に使いますが、出走関係・日付・戦績は架空です。北京とニューヨークを比較でき、通常の入口はPCのタイムゾーンに従います。
+786	Compare detail scenarios	詳細の場面を比較
+787	Incomplete-data design preview	データ不足時のデザインプレビュー
+788	See the current state even with missing data	データ不足時も現在の状態を確認
+789	Compare seven fictional states. Only the round avatar opens the centered issue dialog; its speech bubble is informational and does not move funds. The official-winner sample still requires a settlement click. Switching scenarios resets sample records.	架空の7状態を比較できます。丸いアバターだけが中央の異常説明を開き、吹き出しは案内のみで資金を動かしません。公式優勝馬の例も精算のクリックが必要です。場面の切替でサンプル記録をリセットします。
+790	Compare data states	データの状態を比較
+791	Main calendar · Everyday controls	主カレンダー・日常操作
+792	Month jump / Region filters / Update status ›	年月移動・地域条件・更新状態 ›
+793	Design review entry points	デザイン確認の入口
+794	New in this round · Design review	今回の追加・デザイン確認
+795	Settle only after opening the bubble	バブルを開いてから精算
+796	Receiving a result only adds a red !. Viewing triggers settlement; repeat views never pay again.	結果取得時は赤い ! のみ追加します。確認時に精算し、再確認しても重複入金しません。
+797	① Load unviewed settlement sample ›	① 未確認精算の例を読み込む ›
+798	② Refresh cancellation refund ›	② 更新で開催中止の返金 ›
+799	③ Refresh withdrawal refund ›	③ 更新で出走取消の返金 ›
+800	Second half-body line drawing placed on the left with the current palette.	2枚目の上半身線画を左に置き、現在の配色を使います。
+801	View original background ›	元の背景を見る ›
+802	Character background options	キャラクター背景の案
+803	Eishin Flash	エイシンフラッシュ
+804	Agnes Digital · Detective	アグネスデジタル・探偵
+805	Original option A	元の案A
+806	Original option B	元の案B
+807	Month heading	月の見出し
+808	Autumn GⅠ season	秋のGⅠシーズン
+809	On to the next race.	次のレースへ。
+810	Results after the race, racecard before it	レース後は結果、前は出馬表を表示
+811	Bubbles and details show 芝 / ダート; the 17th includes a fictional dirt race	バブルと詳細に芝・ダートを表示。17日は架空のダート例を含みます
+812	View results and racecards	結果と出馬表を見る
+813	Actual 2025 schedule · Option B selected	2025年の実日程・Bを選択済み
+814	All Japan / Overseas Top 100 · Compare with A ›	日本はすべて・海外は上位100のみ・Aとも比較可能 ›
+815	Cache and first load · 2026 example	キャッシュと初回取得・2026年の例
+816	View rules ⌄	規則を見る ⌄
+817	All Japan GⅠ / JpnⅠ · Overseas annual Longines Top 100 only	日本GⅠ・JpnⅠはすべて・海外は年間ロンジン上位100のみ
+818	Data updated 2026-10-20 (display sample)	データ更新2026-10-20（表示サンプル）
+819	Initial collection scope example	初回収集範囲の例
+820	Year	年
+821	Initial collection scope	初回の収集範囲
+822	Date bubbles for completed GⅠ / JpnⅠ races	終了済みGⅠ・JpnⅠの日付バブル
+823	GⅠ / JpnⅠ schedule, confirmed racecards and finishing positions	GⅠ・JpnⅠの日程、出馬表、着順
+824	GⅠ / JpnⅠ race details, runners and related horse profiles	GⅠ・JpnⅠの詳細、出走馬と関連する馬の資料
+825	Officially published GⅠ / JpnⅠ date bubbles	公式発表済みGⅠ・JpnⅠの日付バブル
+826	Scope moves each year; retrieved data stays until manually cleared. Check only at startup, on entering details or on manual refresh.	収集範囲は毎年移動し、取得済み情報は手動で削除するまで残ります。確認は起動時・詳細表示時・手動更新時のみです。
+827	Collection rules only; no download or cleanup. Prior-five form can retrieve other grades on demand.	収集規則の表示のみで、実際の取得や削除は行いません。過去5走は他の格付けも必要時に取得できます。
+828	Confirmed · Nine region colors	確定済み・9地域の色
+829	View palette ⌄	配色を見る ⌄
+830	Nine region colors	9地域の配色
+831	A selected · Colored bubbles	Aを選択済み・バブルの色分け
+832	Keep option A; add separate fills and borders for DE and AU.	A案を維持し、DEとAUに個別の背景色と枠色を追加します。
+833	Nine undated region color samples	日付なしの9地域配色サンプル
+834	These are undated color samples; the calendar uses the same palette. UAE and KSA share the Arab-country color; other regions keep their actual codes and share the Other color.	上は日付なしの配色例で、下のカレンダーも同じ色です。UAE・KSAはアラブ諸国の色を共有し、その他は実際の略号を保持して「その他」の色を共有します。
+835	Same-day importance order and computer time zone	同日の重要度順とPCのタイムゾーン
+836	Rules and preview ⌄	規則とプレビュー ⌄
+837	Design time-zone preview	デザインのタイムゾーン確認
+838	Follow computer	PCに合わせる
+839	Beijing time	北京時間
+840	Tokyo time	東京時間
+841	Calendar dates follow the computer time zone; details also show venue time. Date-only data keeps the source date until an exact time is known. All times are fictional samples.	カレンダーはPCのタイムゾーンで分類し、詳細に競馬場時刻も表示します。時刻不明の日付は参照元の日付を保持します。時刻はすべて架空の例です。
+842	Priority group → Official rank → Start time	優先グループ→公式順位→発走時刻
+843	BCC, Arc, Japan's classic and fillies' Triple Crowns, Takarazuka and Arima form the priority group, ranked internally by the latest official list. Unranked races follow ranked races in their group; ties use start time, or name if time is unknown.	BCC、凱旋門、日本のクラシック・牝馬三冠、宝塚、有馬を優先し、グループ内も最新の公式順位順です。圏外は同組のランク入りの後とし、同順位は発走時刻、不明なら名前で並べます。
+844	Hypothetical same-day sorting, not a real schedule. Japan's unranked races remain; overseas collection is limited to the annual Top 100.	同日開催と仮定した並び順の例で、実日程ではありません。日本の圏外レースは保持し、海外は年間上位100のみ収集します。
+845	Initial collection · Web preview	初回収集・ウェブプレビュー
+846	Fictional states reset on reload; no network or real storage.	架空の状態で再読み込みするとリセットします。通信や実データ保存は行いません。
+847	View state	状態を見る
+848	First schedule read	初めて日程を取得
+849	Schedule saved, collecting details	日程保存済み・詳細を収集中
+850	Offline, schedule saved	オフライン・日程保存済み
+851	Offline, no data yet	オフライン・データなし
+852	Published data collected	発表済みデータの収集完了
+853	Initial data collection	初回のデータ収集
+854	Collection progress	収集の進捗
+855	Check manually	手動で確認
+856	Local calendar displayed	ローカルカレンダーを表示済み
+857	Check updates	更新を確認
+858	Race change demo	レース変更のデモ
+859	Race changes · Fictional samples	レースの変更・架空の例
+860	Opening details clears only unread ⚠️, keeping the explanation. Refund acknowledgement does not mark race changes read.	詳細を開くと未確認の⚠️のみを消し、説明は保持します。返金の確認ではレース変更を既読にしません。
+861	View rescheduled race	日程変更の詳細を見る
+862	View withdrawal details	出走取消の詳細を見る
+863	Click-to-settle demo	クリックで精算するデモ
+864	Click to settle · Observe fictional records	クリックで精算・架空の記録を確認
+865	Key change rules demo	重要変更の規則デモ
+866	Key change rules · Fictional race on the 29th	重要変更の規則・29日の架空レース
+867	First publication has no ⚠️. After viewing, duplicate updates do not alert again; a new key change does. Buttons affect this page's sample only.	初回発表には⚠️を付けません。確認後に同じ更新では再通知せず、新たな重要変更では通知します。ボタンはこのページの例のみを操作します。
+868	① First racecard publication	① 出馬表の初回発表
+869	② Apply key changes	② 重要変更を適用
+870	③ Repeat the same update	③ 同じ更新を再受信
+871	④ Change time again	④ 時刻を再変更
+872	Odds / purse update only	オッズ・賞金のみ更新
+873	Reset this sample	このサンプルをリセット
+874	Start with first publication; open the race on the 29th for change details.	初回発表から試せます。29日のレースを開くと変更説明を表示します。
+875	Previous month (single-month sample)	前の月（1か月分のサンプル）
+876	Next month (single-month sample)	次の月（1か月分のサンプル）
+877	Sample race filters	サンプルのレース条件
+878	Open a race to preview its details	レースを開いて詳細を確認
+879	October 2026 sample calendar	2026年10月のサンプルカレンダー
+880	Surface legend	馬場の凡例
+881	Calendar status demo	カレンダー状態のデモ
+882	Compact race cards	コンパクトなレースカード
+883	Show 1–2 races directly; from 3 onward, show the first and fold the rest.	1〜2件は直接表示し、3件以上では先頭のみ表示して残りを折りたたみます。
+884	Names keep their original language rules	名前の言語は元の規則を保持
+885	Japan: Japanese · Hong Kong: Traditional Chinese · Other countries: English	日本は日本語・香港は繁体字・その他の国は英語
+886	‹ Back to settings	‹ 設定へ戻る
+887	Settings / Cache management	設定・キャッシュ管理
+888	Retrieved data stays until you clear it.	取得済みデータは手動で削除するまで残ります。
+889	Interaction design sample	操作デザインの例
+890	Sizes, times and progress are samples. Cleanup affects only this page; no local cache files are read or deleted.	容量・時刻・進捗はサンプルです。削除はこのページの例のみ変更し、端末のキャッシュファイルは読み書きしません。
+891	Preview collection complete	収集完了を確認
+892	Offline · Sample state	オフライン・サンプル状態
+893	Saved data remains viewable; connection is needed to fill missing data or check updates.	保存済みデータは閲覧できます。不足分の取得や更新確認には接続が必要です。
+894	Local storage · Sample	ローカル容量・サンプル
+895	6 years · Date bubbles retained	6年分・日付バブルは保持
+896	Latest data update · Sample	データの最終更新・サンプル
+897	Retention rules	保存規則
+898	Manual cleanup only	手動削除のみ
+899	No automatic deletion of previously retrieved years	取得済みの年は自動で削除しません
+900	Current-year collection	本年データの収集
+901	Date bubbles	日付バブル
+902	2023–2028 published schedule	2023〜2028年の発表済み日程
+903	Historical runners and results	過去の出走馬と結果
+904	Current-year details	本年の詳細
+905	2026 races, runners and horses	2026年のレース・出走馬・馬の資料
+906	Current-year sample collection progress	本年の収集進捗サンプル
+907	Manage by year	年別に管理
+908	Flat GⅠ / Japan JpnⅠ	平地GⅠ・日本JpnⅠ
+909	Cleanup removes only that year's details, keeping its date bubbles and all other years.	削除はその年の詳細のみで、日付バブルと他の年は保持します。
+910	Saved content	保存内容
+911	Data update time · Sample	データ更新日時・サンプル
+912	Size	容量
+913	Actions	操作
+914	Manage sample cache by year	年別のサンプルキャッシュ管理
+915	Preview single-race retrieval	1レースの追加取得を確認
+916	Close action notice	操作の通知を閉じる
+917	Collection and update rules	収集と更新の規則を見る
+918	All Japan flat GⅠ / JpnⅠ; overseas annual Longines Top 100 only.	日本の平地GⅠ・JpnⅠはすべて、海外は年間ロンジン上位100のみです。
+919	Show local data first, then collect in the background: current-year details, previous two years' racecards and results, and published date bubbles for the third prior year and next two years.	まずローカル資料を表示し、バックグラウンドで本年の詳細、直近2年の出馬表と結果、その前の1年と今後2年の発表済み日付バブルを収集します。
+920	Check only at startup, on opening details or on manual refresh.	確認は起動時・詳細表示時・手動更新時のみです。
+921	Startup checks run in the background, with no periodic polling while open. Initial collection can keep running in the background.	起動時の確認はバックグラウンドで行い、起動中の定時ポーリングはしません。初回収集はバックグラウンドで続行できます。
+922	Collection scope moves with each year.	収集範囲は毎年移動します。
+923	In 2027: date bubbles cover 2024–2029, racecards and results cover 2025–2026, and full details cover 2027. Previously saved older years and details stay.	2027年なら日付バブルは2024〜2029年、出馬表と結果は2025〜2026年、詳細は2027年です。保存済みの旧年と詳細は残ります。
+924	Retrieved information is never deleted automatically.	取得済み情報は自動で削除しません。
+925	After cleanup, do not download the entire year again immediately. Retrieve an opened race on demand, or use the selected year's download button.	削除直後に年全体を再取得しません。開いたレースを必要時に取得するか、対象年の再取得ボタンを使用します。
+926	If fetching new data fails, retain old data and show the failure.	新しい情報の取得に失敗したら、旧データを保持して失敗を表示します。
+927	Retry on manual refresh or the next visit; no automatic retries.	手動更新または次回表示時に再試行し、自動再試行はしません。
+928	Refresh odds whenever entering race details.	レース詳細に入るたびオッズを更新します。
+929	On failure, show the failure, last successful time and last successful odds. With no history, show no data.	取得失敗時は失敗・前回成功日時・前回のオッズを表示します。履歴がなければデータなしと表示します。
+930	Unpublished schedules and racecards stay pending. Offline data keeps update times; old odds show their retrieval time.	未発表の日程と出馬表は発表待ちです。オフラインでも更新日時を保持し、過去のオッズに取得時刻を表示します。
+931	Horse form can include other grades; all operations here are demos.	馬の戦績は他の格付けも含められます。ここでの操作はすべてデモです。
+932	Reset design sample	デザインのサンプルをリセット
+933	Preview Eishin Flash line-art background ›	エイシンフラッシュの線画背景を見る ›
+934	UI design discussion only.	今回はUIデザインの確認のみです。
+935	Close details	詳細を閉じる
+936	Sample data	サンプルデータ
+937	Latest change	最新の変更
+938	Display date	表示日付
+939	Surface / Distance	馬場・距離
+940	Race information	レース情報
+941	Racecard layout	出馬表の表示形式
+942	Compact	簡潔
+943	Detailed	詳細
+944	Result placing color legend	着順の色の凡例
+945	1st · Winner	1着・優勝
+946	2nd–5th · Placed	2〜5着・入着
+947	6th onward · Other	6着以降・その他
+948	Saved odds available (sample)	過去のオッズあり（サンプル）
+949	Preview refresh failure	更新失敗を確認
+950	All data fictional · Real fetching still needs verification	すべて架空のデータ・実際の取得能力は検証が必要
+951	View data issue details	データ異常の詳細を見る
+952	T.M. Opera O · Surprised	テイエムオペラオー・驚き顔
+953	Date bubbles and saved data remain; official data will fill the missing parts here.	日付バブルと保存済み情報を保持し、公式情報を取得したらここに補完します。
+954	Place	着順
+955	No.	馬番
+956	Horse	馬名
+957	Open profile	資料を見る
+958	Sex / Age	性齢
+959	Weight	斤量
+960	Jockey	騎手
+961	Trainer	調教師
+962	Last three	直近3走
+963	New → Old	新→旧
+964	Fictional sample	架空のサンプル
+965	Winner shows —; missing data shows unavailable	優勝馬は—、不足項目は未取得と表示
+966	Scroll horizontally for more →	横にスクロールして続きを表示 →
+967	Odds use decimal returns including stake. Horses, jockeys, placings, margins and odds are fictional layout data, not actual race information.	オッズは購入額を含む小数倍率です。馬・騎手・着順・着差・オッズは架空の表示データで、実際のレース情報ではありません。
+968	Source links reserved	参照元リンクの予定欄
+969	Current race data is a fictional layout sample	現在のレース情報は架空の表示サンプルです
+970	‹ Back to racecard	‹ 出馬表へ戻る
+971	Fictional horse	架空の馬
+972	Horse basics and pedigree	馬の基本情報と血統
+973	Bred in	産地
+974	Sire	父
+975	Dam	母
+976	Damsire	母父
+977	Source: fictional form sample	参照元：架空の戦績例
+978	Updated 2026-10-20 12:00 (sample)	更新2026-10-20 12:00（サンプル）
+979	This race	今回のレース
+980	Win odds use decimal returns including stake. Refresh on each detail visit; retain last successful data on failure. Historical races show final odds.	単勝オッズは購入額を含む小数倍率です。詳細表示のたびに更新し、失敗時は前回成功値を保持します。過去レースは最終オッズを表示します。
+981	Previous five starts	過去5走
+982	Latest → Earlier	新しい順→過去
+983	Placing color legend	着順の色の凡例
+984	Horse names, form, odds and times are fictional. The finished app will show sources and data coverage.	馬名・戦績・オッズ・更新日時は架空です。正式版では参照元とデータの取得範囲を表示します。
+985	‹ Back to horse profile	‹ 馬の資料へ戻る
+986	Historical race sample	過去レースのサンプル
+987	PAST RACE · This horse's performance	PAST RACE・この馬の出走記録
+988	Full race details not yet located	レースの完全な詳細は未特定
+989	This horse's performance record is saved, but its race-detail link is unverified. Show only the known horse performance; never substitute another race's runners, results or purse.	この馬の出走記録は保存済みですが、対応する詳細リンクは未確認です。既知の本馬の成績のみ表示し、現在のレースや同名の別レースの出馬表・結果・賞金を流用しません。
+990	Return to the horse profile and browse other records. Retry on a later visit or manual refresh.	馬の資料に戻って閲覧を続けられます。次回の表示時または手動更新時に再照会します。
+991	Source date	参照元の日付
+992	Runners	出走頭数
+993	16 runners (sample)	16頭（サンプル）
+994	This horse's performance	本馬の成績
+995	Horse	出走馬
+996	Return to horse profile ›	馬の資料に戻る ›
+997	55.0 kg (sample)	55.0 kg（サンプル）
+998	Record status	記録の状態
+999	Odds are decimal returns including stake. This horse's record uses fictional race, result and odds data; a full racecard and result are not connected.	オッズは購入額を含む小数倍率です。この馬の出走記録にあるレース・結果・オッズは架空で、完全な出馬表と結果は未接続です。
+1000	Back to horse profile	馬の資料へ戻る
+1001	Close issue details	異常の詳細を閉じる
+1002	Data issue explanation	データ異常の説明
+1003	Back to race details	レース詳細に戻る
+1004	Close cleanup confirmation	削除確認を閉じる
+1005	Clear by year	年別に削除
+1006	Clear	削除
+1007	Keep	保持
+1008	This year's date bubbles and other years' data	この年の日付バブル・他の年のデータ
+1009	Cleanup will not trigger an immediate full-year download. Retrieve a race when opened, or manually download a selected year again.	削除直後に年全体を再取得しません。表示時にレース単位で取得するか、指定年を手動で再取得できます。
+1010	Design demo only; changes sample sizes and states on this page.	デザインデモのみで、このページのサンプル容量と状態を変更します。
+1011	Cancel	キャンセル
+1012	Clear detailed data	詳細データを削除
+1013	Close month picker	年月選択を閉じる
+1014	Which month would you like to see?	表示する月を選択
+1015	Previous year	前年
+1016	Year	年
+1017	Next year	翌年
+1018	Choose month	月を選択
+1019	Choosing a month jumps immediately; you can also enter a year.	月を選ぶとすぐ移動します。年を入力することもできます。
+1020	Cancel region filters	地域選択をキャンセル
+1021	None (fictional notification demo)	なし（架空の通知デモ）
+1022	Notification review · Races, horses and amounts are fictional	通知の確認用・レース、馬と金額は架空
+1023	Official Win odds (fictional)	公式単勝（架空）
+1024	Race cancellation state	開催中止の状態
+1025	None	なし
+1026	Withdrawn horse number	取消馬番
+1027	Confirmed racecard	確定出馬表
+1028	Incomplete correction data	訂正情報が不完全です
+1029	Correction version is not newer	訂正の版が新しい記録ではありません
+1030	Official winning horse number	公式優勝馬番
+1031	GⅠ Race Calendar · Two settings options	GⅠレースカレンダー・設定の2案
+1032	Settings design comparison	設定デザインの比較
+1033	DESIGN 44 · Independent palette proposals	DESIGN 44・独立した配色案
+1034	A · Grass green and cream gold	A・芝の緑とクリームゴールド
+1035	Compare palettes	配色を比較
+1036	A · Grass green / Cream gold	A・芝の緑とクリームゴールド
+1037	B · Sky blue / Coral	B・空色とコーラル
+1038	View existing settings ↗	現在の設定を見る ↗
+1039	ZH	中
+1040	Grass green for controls, cream white for content and gold accents; keep the left categories.	操作は芝の緑、内容はクリーム白、強調は金色にし、左の分類を保持します。
+1041	B · Sky blue and coral	B・空色とコーラル
+1042	Sky blue for controls, coral for headings and notices; categories move to top tabs.	操作は空色、見出しと通知はコーラルにし、分類を上部タブへ移します。
+1043	GⅠ Race Calendar · Settings design	GⅠレースカレンダー・設定デザイン
+1044	Running	起動中
+1045	Exited	終了済み
+1046	1 · Existing main window	1・既存の主ウィンドウ
+1047	0 · No open window	0・未表示
+1048	{0} times	{0}回
+1049	Window closed; app still running	ウィンドウは閉じ、アプリは起動中
+1050	App fully exited	アプリは完全終了
+1051	Already-started collection can continue. Click Dock to bring back the same main window.	開始済みの収集は続行できます。Dockから同じ主ウィンドウを再表示します。
+1052	Progress saved. Restart automatically resumes unfinished collection.	進捗を保存済みです。再起動すると未完了の収集を自動で再開します。
+1053	{0} / {1}	{0}年{1}月
+1054	JP · Japan	JP・日本
+1055	Computer time zone · {0}	PCのタイムゾーン・{0}
+1056	Collecting	収集中
+1057	Saved · Resume next startup	保存済み・次回起動時に再開
+1058	Manually paused · Do not auto-resume	手動で一時停止・自動再開しない
+1059	Details cleared · Do not auto-download again	詳細を削除済み・自動で再取得しない
+1060	Complete	完了
+1061	{4} collection progress	{4}年の収集進捗
+1062	Date bubbles retained	日付バブルを保持
+1063	{0}% saved	{0}%保存済み
+1064	GⅠ Calendar · Startup and window preview	GⅠカレンダー・起動とウィンドウのプレビュー
+1065	Back to everyday racing.	レースのある日常へ。
+1066	One main window, continuing from saved progress.	主ウィンドウは1つ、保存済みの進捗から続けます。
+1067	‹ Back to calendar / correction preview	‹ カレンダー・訂正プレビューへ戻る
+1068	Web flow demo: buttons change only this sample; they do not close the browser, exit a real app or read cache.	ウェブの操作デモです。ボタンはこのページの例のみ変更し、ブラウザーや実アプリの終了、キャッシュ読取はしません。
+1069	Simulated window and collection controls	ウィンドウと収集の模擬操作
+1070	Click Dock / Launch again	Dockをクリック・再起動
+1071	Simulate full exit with ⌘Q	⌘Qで完全終了を再現
+1072	Simulate saving more progress	進捗の追加保存を再現
+1073	Simulate browsing another month	別の月を閲覧する例
+1074	App state	アプリの状態
+1075	App	アプリ
+1076	Main window	主ウィンドウ
+1077	Startup check count · Sample	起動時の確認回数・サンプル
+1078	Simulated main window	模擬主ウィンドウ
+1079	Simulate Mac red close button	Macの赤い閉じるボタンを再現
+1080	Single main window	主ウィンドウは1つ
+1081	Show saved data first. Reopening or restarting returns to the computer's current month; focusing an already-open window keeps the current view.	まず保存済みカレンダーを表示します。再表示・再起動はPCの現在月へ戻り、開いているウィンドウを呼び出すだけなら現在の閲覧位置を保持します。
+1082	Open calendar from Dock ›	Dockからカレンダーを開く ›
+1083	Saved collection progress	保存済みの収集進捗
+1084	Fetch unfinished parts only	未完了部分のみ追加取得
+1085	Pause current-year collection	本年の収集を一時停止
+1086	Resume current-year collection	本年の収集を再開
+1087	Reset this page's sample	このページの例をリセット
+1088	Manually cleared years keep date bubbles. Retrieve on demand or by year; this preview does not auto-download.	手動削除した年の日付バブルは保持します。必要時または年単位で再取得でき、この例は自動取得しません。
+1089	Confirmed rules for this preview	今回の確認済み規則を見る
+1090	The red close button closes only the window; Quit / ⌘Q ends the process. Repeated launches reuse the same main window.	赤い閉じるボタンはウィンドウのみ閉じ、終了・⌘Qでプロセスを止めます。繰り返し起動しても同じ主ウィンドウを使います。
+1091	After full exit, restart shows local data, checks updates in the background and resumes unfinished collection. Manually paused tasks stay paused; cleared years are not downloaded in full.	完全終了後の起動はローカル資料を表示し、裏で更新確認して未完了の収集を再開します。手動停止は停止のまま、削除済みの年を丸ごと再取得しません。
+1092	Reopening rereads system date and time zone without adding periodic network queries. Bank, tickets and first-shop state will be saved separately in the app; restarting never grants funds twice.	再表示時にシステム日付とタイムゾーンを再確認し、定時通信は追加しません。正式アプリでは銀行・馬券・初回来店状態を別途保存し、再起動で二重付与しません。
+1093	Local calendar shown; startup checks run in the background while current-year data is collected.	ローカルカレンダーを表示し、起動時の確認と本年資料の収集をバックグラウンドで行っています。
+1094	Window closed, app running; started collection can continue.	ウィンドウは閉じていますがアプリは起動中で、開始済みの収集を続行できます。
+1095	App fully exited; completed progress, manual pauses and cleared-year states saved.	アプリを完全終了し、完了済み進捗・手動停止・削除状態を保存しました。
+1096	Existing main window focused; month and filters retained, with no new window or repeated startup check.	既存の主ウィンドウを呼び出しました。月と条件を保持し、新規ウィンドウや重複した起動確認はありません。
+1097	Show local data, check updates in the background and resume unfinished collection; manually paused or cleared years are not restarted in full.	ローカル資料を表示して裏で更新確認し、未完了の収集を再開します。手動停止・削除済みの年を丸ごと再開しません。
+1098	Main window reopened at the computer's current month and all regions; no extra startup query.	主ウィンドウをPCの現在月・全地域で再表示しました。起動時の照会は追加しません。
+1099	App exited; collection cannot continue until restart restores saved progress.	アプリは終了しており収集は続行しません。再起動後に保存済み進捗から再開します。
+1100	More progress saved in the demo; manually paused and cleared years stay unchanged.	追加の進捗を保存した例です。手動停止・削除済みの年は変えません。
+1101	Current-year collection manually paused; stays paused after exit or reopen.	本年の収集を手動で停止しました。終了・再表示後も停止を保持します。
+1102	Current-year collection resumed from saved progress.	本年の収集を保存済み進捗から再開しました。
+1103	Demo: previous month with JP selected. Compare focusing via Dock, reopening after close and restarting after full exit.	前月をJPのみで閲覧する例です。Dockでの呼出し、閉じた後の再表示、完全終了後の再起動を比較できます。
+1104	Already refunded; cannot request again	返金済みのため再申請できません
+1105	Already settled; refund unavailable	精算済みのため返金できません
+1106	Result confirmed; voluntary refund unavailable	結果確定済みのため自主返金できません
+1107	Official cancellation or withdrawal confirmed; automatic refund pending	公式の開催中止・出走取消を確認済み、自動返金待ち
+1108	Race date unconfirmed; voluntary refund unavailable	開催日が未確認のため現在は自主返金できません
+1109	No voluntary refunds on race day, the two preceding calendar days or past races	当日・前2暦日・過去のレースは自主返金できません
+1110	First-launch language selection	初回起動の言語選択
+1111	Web demo · Continue to the selected language's settings preview	ウェブデモ・選択した言語の設定画面へ進みます
+1112	Choose language	言語を選択
+1113	You can change this later in Settings.	あとから設定で変更できます。
+1114	Interface language	表示言語
+1115	Interface language	表示言語
+1116	Continue	続ける
+1117	Choose a language	言語を選んでください
+1118	Choose a language	言語を選んでください

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "fr_arc",
+    "status": 200,
+    "bytes": 20692,
+    "graphql_errors": null,
+    "error": null
+  },
+  {
+    "name": "gb_champions",
+    "status": 200,
+    "bytes": 15484,
+    "graphql_errors": null,
+    "error": null
+  },
+  {
+    "name": "ire_champions",
+    "status": 200,
+    "bytes": 19993,
+    "graphql_errors": null,
+    "error": null
+  }
+]

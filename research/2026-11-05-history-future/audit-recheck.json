@@ -1,0 +1,345 @@
+{
+  "auditPassed": false,
+  "total": 4,
+  "records": [
+    {
+      "name": "Agency George Ryder Stakes",
+      "sourceEnglish": "George Ryder Stakes",
+      "country": "AU",
+      "date": "2025-03-22",
+      "runners": 0,
+      "seconds": 1.803,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966428961,
+          "duration": 836
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966429797,
+          "duration": 963
+        }
+      ],
+      "misses": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-03-22",
+          "candidates": []
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-03-23",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "name": "さきたま杯",
+      "sourceEnglish": "Sakitama Hai",
+      "country": "JP",
+      "date": "2025-06-25",
+      "runners": 12,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F06%2F25&k_raceNo=11&k_babaCode=18",
+      "seconds": 5.988,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793966430763,
+          "duration": 1517
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793966432282,
+          "duration": 566
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793966432849,
+          "duration": 2540
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793966435399,
+          "duration": 1344
+        }
+      ],
+      "misses": []
+    },
+    {
+      "name": "Boylesports Lockinge Stakes",
+      "sourceEnglish": "Boylesports Lockinge Stakes (Class 1) (Group 1)",
+      "country": "GB",
+      "date": "2025-05-17",
+      "runners": 0,
+      "seconds": 9.38,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966428961,
+          "duration": 1020
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966429983,
+          "duration": 907
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966429983,
+          "duration": 969
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966430952,
+          "duration": 1287
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966432240,
+          "duration": 3735
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966435975,
+          "duration": 719
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966435975,
+          "duration": 1169
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966437144,
+          "duration": 948
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966437144,
+          "duration": 1195
+        }
+      ],
+      "misses": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-05-17",
+          "candidates": [
+            {
+              "name": "Chairman's Handicap",
+              "country": "Australia",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "Bright Shadow Quality",
+              "country": "Australia",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "Doomben 10000",
+              "country": "Australia",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "HKJC World Pool Rough Habit Plate",
+              "country": "Australia",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "Aston Park Stakes",
+              "country": "United Kingdom",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "Carnarvon Stakes",
+              "country": "United Kingdom",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "London Gold Cup",
+              "country": "United Kingdom",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "Lockinge Stakes",
+              "country": "United Kingdom",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "Fillies' Trial Stakes",
+              "country": "United Kingdom",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "The Hong Kong Jockey Club Handicap",
+              "country": "United Kingdom",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "4yo+ 0-105 Handicap",
+              "country": "United Kingdom",
+              "date": "2025-05-17"
+            },
+            {
+              "name": "World Pool Handicap",
+              "country": "United Kingdom",
+              "date": "2025-05-17"
+            }
+          ]
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-05-17",
+          "venue": "S4",
+          "candidates": []
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-05-17",
+          "venue": "S3",
+          "candidates": []
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-05-17",
+          "venue": "S5",
+          "candidates": []
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-05-18",
+          "candidates": [
+            {
+              "name": "Victoria Mile",
+              "country": "Japan",
+              "date": "2025-05-18"
+            }
+          ]
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-05-18",
+          "venue": "S2",
+          "candidates": []
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-05-18",
+          "venue": "S1",
+          "candidates": []
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-05-18",
+          "venue": "S5",
+          "candidates": []
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-05-18",
+          "venue": "S4",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "name": "ARC Prix Maurice de Gheest - Fonds Europeen de l'Elevage",
+      "sourceEnglish": "Arc Prix Maurice de Gheest - Fonds Europeen de l'Elevage",
+      "country": "FR",
+      "date": "2025-08-10",
+      "runners": 11,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250810&Racecourse=S2&RaceNo=4",
+      "seconds": 1.922,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966436749,
+          "duration": 955
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966437704,
+          "duration": 847
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793966437704,
+          "duration": 965
+        }
+      ],
+      "misses": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-08-10",
+          "candidates": [
+            {
+              "name": "Hoppegartener Fliegerpreis",
+              "country": "Germany",
+              "date": "2025-08-10"
+            },
+            {
+              "name": "The Hong Kong Jockey Club World Pool Handicap",
+              "country": "Germany",
+              "date": "2025-08-10"
+            },
+            {
+              "name": "Class 3 Handicap",
+              "country": "Germany",
+              "date": "2025-08-10"
+            },
+            {
+              "name": "Grosser Preis von Berlin",
+              "country": "Germany",
+              "date": "2025-08-10"
+            }
+          ]
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "unmatched",
+          "date": "2025-08-10",
+          "venue": "S3",
+          "candidates": []
+        }
+      ]
+    }
+  ]
+}

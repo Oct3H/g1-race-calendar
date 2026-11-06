@@ -1,0 +1,320 @@
+{
+  "round": 73,
+  "first_ui_family": "PingFang SC",
+  "japanese_ui_family": "Hiragino Sans",
+  "labels": {
+    "继续查看新更正": [
+      [
+        "继",
+        "PingFang SC"
+      ],
+      [
+        "续",
+        "PingFang SC"
+      ],
+      [
+        "查",
+        "PingFang SC"
+      ],
+      [
+        "看",
+        "PingFang SC"
+      ],
+      [
+        "新",
+        "PingFang SC"
+      ],
+      [
+        "更",
+        "PingFang SC"
+      ],
+      [
+        "正",
+        "PingFang SC"
+      ]
+    ],
+    "确认购买马券": [
+      [
+        "确",
+        "PingFang SC"
+      ],
+      [
+        "认",
+        "PingFang SC"
+      ],
+      [
+        "购",
+        "PingFang SC"
+      ],
+      [
+        "买",
+        "PingFang SC"
+      ],
+      [
+        "马",
+        "PingFang SC"
+      ],
+      [
+        "券",
+        "PingFang SC"
+      ]
+    ],
+    "返回马匹资料": [
+      [
+        "返",
+        "PingFang SC"
+      ],
+      [
+        "回",
+        "PingFang SC"
+      ],
+      [
+        "马",
+        "PingFang SC"
+      ],
+      [
+        "匹",
+        "PingFang SC"
+      ],
+      [
+        "资",
+        "PingFang SC"
+      ],
+      [
+        "料",
+        "PingFang SC"
+      ]
+    ],
+    "语言与显示": [
+      [
+        "语",
+        "PingFang SC"
+      ],
+      [
+        "言",
+        "PingFang SC"
+      ],
+      [
+        "与",
+        "PingFang SC"
+      ],
+      [
+        "显",
+        "PingFang SC"
+      ],
+      [
+        "示",
+        "PingFang SC"
+      ]
+    ],
+    "缓存管理": [
+      [
+        "缓",
+        "PingFang SC"
+      ],
+      [
+        "存",
+        "PingFang SC"
+      ],
+      [
+        "管",
+        "PingFang SC"
+      ],
+      [
+        "理",
+        "PingFang SC"
+      ]
+    ],
+    "关闭并查看比赛": [
+      [
+        "关",
+        "PingFang SC"
+      ],
+      [
+        "闭",
+        "PingFang SC"
+      ],
+      [
+        "并",
+        "PingFang SC"
+      ],
+      [
+        "查",
+        "PingFang SC"
+      ],
+      [
+        "看",
+        "PingFang SC"
+      ],
+      [
+        "比",
+        "PingFang SC"
+      ],
+      [
+        "赛",
+        "PingFang SC"
+      ]
+    ],
+    "最新の訂正を確認する": [
+      [
+        "最",
+        "Hiragino Sans"
+      ],
+      [
+        "新",
+        "Hiragino Sans"
+      ],
+      [
+        "の",
+        "Hiragino Sans"
+      ],
+      [
+        "訂",
+        "Hiragino Sans"
+      ],
+      [
+        "正",
+        "Hiragino Sans"
+      ],
+      [
+        "を",
+        "Hiragino Sans"
+      ],
+      [
+        "確",
+        "Hiragino Sans"
+      ],
+      [
+        "認",
+        "Hiragino Sans"
+      ],
+      [
+        "す",
+        "Hiragino Sans"
+      ],
+      [
+        "る",
+        "Hiragino Sans"
+      ]
+    ],
+    "確認購買馬券": [
+      [
+        "確",
+        "PingFang SC"
+      ],
+      [
+        "認",
+        "PingFang SC"
+      ],
+      [
+        "購",
+        "PingFang SC"
+      ],
+      [
+        "買",
+        "PingFang SC"
+      ],
+      [
+        "馬",
+        "PingFang SC"
+      ],
+      [
+        "券",
+        "PingFang SC"
+      ]
+    ],
+    "View latest correction": [
+      [
+        "V",
+        "PingFang SC"
+      ],
+      [
+        "i",
+        "PingFang SC"
+      ],
+      [
+        "e",
+        "PingFang SC"
+      ],
+      [
+        "w",
+        "PingFang SC"
+      ],
+      [
+        " ",
+        "PingFang SC"
+      ],
+      [
+        "l",
+        "PingFang SC"
+      ],
+      [
+        "a",
+        "PingFang SC"
+      ],
+      [
+        "t",
+        "PingFang SC"
+      ],
+      [
+        "e",
+        "PingFang SC"
+      ],
+      [
+        "s",
+        "PingFang SC"
+      ],
+      [
+        "t",
+        "PingFang SC"
+      ],
+      [
+        " ",
+        "PingFang SC"
+      ],
+      [
+        "c",
+        "PingFang SC"
+      ],
+      [
+        "o",
+        "PingFang SC"
+      ],
+      [
+        "r",
+        "PingFang SC"
+      ],
+      [
+        "r",
+        "PingFang SC"
+      ],
+      [
+        "e",
+        "PingFang SC"
+      ],
+      [
+        "c",
+        "PingFang SC"
+      ],
+      [
+        "t",
+        "PingFang SC"
+      ],
+      [
+        "i",
+        "PingFang SC"
+      ],
+      [
+        "o",
+        "PingFang SC"
+      ],
+      [
+        "n",
+        "PingFang SC"
+      ]
+    ]
+  },
+  "method": "macOS CoreText per-character fallback for the shared CSS font; no browser rendering",
+  "status": "passed",
+  "primary_action_weight": "800"
+}

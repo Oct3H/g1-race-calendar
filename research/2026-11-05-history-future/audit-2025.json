@@ -1,0 +1,2936 @@
+{
+  "auditPassed": false,
+  "total": 122,
+  "records": [
+    {
+      "name": "董事盃",
+      "country": "HK",
+      "date": "2025-01-19",
+      "runners": 8,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F01%2F19&racecourse=ST&RaceNo=8",
+      "seconds": 4.644,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964657544,
+          "duration": 2232
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964659779,
+          "duration": 1985
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964659779,
+          "duration": 1996
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964659779,
+          "duration": 2399
+        }
+      ]
+    },
+    {
+      "name": "Pegasus World Cup Invitational Stakes",
+      "country": "US",
+      "date": "2025-01-25",
+      "runners": 0,
+      "seconds": 4.583,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964662185,
+          "duration": 3029
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964665215,
+          "duration": 1552
+        }
+      ]
+    },
+    {
+      "name": "百週年紀念短途盃",
+      "country": "HK",
+      "date": "2025-01-19",
+      "runners": 8,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F01%2F19&racecourse=ST&RaceNo=6",
+      "seconds": 14.406,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964657543,
+          "duration": 2209
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964659755,
+          "duration": 2071
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964659755,
+          "duration": 2507
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964659755,
+          "duration": 2722
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964662481,
+          "duration": 2233
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964662481,
+          "duration": 2448
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964662481,
+          "duration": 9458
+        }
+      ]
+    },
+    {
+      "name": "Lamaro's Hotel Futurity Stakes",
+      "country": "AU",
+      "date": "2025-02-22",
+      "runners": 11,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250222&Racecourse=S1&RaceNo=2",
+      "seconds": 13.404,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964666769,
+          "duration": 13399
+        }
+      ]
+    },
+    {
+      "name": "Saudi Cup",
+      "country": "SA",
+      "date": "2025-02-22",
+      "runners": 15,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250222&Racecourse=S2&RaceNo=7",
+      "seconds": 11.577,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964671948,
+          "duration": 11572
+        }
+      ]
+    },
+    {
+      "name": "フェブラリーステークス",
+      "country": "JP",
+      "date": "2025-02-23",
+      "runners": 16,
+      "url": "https://japanracing.jp/_news2025/250223.html",
+      "seconds": 0.825,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964683526,
+          "duration": 815
+        }
+      ]
+    },
+    {
+      "name": "TAB Verry Elleegant Stakes",
+      "country": "AU",
+      "date": "2025-03-01",
+      "runners": 0,
+      "seconds": 1.558,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964684350,
+          "duration": 825
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964685175,
+          "duration": 732
+        }
+      ]
+    },
+    {
+      "name": "All Star Mile Stakes",
+      "country": "AU",
+      "date": "2025-03-08",
+      "runners": 7,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250308&Racecourse=S2&RaceNo=1",
+      "seconds": 2.104,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964685908,
+          "duration": 2099
+        }
+      ]
+    },
+    {
+      "name": "Agency George Ryder Stakes",
+      "country": "AU",
+      "date": "2025-03-22",
+      "runners": 0,
+      "seconds": 1.68,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964688011,
+          "duration": 1003
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964689014,
+          "duration": 677
+        }
+      ]
+    },
+    {
+      "name": "高松宮記念",
+      "country": "JP",
+      "date": "2025-03-30",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/250330.html",
+      "seconds": 1.528,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964689693,
+          "duration": 1518
+        }
+      ]
+    },
+    {
+      "name": "女皇銀禧紀念盃",
+      "country": "HK",
+      "date": "2025-02-23",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F02%2F23&racecourse=ST&RaceNo=5",
+      "seconds": 11.873,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964680173,
+          "duration": 3607
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964683785,
+          "duration": 1881
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964683785,
+          "duration": 5213
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964683785,
+          "duration": 5754
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964689544,
+          "duration": 1826
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964689544,
+          "duration": 1962
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964689544,
+          "duration": 2495
+        }
+      ]
+    },
+    {
+      "name": "Asahi Super Dry T. J. Smith Stakes",
+      "country": "AU",
+      "date": "2025-04-05",
+      "runners": 13,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250405&Racecourse=S1&RaceNo=4",
+      "seconds": 1.826,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964692045,
+          "duration": 1822
+        }
+      ]
+    },
+    {
+      "name": "Kia Tancred Stakes",
+      "country": "AU",
+      "date": "2025-04-01",
+      "runners": 0,
+      "seconds": 2.709,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964691219,
+          "duration": 1964
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964693184,
+          "duration": 743
+        }
+      ]
+    },
+    {
+      "name": "Dubai Turf Sponsored by DP World",
+      "country": "AE",
+      "date": "2025-04-05",
+      "runners": 0,
+      "seconds": 4.236,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964693872,
+          "duration": 960
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964694833,
+          "duration": 3273
+        }
+      ]
+    },
+    {
+      "name": "Dubai World Cup Sponsored by Emirates Airline",
+      "country": "AE",
+      "date": "2025-04-05",
+      "runners": 0,
+      "seconds": 4.822,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964693929,
+          "duration": 1729
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964695659,
+          "duration": 3090
+        }
+      ]
+    },
+    {
+      "name": "LONGINES Dubai Sheema Classic",
+      "country": "AE",
+      "date": "2025-04-05",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250405&Racecourse=S2&RaceNo=6",
+      "seconds": 1.061,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964698107,
+          "duration": 1057
+        }
+      ]
+    },
+    {
+      "name": "大阪杯",
+      "country": "JP",
+      "date": "2025-04-06",
+      "runners": 15,
+      "url": "https://japanracing.jp/_news2025/250406.html",
+      "seconds": 1.352,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964698751,
+          "duration": 1343
+        }
+      ]
+    },
+    {
+      "name": "Queen Elizabeth Stakes",
+      "country": "AU",
+      "date": "2025-04-12",
+      "runners": 15,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250412&Racecourse=S1&RaceNo=8",
+      "seconds": 1.092,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964700103,
+          "duration": 1088
+        }
+      ]
+    },
+    {
+      "name": "桜花賞",
+      "country": "JP",
+      "date": "2025-04-13",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/250413.html",
+      "seconds": 0.881,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964701195,
+          "duration": 872
+        }
+      ]
+    },
+    {
+      "name": "Schweppes All Aged Stakes",
+      "country": "AU",
+      "date": "2025-04-19",
+      "runners": 0,
+      "seconds": 2.148,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964702076,
+          "duration": 777
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964702853,
+          "duration": 1370
+        }
+      ]
+    },
+    {
+      "name": "皐月賞",
+      "country": "JP",
+      "date": "2025-04-20",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/250420.html",
+      "seconds": 0.958,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964704225,
+          "duration": 951
+        }
+      ]
+    },
+    {
+      "name": "川崎記念",
+      "country": "JP",
+      "date": "2025-04-09",
+      "runners": 13,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F04%2F09&k_raceNo=11&k_babaCode=21",
+      "seconds": 6.016,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964699169,
+          "duration": 943
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964700113,
+          "duration": 903
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964701017,
+          "duration": 2167
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964703193,
+          "duration": 1989
+        }
+      ]
+    },
+    {
+      "name": "Prix Ganay",
+      "country": "FR",
+      "date": "2025-04-27",
+      "runners": 0,
+      "seconds": 3.886,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964705183,
+          "duration": 2107
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964707290,
+          "duration": 1777
+        }
+      ]
+    },
+    {
+      "name": "富衛保險冠軍一哩賽",
+      "country": "HK",
+      "date": "2025-04-27",
+      "runners": 13,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F04%2F27&racecourse=ST&RaceNo=7",
+      "seconds": 4.433,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964709068,
+          "duration": 2598
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964711671,
+          "duration": 919
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964711671,
+          "duration": 1149
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964711671,
+          "duration": 1823
+        }
+      ]
+    },
+    {
+      "name": "主席短途獎",
+      "country": "HK",
+      "date": "2025-04-27",
+      "runners": 13,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F04%2F27&racecourse=ST&RaceNo=5",
+      "seconds": 8.466,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964705184,
+          "duration": 2514
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964707703,
+          "duration": 1703
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964707703,
+          "duration": 2008
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964707703,
+          "duration": 2911
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964710618,
+          "duration": 2590
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964710618,
+          "duration": 2975
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964710618,
+          "duration": 3028
+        }
+      ]
+    },
+    {
+      "name": "富衛保險女皇盃",
+      "country": "HK",
+      "date": "2025-04-27",
+      "runners": 11,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F04%2F27&racecourse=ST&RaceNo=8",
+      "seconds": 5.607,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964713501,
+          "duration": 876
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964714381,
+          "duration": 1796
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964714381,
+          "duration": 3159
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964714381,
+          "duration": 4720
+        }
+      ]
+    },
+    {
+      "name": "羽田盃",
+      "country": "JP",
+      "date": "2025-04-29",
+      "runners": 15,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F04%2F29&k_raceNo=11&k_babaCode=20",
+      "seconds": 7.92,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964713650,
+          "duration": 1869
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964715521,
+          "duration": 1297
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964716819,
+          "duration": 1707
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964718536,
+          "duration": 3027
+        }
+      ]
+    },
+    {
+      "name": "Betfred 2000 Guineas",
+      "country": "GB",
+      "date": "2025-05-03",
+      "runners": 0,
+      "seconds": 11.753,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964719107,
+          "duration": 10821
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964729929,
+          "duration": 931
+        }
+      ]
+    },
+    {
+      "name": "Kentucky Derby Presented by Woodford Reserve",
+      "country": "US",
+      "date": "2025-05-03",
+      "runners": 0,
+      "seconds": 1.976,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964730861,
+          "duration": 1139
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964732002,
+          "duration": 833
+        }
+      ]
+    },
+    {
+      "name": "Churchill Downs Stakes Presented by Ford",
+      "country": "US",
+      "date": "2025-05-03",
+      "runners": 0,
+      "seconds": 11.505,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964721571,
+          "duration": 10280
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964731853,
+          "duration": 1221
+        }
+      ]
+    },
+    {
+      "name": "天皇賞（春）",
+      "country": "JP",
+      "date": "2025-05-04",
+      "runners": 15,
+      "url": "https://japanracing.jp/_news2025/250504.html",
+      "seconds": 0.917,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964732837,
+          "duration": 909
+        }
+      ]
+    },
+    {
+      "name": "かしわ記念",
+      "country": "JP",
+      "date": "2025-05-05",
+      "runners": 10,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F05%2F05&k_raceNo=11&k_babaCode=19",
+      "seconds": 5.304,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964733076,
+          "duration": 705
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964733782,
+          "duration": 1096
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964734879,
+          "duration": 1351
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964736237,
+          "duration": 2137
+        }
+      ]
+    },
+    {
+      "name": "NHKマイルカップ",
+      "country": "JP",
+      "date": "2025-05-11",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/250511.html",
+      "seconds": 7.095,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964738380,
+          "duration": 7087
+        }
+      ]
+    },
+    {
+      "name": "Emirates Poule d'Essai des Poulains",
+      "country": "FR",
+      "date": "2025-05-11",
+      "runners": 18,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250511&Racecourse=S2&RaceNo=3",
+      "seconds": 13.786,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964733753,
+          "duration": 13782
+        }
+      ]
+    },
+    {
+      "name": "Boylesports Lockinge Stakes",
+      "country": "GB",
+      "date": "2025-05-17",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250517&Racecourse=S2&RaceNo=4",
+      "seconds": 11.184,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964745475,
+          "duration": 11179
+        }
+      ]
+    },
+    {
+      "name": "ヴィクトリアマイル",
+      "country": "JP",
+      "date": "2025-05-18",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/250518.html",
+      "seconds": 1.138,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964756658,
+          "duration": 1128
+        }
+      ]
+    },
+    {
+      "name": "Preakness Stakes",
+      "country": "US",
+      "date": "2025-05-17",
+      "runners": 0,
+      "seconds": 12.375,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964747540,
+          "duration": 9816
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964757357,
+          "duration": 2557
+        }
+      ]
+    },
+    {
+      "name": "渣打冠軍暨遮打盃",
+      "country": "HK",
+      "date": "2025-05-25",
+      "runners": 10,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F05%2F25&racecourse=ST&RaceNo=8",
+      "seconds": 4.836,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964759916,
+          "duration": 1968
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964761889,
+          "duration": 2173
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964761889,
+          "duration": 2211
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964761889,
+          "duration": 2853
+        }
+      ]
+    },
+    {
+      "name": "Tattersalls Gold Cup",
+      "country": "IE",
+      "date": "2025-05-25",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250525&Racecourse=S3&RaceNo=1",
+      "seconds": 3.049,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964764750,
+          "duration": 3048
+        }
+      ]
+    },
+    {
+      "name": "優駿牝馬（オークス）",
+      "country": "JP",
+      "date": "2025-05-25",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/250525.html",
+      "seconds": 1.475,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964767799,
+          "duration": 1468
+        }
+      ]
+    },
+    {
+      "name": "Tattersalls Irish 2000 Guineas",
+      "country": "IE",
+      "date": "2025-05-24",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250524&Racecourse=S2&RaceNo=5",
+      "seconds": 13.235,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964757797,
+          "duration": 13230
+        }
+      ]
+    },
+    {
+      "name": "東京優駿（日本ダービー）",
+      "country": "JP",
+      "date": "2025-06-01",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/250601.html",
+      "seconds": 1.192,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964771032,
+          "duration": 1184
+        }
+      ]
+    },
+    {
+      "name": "Qatar Prix du Jockey Club",
+      "country": "FR",
+      "date": "2025-06-01",
+      "runners": 18,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250601&Racecourse=S2&RaceNo=3",
+      "seconds": 14.881,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964769274,
+          "duration": 14876
+        }
+      ]
+    },
+    {
+      "name": "Betfred Coronation Cup",
+      "country": "GB",
+      "date": "2025-06-06",
+      "runners": 0,
+      "seconds": 13.208,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964772224,
+          "duration": 892
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964773116,
+          "duration": 12314
+        }
+      ]
+    },
+    {
+      "name": "Betfred Oaks",
+      "country": "GB",
+      "date": "2025-06-06",
+      "runners": 0,
+      "seconds": 4.154,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964784155,
+          "duration": 1740
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964785896,
+          "duration": 2411
+        }
+      ]
+    },
+    {
+      "name": "Belmont Stakes Presented by NYRA Bets",
+      "country": "US",
+      "date": "2025-06-07",
+      "runners": 0,
+      "seconds": 4.02,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964785432,
+          "duration": 1187
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964786620,
+          "duration": 2831
+        }
+      ]
+    },
+    {
+      "name": "安田記念",
+      "country": "JP",
+      "date": "2025-06-08",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/250608.html",
+      "seconds": 1.711,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964789453,
+          "duration": 1701
+        }
+      ]
+    },
+    {
+      "name": "Hill 'n' Dale Metropolitan Handicap",
+      "country": "US",
+      "date": "2025-06-07",
+      "runners": 0,
+      "seconds": 5.281,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964788310,
+          "duration": 961
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964789272,
+          "duration": 4317
+        }
+      ]
+    },
+    {
+      "name": "宝塚記念",
+      "country": "JP",
+      "date": "2025-06-15",
+      "runners": 17,
+      "url": "https://japanracing.jp/_news2025/250615.html",
+      "seconds": 1.097,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964793591,
+          "duration": 1089
+        }
+      ]
+    },
+    {
+      "name": "Queen Anne Stakes",
+      "country": "GB",
+      "date": "2025-06-17",
+      "runners": 11,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250617&Racecourse=S1&RaceNo=1",
+      "seconds": 1.728,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964794688,
+          "duration": 1723
+        }
+      ]
+    },
+    {
+      "name": "St James's Palace Stakes",
+      "country": "GB",
+      "date": "2025-06-17",
+      "runners": 7,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250617&Racecourse=S1&RaceNo=4",
+      "seconds": 0.863,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964796416,
+          "duration": 858
+        }
+      ]
+    },
+    {
+      "name": "東京ダービー",
+      "country": "JP",
+      "date": "2025-06-11",
+      "runners": 16,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F06%2F11&k_raceNo=11&k_babaCode=20",
+      "seconds": 6.668,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964791163,
+          "duration": 692
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964791857,
+          "duration": 1558
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964793416,
+          "duration": 2461
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964795886,
+          "duration": 1937
+        }
+      ]
+    },
+    {
+      "name": "Prince of Wales's Stakes",
+      "country": "GB",
+      "date": "2025-06-18",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250618&Racecourse=S2&RaceNo=4",
+      "seconds": 8.732,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964797279,
+          "duration": 8727
+        }
+      ]
+    },
+    {
+      "name": "Gold Cup",
+      "country": "GB",
+      "date": "2025-06-19",
+      "runners": 8,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250619&Racecourse=S3&RaceNo=4",
+      "seconds": 14.524,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964797830,
+          "duration": 14521
+        }
+      ]
+    },
+    {
+      "name": "Queen Elizabeth II Jubilee Stakes",
+      "country": "GB",
+      "date": "2025-06-21",
+      "runners": 16,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250621&Racecourse=S5&RaceNo=3",
+      "seconds": 11.155,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964806011,
+          "duration": 11151
+        }
+      ]
+    },
+    {
+      "name": "さきたま杯",
+      "country": "JP",
+      "date": "2025-06-25",
+      "runners": 12,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F06%2F25&k_raceNo=11&k_babaCode=18",
+      "seconds": 6.514,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964812354,
+          "duration": 610
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964812966,
+          "duration": 1745
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964814711,
+          "duration": 2716
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964817438,
+          "duration": 1423
+        }
+      ]
+    },
+    {
+      "name": "Paddy Power Pretty Polly Stakes",
+      "country": "IE",
+      "date": "2025-06-28",
+      "runners": 0,
+      "seconds": 13.4,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964817166,
+          "duration": 780
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964817946,
+          "duration": 12618
+        }
+      ]
+    },
+    {
+      "name": "Stephen Foster Stakes",
+      "country": "US",
+      "date": "2025-06-28",
+      "runners": 0,
+      "seconds": 11.924,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964818868,
+          "duration": 821
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964819689,
+          "duration": 11101
+        }
+      ]
+    },
+    {
+      "name": "Grand Prix de Saint-Cloud",
+      "country": "FR",
+      "date": "2025-06-29",
+      "runners": 5,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250629&Racecourse=S1&RaceNo=2",
+      "seconds": 0.726,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964830566,
+          "duration": 721
+        }
+      ]
+    },
+    {
+      "name": "帝王賞",
+      "country": "JP",
+      "date": "2025-07-02",
+      "runners": 14,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F07%2F02&k_raceNo=11&k_babaCode=20",
+      "seconds": 4.761,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964830793,
+          "duration": 639
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964831434,
+          "duration": 715
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964832150,
+          "duration": 1518
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964833677,
+          "duration": 1870
+        }
+      ]
+    },
+    {
+      "name": "Coral-Eclipse",
+      "country": "GB",
+      "date": "2025-07-05",
+      "runners": 0,
+      "seconds": 11.959,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964831292,
+          "duration": 2857
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964834149,
+          "duration": 9100
+        }
+      ]
+    },
+    {
+      "name": "NYRA Bets Haskell Stakes",
+      "country": "US",
+      "date": "2025-07-19",
+      "runners": 0,
+      "seconds": 1.587,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964843251,
+          "duration": 768
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964844019,
+          "duration": 817
+        }
+      ]
+    },
+    {
+      "name": "Prix Jean Prat",
+      "country": "FR",
+      "date": "2025-07-06",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250706&Racecourse=S4&RaceNo=4",
+      "seconds": 9.378,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964835554,
+          "duration": 9373
+        }
+      ]
+    },
+    {
+      "name": "King George VI & Queen Elizabeth Stakes",
+      "country": "GB",
+      "date": "2025-07-26",
+      "runners": 5,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250726&Racecourse=S1&RaceNo=6",
+      "seconds": 2.143,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964844838,
+          "duration": 2139
+        }
+      ]
+    },
+    {
+      "name": "Al Shaqab Goodwood Cup",
+      "country": "GB",
+      "date": "2025-07-29",
+      "runners": 0,
+      "seconds": 6.548,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964844931,
+          "duration": 1020
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964845952,
+          "duration": 5526
+        }
+      ]
+    },
+    {
+      "name": "Whitney Stakes",
+      "country": "US",
+      "date": "2025-08-02",
+      "runners": 0,
+      "seconds": 1.816,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964851480,
+          "duration": 808
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964852288,
+          "duration": 1006
+        }
+      ]
+    },
+    {
+      "name": "ARC Prix Maurice de Gheest - Fonds Europeen de l'Elevage",
+      "country": "FR",
+      "date": "2025-08-10",
+      "runners": 0,
+      "seconds": 1.626,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964853296,
+          "duration": 849
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964854146,
+          "duration": 775
+        }
+      ]
+    },
+    {
+      "name": "Visit Qatar Sussex Stakes",
+      "country": "GB",
+      "date": "2025-07-30",
+      "runners": 7,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250730&Racecourse=S2&RaceNo=4",
+      "seconds": 8.053,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964846981,
+          "duration": 8050
+        }
+      ]
+    },
+    {
+      "name": "The Aga Khan Studs Prix Jacques Le Marois",
+      "country": "FR",
+      "date": "2025-08-17",
+      "runners": 0,
+      "seconds": 1.698,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964854922,
+          "duration": 905
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964855827,
+          "duration": 792
+        }
+      ]
+    },
+    {
+      "name": "Winx Stakes",
+      "country": "AU",
+      "date": "2025-08-23",
+      "runners": 0,
+      "seconds": 1.828,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964856620,
+          "duration": 927
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964857547,
+          "duration": 900
+        }
+      ]
+    },
+    {
+      "name": "Sky Bet City of York Stakes",
+      "country": "GB",
+      "date": "2025-08-23",
+      "runners": 0,
+      "seconds": 3.143,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964858448,
+          "duration": 1045
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964859493,
+          "duration": 2097
+        }
+      ]
+    },
+    {
+      "name": "Juddmonte International Stakes",
+      "country": "GB",
+      "date": "2025-08-20",
+      "runners": 6,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250820&Racecourse=S1&RaceNo=4",
+      "seconds": 7.7,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964855034,
+          "duration": 7696
+        }
+      ]
+    },
+    {
+      "name": "Stow Storage Memsie Stakes",
+      "country": "AU",
+      "date": "2025-08-30",
+      "runners": 0,
+      "seconds": 2.323,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964861592,
+          "duration": 1052
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964862644,
+          "duration": 1269
+        }
+      ]
+    },
+    {
+      "name": "Pacific Classic Stakes",
+      "country": "US",
+      "date": "2025-08-30",
+      "runners": 0,
+      "seconds": 1.687,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964862733,
+          "duration": 742
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964863475,
+          "duration": 945
+        }
+      ]
+    },
+    {
+      "name": "Jockey Club Gold Cup Stakes",
+      "country": "US",
+      "date": "2025-08-31",
+      "runners": 0,
+      "seconds": 1.411,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964863914,
+          "duration": 561
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964864475,
+          "duration": 849
+        }
+      ]
+    },
+    {
+      "name": "Qatar Prix du Moulin de Longchamp",
+      "country": "FR",
+      "date": "2025-09-07",
+      "runners": 12,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250907&Racecourse=S3&RaceNo=1",
+      "seconds": 1.032,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964864422,
+          "duration": 1026
+        }
+      ]
+    },
+    {
+      "name": "Crown Makybe Diva Stakes",
+      "country": "AU",
+      "date": "2025-09-13",
+      "runners": 6,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20250913&Racecourse=S1&RaceNo=3",
+      "seconds": 1.061,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964865453,
+          "duration": 1056
+        }
+      ]
+    },
+    {
+      "name": "Wettstar.de Grosser Preis von Baden",
+      "country": "DE",
+      "date": "2025-09-07",
+      "runners": 0,
+      "seconds": 2.315,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964865326,
+          "duration": 1128
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964866455,
+          "duration": 1184
+        }
+      ]
+    },
+    {
+      "name": "Betfred St Leger Stakes",
+      "country": "GB",
+      "date": "2025-09-13",
+      "runners": 0,
+      "seconds": 4.71,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964866513,
+          "duration": 944
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964867457,
+          "duration": 3765
+        }
+      ]
+    },
+    {
+      "name": "Royal Bahrain Irish Champion Stakes",
+      "country": "IE",
+      "date": "2025-09-13",
+      "runners": 0,
+      "seconds": 4.77,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964867641,
+          "duration": 1114
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964868756,
+          "duration": 3652
+        }
+      ]
+    },
+    {
+      "name": "Ladbrokes Manikato Stakes",
+      "country": "AU",
+      "date": "2025-09-26",
+      "runners": 0,
+      "seconds": 1.782,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964871224,
+          "duration": 769
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964871993,
+          "duration": 1012
+        }
+      ]
+    },
+    {
+      "name": "スプリンターズステークス",
+      "country": "JP",
+      "date": "2025-09-28",
+      "runners": 16,
+      "url": "https://japanracing.jp/_news2025/250928.html",
+      "seconds": 0.769,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964873007,
+          "duration": 759
+        }
+      ]
+    },
+    {
+      "name": "Joe Hirsch Turf Classic Stakes",
+      "country": "US",
+      "date": "2025-09-27",
+      "runners": 0,
+      "seconds": 1.766,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964872410,
+          "duration": 877
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964873287,
+          "duration": 887
+        }
+      ]
+    },
+    {
+      "name": "Qatar Prix de l'Arc de Triomphe",
+      "country": "FR",
+      "date": "2025-10-05",
+      "runners": 18,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251005&Racecourse=S1&RaceNo=4",
+      "seconds": 0.98,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964874175,
+          "duration": 977
+        }
+      ]
+    },
+    {
+      "name": "TAB Turnbull Stakes",
+      "country": "AU",
+      "date": "2025-10-04",
+      "runners": 0,
+      "seconds": 1.739,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964873774,
+          "duration": 700
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964874474,
+          "duration": 1037
+        }
+      ]
+    },
+    {
+      "name": "Juddmonte Spinster Stakes",
+      "country": "US",
+      "date": "2025-10-05",
+      "runners": 0,
+      "seconds": 1.368,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964875514,
+          "duration": 665
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964876180,
+          "duration": 700
+        }
+      ]
+    },
+    {
+      "name": "ジャパンダートクラシック",
+      "country": "JP",
+      "date": "2025-10-08",
+      "runners": 16,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F10%2F08&k_raceNo=11&k_babaCode=20",
+      "seconds": 5.03,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964876882,
+          "duration": 544
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964877428,
+          "duration": 786
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964878214,
+          "duration": 1205
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964879429,
+          "duration": 2475
+        }
+      ]
+    },
+    {
+      "name": "Qatar Prix de la Foret",
+      "country": "FR",
+      "date": "2025-10-05",
+      "runners": 16,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251005&Racecourse=S1&RaceNo=6",
+      "seconds": 7.56,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964875155,
+          "duration": 7557
+        }
+      ]
+    },
+    {
+      "name": "King Charles III Stakes",
+      "country": "AU",
+      "date": "2025-10-18",
+      "runners": 12,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251018&Racecourse=S1&RaceNo=4",
+      "seconds": 1.468,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964882715,
+          "duration": 1465
+        }
+      ]
+    },
+    {
+      "name": "TAB Everest Stakes",
+      "country": "AU",
+      "date": "2025-10-18",
+      "runners": 16,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251018&Racecourse=S1&RaceNo=2",
+      "seconds": 2.297,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964884184,
+          "duration": 2293
+        }
+      ]
+    },
+    {
+      "name": "マイルチャンピオンシップ南部杯",
+      "country": "JP",
+      "date": "2025-10-13",
+      "runners": 16,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F10%2F13&k_raceNo=12&k_babaCode=10",
+      "seconds": 5.397,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964881911,
+          "duration": 769
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964882681,
+          "duration": 846
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964883528,
+          "duration": 2848
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964886385,
+          "duration": 916
+        }
+      ]
+    },
+    {
+      "name": "Qipco British Champions Long Distance Cup",
+      "country": "GB",
+      "date": "2025-10-18",
+      "runners": 0,
+      "seconds": 2.272,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964887308,
+          "duration": 1562
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964888871,
+          "duration": 709
+        }
+      ]
+    },
+    {
+      "name": "Qipco Champion Stakes",
+      "country": "GB",
+      "date": "2025-10-18",
+      "runners": 11,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251018&Racecourse=S3&RaceNo=5",
+      "seconds": 0.972,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964889581,
+          "duration": 968
+        }
+      ]
+    },
+    {
+      "name": "Queen Elizabeth II Stakes (Sponsored by Qipco)",
+      "country": "GB",
+      "date": "2025-10-18",
+      "runners": 16,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251018&Racecourse=S3&RaceNo=4",
+      "seconds": 1.279,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964890553,
+          "duration": 1273
+        }
+      ]
+    },
+    {
+      "name": "Qipco British Champions Fillies & Mares Stakes",
+      "country": "GB",
+      "date": "2025-10-18",
+      "runners": 0,
+      "seconds": 5.961,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964886480,
+          "duration": 1818
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964888299,
+          "duration": 4141
+        }
+      ]
+    },
+    {
+      "name": "秋華賞",
+      "country": "JP",
+      "date": "2025-10-19",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/251019.html",
+      "seconds": 0.727,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964891831,
+          "duration": 719
+        }
+      ]
+    },
+    {
+      "name": "菊花賞",
+      "country": "JP",
+      "date": "2025-10-26",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/251026.html",
+      "seconds": 0.714,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964892559,
+          "duration": 706
+        }
+      ]
+    },
+    {
+      "name": "Ladbrokes Cox Plate",
+      "country": "AU",
+      "date": "2025-10-25",
+      "runners": 9,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251025&Racecourse=S1&RaceNo=10",
+      "seconds": 1.865,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964892442,
+          "duration": 1861
+        }
+      ]
+    },
+    {
+      "name": "FanDuel Breeders' Cup Mile Presented By PDJF",
+      "country": "US",
+      "date": "2025-11-01",
+      "runners": 0,
+      "seconds": 1.85,
+      "status": "unavailable",
+      "error": "No matching published HKJC overseas declarations or results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964893273,
+          "duration": 1050
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964894324,
+          "duration": 797
+        }
+      ]
+    },
+    {
+      "name": "LONGINES Breeders' Cup Classic",
+      "country": "US",
+      "date": "2025-11-01",
+      "runners": 10,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251102&Racecourse=S2&RaceNo=2",
+      "seconds": 1.381,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964894307,
+          "duration": 758
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964895066,
+          "duration": 616
+        }
+      ]
+    },
+    {
+      "name": "LONGINES Breeders' Cup Turf",
+      "country": "US",
+      "date": "2025-11-01",
+      "runners": 14,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251102&Racecourse=S2&RaceNo=1",
+      "seconds": 2.257,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964895123,
+          "duration": 1331
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964896456,
+          "duration": 918
+        }
+      ]
+    },
+    {
+      "name": "天皇賞（秋）",
+      "country": "JP",
+      "date": "2025-11-02",
+      "runners": 14,
+      "url": "https://japanracing.jp/_news2025/251102.html",
+      "seconds": 1.815,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964895688,
+          "duration": 1802
+        }
+      ]
+    },
+    {
+      "name": "JBCスプリント",
+      "country": "JP",
+      "date": "2025-11-03",
+      "runners": 14,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F11%2F03&k_raceNo=10&k_babaCode=19",
+      "seconds": 4.233,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964897503,
+          "duration": 779
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964898283,
+          "duration": 807
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964899091,
+          "duration": 1290
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964900392,
+          "duration": 1334
+        }
+      ]
+    },
+    {
+      "name": "JBCクラシック",
+      "country": "JP",
+      "date": "2025-11-03",
+      "runners": 14,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F11%2F03&k_raceNo=11&k_babaCode=19",
+      "seconds": 4.676,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964897380,
+          "duration": 575
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964897957,
+          "duration": 1503
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964899461,
+          "duration": 1420
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964900897,
+          "duration": 1151
+        }
+      ]
+    },
+    {
+      "name": "Lexus Champions Mile",
+      "country": "AU",
+      "date": "2025-11-08",
+      "runners": 10,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251108&Racecourse=S1&RaceNo=5",
+      "seconds": 1.049,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964902055,
+          "duration": 1043
+        }
+      ]
+    },
+    {
+      "name": "TAB Champions Stakes (ex Mackinnon)",
+      "country": "AU",
+      "date": "2025-11-08",
+      "runners": 11,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251108&Racecourse=S1&RaceNo=6",
+      "seconds": 0.925,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964903105,
+          "duration": 918
+        }
+      ]
+    },
+    {
+      "name": "VRC Champions Sprint",
+      "country": "AU",
+      "date": "2025-11-08",
+      "runners": 10,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251108&Racecourse=S1&RaceNo=4",
+      "seconds": 1.137,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964904030,
+          "duration": 1132
+        }
+      ]
+    },
+    {
+      "name": "エリザベス女王杯",
+      "country": "JP",
+      "date": "2025-11-16",
+      "runners": 16,
+      "url": "https://japanracing.jp/_news2025/251116-02.html",
+      "seconds": 3.891,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964905167,
+          "duration": 2299
+        },
+        {
+          "stage": "japan-index",
+          "state": "success",
+          "startedAt": 1793964907469,
+          "duration": 800
+        },
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964908279,
+          "duration": 768
+        }
+      ]
+    },
+    {
+      "name": "JBCレディスクラシック",
+      "country": "JP",
+      "date": "2025-11-03",
+      "runners": 14,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F11%2F03&k_raceNo=9&k_babaCode=19",
+      "seconds": 8.211,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964901735,
+          "duration": 575
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964902312,
+          "duration": 944
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964903257,
+          "duration": 4347
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964907618,
+          "duration": 2321
+        }
+      ]
+    },
+    {
+      "name": "マイルチャンピオンシップ",
+      "country": "JP",
+      "date": "2025-11-23",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/251123-03.html",
+      "seconds": 3.247,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "failed",
+          "startedAt": 1793964909058,
+          "duration": 540
+        },
+        {
+          "stage": "japan-index",
+          "state": "success",
+          "startedAt": 1793964909598,
+          "duration": 842
+        },
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964910449,
+          "duration": 1845
+        }
+      ]
+    },
+    {
+      "name": "チャンピオンズカップ",
+      "country": "JP",
+      "date": "2025-12-07",
+      "runners": 16,
+      "url": "https://japanracing.jp/_news2025/251207.html",
+      "seconds": 0.729,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964912305,
+          "duration": 718
+        }
+      ]
+    },
+    {
+      "name": "ジャパンカップ",
+      "country": "JP",
+      "date": "2025-11-30",
+      "runners": 18,
+      "url": "https://racing.hkjc.com/en-us/overseas/results?RaceDate=20251130&Racecourse=S1&RaceNo=1",
+      "seconds": 3.18,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "failed",
+          "startedAt": 1793964909947,
+          "duration": 556
+        },
+        {
+          "stage": "japan-index",
+          "state": "success",
+          "startedAt": 1793964910504,
+          "duration": 1838
+        },
+        {
+          "stage": "hkjc-overseas",
+          "state": "success",
+          "startedAt": 1793964912350,
+          "duration": 772
+        }
+      ]
+    },
+    {
+      "name": "浪琴香港瓶",
+      "country": "HK",
+      "date": "2025-12-14",
+      "runners": 11,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F12%2F14&racecourse=ST&RaceNo=4",
+      "seconds": 4.639,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964913127,
+          "duration": 2417
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964915550,
+          "duration": 638
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964915550,
+          "duration": 1844
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964915550,
+          "duration": 2199
+        }
+      ]
+    },
+    {
+      "name": "浪琴香港盃",
+      "country": "HK",
+      "date": "2025-12-14",
+      "runners": 7,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F12%2F14&racecourse=ST&RaceNo=8",
+      "seconds": 3,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964917766,
+          "duration": 735
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964918510,
+          "duration": 1737
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964918510,
+          "duration": 1748
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964918510,
+          "duration": 1863
+        }
+      ]
+    },
+    {
+      "name": "浪琴香港一哩錦標",
+      "country": "HK",
+      "date": "2025-12-14",
+      "runners": 0,
+      "seconds": 8.13,
+      "status": "failed",
+      "error": "No matching HKJC results",
+      "failureKind": "source",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964913034,
+          "duration": 2517
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964915560,
+          "duration": 657
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964915559,
+          "duration": 1811
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964915560,
+          "duration": 1824
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964917393,
+          "duration": 688
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964917392,
+          "duration": 1730
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964917393,
+          "duration": 2037
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964919436,
+          "duration": 663
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964919436,
+          "duration": 670
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964919436,
+          "duration": 1721
+        }
+      ]
+    },
+    {
+      "name": "阪神ジュベナイルフィリーズ",
+      "country": "JP",
+      "date": "2025-12-14",
+      "runners": 18,
+      "url": "https://japanracing.jp/_news2025/251214.html",
+      "seconds": 0.76,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964921165,
+          "duration": 748
+        }
+      ]
+    },
+    {
+      "name": "浪琴香港短途錦標",
+      "country": "HK",
+      "date": "2025-12-14",
+      "runners": 13,
+      "url": "https://racing.hkjc.com/zh-hk/local/information/archive/localresults?racedate=2025%2F12%2F14&racecourse=ST&RaceNo=5",
+      "seconds": 1.43,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "hkjc-program",
+          "state": "success",
+          "startedAt": 1793964920766,
+          "duration": 701
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964921475,
+          "duration": 692
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964921475,
+          "duration": 697
+        },
+        {
+          "stage": "hkjc-result",
+          "state": "success",
+          "startedAt": 1793964921475,
+          "duration": 708
+        }
+      ]
+    },
+    {
+      "name": "朝日杯フューチュリティステークス",
+      "country": "JP",
+      "date": "2025-12-21",
+      "runners": 14,
+      "url": "https://japanracing.jp/_news2025/251221.html",
+      "seconds": 0.776,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964922196,
+          "duration": 765
+        }
+      ]
+    },
+    {
+      "name": "ホープフルステークス",
+      "country": "JP",
+      "date": "2025-12-27",
+      "runners": 16,
+      "url": "https://japanracing.jp/_news2025/251227-03.html",
+      "seconds": 2.123,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "failed",
+          "startedAt": 1793964922973,
+          "duration": 551
+        },
+        {
+          "stage": "japan-index",
+          "state": "success",
+          "startedAt": 1793964923524,
+          "duration": 811
+        },
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964924344,
+          "duration": 738
+        }
+      ]
+    },
+    {
+      "name": "有馬記念",
+      "country": "JP",
+      "date": "2025-12-28",
+      "runners": 16,
+      "url": "https://japanracing.jp/_news2025/251228.html",
+      "seconds": 0.754,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "japan-result",
+          "state": "success",
+          "startedAt": 1793964925096,
+          "duration": 740
+        }
+      ]
+    },
+    {
+      "name": "全日本2歳優駿",
+      "country": "JP",
+      "date": "2025-12-17",
+      "runners": 9,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F12%2F17&k_raceNo=11&k_babaCode=21",
+      "seconds": 5.552,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964921924,
+          "duration": 876
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964922802,
+          "duration": 1654
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964924457,
+          "duration": 1699
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964926167,
+          "duration": 1302
+        }
+      ]
+    },
+    {
+      "name": "東京大賞典",
+      "country": "JP",
+      "date": "2025-12-29",
+      "runners": 16,
+      "url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_raceDate=2025%2F12%2F29&k_raceNo=9&k_babaCode=20",
+      "seconds": 4.928,
+      "status": "success",
+      "attempts": [
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964925849,
+          "duration": 602
+        },
+        {
+          "stage": "nar-program",
+          "state": "success",
+          "startedAt": 1793964926454,
+          "duration": 953
+        },
+        {
+          "stage": "nar-entries",
+          "state": "success",
+          "startedAt": 1793964927408,
+          "duration": 2296
+        },
+        {
+          "stage": "nar-result",
+          "state": "success",
+          "startedAt": 1793964929726,
+          "duration": 1038
+        }
+      ]
+    }
+  ]
+}

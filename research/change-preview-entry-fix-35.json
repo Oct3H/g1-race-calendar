@@ -1,0 +1,47 @@
+{
+  "reproduction": {
+    "ordinary_entry": "?preview=calendar&v=33",
+    "before_fix_change_fixtures": 0,
+    "after_fix_change_fixtures": 3
+  },
+  "regression": "passed: ordinary v33/v34 entries, explicit changes=1 and changes=0, three direct preview links, unchanged refund function checks",
+  "static_html": {
+    "unique_ids": 146,
+    "resources_exist": true
+  },
+  "syntax_check": "design.js passed",
+  "head_requests": [
+    {
+      "path": "/index.html?preview=calendar&v=33",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/index.html?preview=calendar&year=2026&month=10&v=35",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/index.html?preview=calendar&year=2026&month=10&game=refund-cancelled&v=35",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/index.html?preview=calendar&year=2026&month=10&game=refund-withdrawn&v=35",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/design.js?v=35",
+      "status": 200,
+      "cache_control": "no-store"
+    },
+    {
+      "path": "/calendar-workspace.css?v=35",
+      "status": 200,
+      "cache_control": "no-store"
+    }
+  ],
+  "browser_visual_check": "not_run_due_to_prior_browser_url_policy_rejection",
+  "game_rules_changed": false
+}

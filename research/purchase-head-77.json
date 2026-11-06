@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/index.html?preview=calendar&settingsMenu=preview&lang=zh&availability=complete&refund=preview&game=wallet&v=77",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/index.html?lang=en&game=wallet&availability=complete&v=77",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/index.html?lang=ja&game=wallet&availability=complete&v=77",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/design.js?v=77",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/game-design.js?v=77",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/game-style.css?v=77",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/race-theme.css?v=77",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  {
+    "path": "/ui-messages.mjs?v=76",
+    "status": 200,
+    "cacheControl": "no-store"
+  }
+]

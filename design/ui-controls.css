@@ -1,0 +1,37 @@
+/* Draw the close icon around the button's centre; text metrics must not move it. */
+button:is(.close-button, .cache-clear-close) {
+  position: relative;
+  display: inline-block;
+  flex: none;
+  padding: 0;
+  font-size: 0;
+  line-height: 1;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+
+button:is(.close-button, .cache-clear-close)::before,
+button:is(.close-button, .cache-clear-close)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  pointer-events: none;
+}
+
+button:is(.close-button, .cache-clear-close)::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+button:is(.close-button, .cache-clear-close)::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+button:is(.close-button, .cache-clear-close):focus-visible {
+  outline: 3px solid #445ecb;
+  outline-offset: 3px;
+}

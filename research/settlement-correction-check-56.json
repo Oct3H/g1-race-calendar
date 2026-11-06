@@ -1,0 +1,62 @@
+{
+  "round": 56,
+  "date": "2026-10-24",
+  "previewUrl": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&refund=preview&correction=shortfall&v=56",
+  "confirmedRules": [
+    "Latest official result compared once to last processed settlement; interim versions kept in history",
+    "Cash floor zero; shortfall waived permanently, later receipts fully usable",
+    "Show correction receipt first, bankruptcy only after closing it even with outstanding tickets"
+  ],
+  "implementation": {
+    "state": "Independent in-memory result-correction-preview.mjs; original game-state.mjs unchanged",
+    "ui": "Calendar yellow/red indicators, shop chronological queue, correction dialog, foldable original settlement/publication/adjustment history, existing bankruptcy stage and bank flow",
+    "scenarios": [
+      "credit",
+      "debit",
+      "shortfall",
+      "multiple",
+      "tie",
+      "neutral"
+    ],
+    "reuse": "Project locked-ticket/prize arithmetic, dead-heat rounding, themes, notifications, native dialog and game result/bank stages. No external dependency or source fetched."
+  },
+  "shortfallExample": {
+    "cashBefore": 10000,
+    "expectedDebit": 40000,
+    "actualDebit": 10000,
+    "waived": 30000,
+    "cashAfter": 0,
+    "unsettledStake": 520000,
+    "bank": 30000,
+    "cashAfterWithdrawal": 30000
+  },
+  "checks": {
+    "check_result_correction_preview.mjs": "PASS: independent state, controller fixtures and actual createGamePreview integration with DOM doubles; idempotence, net delta, shortfall waiver, no later debt, first pending result follows latest, refund isolation, original snapshots, source ordering and decimal/dead-heat rounding",
+    "existing": [
+      "check_game_preview.mjs PASS",
+      "check_change_preview.mjs PASS",
+      "check_ticket_folder.mjs PASS",
+      "check_data_quality_preview.mjs PASS",
+      "check_ticket_confirmation.mjs PASS",
+      "check_voluntary_refund.mjs PASS"
+    ],
+    "static": {
+      "uniqueStaticTemplateIds": 229,
+      "localHtmlResources": 18,
+      "moduleSyntaxImports": 4,
+      "htmlNesting": "PASS",
+      "css": "PASS"
+    },
+    "head": {
+      "count": 6,
+      "status": 200,
+      "cacheControl": "no-store"
+    }
+  },
+  "limitations": [
+    "No automated browser rendering, geometry/screenshot/native keyboard tests; existing browser restriction respected",
+    "All races, official-result qualification, odds, dates and revisions are fictional; no real network or persistence",
+    "New live revision arrival while another result dialog is already open remains a design discussion item",
+    "This does not implement a formal desktop app or transactional database"
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "japan:2026:februarystakes": {
+    "key": "japan:2026:februarystakes",
+    "source": "japan",
+    "year": 2026,
+    "name": "FEBRUARY STAKES",
+    "grade": "G1",
+    "date": "2026-02-22",
+    "course": "TOKYO",
+    "distance_surface_raw": "1,600/Dirt",
+    "winner_prize_raw": "150,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0222february.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0222february.html"
+  },
+  "japan:2026:takamatsunomiyakinen": {
+    "key": "japan:2026:takamatsunomiyakinen",
+    "source": "japan",
+    "year": 2026,
+    "name": "TAKAMATSUNOMIYA KINEN",
+    "grade": "G1",
+    "date": "2026-03-29",
+    "course": "CHUKYO",
+    "distance_surface_raw": "1,200/Turf",
+    "winner_prize_raw": "170,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0329takamatsunomiya.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0329takamatsunomiya.html"
+  },
+  "japan:2026:osakahai": {
+    "key": "japan:2026:osakahai",
+    "source": "japan",
+    "year": 2026,
+    "name": "OSAKA HAI",
+    "grade": "G1",
+    "date": "2026-04-05",
+    "course": "HANSHIN",
+    "distance_surface_raw": "2,000/Turf",
+    "winner_prize_raw": "300,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0405osaka.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0405osaka.html"
+  },
+  "japan:2026:okashojapanese1000guineas": {
+    "key": "japan:2026:okashojapanese1000guineas",
+    "source": "japan",
+    "year": 2026,
+    "name": "OKA SHO (Japanese 1000 Guineas)",
+    "grade": "G1",
+    "date": "2026-04-12",
+    "course": "HANSHIN",
+    "distance_surface_raw": "1,600/Turf",
+    "winner_prize_raw": "140,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0412oka.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0412oka.html"
+  },
+  "japan:2026:satsukishojapanese2000guineas": {
+    "key": "japan:2026:satsukishojapanese2000guineas",
+    "source": "japan",
+    "year": 2026,
+    "name": "SATSUKI SHO (Japanese 2000 Guineas)",
+    "grade": "G1",
+    "date": "2026-04-19",
+    "course": "NAKAYAMA",
+    "distance_surface_raw": "2,000/Turf",
+    "winner_prize_raw": "200,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0419satsuki.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0419satsuki.html"
+  },
+  "japan:2026:tennoshospring": {
+    "key": "japan:2026:tennoshospring",
+    "source": "japan",
+    "year": 2026,
+    "name": "TENNO SHO (Spring)",
+    "grade": "G1",
+    "date": "2026-05-03",
+    "course": "KYOTO",
+    "distance_surface_raw": "3,200/Turf",
+    "winner_prize_raw": "300,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0503tenno-spring.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0503tenno-spring.html"
+  },
+  "japan:2026:nhkmilecup": {
+    "key": "japan:2026:nhkmilecup",
+    "source": "japan",
+    "year": 2026,
+    "name": "NHK MILE CUP",
+    "grade": "G1",
+    "date": "2026-05-10",
+    "course": "TOKYO",
+    "distance_surface_raw": "1,600/Turf",
+    "winner_prize_raw": "130,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0510nhk-mile.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0510nhk-mile.html"
+  },
+  "japan:2026:victoriamile": {
+    "key": "japan:2026:victoriamile",
+    "source": "japan",
+    "year": 2026,
+    "name": "VICTORIA MILE",
+    "grade": "G1",
+    "date": "2026-05-17",
+    "course": "TOKYO",
+    "distance_surface_raw": "1,600/Turf",
+    "winner_prize_raw": "150,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0517victoria.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0517victoria.html"
+  },
+  "japan:2026:yushunhimbajapaneseoaks": {
+    "key": "japan:2026:yushunhimbajapaneseoaks",
+    "source": "japan",
+    "year": 2026,
+    "name": "YUSHUN HIMBA (Japanese Oaks)",
+    "grade": "G1",
+    "date": "2026-05-24",
+    "course": "TOKYO",
+    "distance_surface_raw": "2,400/Turf",
+    "winner_prize_raw": "150,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0524oaks.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0524oaks.html"
+  },
+  "japan:2026:tokyoyushunjapanesederby": {
+    "key": "japan:2026:tokyoyushunjapanesederby",
+    "source": "japan",
+    "year": 2026,
+    "name": "TOKYO YUSHUN (Japanese Derby)",
+    "grade": "G1",
+    "date": "2026-05-31",
+    "course": "TOKYO",
+    "distance_surface_raw": "2,400/Turf",
+    "winner_prize_raw": "300,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0531derby.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0531derby.html"
+  },
+  "japan:2026:yasudakinen": {
+    "key": "japan:2026:yasudakinen",
+    "source": "japan",
+    "year": 2026,
+    "name": "YASUDA KINEN",
+    "grade": "G1",
+    "date": "2026-06-07",
+    "course": "TOKYO",
+    "distance_surface_raw": "1,600/Turf",
+    "winner_prize_raw": "180,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0607yasuda.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0607yasuda.html"
+  },
+  "japan:2026:takarazukakinen": {
+    "key": "japan:2026:takarazukakinen",
+    "source": "japan",
+    "year": 2026,
+    "name": "TAKARAZUKA KINEN",
+    "grade": "G1",
+    "date": "2026-06-14",
+    "course": "HANSHIN",
+    "distance_surface_raw": "2,200/Turf",
+    "winner_prize_raw": "300,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0614takarazuka.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0614takarazuka.html"
+  },
+  "japan:2026:sprintersstakes": {
+    "key": "japan:2026:sprintersstakes",
+    "source": "japan",
+    "year": 2026,
+    "name": "SPRINTERS STAKES",
+    "grade": "G1",
+    "date": "2026-09-27",
+    "course": "NAKAYAMA",
+    "distance_surface_raw": "1,200/Turf",
+    "winner_prize_raw": "170,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/0927sprinters.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/0927sprinters.html"
+  },
+  "japan:2026:shukasho": {
+    "key": "japan:2026:shukasho",
+    "source": "japan",
+    "year": 2026,
+    "name": "SHUKA SHO",
+    "grade": "G1",
+    "date": "2026-10-18",
+    "course": "KYOTO",
+    "distance_surface_raw": "2,000/Turf",
+    "winner_prize_raw": "110,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1018shuka.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1018shuka.html"
+  },
+  "japan:2026:kikukashojapanesestleger": {
+    "key": "japan:2026:kikukashojapanesestleger",
+    "source": "japan",
+    "year": 2026,
+    "name": "KIKUKA SHO (Japanese St. Leger)",
+    "grade": "G1",
+    "date": "2026-10-25",
+    "course": "KYOTO",
+    "distance_surface_raw": "3,000/Turf",
+    "winner_prize_raw": "200,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1025kikuka.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1025kikuka.html",
+    "documents": [
+      {
+        "url": "https://japanracing.jp/_news2026/261023.html",
+        "anchor_label": "2026.10.23 Kikuka Sho (Japanese St. Leger) (G1) - Barrier Draw",
+        "kind": "declarations",
+        "rows": 18
+      },
+      {
+        "url": "https://japanracing.jp/_news2026/pdf/261024.pdf",
+        "anchor_label": "2026.10.24 Kikuka Sho (Japanese St. Leger) (G1) - Morning Line (as of October 24)",
+        "kind": "actual_win_snapshot",
+        "rows": 18
+      },
+      {
+        "url": "https://japanracing.jp/_news2026/261025.html",
+        "anchor_label": "2026.10.25 Going to Sky Stands in Kikuka Sho (Japanese St. Leger)",
+        "kind": "results",
+        "rows": 18
+      }
+    ]
+  },
+  "japan:2026:tennoshoautumn": {
+    "key": "japan:2026:tennoshoautumn",
+    "source": "japan",
+    "year": 2026,
+    "name": "TENNO SHO (Autumn)",
+    "grade": "G1",
+    "date": "2026-11-01",
+    "course": "TOKYO",
+    "distance_surface_raw": "2,000/Turf",
+    "winner_prize_raw": "300,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1101tenno-autumn.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1101tenno-autumn.html",
+    "condition_fields": {
+      "Distance": [
+        "2000m, Turf",
+        "/about 10 furlongs"
+      ],
+      "Total Value": [
+        "¥651,000,000",
+        "/about US$000"
+      ],
+      "Prize Money for the Winner": [
+        "¥300,000,000",
+        "/about US$000"
+      ],
+      "Declaration": [
+        "Thu, 29 Oct. '26"
+      ]
+    },
+    "detail_stage": "conditions"
+  },
+  "japan:2026:queenelizabethiicup": {
+    "key": "japan:2026:queenelizabethiicup",
+    "source": "japan",
+    "year": 2026,
+    "name": "QUEEN ELIZABETH II CUP",
+    "grade": "G1",
+    "date": "2026-11-15",
+    "course": "KYOTO",
+    "distance_surface_raw": "2,200/Turf",
+    "winner_prize_raw": "150,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1115qe2.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1115qe2.html"
+  },
+  "japan:2026:milechampionship": {
+    "key": "japan:2026:milechampionship",
+    "source": "japan",
+    "year": 2026,
+    "name": "MILE CHAMPIONSHIP",
+    "grade": "G1",
+    "date": "2026-11-22",
+    "course": "KYOTO",
+    "distance_surface_raw": "1,600/Turf",
+    "winner_prize_raw": "180,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1122mcs.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1122mcs.html"
+  },
+  "japan:2026:japancupinternationalinvitational": {
+    "key": "japan:2026:japancupinternationalinvitational",
+    "source": "japan",
+    "year": 2026,
+    "name": "JAPAN CUP (International Invitational)",
+    "grade": "G1",
+    "date": "2026-11-29",
+    "course": "TOKYO",
+    "distance_surface_raw": "2,400/Turf",
+    "winner_prize_raw": "500,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1129jc.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1129jc.html"
+  },
+  "japan:2026:championscup": {
+    "key": "japan:2026:championscup",
+    "source": "japan",
+    "year": 2026,
+    "name": "CHAMPIONS CUP",
+    "grade": "G1",
+    "date": "2026-12-06",
+    "course": "CHUKYO",
+    "distance_surface_raw": "1,800/Dirt",
+    "winner_prize_raw": "150,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1206champions.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1206champions.html"
+  },
+  "japan:2026:hanshinjuvenilefillies": {
+    "key": "japan:2026:hanshinjuvenilefillies",
+    "source": "japan",
+    "year": 2026,
+    "name": "HANSHIN JUVENILE FILLIES",
+    "grade": "G1",
+    "date": "2026-12-13",
+    "course": "HANSHIN",
+    "distance_surface_raw": "1,600/Turf",
+    "winner_prize_raw": "75,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1213juvenile.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1213juvenile.html"
+  },
+  "japan:2026:asahihaifuturitystakes": {
+    "key": "japan:2026:asahihaifuturitystakes",
+    "source": "japan",
+    "year": 2026,
+    "name": "ASAHI HAI FUTURITY STAKES",
+    "grade": "G1",
+    "date": "2026-12-20",
+    "course": "HANSHIN",
+    "distance_surface_raw": "1,600/Turf",
+    "winner_prize_raw": "80,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1220futurity.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1220futurity.html"
+  },
+  "japan:2026:hopefulstakes": {
+    "key": "japan:2026:hopefulstakes",
+    "source": "japan",
+    "year": 2026,
+    "name": "HOPEFUL STAKES",
+    "grade": "G1",
+    "date": "2026-12-26",
+    "course": "NAKAYAMA",
+    "distance_surface_raw": "2,000/Turf",
+    "winner_prize_raw": "80,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1226hopeful.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1226hopeful.html"
+  },
+  "japan:2026:arimakinenthegrandprix": {
+    "key": "japan:2026:arimakinenthegrandprix",
+    "source": "japan",
+    "year": 2026,
+    "name": "ARIMA KINEN (The Grand Prix)",
+    "grade": "G1",
+    "date": "2026-12-27",
+    "course": "NAKAYAMA",
+    "distance_surface_raw": "2,500/Turf",
+    "winner_prize_raw": "500,000,000",
+    "detail_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026/1227arima.html",
+    "parent_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+    "href": "./2026/1227arima.html",
+    "condition_fields": {
+      "Distance": [
+        "2500m, Turf",
+        "/about 12.5 furlongs"
+      ],
+      "Total Value": [
+        "¥1,090,000,000",
+        "/about US$000"
+      ],
+      "Prize Money for the Winner": [
+        "¥500,000,000",
+        "/about US$000"
+      ],
+      "Declaration": [
+        "Thu, 24 Dec. '26"
+      ]
+    },
+    "detail_stage": "conditions"
+  },
+  "nar:2026:JBCレディスクラシック": {
+    "key": "nar:2026:JBCレディスクラシック",
+    "source": "nar",
+    "year": 2026,
+    "name": "JBCレディスクラシック",
+    "grade": "JpnI",
+    "date": "2026-11-03",
+    "detail_url": "https://www.keiba.go.jp/dirtgraderace/2026/1103_JBCladiesclassic/racecard.html",
+    "parent_url": "https://www.keiba.go.jp/dirtgraderace/",
+    "href": "2026/1103_JBCladiesclassic/racecard.html",
+    "detail_stage": "entries/conditions text"
+  },
+  "nar:2026:JBCスプリント": {
+    "key": "nar:2026:JBCスプリント",
+    "source": "nar",
+    "year": 2026,
+    "name": "JBCスプリント",
+    "grade": "JpnI",
+    "date": "2026-11-03",
+    "detail_url": "https://www.keiba.go.jp/dirtgraderace/2026/1103_JBCsprint/racecard.html",
+    "parent_url": "https://www.keiba.go.jp/dirtgraderace/",
+    "href": "2026/1103_JBCsprint/racecard.html"
+  },
+  "nar:2026:JBCクラシック": {
+    "key": "nar:2026:JBCクラシック",
+    "source": "nar",
+    "year": 2026,
+    "name": "JBCクラシック",
+    "grade": "JpnI",
+    "date": "2026-11-03",
+    "detail_url": "https://www.keiba.go.jp/dirtgraderace/2026/1103_JBCclassic/racecard.html",
+    "parent_url": "https://www.keiba.go.jp/dirtgraderace/",
+    "href": "2026/1103_JBCclassic/racecard.html"
+  }
+}

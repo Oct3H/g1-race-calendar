@@ -1,0 +1,129 @@
+.game-folder-rule {
+  margin: 0 0 15px;
+  color: #9d8aa7;
+  font-size: 10px;
+  line-height: 1.9;
+}
+
+.game-ticket-filters { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px; border: 1px solid #e4daeb; border-radius: 15px; background: #faf7fd; }
+.game-ticket-filters button { display: flex; align-items: center; gap: 7px; padding: 8px 12px; border: 1px solid #e2d5ea; border-radius: 18px; background: #fff; color: #9277a4; font-size: 10px; font-weight: 750; box-shadow: 0 2px 0 #e8dfee; }
+.game-ticket-filters button[aria-pressed="true"] { background: linear-gradient(#b29acb, #9274b2); color: #fff; border-color: #987cb5; box-shadow: inset 0 1px 0 #ffffff70, 0 2px 0 #7d5b9c; }
+.game-ticket-filters button span { min-width: 19px; padding: 2px 4px; border-radius: 10px; background: #a98bc81c; text-align: center; font-size: 9px; font-variant-numeric: tabular-nums; }
+.game-ticket-filters button[aria-pressed="true"] span { background: #ffffff30; }
+.game-ticket-filters button:focus-visible { outline: 3px solid #445ecb; outline-offset: 3px; }
+.game-ticket-filter-note { color: #a295ac; font-size: 9px; line-height: 1.8; margin: 9px 2px 12px; }
+
+.game-ticket-group {
+  margin: 14px 0;
+  border: 1px solid var(--region-border);
+  border-left: 5px solid var(--region-ink);
+  border-radius: 16px;
+  background: #fffefb;
+  box-shadow: 0 3px 0 var(--region-shadow);
+  overflow: hidden;
+}
+
+.game-ticket-group > summary {
+  padding: 15px 18px;
+  list-style: none;
+  cursor: pointer;
+  background: linear-gradient(115deg, #fff, var(--region-fill));
+}
+
+.game-ticket-group > summary::-webkit-details-marker { display: none; }
+.game-ticket-group > summary:focus-visible { outline: 3px solid #445ecb; outline-offset: -4px; }
+.game-ticket-group-top, .game-ticket-group-name, .game-ticket-group-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.game-ticket-group-top { margin-bottom: 9px; color: var(--region-ink); }
+.game-ticket-group-date { font-size: 10px; font-weight: 800; letter-spacing: .5px; }
+.game-ticket-group-count {
+  border: 1px solid var(--region-border);
+  border-radius: 12px;
+  padding: 3px 9px;
+  background: #ffffffa6;
+  font-size: 9px;
+}
+
+.game-ticket-group-name { align-items: flex-start; color: var(--region-ink); }
+.game-ticket-group-name b { font-size: 16px; line-height: 1.5; overflow-wrap: anywhere; }
+.game-ticket-group-name > span { font-size: 21px; flex: none; line-height: 1; }
+.game-ticket-group[open] > summary .game-ticket-group-name > span { transform: rotate(180deg); }
+.game-ticket-group-stats { justify-content: flex-start; flex-wrap: wrap; gap: 7px 22px; margin-top: 12px; }
+.game-ticket-group-stats > span { font-size: 9px; color: #9b919e; }
+.game-ticket-group-stats b { margin-left: 5px; color: var(--region-ink); font-size: 12px; font-variant-numeric: tabular-nums; }
+.game-ticket-group-state { display: block; margin-top: 10px; color: var(--region-ink); font-size: 9px; }
+.game-ticket-group-body { padding: 13px 14px 6px; border-top: 1px dashed var(--region-border); }
+.game-ticket-group-actions { display: flex; flex-wrap: wrap; gap: 9px; align-items: center; }
+.game-ticket-group-actions button {
+  padding: 7px 12px;
+  border: 1px solid var(--region-border);
+  border-radius: 16px;
+  color: var(--region-ink);
+  background: linear-gradient(#fff, var(--region-fill));
+  box-shadow: 0 2px 0 var(--region-shadow);
+  font-size: 10px;
+  font-weight: 750;
+}
+.game-ticket-group-actions button:hover:not(:disabled) { border-color: var(--region-ink); }
+.game-ticket-group-actions button:disabled { opacity: .45; cursor: default; box-shadow: none; }
+.game-ticket-group-actions small { width: 100%; color: #a99aad; font-size: 9px; line-height: 1.7; }
+.game-ticket-group-order { font-size: 9px; color: #aa9cad; margin: 15px 0 0; }
+
+#game-dialog .game-ticket-record { padding: 13px 14px; gap: 9px 12px; border-left-width: 3px; box-shadow: none; }
+#game-dialog .game-ticket-record > div { min-width: 0; }
+.game-ticket-record-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.game-ticket-record-title > b { overflow-wrap: anywhere; }
+.game-ticket-record .game-horse-number { background: var(--region-fill); color: var(--region-ink); }
+.game-ticket-record-id { margin-left: auto; color: #b5a6b8; font-size: 9px; font-variant-numeric: tabular-nums; }
+.game-ticket-addition { padding: 3px 6px; border: 1px solid var(--region-border); border-radius: 8px; color: var(--region-ink); background: #fff; font-size: 8px; }
+#game-dialog .game-ticket-record .game-ticket-status { font-size: 10px; padding: 4px 8px; }
+.game-ticket-record-facts { width: 100%; display: grid; grid-template-columns: 1fr .9fr 1.3fr; gap: 9px; margin: 5px 0 0; padding: 11px 0; border-top: 1px dashed var(--region-border); border-bottom: 1px dashed var(--region-border); }
+.game-ticket-record-facts dt { color: #aa9bae; font-size: 8px; line-height: 1.7; }
+.game-ticket-record-facts dd { margin: 5px 0 0; color: var(--region-ink); font-size: 17px; font-weight: 800; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+#game-dialog .game-ticket-record-facts dd small { display: inline; margin: 0; font-size: 9px; }
+.game-ticket-record-note { width: 100%; margin: 0; color: #a497a9; font-size: 9px; line-height: 1.7; }
+.game-ticket-record-details { width: 100%; border: 1px solid var(--region-border); border-radius: 9px; background: #ffffff90; }
+.game-ticket-record-details > summary { display: flex; align-items: center; gap: 8px; padding: 5px 10px; list-style: none; cursor: pointer; color: var(--region-ink); font-size: 10px; font-weight: 700; }
+.game-ticket-record-details > summary::-webkit-details-marker { display: none; }
+.game-ticket-record-details > summary:focus-visible { outline: 3px solid #445ecb; outline-offset: 2px; border-radius: 8px; }
+.game-ticket-record-details > summary:hover { background: var(--region-fill); border-radius: 8px; }
+.game-ticket-details-chevron { margin-left: auto; font-size: 15px; line-height: 1; }
+.game-ticket-record-details:not([open]) .game-ticket-details-close,
+.game-ticket-record-details[open] .game-ticket-details-open { display: none; }
+.game-ticket-record-details[open] .game-ticket-details-chevron { transform: rotate(180deg); }
+.game-ticket-record-source { padding: 1px 10px 9px; }
+.game-ticket-record-source > span { display: block; color: #a497a9; font-size: 8px; line-height: 1.9; overflow-wrap: anywhere; }
+.game-purchase-record-note { padding: 11px 13px; border: 1px dashed var(--region-border); border-radius: 10px; color: var(--region-ink); background: var(--region-fill); font-size: 10px; line-height: 1.8; }
+
+.game-ticket-refund-request { width: 100%; border: 1px dashed var(--region-border); border-radius: 10px; background: #fffdf7; }
+.game-ticket-refund-request > summary { display: flex; align-items: center; justify-content: space-between; padding: 7px 10px; list-style: none; color: var(--region-ink); cursor: pointer; font-size: 10px; font-weight: 750; }
+.game-ticket-refund-request > summary::-webkit-details-marker { display: none; }
+.game-ticket-refund-request > summary > span { font-size: 8px; opacity: .75; }
+.game-ticket-refund-request > summary:focus-visible { outline: 3px solid #445ecb; outline-offset: 2px; border-radius: 9px; }
+.game-ticket-refund-confirm { padding: 5px 12px 12px; }
+.game-ticket-refund-confirm > b { font-size: 11px; }
+.game-ticket-refund-confirm > p { margin: 7px 0 10px; color: #a397a8; font-size: 9px; line-height: 1.8; }
+.game-ticket-refund-confirm dl { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 11px 12px; margin: 0 0 12px; border: 1px solid var(--region-border); border-radius: 10px; background: var(--region-fill); }
+.game-ticket-refund-confirm dt { font-size: 9px; color: var(--region-ink); }
+.game-ticket-refund-confirm dd { font-size: 20px; font-weight: 800; margin: 5px 0 0; color: var(--region-ink); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.game-ticket-refund-actions { display: flex; gap: 9px; }
+.game-ticket-refund-actions button { flex: 1; padding: 8px 12px; border: 1px solid var(--region-border); border-radius: 18px; background: #fff; color: var(--region-ink); font-size: 10px; font-weight: 750; }
+.game-ticket-refund-actions [data-game-action="ticket-refund"] { background: linear-gradient(#ffffff30, transparent), var(--region-ink); border-color: var(--region-ink); color: #fff; box-shadow: inset 0 1px 0 #ffffff66, 0 2px 0 var(--region-shadow); }
+.game-ticket-refund-actions button:disabled { opacity: .5; cursor: default; }
+.game-ticket-refund-confirm .game-ticket-refund-error { color: #b07153; margin-bottom: 0; }
+.game-ticket-refund-unavailable { display: flex; flex-wrap: wrap; align-items: center; gap: 7px 10px; width: 100%; }
+.game-ticket-refund-unavailable button { padding: 5px 10px; border: 1px solid var(--region-border); border-radius: 12px; background: var(--region-fill); color: var(--region-ink); font-size: 9px; opacity: .45; cursor: default; }
+.game-ticket-refund-unavailable > span { flex: 1; min-width: 140px; color: #ad9dad; font-size: 8px; line-height: 1.7; }
+
+@media (max-width: 600px) {
+  .game-ticket-group > summary { padding: 14px; }
+  .game-ticket-group-body { padding: 11px 9px 4px; }
+  #game-dialog .game-ticket-record { padding: 12px; }
+  #game-dialog .game-ticket-record-title { flex-basis: 100%; }
+  .game-ticket-record-facts dd { font-size: 15px; }
+}

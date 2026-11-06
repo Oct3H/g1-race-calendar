@@ -1,0 +1,18 @@
+{
+  "status": "PASSED",
+  "method": "Fresh official snapshot passed to existing local game rules, independent memory state",
+  "quoteSource": "https://japanracing.jp/_news2026/pdf/261031.pdf",
+  "quoteAt": "2026-10-31T17:30:00+09:00",
+  "checks": [
+    "first shop grant before purchase",
+    "qualified D-1 quote accepted",
+    "purchase debits and locks source/time/odds",
+    "no result means no return or settlement",
+    "D0 blocked without refreshing",
+    "NAR final entries without odds remain blocked"
+  ],
+  "limitations": [
+    "No production adapter, database or wallet",
+    "No final result yet, no real settlement tested"
+  ]
+}

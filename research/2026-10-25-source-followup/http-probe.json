@@ -1,0 +1,25 @@
+{
+  "method": "One normal urllib GET per observed public source; no cookies, credentials or retries; downloaded JS is inspected as text only",
+  "sources": [
+    {
+      "name": "jra_english_2026",
+      "url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+      "requested_at": "2026-10-25T14:48:49.069497+00:00",
+      "status": 200,
+      "final_url": "https://japanracing.jp/en/racing/schedule/graded/list/2026.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 122487,
+      "sha256": "e2b095aeb9da17537118bb10aa84a07f643ae1a23d6e3b3995fa1daf40950104"
+    },
+    {
+      "name": "era_public_bundle",
+      "url": "https://emiratesracing.com/assets/js/bundle.js?v=20261023132942",
+      "requested_at": "2026-10-25T14:48:49.069668+00:00",
+      "status": 200,
+      "final_url": "https://emiratesracing.com/assets/js/bundle.js?v=20261023132942",
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 916470,
+      "sha256": "a2f3be8455d7036d6f9944d958aaaef5dbd05691258a97838c88d5fb943449fa"
+    }
+  ]
+}

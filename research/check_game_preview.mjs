@@ -1,0 +1,271 @@
+import assert from 'node:assert/strict';
+import { createState, addBankDays, withdraw, canBet, withinBetWindow, bettingBlockReason, grossReturn, placeTicket, recordRaceResult, settleRace, refundTickets, refundExample, pendingRefundExample, applyRaceChanges, unreadRefundRaceIds, unreadForRace, markRead, settlementExample } from '../design/game-state.mjs';
+
+const race = { id: 'sample', startAt: '2026-10-23T06:00:00Z', sampleEntriesConfirmed: true, sampleOfficialOdds: true, sampleOddsSource: '虚构官方单胜来源', sampleOddsAt: '2026-10-22T01:00:00Z' };
+const horse = { number: 1, name: 'Sample Horse', odds: '3.2' };
+const beforeMidnight = new Date('2026-10-22T15:59:59Z');
+const midnight = new Date('2026-10-22T16:00:00Z');
+assert.equal(canBet(race, beforeMidnight, 'Asia/Shanghai'), true);
+assert.equal(canBet(race, midnight, 'Asia/Shanghai'), false);
+for (const sampleOddsRefresh of ['success', 'failed', 'offline']) {
+  const cachedRace = { ...race, sampleOddsRefresh };
+  const cachedState = createState();
+  const cachedTicket = placeTicket(cachedState, cachedRace, horse, 10000, beforeMidnight, 'Asia/Shanghai');
+  assert.equal(cachedTicket.odds, '3.2');
+  assert.equal(cachedTicket.oddsAt, race.sampleOddsAt);
+  const snapshot = JSON.stringify(cachedState);
+  assert.throws(() => placeTicket(cachedState, cachedRace, horse, 10000, midnight, 'Asia/Shanghai'), /比赛当日/);
+  assert.equal(JSON.stringify(cachedState), snapshot);
+}
+assert.equal(canBet(race, beforeMidnight, 'Asia/Tokyo'), false);
+assert.equal(canBet({ ...race, sampleFinished: true }, beforeMidnight, 'Asia/Shanghai'), false);
+assert.equal(canBet({ id: 'no-time' }, beforeMidnight, 'Asia/Shanghai'), false);
+assert.equal(canBet({ ...race, sampleCancelled: true }, beforeMidnight, 'Asia/Shanghai'), false);
+assert.equal(canBet({ ...race, sampleEntriesConfirmed: false }, beforeMidnight, 'Asia/Shanghai'), false);
+assert.equal(canBet({ ...race, sampleOfficialOdds: false }, beforeMidnight, 'Asia/Shanghai'), false);
+assert.equal(canBet({ ...race, sampleOddsSource: '' }, beforeMidnight, 'Asia/Shanghai'), false);
+assert.equal(canBet({ ...race, startAt: '2026-11-21T06:00:00Z' }, beforeMidnight, 'Asia/Shanghai'), true);
+assert.equal(canBet({ ...race, startAt: '2026-11-22T06:00:00Z' }, beforeMidnight, 'Asia/Shanghai'), false);
+assert.match(bettingBlockReason({ ...race, sampleEntriesConfirmed: false }, beforeMidnight, 'Asia/Shanghai'), /名单/);
+assert.match(bettingBlockReason({ ...race, sampleOfficialOdds: false }, beforeMidnight, 'Asia/Shanghai'), /官方/);
+assert.equal(withinBetWindow({ startAt: '2026-03-09T03:30:00Z' }, new Date('2026-02-06T17:00:00Z'), 'America/New_York'), true);
+assert.equal(withinBetWindow({ startAt: '2026-03-09T04:00:00Z' }, new Date('2026-02-06T17:00:00Z'), 'America/New_York'), false);
+
+const bank = createState();
+assert.equal(bank.cash, 500000);
+assert.equal(bank.bank, 0);
+addBankDays(bank, 7);
+assert.equal(bank.bank, 70000);
+withdraw(bank, 20000);
+assert.equal(bank.cash, 520000);
+assert.equal(bank.bank, 50000);
+const combined = bank.cash + bank.bank;
+assert.throws(() => withdraw(bank, 50001));
+assert.throws(() => withdraw(bank, 0));
+assert.equal(bank.cash + bank.bank, combined);
+addBankDays(bank, 200);
+assert.equal(bank.bank, 1000000);
+withdraw(bank, 100000);
+addBankDays(bank, 0);
+assert.equal(bank.bank, 900000);
+
+const state = createState();
+const ticket = placeTicket(state, race, horse, 10000, beforeMidnight, 'Asia/Shanghai');
+assert.equal(state.cash, 490000);
+horse.odds = '4.8'; // A later quote must not alter an existing ticket.
+assert.equal(ticket.odds, '3.2');
+assert.equal(ticket.status, 'pending');
+assert.equal(ticket.source, race.sampleOddsSource);
+assert.equal(ticket.oddsAt, race.sampleOddsAt);
+for (const invalid of [0, -1, 0.5, 500001, NaN]) {
+  assert.throws(() => placeTicket(state, race, horse, invalid, beforeMidnight, 'Asia/Shanghai'));
+}
+assert.throws(() => placeTicket(state, race, horse, 10000, midnight, 'Asia/Shanghai'));
+assert.equal(state.cash, 490000);
+assert.equal(state.tickets.length, 1);
+settleRace(state, race.id, 1);
+assert.equal(state.cash, 522000);
+assert.equal(ticket.returned, 32000);
+assert.equal(ticket.profit, 22000);
+assert.equal(unreadForRace(state, race.id).length, 1);
+settleRace(state, race.id, 1);
+settleRace(state, race.id, 2); // Repeated / changed demo input cannot credit twice.
+assert.equal(state.cash, 522000);
+assert.equal(ticket.status, 'won');
+markRead(state, race.id);
+assert.equal(unreadForRace(state, race.id).length, 0);
+assert.equal(state.cash, 522000);
+assert.equal(grossReturn(10001, '2.875'), 28752);
+assert.throws(() => grossReturn(10000, '0.0'));
+assert.equal(grossReturn(10000, '4.0', 2), 20000);
+assert.equal(grossReturn(10002, '2.875', 2), 14377);
+assert.equal(grossReturn(10000, '4.5', 3), 15000);
+for (const shares of [0, -1, 1.5, NaN]) assert.throws(() => grossReturn(10000, '4.0', shares));
+
+// Multiple horses and same-horse additions remain separate orders and round separately.
+const additions = createState();
+const firstAddition = placeTicket(additions, race, { ...horse, odds: '2.875' }, 10001, beforeMidnight, 'Asia/Shanghai');
+const secondAddition = placeTicket(additions, { ...race, sampleOddsAt: '2026-10-22T02:00:00Z' }, { ...horse, odds: '3.125' }, 10002, beforeMidnight, 'Asia/Shanghai');
+const otherHorse = placeTicket(additions, race, { number: 2, name: 'Other Horse', odds: '4.8' }, 5000, beforeMidnight, 'Asia/Shanghai');
+assert.equal(new Set(additions.tickets.map(item => item.id)).size, 3);
+assert.equal(additions.cash, 474997);
+recordRaceResult(additions, race.id, 1);
+assert.equal(additions.cash, 474997, 'recording a result still does not credit additions');
+settleRace(additions, race.id);
+assert.deepEqual(additions.tickets.map(item => item.returned), [28752, 31256, 0]);
+assert.equal(additions.cash, 535005);
+assert.deepEqual([firstAddition.odds, secondAddition.odds, otherHorse.odds], ['2.875', '3.125', '4.8']);
+assert.notEqual(firstAddition.oddsAt, secondAddition.oddsAt);
+settleRace(additions, race.id);
+assert.equal(additions.cash, 535005);
+const refundedAdditions = createState();
+for (const ticket of [firstAddition, secondAddition, otherHorse]) placeTicket(refundedAdditions, race, { number: ticket.horseNumber, name: ticket.horseName, odds: ticket.odds }, ticket.amount, beforeMidnight, 'Asia/Shanghai');
+refundTickets(refundedAdditions, race.id, 'withdrawn', 1);
+assert.equal(refundedAdditions.cash, 495000);
+assert.deepEqual(refundedAdditions.tickets.map(item => item.status), ['void', 'void', 'pending']);
+refundTickets(refundedAdditions, race.id, 'cancelled');
+refundTickets(refundedAdditions, race.id, 'cancelled');
+assert.equal(refundedAdditions.cash, 500000);
+
+const tiedState = createState();
+const tiedHorses = [
+  { number: 1, name: 'Winner A', odds: '4.0' },
+  { number: 2, name: 'Winner B', odds: '6.0' },
+  { number: 3, name: 'Other Horse', odds: '8.0' }
+];
+const tiedTickets = tiedHorses.map(item => placeTicket(tiedState, race, item, 10000, beforeMidnight, 'Asia/Shanghai'));
+tiedHorses[0].odds = '9.0';
+settleRace(tiedState, race.id, [1, 2]);
+assert.deepEqual(tiedTickets.map(item => item.status), ['won', 'won', 'lost']);
+assert.deepEqual(tiedTickets.map(item => item.returned), [20000, 30000, 0]);
+assert.deepEqual(tiedTickets.map(item => item.profit), [10000, 20000, -10000]);
+assert.equal(tiedTickets[0].odds, '4.0', 'dead heat preserves the locked multiplier');
+assert.equal(tiedTickets[0].singleWinnerReturn, 40000);
+assert.equal(tiedTickets[0].deadHeatCount, 2);
+assert.deepEqual(tiedTickets[0].winnerNumbers, [1, 2]);
+assert.equal(tiedState.cash, 520000);
+const tiedSnapshot = JSON.stringify(tiedState);
+settleRace(tiedState, race.id, [1, 2]);
+settleRace(tiedState, race.id, [3]);
+assert.equal(JSON.stringify(tiedState), tiedSnapshot, 'repeated reads or later inputs do not pay a settled ticket twice');
+
+const fractionalState = createState();
+const fractional = placeTicket(fractionalState, race, { ...horse, odds: '2.875' }, 10002, beforeMidnight, 'Asia/Shanghai');
+for (const winner of [[], [1, 0], null, ['1']]) {
+  const snapshot = JSON.stringify(fractionalState);
+  assert.throws(() => settleRace(fractionalState, race.id, winner));
+  assert.equal(JSON.stringify(fractionalState), snapshot);
+}
+settleRace(fractionalState, race.id, [1, 2]);
+assert.equal(fractional.returned, 14377);
+assert.equal(fractional.profit, 4375);
+const duplicateWinner = createState();
+placeTicket(duplicateWinner, race, { ...horse, odds: '4.0' }, 10000, beforeMidnight, 'Asia/Shanghai');
+settleRace(duplicateWinner, race.id, [1, 1]);
+assert.equal(duplicateWinner.tickets[0].returned, 40000, 'duplicate source rows do not create extra champions');
+
+const horses = [1, 2, 3, 4].map(number => ({ number, name: `Horse ${number}`, odds: '3.2' }));
+const won = settlementExample('win', 'example', horses);
+const lost = settlementExample('lose', 'example', horses);
+const broke = settlementExample('broke', 'example', horses);
+assert.equal(won.cash, 490000, 'confirmed results must not credit money in the background');
+assert.equal(won.tickets[0].status, 'pending');
+assert.equal(won.tickets[0].returned, undefined);
+assert.equal(unreadForRace(won, 'example').length, 1, 'ready results appear in the red alert');
+recordRaceResult(won, 'example', 1);
+assert.equal(won.cash, 490000);
+markRead(won, 'example');
+assert.equal(unreadForRace(won, 'example').length, 1, 'unsettled results cannot be silently marked read');
+settleRace(won, 'example');
+settleRace(lost, 'example');
+assert.equal(broke.cash, 0);
+assert.ok(broke.tickets.every(ticket => ticket.status === 'pending'), 'zero cash is still awaiting user settlement');
+settleRace(broke, 'example');
+assert.equal(won.cash, 522000);
+assert.equal(lost.cash, 490000);
+assert.equal(broke.cash, 0);
+assert.equal(broke.bank, 30000);
+const afterUserSettlement = JSON.stringify(won);
+settleRace(won, 'example');
+recordRaceResult(won, 'example', 2);
+assert.equal(JSON.stringify(won), afterUserSettlement, 're-entry and later fetch do not credit a settled ticket again');
+const waiting = createState();
+placeTicket(waiting, race, horse, 10000, beforeMidnight, 'Asia/Shanghai');
+const waitingSnapshot = JSON.stringify(waiting);
+settleRace(waiting, race.id);
+assert.equal(JSON.stringify(waiting), waitingSnapshot, 'no confirmed result means no settlement');
+const confirmedButRefunded = settlementExample('win', 'refund-ready', horses);
+refundTickets(confirmedButRefunded, 'refund-ready', 'cancelled');
+settleRace(confirmedButRefunded, 'refund-ready');
+assert.equal(confirmedButRefunded.cash, 500000, 'automatic cancellation refunds override an unviewed, unsettled result');
+assert.equal(confirmedButRefunded.tickets[0].status, 'void');
+assert.equal(broke.tickets.reduce((sum, item) => sum + item.profit, 0), -500000);
+withdraw(broke, 30000);
+assert.equal(broke.cash, 30000);
+assert.equal(broke.bank, 0);
+const refunds = createState();
+const otherRace = { ...race, id: 'other' };
+const first = placeTicket(refunds, race, horses[0], 10000, beforeMidnight, 'Asia/Shanghai');
+const withdrawn = placeTicket(refunds, race, horses[1], 20000, beforeMidnight, 'Asia/Shanghai');
+const another = placeTicket(refunds, race, horses[1], 5000, beforeMidnight, 'Asia/Shanghai');
+const other = placeTicket(refunds, otherRace, horses[1], 30000, beforeMidnight, 'Asia/Shanghai');
+assert.equal(refunds.cash, 435000);
+refundTickets(refunds, race.id, 'withdrawn', 2);
+assert.equal(refunds.cash, 460000);
+assert.equal(first.status, 'pending');
+assert.equal(other.status, 'pending');
+for (const ticket of [withdrawn, another]) {
+  assert.equal(ticket.status, 'void');
+  assert.equal(ticket.voidReason, 'withdrawn');
+  assert.equal(ticket.returned, ticket.amount);
+  assert.equal(ticket.profit, 0);
+}
+assert.equal(unreadForRace(refunds, race.id).length, 2);
+refundTickets(refunds, race.id, 'withdrawn', 2);
+assert.equal(refunds.cash, 460000, 'repeated withdrawal must not credit twice');
+refundTickets(refunds, race.id, 'cancelled');
+assert.equal(refunds.cash, 470000);
+assert.equal(first.status, 'void');
+assert.equal(first.voidReason, 'cancelled');
+refundTickets(refunds, race.id, 'cancelled');
+settleRace(refunds, race.id, 2);
+assert.equal(refunds.cash, 470000, 'refunded tickets cannot be paid again as winners');
+assert.equal(other.status, 'pending');
+assert.equal(refunds.bank, 0);
+markRead(refunds, race.id);
+assert.equal(unreadForRace(refunds, race.id).length, 0);
+assert.equal(refunds.cash, 470000, 'opening and reading a refund does not change funds');
+settleRace(refunds, otherRace.id, 2);
+const afterSettlement = refunds.cash;
+refundTickets(refunds, otherRace.id, 'cancelled');
+assert.equal(refunds.cash, afterSettlement, 'settled-result corrections remain outside this refund rule');
+assert.equal(other.status, 'won');
+assert.throws(() => refundTickets(refunds, race.id, 'postponed'));
+assert.throws(() => refundTickets(refunds, race.id, 'withdrawn'));
+for (const unavailableRace of [{ ...race, sampleCancelled: true }, { ...race, sampleWithdrawnNumbers: [1] }]) {
+  const snapshot = JSON.stringify(refunds);
+  assert.throws(() => placeTicket(refunds, unavailableRace, horses[0], 10000, beforeMidnight, 'Asia/Shanghai'));
+  assert.equal(JSON.stringify(refunds), snapshot);
+}
+const cancelledExample = refundExample('cancelled', race.id, horses);
+assert.equal(cancelledExample.cash, 500000);
+assert.ok(cancelledExample.tickets.every(ticket => ticket.status === 'void' && ticket.profit === 0));
+const withdrawnExample = refundExample('withdrawn', race.id, horses);
+assert.equal(withdrawnExample.cash, 490000);
+assert.equal(withdrawnExample.tickets[0].status, 'pending');
+assert.equal(withdrawnExample.tickets[1].status, 'void');
+const postponedState = createState();
+const postponedRace = { ...race, id: 'postponed' };
+const postponedHorse = { ...horses[0], odds: '3.2' };
+const kept = placeTicket(postponedState, postponedRace, postponedHorse, 10000, beforeMidnight, 'Asia/Shanghai');
+postponedRace.startAt = '2026-10-28T06:00:00Z';
+postponedHorse.odds = '9.9';
+assert.equal(kept.status, 'pending');
+assert.equal(kept.raceId, postponedRace.id);
+assert.equal(kept.odds, '3.2');
+assert.equal(postponedState.cash, 490000);
+settleRace(postponedState, postponedRace.id, 1);
+assert.equal(postponedState.cash, 522000);
+assert.equal(kept.returned, 32000);
+for (const updated of [{ sampleEntriesConfirmed: false }, { sampleOfficialOdds: false }, { startAt: '2026-11-22T06:00:00Z' }]) {
+  const current = createState();
+  const snapshot = JSON.stringify(current);
+  assert.throws(() => placeTicket(current, { ...race, ...updated }, horses[0], 10000, beforeMidnight, 'Asia/Shanghai'));
+  assert.equal(JSON.stringify(current), snapshot, 'confirmation rechecks eligibility without deducting funds');
+}
+const refreshed = pendingRefundExample('cancelled', horses);
+assert.equal(refreshed.cash, 470000);
+assert.equal(unreadRefundRaceIds(refreshed).length, 0);
+applyRaceChanges(refreshed, [{ id: 'cancelled', sampleCancelled: true }]);
+assert.equal(refreshed.cash, 500000);
+assert.deepEqual(unreadRefundRaceIds(refreshed), ['cancelled']);
+applyRaceChanges(refreshed, [{ id: 'cancelled', sampleCancelled: true }]);
+assert.equal(refreshed.cash, 500000);
+markRead(refreshed, 'cancelled');
+assert.equal(unreadRefundRaceIds(refreshed).length, 0);
+const selectiveRead = refundExample('cancelled', 'mixed', horses);
+selectiveRead.tickets.push({ id: 3, raceId: 'mixed', status: 'won', read: false });
+markRead(selectiveRead, 'mixed', [1, 2]);
+assert.equal(unreadRefundRaceIds(selectiveRead).length, 0);
+assert.equal(unreadForRace(selectiveRead, 'mixed').length, 1, 'automatic refunds do not mark unseen race winnings as read');
+console.log('PASS: 30-day calendar window, DST, confirmed entries and official odds, confirmation rechecks; refresh refunds, unread queue, idempotence and existing game rules.');

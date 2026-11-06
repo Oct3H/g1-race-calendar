@@ -1,0 +1,10 @@
+{
+  "name": "official_amendment",
+  "url": "https://khrc.ky.gov/Documents/22-0010%20%20Amr%20F.%20Zedan%20%20Medina%20Spirit%20DQd.pdf",
+  "method": "GET",
+  "requested_at": "2026-10-26T12:18:58.564183+00:00",
+  "status": 404,
+  "error": "HTTP Error 404: Not Found",
+  "bytes": 1245,
+  "sha256": "dc1d54dab6ec8c00f70137927504e4f222c8395f10760b6beecfcfa94e08249f"
+}

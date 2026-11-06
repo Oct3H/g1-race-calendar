@@ -1,0 +1,18 @@
+{
+  "name": "kikuka_win_time",
+  "url": "https://info.cld.hkjc.com/graphql/base/",
+  "method": "POST",
+  "requested_at": "2026-10-26T12:18:52.683863+00:00",
+  "status": 200,
+  "final_url": "https://info.cld.hkjc.com/graphql/base/",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-encoding": "gzip",
+    "cache-control": "public, max-age=30",
+    "date": "Mon, 26 Oct 2026 12:18:58 GMT",
+    "content-length": "399"
+  },
+  "bytes": 399,
+  "sha256": "b3f68c25c37bf5396094951e7c3f9b605df71feff5b56a244af79e0340b78b62",
+  "graphql_errors": null
+}

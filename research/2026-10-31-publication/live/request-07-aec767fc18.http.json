@@ -1,0 +1,23 @@
+{
+  "name": "request-07-aec767fc18",
+  "url": "https://japanracing.jp/en/racing/schedule/graded/list/",
+  "method": "GET",
+  "requested_at": "2026-10-31T12:59:26.841472+00:00",
+  "status": 200,
+  "final_url": "https://japanracing.jp/en/racing/schedule/graded/list/",
+  "headers": {
+    "date": "Sat, 31 Oct 2026 12:59:27 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "396",
+    "server": "Apache"
+  },
+  "bytes": 396,
+  "sha256": "d104d4326d5ecd7e1b4d85e26d6a819a94063c471d4240bfb91ebb042b5f6f20",
+  "links": [],
+  "script_sources": [
+    "../../../../common/js/jquery.js",
+    "../../../../common/js/redirect.js"
+  ],
+  "tables": 0,
+  "rows": 0
+}

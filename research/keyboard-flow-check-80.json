@@ -1,0 +1,40 @@
+{
+  "round": 80,
+  "status": "PASSED",
+  "method": "Offline actual DOM/controllers; no native Tab, focus trap or pixels",
+  "results": [
+    {
+      "lang": "zh",
+      "passed": [
+        "shop panel heading focus",
+        "bank and purchase panel transitions",
+        "shop cancel handler",
+        "horse/history entry and return focus",
+        "race close returns to source card",
+        "settings Escape closes and returns focus"
+      ]
+    },
+    {
+      "lang": "ja",
+      "passed": [
+        "shop panel heading focus",
+        "bank and purchase panel transitions",
+        "shop cancel handler",
+        "horse/history entry and return focus",
+        "race close returns to source card",
+        "settings Escape closes and returns focus"
+      ]
+    },
+    {
+      "lang": "en",
+      "passed": [
+        "shop panel heading focus",
+        "bank and purchase panel transitions",
+        "shop cancel handler",
+        "horse/history entry and return focus",
+        "race close returns to source card",
+        "settings Escape closes and returns focus"
+      ]
+    }
+  ]
+}

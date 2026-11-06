@@ -1,0 +1,22 @@
+{
+  "round": 46,
+  "date": "2026-10-23",
+  "preview": "http://127.0.0.1:8765/index.html?preview=calendar&settingsMenu=preview&lang=zh&year=2026&month=10&page=cache&from=calendar&v=46",
+  "scope": "Opt-in preview only. Cache uses the existing settings title/navigation/responsive stylesheet, with Cache selected. The old header settings position becomes Back to calendar while inside cache; it restores the disclosure on calendar return.",
+  "implementation": [
+    "Reuse settings.css only on the cache preview; no replacement settings palette.",
+    "Move existing cache nodes into the shared settings layout; preserve node identities/listeners/IDs; promote a general Settings heading and change the existing cache title to h2.",
+    "Observe the existing cache-view hidden attribute to follow in-place brand navigation; no polling.",
+    "Preserve language/year/month and preview marker through navigation."
+  ],
+  "checks": [
+    "Default URL executes no DOM operations",
+    "Node actual addCacheSettingsNavigation/settingsPreviewLinks/syncPage functions: three categories with Cache selected; correct destinations and return URL; no duplicated layout/styles on repeated sync",
+    "Node DOM doubles: original cache controls/IDs/callbacks survive reparenting; header changes to Back to calendar in cache and restores settings trigger after in-place calendar return",
+    "New JavaScript syntax and scoped CSS balance PASS",
+    "Static index/settings IDs remain 152/8 unique; all local asset references exist; both pages use script v46",
+    "6 HEAD-only checks returned 200 and Cache-Control no-store"
+  ],
+  "visual_review": "No automatic browser rendering or geometry verification. Existing browser access restriction respected. DOM doubles do not prove final visual layout, keyboard interaction or native observer delivery. User website review pending.",
+  "limits": "Default navigation is not replaced; no real cache deletion/download, persistence, financial or source-fetching changes."
+}

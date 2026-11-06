@@ -1,0 +1,28 @@
+{
+  "checked_on": "2026-10-22",
+  "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2025/pdf/arima.pdf",
+  "source_page": 1,
+  "race": "有馬記念",
+  "venue_date": "2025-12-28",
+  "verification_method": "Manual transcription of numerical race facts; checked against the rendered official PDF, not a production parser.",
+  "odds_type": "Win final",
+  "odds_format": "decimal return including stake",
+  "rows": [
+    {"finish": 1, "number": 4, "name": "ミュージアムマイル", "win": 3.8, "popularity": 3},
+    {"finish": 2, "number": 10, "name": "コスモキュランダ", "win": 111.5, "popularity": 12},
+    {"finish": 3, "number": 9, "name": "ダノンデサイル", "win": 3.8, "popularity": 2},
+    {"finish": 4, "number": 5, "name": "レガレイラ", "win": 3.3, "popularity": 1},
+    {"finish": 5, "number": 7, "name": "サンライズジパング", "win": 122.5, "popularity": 13},
+    {"finish": 6, "number": 16, "name": "タスティエーラ", "win": 35.4, "popularity": 8},
+    {"finish": 7, "number": 3, "name": "ジャスティンパレス", "win": 12.7, "popularity": 5},
+    {"finish": 8, "number": 1, "name": "エキサイトバイオ", "win": 29.7, "popularity": 7},
+    {"finish": 9, "number": 12, "name": "マイネルエンペラー", "win": 111.5, "popularity": 11},
+    {"finish": 10, "number": 8, "name": "シュヴァリエローズ", "win": 154.1, "popularity": 14},
+    {"finish": 11, "number": 13, "name": "アドマイヤテラ", "win": 50.3, "popularity": 9},
+    {"finish": 12, "number": 15, "name": "エルトンバローズ", "win": 180.3, "popularity": 16},
+    {"finish": 13, "number": 6, "name": "メイショウタバル", "win": 5.8, "popularity": 4},
+    {"finish": 14, "number": 2, "name": "シンエンペラー", "win": 26.6, "popularity": 6},
+    {"finish": 15, "number": 14, "name": "アラタ", "win": 174.2, "popularity": 15},
+    {"finish": 16, "number": 11, "name": "ミステリーウェイ", "win": 53.5, "popularity": 10}
+  ]
+}
