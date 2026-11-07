@@ -15,6 +15,7 @@ const centralNames = {
 const prioritySlugs = new Set(['oka', 'satsuki', 'oaks', 'derby', 'takarazuka', 'shuka', 'kikuka', 'arima']);
 const countryCodes = { JPN: 'JP', ENG: 'GB', USA: 'US', GER: 'DE', AUS: 'AU', IRE: 'IE', CAN: 'CA', SAF: 'ZA', ARG: 'AR', BRZ: 'BR', CHI: 'CL', PER: 'PE', URU: 'UY', UAE: 'AE', KSA: 'SA' };
 const centralDirectory = year => `https://japanracing.jp/en/racing/schedule/graded/list/${year}.html`;
+const centralFixtures = year => `https://japanracing.jp/en/racing/schedule/jra/${year}.html`;
 const localDirectory = year => `https://www.keiba.go.jp/dirtgraderace/${year}/racelist/index.html`;
 const pad = value => String(value).padStart(2, '0');
 
@@ -48,6 +49,46 @@ function centralRace(year, date, sourceName, track, course, sourceURL, winnerPri
   });
 }
 
+function centralIdentity(name, references) {
+  const normalized = value => value.toLowerCase().replace(/[^a-z0-9]/g, '');
+  const directory = Object.values(references).filter(row => row.source === 'japan');
+  const full = directory.filter(row => normalized(name).includes(normalized(row.name)));
+  const matches = full.length ? full : directory.filter(row => normalized(name).includes(normalized(row.name.split('(')[0])));
+  const reference = matches.length === 1 ? matches[0] : undefined;
+  return { slug: reference?.detail_url.match(/\/\d{4}([a-z][a-z0-9-]*)\.html$/)?.[1], sourceEnglish: reference?.name || name };
+}
+
+export function parseCentralFixtures(html, year, references) {
+  const template = document.createElement('template');
+  template.innerHTML = html.match(/<body\b[^>]*>([\s\S]*)<\/body>/i)?.[1] ?? html;
+  const page = template.content;
+  if (page.querySelector('h2.title02')?.textContent.trim() !== String(year)) throw new Error('Wrong JRA fixture year');
+  const tracks = { sap: 'SAPPORO', hak: 'HAKODATE', fuk: 'FUKUSHIMA', nii: 'NIIGATA', tok: 'TOKYO',
+    nak: 'NAKAYAMA', chu: 'CHUKYO', kyo: 'KYOTO', han: 'HANSHIN', kok: 'KOKURA' };
+  const races = [];
+  for (const [index, month] of months.entries()) {
+    const panel = page.querySelector(`li#${month}`);
+    if (!panel) throw new Error('Missing month in JRA fixtures');
+    for (const fixture of panel.querySelectorAll('.calendarRaceName')) {
+      const label = fixture.querySelector('.calendarRaceText')?.textContent.trim() || '';
+      const track = fixture.querySelector('.calendarRaceIcon img')?.getAttribute('src')?.match(/\/rf_([a-z]+)\.png$/)?.[1];
+      for (const match of label.matchAll(/([\s\S]*?)\s*\((J-)?G([123])\)/g)) {
+        if (match[2] || match[3] !== '1') continue;
+        const name = match[1].trim().replace(/\s+/g, ' ').replace(/\s*\(/g, ' (');
+        const day = fixture.closest('td')?.querySelector('.dayNumber')?.textContent.trim();
+        if (!name || !/^\d{1,2}$/.test(day || '')) throw new Error('Unrecognized JRA fixture');
+        const date = publishedDate(year, index + 1, Number(day));
+        const { slug, sourceEnglish } = centralIdentity(name, references);
+        races.push(scheduleRace({ id: `jra-${year}-${slug || encodeURIComponent(name)}`, date,
+          name: centralNames[slug] || name, nameLang: centralNames[slug] ? 'ja' : 'en',
+          sourceEnglish, track: centralTracks[tracks[track]], source: 'jra', url: centralFixtures(year), priority: prioritySlugs.has(slug) }));
+      }
+    }
+  }
+  if (!races.length || new Set(races.map(race => race.id)).size !== races.length) throw new Error('Missing or duplicate JRA fixtures');
+  return races;
+}
+
 export function parseSchedule(html, year, provider, url, references = {}) {
   const template = document.createElement('template');
   template.innerHTML = html.match(/<body\b[^>]*>([\s\S]*)<\/body>/i)?.[1] ?? html;
@@ -69,14 +110,9 @@ export function parseSchedule(html, year, provider, url, references = {}) {
         const title = heading.cloneNode(true);
         title.querySelector('.textBold').remove();
         const name = title.textContent.trim();
-        const normalized = value => value.toLowerCase().replace(/[^a-z0-9]/g, '');
-        const directory = Object.values(references).filter(row => row.source === 'japan');
-        const full = directory.filter(row => normalized(name).includes(normalized(row.name)));
-        const matches = full.length ? full : directory.filter(row => normalized(name).includes(normalized(row.name.split('(')[0])));
-        const reference = matches.length === 1 ? matches[0] : undefined;
-        const slug = reference?.detail_url.match(/\/\d{4}([a-z][a-z0-9-]*)\.html$/)?.[1];
+        const { slug, sourceEnglish } = centralIdentity(name, references);
         races.push(scheduleRace({ id: `jra-${year}-${slug || encodeURIComponent(name)}`, date,
-          name: centralNames[slug] || name, sourceEnglish: reference?.name || name, nameLang: centralNames[slug] ? 'ja' : 'en',
+          name: centralNames[slug] || name, sourceEnglish, nameLang: centralNames[slug] ? 'ja' : 'en',
           track: centralTracks[track] || track, surface: /Turf/i.test(course) ? 'turf' : /Dirt/i.test(course) ? 'dirt' : undefined,
           distance: course, source: 'jra', url, winnerPrize, priority: prioritySlugs.has(slug) }));
       }
@@ -156,8 +192,9 @@ export function restoreCentralMetadata(race, references) {
 }
 
 export async function createSchedule(offline) {
-  const [research, history, international] = await Promise.all([
-    archive('japan-schedule-2026.json'), archive('races-2025.json'), archive('ifha-schedule-2026.json')
+  const [research, history, international, local] = await Promise.all([
+    archive('japan-schedule-2026.json'), archive('races-2025.json'), archive('ifha-schedule-2026.json'),
+    archive('nar-schedule-2027.json')
   ]);
   const rankingsFor = createIfhaRankings(history);
   const years = new Map();
@@ -179,6 +216,12 @@ export async function createSchedule(offline) {
     const overseas = records.filter(row => row.scheduleSource === 'archive');
     if (overseas.length) state.providers.ifha = { status: 'archive', races: overseas, rankingYear: 2025, rankingArchived: true };
   }
+  forYear(local.year).providers.nar = {
+    status: 'archive',
+    races: local.races.map(row => scheduleRace({
+      ...row, id: `nar-${local.year}-${encodeURIComponent(row.name)}`, surface: 'dirt', source: 'nar', url: local.source
+    }))
+  };
   const { fixtures, archivedAt, ...archiveStatus } = international;
   forYear(2026).providers.ifha = {
     ...archiveStatus, status: 'archive', archivedAt,
@@ -192,7 +235,7 @@ export async function createSchedule(offline) {
     for (const race of incoming) {
       const key = keyFor(race);
       const prior = merged.get(key);
-      merged.set(key, { ...prior, ...race, id: prior?.id || race.id });
+      merged.set(key, { ...prior, ...(prior?.date !== race.date && { startAt: undefined }), ...race, id: prior?.id || race.id });
     }
     return [...merged.values()];
   }
@@ -209,11 +252,26 @@ export async function createSchedule(offline) {
     const previous = state.providers[provider];
     const prior = { ...previous, races: previous?.races ?? [], attemptedAt: Date.now() };
     try {
+      const readCentral = async () => {
+        let primaryError;
+        try {
+          const response = await native('fetchSchedule', key);
+          if (response.status === 200) return parseSchedule(response.html, year, provider, response.url, research);
+        } catch (error) {
+          if (year < currentYear) throw error;
+          primaryError = error;
+        }
+        if (year < currentYear) return null;
+        const alternate = await native('fetchSchedule', { year, provider: 'jra-fixtures' });
+        if (alternate.status === 200) return parseCentralFixtures(alternate.html, year, research);
+        if (primaryError) throw primaryError;
+        return null;
+      };
       const [response, ranking] = await Promise.all([
-        native('fetchSchedule', key),
+        provider === 'jra' ? readCentral() : native('fetchSchedule', key),
         provider === 'ifha' ? rankingsFor(year, force) : null
       ]);
-      if (response.status !== 200) {
+      if (!response || (!Array.isArray(response) && response.status !== 200)) {
         state.providers[provider] = { ...prior, status: year > currentYear ? 'unpublished' : 'failed' };
         return;
       }
@@ -223,6 +281,8 @@ export async function createSchedule(offline) {
         const { fixtures, rankingYear, rankingArchived, sourceRows, conflicts } = parseIfhaFixtures(response.html, year, response.url, ranking);
         parsed = fixtures.map(row => scheduleRace({ ...row, country: countryCodes[row.country] || row.country, source: 'ifha' }));
         rankingStatus = { rankingYear, rankingArchived, sourceRows, conflicts, matchedCount: parsed.length };
+      } else if (Array.isArray(response)) {
+        parsed = response;
       } else {
         parsed = parseSchedule(response.html, year, provider, response.url, research);
       }
@@ -230,13 +290,22 @@ export async function createSchedule(offline) {
       await native('saveSchedule', { ...key, json: JSON.stringify(snapshot) });
       state.providers[provider] = { ...snapshot, status: 'success', attemptedAt: prior.attemptedAt };
     } catch (error) {
+      if (error.code === 'NO_FIXTURES' && year > currentYear) {
+        state.providers[provider] = { ...prior, status: 'unpublished' };
+        return;
+      }
       state.providers[provider] = { ...prior, status: 'failed', error: String(error.message || error) };
       console.warn(`Schedule ${provider} ${year}:`, error.message);
     }
   }
 
-  function collect(year, force, onChange) {
-    if (inFlight.has(year)) return inFlight.get(year);
+  function collect(year, force, onChange, { localOnly = false } = {}) {
+    const active = inFlight.get(year);
+    if (active) {
+      return force && !active.force
+        ? active.request.then(() => collect(year, force, onChange, { localOnly }))
+        : active.request;
+    }
     const state = forYear(year);
     const providers = providersFor(year);
     const request = (async () => {
@@ -251,7 +320,7 @@ export async function createSchedule(offline) {
         }));
         state.read = true;
       }
-      if (offline || !providers.length) return;
+      if (offline || localOnly || !providers.length) return;
       const due = providers.filter(provider => needsUpdate(state.providers[provider], year, force));
       if (!due.length) return;
       state.checking = true;
@@ -262,7 +331,7 @@ export async function createSchedule(offline) {
       state.checking = false;
       onChange();
     });
-    inFlight.set(year, request);
+    inFlight.set(year, { request, force });
     return request;
   }
 

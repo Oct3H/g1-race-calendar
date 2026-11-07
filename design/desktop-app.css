@@ -7,7 +7,10 @@ body[data-desktop] #cache-view :is(.cache-demo-toolbar, .cache-overview, .cache-
 }
 
 .desktop-cache-panel p { margin: 0 0 16px; }
-.desktop-cache-panel button { margin: 0 8px 8px 0; }
+.desktop-cache-panel .cache-year-row { grid-template-columns: 4.5rem minmax(0, 1fr) max-content; }
+.desktop-cache-panel .cache-year-actions { grid-column: auto; grid-row: auto; }
+.desktop-cache-panel .cache-year-row > strong { font-variant-numeric: tabular-nums; }
+.desktop-cache-panel button:disabled { opacity: .5; }
 .desktop-source-note, .source-placeholder[data-live-source] { font-size: .9rem; }
 .source-placeholder[data-live-source] > :not(a, .desktop-source-time, .desktop-detail-refresh),
 dialog:not([data-live-race]) .source-placeholder[data-live-source] > :is(a, .desktop-source-time, .desktop-detail-refresh) { display: none; }

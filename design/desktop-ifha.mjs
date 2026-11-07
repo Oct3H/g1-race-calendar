@@ -150,6 +150,10 @@ export function parseIfhaFixtures(html, year, url, ranking) {
       rank: match.rank, priority: match.row?.priority ?? /breederscupclassic|prixdelarcdetriomphe/.test(nameKey(match.name))
     });
   }
+  if (!sourceRows && [...page.querySelectorAll('tr > td[colspan]')].some(cell =>
+    /^Sorry, no records have been found,/.test(cell.textContent.trim()))) {
+    throw Object.assign(new Error('IFHA returned an empty fixture directory'), { code: 'NO_FIXTURES' });
+  }
   if (!sourceRows || !selected.size) throw new Error('No matching IFHA fixtures');
   return { fixtures: [...selected.values()], sourceRows, conflicts: conflicts.size, rankingYear: ranking.year, rankingArchived: ranking.archived };
 }

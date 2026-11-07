@@ -7,8 +7,28 @@ extension Desktop {
         let key = path + (url.query ?? "")
         tested.insert(key)
         let script: String
-        if path == "/welcome.html" {
-            guard ["fresh", "schedule", "details", "history-future", "audit-history", "horse-ui"].contains(smoke) else { fail("Language was not saved"); return }
+        if smoke == "collection" && path == "/index.html" {
+            script = """
+            await until(() => document.querySelector('#first-collection-panel:not([hidden])'));
+            assert(q('#first-collection-progress').hidden, 'Collection progress should start collapsed');
+            q('#first-collection-toggle').click();
+            assert(!q('#first-collection-progress').hidden, 'Collection progress did not open');
+            const bridge = (command, value = null) => window.webkit.messageHandlers.calendar.postMessage({command, value});
+            for (let attempt = 0; attempt < 190; attempt++) {
+                const {collection, launchId} = await bridge('load');
+                const state = JSON.parse(collection || '{}');
+                const year = new Date().getFullYear();
+                if (Object.keys(state.dates || {}).length >= 6 &&
+                    [year, year + 1, year + 2].every(value => state.scheduleLaunches?.[value] === launchId)) {
+                    return JSON.stringify({collectionPassed:true, dates:state.dates, launchId});
+                }
+                if (testErrors.length) throw Error(testErrors.join('\\n'));
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+            throw Error('Collection did not reach six years: ' + q('#first-collection-title').textContent + ' ' + q('#first-collection-copy').textContent);
+            """
+        } else if path == "/welcome.html" {
+            guard ["fresh", "schedule", "details", "history-future", "audit-history", "audit-future", "horse-ui"].contains(smoke) else { fail("Language was not saved"); return }
             script = """
             await until(() => document.body?.dataset.desktop === 'dev' && document.querySelector('#welcome-form'));
             select('zh');
@@ -45,16 +65,30 @@ extension Desktop {
             clearDetailMascot(mascot);
             return JSON.stringify({horseUIPassed:true});
             """
-        } else if smoke == "audit-history" {
+        } else if ["audit-history", "audit-future"].contains(smoke) {
             script = """
             const {createDetails} = await import('./desktop-details.mjs');
-            const archive = await (await fetch('./data/races-2025.json')).json();
-            const codes = {JPN:'JP',ENG:'GB',USA:'US',AUS:'AU',GER:'DE',IRE:'IE',UAE:'AE',KSA:'SA',SAF:'ZA'};
-            const cases = archive.races.filter(row => row.country === 'JPN' || row.rank != null).map(row => ({
-                id:row.id,name:row.name,date:row.date,sourceEnglish:row.canonical_name,country:codes[row.country] || row.country,
-                scheduleURL:row.source_url,scheduleSource:row.country==='JPN' ? row.source_url.includes('keiba.go.jp') ? 'nar' : 'jra' : 'archive'
-            }));
+            let cases;
+            let nextYearCoverage;
+            if (mode === 'audit-future') {
+                const {createSchedule} = await import('./desktop-schedule.mjs');
+                const schedule = await createSchedule(false);
+                const today = new Date().toLocaleDateString('sv-SE');
+                const year = Number(today.slice(0,4));
+                for (const value of [year, year + 1, year + 2]) await schedule.collect(value, false, () => {}, {localOnly:true});
+                cases = schedule.races().filter(race => race.date > today).sort((a,b) => a.date.localeCompare(b.date));
+                nextYearCoverage = Object.fromEntries(['jra', 'nar', 'ifha'].map(provider =>
+                    [provider, schedule.state(year + 1).providers[provider]?.races.length || 0]));
+            } else {
+                const archive = await (await fetch('./data/races-2025.json')).json();
+                const codes = {JPN:'JP',ENG:'GB',USA:'US',AUS:'AU',GER:'DE',IRE:'IE',UAE:'AE',KSA:'SA',SAF:'ZA'};
+                cases = archive.races.filter(row => row.country === 'JPN' || row.rank != null).map(row => ({
+                    id:row.id,name:row.name,date:row.date,sourceEnglish:row.canonical_name,country:codes[row.country] || row.country,
+                    scheduleURL:row.source_url,scheduleSource:row.country==='JPN' ? row.source_url.includes('keiba.go.jp') ? 'nar' : 'jra' : 'archive'
+                }));
+            }
             const selected = cases.filter(race => (!auditCountry || race.country===auditCountry) && (!auditIds || auditIds.split(',').includes(race.id)));
+            if (mode === 'audit-future') assert(auditIds && selected.length === auditIds.split(',').length, 'Specify valid future race IDs for the audit');
             cases.splice(0,cases.length,...selected);
             const total = cases.length;
             const service = createDetails(false);
@@ -65,7 +99,9 @@ extension Desktop {
                     const started = Date.now();
                     try {
                         await service.load(race, () => {});
-                        records.push({name:race.name,sourceEnglish:race.sourceEnglish,country:race.country,date:race.date,runners:race.realResult?.runners.length || 0,url:race.realResult?.url,
+                        records.push({id:race.id,name:race.name,sourceEnglish:race.sourceEnglish,country:race.country,date:race.date,runners:race.realResult?.runners.length || 0,url:race.realResult?.url,
+                          finished:race.realResult ? race.realResult.finished !== false : null,
+                          winOdds:race.realResult?.runners.filter(runner => runner.odds != null).length || 0, startAt:race.realResult?.startAt,
                           seconds:(Date.now()-started)/1000,status:race.refreshState,error:race.detailError,failureKind:race.failureKind,attempts:race.lookup.attempts,misses:race.lookup.misses});
                     } catch (error) {
                         records.push({name:race.name,date:race.date,seconds:(Date.now()-started)/1000,status:'failed',error:String(error.message)});
@@ -73,7 +109,8 @@ extension Desktop {
                 }
             };
             await Promise.all([worker(),worker()]);
-            return JSON.stringify({auditPassed:records.length===total && records.every(row => row.status==='success'),total,records});
+            return JSON.stringify({auditPassed:records.length===total && records.every(row =>
+                row.status==='success' || (mode === 'audit-future' && row.status==='unavailable')),total,nextYearCoverage,records});
             """
         } else if smoke == "history-future" {
             script = """
@@ -273,10 +310,29 @@ extension Desktop {
             await until(() => document.querySelector('.desktop-cache-panel'));
             assert(!q('#cache-view').hidden, 'Cache route did not open');
             if (mode === 'clear') {
-                q('.desktop-cache-panel .cache-year-clear').click();
-                await until(() => q('.desktop-cache-panel .cache-year-clear').disabled);
-                const state = await window.webkit.messageHandlers.calendar.postMessage({command:'load'});
-                assert(JSON.parse(state.result).cleared === true, 'Clear did not persist');
+                const bridge = (command, value = null) => window.webkit.messageHandlers.calendar.postMessage({command, value});
+                const year = 2026;
+                const race = 'race.jra-2026-cache-test';
+                const horse = 'horse.2026-HK_cache_test';
+                const other = 'race.jra-2025-cache-test';
+                const revision = await bridge('cacheRevision', year);
+                const prior = await bridge('load');
+                const directory = await bridge('readSchedule', {provider:'jra', year});
+                const save = (key, year, revision) => bridge('saveDetail', {key, revision, json:JSON.stringify({raceDate:year + '-10-01', runners:[{name:'test'}]})});
+                assert(await save(race, year, revision) && await save(horse, year, revision), 'Could not seed current year');
+                assert(await save(other, 2025, await bridge('cacheRevision', 2025)), 'Could not seed other year');
+                const clear = () => document.querySelector('[data-cache-year="2026"] .cache-year-clear');
+                await until(() => clear() && !clear().disabled);
+                const button = clear();
+                button.click();
+                await until(() => clear() !== button && clear().disabled);
+                assert(!(await bridge('readDetail', race)) && !(await bridge('readDetail', horse)), 'Selected-year details survived clear');
+                assert(await bridge('readDetail', other), 'Other year was cleared');
+                assert(await bridge('readSchedule', {provider:'jra', year}) === directory, 'Schedule was cleared');
+                const state = await bridge('load');
+                assert(JSON.parse(state.result).cleared === true && state.wallet === prior.wallet, 'Clear affected wallet or did not clear seeded result');
+                assert(!(await save(race, year, revision)), 'Pre-clear request resurrected a deleted record');
+                assert(await save(race, year, await bridge('cacheRevision', year)), 'On-demand fetch could not save after clear');
             }
             q('.settings-menu-calendar-return').click();
             return 'cache opened and returned';
@@ -290,7 +346,8 @@ extension Desktop {
             const raceButton = q('[data-race-id="desktop-tenno-2026"].race-card');
             assert(q('#calendar-previous').getBoundingClientRect().width > 0, 'Month controls are hidden');
             raceButton.click();
-            await until(() => q('#race-dialog').open && !q('#calendar-refresh').disabled);
+            await until(() => q('#race-dialog').open && !q('#calendar-refresh').disabled
+                && document.querySelector('.desktop-detail-refresh:not(:disabled)'));
             assert(q('#game-race-purchase').hidden, 'Purchase entry was enabled by default');
             const rows = q('#entry-rows').rows;
             if (mode === 'clear' && visitedCache) {
@@ -362,11 +419,15 @@ extension Desktop {
             switch outcome {
             case .success(let value):
                 print("\(url.path) \(value)")
-                if let result = value as? String, result.contains("\"schedulePassed\":true") || result.contains("\"detailsPassed\":true") || result.contains("\"historyFuturePassed\":true") || result.contains("\"auditPassed\":true") || result.contains("\"horseUIPassed\":true") {
+                if let result = value as? String, result.contains("\"schedulePassed\":true") || result.contains("\"detailsPassed\":true") || result.contains("\"historyFuturePassed\":true") || result.contains("\"auditPassed\":true") || result.contains("\"horseUIPassed\":true") || result.contains("\"collectionPassed\":true") {
                     print("PASS \(smoke)")
                     exit(0)
                 }
-                if smoke == "audit-history" && path == "/index.html" { self.fail("Some historical queries failed"); return }
+                if ["audit-history", "audit-future"].contains(smoke) && path == "/index.html" {
+                    fflush(stdout)
+                    self.fail("Some audited queries failed")
+                    return
+                }
                 if (value as? String) == "verified" {
                     if smoke == "fresh" && !self.completed {
                         self.completed = true

@@ -13,6 +13,7 @@ for (const [property, getter] of Object.entries({
 const cache = new Map();
 let fetches = 0;
 globalThis.window = { webkit: { messageHandlers: { calendar: { async postMessage({ command, value }) {
+  if (command === 'cacheRevision') return 0;
   if (command === 'readDetail') return cache.get(value) || '';
   if (command === 'saveDetail') { cache.set(value.key, value.json); return true; }
   fetches++;
@@ -67,8 +68,35 @@ assert.equal(stableName.name, narRace.name, 'A detail title must not change the 
 const old = { ...jpRace };
 const first = service.load(old, () => {});
 assert.equal(service.load(old, () => {}), first);
+const joined = { ...jpRace };
+let joinedUpdates = 0;
+assert.equal(service.load(joined, () => joinedUpdates++), first);
 await first;
 assert.equal(old.realResult.runners.length, 17);
 assert.equal(old.refreshState, 'failed');
+assert.equal(joined.realResult.runners.length, 17);
+assert.equal(joined.refreshState, 'failed');
+assert(joinedUpdates > 1, 'A detail dialog joining a background fetch must receive its final update');
 assert.equal(fetches, 4);
-console.log('PASS official detail parsing, identity guards, NAR pedigree, overseas matching, offline cache and failed-update retention');
+
+const datedResult = { ...jp, raceDate: jpRace.date };
+cache.set('race.' + jpRace.id, JSON.stringify(datedResult));
+const offlineDetails = createDetails(true);
+await offlineDetails.readCached({ ...jpRace });
+const moved = { ...jpRace, date: '2026-11-08' };
+assert.equal(offlineDetails.attach(moved).startAt, undefined);
+assert.equal((await offlineDetails.readCached(moved)).realResult, undefined);
+assert.equal(await offlineDetails.load(moved, () => {}, { reuseFinished: true }), 'offline');
+assert.equal(moved.realResult, undefined, 'A rescheduled race must not inherit results from its former date');
+
+const missingHk = { id: 'hk-missing-result', date: '2025-12-14', scheduleSource: 'hkjc', scheduleURL: hk.url };
+const savedHk = JSON.stringify({ ...hk, raceDate: missingHk.date });
+cache.set('race.' + missingHk.id, savedHk);
+const originalPost = window.webkit.messageHandlers.calendar.postMessage;
+window.webkit.messageHandlers.calendar.postMessage = message => message.command === 'fetchDetail'
+  ? Promise.resolve('<p>No official result in this response</p>') : originalPost(message);
+assert.equal(await createDetails(false).load(missingHk, () => {}), 'unavailable');
+assert.equal(cache.get('race.' + missingHk.id), savedHk);
+assert.equal(missingHk.realResult.runners.length, hk.runners.length);
+window.webkit.messageHandlers.calendar.postMessage = originalPost;
+console.log('PASS official details, identity guards, cache retention and rescheduled-race isolation');

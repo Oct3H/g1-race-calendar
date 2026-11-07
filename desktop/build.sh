@@ -3,7 +3,7 @@ set -euo pipefail
 project="$(cd "$(dirname "$0")/.." && pwd)"
 build="$(mktemp -d)"
 trap 'rm -rf "$build"' EXIT
-app="$build/GⅠ 赛马日历 Dev v2.4.app"
+app="$build/GⅠ 赛马日历 Dev v2.7.app"
 mkdir -p "$app/Contents/"{MacOS,Resources} "$project/dist"
 cp "$project/desktop/Info.plist" "$app/Contents/"
 cp -R "$project/design" "$app/Contents/Resources/"

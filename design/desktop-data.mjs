@@ -55,12 +55,12 @@ export async function loadDesktopData() {
   let result = stored;
   if (!stored) {
     result = parseResult(snapshot.seed, identity, seedTimestamp);
-    await native('result', JSON.stringify(result));
+    if (!await native('result', { revision: snapshot.resultRevision, json: JSON.stringify(result) })) result = { cleared: true };
   }
   const race = {
     id: 'desktop-tenno-2026', name: '天皇賞（秋）', nameLang: 'ja', place: '東京競馬場',
     country: 'JP', region: 'jp', grade: 'g1', surface: 'turf', course: '芝 2,000m',
-    startAt: '2026-11-01T15:40:00+09:00', venueTimeZone: 'Asia/Tokyo', sampleFinished: true,
+    date: '2026-11-01', startAt: '2026-11-01T15:40:00+09:00', venueTimeZone: 'Asia/Tokyo', sampleFinished: true,
     realResult: result.cleared ? null : result
   };
   const fixture = {
@@ -74,15 +74,15 @@ export async function loadDesktopData() {
   };
   return {
     race, fixture, schedule, details: createDetails(snapshot.offline), offline: snapshot.offline, wallet: snapshot.wallet ? JSON.parse(snapshot.wallet) : null,
-    async refresh() {
+    collectionState: JSON.parse(snapshot.collection || '{}'), backgroundCollection: snapshot.backgroundCollection, launchId: snapshot.launchId,
+    async refresh(expectedRevision) {
+      const revision = await native('cacheRevision', 2026);
+      if (expectedRevision !== undefined && revision !== expectedRevision) return false;
       const html = await native('refresh');
       const result = parseResult(html, identity, new Date().toISOString());
-      await native('result', JSON.stringify(result));
+      if (!await native('result', { revision, json: JSON.stringify(result) })) return false;
       race.realResult = result;
-    },
-    async clear() {
-      await native('result', '{"cleared":true}');
-      race.realResult = null;
+      return true;
     }
   };
 }

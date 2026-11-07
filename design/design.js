@@ -1,6 +1,7 @@
 import { desktop, devText, native } from './desktop-bridge.mjs';
 import { loadDesktopData, updateTime } from './desktop-data.mjs';
-import { configureLocalCache, renderLiveSource, renderLiveTable, renderLiveHorse } from './desktop-view.mjs';
+import { createCollection } from './desktop-collection.mjs';
+import { configureCollectionStatus, configureLocalCache, renderLiveSource, renderLiveTable, renderLiveHorse } from './desktop-view.mjs';
 import { uiText, uiAttr, uiList, registerUiNames } from './ui-language.mjs?v=76';
 import { notificationRaces } from './notification-review.mjs?v=76';
 import { createDetailReviewRaces, initDetailReview, renderHistoryResolution } from './detail-review.mjs?v=76';
@@ -170,6 +171,7 @@ let horseScrollTop = 0;
 let gamePreview = null;
 let refreshCalendarPreview = null;
 let loadCalendarMonth = null;
+let collection;
 let refreshDesktopResult = null;
 
 function sampleOddsLabel(value) {
@@ -667,7 +669,7 @@ function renderRaceChange(race) {
 }
 
 function syncDesktopRaces() {
-  const saved = desktopData.schedule.races().filter(race => race.id !== 'jra-2026-tenno-autumn').map(race => desktopData.details.attach(race));
+  const saved = desktopData.schedule.races().filter(race => race.id !== 'jra-2026-tenno-autumn').map(race => desktopData.details.attach({ ...race }));
   races.splice(0, races.length, desktopData.race, desktopData.fixture, ...saved);
 }
 
@@ -1094,8 +1096,7 @@ function initDailyCalendar() {
       updateRace(race);
       return resultRequest ??= (async () => {
         try {
-          await desktopData.refresh();
-          race.refreshState = 'success';
+          race.refreshState = await desktopData.refresh() ? 'success' : 'unavailable';
         } catch (error) {
           race.refreshState = desktopData.offline || navigator.onLine === false ? 'offline' : 'failed';
           race.failureKind = /timeout|timed out/i.test(error.message) ? 'timeout' : /SSL|TLS|secure connection/i.test(error.message) ? 'tls' : 'source';
@@ -1107,7 +1108,17 @@ function initDailyCalendar() {
         return race.refreshState === 'success';
       })().finally(() => { resultRequest = null; });
     };
-    updateCache = configureLocalCache(desktopData, refreshDesktopResult);
+    collection = createCollection(desktopData, year => {
+      renderCollection();
+      updateCache();
+      if (year !== undefined) {
+        syncDesktopRaces();
+        if (year === calendarYear) { paint(); renderCalendar(); }
+      }
+    });
+    const renderCollection = configureCollectionStatus(desktopData, collection);
+    updateCache = configureLocalCache(desktopData, collection);
+    renderCollection();
     paint();
     return;
   }
@@ -1281,6 +1292,7 @@ for (const element of document.querySelectorAll('[data-ui-en]')) {
 renderCalendar();
 if (desktopData) {
   document.dispatchEvent(new Event('desktop-calendar-ready'));
+  if (desktopData.backgroundCollection) collection?.run();
   if (previewParams.get('page') !== 'cache') loadCalendarMonth(false);
 }
 

@@ -13,6 +13,8 @@ const hkNames = [
 const normalized = value => value.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
 const cells = row => [...row.cells].map(cell => cell.textContent.trim().replace(/\s+/g, ' '));
 const odds = value => /^\d+(?:\.\d+)?$/.test(value) && Number(value) > 0 ? value : undefined;
+// Publication dates on JAIRS and HKJC use the venue's local calendar.
+const venueDay = timeZone => new Intl.DateTimeFormat('sv-SE', { timeZone }).format(new Date());
 
 function page(html) {
   const template = document.createElement('template');
@@ -129,7 +131,7 @@ async function fetchJapanDetails(race, progress) {
   };
   const year = race.date.slice(0, 4);
   const direct = 'https://japanracing.jp/_news' + year + '/' + race.date.slice(2).replaceAll('-', '') + '.html';
-  const today = new Intl.DateTimeFormat('en-CA').format(new Date());
+  const today = venueDay('Asia/Tokyo');
   if (race.date <= today) {
     try { return parseJapanResult(await request('fetchDetail', direct, progress, 'japan-result'), race, direct); }
     catch (error) { remember(error); }
@@ -209,7 +211,7 @@ export function parseOverseasResult(payload, race) {
   const name = overseasName(race.sourceEnglish || race.name, race.country);
   const matches = (payload.data?.raceMeetingProfile || []).flatMap(meeting => (meeting.races || []).flatMap(item => {
     const days = (Date.parse(meeting.date) - Date.parse(race.date)) / 86400000;
-    const other = overseasName(item.raceName_en, race.country);
+    const other = overseasName(item.raceName_en || '', race.country);
     const hkName = race.country === 'HK' && hkNames.find(([pattern]) => pattern.test(race.name))?.[1];
     const matchesName = hkName
       ? ['ST', 'HV'].includes(meeting.venueCode) && normalized(item.raceName_ch || '').endsWith(normalized(hkName))
@@ -222,6 +224,7 @@ export function parseOverseasResult(payload, race) {
   if (matches.length !== 1) return null;
   const { item, meeting } = matches[0];
   const finished = Boolean(item.status === 'RESULT' && item.raceResults?.some(row => row.status === 'WCFULLMARGIN'));
+  if (!item.runners?.length || (!finished && item.status !== 'DECLARED')) return null;
   const isHongKong = race.country === 'HK' && ['ST', 'HV'].includes(meeting.venueCode);
   const runners = (item.runners || []).map(runner => ({
     number: Number(runner.no), rank: finished ? runner.finalPosition || runner.status : undefined,
@@ -335,10 +338,10 @@ export function parseNarResult(html, race, url, starters) {
 }
 
 async function fetchNarResult(race, progress) {
-  if (race.scheduleURL.includes('/racelist/')) {
+  if (race.scheduleURL.includes('/racelist/') || race.scheduleURL.startsWith('https://www.keiba.go.jp/pdf/uploads/')) {
     const year = Number(race.date.slice(0, 4));
     const directory = await request('fetchSchedule', { year, provider: 'nar' }, progress, 'nar-program');
-    if (directory.status !== 200) throw new Error('NAR annual directory unavailable');
+    if (directory.status !== 200) throw Object.assign(new Error('NAR annual directory unavailable'), { code: 'NO_DETAILS' });
     const matches = parseSchedule(directory.html, year, 'nar', directory.url).filter(item => item.date === race.date && normalized(item.name) === normalized(race.name));
     if (matches.length !== 1 || matches[0].scheduleURL.includes('/racelist/')) throw Object.assign(new Error('NAR race page not found in annual directory'), { code: 'NO_DETAILS' });
     race = { ...race, scheduleURL: matches[0].scheduleURL };
@@ -376,7 +379,7 @@ export async function fetchRaceResult(race, progress) {
   if (race.scheduleSource === 'nar') return fetchNarResult(race, progress);
   const expected = hkNames.find(([pattern]) => pattern.test(race.name))?.[1];
   if (race.country !== 'HK' || !expected) return fetchOverseasResult(race, progress);
-  if (race.date >= new Intl.DateTimeFormat('en-CA').format(new Date())) {
+  if (race.date >= venueDay('Asia/Hong_Kong')) {
     const payload = JSON.parse(await request('fetchOverseas', { date: race.date, venue: 'ST' }, progress, 'hkjc-entries'));
     const data = parseOverseasResult(payload, race);
     if (data) return data;
@@ -403,9 +406,12 @@ export async function fetchRaceResult(race, progress) {
   throw new Error('No matching HKJC results');
 }
 
-export async function loadHorseProfile(id, name, offline, onCached) {
-  const key = 'horse.' + id;
-  const saved = JSON.parse(await native('readDetail', key) || 'null');
+export async function loadHorseProfile(id, name, year, offline, onCached, expectedRevision) {
+  const key = `horse.${year}-${id}`;
+  const revision = await native('cacheRevision', year);
+  if (expectedRevision !== undefined && revision !== expectedRevision) throw new Error('Horse cache was cleared');
+  const scoped = await native('readDetail', key);
+  const saved = JSON.parse(scoped || (revision === 0 ? await native('readDetail', 'horse.' + id) : '') || 'null');
   if (saved) onCached?.(saved);
   if (saved && (offline || saved.schema === 3 && Date.now() - Date.parse(saved.fetchedAt) < 86400000)) return { ...saved, fromCache: true };
   if (offline) throw new Error('Offline');
@@ -433,7 +439,9 @@ export async function loadHorseProfile(id, name, offline, onCached) {
     const unique = new Map(starts.map(start => [start.date + ':' + normalized(start.course) + ':' + start.distance, start]));
     const data = { schema: 3, url, origin: facts.get('出生地'), sex: facts.get('毛色 / 性別'), sire: facts.get('父系'), dam: facts.get('母系'),
       damSire: facts.get('外祖父'), starts: [...unique.values()], fetchedAt: new Date().toISOString() };
-    await native('saveDetail', { key, json: JSON.stringify(data) });
+    if (await native('saveDetail', { key, revision, json: JSON.stringify(data) }) === false) {
+      throw new Error('Horse cache was cleared during retrieval');
+    }
     return data;
   } catch (error) {
     if (saved) return { ...saved, stale: true };
@@ -457,6 +465,7 @@ export async function loadRecentStarts(profile, runner, before, offline, onChang
         let data = JSON.parse(await native('readDetail', key) || 'null');
         if (!data?.name || data.raceDate !== start.date) {
           if (offline) throw new Error('Offline');
+          const revision = await native('cacheRevision', Number(start.date.slice(0, 4)));
           onNetwork?.();
           if (url) {
             url.pathname = '/zh-hk/local/information/archive/localresults';
@@ -465,7 +474,9 @@ export async function loadRecentStarts(profile, runner, before, offline, onChang
           }
           data = { ...await fetchRaceResult({id, date:start.date, name:start.name || start.course || start.date, country:start.overseas ? '' : 'HK', distance:start.distance,
             targetHorseName:runner.name, scheduleSource:start.overseas ? 'overseas-history' : 'hkjc', scheduleURL:url?.href}), raceDate:start.date };
-          await native('saveDetail', {key,json:JSON.stringify(data)});
+          if (await native('saveDetail', {key, revision, json:JSON.stringify(data)}) === false) {
+            throw new Error('Historical cache was cleared during retrieval');
+          }
           updated = true;
         }
         const horse = data.runners.find(horse => horse.horseId === runner.horseId || horse.name === runner.name);
@@ -483,11 +494,13 @@ export async function loadRecentStarts(profile, runner, before, offline, onChang
 export function createDetails(offline) {
   const records = new Map();
   const requests = new Map();
+  const invalidations = new Map();
+  const sameDate = (race, record) => !record?.raceDate || record.raceDate === race.date;
 
   function attach(race, data) {
     if (data) records.set(race.id, data);
     const result = records.get(race.id);
-    if (result) {
+    if (result && sameDate(race, result)) {
       race.realResult = result;
       race.sampleFinished = result.finished !== false;
       if (result.startAt) race.startAt = result.startAt;
@@ -501,25 +514,64 @@ export function createDetails(offline) {
     return race;
   }
 
-  function load(race, onChange) {
-    if (requests.has(race.id)) return requests.get(race.id);
-    const request = (async () => {
+  function load(race, onChange, { reuseFinished = false, revision: expectedRevision } = {}) {
+    const existing = requests.get(race.id);
+    if (existing) {
+      if (existing.date !== race.date) {
+        return existing.promise.then(() => load(race, onChange, { reuseFinished, revision: expectedRevision }));
+      }
+      existing.watchers.set(race, onChange);
+      if (!reuseFinished) existing.reuseFinished = false;
+      existing.publish();
+      return existing.promise;
+    }
+    const year = Number(race.date.slice(0, 4));
+    const invalidation = invalidations.get(year);
+    const watchers = new Map([[race, onChange]]);
+    const request = {
+      watchers, reuseFinished, date: race.date,
+      publish() {
+        for (const [target, notify] of watchers) {
+          if (target !== race) Object.assign(target, race);
+          notify();
+        }
+      }
+    };
+    request.promise = (async () => {
       const key = 'race.' + race.id;
       race.refreshState = 'checking';
       race.lookup = { startedAt: Date.now(), attempts: [], misses: [], hadData: Boolean(race.realResult) };
-      onChange();
+      request.publish();
       try {
-        const saved = JSON.parse(await native('readDetail', key) || 'null');
-        if (saved?.runners?.length) { attach(race, saved); race.lookup.hadData = true; onChange(); }
+        const revision = await native('cacheRevision', year);
+        if (expectedRevision !== undefined && revision !== expectedRevision) return;
+        const cached = JSON.parse(await native('readDetail', key) || 'null');
+        const saved = sameDate(race, cached) ? cached : null;
+        if (invalidations.get(year) !== invalidation) return;
+        if (saved?.runners?.length) { attach(race, saved); race.lookup.hadData = true; request.publish(); }
+        if (request.reuseFinished && saved?.runners?.length && saved.finished !== false) {
+          race.refreshState = 'success';
+          return;
+        }
         if (offline) { race.refreshState = 'offline'; return; }
         if (!detailSupported(race)) { race.refreshState = 'unsupported'; return; }
-        const result = { ...await fetchRaceResult(race, step => {
+        const details = await fetchRaceResult(race, step => {
           race.lookup.stage = step.stage;
           if (step.state === 'unmatched') race.lookup.misses.push(step);
           else if (step.state !== 'checking') race.lookup.attempts.push(step);
-          onChange();
-        }), raceDate: race.date };
-        await native('saveDetail', { key, json: JSON.stringify(result) });
+          request.publish();
+        });
+        if (!details?.runners?.length) {
+          race.refreshState = 'unavailable';
+          return;
+        }
+        const result = { ...details, raceDate: request.date };
+        if (sameDate(race, race.realResult) && race.realResult?.runners?.length && race.realResult.finished !== false && result.finished === false) {
+          race.refreshState = 'unavailable';
+          return;
+        }
+        if (await native('saveDetail', { key, revision, json: JSON.stringify(result) }) === false) return;
+        if (invalidations.get(year) !== invalidation) return;
         attach(race, result);
         race.refreshState = 'success';
       } catch (error) {
@@ -529,11 +581,29 @@ export function createDetails(offline) {
           : /SSL|TLS|secure connection|certificate/i.test(race.detailError) ? 'tls' : 'source';
       } finally {
         race.lookup.duration = Date.now() - race.lookup.startedAt;
-        onChange();
+        if (race.refreshState === 'checking') race.refreshState = 'unavailable';
+        request.publish();
       }
-    })().finally(() => requests.delete(race.id));
+    })().then(() => race.refreshState).finally(() => requests.delete(race.id));
     requests.set(race.id, request);
-    return request;
+    return request.promise;
   }
-  return { attach, load };
+  return {
+    attach, load,
+    async readCached(race) {
+      if (!records.has(race.id) || !sameDate(race, records.get(race.id))) {
+        const year = Number(race.date.slice(0, 4));
+        const invalidation = invalidations.get(year);
+        const saved = JSON.parse(await native('readDetail', 'race.' + race.id) || 'null');
+        if (saved?.runners?.length && sameDate(race, saved) && invalidations.get(year) === invalidation) attach(race, saved);
+      }
+      return attach(race);
+    },
+    forgetYear(year) {
+      invalidations.set(year, (invalidations.get(year) || 0) + 1);
+      for (const [id, record] of records) {
+        if (Number(record.raceDate?.slice(0, 4)) === year) records.delete(id);
+      }
+    }
+  };
 }

@@ -1,0 +1,20 @@
+{
+  "year": 2027,
+  "source": "https://www.keiba.go.jp/pdf/uploads/20261013_01_01.pdf",
+  "announcementDate": "2026-10-13",
+  "races": [
+    { "date": "2027-04-07", "name": "川崎記念", "grade": "jpn1", "track": "川崎", "distance": "2100m" },
+    { "date": "2027-04-29", "name": "羽田盃", "grade": "jpn1", "track": "大井", "distance": "1800m" },
+    { "date": "2027-05-04", "name": "かしわ記念", "grade": "jpn1", "track": "船橋", "distance": "1600m" },
+    { "date": "2027-06-09", "name": "東京ダービー", "grade": "jpn1", "track": "大井", "distance": "2000m" },
+    { "date": "2027-06-23", "name": "さきたま杯", "grade": "jpn1", "track": "浦和", "distance": "1400m" },
+    { "date": "2027-06-30", "name": "帝王賞", "grade": "jpn1", "track": "大井", "distance": "2000m" },
+    { "date": "2027-10-06", "name": "ジャパンダートクラシック", "grade": "jpn1", "track": "大井", "distance": "2000m" },
+    { "date": "2027-10-11", "name": "マイルチャンピオンシップ南部杯", "grade": "jpn1", "track": "盛岡", "distance": "1600m" },
+    { "date": "2027-11-03", "name": "JBCクラシック", "grade": "jpn1", "track": "大井", "distance": "2000m" },
+    { "date": "2027-11-03", "name": "JBCスプリント", "grade": "jpn1", "track": "大井", "distance": "1200m" },
+    { "date": "2027-11-03", "name": "JBCレディスクラシック", "grade": "jpn1", "track": "大井", "distance": "1800m" },
+    { "date": "2027-12-15", "name": "全日本２歳優駿", "grade": "jpn1", "track": "川崎", "distance": "1600m" },
+    { "date": "2027-12-29", "name": "東京大賞典", "grade": "g1", "track": "大井", "distance": "2000m" }
+  ]
+}

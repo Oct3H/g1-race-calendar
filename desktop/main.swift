@@ -17,6 +17,7 @@ final class Desktop: NSObject, NSApplicationDelegate, NSWindowDelegate, WKNaviga
     let offline: Bool
     let smoke: String?
     let server: LocalPages
+    private let launchId = UUID().uuidString
     private var window: NSWindow?
     private var webView: WKWebView?
     var tested = Set<String>()
@@ -44,7 +45,7 @@ final class Desktop: NSObject, NSApplicationDelegate, NSWindowDelegate, WKNaviga
         NSApp.mainMenu = menu
         showWindow()
         if smoke != nil {
-            DispatchQueue.main.asyncAfter(deadline: .now() + (smoke == "audit-history" ? 600 : smoke == "history-future" ? 240 : 120)) { self.fail("Timed out") }
+            DispatchQueue.main.asyncAfter(deadline: .now() + (smoke == "audit-history" ? 600 : ["history-future", "collection"].contains(smoke) ? 240 : 120)) { self.fail("Timed out") }
         }
     }
 
@@ -72,7 +73,7 @@ final class Desktop: NSObject, NSApplicationDelegate, NSWindowDelegate, WKNaviga
         let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 1120, height: 780),
                               styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
                               backing: .buffered, defer: false)
-        window.title = "GⅠ Race Calendar · Dev v2.4"
+        window.title = "GⅠ Race Calendar · Dev v2.7"
         window.appearance = NSAppearance(named: .aqua)
         window.titlebarAppearsTransparent = true
         window.backgroundColor = NSColor(srgbRed: 233 / 255, green: 222 / 255, blue: 244 / 255, alpha: 1)
@@ -149,20 +150,39 @@ final class Desktop: NSObject, NSApplicationDelegate, NSWindowDelegate, WKNaviga
                     try store.write("testDate", testDate!)
                 }
                 reply(["wallet": try store.read("wallet") ?? "", "result": try store.read("result") ?? "",
-                       "verified": verified, "seed": seed, "testDate": testDate ?? "", "offline": offline], nil)
+                       "verified": verified, "seed": seed, "testDate": testDate ?? "", "offline": offline,
+                       "resultRevision": try store.cacheRevision(2026), "collection": try store.read("collection") ?? "",
+                       "launchId": launchId,
+                       "backgroundCollection": smoke == nil || smoke == "collection"], nil)
             case "language":
                 guard let value = body["value"] as? String, ["zh", "ja", "en"].contains(value) else {
                     reply(nil, "Invalid language"); return
                 }
                 try store.write(command, value)
                 reply(true, nil)
-            case "wallet", "result":
+            case "wallet", "collection":
                 guard let value = body["value"] as? String, value.utf8.count <= 2_000_000,
                       (try? JSONSerialization.jsonObject(with: Data(value.utf8))) is [String: Any] else {
                     reply(nil, "Invalid data"); return
                 }
                 try store.write(command, value)
                 reply(true, nil)
+            case "result":
+                guard let data = body["value"] as? [String: Any], let revision = data["revision"] as? Int,
+                      let json = data["json"] as? String, json.utf8.count <= 256_000,
+                      (try? JSONSerialization.jsonObject(with: Data(json.utf8))) is [String: Any] else {
+                    reply(nil, "Invalid result"); return
+                }
+                guard revision == (try store.cacheRevision(2026)) else { reply(false, nil); return }
+                try store.write("result", json)
+                reply(true, nil)
+            case "cacheYears":
+                reply(try store.cacheYears(), nil)
+            case "cacheRevision", "clearCacheYear":
+                guard let year = body["value"] as? Int, (1900...9999).contains(year) else {
+                    reply(nil, "Invalid cache year"); return
+                }
+                reply(try command == "cacheRevision" ? store.cacheRevision(year) : store.clearCacheYear(year), nil)
             case "openSource":
                 let url = (body["value"] as? String).flatMap(URL.init(string:)) ?? sourceURL
                 guard url.scheme == "https", url.user == nil, url.password == nil, url.port == nil,
@@ -203,15 +223,22 @@ final class Desktop: NSObject, NSApplicationDelegate, NSWindowDelegate, WKNaviga
                     reply(try store.read("detail." + key) ?? "", nil)
                 } else {
                     guard let json = data?["json"] as? String, json.utf8.count <= 256_000,
-                          (try? JSONSerialization.jsonObject(with: Data(json.utf8))) is [String: Any] else {
+                          let record = (try? JSONSerialization.jsonObject(with: Data(json.utf8))) as? [String: Any] else {
                         reply(nil, "Invalid detail data"); return
                     }
+                    let year = key.hasPrefix("race.") ? (record["raceDate"] as? String).flatMap { Int($0.prefix(4)) }
+                        : Int(key.dropFirst("horse.".count).prefix(4))
+                    guard let year, (1900...9999).contains(year), let revision = data?["revision"] as? Int else {
+                        reply(nil, "Missing detail cache revision"); return
+                    }
+                    guard revision == (try store.cacheRevision(year)) else { reply(false, nil); return }
                     try store.write("detail." + key, json)
                     reply(true, nil)
                 }
             case "readSchedule", "saveSchedule", "fetchSchedule":
                 guard let value = body["value"] as? [String: Any], let year = value["year"] as? Int,
                       let provider = value["provider"] as? String,
+                      provider != "jra-fixtures" || command == "fetchSchedule",
                       let url = scheduleURL(year: year, provider: provider) else {
                     reply(nil, "Unsupported annual directory"); return
                 }
@@ -291,6 +318,8 @@ final class Desktop: NSObject, NSApplicationDelegate, NSWindowDelegate, WKNaviga
         switch provider {
         case "jra" where year >= 2005:
             return URL(string: "https://japanracing.jp/en/racing/schedule/graded/list/\(year).html")
+        case "jra-fixtures" where year >= currentYear:
+            return URL(string: "https://japanracing.jp/en/racing/schedule/jra/\(year).html")
         case "nar" where year >= 2023:
             return URL(string: "https://www.keiba.go.jp/dirtgraderace/\(year)/racelist/index.html")
         case "ifha" where year >= 2010:
@@ -339,6 +368,12 @@ final class Desktop: NSObject, NSApplicationDelegate, NSWindowDelegate, WKNaviga
                     reply(acceptNotFound ? ["html": html, "url": url.absoluteString, "status": status] : html, nil)
                 } else if acceptNotFound, http?.url == url, [404, 410].contains(status) {
                     reply(["status": status], nil)
+                } else if url.host == "japanracing.jp", http?.url == url, status == 302,
+                          let location = http?.value(forHTTPHeaderField: "Location"),
+                          let next = URL(string: location, relativeTo: url)?.absoluteURL,
+                          next.host == url.host, next.path == "/not-found.html" {
+                    if acceptNotFound { reply(["status": 404], nil) }
+                    else { reply(nil, "HTTP 404") }
                 } else {
                     reply(nil, error?.localizedDescription ?? "HTTP \(status)")
                 }

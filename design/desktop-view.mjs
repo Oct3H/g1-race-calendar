@@ -1,4 +1,4 @@
-import { devText } from './desktop-bridge.mjs';
+import { devText, native } from './desktop-bridge.mjs';
 import { makeSourceLink, updateTime } from './desktop-data.mjs';
 import { loadHorseProfile, loadRecentStarts } from './desktop-details.mjs';
 import { showDetailMascot, clearDetailMascot } from './detail-mascot.mjs';
@@ -289,7 +289,7 @@ export function renderLiveHorse(race, runner, offline, finishTier, openRace) {
   if (runner.horseId) {
     status.textContent = devText('正在读取马匹档案…', 'Retrieving horse profile…', '競走馬情報を取得中…');
     const current = () => get('horse-panel').dataset.liveHorse === identity && get('race-dialog').dataset.panel === 'horse';
-    loadHorseProfile(runner.horseId, runner.name, offline, saved => {
+    loadHorseProfile(runner.horseId, runner.name, Number((race.date || race.startAt).slice(0, 4)), offline, saved => {
       if (!current()) return;
       paint(saved);
       showDetailMascot(mascot, identity, 'idle', devText('本地资料已就绪', 'Saved data ready', '保存済みデータを表示'));
@@ -313,44 +313,156 @@ export function renderLiveHorse(race, runner, offline, finishTier, openRace) {
   dialog.scrollTop = 0;
 }
 
-export function configureLocalCache(data, refresh) {
+export function configureCollectionStatus(data, collection) {
+  const toggle = get('first-collection-toggle');
+  const pause = get('first-collection-pause');
+  const check = get('first-collection-check');
+  const panel = get('first-collection-panel');
+  const cacheCheck = get('cache-check-updates');
+  const offline = () => data.offline || navigator.onLine === false;
+  const active = () => ['dates', 'race', 'horse'].includes(collection.progress.phase);
+  const reportError = error => {
+    console.error(error);
+    get('first-collection-title').textContent = devText('进度保存失败', 'Could not save progress', '進捗を保存できません');
+  };
+  const checkUpdates = () => collection.check().catch(reportError);
+  cacheCheck.addEventListener('click', checkUpdates);
+  check.addEventListener('click', checkUpdates);
+  toggle.addEventListener('click', () => {
+    const details = get('first-collection-progress');
+    details.hidden = !details.hidden;
+    toggle.setAttribute('aria-expanded', String(!details.hidden));
+  });
+  pause.addEventListener('click', () => collection.setPaused(!collection.state.paused).catch(reportError));
+  toggle.textContent = devText('收集进度 ⌄', 'Collection progress ⌄', '収集状況 ⌄');
+  check.textContent = devText('检查更新', 'Check for updates', '更新を確認');
+  return () => {
+    const { state, progress, dateYears, detailYears } = collection;
+    const { dates, directoriesMissing, races, horses, unavailable, failed } = collection.totals();
+    const running = active() && !state.paused && !offline();
+    const partial = directoriesMissing + unavailable + failed > 0;
+    panel.hidden = !data.backgroundCollection;
+    panel.dataset.tone = state.paused || offline() ? 'muted' : partial || progress.phase === 'error' ? 'amber' : 'green';
+    get('first-collection-title').textContent = state.paused
+      ? devText('资料收集已暂停', 'Collection paused', '収集を一時停止中')
+      : offline() ? devText('离线 · 已保存的资料可浏览', 'Offline · Saved data is available', 'オフライン · 保存済み資料を表示')
+      : progress.phase === 'error' ? devText('本次收集未完成', 'Collection interrupted', '収集が中断されました')
+      : running ? devText('正在后台收集资料', 'Collecting data in the background', 'バックグラウンドで収集中')
+      : partial ? devText('本轮检查结束 · 部分资料待补', 'Check finished · Some data is missing', '確認終了 · 一部未取得')
+      : dates ? devText('本轮检查结束', 'Check finished', '確認終了')
+      : devText('等待检查', 'Waiting to check', '確認待ち');
+    get('first-collection-symbol').textContent = running ? '↻' : state.paused ? 'Ⅱ' : partial ? '!' : '◇';
+    get('first-collection-copy').textContent = running
+      ? [progress.year, progress.name].filter(Boolean).join(' · ')
+      : devText('已保存的赛程和详情可随时浏览', 'Browse saved schedules and details at any time', '保存済みの日程と詳細はいつでも表示できます');
+    const range = years => Math.min(...years) + '–' + Math.max(...years);
+    get('first-step-dates-title').textContent = devText('赛程 ', 'Schedules ', '日程 ') + range(dateYears);
+    get('first-step-dates-copy').textContent = devText(`已检查 ${dates} 年 · ${directoriesMissing} 个目录未更新`, `${dates} years checked · ${directoriesMissing} directories not updated`, `${dates}年確認済み · ${directoriesMissing}件未更新`);
+    get('first-step-history-title').textContent = devText('赛事详情 ', 'Race details ', 'レース詳細 ') + range(detailYears);
+    get('first-step-history-copy').textContent = devText(`已处理 ${races} 场 · ${unavailable} 项未取得 · ${failed} 项失败`, `${races} races processed · ${unavailable} unavailable · ${failed} failed`, `${races}レース処理 · ${unavailable}件未取得 · ${failed}件失敗`);
+    get('first-step-current-title').textContent = devText('本年马匹资料', 'Current-year horse profiles', '今年の競走馬情報');
+    get('first-step-current-copy').textContent = devText(`已处理 ${horses} 份可识别档案`, `${horses} identified profiles processed`, `識別可能な${horses}件の情報を処理`);
+    get('first-collection-note').textContent = devText('已清理的年份可单场补查，也可在设置中按年重下。', 'Open a race to restore it, or redownload the year from Settings.', '削除した詳細はレースごとに取得するか、設定から年単位で再取得できます。');
+    pause.hidden = !running && !state.paused;
+    pause.textContent = state.paused ? devText('继续收集', 'Resume', '再開') : devText('暂停', 'Pause', '一時停止');
+    check.hidden = running || state.paused || offline();
+    cacheCheck.disabled = active() || state.paused || offline();
+  };
+}
+
+export function configureLocalCache(data, collection) {
   const host = get('cache-view');
+  if (new URLSearchParams(window.location.search).get('page') !== 'cache') return () => {};
   const panel = document.createElement('section');
   panel.className = 'desktop-cache-panel cache-years';
   const heading = document.createElement('h2');
-  heading.textContent = devText('2026 年 · 赛事详情', '2026 · Race details', '2026年 · レース詳細');
+  heading.textContent = devText('按年管理', 'Manage by year', '年別管理');
   const status = document.createElement('p');
   status.setAttribute('role', 'status');
-  const clear = document.createElement('button');
-  clear.type = 'button';
-  clear.className = 'cache-year-clear';
-  clear.textContent = devText('清理 2026 年详情', 'Clear 2026 details', '2026年の詳細を削除');
-  const restore = document.createElement('button');
-  restore.type = 'button';
-  restore.className = 'cache-year-restore';
-  restore.textContent = devText('重新下载 2026 年详情', 'Redownload 2026 details', '2026年の詳細を再取得');
-  panel.append(heading, status, clear, restore);
+  const pause = document.createElement('button');
+  pause.type = 'button';
+  pause.className = 'calendar-soft-button';
+  const list = document.createElement('ul');
+  list.className = 'cache-year-list';
+  panel.append(heading, status, pause, list);
   host.querySelector('.cache-page-heading').after(panel);
-  const render = () => {
-    status.textContent = data.race.realResult
-      ? '天皇賞（秋） · ' + updateTime(data.race.realResult.fetchedAt)
-      : devText('已保留日期气泡。赛事详情可重新下载。', 'Calendar dates are kept. Race details can be downloaded again.', '日付は保持されます。詳細は再取得できます。');
-    clear.disabled = !data.race.realResult;
+  const offline = () => data.offline || navigator.onLine === false;
+  let rows = new Map();
+  let busy = false;
+  let failure = '';
+
+  function paint() {
+    const { state, progress } = collection;
+    pause.textContent = state.paused ? devText('继续收集', 'Resume collection', '収集を再開') : devText('暂停收集', 'Pause collection', '収集を一時停止');
+    pause.disabled = busy || offline();
+    status.textContent = failure || (state.paused
+      ? devText('已暂停 · 进度已保存', 'Paused · Progress saved', '一時停止 · 進捗を保存済み')
+      : offline() ? devText('离线 · 可管理本地资料', 'Offline · Local data can be managed', 'オフライン · 保存済み資料を管理できます')
+      : progress.year ? [progress.year, progress.name || devText('正在检查赛程', 'Checking schedules', '日程を確認中')].join(' · ')
+      : devText('清理后仍可浏览赛程。按年重下只处理所选年份的详情。', 'Calendar dates remain after clearing. Redownload targets only the selected year.', '削除後も日程を表示できます。年別再取得は選択年の詳細のみを対象にします。'));
+    for (const [year, row] of rows) {
+      const requested = state.years[year]?.requested;
+      row.clear.disabled = busy || (!row.races && !row.horses && !requested);
+      row.restore.disabled = busy || offline() || requested || !data.schedule.state(year).providersExpected.length;
+      row.restore.textContent = requested ? devText('已排队／收集中', 'Queued / collecting', '待機中／収集中') : devText('按年重下', 'Redownload year', '年別再取得');
+    }
+  }
+  async function reload() {
+    const saved = new Map((await native('cacheYears')).map(row => [row.year, row]));
+    const years = [...new Set([...saved.keys(), ...collection.dateYears, ...Object.keys(collection.state.years).map(Number)])].sort((a, b) => b - a);
+    rows = new Map(years.map(year => {
+      const { races = 0, horses = 0, revision = 0 } = saved.get(year) || {};
+      const item = document.createElement('li');
+      item.className = 'cache-year-row';
+      item.dataset.cacheYear = String(year);
+      const number = document.createElement('strong');
+      number.textContent = String(year);
+      const content = document.createElement('span');
+      const cleared = revision && collection.state.years[year]?.revision !== revision;
+      content.textContent = devText(`${races} 场赛事详情 · ${horses} 份马匹档案`, `${races} race records · ${horses} horse profiles`, `レース詳細 ${races}件 · 競走馬情報 ${horses}件`)
+        + (cleared ? devText(' · 暂停整年自动补查', ' · Automatic year collection suspended', ' · 年別の自動取得を停止中') : '');
+      const actions = document.createElement('div');
+      actions.className = 'cache-year-actions';
+      const clear = document.createElement('button');
+      clear.type = 'button';
+      clear.className = 'cache-year-clear';
+      clear.textContent = devText('清理详情', 'Clear details', '詳細を削除');
+      const restore = document.createElement('button');
+      restore.type = 'button';
+      restore.className = 'cache-year-restore';
+      clear.addEventListener('click', () => {
+        if (window.confirm(devText(`清理 ${year} 年赛事详情？日期气泡和马券会保留。`, `Clear ${year} details? Calendar dates and tickets will be kept.`, `${year}年の詳細を削除しますか？ 日付と馬券は保持されます。`))) {
+          action(() => collection.clear(year));
+        }
+      });
+      restore.addEventListener('click', () => action(() => collection.redownload(year)));
+      actions.append(clear, restore);
+      item.append(number, content, actions);
+      return [year, { item, clear, restore, races, horses }];
+    }));
+    list.replaceChildren(...[...rows.values()].map(row => row.item));
+    paint();
+  }
+  const reportError = error => {
+    console.error(error);
+    failure = devText('本次操作失败，请重试。', 'The operation failed. Try again.', '操作に失敗しました。再試行してください。');
+    paint();
   };
   const action = async callback => {
-    restore.disabled = clear.disabled = true;
-    try { await callback(); render(); }
-    catch { render(); status.textContent += devText(' · 本次操作失败', ' · The operation failed', ' · 操作に失敗しました'); }
-    finally { restore.disabled = false; }
+    busy = true;
+    failure = '';
+    paint();
+    try { await callback(); await reload(); }
+    catch (error) { reportError(error); }
+    finally { busy = false; paint(); }
   };
-  clear.addEventListener('click', () => {
-    if (window.confirm(devText('清理 2026 年赛事详情？日期气泡和马券会保留。', 'Clear 2026 race details? Calendar dates and tickets will be kept.', '2026年の詳細を削除しますか？ 日付と馬券は保持されます。'))) {
-      action(data.clear);
-    }
-  });
-  restore.addEventListener('click', () => action(async () => {
-    if (!(await refresh())) throw new Error('Refresh failed');
-  }));
-  render();
-  return render;
+  pause.addEventListener('click', () => action(() => collection.setPaused(!collection.state.paused)));
+  reload().catch(reportError);
+  let previousPhase = collection.progress.phase;
+  return () => {
+    const phase = collection.progress.phase;
+    paint();
+    if (!busy && phase === 'idle' && previousPhase !== 'idle') reload().catch(reportError);
+    previousPhase = phase;
+  };
 }

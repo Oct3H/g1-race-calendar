@@ -1,6 +1,6 @@
 # G1 Race Calendar
 
-**TEST VERSION — v0.2.4 / Dev v2.4. This project is under active development and is not a stable release.**
+**TEST VERSION — v0.2.7 / Dev v2.7. This project is under active development and is not a stable release.**
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
@@ -12,7 +12,7 @@ A local-first horse racing calendar for macOS, with a desktop monthly calendar, 
 - Japanese flat GⅠ and JpnⅠ races, plus overseas races selected from the corresponding year's Longines/IFHA top 100 list where available.
 - Race declarations and results from connected official sources, with Win odds, prize information, and source links when obtainable.
 - Horse basics, pedigree, and the five starts **before the selected race**, subject to source coverage.
-- Local SQLite storage: show saved data first, refresh on demand, and retain data when an update fails.
+- Local SQLite storage with resumable background collection and year-by-year detail management. Clearing a year preserves calendar dates and tickets.
 - English, Japanese, and Chinese UI. Race and horse names follow their source naming rules.
 - Virtual funds, a daily virtual bank allowance, tickets, refunds, and result notifications. The mini-game uses local virtual currency.
 - Finish-based history cards and a 2D character indicator for loading, completion, and cached data.
@@ -20,6 +20,12 @@ A local-first horse racing calendar for macOS, with a desktop monthly calendar, 
 ![Horse history cards in the current development UI](research/2026-11-06-horse-ui/history-cards.jpg)
 
 *Development preview using a saved official race sample.*
+
+## What's new in v0.2.7
+
+- The app checks the current year and the next two years at startup. Background collection can resume from saved progress, and race details can be cleared or downloaded again by year.
+- Added a fallback for the official JRA annual calendar and a snapshot of the published 2027 NAR schedule. The November 7 native check loaded 44 races for 2027, including 24 JRA, 13 NAR, and 7 overseas races within the current IFHA selection.
+- Rescheduled races no longer display declarations or results from the old date. An empty source response preserves valid cached details for the same date.
 
 ## Test-version status
 
@@ -42,7 +48,7 @@ Requirements:
 git clone https://github.com/Oct3H/g1-race-calendar.git
 cd g1-race-calendar
 bash desktop/build.sh
-open "dist/GⅠ 赛马日历 Dev v2.4.app"
+open "dist/GⅠ 赛马日历 Dev v2.7.app"
 ```
 
 The app bundles its UI and starts its own loopback server; the separate preview server is not needed to run the native app. The build uses macOS system frameworks: AppKit, WebKit, Foundation, and SQLite. Build artifacts are excluded from Git.
@@ -76,7 +82,7 @@ do
 done
 ```
 
-The last recorded suite has 23 passing checks. Native development checks are implemented in [`desktop/Smoke.swift`](desktop/Smoke.swift) and use isolated profiles through `--data-dir`; they must not be pointed at a real wallet for testing.
+The last recorded suite has 24 passing checks. Native development checks are implemented in [`desktop/Smoke.swift`](desktop/Smoke.swift) and use isolated profiles through `--data-dir`; they must not be pointed at a real wallet for testing.
 
 ## Project structure
 
